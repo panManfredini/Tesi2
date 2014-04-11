@@ -1,0 +1,28 @@
+\BOOKMARK [0][-]{chapter.1}{Neutral MSSM Higgs Search...}{}
+\BOOKMARK [1][-]{section.1.1}{The Search Strategy}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.1.1}{Motivation}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.2}{What is a search?}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.3}{Signal Topology}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.4}{How to deal with Backgrounds}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.5}{Missing Mass Calculator}{section.1.1}
+\BOOKMARK [1][-]{section.1.2}{Background Modeling}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.2.1}{MC samples}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.2}{Embedding}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.3}{ABCD Method for QCD}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.4}{Top validation}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.5}{Systematics}{section.1.2}
+\BOOKMARK [1][-]{section.1.3}{Results}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.3.1}{Statistics}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.2}{Exclusion Limits}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.3}{Summary}{section.1.3}
+\BOOKMARK [1][-]{section..1}{Object Reconstruction, Preselection and Efficiency Corrections}{chapter.1}
+\BOOKMARK [2][-]{subsection..1.1}{Electrons}{section..1}
+\BOOKMARK [2][-]{subsection..1.2}{Muons}{section..1}
+\BOOKMARK [2][-]{subsection..1.3}{Jets}{section..1}
+\BOOKMARK [2][-]{subsection..1.4}{b-Tagging}{section..1}
+\BOOKMARK [2][-]{subsection..1.5}{Taus}{section..1}
+\BOOKMARK [2][-]{subsection..1.6}{Overlap Removal}{section..1}
+\BOOKMARK [2][-]{subsection..1.7}{Missing Transverse Energy}{section..1}
+\BOOKMARK [2][-]{subsection..1.8}{Vertices}{section..1}
+\BOOKMARK [2][-]{subsection..1.9}{Event Cleaning}{section..1}
+\BOOKMARK [2][-]{subsection..1.10}{Monte Carlo Corrections}{section..1}

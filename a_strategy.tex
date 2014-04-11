@@ -1,5 +1,14 @@
-\chapter{The Search for neutral MSSM Higgs Bosons in the final state:
+\chapter[Neutral MSSM Higgs Search...]{The Search for neutral MSSM Higgs Bosons in the final state:
 $\tau^{+}\tau^{-} \rightarrow e \mu + 4\nu$}
+
+
+\begin{table}[htp]
+\begin{tabular}{ l c r }
+  1 & 2 & 3 \\
+  4 & 5 & 6 \\
+  7 & 8 & 9 \\
+\end{tabular}
+\end{table}
 
 Discovering the mechanism responsible for electroweak
 symmetry-breaking and the origin of mass for elementary particles has been
@@ -33,6 +42,7 @@ $A$. Moreover, Higgs couplings to down (up) type fermions are enhanced
 bottom-quark and $\tau$ lepton will play a more important role than in
 the SM case either for production and decay.
 
+%\clearpage
 The production of the neutral $CP$-even MSSM Higgs bosons at hadron
 colliders proceeds via the same processes as for the SM Higgs
 production. However, the pseudoscalar $A$ instead cannot be produced
@@ -107,6 +117,10 @@ that arise when real data enters the game and ideas to estimate backround are ne
 as well as systematics, in section~\ref{}  focus is set on results with a small introduction to
 statistical methods.
 
+
+In this section we make use of analysis tools described in chapter~\ref{c:detector}, as well
+we refer to objetc definition made in this chapter (like electron reconstruction, jet difinition, muons, ecc.).
+
 %\section{Inside Neutral MSSM Higgs}
 %\section{What is a Search?}
 %\section{Search First Principle}
@@ -114,18 +128,92 @@ statistical methods.
 %\section{The Search in a Nutshel}
 \section{The Search Strategy}
 
-
 \subsection{Motivation}
+Under the light of the recent discovery of a Higgs boson with mass of 125 GeV, is very reasonable
+to ask ourselfs if all the piece of the Higgs sector have been discovered, if there is nothing missing
+to complete the puzzle. Indeed such a new particle can be accomodated within several beyond the 
+standard model scenario, this is particularly true in the MSSM. 
+Talk about mhmod....
+Figure~\ref{} shows 
 
 \subsection{What is a search?} 
 Some statistical definitions Hypotesys 0, bla bla...
+Bump search
 
 \subsection{Signal Topology}
 Way to inhance signal that gives you sensitivity increase (b-tag, b-veto)
 Higgs BR and production
-\subsection{Selections}
 
-\subsection{MMC}
+\subsection{How to deal with Backgrounds}
+%\subsection{Selections}
+%This may go in previos subsection %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%The signal topology described above translates in terms of an "experimental" point of view in requiring				%
+%Trigger, exactly one electron, exactly one muon, of opposite charge and isolated. With isolation				%
+%it's meant that in a cone around the lepton there should be little energy deposit (should not be sorraunded by 			%
+%other particle - common of non-promt leptons coming from jets). More detail about isolation properties and			%
+%variable are detailed in section ~\ref{sec:bkg}. Full detail on actual preselections regarding all the quality requirements	%
+%on object reconstruction are reported in appendix~\ref{ap:presel}.								%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The signal topology described in the previous section is unfortunately 
+common to many other processes, which have higher cross section than the signal we are looking for,
+%magari qui si puo' dire che ci sono diversi metodi per aumentare S/B 
+a set of additional selection has been studied to enhance the sensitivity of the search, or in other words,
+to increase the signal yield to background yield ratio. The most important backgrounds to this search are the production of
+ $\Ztautau $ + jets, the top quark ($t\bar{t}$ and single top production is intended), diboson production 
+(like $WW$ or $ZZ$ events) and events with non-prompt leptons coming from QCD multi-jet (in short QCD multi-jet).
+Vector bosons production like  $\Wlnu$ or $\Zll$ + jets (with l here meanung either $e$ or $\mu$) are also considered,
+however those processes have a limited impact.
+
+The final state of Higgs decaying into tau pair coincide with the one from  $\Ztautau$  process, which is the an irreducible 
+background, all the other backgrounds do present different kinematics and %Exploiting the kinematics of the Higgs deacaying
+that can be used todistinguish between signal and them.
+The most stiking is that the higgs (like $\Ztautau$) selecting an electron and one muon
+coming from the tau decay, due to the high mass the taus will be back to back and their decay products will be highly boosted,
+this gives rise to two feature: the mu-e will be more likely back to back, as you can see in figure bla that shows the angle between the
+leptons in the transverse plane 
+$\Delta\phi = |\phi_{e} - \phi_{\mu}| $\footnote{This is actually more complicated: one has to take care of the sign of $\phi$ see chapter\ref{c:detector}},
+furthermore the neutrinos will be more likely collinear with the leptons (given the high boost the taus recive from Higgs decay).
+This last feature can be matematically seen as the sum of scalar product between missing energy and the leptons four-vectors in the
+transverse plane, if one normilise the scalar the vectors to unit versors then what remains is a relation only between angles:
+$$ \hat{E}_{T}^{miss} \cdot ( \hat{P}_{T}^{\mu} + \hat{P}_{T}^{e} ) = cos(\Delta\phi_{E_{T},\mu}) + cos(\Delta\phi_{E_{T},e})  $$
+In the assuption of collinearity and of leptons back-to-back that scalar product  is equal to zero, because it would be equal 
+to zero for the sigle neutrino being it collinear with one lepton and back-to-back with the other.
+As can be seen from figure~\ref{bla} in fact the distribution of that variable 
+has more likely values at zero. These two feature can be used to distinguish between mu-e coming from decay from highly 
+boosted object, and the one coming from W decay in top or in dibosons which will have a more spread distribution.
+In b-veto category these two selections are sufficient to suppress contribution from dibosons and QCD multi-jet,
+no other selection is applied in this category because it has been shown to not bring any significant improvement.
+
+In the b-veto category the situation is different, 
+the  request of b-jet enhance backgrounds with high jet activity as top production, given the relatively low
+jet activity of our Higgs events (also in the case of b-associated production) it's possible to separate them from
+top production which instead is very likely to have 2 or more highly enegetic jets in the event, requesting a small jet activity, 
+this is achieved by requesting the sum of the jets transverse momentum to be small, we call this variable $\Ht$.
+Another feature that distinguish top pair production from Higgs is the much higher invariant mass of the former final state,
+in the transverse plane all the leptons will tend to have a higher momentum, we then use the sum of lepton \pt and \met as
+a discriminating variable, requesting it to be small. Figure~\ref{} shows the distribution of these two variables 
+after the request of a b-jet.
+
+Plots with MMC mass as a function of selection that shows how effective they are in reducing backgrounds.
+
+In table~\ref{} a summary of all the selection variable used with their optimized cut values is reported.
+While in table~\ref{} the number of events that survises at each cut stage for different background is reported.
+
+
+\subsection{Missing Mass Calculator}
+Accurate invariant mass reconstruction of a di-tau system is a challenging task due to the escaping neutrinos.
+In this analysis, with four neutrinos in the final state, the number of unknown largely exceed the number of constraints,
+several approximation are possible to further constraint the neutrinos, for example assuming them collinear to the 
+other leptons from tau decay, however those approximation suffers of limitations. 
+
+In this analysis we use the so called missing mass calculator (MMC)~\cite{MMC}
+technique for the calculation of the di-tau system invariant mass. This technique employs additional 
+information from the well known tau decay to constraint the system, this is achieved by minimising a likelihood function 
+defined in the kinematically allowed phase space region, the result is a more precise measurement of the di-tau 
+system invariant mass and a considerable improvement in resolution. The invariant mass distribution 
+calculated with the MMC technique is referred in the following as $\mmc$ and is used as discriminating 
+variable in the limits setting.
 
 
 

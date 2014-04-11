@@ -1,0 +1,347 @@
+\section{Object Reconstruction, Preselection and Efficiency Corrections}
+\label{sec:presel}
+
+In this section the preselection and reconstruction criteria for the
+objects used in this analysis are presented.  For each object and
+selection criteria all corrections that have been applied to data and
+MC are also described.  A summary of the preselection on physics
+objects used in this analysis is reported in Table~\ref{tab:presel}.
+
+
+\subsection{Electrons}
+\label{sec:presel:elec}
+
+This analysis uses electrons found by the standard electron
+identification algorithms ~\cite{AtlasCSCBook} that pass the {\tt Medium++}
+criteria. A preselection is applied to the electrons to ensure that
+the electron cluster has a transverse energy of $E_{T} > 15 GeV$, is
+within the pseudorapidity range $|\eta|<2.47$, but is outside of the region
+$1.37<|\eta|<1.52$. The first requirement ensures that the selected
+electrons are within a range of $E_{T}$ where the electron reconstruction
+and trigger efficiencies are well understood. The further requirements
+ensure that the electron is reconstructed within the acceptance of
+the ATLAS tracking, but outside of the transition region between the
+barrel and end-cap calorimeters. 
+In addition, the author is required to be either one or three, to ensure that the electron was 
+reconstructed with either the standard electron algorithm or both the
+standard and soft electron algorithms, respectively.
+Finally, to ensure that the electron is not reconstructed within a region of the
+calorimeter with readout problems, dead or non-nominal high voltage
+conditions or suffering from high noise, the electron is rejected if
+the cluster $\eta$ and $\phi$ position match a flagged region in the
+Object Quality maps (OQ maps)~\cite{WZcross} provided by the egamma
+Performance group.
+
+For the electrons used in this analysis, the four-vector of the
+particle is defined using the energy of the electron calorimeter
+cluster and the direction of the electron track. Selections that
+involve the electron position in the calorimeter, in this analysis the
+$\eta$ and the OQ map selections, are made using a four-vector built
+entirely from the electron cluster properties. Both the energy scale
+and resolution of the electrons used in this analysis are corrected,
+following the recommendations of the EGamma performance group, by
+using the {\tt egammaAnalysiUtils}
+package\cite{EGammaRecomendations}. Energy scale corrections are
+applied to electrons in data, whereas an additional smearing is
+applied to the electron energy in MC.
+
+In addition to the preselection defined above, isolation criteria are
+defined to select electrons with little or no activity around
+them. The calorimetric isolation, \etcone, is calculated as the sum of
+the transverse energy of the additional topological clusters in the
+electromagnetic and hadronic calorimeters in a cone of $\Delta R <
+0.2$ around an electron\footnote{The $\Delta R$ variable is defined by
+$\Delta R=\sqrt{(\Delta\eta)^2+(\Delta\phi)^2}$, where $\Delta \eta$
+and $\Delta \phi$ correspond to the difference between
+the pseudorapidities and azimuthal angles of the objects considered, respectively.}
+. The summed transverse energy is corrected, as a function of the
+number of primary vertices in the event, to reduce the dependence on
+pileup. In addition, the track isolation, \ptcone, is defined as the
+scalar sum of the $\pt$ of all additional tracks with $\pt>1$ GeV in a
+cone of radius $\Delta R<0.4$ around an electron. In this analysis, an
+electron with $\etcone/\pt<0.08$ and $\ptcone/\pt<0.06$ is considered isolated.
+
+
+\subsection{Muons}
+\label{sec:presel:muon}
+
+Muons reconstructed by the STACO algorithm \cite{AtlasCSCBook} are
+used in this analysis - those passing the STACO Loose quality criteria
+are considered at the preselection stage, whereas the more stringent
+STACO Combined quality criteria are required for the final muon
+selection. Muons with a transverse momentum $\pt > 10$ GeV and
+within the pseudorapidity range $|\eta| < 2.5$ are selected. The
+difference between the $z$ position of the muon track extrapolated to
+the beam line and the primary vertex $z$ position must be less than 10
+mm. 
+
+Further quality criteria are placed on the Inner Detector track of
+the muon candidate to ensure that it is well reconstructed and to
+reduce the fake rate due to decays of hadrons in flight. These
+requirements ensure that multiple hits are found on the track in the
+various layers of the ID, but take into account that dead or
+uninstrumented regions may be crossed by the muon. Firstly, if the
+muon passes through a section of the b layer of the Pixel detector
+that is instrumented and not suffering from detector problems, there
+should be one or more b layer hits on the track. The sum of the number
+of hits on the track in the Pixel detector and the number of crossed
+dead Pixel detector layers should be at least one. The sum of the
+number of hits within the SCT detector and the number of dead SCT
+modules crossed should be five or greater. The total number of crossed
+dead Pixel detector and SCT detector layers should be less than three.
+When within the angular region $|\eta|<1.9$, the sum of the TRT hits
+and outliers on the track must be greater than five and the ratio of
+TRT outlier hits to the total number of TRT hits must be less than
+0.9. When the muon track is in the region $|\eta|\ge1.9$, the ratio of
+TRT outlier hits to the total number of TRT hits must be less than 0.9
+only if the sum of the TRT hits and outliers on the track is be
+greater than five.
+
+The momentum scale and resolution of the muons in this analysis are
+corrected in MC following the recommendations of the Muon Combined
+Performance group. The momentum corrections were measured by comparing
+the di-muon mass peak position and resolution between data and MC at
+the Z resonance. Smearings are applied in a coherent manner to
+the ID, MS extrapolated and combined momenta of the transverse
+momentum of the muon. In addition, a scale correction is applied to
+the combined momentum momentum.
+
+As for the electrons used in this analysis, both calorimeteric and
+track based isolation are used to require little or no activity around them,
+in addition to the preselection above. The muon \etcone and \ptcone
+variables are defined as for the electron case and are calculated
+in cones of $\Delta R<0.2$ and $\Delta R<0.4$ around the muon, respectively. 
+Once more \etcone is corrected as a function of the number of primary vertices in the
+event, to reduce the dependence on pileup. In this analysis, a muon with
+$\etcone/\pt<0.04$ and $\ptcone/\pt<0.06$ is considered isolated.
+
+
+\subsection{Jets}
+\label{sec:presel:jet}
+
+The jets used in this analysis are reconstructed using the Anti-$k_T$
+algorithm \cite{AntiKT} with the distance parameter R=0.4 taking
+topological clusters as inputs. The reconstructed jets are calibrated
+to the Local Cluster Weighting (LCW) scale \cite{jetenergyscale}. In
+addition, the effect of pileup on the reconstructed energy is reduced
+by applying a further correction based on the pile-up area method with
+a final in-situ calibration also applied.
+
+A preselection is then applied that requires the reconstructed jets
+have a transverse momentum, after calibration, of $\pt > 30$ GeV and
+to be within the pseudorapidity range $|\eta| < 4.5$. The effect of pileup on
+the reconstructed jets is further reduced by requiring that jets with
+the pseudorapidity range $|\eta|<2.4$ and a transverse momentum of $\pt <
+50$ GeV have a absolute value of the Jet Vertex Fraction (JVF) of greater than 0.5.
+
+A separate set of preselected jets is defined that are used only for
+b-tagging (henceforth known as ``taggable jets''). Such jets are
+reconstructed and calibrated as for the standard preselected
+jets. However, the taggable jets are required to have a transverse
+momentum of $\pt > 20$ GeV and to have a reconstructed pseudorapidity
+of $|\eta| < 2.5$. The second requirement ensures that charged
+particles within the jets pass through the tracking volume and hence
+can be used for b-tagging of the jet. Finally, the same JVF selection
+as the standard preselected jets is applied to the taggable jets.
+
+\subsection{b-Tagging}
+\label{sec:presel:btag}
+
+The tagging of jets due to the hadronisation of b-quarks is performed
+using the MV1 b-tagging algorithm \cite{mv1}. This neural network based
+algorithm uses the output weights of the JetFitter+IP3D, IP3D and
+SV1 b-taggers as inputs. The working point that gives a nominal
+b-tagging efficiency of 70\% on \ttbar samples is used.
+
+\subsection{Taus}
+\label{sec:presel:tau}
+
+Hadronically decaying tau candidates are reconstructed using clusters
+in both the electromagnetic and hadronic calorimeters. A preselection
+is applied to the candidates that requires the reconstructed $\tau$
+candidates to have a transverse momentum of $\pt>20$ GeV and to have
+a reconstructed pseudorapidity of $|\eta| < 2.5$. Furthermore, it is
+required that the candidates have either one or three tracks within a
+cone of $\Delta R < 0.2$ associated to them and have a charge of $\pm
+1$. Finally, the preselected tau candidates should pass the BDT-Medium
+multivariant tau identification selection as well as the dedicated
+electron and muon vetoes for hadronically decaying tau candidates.
+
+
+\subsection{Overlap Removal}
+\label{sec:presel:olr}
+
+After the preselection of the physics objects needed for this
+analysis, an overlap removal between the different objects is then
+applied to avoid double-counting.  The distance between two objects in
+rapidity $\Delta\eta$ and polar angle $\Delta\phi$ is defined as
+$\Delta R=\sqrt{(\Delta\eta)^2+(\Delta\phi)^2}$. Overlap removal is
+then applied in the following order:
+
+\begin{itemize}
+\item preselected electrons are removed if they overlap with a preselected muon  within $\Delta R < 0.2$,
+\item preselected taus are removed if they overlap with a preselected muon or electron within $\Delta R < 0.2$,
+\item preselected jets are removed  if they overlap with a preselected
+  muon, electron or tau within \linebreak $\Delta R<0.2$.
+\end{itemize}
+
+\subsection{Missing Transverse Energy}
+\label{sec:presel:met}
+
+The missing transverse energy, \MET, is calculated using the
+RefFinal method, which takes the energy
+deposited in the calorimeter, the muons reconstructed in the muon
+spectrometer and tracks reconstructed in the inner detector as inputs. 
+For this, the energy deposits are calibrated based
+upon the high-\pt physics object they are associated to, with an order
+of preference of electrons, photons, hadronically decaying taus, jets
+and finally muons. Any unassociated energy deposits are combined into
+the so-called ``soft-term''. To reduce the effect of pileup on the
+\met calculation, corrections are applied to both the jets in an event
+and to the soft-term. Firstly, any jet with a pseudorapidity of $|\eta|<2.4$
+that enters the \met calculation is weighted by it's JVF. Similarly,
+the soft-term is weighted by the soft-term-vertex-fraction (STVF) of
+the event - the ratio given by
+\begin{equation}
+STVF = \frac{\sum_{track, PV}\pt}{\sum_{track}\pt}
+\end{equation}
+where $\sum_{track, PV}\pt$ is the sum of the transverse momentum of
+all tracks associated to the primary vertex, but unmatched to physics
+objects, and $\sum_{track}\pt$ is the sum of
+the transverse momentum of all tracks in the event unmatched to
+physics objects. Any calibration applied
+to the energy or direction of the physics objects in the final
+analysis is also propagated to the \met.
+
+
+\subsection{Vertices} 
+\label{sec:presel:vertices}
+In this analysis vertices are selected that have a minimum of three
+associated tracks: this helps to ensure that the selected vertices
+come from beam-beam interactions rather than, for instance, cosmic
+muons.
+
+\subsection{Event Cleaning}
+\label{sec:presel:celaning}
+
+In addition to the data quality requirements described in section
+\ref{sec:samples:dq}, further selections are applied to veto events
+where bad jets are identified as arising from detector effects
+(coherent noise in the EM and Tile calorimeters or spikes in the HEC
+calorimeter), cosmics or beam based background. To reject events, the
+recommendations of the JetEtMiss performance group \cite{jetMETreco}
+are followed: Events are rejected if at least one AntiKt4LCTopo jet
+with $p_{T}>20$ GeV, that passes the overlap removal with electrons,
+muons and taus described in section \ref{sec:presel:olr}, fails the {\tt
+BadLooseMinus} selection or points towards the hot Tile Calorimeter
+cells identified in data taking periods B1 and B2 \cite{hottile}.
+
+
+\begin{table}
+  \begin{center}
+    \begin{tabular}{cc}
+      \hline \hline
+      Physics Object & Preselection \\
+
+      \hline
+      Electrons & $\pt >15 $ GeV \\
+      & $|\eta|<1.37$ or $1.52<|\eta|<2.47$ \\
+      & {\tt Medium++} \\
+      & Author = 1 or 3 \\
+      & Pass Object Quality Flag \\
+      \hline
+      Muons & $\pt>10 $ GeV  \\	
+      & $|\eta|<2.5$ \\
+      & isLoose STACO muon \\
+      & Inner Detector track quality requirements \\
+      & Inner Detector track $|z_0^{PV}|<10\mathrm{mm}$ \\
+      \hline
+      Jets & $\pt>30$ GeV  \\
+      & $|\eta|<4.5$ \\
+      & $|JVF|>0.5$ for jets with $|\eta|<2.4$ and $\pt<50$ GeV \\
+      \hline
+      Jets (taggable) & $\pt>20$ GeV \\
+      & $|\eta|<2.5$ \\
+      & $|JVF|>0.5$ for jets with $|\eta|<2.4$ and $\pt<50$ GeV \\
+      \hline
+      Taus & $\pt>20$ GeV \\	
+      & $|\eta| < 2.5$ \\
+      & BDT Medium \\
+      & $N_{tracks} = 1 \mathrm{or} 3$ \\
+      & Author = 1 or 3 \\
+      & Muon and Electron Veto \\
+      \hline
+      \MET & RefFinal with STVF correction\\	
+      \hline
+      Vertices & $N_{tracks} \ge 3$ \\	
+      \hline \hline
+    \end{tabular}
+    \caption{Summary of the preselections used for physics objects in this analysis}
+    \label{tab:presel}
+  \end{center}
+\end{table}
+
+
+\subsection{Monte Carlo Corrections}
+\label{sec:presel:MCCorr}
+
+The MC samples used on this analysis are corrected to account for differences
+between the simulation and data in the trigger, lepton reconstruction and
+identification and b-tagging efficiencies. Furthermore, the MC is
+reweighted so that the vertex multiplicity distribution agrees with
+that in the data.
+
+\subsubsection{Trigger Efficiency corrections}
+\label{sec:presel:TriggerCorr}
+
+Correction factors are applied to the simulated trigger efficiency for
+both the single electron, \linebreak \verb=EF_e24vhi_medium1=, and combined
+electron-muon, \verb=EF_e12Tvh_medium1_mu8=, triggers used in this
+analysis. The trigger efficiency for the \verb=EF_e24vhi_medium1= has
+been measured with respect to offline electrons using a tag and probe
+method in \Zee events \cite{SingleElecTrigSF}. Scale factors are derived from the ratio of the
+trigger efficiency measured in data and MC, measured as a
+function of electron \pt and $\eta$.
+
+For the \verb=EF_e12Tvh_medium1_mu8= trigger, correction factors are
+measured separately for the two individual legs of the trigger,
+\verb=EF_e12Tvh_medium1= and \verb=EF_mu8= \cite{SingleEMuTrigSF}. The product of the two
+correction factors is then used as the overall scaling factor. The
+trigger efficiency for the \verb=EF_e12Tvh_medium1= leg has been
+measured with respect to offline electrons using a tag and probe
+method for \Zee events in both data and MC. Likewise, the
+\verb=EF_mu8= trigger efficiency scale factors are derived using a tag
+and probe measurement with \Zmumu events. Oncemore, scale factors are derived
+from the ratio of the trigger efficiency measured in data and MC, measured as a
+function of electron \pt and $\eta$.
+
+\subsubsection{Lepton Reconstruction Efficiency Corrections}
+\label{sec:presel:LepEffCorr}
+
+Further correction factors are applied to the MC samples to account
+for differences in the lepton reconstruction and identification
+efficiencies between data and simulation. Scale factors for the electron
+identification and reconstruction efficiencies are measured separately
+using a combination $\Zee$ and $J / \psi \rightarrow e e$ tag and probe
+measurements \cite{ElecSF}. Both sets of scale factors are measured as a function of the electron $E_{T}$ and $\eta$. 
+
+Similarly, muon reconstruction efficiency scale factors
+have been measured, using a \Zmumu tag and probe analysis, 
+as a function of the muon \pt, $\eta$, $\phi$ and charge \cite{MuonSF}.
+
+\subsubsection{b-tagging Efficiency Corrections}
+\label{sec:presel:BTagEffCorr}
+
+Corrections are applied to the b-tagging efficiency and mistag rate in
+MC, using a combination of the System8 and likelihood scale
+factor measurements \cite{BTagSF}. Separate scale factors are applied based on the origin of the jet at truth level - from a $b$ quark, a $c$ quark, a $\tau$ or a light quark - and are applied as a function of the jet \pt and $\eta$.
+
+\subsubsection{Pileup Reweighting}
+\label{sec:presel:PileupCorr}
+
+Differences between the distribution of the average number of
+interactions per bunch crossing, $<\mu>$, in MC and data are
+corrected by reweighting the MC $<\mu>$ distribution to that in the
+full considered dataset. An additional scaling of $1.1 \times <\mu>$
+is applied to the MC, which has been shown to improve the description
+of the number of primary vertices distribution of the data.

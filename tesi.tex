@@ -1,5 +1,5 @@
 
-\documentclass[11pt,a4paper]{book}
+\documentclass[12pt,a4paper]{book}
 \usepackage{subfigure}
 \usepackage{mathrsfs}
 \usepackage{lineno}
@@ -11,7 +11,7 @@
 \usepackage{xspace}
 \usepackage{rotating}
 \usepackage{hyperref}
-
+\usepackage[margin=1.2in]{geometry}
 \hypersetup{pdfborder = 0 0 0}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -54,6 +54,7 @@
 \def\nSSothermVis{\ensuremath{n_{\mathrm{SS}}^{\mathrm{other}}(m_{\mathrm{vis}})}}
 \def\ttbar{\ensuremath{t\bar{t}}\xspace}
 \def\PT{\ensuremath{p_{t}}\xspace}
+\def\pt{\ensuremath{p_{t}}\xspace}
 \def\Zee{\ensuremath{Z\rightarrow ee}\xspace}
 \def\Zmumu{\ensuremath{Z\rightarrow \mu\mu}\xspace}
 \def\Ztautau{\ensuremath{Z\rightarrow \tau\tau}\xspace}
@@ -65,6 +66,7 @@
 \def\ToTauTauLepHad{\ensuremath{\rightarrow\tau\tau\to l\tau_{had}}\xspace}
 \def\ToTauTauLepLep{\ensuremath{\rightarrow\tau\tau\to \tau_{l}\tau_{l}}\xspace}
 \def\MET{\ensuremath{E_{T}^{miss}}\xspace}
+\def\met{\ensuremath{E_{T}^{miss}}\xspace}
 \def\Ht{\ensuremath{H_{T}}\xspace}
 \def\etcone{\ensuremath{E_{T}(\mathrm{cone})} }
 \def\ptcone{\ensuremath{p_{T}(\mathrm{cone})} }
@@ -73,11 +75,56 @@
 \def\ifb{\ensuremath{fb^{-1}} }
 
 \begin{document}
+%\tableofcontents
 
-\tableofcontents
 %\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%									     %%		
+%%			TRAMA DELLO PSYCHO-TRILLER			     %%
+%%									     %%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Elementi importanti:                                                     
+%%	Statistica ; Descrizione degli oggetti come ele, mu ecc..	     
+%%	Data MC sample ; Embedding  ; MMC ;  Corrections	
+%%
+%%  Struttura Analisi part:
+%%	*) motivazioni ; 											| Sezione riguardante quello che ti proponi di fare
+%%	*) Strategia: Quale e' la nostra Hypotesis 0, vogliamo fare un test di ipotesi (prima parte Stat).. 	|
+%%	   punti chiave che differenziano MSSM higgs da SM e la strategia per sfruttarne i vantaggi (b-tag veto)|
+%%	   Selezioni spiegando bene le motivazioni di ciascuna	(full preselections in appendice)		|
+%%         MMC													|
+%%
+%%	*) Background Modeling: Impatto con la realta' delle cose (data driven bkg estimation del quale non ci sarebbe bisogno se tutto fosse perfetto)   | come lo
+%%	   quindi si presenta un Problema e ne si da' la soluzione (bkg estimation)									  | Fai
+%%	   Data MC sample, Embedding 															  |
+%%	*) determinazione sys, che pero' possono essere splittate in due ---> una in tesi l'altra in appendix (che non ce ne frega una sega dei dettagli) |
+%%	
+%%	*) Risultati:  parte aggiuntiva su stat. e limiti.
+%%
+%%	
+%%
+%%  Struttura resto:	
+%%	*) Theory   
+%%	*) Atlas detector + descrizione degli oggetti + performance + corrections
+%%	*) Trackjets
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
 
-\input{a_intro}
+\input{a_strategy}
+\input{a_bkg_modeling}
+\input{a_result}
 
 %\input{atlas}
 %\input{samples}
@@ -109,11 +156,11 @@
 % Technical Aspects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\newpage
-%\appendix
+\newpage
+\appendix
 %\part*{Appendices}
 %\addcontentsline{toc}{part}{Appendices}
-%\input{appendix_qcd}
+\input{appendix_presel.tex}
 %%\input{appendix_signal}
 %\input{appendix_limit}
 %\input{appendix_additional}
