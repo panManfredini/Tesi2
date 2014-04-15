@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  11 APR 2014 16:01
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  15 APR 2014 14:45
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -50,35 +50,93 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip47
 \subfig@bottom=\skip48
 )
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen105
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks15
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks16
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks17
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
 (/usr/share/texmf-texlive/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
 )
 (/usr/share/texmf-texlive/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count92
-\output=\toks14
-\linenoprevgraf=\count93
-\linenumbersep=\dimen105
-\linenumberwidth=\dimen106
-\c@linenumber=\count94
-\c@pagewiselinenumber=\count95
-\c@LN@truepage=\count96
-\c@internallinenumber=\count97
-\c@internallinenumbers=\count98
-\quotelinenumbersep=\dimen107
-\bframerule=\dimen108
-\bframesep=\dimen109
-\bframebox=\box26
+\linenopenalty=\count104
+\output=\toks19
+\linenoprevgraf=\count105
+\linenumbersep=\dimen114
+\linenumberwidth=\dimen115
+\c@linenumber=\count106
+\c@pagewiselinenumber=\count107
+\c@LN@truepage=\count108
+\c@internallinenumber=\count109
+\c@internallinenumbers=\count110
+\quotelinenumbersep=\dimen116
+\bframerule=\dimen117
+\bframesep=\dimen118
+\bframebox=\box28
 LaTeX Info: Redefining \\ on input line 3056.
 )
 (/usr/share/texmf-texlive/tex/latex/preprint/authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip49
-\@affilsep=\skip50
-\c@Maxaffil=\count99
-\c@authors=\count100
-\c@affil=\count101
+\affilsep=\skip52
+\@affilsep=\skip53
+\c@Maxaffil=\count111
+\c@authors=\count112
+\c@affil=\count113
 )
 (/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
@@ -88,7 +146,7 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks20
 )
 (/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -103,35 +161,35 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count102
+\Gread@gobject=\count114
 ))
-\Gin@req@height=\dimen110
-\Gin@req@width=\dimen111
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
 )
 (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count103
-\rotFPtop=\skip51
-\rotFPbot=\skip52
-\rot@float@box=\box27
-\rot@mess@toks=\toks16
+\c@r@tfl@t=\count115
+\rotFPtop=\skip54
+\rotFPbot=\skip55
+\rot@float@box=\box29
+\rot@mess@toks=\toks21
 )
 (/usr/share/texmf-texlive/tex/latex/rotfloat/rotfloat.sty
 Package: rotfloat 2004/01/04 v1.2 Combining float+rotating package (AS)
 
 (/usr/share/texmf-texlive/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count104
-\float@exts=\toks17
-\float@box=\box28
-\@float@everytoks=\toks18
-\@floatcapt=\box29
+\c@float@type=\count116
+\float@exts=\toks22
+\float@box=\box30
+\@float@everytoks=\toks23
+\@floatcapt=\box31
 )
 Package rotfloat Info: float package v1.3 detected on input line 74.
 )
 (/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen112
+\bigstrutjot=\dimen121
 )
 (/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
 Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
@@ -157,9 +215,9 @@ O)
 (/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
 Package: xcolor-patch 2009/10/02 xcolor patch
 ))
-\@linkdim=\dimen113
-\Hy@linkcounter=\count105
-\Hy@pagecounter=\count106
+\@linkdim=\dimen122
+\Hy@linkcounter=\count117
+\Hy@pagecounter=\count118
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
@@ -194,7 +252,7 @@ Package hyperref Info: Backreferencing OFF on input line 2995.
 Implicit mode ON; LaTeX internals redefined
 Package hyperref Info: Bookmarks ON on input line 3191.
 (/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
-\Urlmuskip=\muskip10
+\Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 3428.
@@ -224,10 +282,10 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )))
-\Fld@menulength=\count107
-\Field@Width=\dimen114
-\Fld@charsize=\dimen115
-\Field@toks=\toks19
+\Fld@menulength=\count119
+\Field@Width=\dimen123
+\Fld@charsize=\dimen124
+\Field@toks=\toks24
 Package hyperref Info: Hyper figures OFF on input line 4377.
 Package hyperref Info: Link nesting OFF on input line 4382.
 Package hyperref Info: Hyper index ON on input line 4385.
@@ -239,74 +297,74 @@ Package hyperref Info: PDF/A mode OFF on input line 4407.
 (/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count108
-\c@Item=\count109
-\c@Hfootnote=\count110
+\Hy@abspage=\count120
+\c@Item=\count121
+\c@Hfootnote=\count122
 )
 *hyperref using default driver hpdftex*
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count111
+\Fld@listcount=\count123
 )
 (/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
 Package: geometry 2008/12/21 v4.2 Page Geometry
-\Gm@cnth=\count112
-\Gm@cntv=\count113
-\c@Gm@tempcnt=\count114
-\Gm@bindingoffset=\dimen116
-\Gm@wd@mp=\dimen117
-\Gm@odd@mp=\dimen118
-\Gm@even@mp=\dimen119
-\Gm@dimlist=\toks20
+\Gm@cnth=\count124
+\Gm@cntv=\count125
+\c@Gm@tempcnt=\count126
+\Gm@bindingoffset=\dimen125
+\Gm@wd@mp=\dimen126
+\Gm@odd@mp=\dimen127
+\Gm@even@mp=\dimen128
+\Gm@dimlist=\toks25
 
 (/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg)) (./tesi.aux)
 \openout1 = `tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
-\scratchdimen=\dimen120
-\scratchbox=\box30
-\nofMPsegments=\count116
-\nofMParguments=\count117
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count118
-\MPscratchDim=\dimen121
-\MPnumerator=\count119
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count127
+\scratchdimen=\dimen129
+\scratchbox=\box32
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen130
+\MPnumerator=\count131
+\everyMPtoPDFconversion=\toks27
 )
-Package hyperref Info: Link coloring OFF on input line 77.
+Package hyperref Info: Link coloring OFF on input line 78.
  (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count120
+\c@section@level=\count132
 )
-LaTeX Info: Redefining \ref on input line 77.
-LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
  (./tesi.out)
 (./tesi.out)
 \@outlinefile=\write3
 \openout3 = `tesi.out'.
 
-\AtBeginShipoutBox=\box31
+\AtBeginShipoutBox=\box33
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -351,94 +409,121 @@ driver: pdftex
 -----------------------
 (./a_strategy.tex
 Chapter 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 2.
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
 (/usr/share/texmf-texlive/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
- [1
+) [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `sec:ATLAS' on page 2 undefined on input line 102.
+LaTeX Warning: Reference `sec:ATLAS' on page 2 undefined on input line 93.
 
 
-LaTeX Warning: Reference `sec:data_mc' on page 2 undefined on input line 102.
+LaTeX Warning: Reference `sec:data_mc' on page 2 undefined on input line 93.
 
 
-LaTeX Warning: Reference `sec:eventsel' on page 2 undefined on input line 107.
+LaTeX Warning: Reference `sec:eventsel' on page 2 undefined on input line 98.
 
 
 LaTeX Warning: Reference `sec:BackgroundEstimation' on page 2 undefined on inpu
-t line 108.
+t line 99.
 
 
-LaTeX Warning: Reference `sec:Systematics' on page 2 undefined on input line 11
-0.
+LaTeX Warning: Reference `sec:Systematics' on page 2 undefined on input line 10
+1.
 
 
-LaTeX Warning: Reference `sec:Results' on page 2 undefined on input line 111.
+LaTeX Warning: Reference `sec:Results' on page 2 undefined on input line 102.
 
 
-LaTeX Warning: Reference `sec:Conclusions' on page 2 undefined on input line 11
-2.
+LaTeX Warning: Reference `sec:Conclusions' on page 2 undefined on input line 10
+3.
 
 
-LaTeX Warning: Reference `' on page 2 undefined on input line 115.
+LaTeX Warning: Reference `' on page 2 undefined on input line 106.
 
 
-LaTeX Warning: Reference `' on page 2 undefined on input line 117.
+LaTeX Warning: Reference `' on page 2 undefined on input line 108.
 
 
-LaTeX Warning: Reference `c:detector' on page 2 undefined on input line 121.
+LaTeX Warning: Reference `c:detector' on page 2 undefined on input line 112.
 
 
-LaTeX Warning: Reference `' on page 2 undefined on input line 137.
+LaTeX Warning: Reference `' on page 2 undefined on input line 128.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 175.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 175.
 
-
-LaTeX Warning: Reference `c:detector' on page 3 undefined on input line 175.
-
-
-LaTeX Warning: Reference `bla' on page 3 undefined on input line 182.
+LaTeX Warning: Citation `Cramer_LHC' on page 3 undefined on input line 132.
 
 [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 173.
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 195.
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 173.
 
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 200.
+LaTeX Warning: Reference `bla' on page 4 undefined on input line 173.
 
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 201.
+LaTeX Warning: Reference `bla' on page 4 undefined on input line 174.
 
-) (./a_bkg_modeling.tex
+
+LaTeX Warning: Reference `bla' on page 4 undefined on input line 176.
+
+
+LaTeX Warning: Reference `bla' on page 4 undefined on input line 177.
+
+[4]
+
+LaTeX Warning: Reference `c:detector' on page 5 undefined on input line 252.
+
+[5]
+
+LaTeX Warning: Reference `' on page 6 undefined on input line 273.
+
+
+LaTeX Warning: Reference `' on page 6 undefined on input line 278.
+
+
+LaTeX Warning: Reference `' on page 6 undefined on input line 279.
+
+<figure/std_plots_presel.pdf, id=194, page=1, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 1>
+<figure/std_plots_presel.pdf, id=195, page=2, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 2>
+<figure/std_plots_presel.pdf, id=196, page=3, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 3>
+<figure/std_plots_presel.pdf, id=197, page=4, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 4>
+<figure/std_plots_presel.pdf, id=198, page=5, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 5>) (./a_bkg_modeling.tex
 Underfull \vbox (badness 7540) has occurred while \output is active []
 
- [4])
-(./a_result.tex) (./tesi.bbl [5] [6
+ [6]
+[7 <./figure/std_plots_presel.pdf, page is rotated 90 degrees> <./figure/std_pl
+ots_presel.pdf, page is rotated 90 degrees> <./figure/std_plots_presel.pdf, pag
+e is rotated 90 degrees> <./figure/std_plots_presel.pdf, page is rotated 90 deg
+rees> <./figure/std_plots_presel.pdf, page is rotated 90 degrees>])
+(./a_result.tex) (./tesi.bbl [8] [9
 
-] [7] [8]
+] [10]
 Underfull \hbox (badness 2197) in paragraph at lines 201--204
 \OT1/cmr/m/it/12 fras-truc-ture\OT1/cmr/m/n/12 , ATLAS-SOFT-2010-01-004, sub-mi
 t-ted to Eur. Phys. J. C.,
@@ -447,7 +532,7 @@ t-ted to Eur. Phys. J. C.,
 Missing character: There is no â in font cmti12!
 Missing character: There is no ˆ in font cmti12!
 Missing character: There is no ’ in font cmti12!
-[9]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 241--243
 []\OT1/cmr/m/n/12 ATLAS egamma WG, \OT1/cmr/m/it/12 Elec-tron ef-fi-ciency mea-
 sure-ments\OT1/cmr/m/n/12 ,
@@ -459,60 +544,27 @@ Overfull \hbox (20.44154pt too wide) in paragraph at lines 277--280
 /Main/JetEnergyResolutionProvider. 
  []
 
-[10]
+[12]
 Overfull \hbox (128.65894pt too wide) in paragraph at lines 364--365
 []\OT1/cmr/m/n/12 Statistical twiki, Nuis-sanceCheck. []https://twiki.cern.ch/t
 wiki/bin/view/AtlasProtected/NuisanceCheck[] 
  []
 
-) [11] (./appendix_presel.tex
+) [13] (./appendix_presel.tex
 
-LaTeX Warning: Citation `WZcross' on page 12 undefined on input line 32.
+LaTeX Warning: Citation `WZcross' on page 14 undefined on input line 32.
 
 
-LaTeX Warning: Citation `EGammaRecomendations' on page 12 undefined on input li
+LaTeX Warning: Citation `EGammaRecomendations' on page 14 undefined on input li
 ne 44.
 
-[12]
+[14]
 
-LaTeX Warning: Citation `jetenergyscale' on page 13 undefined on input line 125
+LaTeX Warning: Citation `jetenergyscale' on page 15 undefined on input line 125
 .
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (69.8735pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 .1.  OBJECT RECONSTRUCTION, PRESELECTION AND EFFICIENCY CORREC
-TIONS \OT1/cmr/m/n/12 13
- []
-
-[13]
-
-LaTeX Warning: Citation `mv1' on page 14 undefined on input line 151.
-
-[14]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 182.
-
- (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 182.
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--186
-\OT1/cmr/m/n/12 or tau within
- []
-
-
-LaTeX Warning: Reference `sec:samples:dq' on page 15 undefined on input line 22
-8.
-
-
-LaTeX Warning: Citation `jetMETreco' on page 15 undefined on input line 232.
-
-
-LaTeX Warning: Citation `hottile' on page 15 undefined on input line 237.
 
 
 Overfull \hbox (69.8735pt too wide) has occurred while \output is active
@@ -522,7 +574,32 @@ TIONS \OT1/cmr/m/n/12 15
 
 [15]
 
-LaTeX Warning: Citation `SingleElecTrigSF' on page 16 undefined on input line 3
+LaTeX Warning: Citation `mv1' on page 16 undefined on input line 151.
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+\OT1/cmr/m/n/12 or tau within
+ []
+
+
+LaTeX Warning: Reference `sec:samples:dq' on page 17 undefined on input line 22
+8.
+
+
+LaTeX Warning: Citation `jetMETreco' on page 17 undefined on input line 232.
+
+
+LaTeX Warning: Citation `hottile' on page 17 undefined on input line 237.
+
+
+Overfull \hbox (69.8735pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 .1.  OBJECT RECONSTRUCTION, PRESELECTION AND EFFICIENCY CORREC
+TIONS \OT1/cmr/m/n/12 17
+ []
+
+[17]
+
+LaTeX Warning: Citation `SingleElecTrigSF' on page 18 undefined on input line 3
 02.
 
 
@@ -533,39 +610,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--305
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+ [18]
 
-LaTeX Warning: Citation `SingleEMuTrigSF' on page 17 undefined on input line 30
+LaTeX Warning: Citation `SingleEMuTrigSF' on page 19 undefined on input line 30
 8.
 
 
-LaTeX Warning: Citation `ElecSF' on page 17 undefined on input line 326.
+LaTeX Warning: Citation `ElecSF' on page 19 undefined on input line 326.
 
 
-LaTeX Warning: Citation `MuonSF' on page 17 undefined on input line 330.
+LaTeX Warning: Citation `MuonSF' on page 19 undefined on input line 330.
 
 
-LaTeX Warning: Citation `BTagSF' on page 17 undefined on input line 337.
+LaTeX Warning: Citation `BTagSF' on page 19 undefined on input line 337.
 
 )
 Overfull \hbox (69.8735pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 .1.  OBJECT RECONSTRUCTION, PRESELECTION AND EFFICIENCY CORREC
-TIONS \OT1/cmr/m/n/12 17
+TIONS \OT1/cmr/m/n/12 19
  []
 
-[17] (./tesi.aux)
+[19] (./tesi.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5535 strings out of 493848
- 80188 string characters out of 1152823
- 154044 words of memory out of 3000000
- 8581 multiletter control sequences out of 15000+50000
- 13304 words of font info for 50 fonts, out of 3000000 for 9000
+ 6136 strings out of 493848
+ 87276 string characters out of 1152823
+ 165465 words of memory out of 3000000
+ 9159 multiletter control sequences out of 15000+50000
+ 15104 words of font info for 58 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,10n,38p,288b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,10n,38p,288b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts
@@ -581,9 +658,9 @@ l12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/tex
 mf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/
 fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tesi.pdf (17 pages, 294596 bytes).
+Output written on tesi.pdf (19 pages, 358416 bytes).
 PDF statistics:
- 432 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
+ 250 words of extra memory for PDF output out of 10000 (max. 10000000)
 
