@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.14)  22 APR 2014 18:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  28 APR 2014 19:37
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -535,7 +535,7 @@ LaTeX Warning: Reference `sec:bkg' on page 7 undefined on input line 28.
 
 LaTeX Warning: Reference `sec:result' on page 7 undefined on input line 29.
 
-[7] <figure/mh_mod.png, id=224, 630.10406pt x 535.2497pt>
+[7] <figure/mh_mod.png, id=229, 630.10406pt x 535.2497pt>
 File: figure/mh_mod.png Graphic file (type png)
 
 <use figure/mh_mod.png>
@@ -585,16 +585,16 @@ LaTeX Warning: Reference `bla' on page 10 undefined on input line 169.
 
 LaTeX Warning: Reference `bla' on page 10 undefined on input line 170.
 
-<figure/br.png, id=238, 679.03688pt x 1873.7503pt>
+<figure/br.png, id=243, 679.03688pt x 1873.7503pt>
 File: figure/br.png Graphic file (type png)
  <use figure/br.png>
-<figure/bba.png, id=239, 279.29344pt x 195.73125pt>
+<figure/bba.png, id=244, 279.29344pt x 195.73125pt>
 File: figure/bba.png Graphic file (type png)
  <use figure/bba.png>
-<figure/ggf.png, id=240, 531.48563pt x 201.75375pt>
+<figure/ggf.png, id=245, 531.48563pt x 201.75375pt>
 File: figure/ggf.png Graphic file (type png)
  <use figure/ggf.png>
-<figure/xsec.png, id=241, 695.59875pt x 328.22626pt>
+<figure/xsec.png, id=246, 695.59875pt x 328.22626pt>
 File: figure/xsec.png Graphic file (type png)
  <use figure/xsec.png>
 
@@ -624,23 +624,23 @@ LaTeX Warning: Reference `' on page 14 undefined on input line 356.
 
 LaTeX Warning: Reference `' on page 14 undefined on input line 357.
 
-<figure/std_plots_presel.pdf, id=265, page=1, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=270, page=1, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 1>
-<figure/std_plots_presel.pdf, id=266, page=2, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=271, page=2, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 2>
-<figure/std_plots_presel.pdf, id=267, page=3, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=272, page=3, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 3>
-<figure/std_plots_presel.pdf, id=268, page=4, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=273, page=4, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 4>
-<figure/std_plots_presel.pdf, id=269, page=5, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=274, page=5, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 5> [14] [15 <./figure/std_plots_presel.p
@@ -649,30 +649,36 @@ df, page is rotated 90 degrees> <./figure/std_plots_presel.pdf, page is rotated
 ure/std_plots_presel.pdf, page is rotated 90 degrees> <./figure/std_plots_prese
 l.pdf, page is rotated 90 degrees>]) (./a_bkg_modeling.tex
 
-LaTeX Warning: Reference `c:detector' on page 16 undefined on input line 5.
+LaTeX Warning: Reference `' on page 16 undefined on input line 9.
 
 
-LaTeX Warning: Reference `' on page 16 undefined on input line 7.
+LaTeX Warning: Reference `' on page 16 undefined on input line 14.
 
 
-LaTeX Warning: Reference `sec:data_mc' on page 16 undefined on input line 13.
+LaTeX Warning: Reference `' on page 16 undefined on input line 14.
 
 
-Overfull \hbox (6.80835pt too wide) in paragraph at lines 39--54
-\OT1/cmr/m/n/12 er-a-tor. The single-top (s-channel, $\OML/cmm/m/it/12 Wt$\OT1/
-cmr/m/n/12 ) pro-cesses were gen-er-ated us-ing MC@NLO [[]],
- []
+LaTeX Warning: Reference `' on page 16 undefined on input line 23.
+
+
+LaTeX Warning: Reference `c:detector' on page 16 undefined on input line 26.
+
+
+LaTeX Warning: Reference `' on page 16 undefined on input line 29.
 
 [16]
-Overfull \hbox (51.68748pt too wide) in paragraph at lines 85--104
+Overfull \hbox (51.68748pt too wide) in paragraph at lines 102--121
  [] 
  []
 
 
 LaTeX Warning: Reference `sec:eventpresel' on page 17 undefined on input line 1
-12.
+30.
 
-[17]
+
+Underfull \vbox (badness 6978) has occurred while \output is active []
+
+ [17]
 <figure/bg_estimation/std_plots_twoBtag.pdf, id=376, page=1, 569.12625pt x 408.
 52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
@@ -701,187 +707,192 @@ File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
 .52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 11>
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `sec:eventsel' on page 18 undefined on input line 188.
+ [18 <./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees>
+ <./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./
+figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees>] [19 <.
+/figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./fig
+ure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./figure/
+bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./figure/bg_e
+stimation/std_plots_twoBtag.pdf, page is rotated 90 degrees>]
 
-
-
-Underfull \vbox (badness 3333) has occurred while \output is active []
-
- [18]
-[19 <./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> 
-<./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./f
-igure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `sec:eventsel' on page 20 undefined on input line 238.
+LaTeX Warning: Reference `appendix:qcd' on page 20 undefined on input line 268.
 
 
-
-LaTeX Warning: Reference `appendix:qcd' on page 20 undefined on input line 242.
-
-
-[20 <./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> 
-<./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./f
-igure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./figur
-e/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees>]
-<figure/ABCD_regionB_Vs_regionD.pdf, id=455, 569.12625pt x 387.4475pt>
+[20] <figure/ABCD_regionB_Vs_regionD.pdf, id=458, 569.12625pt x 387.4475pt>
 File: figure/ABCD_regionB_Vs_regionD.pdf Graphic file (type pdf)
 
 <use figure/ABCD_regionB_Vs_regionD.pdf>
-Overfull \hbox (4.3144pt too wide) in paragraph at lines 287--317
+Overfull \hbox (4.3144pt too wide) in paragraph at lines 313--343
 [][] 
  []
 
 
-Overfull \hbox (4.3144pt too wide) in paragraph at lines 324--348
+Overfull \hbox (4.3144pt too wide) in paragraph at lines 350--374
 [][] 
  []
 
-<figure/QCD/qcd_CR_emb.pdf, id=456, page=1, 569.12625pt x 408.52625pt>
+<figure/QCD/qcd_CR_emb.pdf, id=459, page=1, 569.12625pt x 408.52625pt>
 File: figure/QCD/qcd_CR_emb.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_CR_emb.pdf, page 1>
-<figure/QCD/qcd_CR_emb.pdf, id=457, page=5, 569.12625pt x 408.52625pt>
+<figure/QCD/qcd_CR_emb.pdf, id=460, page=5, 569.12625pt x 408.52625pt>
 File: figure/QCD/qcd_CR_emb.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_CR_emb.pdf, page 5>
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 375.
+(hyperref)                removing `math shift' on input line 405.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 375.
+(hyperref)                removing `\rightarrow' on input line 405.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 375.
+(hyperref)                removing `\tau' on input line 405.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 375.
+(hyperref)                removing `\tau' on input line 405.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 375.
-
-[21] [22 <./figure/ABCD_regionB_Vs_regionD.pdf, page is rotated 90 degrees>]
-[23 <./figure/QCD/qcd_CR_emb.pdf, page is rotated 90 degrees> <./figure/QCD/qcd
-_CR_emb.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `sec:data_mc' on page 24 undefined on input line 400.
+(hyperref)                removing `math shift' on input line 405.
 
 
-LaTeX Warning: Reference `appendix:additionalEmb' on page 24 undefined on input
- line 407.
+LaTeX Warning: Reference `appendix:additionalEmb' on page 21 undefined on input
+ line 446.
 
-
-<figure/bg_estimation/std_plots_emb.pdf, id=570, page=1, 569.12625pt x 408.5262
+[21 <./figure/ABCD_regionB_Vs_regionD.pdf, page is rotated 90 degrees>]
+[22] [23 <./figure/QCD/qcd_CR_emb.pdf, page is rotated 90 degrees> <./figure/QC
+D/qcd_CR_emb.pdf, page is rotated 90 degrees>]
+<figure/bg_estimation/std_plots_emb.pdf, id=575, page=1, 569.12625pt x 408.5262
 5pt>
 File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_emb.pdf, page 1>
-<figure/bg_estimation/std_plots_emb.pdf, id=571, page=2, 569.12625pt x 408.5262
+<figure/bg_estimation/std_plots_emb.pdf, id=576, page=2, 569.12625pt x 408.5262
 5pt>
 File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_emb.pdf, page 2>
-<figure/bg_estimation/std_plots_emb.pdf, id=572, page=3, 569.12625pt x 408.5262
+<figure/bg_estimation/std_plots_emb.pdf, id=577, page=3, 569.12625pt x 408.5262
 5pt>
 File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
- <use figure/bg_estimation/std_plots_emb.pdf, page 3>
-Underfull \vbox (badness 1264) has occurred while \output is active []
+ <use figure/bg_estimation/std_plots_emb.pdf, page 3>) (./a_sys.tex
+
+LaTeX Warning: Reference `sec:sys_bg' on page 24 undefined on input line 10.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24 <./figure/bg_estimation/std_plots_emb.pdf, page is rotated 90 degrees>] [2
 5 <./figure/bg_estimation/std_plots_emb.pdf, page is rotated 90 degrees> <./fig
 ure/bg_estimation/std_plots_emb.pdf, page is rotated 90 degrees>]
-Overfull \hbox (90.28683pt too wide) in paragraph at lines 453--463
- [][] 
- []
-
-
-Overfull \hbox (80.33pt too wide) in paragraph at lines 469--482
- [][] 
- []
-
 
 LaTeX Warning: Reference `appendix:shapeNPs' on page 26 undefined on input line
- 503.
+ 19.
+
+
+LaTeX Warning: Reference `sec:ExclusionLimits' on page 26 undefined on input li
+ne 30.
 
 [26]
 
-LaTeX Warning: Citation `EGammaEnergy' on page 27 undefined on input line 555.
+LaTeX Warning: Reference `' on page 27 undefined on input line 87.
 
 
-LaTeX Warning: Citation `TWIKI_JETMET' on page 27 undefined on input line 578.
+LaTeX Warning: Reference `chap:detector' on page 27 undefined on input line 101
+.
 
 [27]
 
-LaTeX Warning: Reference `fig:EmbeddingShapeNPs' on page 28 undefined on input 
-line 720.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 229.
 
-[28]
-<figure/systematics/emb_sys_BtagFull_MFS.png, id=673, 798.985pt x 574.145pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 229.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 229.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 229.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 229.
+
+
+LaTeX Warning: Reference `fig:EmbeddingShapeNPs' on page 28 undefined on input 
+line 235.
+
+<figure/systematics/emb_sys_BtagFull_MFS.png, id=661, 798.985pt x 574.145pt>
 File: figure/systematics/emb_sys_BtagFull_MFS.png Graphic file (type png)
 
 <use figure/systematics/emb_sys_BtagFull_MFS.png>
-<figure/systematics/emb_sys_NoBtagFull_MFS.png, id=674, 798.985pt x 574.145pt>
+<figure/systematics/emb_sys_NoBtagFull_MFS.png, id=662, 798.985pt x 574.145pt>
 File: figure/systematics/emb_sys_NoBtagFull_MFS.png Graphic file (type png)
 
 <use figure/systematics/emb_sys_NoBtagFull_MFS.png>
 
-LaTeX Warning: Reference `fig:EmbeddingShapeNPs' on page 29 undefined on input 
-line 755.
+LaTeX Warning: Reference `fig:EmbeddingShapeNPs' on page 28 undefined on input 
+line 274.
 
-<figure/systematics/emb_sys_BtagFull_Iso.png, id=675, 798.985pt x 574.145pt>
+[28 <./figure/systematics/emb_sys_BtagFull_MFS.png (PNG copy)> <./figure/system
+atics/emb_sys_NoBtagFull_MFS.png (PNG copy)>] [29] [30]
+<figure/systematics/emb_sys_BtagFull_Iso.png, id=678, 798.985pt x 574.145pt>
 File: figure/systematics/emb_sys_BtagFull_Iso.png Graphic file (type png)
 
 <use figure/systematics/emb_sys_BtagFull_Iso.png>
-<figure/systematics/emb_sys_NoBtagFull_Iso.png, id=676, 798.985pt x 574.145pt>
+<figure/systematics/emb_sys_NoBtagFull_Iso.png, id=679, 798.985pt x 574.145pt>
 File: figure/systematics/emb_sys_NoBtagFull_Iso.png Graphic file (type png)
 
 <use figure/systematics/emb_sys_NoBtagFull_Iso.png>
-Underfull \vbox (badness 2393) has occurred while \output is active []
 
- [29 <./figure/systematics/emb_sys_BtagFull_MFS.png (PNG copy)> <./figure/syste
-matics/emb_sys_NoBtagFull_MFS.png (PNG copy)> <./figure/systematics/emb_sys_Bta
-gFull_Iso.png (PNG copy)> <./figure/systematics/emb_sys_NoBtagFull_Iso.png (PNG
- copy)>]
+LaTeX Warning: Reference `appendix:qcd_additional' on page 31 undefined on inpu
+t line 314.
 
-LaTeX Warning: Reference `appendix:qcd_additional' on page 30 undefined on inpu
-t line 795.
-
-<figure/QCD/qcd_plot.pdf, id=689, page=5, 569.12625pt x 385.44pt>
+[31 <./figure/systematics/emb_sys_BtagFull_Iso.png (PNG copy)> <./figure/system
+atics/emb_sys_NoBtagFull_Iso.png (PNG copy)>]
+<figure/QCD/qcd_plot.pdf, id=693, page=5, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot.pdf, page 5>
 
-LaTeX Warning: Reference `appendix:qcd' on page 30 undefined on input line 897.
+LaTeX Warning: Reference `appendix:qcd' on page 32 undefined on input line 416.
 
 
-[30] [31 <./figure/QCD/qcd_plot.pdf, page is rotated 90 degrees>] [32] [33]
-<figure/QCD/shape_tag.png, id=755, 698.61pt x 473.77pt>
+<figure/QCD/shape_tag.png, id=695, 698.61pt x 473.77pt>
 File: figure/QCD/shape_tag.png Graphic file (type png)
 
 <use figure/QCD/shape_tag.png>
-<figure/QCD/shape_veto.png, id=756, 698.61pt x 473.77pt>
+<figure/QCD/shape_veto.png, id=696, 698.61pt x 473.77pt>
 File: figure/QCD/shape_veto.png Graphic file (type png)
 
-<use figure/QCD/shape_veto.png> [34] [35 <./figure/QCD/shape_tag.png (PNG copy)
-> <./figure/QCD/shape_veto.png (PNG copy)>]
-
-LaTeX Warning: Reference `appendix:additional' on page 36 undefined on input li
-ne 1006.
-
-<figure/facs_mll_bveto.pdf, id=780, 569.12625pt x 552.0625pt>
+<use figure/QCD/shape_veto.png> [32] [33 <./figure/QCD/qcd_plot.pdf, page is ro
+tated 90 degrees>] [34 <./figure/QCD/shape_tag.png (PNG copy)> <./figure/QCD/sh
+ape_veto.png (PNG copy)>]
+<figure/facs_mll_bveto.pdf, id=760, 569.12625pt x 552.0625pt>
 File: figure/facs_mll_bveto.pdf Graphic file (type pdf)
 
-<use figure/facs_mll_bveto.pdf>) (./a_result.tex) (./tesi.bbl
+<use figure/facs_mll_bveto.pdf>) (./a_result.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
-[37 <./figure/facs_mll_bveto.pdf, page is rotated 90 degrees>] [38] [39
+ [35]
 
-]
-[40]
+LaTeX Warning: Reference `' on page 36 undefined on input line 22.
+
+
+LaTeX Warning: Reference `' on page 36 undefined on input line 27.
+
+[36 <./figure/facs_mll_bveto.pdf, page is rotated 90 degrees>] [37])
+(./tesi.bbl [38] [39
+
+] [40]
 Underfull \hbox (badness 2197) in paragraph at lines 201--204
 \OT1/cmr/m/it/12 fras-truc-ture\OT1/cmr/m/n/12 , ATLAS-SOFT-2010-01-004, sub-mi
 t-ted to Eur. Phys. J. C.,
@@ -992,36 +1003,34 @@ TIONS \OT1/cmr/m/n/12 49
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 6410 strings out of 493848
- 93016 string characters out of 1152823
- 196498 words of memory out of 3000000
- 9319 multiletter control sequences out of 15000+50000
- 16108 words of font info for 62 fonts, out of 3000000 for 9000
+ 6425 strings out of 493848
+ 93134 string characters out of 1152823
+ 186368 words of memory out of 3000000
+ 9324 multiletter control sequences out of 15000+50000
+ 18570 words of font info for 70 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,11n,39p,884b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,11n,39p,875b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/publ
 ic/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texl
-ive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
-l12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tesi.pdf (49 pages, 1081283 bytes).
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsl12.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmtt12.pfb>
+Output written on tesi.pdf (49 pages, 1089193 bytes).
 PDF statistics:
- 1082 PDF objects out of 1200 (max. 8388607)
- 218 named destinations out of 1000 (max. 500000)
- 420 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1081 PDF objects out of 1200 (max. 8388607)
+ 217 named destinations out of 1000 (max. 500000)
+ 428 words of extra memory for PDF output out of 10000 (max. 10000000)
 

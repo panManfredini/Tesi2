@@ -1,6 +1,91 @@
 
 \section{Results}
-\subsection{Statistics}
+
+\subsection{LHC Procedure For Limits Setting}
+\label{sec:limits}
+Redefinition of marked poisson  with likelihood, comment on Histfactory
+
+def of likelihood:
+$$
+\mathcal{L}(\text{data}|\mu, \boldsymbol{\theta}) = \text{Poisson(data} | \mu \cdot s(\boldsymbol{\theta}) + b(\boldsymbol{\theta})) 
+	\cdot f(\boldsymbol{\theta} | \hat{\boldsymbol{\theta}})
+$$
+
+%and the $\text{Poisson(data} | \mu \cdot s(\boldsymbol{\theta})$ 
+and the $\text{Poisson(data }| \mu \cdot s(\boldsymbol{\theta})) $
+stands for a product of Poisson probabilities to observe  events in the bin \textit{i}
+$$
+\prod_{i} \frac{(\mu s_i +b_i)^{n_i}}{n_i!} ~ e^{-\mu s_i -b_i}
+$$
+
+To compiute the compatibility of the data with the $H_{0}$ and $H_{1}$ hypotesis, and then exclusion limits 
+one needs to define a test statistic. The test statistic, which has already been defined in section~\ref{},
+is a function of the data which returns a real value. One can in principle use any test statistic, however, 
+given the size of the test (probability to reject the null hypotesis when is true) one would like to have 
+a test statistic which has the highest power $1 - \beta$ possible (probability to reject the 
+null hypotesys when it is false), this means that the test statistic should have 
+different distribution for the two hypotesis under test. Figure~\ref{} shows an example
+of the distribution of an hipotetical test statistic for two hypotesis.
+It has been shown by Neuman-P~\cite{} that in case of simple hyptesis (probability model without any parameter),
+then the test statistic with the highest power is the ratio of the likelihood calculated with the two hypotesis:
+The standard procedure at the LHC is to use the following test statistic \cite{} based on the likelihood ratio:
+$$
+\tilde{q_{\mu}} ~ = ~ -2 \text{ln} ~ \frac{\mathcal{L}(\text{data}|\mu, \hat{\boldsymbol{\theta}}_{\mu})}{\mathcal{L}(\text{data}|\hat{\mu}, \hat{\boldsymbol{\theta}})}
+\quad \text{with the constraint} \quad 0 \leq \hat{\mu} \leq \mu
+$$
+ where $\hat{\mu}$ and $\hat{\boldsymbol{\theta}}$ are the maximum likelihood estimators for $\mu$ and $\boldsymbol{\theta}$ given the data, 
+whereas $\hat{\boldsymbol{\theta}}_{\mu}$ is the maximul likelihood estimator of $\boldsymbol{\theta}$ given the data but considering
+a signal streght of value $\mu$. to be noted that $\tilde{q_{\mu}}$ is increasing with increasing disagreement between data and the $\mu$ hypotesis under test.
+The procedure for limits setting follows five steps:
+\begin{enumerate}
+	\item The signal hypotesis with signal streght $\mu$ is assumed, under this assumpion a set of 
+	\textit{pseudo-data} is generated for different values of $\mu$.
+
+	\item  $\tilde{q_{\mu}}$ is calculated for each of the \textit{pseudo-dataset} and each signal hypotesis generating
+	the expected probability density function for $\tilde{q_{\mu}}$ given $\mu$, 
+	$\text{f}(\tilde{q_{\mu}} ~| ~ \mu, \hat{\boldsymbol{\theta}}_{\mu},H_1)$.
+
+	\item One does the same thing foe the null hypotesis, generate pseudo-data with the distribution of background only and 
+	generate  the $\text{f}(\tilde{q_{\mu}} ~ | ~ \mu = 0, \hat{\boldsymbol{\theta}}_{0}, H_0)$.
+
+	\item Once one has the pdf for the signal and signal + background hypotesis one can define for a given dataset (that can be this time
+	real data or again pseudodata)  two p-values, which are the probability to obtain data less compatible with the hypotesis in consideration:
+	$$
+	p_{s+b} = P(\tilde{q_{\mu}} > \tilde{q_{\mu}}^{observed} ~ | ~ H_1)  \quad \text{for any given value of} ~  \mu ~ \text{and}$$
+	$$ 
+	p_{b} = P(\tilde{q_{\mu=0}} > \tilde{q_{\mu=0}}^{observed} ~ | ~ H_0)
+	$$
+	Calculate the ratio of this two probability and get what is called the $CL_{s} = p_{s+b} / p_{b}$ \cite{}.
+
+	\item If for a given $\mu$ is obtained $CL_{s} ~ \leq ~ \alpha $ one states that the signal hypotesis (with that $\mu$) 
+	is excluded with (1 - $\alpha$) $CL_{s}$ confidence level. To get the 95\% confidence level upper limit on $\mu$,
+	denoted as $\mu^{95}$ one adjust $\mu$ until $CL_{s} = 0.05$. 
+\end{enumerate}
+This is a quite complicated prescription, however it has simple explaination in terms of confidence intervals:
+
+For each $\mu$ is possible to define $\tilde{q_{\mu}}^{95}$ for which the probability P$(\tilde{q_{\mu}} > \tilde{q_{\mu}}^{95} ~ | H_1$ ) = 5\%,
+	this means that if $H_1$ is true, this hypotesis will be rejected in 5\% of the cases.
+
+ For each pseudo-data sample one can calculate then $\mu^{95}$, which is the biggest value of $\mu$ which gives $\tilde{q_{\mu}} > \tilde{q_{\mu}}^{95}$
+
+ Generate a large set of pseudo-data under the hypotesis $H_{0}$ and calculate  $\mu^{95}$ for each of them, by costruction one would have
+	that if $H_1$ is true for $\mu > \mu^{95}$ one has $\tilde{q_{\mu}} > \tilde{q_{\mu}}^{95}$ only 5\% of the cases.
+	
+So one it is said that the $\mu > \mu^{95}$ are excluded by data under the hypotesis $H_1$ at 95\% of Confidence Level, meaning that 
+for value of $\mu > \mu^{95}$  one would reject the $H_1$ when is true at most 5\% of the time. 
+
 \subsection{Exclusion Limits}
+The procedure described in section~\ref{sec:limits} is actually the one which was used for the SM Higgs, for the MSSM there is a further 
+complication: the cross section and the masses of $h$ and $H$ depends on $m_A$ and $\tan \beta$, then one has to consider in the signal 
+model three Higges for which in a particular scenario the masses and cross section are defined for a given point in the $\tan \beta - m_A$
+plane, so the procedure described previously has to be repeated for each point in that plane. For a given scenario, 
+a point in the  $\tan \beta - m_A$ plane is excluded with 95\% $CL_{s}$ confidence level if $\mu^{95} \leq 1$ for that point. 
+Only a limited number of $\tan \beta - m_A$ points are gerated, a linear interpolation is used to determine the $\tan \beta$ excluded for a given
+$m_A$.
+
+Add some part of limits of the note.
+
+ 
+
 \subsection{Summary}
 

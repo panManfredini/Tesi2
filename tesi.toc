@@ -9,29 +9,25 @@
 \contentsline {subsection}{\numberline {2.1.5}Missing Mass Calculator}{14}{subsection.2.1.5}
 \contentsline {section}{\numberline {2.2}Background Modeling and Validation}{16}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Simulated Event Samples}{16}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Top Quark Pair Production Validation}{17}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Multi-jet Background}{18}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}$Z \rightarrow \tau \tau $ + Jets Background}{21}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.2}Top Quark Pair Production Validation}{18}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Multi-jet Background}{19}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}$Z \rightarrow \tau \tau $ + Jets Background: Embedding Technique}{21}{subsection.2.2.4}
 \contentsline {section}{\numberline {2.3}Systematic Uncertainties}{26}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Detector-related Systematics Uncertainties}{26}{subsection.2.3.1}
 \contentsline {paragraph}{Luminosity}{26}{section*.2}
 \contentsline {paragraph}{Pileup}{26}{section*.3}
-\contentsline {paragraph}{Trigger Efficiency}{26}{section*.4}
+\contentsline {paragraph}{Trigger Efficiency}{27}{section*.4}
 \contentsline {paragraph}{Electrons}{27}{section*.5}
 \contentsline {paragraph}{Muons}{27}{section*.6}
 \contentsline {paragraph}{Taus}{27}{section*.7}
 \contentsline {paragraph}{Jets}{27}{section*.8}
 \contentsline {paragraph}{b-Tagging}{28}{section*.9}
 \contentsline {paragraph}{Missing Transverse Energy}{28}{section*.10}
-\contentsline {paragraph}{Summary}{28}{section*.11}
-\contentsline {subsection}{\numberline {2.3.2}Systematics for Data-Driven Background Estimation Methods}{28}{subsection.2.3.2}
-\contentsline {subsubsection}{\ensuremath {Z\rightarrow \tau \tau }\xspace Embedding Systematics}{28}{section*.12}
-\contentsline {subsubsection}{QCD Multi-Jet Systematics}{30}{section*.13}
-\contentsline {subsection}{\numberline {2.3.3}Theoretical Uncertainties}{34}{subsection.2.3.3}
-\contentsline {subsubsection}{Simulated Cross-Section Uncertainties}{34}{section*.14}
-\contentsline {subsubsection}{Acceptance Systematics}{34}{section*.15}
-\contentsline {section}{\numberline {2.4}Results}{38}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Statistics}{38}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.3.2}\ensuremath {Z\rightarrow \tau \tau }\xspace Embedding Systematics}{28}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}QCD Multi-Jet Systematics}{31}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Theoretical Uncertainties}{35}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Results}{36}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}LHC Procedure For Limits Setting}{36}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Exclusion Limits}{38}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Summary}{38}{subsection.2.4.3}
 \contentsline {section}{\numberline {.1}Object Reconstruction, Preselection and Efficiency Corrections}{44}{section..1}
@@ -45,7 +41,7 @@
 \contentsline {subsection}{\numberline {.1.8}Vertices}{47}{subsection..1.8}
 \contentsline {subsection}{\numberline {.1.9}Event Cleaning}{47}{subsection..1.9}
 \contentsline {subsection}{\numberline {.1.10}Monte Carlo Corrections}{48}{subsection..1.10}
-\contentsline {subsubsection}{Trigger Efficiency corrections}{49}{section*.17}
-\contentsline {subsubsection}{Lepton Reconstruction Efficiency Corrections}{49}{section*.18}
-\contentsline {subsubsection}{b-tagging Efficiency Corrections}{49}{section*.19}
-\contentsline {subsubsection}{Pileup Reweighting}{49}{section*.20}
+\contentsline {subsubsection}{Trigger Efficiency corrections}{49}{section*.12}
+\contentsline {subsubsection}{Lepton Reconstruction Efficiency Corrections}{49}{section*.13}
+\contentsline {subsubsection}{b-tagging Efficiency Corrections}{49}{section*.14}
+\contentsline {subsubsection}{Pileup Reweighting}{49}{section*.15}
