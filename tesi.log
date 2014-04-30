@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  28 APR 2014 19:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.14)  29 APR 2014 19:29
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -880,19 +880,51 @@ ape_veto.png (PNG copy)>]
 File: figure/facs_mll_bveto.pdf Graphic file (type pdf)
 
 <use figure/facs_mll_bveto.pdf>) (./a_result.tex
+
+LaTeX Warning: Citation `lhc' on page 35 undefined on input line 6.
+
+
+LaTeX Warning: Citation `cramer' on page 35 undefined on input line 6.
+
+
+LaTeX Warning: Reference `bla' on page 35 undefined on input line 11.
+
+
+LaTeX Warning: Reference `bla' on page 35 undefined on input line 13.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
+[36 <./figure/facs_mll_bveto.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Reference `' on page 36 undefined on input line 22.
+LaTeX Warning: Reference `' on page 37 undefined on input line 32.
 
 
-LaTeX Warning: Reference `' on page 36 undefined on input line 27.
+LaTeX Warning: Reference `' on page 37 undefined on input line 37.
 
-[36 <./figure/facs_mll_bveto.pdf, page is rotated 90 degrees>] [37])
-(./tesi.bbl [38] [39
+[37]
+Overfull \hbox (8.86119pt too wide) in paragraph at lines 152--152
+[]\OT1/cmr/m/n/10 (a) 
+ []
 
-] [40]
+
+Overfull \hbox (9.41675pt too wide) in paragraph at lines 156--156
+[]\OT1/cmr/m/n/10 (b) 
+ []
+
+
+LaTeX Warning: Reference `appendix:limit' on page 38 undefined on input line 19
+1.
+
+[38]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 193.
+
+) (./tesi.bbl [39] [40
+
+] [41] [42]
 Underfull \hbox (badness 2197) in paragraph at lines 201--204
 \OT1/cmr/m/it/12 fras-truc-ture\OT1/cmr/m/n/12 , ATLAS-SOFT-2010-01-004, sub-mi
 t-ted to Eur. Phys. J. C.,
@@ -901,7 +933,7 @@ t-ted to Eur. Phys. J. C.,
 Missing character: There is no â in font cmti12!
 Missing character: There is no ˆ in font cmti12!
 Missing character: There is no ’ in font cmti12!
-[41]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 241--243
 []\OT1/cmr/m/n/12 ATLAS egamma WG, \OT1/cmr/m/it/12 Elec-tron ef-fi-ciency mea-
 sure-ments\OT1/cmr/m/n/12 ,
@@ -913,52 +945,27 @@ Overfull \hbox (20.44154pt too wide) in paragraph at lines 277--280
 /Main/JetEnergyResolutionProvider. 
  []
 
-[42]
+[44]
 Overfull \hbox (128.65894pt too wide) in paragraph at lines 364--365
 []\OT1/cmr/m/n/12 Statistical twiki, Nuis-sanceCheck. []https://twiki.cern.ch/t
 wiki/bin/view/AtlasProtected/NuisanceCheck[] 
  []
 
-) [43] (./appendix_presel.tex
+) [45] (./appendix_presel.tex
 
-LaTeX Warning: Citation `WZcross' on page 44 undefined on input line 32.
+LaTeX Warning: Citation `WZcross' on page 46 undefined on input line 32.
 
 
-LaTeX Warning: Citation `EGammaRecomendations' on page 44 undefined on input li
+LaTeX Warning: Citation `EGammaRecomendations' on page 46 undefined on input li
 ne 44.
 
-[44]
+[46]
 
-LaTeX Warning: Citation `jetenergyscale' on page 45 undefined on input line 125
+LaTeX Warning: Citation `jetenergyscale' on page 47 undefined on input line 125
 .
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (69.8735pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 .1.  OBJECT RECONSTRUCTION, PRESELECTION AND EFFICIENCY CORREC
-TIONS \OT1/cmr/m/n/12 45
- []
-
-[45]
-
-LaTeX Warning: Citation `mv1' on page 46 undefined on input line 151.
-
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 184--186
-\OT1/cmr/m/n/12 or tau within
- []
-
-
-LaTeX Warning: Reference `sec:samples:dq' on page 47 undefined on input line 22
-8.
-
-
-LaTeX Warning: Citation `jetMETreco' on page 47 undefined on input line 232.
-
-
-LaTeX Warning: Citation `hottile' on page 47 undefined on input line 237.
 
 
 Overfull \hbox (69.8735pt too wide) has occurred while \output is active
@@ -968,7 +975,32 @@ TIONS \OT1/cmr/m/n/12 47
 
 [47]
 
-LaTeX Warning: Citation `SingleElecTrigSF' on page 48 undefined on input line 3
+LaTeX Warning: Citation `mv1' on page 48 undefined on input line 151.
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+\OT1/cmr/m/n/12 or tau within
+ []
+
+
+LaTeX Warning: Reference `sec:samples:dq' on page 49 undefined on input line 22
+8.
+
+
+LaTeX Warning: Citation `jetMETreco' on page 49 undefined on input line 232.
+
+
+LaTeX Warning: Citation `hottile' on page 49 undefined on input line 237.
+
+
+Overfull \hbox (69.8735pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 .1.  OBJECT RECONSTRUCTION, PRESELECTION AND EFFICIENCY CORREC
+TIONS \OT1/cmr/m/n/12 49
+ []
+
+[49]
+
+LaTeX Warning: Citation `SingleElecTrigSF' on page 50 undefined on input line 3
 02.
 
 
@@ -979,36 +1011,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--305
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
+ [50]
 
-LaTeX Warning: Citation `SingleEMuTrigSF' on page 49 undefined on input line 30
+LaTeX Warning: Citation `SingleEMuTrigSF' on page 51 undefined on input line 30
 8.
 
 
-LaTeX Warning: Citation `ElecSF' on page 49 undefined on input line 326.
+LaTeX Warning: Citation `ElecSF' on page 51 undefined on input line 326.
 
 
-LaTeX Warning: Citation `MuonSF' on page 49 undefined on input line 330.
+LaTeX Warning: Citation `MuonSF' on page 51 undefined on input line 330.
 
 
-LaTeX Warning: Citation `BTagSF' on page 49 undefined on input line 337.
+LaTeX Warning: Citation `BTagSF' on page 51 undefined on input line 337.
 
 )
 Overfull \hbox (69.8735pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 .1.  OBJECT RECONSTRUCTION, PRESELECTION AND EFFICIENCY CORREC
-TIONS \OT1/cmr/m/n/12 49
+TIONS \OT1/cmr/m/n/12 51
  []
 
-[49] (./tesi.aux)
+[51] (./tesi.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6425 strings out of 493848
- 93134 string characters out of 1152823
- 186368 words of memory out of 3000000
- 9324 multiletter control sequences out of 15000+50000
+ 6447 strings out of 493848
+ 93430 string characters out of 1152823
+ 187312 words of memory out of 3000000
+ 9336 multiletter control sequences out of 15000+50000
  18570 words of font info for 70 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,11n,39p,875b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1028,9 +1060,9 @@ usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
 exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive
 /fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tesi.pdf (49 pages, 1089193 bytes).
+Output written on tesi.pdf (51 pages, 1100907 bytes).
 PDF statistics:
- 1081 PDF objects out of 1200 (max. 8388607)
- 217 named destinations out of 1000 (max. 500000)
+ 1106 PDF objects out of 1200 (max. 8388607)
+ 227 named destinations out of 1000 (max. 500000)
  428 words of extra memory for PDF output out of 10000 (max. 10000000)
 

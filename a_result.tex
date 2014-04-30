@@ -3,23 +3,33 @@
 
 \subsection{LHC Procedure For Limits Setting}
 \label{sec:limits}
-Redefinition of marked poisson  with likelihood, comment on Histfactory
-
-def of likelihood:
-$$
+A detailed description of the LHC procedure for Higgs search can be found in \cite{lhc,cramer},
+in the following a brief summary is given.
+Statistical tests are used for quantify an observation or to set an exclusion limit, 
+in search for new phenomena hypotesis testing is performed by means of two hypotesis: 
+the \textit{background only} $H_0$ and and the \textit{signal+background} $H_1$.  
+As its has allready been outlined in section~\ref{bla}, any statistical test is based on probability
+distribution, in particular is important to define what is called a "likelihood": taking the marked Poisson
+probability density function (p.d.f.) \eqref{bla} calculating it for a set of data one obtaine what is called
+likelihood function:
+\begin{equation}\label{likelihood}
 \mathcal{L}(\text{data}|\mu, \boldsymbol{\theta}) = \text{Poisson(data} | \mu \cdot s(\boldsymbol{\theta}) + b(\boldsymbol{\theta})) 
 	\cdot f(\boldsymbol{\theta} | \hat{\boldsymbol{\theta}})
-$$
-
-%and the $\text{Poisson(data} | \mu \cdot s(\boldsymbol{\theta})$ 
-and the $\text{Poisson(data }| \mu \cdot s(\boldsymbol{\theta})) $
-stands for a product of Poisson probabilities to observe  events in the bin \textit{i}
+\end{equation}
+of the data under a certain hypotesis, which now will be only function of the parameter $\mu$ and of the
+nuissance parameter $\boldsymbol{\theta}$, note that is not anymore a p.d.f. and not normalized to one.
+However its value will be decreasing if the hypotesis under test is unlikely to happen with the given dataset,
+one can define what's the best value of a parameter that describes the data via maximising the likelihood,
+obtaining a so called maximum likelihood estimator. The Poisson distribution in equation~\eqref{likelihood}
+stands for a product of Poisson probabilities to observe  events in the bin \textit{i} of an histogram:
 $$
 \prod_{i} \frac{(\mu s_i +b_i)^{n_i}}{n_i!} ~ e^{-\mu s_i -b_i}
 $$
+while the $f(\boldsymbol{\theta} | \hat{\boldsymbol{\theta}})$ is the p.d.f. for a given set of nuissance 
+parameter $\boldsymbol{\theta}$ with their best estimate $\hat{\boldsymbol{\theta}}$. 
 
 To compiute the compatibility of the data with the $H_{0}$ and $H_{1}$ hypotesis, and then exclusion limits 
-one needs to define a test statistic. The test statistic, which has already been defined in section~\ref{},
+one needs to define a test statistic. The test statistic, which has already been met in section~\ref{},
 is a function of the data which returns a real value. One can in principle use any test statistic, however, 
 given the size of the test (probability to reject the null hypotesis when is true) one would like to have 
 a test statistic which has the highest power $1 - \beta$ possible (probability to reject the 
@@ -45,15 +55,16 @@ The procedure for limits setting follows five steps:
 	the expected probability density function for $\tilde{q_{\mu}}$ given $\mu$, 
 	$\text{f}(\tilde{q_{\mu}} ~| ~ \mu, \hat{\boldsymbol{\theta}}_{\mu},H_1)$.
 
-	\item One does the same thing foe the null hypotesis, generate pseudo-data with the distribution of background only and 
+	\item One does the same thing for the null hypotesis, generate pseudo-data with the distribution of background only and 
 	generate  the $\text{f}(\tilde{q_{\mu}} ~ | ~ \mu = 0, \hat{\boldsymbol{\theta}}_{0}, H_0)$.
 
 	\item Once one has the pdf for the signal and signal + background hypotesis one can define for a given dataset (that can be this time
-	real data or again pseudodata)  two p-values, which are the probability to obtain data less compatible with the hypotesis in consideration:
+	real data or again pseudodata)  two p-values for a given value of $\mu$, which are the probability to obtain data less compatible with the hypotesis in consideration:
 	$$
-	p_{s+b} = P(\tilde{q_{\mu}} > \tilde{q_{\mu}}^{observed} ~ | ~ H_1)  \quad \text{for any given value of} ~  \mu ~ \text{and}$$
+	p_{s+b} = P(\tilde{q_{\mu}} > \tilde{q_{\mu}}^{observed} ~ | ~ H_1)  
+	$$
 	$$ 
-	p_{b} = P(\tilde{q_{\mu=0}} > \tilde{q_{\mu=0}}^{observed} ~ | ~ H_0)
+	p_{b} = P(\tilde{q_{\mu}} > \tilde{q_{\mu}}^{observed} ~ | ~ H_0)
 	$$
 	Calculate the ratio of this two probability and get what is called the $CL_{s} = p_{s+b} / p_{b}$ \cite{}.
 
@@ -61,31 +72,143 @@ The procedure for limits setting follows five steps:
 	is excluded with (1 - $\alpha$) $CL_{s}$ confidence level. To get the 95\% confidence level upper limit on $\mu$,
 	denoted as $\mu^{95}$ one adjust $\mu$ until $CL_{s} = 0.05$. 
 \end{enumerate}
-This is a quite complicated prescription, however it has simple explaination in terms of confidence intervals:
-
-For each $\mu$ is possible to define $\tilde{q_{\mu}}^{95}$ for which the probability P$(\tilde{q_{\mu}} > \tilde{q_{\mu}}^{95} ~ | H_1$ ) = 5\%,
-	this means that if $H_1$ is true, this hypotesis will be rejected in 5\% of the cases.
-
- For each pseudo-data sample one can calculate then $\mu^{95}$, which is the biggest value of $\mu$ which gives $\tilde{q_{\mu}} > \tilde{q_{\mu}}^{95}$
-
- Generate a large set of pseudo-data under the hypotesis $H_{0}$ and calculate  $\mu^{95}$ for each of them, by costruction one would have
-	that if $H_1$ is true for $\mu > \mu^{95}$ one has $\tilde{q_{\mu}} > \tilde{q_{\mu}}^{95}$ only 5\% of the cases.
-	
-So one it is said that the $\mu > \mu^{95}$ are excluded by data under the hypotesis $H_1$ at 95\% of Confidence Level, meaning that 
-for value of $\mu > \mu^{95}$  one would reject the $H_1$ when is true at most 5\% of the time. 
+This is a quite complicated prescription, however 
+its interpretation is not so different from the usual Neyman Costruction~\cite{} of confidence intervals:
+for each $\mu$ is possible to define $\tilde{q_{\mu}}^{95}$ for which the probability 
+P$(\tilde{q_{\mu}} \geq \tilde{q_{\mu}}^{95} ~ |~ \mu, ~ H_1$) = 5\%, this means that if $H_1$ is true one expects 
+$\tilde{q_{\mu}} \geq \tilde{q_{\mu}}^{95}$ in 5\% of the cases. With this definition $\mu^{95}$ would be the value of $\mu$
+that for the observed data gives $\tilde{q_{\mu}} = \tilde{q_{\mu}}^{95}$, or in other words a p-value of 5\%.
+By costruction, rejecting $\mu > \mu^{95}$ the hypotesis $H_1$ will be rejected when is true at most 5\% of the time,
+given the fact that $\tilde{q_{\mu}}$ is increasing with increasing discrepancy of the hypotesis with data.
+The difference with the $CL_{s}$ prescription is that here the ratio of p-values is used to define $\mu^{95}$, 
+it has been shown that this choice protect the upper limit from down fluctuation of the data, giving a conservative
+estimate in any case.
+%
+% For each pseudo-data sample one can calculate then $\mu^{95}$, which is the biggest value of $\mu$ which gives $\tilde{q_{\mu}} > \tilde{q_{\mu}}^{95}$
+%
+% Generate a large set of pseudo-data under the hypotesis $H_{0}$ and calculate  $\mu^{95}$ for each of them, by costruction one would have
+%	that if $H_1$ is true for $\mu > \mu^{95}$ one has $\tilde{q_{\mu}} > \tilde{q_{\mu}}^{95}$ only 5\% of the cases.
+%	
+%So one it is said that the $\mu > \mu^{95}$ are excluded by data under the hypotesis $H_1$ at 95\% of Confidence Level, meaning that 
+%for value of $\mu > \mu^{95}$  one would reject the $H_1$ when is true at most 5\% of the time. 
+%
 
 \subsection{Exclusion Limits}
-The procedure described in section~\ref{sec:limits} is actually the one which was used for the SM Higgs, for the MSSM there is a further 
-complication: the cross section and the masses of $h$ and $H$ depends on $m_A$ and $\tan \beta$, then one has to consider in the signal 
+The procedure described in section~\ref{sec:limits} is  the one used for the SM Higgs, for the MSSM further complication
+arise: one has to consider in the signal 
 model three Higges for which in a particular scenario the masses and cross section are defined for a given point in the $\tan \beta - m_A$
-plane, so the procedure described previously has to be repeated for each point in that plane. For a given scenario, 
-a point in the  $\tan \beta - m_A$ plane is excluded with 95\% $CL_{s}$ confidence level if $\mu^{95} \leq 1$ for that point. 
-Only a limited number of $\tan \beta - m_A$ points are gerated, a linear interpolation is used to determine the $\tan \beta$ excluded for a given
-$m_A$.
+plane, so the procedure described previously has to be repeated for each point in that plane. 
+%For a given scenario, 
+%a point in the  $\tan \beta - m_A$ plane is excluded with 95\% $CL_{s}$ confidence level if $\mu^{95} \leq 1$ for that point. 
+%Only a limited number of $\tan \beta - m_A$ points are gerated, 
+%a linear interpolation is used to determine the $\tan \beta$ excluded for a given $m_A$.
+For the $m_h^{max}$ scenario exclusion limits are derived by calculating $95\%$ CLs limits on the cross section of
+$bb$/$gg\to A$/$H$/$h\to\tau_{lep}\tau_{lep}$ for 15 tan$\beta$ values (between\footnote{The set of  tan$\beta$ values used
+is 5, 8, 10, 13, 16, 20, 23, 26, 30, 35, 40, 45, 50, 55, 60}  $\mathrm{tan}\beta=5$ and $\mathrm{tan}\beta=60$),
+a point in the  $\tan \beta - m_A$ plane is excluded if $\mu^{95} \leq 1$ for that point, 
+since only a limited numper of points in that plane is generated, 
+a linear interpolation is used to determine the $\tan \beta$ excluded for a given $m_A$.
+The procedure is followed for a set of different CP-odd Higgs masses $m_A$: 90, 100, 110, 120, 125, 130,
+140, 150, 170, 200, 250 and 300 GeV.
+The event yield has been compared between data and background expectation in bins of the \mmc distribution. The bin sizes were chosen
+such that there are enough events left for the asymptotic approximation \cite{CCGV} to  hold.
+Table~\ref{table:final_numbers} compares yields between data and our background model for the two categories at the final
+stage of the cut flow. Additionally, figure \ref{fig:mmc_categories} shows the \mmc distributions for the full b-tag and b-veto categories. 
 
-Add some part of limits of the note.
+\begin{table} [t]
+\centering
+\begin{tabular}{c p{0.5cm} r l l p{1cm} r l l }
+\hline
+\hline
+Sample 	&	& \multicolumn{3}{c}{b-tag category} 		&	& \multicolumn{3}{c}{b-veto category} 		\\ 	[0.5ex]
+		&	&  N(event)	&	Stat.	&Syst.  & 	&  N(event)	&  Stat.	& Syst.		\\ [0.5ex]	
+\hline
+\Ztautau        &     	&       418  	&    $\pm$ 6	&	&       & 54680		& $\pm$ 60	&  		\\   [0.5ex]
+\ttbar          &       &       330   	&    $\pm$ 10	&       &       & 2228		& $\pm$ 25	&	  	\\  [0.5ex]
+Multijet        &       &       100	&    $\pm$ 15	&       &       & 3940		& $\pm$ 330	&	  	\\  [0.5ex]
+\Wlnu           &       &       10      &    $\pm$ 6    &       &       & 650		& $\pm$ 100	&	  	\\  [0.5ex]
+Diboson         &       &       13.1    &    $\pm$ 1.8  &       &       & 2921		& $\pm$ 27	&	  	\\  [0.5ex]
+Single Top      &       &       90	&    $\pm$ 6    &       &       & 443		& $\pm$ 15	&	  	\\  [0.5ex]
+\Zll            &       &       0.9     &    $\pm$ 0.8  &       &       & 430		& $\pm$ 40	&	  	\\  [0.5ex]
+Total           &       &       962     &    $\pm$ 16 	&       &       & 65290		& $\pm$ 180	&	  	\\  [0.5ex]
+\hline
+Signal  	&	&		& 		&	&	&		&		&		\\	[0.5ex]
+\hline
+Data	        &	& -		& - 		& -	& 	&	-	&	-	&	-	\\	[0.5ex]
+\hline
+\hline
 
- 
+\end{tabular}
+\caption{Comparison between yield in data and the one expected from our background model, b-tag and b-veto category are reported separately. }
+\label{table:final_numbers}
+\end{table}
+
+\begin{figure}[htp]
+     \begin{center}
+
+        \subfigure[]{%
+            \label{fig:ele_pt}
+%            \includegraphics[width=0.45\textwidth]{figures/distributions/BTag_mmc.pdf}
+        }
+        \subfigure[]{%
+           \label{fig:muon_pt}
+ %          \includegraphics[width=0.45\textwidth]{figures/distributions/BVeto_mmc.pdf} 
+        }\\ 
+    \end{center}
+    \caption{Distributions of the \mmc mass for (a) the full b-tag category selection and (b) the full b-veto selection. In these plots the data distributions are not shown. }
+   \label{fig:mmc_categories}
+\end{figure}
+
+
+The resulting exclusion limit on the MSSM parameter space ($m_A$ vs $\tan\beta$ plane) are interpreted 
+within the $m_{h}^{max}$ benchmark scenario \cite{MSSMmhmax} and  shown in 
+%
+Figure~\ref{fig:limit_extract_combined}. % we may want to add also b-tag and b-veto separately or maybe in appendix 
+%
+The expected and observed $95\%$ confidence-level limits are shown as solid and dashed black lines, the green 
+and yellow bands correspond to the $1\sigma$ and $2\sigma$ error bands. 
+The analysis is sensitive to MSSM Higgs production of $\tan\beta \geq 13$ for the range $90<m_A<200$~GeV.
+The observed limit is presently unknown. %excludes a CP-odd Higgs with mass $m_A=$140GeV with $\tan\beta \gtrsim$XX.
+
+
+\begin{figure}[t]
+  \centering
+%  \includegraphics[width=0.65\textwidth]{figures/limits/Limits_mAtanBeta_Comb.pdf}
+  \caption{Expected %and observed 
+  exclusion limits for MSSM Higgs boson production 
+in the MSSM $m_A$ vs $\tan\beta$ parameter space.}
+\label{fig:limit_extract_combined}
+\end{figure}
+
+
+The outcome of the search is also interpreted in the generic case of a scalar boson produced in the
+$pp \rightarrow gg \rightarrow \phi$ or $pp \rightarrow bb\phi$ mode and decaying to a di-tau pair.
+These limits will be shown in Figure~\ref{fig:limit_xs} 
+for the b-associated  and the gluon-gluon fusion production mechanisms separately.
+All signal systematic uncertainties are implemented in the likelihood
+for this limit derivation, including the  acceptance systematics, with the exception of the signal cross section
+uncertainties.
+More information about the limits and their validation can be found in Appendix~\ref{appendix:limit}.
+
+\begin{figure}[]
+  \centering
+% \includegraphics[width=0.45\textwidth]{}
+% \includegraphics[width=0.45\textwidth]{}
+  \caption{ Limits on the production of a scalar particle decaying to a di-tau pair
+    and produced     in association with b quarks (left) or   via gluon-gluon fusion (right).}
+\label{fig:limit_xs}
+\end{figure}
 
 \subsection{Summary}
-
+A search for neutral MSSM Higgs bosons with the ATLAS detector at the
+LHC is presented.  This analysis is based on an integrated luminosity of $20.3 ~fb^{-1}$
+of proton-proton collisions at a center-of-mass energy of 8 TeV. The
+analysis focusses on the decay of neutral Higgs bosons into a pair of tau
+leptons, which subsequently decay to an electron, a muon and four
+neutrinos. Furthermore, two channels are employed by requiring the
+presence or absence of a b-tagged jet, increasing sensitivity to
+the b-associated and gluon-gluon fusion production modes,
+respectively. Data driven methods are used to estimate \Ztautau an QCD multi-jet
+ backgrounds. A reasonable agreement between the background
+estimations and the data is seen at preselection level. 
+....Something on exclusion limits....
