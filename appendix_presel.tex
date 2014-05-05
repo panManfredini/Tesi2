@@ -1,4 +1,4 @@
-\section{Object Reconstruction, Preselection and Efficiency Corrections}
+\chapter{Object Reconstruction, Preselection and Efficiency Corrections}
 \label{sec:presel}
 
 In this section the preselection and reconstruction criteria for the
@@ -8,7 +8,7 @@ MC are also described.  A summary of the preselection on physics
 objects used in this analysis is reported in Table~\ref{tab:presel}.
 
 
-\subsection{Electrons}
+\section{Electrons}
 \label{sec:presel:elec}
 
 This analysis uses electrons found by the standard electron
@@ -62,7 +62,7 @@ cone of radius $\Delta R<0.4$ around an electron. In this analysis, an
 electron with $\etcone/\pt<0.08$ and $\ptcone/\pt<0.06$ is considered isolated.
 
 
-\subsection{Muons}
+\section{Muons}
 \label{sec:presel:muon}
 
 Muons reconstructed by the STACO algorithm \cite{AtlasCSCBook} are
@@ -116,7 +116,7 @@ event, to reduce the dependence on pileup. In this analysis, a muon with
 $\etcone/\pt<0.04$ and $\ptcone/\pt<0.06$ is considered isolated.
 
 
-\subsection{Jets}
+\section{Jets}
 \label{sec:presel:jet}
 
 The jets used in this analysis are reconstructed using the Anti-$k_T$
@@ -153,7 +153,7 @@ algorithm uses the output weights of the JetFitter+IP3D, IP3D and
 SV1 b-taggers as inputs. The working point that gives a nominal
 b-tagging efficiency of 70\% on \ttbar samples is used.
 
-\subsection{Taus}
+\section{Taus}
 \label{sec:presel:tau}
 
 Hadronically decaying tau candidates are reconstructed using clusters
@@ -168,7 +168,7 @@ multivariant tau identification selection as well as the dedicated
 electron and muon vetoes for hadronically decaying tau candidates.
 
 
-\subsection{Overlap Removal}
+\section{Overlap Removal}
 \label{sec:presel:olr}
 
 After the preselection of the physics objects needed for this
@@ -185,7 +185,7 @@ then applied in the following order:
   muon, electron or tau within \linebreak $\Delta R<0.2$.
 \end{itemize}
 
-\subsection{Missing Transverse Energy}
+\section{Missing Transverse Energy}
 \label{sec:presel:met}
 
 The missing transverse energy, \MET, is calculated using the
@@ -214,14 +214,14 @@ to the energy or direction of the physics objects in the final
 analysis is also propagated to the \met.
 
 
-\subsection{Vertices} 
+\section{Vertices} 
 \label{sec:presel:vertices}
 In this analysis vertices are selected that have a minimum of three
 associated tracks: this helps to ensure that the selected vertices
 come from beam-beam interactions rather than, for instance, cosmic
 muons.
 
-\subsection{Event Cleaning}
+\section{Event Cleaning}
 \label{sec:presel:celaning}
 
 In addition to the data quality requirements described in section
@@ -282,7 +282,7 @@ cells identified in data taking periods B1 and B2 \cite{hottile}.
 \end{table}
 
 
-\subsection{Monte Carlo Corrections}
+\section{Monte Carlo Corrections}
 \label{sec:presel:MCCorr}
 
 The MC samples used on this analysis are corrected to account for differences
@@ -291,7 +291,7 @@ identification and b-tagging efficiencies. Furthermore, the MC is
 reweighted so that the vertex multiplicity distribution agrees with
 that in the data.
 
-\subsubsection{Trigger Efficiency corrections}
+\section{Trigger Efficiency corrections}
 \label{sec:presel:TriggerCorr}
 
 Correction factors are applied to the simulated trigger efficiency for
@@ -315,7 +315,7 @@ and probe measurement with \Zmumu events. Oncemore, scale factors are derived
 from the ratio of the trigger efficiency measured in data and MC, measured as a
 function of electron \pt and $\eta$.
 
-\subsubsection{Lepton Reconstruction Efficiency Corrections}
+\section{Lepton Reconstruction Efficiency Corrections}
 \label{sec:presel:LepEffCorr}
 
 Further correction factors are applied to the MC samples to account
@@ -329,14 +329,14 @@ Similarly, muon reconstruction efficiency scale factors
 have been measured, using a \Zmumu tag and probe analysis, 
 as a function of the muon \pt, $\eta$, $\phi$ and charge \cite{MuonSF}.
 
-\subsubsection{b-tagging Efficiency Corrections}
+\section{b-tagging Efficiency Corrections}
 \label{sec:presel:BTagEffCorr}
 
 Corrections are applied to the b-tagging efficiency and mistag rate in
 MC, using a combination of the System8 and likelihood scale
 factor measurements \cite{BTagSF}. Separate scale factors are applied based on the origin of the jet at truth level - from a $b$ quark, a $c$ quark, a $\tau$ or a light quark - and are applied as a function of the jet \pt and $\eta$.
 
-\subsubsection{Pileup Reweighting}
+\section{Pileup Reweighting}
 \label{sec:presel:PileupCorr}
 
 Differences between the distribution of the average number of
