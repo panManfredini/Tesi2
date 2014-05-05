@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  5 MAY 2014 14:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  5 MAY 2014 15:47
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -432,142 +432,34 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \openout4 = `tesi.toc'.
 
 
-(./t_pheno.tex [1
+(./a_strategy.tex [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2
 
 ]
 Chapter 1.
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ≤ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ≤ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ≤ in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ≤ in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-[3]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ≤ in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ≤ in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ≤ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ≤ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ü in font cmr12!
-Missing character: There is no í in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ≥ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ü in font cmr12!
-Missing character: There is no í in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no º in font cmr12!
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-(./a_strategy.tex [5] [6
-
-]
-Chapter 2.
-[7] <figure/mh_mod.png, id=173, 630.10406pt x 535.2497pt>
+[3] <figure/mh_mod.png, id=146, 630.10406pt x 535.2497pt>
 File: figure/mh_mod.png Graphic file (type png)
 
 <use figure/mh_mod.png>
 
-LaTeX Warning: Reference `' on page 8 undefined on input line 95.
+LaTeX Warning: Reference `' on page 4 undefined on input line 95.
 
 
-LaTeX Warning: Reference `' on page 8 undefined on input line 106.
+LaTeX Warning: Reference `' on page 4 undefined on input line 106.
 
-
-LaTeX Warning: Reference `' on page 8 undefined on input line 107.
-
-[8
+[4
 
  <./figure/mh_mod.png (PNG copy)>]
 
-LaTeX Warning: Citation `LHCstat' on page 9 undefined on input line 117.
+LaTeX Warning: Citation `LHCstat' on page 5 undefined on input line 117.
 
 
-LaTeX Warning: Reference `sec:stat' on page 9 undefined on input line 120.
+LaTeX Warning: Citation `NP' on page 5 undefined on input line 159.
 
-
-LaTeX Warning: Citation `NP' on page 9 undefined on input line 159.
-
-[9]
+[5]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 192.
 
  (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
@@ -575,178 +467,140 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 192.
+ [6]
+
+LaTeX Warning: Reference `chap:detector' on page 7 undefined on input line 238.
 
 
-LaTeX Warning: Reference `bla' on page 10 undefined on input line 192.
-
-
-LaTeX Warning: Reference `bla2' on page 10 undefined on input line 192.
-
-
-LaTeX Warning: Reference `bla' on page 10 undefined on input line 193.
-
-
-LaTeX Warning: Reference `bla' on page 10 undefined on input line 196.
-
-
-LaTeX Warning: Reference `bla' on page 10 undefined on input line 197.
-
-[10]
-
-LaTeX Warning: Reference `chap:detector' on page 11 undefined on input line 237
-.
-
-<figure/bba.png, id=194, 279.29344pt x 195.73125pt>
+<figure/bba.png, id=174, 279.29344pt x 195.73125pt>
 File: figure/bba.png Graphic file (type png)
  <use figure/bba.png>
-<figure/ggf.png, id=195, 531.48563pt x 201.75375pt>
+<figure/ggf.png, id=175, 531.48563pt x 201.75375pt>
 File: figure/ggf.png Graphic file (type png)
  <use figure/ggf.png>
-<figure/xsec.png, id=196, 695.59875pt x 328.22626pt>
+<figure/xsec.png, id=176, 695.59875pt x 328.22626pt>
 File: figure/xsec.png Graphic file (type png)
  <use figure/xsec.png>
-<figure/br.png, id=198, 679.03688pt x 1873.7503pt>
+<figure/br.png, id=178, 679.03688pt x 1873.7503pt>
 File: figure/br.png Graphic file (type png)
  <use figure/br.png>
 
-LaTeX Warning: Reference `chap:detector' on page 11 undefined on input line 309
-.
-
-[11 <./figure/bba.png (PNG copy)> <./figure/ggf.png (PNG copy)>]
-
-LaTeX Warning: Reference `sec:bkg' on page 12 undefined on input line 312.
+LaTeX Warning: Reference `chap:detector' on page 7 undefined on input line 345.
 
 
-LaTeX Warning: Reference `ap:presel' on page 12 undefined on input line 319.
+[7 <./figure/bba.png (PNG copy)> <./figure/ggf.png (PNG copy)>]
 
+LaTeX Warning: Reference `chapted:detector' on page 8 undefined on input line 3
+55.
 
-LaTeX Warning: Reference `chap:detector' on page 12 undefined on input line 323
-.
-
-[12 <./figure/xsec.png (PNG copy)>] [13 <./figure/br.png (PNG copy)>]
-<figure/std_plots_presel.pdf, id=230, page=11, 569.12625pt x 408.52625pt>
+[8 <./figure/xsec.png (PNG copy)>] [9 <./figure/br.png (PNG copy)>] [10]
+<figure/std_plots_presel.pdf, id=222, page=11, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 11>
-<figure/std_plots_presel.pdf, id=231, page=12, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=223, page=12, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 12>
-<figure/std_plots_presel.pdf, id=232, page=9, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=224, page=9, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 9>
-<figure/std_plots_presel.pdf, id=233, page=10, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=225, page=10, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 10>
-Underfull \vbox (badness 3271) has occurred while \output is active []
-
- [14]
-[15 <./figure/std_plots_presel.pdf, page is rotated 90 degrees> <./figure/std_p
-lots_presel.pdf, page is rotated 90 degrees> <./figure/std_plots_presel.pdf, pa
-ge is rotated 90 degrees> <./figure/std_plots_presel.pdf, page is rotated 90 de
-grees>] <figure/std_plots_mass.pdf, id=296, page=1, 569.12625pt x 408.52625pt>
+<figure/std_plots_mass.pdf, id=227, page=1, 569.12625pt x 408.52625pt>
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
 
 <use figure/std_plots_mass.pdf, page 1>
-<figure/std_plots_mass.pdf, id=297, page=3, 569.12625pt x 408.52625pt>
+<figure/std_plots_mass.pdf, id=228, page=3, 569.12625pt x 408.52625pt>
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
 
 <use figure/std_plots_mass.pdf, page 3>
-<figure/std_plots_mass.pdf, id=298, page=2, 569.12625pt x 408.52625pt>
+<figure/std_plots_mass.pdf, id=229, page=2, 569.12625pt x 408.52625pt>
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
 
 <use figure/std_plots_mass.pdf, page 2>
-<figure/std_plots_mass.pdf, id=299, page=5, 569.12625pt x 408.52625pt>
+<figure/std_plots_mass.pdf, id=230, page=5, 569.12625pt x 408.52625pt>
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
 
 <use figure/std_plots_mass.pdf, page 5>
-<figure/std_plots_mass.pdf, id=300, page=7, 569.12625pt x 408.52625pt>
+<figure/std_plots_mass.pdf, id=231, page=7, 569.12625pt x 408.52625pt>
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
 
 <use figure/std_plots_mass.pdf, page 7>
-Underfull \hbox (badness 2671) in paragraph at lines 447--463
+Underfull \hbox (badness 2671) in paragraph at lines 483--499
 [][] [][]
  []
 
-<figure/std_plots_mass.pdf, id=301, page=6, 569.12625pt x 408.52625pt>
+<figure/std_plots_mass.pdf, id=232, page=6, 569.12625pt x 408.52625pt>
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
 
 <use figure/std_plots_mass.pdf, page 6>
 
-LaTeX Warning: Float too large for page by 52.8146pt on input line 473.
+LaTeX Warning: Float too large for page by 52.8146pt on input line 509.
 
-) (./a_bkg_modeling.tex
+) (./a_bkg_modeling.tex [11] [12 <./figure/std_plots_presel.pdf, page is rotate
+d 90 degrees> <./figure/std_plots_presel.pdf, page is rotated 90 degrees> <./fi
+gure/std_plots_presel.pdf, page is rotated 90 degrees> <./figure/std_plots_pres
+el.pdf, page is rotated 90 degrees>] [13 <./figure/std_plots_mass.pdf, page is 
+rotated 90 degrees> <./figure/std_plots_mass.pdf, page is rotated 90 degrees> <
+./figure/std_plots_mass.pdf, page is rotated 90 degrees> <./figure/std_plots_ma
+ss.pdf, page is rotated 90 degrees> <./figure/std_plots_mass.pdf, page is rotat
+ed 90 degrees> <./figure/std_plots_mass.pdf, page is rotated 90 degrees>]
+[14]
 
-LaTeX Warning: Reference `c:detector' on page 16 undefined on input line 24.
+LaTeX Warning: Reference `c:detector' on page 15 undefined on input line 24.
 
 
-LaTeX Warning: Reference `' on page 16 undefined on input line 27.
+LaTeX Warning: Reference `' on page 15 undefined on input line 27.
 
-[16] [17 <./figure/std_plots_mass.pdf, page is rotated 90 degrees> <./figure/st
-d_plots_mass.pdf, page is rotated 90 degrees> <./figure/std_plots_mass.pdf, pag
-e is rotated 90 degrees> <./figure/std_plots_mass.pdf, page is rotated 90 degre
-es> <./figure/std_plots_mass.pdf, page is rotated 90 degrees> <./figure/std_plo
-ts_mass.pdf, page is rotated 90 degrees>]
-<figure/std_plots_presel.pdf, id=369, page=5, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=356, page=5, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 5>
-<figure/std_plots_presel.pdf, id=370, page=7, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=357, page=7, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 7>
-<figure/std_plots_presel.pdf, id=371, page=2, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=358, page=2, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 2>
-<figure/std_plots_presel.pdf, id=372, page=4, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=359, page=4, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
-<use figure/std_plots_presel.pdf, page 4> [18] [19] [20 <./figure/std_plots_pre
-sel.pdf, page is rotated 90 degrees> <./figure/std_plots_presel.pdf, page is ro
-tated 90 degrees> <./figure/std_plots_presel.pdf, page is rotated 90 degrees> <
-./figure/std_plots_presel.pdf, page is rotated 90 degrees>]
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=459, page=1, 569.12625pt x 408.
+<use figure/std_plots_presel.pdf, page 4> [15] [16]
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=405, page=1, 569.12625pt x 408.
 52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 1>
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=460, page=6, 569.12625pt x 408.
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=406, page=6, 569.12625pt x 408.
 52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 6>
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=461, page=8, 569.12625pt x 408.
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=407, page=8, 569.12625pt x 408.
 52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 8>
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=462, page=12, 569.12625pt x 408
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=408, page=12, 569.12625pt x 408
 .52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 12>
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=463, page=13, 569.12625pt x 408
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=409, page=13, 569.12625pt x 408
 .52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 13>
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=464, page=10, 569.12625pt x 408
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=410, page=10, 569.12625pt x 408
 .52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 10>
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=465, page=11, 569.12625pt x 408
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=411, page=11, 569.12625pt x 408
 .52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
- <use figure/bg_estimation/std_plots_twoBtag.pdf, page 11>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
-[22 <./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> 
-<./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./f
-igure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees>]
-[23 <./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> 
-<./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./f
-igure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./figur
-e/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees>] [24]
-<figure/ABCD_regionB_Vs_regionD.pdf, id=552, 569.12625pt x 387.4475pt>
+ <use figure/bg_estimation/std_plots_twoBtag.pdf, page 11> [17]
+<figure/ABCD_regionB_Vs_regionD.pdf, id=427, 569.12625pt x 387.4475pt>
 File: figure/ABCD_regionB_Vs_regionD.pdf Graphic file (type pdf)
 
 <use figure/ABCD_regionB_Vs_regionD.pdf>
@@ -759,11 +613,11 @@ Overfull \hbox (4.3144pt too wide) in paragraph at lines 370--394
 [][] 
  []
 
-<figure/QCD/qcd_CR_emb.pdf, id=553, page=1, 569.12625pt x 408.52625pt>
+<figure/QCD/qcd_CR_emb.pdf, id=428, page=1, 569.12625pt x 408.52625pt>
 File: figure/QCD/qcd_CR_emb.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_CR_emb.pdf, page 1>
-<figure/QCD/qcd_CR_emb.pdf, id=554, page=5, 569.12625pt x 408.52625pt>
+<figure/QCD/qcd_CR_emb.pdf, id=429, page=5, 569.12625pt x 408.52625pt>
 File: figure/QCD/qcd_CR_emb.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_CR_emb.pdf, page 5>
@@ -787,40 +641,53 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 425.
 
-[25 <./figure/ABCD_regionB_Vs_regionD.pdf, page is rotated 90 degrees>]
-[26] [27 <./figure/QCD/qcd_CR_emb.pdf, page is rotated 90 degrees> <./figure/QC
-D/qcd_CR_emb.pdf, page is rotated 90 degrees>]
-<figure/bg_estimation/std_plots_emb.pdf, id=670, page=1, 569.12625pt x 408.5262
+[18] [19 <./figure/std_plots_presel.pdf, page is rotated 90 degrees> <./figure/
+std_plots_presel.pdf, page is rotated 90 degrees> <./figure/std_plots_presel.pd
+f, page is rotated 90 degrees> <./figure/std_plots_presel.pdf, page is rotated 
+90 degrees>] [20 <./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated
+ 90 degrees> <./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 
+degrees> <./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degr
+ees>]
+<figure/bg_estimation/std_plots_emb.pdf, id=545, page=1, 569.12625pt x 408.5262
 5pt>
 File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_emb.pdf, page 1>
-<figure/bg_estimation/std_plots_emb.pdf, id=671, page=2, 569.12625pt x 408.5262
+Underfull \vbox (badness 3977) has occurred while \output is active []
+
+ [21 <./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees>
+ <./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./
+figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./figu
+re/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees>] [22 <./fig
+ure/ABCD_regionB_Vs_regionD.pdf, page is rotated 90 degrees> <./figure/QCD/qcd_
+CR_emb.pdf, page is rotated 90 degrees> <./figure/QCD/qcd_CR_emb.pdf, page is r
+otated 90 degrees>]
+<figure/bg_estimation/std_plots_emb.pdf, id=651, page=2, 569.12625pt x 408.5262
 5pt>
 File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_emb.pdf, page 2>
-<figure/bg_estimation/std_plots_emb.pdf, id=672, page=3, 569.12625pt x 408.5262
+<figure/bg_estimation/std_plots_emb.pdf, id=652, page=3, 569.12625pt x 408.5262
 5pt>
 File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_emb.pdf, page 3>) (./a_sys.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28 <./figure/bg_estimation/std_plots_emb.pdf, page is rotated 90 degrees>] [2
-9 <./figure/bg_estimation/std_plots_emb.pdf, page is rotated 90 degrees> <./fig
+ [23 <./figure/bg_estimation/std_plots_emb.pdf, page is rotated 90 degrees>] [2
+4 <./figure/bg_estimation/std_plots_emb.pdf, page is rotated 90 degrees> <./fig
 ure/bg_estimation/std_plots_emb.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Reference `appendix:shapeNPs' on page 30 undefined on input line
+LaTeX Warning: Reference `appendix:shapeNPs' on page 25 undefined on input line
  19.
 
 
-LaTeX Warning: Reference `sec:ExclusionLimits' on page 30 undefined on input li
+LaTeX Warning: Reference `sec:ExclusionLimits' on page 25 undefined on input li
 ne 32.
 
-[30] [31]
+[25]
 
-LaTeX Warning: Reference `chap:detector' on page 32 undefined on input line 102
+LaTeX Warning: Reference `chap:detector' on page 26 undefined on input line 102
 .
 
-[32] [33] <figure/facs_mll_bveto.pdf, id=775, 569.12625pt x 552.0625pt>
+[26] [27] [28] <figure/facs_mll_bveto.pdf, id=755, 569.12625pt x 552.0625pt>
 File: figure/facs_mll_bveto.pdf Graphic file (type pdf)
 
 <use figure/facs_mll_bveto.pdf>
@@ -845,53 +712,53 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 338.
 
 
-<figure/systematics/emb_sys_NoBtagFull_MFS.png, id=777, 798.985pt x 574.145pt>
+<figure/systematics/emb_sys_NoBtagFull_MFS.png, id=757, 798.985pt x 574.145pt>
 File: figure/systematics/emb_sys_NoBtagFull_MFS.png Graphic file (type png)
 
 <use figure/systematics/emb_sys_NoBtagFull_MFS.png>
-<figure/systematics/emb_sys_NoBtagFull_Iso.png, id=778, 798.985pt x 574.145pt>
+<figure/systematics/emb_sys_NoBtagFull_Iso.png, id=758, 798.985pt x 574.145pt>
 File: figure/systematics/emb_sys_NoBtagFull_Iso.png Graphic file (type png)
 
-<use figure/systematics/emb_sys_NoBtagFull_Iso.png> [34] [35 <./figure/facs_mll
-_bveto.pdf, page is rotated 90 degrees> <./figure/systematics/emb_sys_NoBtagFul
+<use figure/systematics/emb_sys_NoBtagFull_Iso.png> [29 <./figure/facs_mll_bvet
+o.pdf, page is rotated 90 degrees>] [30 <./figure/systematics/emb_sys_NoBtagFul
 l_MFS.png (PNG copy)> <./figure/systematics/emb_sys_NoBtagFull_Iso.png (PNG cop
-y)>] <figure/QCD/qcd_plot.pdf, id=843, page=5, 569.12625pt x 385.44pt>
+y)>] <figure/QCD/qcd_plot.pdf, id=822, page=5, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot.pdf, page 5>
-<figure/QCD/shape_tag.png, id=846, 698.61pt x 473.77pt>
+<figure/QCD/shape_tag.png, id=825, 698.61pt x 473.77pt>
 File: figure/QCD/shape_tag.png Graphic file (type png)
 
 <use figure/QCD/shape_tag.png>
-<figure/QCD/shape_veto.png, id=847, 698.61pt x 473.77pt>
+<figure/QCD/shape_veto.png, id=826, 698.61pt x 473.77pt>
 File: figure/QCD/shape_veto.png Graphic file (type png)
 
 <use figure/QCD/shape_veto.png>) (./a_result.tex
 
-LaTeX Warning: Citation `lhc' on page 36 undefined on input line 7.
+LaTeX Warning: Citation `lhc' on page 31 undefined on input line 7.
 
 
-LaTeX Warning: Citation `cramer' on page 36 undefined on input line 7.
+LaTeX Warning: Citation `cramer' on page 31 undefined on input line 7.
 
-[36] [37 <./figure/QCD/qcd_plot.pdf, page is rotated 90 degrees>] [38 <./figure
+[31] [32 <./figure/QCD/qcd_plot.pdf, page is rotated 90 degrees>] [33 <./figure
 /QCD/shape_tag.png (PNG copy)> <./figure/QCD/shape_veto.png (PNG copy)>]
-<figure/test_stat.pdf, id=910, 569.12625pt x 410.53375pt>
+<figure/test_stat.pdf, id=888, 569.12625pt x 410.53375pt>
 File: figure/test_stat.pdf Graphic file (type pdf)
 
-<use figure/test_stat.pdf> [39] [40 <./figure/test_stat.pdf, page is rotated 90
- degrees>] [41]
+<use figure/test_stat.pdf> [34] [35 <./figure/test_stat.pdf, page is rotated 90
+ degrees>] [36]
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
  <use figure/std_plots_mass.pdf, page 6>
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
 
 <use figure/std_plots_mass.pdf, page 5>
-<figure/limits/Limits_mAtanBeta_Comb.pdf, id=985, 569.12625pt x 541.02126pt>
+<figure/limits/Limits_mAtanBeta_Comb.pdf, id=964, 569.12625pt x 541.02126pt>
 File: figure/limits/Limits_mAtanBeta_Comb.pdf Graphic file (type pdf)
 
-<use figure/limits/Limits_mAtanBeta_Comb.pdf> [42]) (./tesi.bbl [43] [44 <./fig
-ure/limits/Limits_mAtanBeta_Comb.pdf>] [45
+<use figure/limits/Limits_mAtanBeta_Comb.pdf>) (./tesi.bbl [37] [38 <./figure/l
+imits/Limits_mAtanBeta_Comb.pdf>] [39
 
-] [46]
+] [40]
 Underfull \hbox (badness 2197) in paragraph at lines 201--204
 \OT1/cmr/m/it/12 fras-truc-ture\OT1/cmr/m/n/12 , ATLAS-SOFT-2010-01-004, sub-mi
 t-ted to Eur. Phys. J. C.,
@@ -900,7 +767,7 @@ t-ted to Eur. Phys. J. C.,
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no à in font cmti12!
 Missing character: There is no í in font cmti12!
-[47]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 241--243
 []\OT1/cmr/m/n/12 ATLAS egamma WG, \OT1/cmr/m/it/12 Elec-tron ef-fi-ciency mea-
 sure-ments\OT1/cmr/m/n/12 ,
@@ -912,259 +779,259 @@ Overfull \hbox (20.44154pt too wide) in paragraph at lines 277--280
 /Main/JetEnergyResolutionProvider. 
  []
 
-[48]
+[42]
 Overfull \hbox (128.65894pt too wide) in paragraph at lines 364--365
 []\OT1/cmr/m/n/12 Statistical twiki, Nuis-sanceCheck. []https://twiki.cern.ch/t
 wiki/bin/view/AtlasProtected/NuisanceCheck[] 
  []
 
-) [49] (./appendix_qcd.tex [50
+) [43] (./appendix_qcd.tex [44
 
 ]
 Appendix A.
-<figure/appendix/trigger_comp.png, id=1152, 698.61pt x 473.77pt>
+<figure/appendix/trigger_comp.png, id=1126, 698.61pt x 473.77pt>
 File: figure/appendix/trigger_comp.png Graphic file (type png)
 
 <use figure/appendix/trigger_comp.png>
-<figure/appendix/trig_comp_ptcone3.png, id=1153, 698.61pt x 475.7775pt>
+<figure/appendix/trig_comp_ptcone3.png, id=1127, 698.61pt x 475.7775pt>
 File: figure/appendix/trig_comp_ptcone3.png Graphic file (type png)
 
 <use figure/appendix/trig_comp_ptcone3.png>
-<figure/appendix/trig_comp_etcone3.png, id=1154, 698.61pt x 475.7775pt>
+<figure/appendix/trig_comp_etcone3.png, id=1128, 698.61pt x 475.7775pt>
 File: figure/appendix/trig_comp_etcone3.png Graphic file (type png)
 
-<use figure/appendix/trig_comp_etcone3.png> [51] [52 <./figure/appendix/trigger
+<use figure/appendix/trig_comp_etcone3.png> [45] [46 <./figure/appendix/trigger
 _comp.png (PNG copy)> <./figure/appendix/trig_comp_ptcone3.png (PNG copy)> <./f
 igure/appendix/trig_comp_etcone3.png (PNG copy)>]
 Appendix B.
-<figure/QCD/qcd_plot.pdf, id=1165, page=1, 569.12625pt x 385.44pt>
+<figure/QCD/qcd_plot.pdf, id=1139, page=1, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot.pdf, page 1>
-<figure/QCD/qcd_plot.pdf, id=1166, page=2, 569.12625pt x 385.44pt>
+<figure/QCD/qcd_plot.pdf, id=1140, page=2, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot.pdf, page 2>
-<figure/QCD/qcd_plot.pdf, id=1167, page=3, 569.12625pt x 385.44pt>
+<figure/QCD/qcd_plot.pdf, id=1141, page=3, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot.pdf, page 3>
-<figure/QCD/qcd_plot.pdf, id=1168, page=4, 569.12625pt x 385.44pt>
+<figure/QCD/qcd_plot.pdf, id=1142, page=4, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot.pdf, page 4>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[53
+[47
 
 
  <./figure/QCD/qcd_plot.pdf, page is rotated 90 degrees> <./figure/QCD/qcd_plot
-.pdf, page is rotated 90 degrees>] [54 <./figure/QCD/qcd_plot.pdf, page is rota
+.pdf, page is rotated 90 degrees>] [48 <./figure/QCD/qcd_plot.pdf, page is rota
 ted 90 degrees> <./figure/QCD/qcd_plot.pdf, page is rotated 90 degrees>])
 (./appendix_limit.tex
 Appendix C.
-<figure/np_check/pull_veto.png, id=1229, 1426.32875pt x 1150.2975pt>
+<figure/np_check/pull_veto.png, id=1203, 1426.32875pt x 1150.2975pt>
 File: figure/np_check/pull_veto.png Graphic file (type png)
 
 <use figure/np_check/pull_veto.png>
-<figure/np_check/pull_tag.png, id=1230, 1426.32875pt x 1150.2975pt>
+<figure/np_check/pull_tag.png, id=1204, 1426.32875pt x 1150.2975pt>
 File: figure/np_check/pull_tag.png Graphic file (type png)
 
 <use figure/np_check/pull_tag.png>
-<figure/np_check/NP_combined.png, id=1231, 1426.32875pt x 1152.305pt>
+<figure/np_check/NP_combined.png, id=1205, 1426.32875pt x 1152.305pt>
 File: figure/np_check/NP_combined.png Graphic file (type png)
 
 <use figure/np_check/NP_combined.png>
-<figure/np_check/matrix_veto.png, id=1232, 1426.32875pt x 1150.2975pt>
+<figure/np_check/matrix_veto.png, id=1206, 1426.32875pt x 1150.2975pt>
 File: figure/np_check/matrix_veto.png Graphic file (type png)
 
 <use figure/np_check/matrix_veto.png>
-<figure/np_check/matrix_tag.png, id=1233, 1426.32875pt x 1150.2975pt>
+<figure/np_check/matrix_tag.png, id=1207, 1426.32875pt x 1150.2975pt>
 File: figure/np_check/matrix_tag.png Graphic file (type png)
 
 <use figure/np_check/matrix_tag.png>
-<figure/np_check/comb_unconditiona_matrixl.png, id=1234, 1426.32875pt x 1152.30
+<figure/np_check/comb_unconditiona_matrixl.png, id=1208, 1426.32875pt x 1152.30
 5pt>
 File: figure/np_check/comb_unconditiona_matrixl.png Graphic file (type png)
  <use figure/np_check/comb_unconditiona_matrixl.png>
-<figure/np_check/comb_LLHscan.pdf, id=1235, page=8, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1209, page=8, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 8>
-<figure/np_check/comb_LLHscan.pdf, id=1236, page=9, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1210, page=9, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 9>
-<figure/np_check/comb_LLHscan.pdf, id=1237, page=10, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1211, page=10, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 10>
-<figure/np_check/comb_LLHscan.pdf, id=1238, page=11, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1212, page=11, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 11>
-<figure/np_check/comb_LLHscan.pdf, id=1239, page=12, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1213, page=12, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 12>
-<figure/np_check/comb_LLHscan.pdf, id=1240, page=13, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1214, page=13, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 13>
-<figure/np_check/comb_LLHscan.pdf, id=1241, page=14, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1215, page=14, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 14>
-<figure/np_check/comb_LLHscan.pdf, id=1242, page=15, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1216, page=15, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 15>
-<figure/np_check/comb_LLHscan.pdf, id=1243, page=16, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1217, page=16, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 16>
-<figure/np_check/comb_LLHscan.pdf, id=1244, page=17, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1218, page=17, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 17>
-<figure/np_check/comb_LLHscan.pdf, id=1245, page=18, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1219, page=18, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 18>
-<figure/np_check/comb_LLHscan.pdf, id=1246, page=19, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1220, page=19, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 19>
-<figure/np_check/comb_LLHscan.pdf, id=1247, page=20, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1221, page=20, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 20>
-<figure/np_check/comb_LLHscan.pdf, id=1248, page=21, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1222, page=21, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 21>
-<figure/np_check/comb_LLHscan.pdf, id=1249, page=22, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1223, page=22, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 22>
-<figure/np_check/comb_LLHscan.pdf, id=1250, page=23, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1224, page=23, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 23>
-<figure/np_check/comb_LLHscan.pdf, id=1251, page=24, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1225, page=24, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 24>
-<figure/np_check/comb_LLHscan.pdf, id=1252, page=25, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1226, page=25, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 25>
-<figure/np_check/comb_LLHscan.pdf, id=1253, page=26, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1227, page=26, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 26>
-<figure/np_check/comb_LLHscan.pdf, id=1254, page=27, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1228, page=27, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 27>
-<figure/np_check/comb_LLHscan.pdf, id=1255, page=28, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1229, page=28, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 28>
-<figure/np_check/comb_LLHscan.pdf, id=1256, page=29, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1230, page=29, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 29>
-<figure/np_check/comb_LLHscan.pdf, id=1257, page=30, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1231, page=30, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 30>
-<figure/np_check/comb_LLHscan.pdf, id=1258, page=31, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1232, page=31, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 31>
-<figure/np_check/comb_LLHscan.pdf, id=1259, page=32, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1233, page=32, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 32>
-<figure/np_check/comb_LLHscan.pdf, id=1260, page=33, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1234, page=33, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 33>
-<figure/np_check/comb_LLHscan.pdf, id=1261, page=34, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1235, page=34, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 34>
-<figure/np_check/comb_LLHscan.pdf, id=1262, page=35, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1236, page=35, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 35>
-<figure/np_check/comb_LLHscan.pdf, id=1263, page=36, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1237, page=36, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 36>
-<figure/np_check/comb_LLHscan.pdf, id=1264, page=37, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1238, page=37, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 37>
-<figure/np_check/comb_LLHscan.pdf, id=1265, page=38, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1239, page=38, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 38>
-<figure/np_check/comb_LLHscan.pdf, id=1266, page=39, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1240, page=39, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 39>
-<figure/np_check/comb_LLHscan.pdf, id=1267, page=40, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1241, page=40, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 40>
-<figure/np_check/comb_LLHscan.pdf, id=1268, page=41, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1242, page=41, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 41>
-<figure/np_check/comb_LLHscan.pdf, id=1269, page=42, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1243, page=42, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 42>
-<figure/np_check/comb_LLHscan.pdf, id=1270, page=43, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1244, page=43, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 43>
-<figure/np_check/comb_LLHscan.pdf, id=1271, page=44, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1245, page=44, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 44>
-<figure/np_check/comb_LLHscan.pdf, id=1272, page=45, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1246, page=45, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 45>
-<figure/np_check/comb_LLHscan.pdf, id=1273, page=46, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1247, page=46, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 46>
-<figure/np_check/comb_LLHscan.pdf, id=1274, page=47, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1248, page=47, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 47>
-<figure/np_check/comb_LLHscan.pdf, id=1275, page=48, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1249, page=48, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 48>
-<figure/np_check/comb_LLHscan.pdf, id=1276, page=49, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1250, page=49, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 49>
-<figure/np_check/comb_LLHscan.pdf, id=1277, page=50, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1251, page=50, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 50>
-<figure/np_check/comb_LLHscan.pdf, id=1278, page=51, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1252, page=51, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 51>
-<figure/np_check/comb_LLHscan.pdf, id=1279, page=52, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=1253, page=52, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 52>
@@ -1172,7 +1039,7 @@ File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 161.
 
-<figure/limits/Limits_mAtanBeta_BTag.pdf, id=1280, 569.12625pt x 541.02126pt>
+<figure/limits/Limits_mAtanBeta_BTag.pdf, id=1254, 569.12625pt x 541.02126pt>
 File: figure/limits/Limits_mAtanBeta_BTag.pdf Graphic file (type pdf)
 
 <use figure/limits/Limits_mAtanBeta_BTag.pdf>
@@ -1181,7 +1048,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 170.
 
 
-<figure/limits/Limits_mAtanBeta_BVeto.pdf, id=1281, 569.12625pt x 541.02126pt>
+<figure/limits/Limits_mAtanBeta_BVeto.pdf, id=1255, 569.12625pt x 541.02126pt>
 File: figure/limits/Limits_mAtanBeta_BVeto.pdf Graphic file (type pdf)
 
 <use figure/limits/Limits_mAtanBeta_BVeto.pdf>
@@ -1190,18 +1057,18 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 179.
 
 
-<figure/limits/Limits_mAtanBeta_CombChannels.pdf, id=1282, 569.12625pt x 541.02
+<figure/limits/Limits_mAtanBeta_CombChannels.pdf, id=1256, 569.12625pt x 541.02
 126pt>
 File: figure/limits/Limits_mAtanBeta_CombChannels.pdf Graphic file (type pdf)
- <use figure/limits/Limits_mAtanBeta_CombChannels.pdf> [55
+ <use figure/limits/Limits_mAtanBeta_CombChannels.pdf> [49
 
 
 
-] [56 <./figure/np_check/pull_veto.png (PNG copy)>] [57 <./figure/np_check/pull
-_tag.png (PNG copy)>] [58 <./figure/np_check/NP_combined.png (PNG copy)>] [59 <
-./figure/np_check/matrix_veto.png (PNG copy)>] [60 <./figure/np_check/matrix_ta
-g.png (PNG copy)>] [61 <./figure/np_check/comb_unconditiona_matrixl.png (PNG co
-py)>] [62 <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./f
+] [50 <./figure/np_check/pull_veto.png (PNG copy)>] [51 <./figure/np_check/pull
+_tag.png (PNG copy)>] [52 <./figure/np_check/NP_combined.png (PNG copy)>] [53 <
+./figure/np_check/matrix_veto.png (PNG copy)>] [54 <./figure/np_check/matrix_ta
+g.png (PNG copy)>] [55 <./figure/np_check/comb_unconditiona_matrixl.png (PNG co
+py)>] [56 <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./f
 igure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check
 /comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.
 pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is r
@@ -1213,7 +1080,7 @@ page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotate
 d 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> 
 <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_c
 heck/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHs
-can.pdf, page is rotated 90 degrees>] [63 <./figure/np_check/comb_LLHscan.pdf, 
+can.pdf, page is rotated 90 degrees>] [57 <./figure/np_check/comb_LLHscan.pdf, 
 page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotate
 d 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> 
 <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_c
@@ -1225,7 +1092,7 @@ gure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/
 comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.p
 df, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is ro
 tated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degre
-es> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees>] [64 <./fi
+es> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees>] [58 <./fi
 gure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/
 comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.p
 df, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is ro
@@ -1238,8 +1105,8 @@ age is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated
 ./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_ch
 eck/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHsc
 an.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page i
-s rotated 90 degrees>] [65 <./figure/limits/Limits_mAtanBeta_BTag.pdf> <./figur
-e/limits/Limits_mAtanBeta_BVeto.pdf>] [66 <./figure/limits/Limits_mAtanBeta_Com
+s rotated 90 degrees>] [59 <./figure/limits/Limits_mAtanBeta_BTag.pdf> <./figur
+e/limits/Limits_mAtanBeta_BVeto.pdf>] [60 <./figure/limits/Limits_mAtanBeta_Com
 bChannels.pdf>]) (./tesi.aux)
 
 LaTeX Warning: There were undefined references.
@@ -1249,10 +1116,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6882 strings out of 493848
- 104974 string characters out of 1152823
- 191592 words of memory out of 3000000
- 9712 multiletter control sequences out of 15000+50000
+ 6867 strings out of 493848
+ 104864 string characters out of 1152823
+ 192701 words of memory out of 3000000
+ 9708 multiletter control sequences out of 15000+50000
  18262 words of font info for 69 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,13n,39p,875b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1273,9 +1140,9 @@ xmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/
 public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
 onts/cm/cmtt12.pfb>
-Output written on tesi.pdf (66 pages, 2028015 bytes).
+Output written on tesi.pdf (60 pages, 2018184 bytes).
 PDF statistics:
- 1589 PDF objects out of 1728 (max. 8388607)
- 263 named destinations out of 1000 (max. 500000)
- 706 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1562 PDF objects out of 1728 (max. 8388607)
+ 255 named destinations out of 1000 (max. 500000)
+ 690 words of extra memory for PDF output out of 10000 (max. 10000000)
 

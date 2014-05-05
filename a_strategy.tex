@@ -104,7 +104,7 @@ of parameter space, for practical reason however,
 is usefull to fix  parameter of the model to achieve what is called a benchmark
 scenario. With the recent discovery, bechmark scenarios of the MSSM have been updated to fit
 with the new constraints (more details on benchmark scenarios are in chapter~\ref{}), 
-as an example in figure~\ref{} are reported the current exclusion limits
+as an example in figure~\ref{fig:mhmod} are reported the current exclusion limits
 for one of those updated scenarios, $m_{h}^{mod+}$, the green area represents what is currently 
 allowed in the $m_{A} - \text{tan}\beta$ plane showing that there is still plenty of room for BSM
 Higges.
@@ -117,7 +117,7 @@ of experimental physics.
 Search for new physics at the LHC extesively uses frequentistic statistical tests~\cite{LHCstat}.
 %to make
 %robust statements about the exsistence or the exclusion of new phenomena, %to make robust statements... qualcosa qui
-In this section an itroduction to statistical tests is given, for more details see section~\ref{sec:stat}.
+In this section an itroduction to statistical tests is given, for more details see section~\ref{sec:result}.
  
 A \emph{statistical test} is a rule to reject or accept an hypotesis, where for hypotesis is meant 
 a statement about the distribution of the data. Typically new physics searches are looking for a signal 
@@ -127,7 +127,7 @@ In the process of decision making is common to define what is called a \emph{sig
 a set of selections applied to data aimed to enhance signal with respect to the background, 
 the observed number of events in the SR, $N_{SR}$,  are used to make probabilistic statements about the two hypotesis.
 $N_{SR}$  is in fact a random
-variable described by a Poisson distribution where, in case the null hypotesis is true, $\nu_{B}$ events are expected, otherwise 
+variable described by a Poisson distribution, where, in case the null hypotesis is true, $\nu_{B}$ events are expected, otherwise 
 in case $H_1$ is true $\nu_{B} + \nu_{S}$ events are expected. The two probability distributions for the two hypotesis
 totaly describes the \emph{probability model} for this counting experiment.
 %
@@ -189,24 +189,25 @@ those embed effects like detector mismodeling and theoretical uncertainty.
 
 Summarizing, there are several ingredients that constitute a search for new physics:
 \begin{itemize}
-	\item Definition of a signal region in data where signal is enhanced with respect to the backgrounds, detailed for this analysis in section \ref{bla} and \ref{bla2}.
-	\item Definition of a discriminating variable which is usefull to disentangle between signal and backgrounds, see section \ref{bla}.
+	\item Definition of a signal region in data where signal is enhanced with respect to the backgrounds, detailed for this analysis in section \ref{sec:topology} 
+	and \ref{sec:selectiona}.
+	\item Definition of a discriminating variable which is usefull to disentangle between signal and backgrounds, see section \ref{sec:mmc}.
 	\item Definition of the probability model, i.e., the expectation for the distribution of the discriminating variable
 		 for signal and background hypotesis, this is one of the most importat
-		point of a search and main part of the work of this thesis, detailed in section \ref{bla}.
-	\item Definition of a test statistics to quantify an observation or an exclusion, which is discussed for the LHC in section \ref{bla}.
+		point of a search and main part of the work of this thesis, detailed in section \ref{sec:BackgroundEstimation}.
+	\item Definition of a test statistics to quantify an observation or an exclusion, which is discussed for the LHC in section \ref{sec:result}.
 \end{itemize}
 
 
 
-\subsection{Signal Topology}
+\subsection{Signal Topology}\label{sec:topology}
 
 
 This section describes the strategy to enhance the search sensitivity 
 taking advantage of the signal topology.
 The Sensitivity of a search is the signal strenght that is expected to be  excluded 
 in case of no signal. If one is searching for a rare process, then the analysis strategy, i.e. the
-plan or the steps to enhance the signal sensitivity of the search, is crucial.
+plan to enhance the signal sensitivity of the search, is crucial.
 This search is complementary to the Standard Model
 Higgs search in tau final state, this is also considered in the analysis strategy, 
 the focus is then on phase space not explored from SM search.
@@ -262,6 +263,41 @@ optimized separately.
    \label{fig:xsec}
 \end{figure}
 
+\begin{table}[t]
+  \begin{center}
+   \begin{footnotesize}	
+    \begin{tabular}{cc}
+      \hline \hline
+      Channel & Selection \\
+      \hline
+      Preselection 	&  Trigger \\
+	&	At least one reconstructed vertex \\
+	&	Event cleaning	\\
+	&	Tau Veto \\
+	& 	Exactly one tight isolated electron with $\pt > 15 $ or 25 GeV (trigger dependent) \\
+	&	Exactly one Combined isolated muon with  $\pt > 10$ GeV \\
+	& 	Opposite charge between the leptons \\ 
+      \hline
+      b-Tag & Exactly one b-tagged taggable jet \\
+      & $\Delta\phi(e-\mu)>2$ \\
+      & $\sum\cos\Delta\phi > -0.2$ \\
+      & $\sum H_T < 100$ GeV \\
+      & $\SumLtMET < 100$ GeV \\
+      & Good MMC solution \\
+      \hline
+      b-Veto & Exactly zero b-tagged taggable jets \\	
+      & $\Delta\phi(e-\mu)>1.6$ \\
+      & $\sum\cos\Delta\phi > -0.4$ \\
+%      & $\SumLtMET < 150 \GeV$ \\
+      & Good MMC solution \\
+      \hline \hline
+    \end{tabular}
+    \caption{Summary of the preselection and the full selections used for the b-tag and b-veto channels.}
+    \label{tab:sel}
+  \end{footnotesize}
+  \end{center}
+\end{table}
+
 The decays of the neutral
 MSSM Higgs bosons (in the assumption that all supersymmetric particle
 are heavy enough) are the same as for the SM one with the already
@@ -309,20 +345,20 @@ should have $\pt > $ 15 or 25~GeV depending on the trigger that selected the eve
 definition see chapter~\ref{chap:detector}.
 
 \item The two leptons should be isolated, meaning that in a cone around the lepton there should be little energy deposit (should not be sorraunded by                 
-other particle, common of non-promt leptons coming from jets). For more detail about isolation properties see section ~\ref{sec:bkg}.
+other particle, common of non-promt leptons coming from jets). For more detail about isolation properties see section ~\ref{sec:BackgroundEstimation}.
 
 \item Hadronic $\tau$ veto: the events is rejected if at least one hadronic $\tau$ is found with $\pt > $ 15 GeV.
 
 \item Lepton invariant mass greather than 30 GeV.
 \end{enumerate}
-This set of selection all togheter are referred in the following as \emph{preselection}. Full detail on preselections 
-regarding all the quality requirements  on object reconstruction are reported in appendix~\ref{ap:presel}. 
+This set of selection all togheter are referred in the following as \emph{preselection}. More detail on preselections 
+are reported in table~\ref{tab:sel}, for details on object reconstruction and quality requirements see chapter~\ref{chapted:detector}. 
 The two analysis category, \emph{b-tag} and \emph{b-veto}, are defined adding on top of the preselections 
 the request of "exactly one b-tagged jet" or "no b-tagged jet" in the event respectively, to be 
-\emph{taggable} a jet should have $\pt > 20$ GeV and $|\eta| < 2.5$ (for full definitions of b-tagging
-and jets see chapter~\ref{chap:detector}).
+\emph{taggable} a jet should have $\pt > 20$ GeV and $|\eta| < 2.5$.
 
-\subsection{How to deal with Backgrounds}
+
+\subsection{How to deal with Backgrounds}\label{sec:selectiona}
 %\subsection{Selections}
 The signal topology described in the previous section is common to many other processes, unfortunately, 
 those have higher cross section than the sought signal and a set of additional selections
@@ -473,40 +509,6 @@ variable in the limits setting.
 \end{figure}
 
 
-\begin{table}
-  \begin{center}
-   \begin{footnotesize}	
-    \begin{tabular}{cc}
-      \hline \hline
-      Channel & Selection \\
-      \hline
-      Preselection 	&  Trigger \\
-	&	At least one reconstructed vertex \\
-	&	Event cleaning	\\
-	&	Tau Veto \\
-	& 	Exactly one tight isolated electron with $\pt > 15 $ or 25 GeV (trigger dependent) \\
-	&	Exactly one Combined isolated muon with  $\pt > 10$ GeV \\
-	& 	Opposite charge between the leptons \\ 
-      \hline
-      b-Tag & Exactly one b-tagged taggable jet \\
-      & $\Delta\phi(e-\mu)>2$ \\
-      & $\sum\cos\Delta\phi > -0.2$ \\
-      & $\sum H_T < 100$ GeV \\
-      & $\SumLtMET < 100$ GeV \\
-      & Good MMC solution \\
-      \hline
-      b-Veto & Exactly zero b-tagged taggable jets \\	
-      & $\Delta\phi(e-\mu)>1.6$ \\
-      & $\sum\cos\Delta\phi > -0.4$ \\
-%      & $\SumLtMET < 150 \GeV$ \\
-      & Good MMC solution \\
-      \hline \hline
-    \end{tabular}
-    \caption{Summary of the preselection and the full selections used for the b-tag and b-veto channels.}
-    \label{tab:sel}
-  \end{footnotesize}
-  \end{center}
-\end{table}
 
 \begin{sidewaystable}
   \centering
