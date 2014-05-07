@@ -317,9 +317,11 @@ T.~A. Collaboration, {\em Search for the neutral Higgs bosons of the Minimal
  at  $\sqrt{7}$ TeV with the ATLAS Detector}, ATL-COM-PHYS-2011-758.
 
 \bibitem{BtaggingScaleFactors}
-{The ATLAS} Collaboration, {\em Measurement of the b-tag Efficiency in a Sample
-  of Jets Containing Muons with 5~\ifb of Data from the ATLAS Detector\/},
-  ATLAS-CONF-2012-043.
+{The ATLAS} Collaboration, {\em Measuring the b-tag efficiency in a ttbar sample with 4.7 $fb^{-1}$ of data from the ATLAS detector} ATLAS-CONF-2012-097.
+
+\bibitem{BtaggingScaleFactorsNew}
+{The ATLAS} Collaboration, {\em  Calibration of b-tagging using dileptonic top pair events in a combinatorial likelihood approach with the ATLAS experiment } 
+ ATLAS-CONF-2014-004.
 
 \bibitem{luminosity}
 {The ATLAS} Collaboration, {\em Luminosity Determination in pp Collisions at

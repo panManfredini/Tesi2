@@ -1,23 +1,12 @@
-\BOOKMARK [0][-]{chapter.1}{Neutral MSSM Higgs Search...}{}
-\BOOKMARK [1][-]{section.1.1}{The Search Strategy}{chapter.1}
-\BOOKMARK [2][-]{subsection.1.1.1}{Motivation}{section.1.1}
-\BOOKMARK [2][-]{subsection.1.1.2}{How to search for new phenomena?}{section.1.1}
-\BOOKMARK [2][-]{subsection.1.1.3}{Signal Topology}{section.1.1}
-\BOOKMARK [2][-]{subsection.1.1.4}{How to deal with Backgrounds}{section.1.1}
-\BOOKMARK [2][-]{subsection.1.1.5}{Mass Reconstruction with MMC Technique}{section.1.1}
-\BOOKMARK [1][-]{section.1.2}{Background Modeling and Validation}{chapter.1}
-\BOOKMARK [2][-]{subsection.1.2.1}{Simulated Event Samples}{section.1.2}
-\BOOKMARK [2][-]{subsection.1.2.2}{Top Quark Pair Production Validation}{section.1.2}
-\BOOKMARK [2][-]{subsection.1.2.3}{Multi-jet Background}{section.1.2}
-\BOOKMARK [2][-]{subsection.1.2.4}{Z \040+ Jets Background: Embedding Technique}{section.1.2}
-\BOOKMARK [1][-]{section.1.3}{Systematic Uncertainties}{chapter.1}
-\BOOKMARK [2][-]{subsection.1.3.1}{Detector-related Systematics Uncertainties}{section.1.3}
-\BOOKMARK [2][-]{subsection.1.3.2}{Theoretical Uncertainties}{section.1.3}
-\BOOKMARK [2][-]{subsection.1.3.3}{Z Embedding Systematics}{section.1.3}
-\BOOKMARK [2][-]{subsection.1.3.4}{QCD Multi-Jet Systematics}{section.1.3}
-\BOOKMARK [1][-]{section.1.4}{Results}{chapter.1}
-\BOOKMARK [2][-]{subsection.1.4.1}{LHC Procedure For Limits Setting}{section.1.4}
-\BOOKMARK [2][-]{subsection.1.4.2}{Exclusion Limits}{section.1.4}
-\BOOKMARK [0][-]{appendix.A}{QCD Trigger bias}{}
-\BOOKMARK [0][-]{appendix.B}{QCD Additional Plots}{}
-\BOOKMARK [0][-]{appendix.C}{Limits cross checks and additional plots}{}
+\BOOKMARK [0][-]{chapter.1}{Prospects for Neutral MSSM Higgs Search Improvement}{}
+\BOOKMARK [1][-]{section.1.1}{Introduction to Trackjets}{chapter.1}
+\BOOKMARK [1][-]{section.1.2}{Trackjet Performance}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.2.1}{B-tagging Performance}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.2}{Comparison Calo-jet Track-jet}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.3}{Impact of Trackjet to the Analysis}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.4}{B-Discriminant}{section.1.2}
+\BOOKMARK [1][-]{section.1.3}{Systematic Uncertainties on Trackjets}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.3.1}{General discussion}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.2}{Track Subtraction Method}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.3}{Track Subtraction Validation}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.4}{Track Subtraction Results}{section.1.3}
