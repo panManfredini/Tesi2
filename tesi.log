@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  6 MAY 2014 19:14
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.14)  8 MAY 2014 20:29
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -433,11 +433,11 @@ Chapter 1.
 
 LaTeX Warning: Reference `bla' on page 3 undefined on input line 11.
 
-[3] <figure/trackjet/bbA_pt.png, id=80, 720.6925pt x 487.8225pt>
+[3] <figure/trackjet/bbA_pt.png, id=75, 720.6925pt x 487.8225pt>
 File: figure/trackjet/bbA_pt.png Graphic file (type png)
 
 <use figure/trackjet/bbA_pt.png>
-<figure/trackjet/top_pt.png, id=81, 722.7pt x 485.815pt>
+<figure/trackjet/top_pt.png, id=76, 722.7pt x 485.815pt>
 File: figure/trackjet/top_pt.png Graphic file (type png)
 
 <use figure/trackjet/top_pt.png>
@@ -456,15 +456,59 @@ Overfull \hbox (45.87534pt too wide) has occurred while \output is active
 [4
 
  <./figure/trackjet/bbA_pt.png (PNG copy)> <./figure/trackjet/top_pt.png (PNG c
-opy)>]) (./tesi.bbl [5]
+opy)>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+ [5]
+<figure/trackjet/residuals.pdf, id=98, 569.12625pt x 385.44pt>
+File: figure/trackjet/residuals.pdf Graphic file (type pdf)
+
+<use figure/trackjet/residuals.pdf>
+<figure/trackjet/recoEfficiency.pdf, id=100, 569.12625pt x 385.44pt>
+File: figure/trackjet/recoEfficiency.pdf Graphic file (type pdf)
+
+<use figure/trackjet/recoEfficiency.pdf>
 Overfull \hbox (45.87534pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/12 6 \OT1/cmr/m/sl/12 CHAPTER 1.  PROSPECTS FOR NEUTRAL MSSM HIGGS
  SEARCH IMPROVEMENT
  []
 
-[6
+[6 <./figure/trackjet/residuals.pdf>]
+<figure/trackjet/std_eff_rej.pdf, id=117, 569.12625pt x 385.44pt>
+File: figure/trackjet/std_eff_rej.pdf Graphic file (type pdf)
 
-] [7] [8]
+<use figure/trackjet/std_eff_rej.pdf>
+<figure/trackjet/std_rej_pt.pdf, id=118, 569.12625pt x 385.44pt>
+File: figure/trackjet/std_rej_pt.pdf Graphic file (type pdf)
+
+<use figure/trackjet/std_rej_pt.pdf>
+
+pdfTeX warning: pdflatex (file ./figure/trackjet/eff_real_rej_mod.pdf): PDF inc
+lusion: found PDF version <1.5>, but at most version <1.4> allowed
+<figure/trackjet/eff_real_rej_mod.pdf, id=121, 569.12625pt x 385.44pt>
+File: figure/trackjet/eff_real_rej_mod.pdf Graphic file (type pdf)
+
+<use figure/trackjet/eff_real_rej_mod.pdf>) (./tesi.bbl [7 <./figure/trackjet/r
+ecoEfficiency.pdf>]
+Overfull \hbox (45.87534pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 8 \OT1/cmr/m/sl/12 CHAPTER 1.  PROSPECTS FOR NEUTRAL MSSM HIGGS
+ SEARCH IMPROVEMENT
+ []
+
+[8 <./figure/trackjet/std_eff_rej.pdf> <./figure/trackjet/std_rej_pt.pdf>]
+[9 <./figure/trackjet/eff_real_rej_mod.pdf>]
+Overfull \hbox (51.75027pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 10 \OT1/cmr/m/sl/12 CHAPTER 1.  PROSPECTS FOR NEUTRAL MSSM HIGG
+S SEARCH IMPROVEMENT
+ []
+
+[10
+
+] [11] [12]
 Underfull \hbox (badness 2197) in paragraph at lines 201--204
 \OT1/cmr/m/it/12 fras-truc-ture\OT1/cmr/m/n/12 , ATLAS-SOFT-2010-01-004, sub-mi
 t-ted to Eur. Phys. J. C.,
@@ -473,7 +517,7 @@ t-ted to Eur. Phys. J. C.,
 Missing character: There is no â in font cmti12!
 Missing character: There is no ˆ in font cmti12!
 Missing character: There is no ’ in font cmti12!
-[9]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 241--243
 []\OT1/cmr/m/n/12 ATLAS egamma WG, \OT1/cmr/m/it/12 Elec-tron ef-fi-ciency mea-
 sure-ments\OT1/cmr/m/n/12 ,
@@ -485,25 +529,25 @@ Overfull \hbox (20.44154pt too wide) in paragraph at lines 277--280
 /Main/JetEnergyResolutionProvider. 
  []
 
-[10]
+[14]
 Overfull \hbox (128.65894pt too wide) in paragraph at lines 366--367
 []\OT1/cmr/m/n/12 Statistical twiki, Nuis-sanceCheck. []https://twiki.cern.ch/t
 wiki/bin/view/AtlasProtected/NuisanceCheck[] 
  []
 
-) [11] (./tesi.aux)
+) [15] (./tesi.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6149 strings out of 493848
- 87451 string characters out of 1152823
- 167849 words of memory out of 3000000
- 9207 multiletter control sequences out of 15000+50000
+ 6211 strings out of 493848
+ 88761 string characters out of 1152823
+ 169985 words of memory out of 3000000
+ 9252 multiletter control sequences out of 15000+50000
  10536 words of font info for 39 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,6n,38p,413b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,11n,38p,495b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/
@@ -513,9 +557,9 @@ cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tesi.pdf (11 pages, 202579 bytes).
+Output written on tesi.pdf (15 pages, 331892 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -53,18 +53,64 @@ MV1 tagger the b-tagging efficiency drops, in fact,  rapidly  with jet $\pt$ rea
 
 A solution to the jet reconstruction efficiency is to use, instead of calorimetric jets (calo-jet), track-jet , which are as well
 anti-kt object (see chapter\ref{chap:detector}) but constructed using inner detector tracks as building blocks, not calorimeter cells.
-Jets in the ATLAS reconstruction software are reconstructed by clustering foru vector objects (calorimeter energy cluster, tracks, 
+Jets in the ATLAS reconstruction software are reconstructed by clustering four vector objects (calorimeter energy cluster, tracks, 
 truth particle, etc.) in the $\eta - \phi$ plane. In the case of clustering tracks, however, it is possible to take advantege of
 the longitudinal (\emph{z}) impact parameter information provided by the inner detector and build track-jets in three dimensions 
 $\eta - \phi - z$. Track-jets will then contains only tracks originating from the same interaction point (reconstructed vertex).
 Even thoug for calorimeter jet is possible to use the JVF, track-jets result to be more resistant to decrease in performance in the
 presence of pile-up, thus particolarly important in b-tagging, which depends on the determination of the jet-axis. 
-B-tagging has been never tested before on track-jets, in the following, the first study of b-tagging over track-jets performances is reported. 
+B-tagging has been never tested before on track-jets, in the following, the first study of b-tagging over track-jets 
+performances is reported. 
 
+%%%%%% Definition of Trackjets %%%%%%%%%%%
+Trackjets are builded by running the anti-kt clustering algorithm on a subset of tracks with respect to
+the total tracks in the event, this subsample is chosen by means of the TrackZTool this will return only
+tracks that are associated with the primary vertex of the event (vertex with higher transverse momentum 
+tracks associated), furthermore, to be allowed in the collection, tracks need to pass the following 
+quality selection criteria:
+\begin{itemize}
+\item $|z_{PV} * sin(\theta)| < 1.5$ mm, which the distance between the primary vertex and
+the extrapolation of the track to the plane ortogonal to the beam axis, and is a measure of how 
+much the track is pointing to the PV in the plane that contain the beam axis.
+\item $d_{PV} < 1.5$ mm where $d$ is the minimum distance between the track and the primary vertex  
+in the plane ortogonal to the beam axis.
+\item At least one pixel hit and at least 5 SCT hits.
+\item No b-layer hit requiremets
+\item $|\eta| < 2.5$
+\item $\pt > 300 $ MeV
+\item To build a trackjets is necessary to cluster at least two tracks
+\item A trackjet is produced and stored if the sum of its tracks has $\pt > 2$ GeV.
+\end{itemize}
+it has been shown that those selections, togheter with a maximum cone size for clustering of 
+$\Delta R = 0.6$, are the best compromise between quality requirements, to control "fakes" i.e. 
+tracks from random association of hits or badly reconstructed tracks, and b-hadron reconstruction efficiency.
 
+%%%%%%% Definition of the Samples %%%%%%%%%%%%%%
+For the purpose of studying performance of trackjets the trackject building algorithm, with the 
+specifications previously described, the following ATLAS standard MC simulation samples are produced
+with trackjets and b-tagging by means of ad-hoc implemented software within the ATLAS NTUPLE
+production software framework. Table~\ref{tab:tackjetSample} report a summary of the produced samples
+and their purpose of use.
 
-%as shown if figure~\ref{
-
+\begin{table}[tp]
+\centering
+	\begin{tabular}{l c c}
+	\hline
+	\hline
+	Process		&	MC Generator 	& Purpose				\\
+	\hline
+	Minimum bias	& Pythia		& Systematics study 			\\
+	$b\bar{b}$ 	& Alpgen		& Performance for low $\pt$ b-tagging 	\\
+	$\Ztautau$ 	& Pythia		& Impact on the analysis  	\\
+	$\ttbar$	& MC@NLO		& Impact on the analysis \\
+	MSSM $bb/A/h/H$ & Sherpa		& Impact on the analysis \\ 
+	\hline
+	\hline
+	\end{tabular}
+	\caption{Monte Carlo simulation sample produced for the sudies reported in this chapter.}
+	\label{tab:tackjetSample}
+\end{table}
+	
 
 
 
@@ -73,7 +119,95 @@ B-tagging has been never tested before on track-jets, in the following, the firs
 %\subsection{Definition of Trackjet}
 \section{Trackjet Performance}
 \subsection{B-tagging Performance}
-\subsection{Comparison Calo-jet Track-jet}
+Many analysis could profit from an enhanced b-jet reconstruction efficiency at low $\pt$, 
+the study presented in this section is aimed to compare performance of common 
+b-tagging algorithm and b-jet reconstruction efficiency between calorimeter jets (calo-jet)
+and track-jets, the study is specially focused on low transverse momentum jets.
+Due to the high precision of the inner detector track-jets are robust agaist 
+pileup and is possible possible to reconstruct them up to very low transverse momentum,
+if they are used for the only purpose of b-tagging then calibration is also not needed,
+however, track-jets can only reconstruct the charged part of the jet, the neutral part is lost,
+according to isospin invariance the expected neutral fraction in a jet is roughly $2/3$ of the total.
+This implies that the momentum and  of the track-jet will be shifted and the direction will 
+have a larger uncertainty, figure~\ref{fig:residuals} shows a comparison of track-jet and calo-jet $\pt$ residuals 
+with respect to true jet $\pt$, this effect may be critical for b-tagging algorithm since some of them
+strongly rely on the maesurement of jet axis and jet $\pt$.
+
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.6\textwidth]{figure/trackjet/residuals.pdf}
+\caption{Residuals comparison of track-jet and calo-jet $\pt$ with respect simulated jet $\pt$.}
+\label{fig:residuals}
+\end{figure}    
+
+To compare performance of track-jet and calo-jet, a cone size anti-kt 0.4 is choosen,
+if a reconstructed jets lais up to a distance in $\Delta R $ < 0.3 from a simulated b-hadron
+in the event, this jet is said to \emph{match with a b-hadron}. 
+Reconstruction efficiency is then defined as the ratio between the number of matched b-hadron
+and the total number of b-hadron. Figure~\ref{fig:recoEff} compare b-hadron reconstruction efficiency
+between calo-jet and track-jets, the latter shows a higher reconstruction efficiency for low 
+transverse momentum due to their robustness to pileup.
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.6\textwidth]{figure/trackjet/recoEfficiency.pdf}
+\caption{Comparison of b-hadron reconstruction efficiency for track-jet and calo-jet as a 
+function of the simulated b-hadron $\pt$. Note that calo-jet and track-jet has a requirement 
+at production level to be respectively with $\pt > 7$ and 2 GeV, a fair comparison is only possible
+above 8 GeV in $\pt$.}
+\label{fig:recoEff}
+\end{figure}    
+
+To exploit the performance of b-tagging on trackjets other two definitions are usefull: the tagging
+efficiency and the rejection power. The \emph{tagging efficiency} is the fraction of \emph{matched} jets 
+wich passes a determined selection on a tagging algorithm, i.e. which are \emph{tagged}.
+The rejection is the inverse of the misidentifying rate, i.e. the inverse of the fraction 
+of the jets which are not matched with a b-hadron or c-hadron, but are tagged. Fixing the selection
+value for a given tagging algorithm will fix a point in the efficiency-rejection plane, this
+is a common way in ATLAS to determine the performance of b-tagging and is shown in figure~\ref{fig:eff_rej},
+figure~\ref{fig:rej_pt} instead shows the rejection as a function of the $\pt$ of the trackjet for the
+tagging point which gives 50\% efficiency for that $\pt$ value. Mistagging rate is rapidly increasing
+for low transverse momentum trackjets, revealing the necessity of a dedicated tagging algorithm for 
+low $\pt$ jets.
+
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.7\textwidth]{figure/trackjet/std_eff_rej.pdf}
+\caption{Rejection as a function of the tagging efficiency for different ATLAS tagging algorithm.}
+\label{fig:eff_rej}
+\end{figure}    
+
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.7\textwidth]{figure/trackjet/std_rej_pt.pdf}
+\caption{Rejection as a function of the transverse momentum of the trackjet for the
+	tagging point which gives 50\% efficiency for that $\pt$ value. Different ATLAS tagging algorithm 
+	are reported.}
+\label{fig:rej_pt}
+\end{figure}    
+
+The previously introduced definitions do not allow a fair comparison between trackjets 
+and calojets, due to the fact that calojets can be reconstructed also in case
+no tracks are associated with them, in this particular case any tagging algorithm would likely fail,
+altering the rejection distribution. It is convinient to use instead the following quantities,
+\emph{effective rejection}, which is the inverse of the number of mistagged jets per event, and the
+b-hadron \emph{reconstruction efficiency}, which is defined above. Figure~\ref{fig:cj_tj} shows 
+a comparison between calojets and trackjets for the two variables just defined, for a given 
+b-hadron reconstruction efficiency  trackjets can achieve higher rejection, for a fair 
+comparison in this plot trackjets are selected in the transverse momentum range between 4 and 25 GeV, while
+calojets between 8 and 50 GeV, this follow from figure~\ref{fig:residuals}. This demonstrates that 
+thackjets are more suitable than calojets for low transverse momentum b-tagging.
+
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.7\textwidth]{figure/trackjet/eff_real_rej_mod.pdf}
+\caption{Effective rejection as a function of b-hadron reconstruction efficiency, trackjet and calo jets are
+	compared for two different ATLAS tagging algorithms. Trackjets are selected in the transverse momentum range 
+	between 4 and 25 GeV, while calojets between 8 and 50 GeV.}
+\label{fig:cj_tj}
+\end{figure}    
+
+
+
 \subsection{Impact of Trackjet to the Analysis} % A new Hope
 \subsection{B-Discriminant} % variable to enhance low pT b-tagging
 

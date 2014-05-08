@@ -1,12 +1,11 @@
 \contentsline {chapter}{\numberline {1}Prospects for Neutral MSSM Higgs Search Improvement}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction to Trackjets}{4}{section.1.1}
-\contentsline {section}{\numberline {1.2}Trackjet Performance}{5}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}B-tagging Performance}{5}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Comparison Calo-jet Track-jet}{5}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Impact of Trackjet to the Analysis}{5}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}B-Discriminant}{5}{subsection.1.2.4}
-\contentsline {section}{\numberline {1.3}Systematic Uncertainties on Trackjets}{5}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}General discussion}{5}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Track Subtraction Method}{5}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Track Subtraction Validation}{5}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Track Subtraction Results}{5}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.2}Trackjet Performance}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}B-tagging Performance}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Impact of Trackjet to the Analysis}{9}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}B-Discriminant}{9}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Systematic Uncertainties on Trackjets}{9}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}General discussion}{9}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Track Subtraction Method}{9}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Track Subtraction Validation}{9}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Track Subtraction Results}{9}{subsection.1.3.4}
