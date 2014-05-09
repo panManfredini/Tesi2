@@ -2,8 +2,6 @@
 \contentsline {section}{\numberline {1.1}Introduction to Trackjets}{4}{section.1.1}
 \contentsline {section}{\numberline {1.2}Trackjet Performance}{6}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}B-tagging Performance}{6}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Impact of Trackjet to the Analysis}{9}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}B-Discriminant}{9}{subsection.1.2.3}
 \contentsline {section}{\numberline {1.3}Systematic Uncertainties on Trackjets}{9}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}General discussion}{9}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Track Subtraction Method}{9}{subsection.1.3.2}

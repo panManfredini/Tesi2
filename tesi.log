@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.14)  8 MAY 2014 20:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.14)  9 MAY 2014 18:07
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -433,11 +433,11 @@ Chapter 1.
 
 LaTeX Warning: Reference `bla' on page 3 undefined on input line 11.
 
-[3] <figure/trackjet/bbA_pt.png, id=75, 720.6925pt x 487.8225pt>
+[3] <figure/trackjet/bbA_pt.png, id=65, 720.6925pt x 487.8225pt>
 File: figure/trackjet/bbA_pt.png Graphic file (type png)
 
 <use figure/trackjet/bbA_pt.png>
-<figure/trackjet/top_pt.png, id=76, 722.7pt x 485.815pt>
+<figure/trackjet/top_pt.png, id=66, 722.7pt x 485.815pt>
 File: figure/trackjet/top_pt.png Graphic file (type png)
 
 <use figure/trackjet/top_pt.png>
@@ -464,11 +464,11 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
  [5]
-<figure/trackjet/residuals.pdf, id=98, 569.12625pt x 385.44pt>
+<figure/trackjet/residuals.pdf, id=88, 569.12625pt x 385.44pt>
 File: figure/trackjet/residuals.pdf Graphic file (type pdf)
 
 <use figure/trackjet/residuals.pdf>
-<figure/trackjet/recoEfficiency.pdf, id=100, 569.12625pt x 385.44pt>
+<figure/trackjet/recoEfficiency.pdf, id=90, 569.12625pt x 385.44pt>
 File: figure/trackjet/recoEfficiency.pdf Graphic file (type pdf)
 
 <use figure/trackjet/recoEfficiency.pdf>
@@ -478,37 +478,53 @@ Overfull \hbox (45.87534pt too wide) has occurred while \output is active
  []
 
 [6 <./figure/trackjet/residuals.pdf>]
-<figure/trackjet/std_eff_rej.pdf, id=117, 569.12625pt x 385.44pt>
+<figure/trackjet/std_eff_rej.pdf, id=107, 569.12625pt x 385.44pt>
 File: figure/trackjet/std_eff_rej.pdf Graphic file (type pdf)
 
 <use figure/trackjet/std_eff_rej.pdf>
-<figure/trackjet/std_rej_pt.pdf, id=118, 569.12625pt x 385.44pt>
+<figure/trackjet/std_rej_pt.pdf, id=108, 569.12625pt x 385.44pt>
 File: figure/trackjet/std_rej_pt.pdf Graphic file (type pdf)
 
 <use figure/trackjet/std_rej_pt.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/eff_real_rej_mod.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/eff_real_rej_mod.pdf, id=121, 569.12625pt x 385.44pt>
+<figure/trackjet/eff_real_rej_mod.pdf, id=111, 569.12625pt x 385.44pt>
 File: figure/trackjet/eff_real_rej_mod.pdf Graphic file (type pdf)
 
-<use figure/trackjet/eff_real_rej_mod.pdf>) (./tesi.bbl [7 <./figure/trackjet/r
-ecoEfficiency.pdf>]
+<use figure/trackjet/eff_real_rej_mod.pdf>
+
+LaTeX Warning: Reference `tab:eventsel:btag' on page 7 undefined on input line 
+214.
+
+
+LaTeX Warning: Reference `sec:topology' on page 7 undefined on input line 215.
+
+[7 <./figure/trackjet/recoEfficiency.pdf>]
 Overfull \hbox (45.87534pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/12 8 \OT1/cmr/m/sl/12 CHAPTER 1.  PROSPECTS FOR NEUTRAL MSSM HIGGS
  SEARCH IMPROVEMENT
  []
 
 [8 <./figure/trackjet/std_eff_rej.pdf> <./figure/trackjet/std_rej_pt.pdf>]
-[9 <./figure/trackjet/eff_real_rej_mod.pdf>]
+Overfull \hbox (59.66722pt too wide) in paragraph at lines 227--246
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--246
+
+ []
+
+) (./tesi.bbl [9 <./figure/trackjet/eff_real_rej_mod.pdf>]
 Overfull \hbox (51.75027pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/12 10 \OT1/cmr/m/sl/12 CHAPTER 1.  PROSPECTS FOR NEUTRAL MSSM HIGG
 S SEARCH IMPROVEMENT
  []
 
-[10
+[10] [11
 
-] [11] [12]
+] [12]
 Underfull \hbox (badness 2197) in paragraph at lines 201--204
 \OT1/cmr/m/it/12 fras-truc-ture\OT1/cmr/m/n/12 , ATLAS-SOFT-2010-01-004, sub-mi
 t-ted to Eur. Phys. J. C.,
@@ -539,27 +555,33 @@ wiki/bin/view/AtlasProtected/NuisanceCheck[]
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 6211 strings out of 493848
- 88761 string characters out of 1152823
- 169985 words of memory out of 3000000
- 9252 multiletter control sequences out of 15000+50000
- 10536 words of font info for 39 fonts, out of 3000000 for 9000
+ 6226 strings out of 493848
+ 88943 string characters out of 1152823
+ 170012 words of memory out of 3000000
+ 9265 multiletter control sequences out of 15000+50000
+ 13098 words of font info for 50 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,11n,38p,495b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tesi.pdf (15 pages, 331892 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on tesi.pdf (15 pages, 380044 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
+ 374 PDF objects out of 1000 (max. 8388607)
  110 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
