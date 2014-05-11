@@ -353,7 +353,24 @@ E.~G. G.~Cowan, K.~Cranmer and O.~Vitells, {\em {Asymptotic formulae for
   Sections: 2. Differential Distributions}\/},  CERN-2012-002 (CERN, Geneva,
   2012)  ,
 \href{http://arxiv.org/abs/1201.3084}{{\tt arXiv:1201.3084 [hep-ph]}}.
+
 %%CITATION = ARXIV:1201.3084;%%.
+
+%%%%%%%%%%%%%%%%%%%%%%trackjets stuff%%%%%%%%%%%%%%
+\bibitem{IDperformance}
+{ATLAS collaboration {\em Performance of the ATLAS Silicon Pattern Recognition Algorithm in Data and Simulation at $\sqrt{s}=7$ TeV}, ATLAS-CONF-2010-072}
+
+\bibitem{IDMaterial}
+{The ATLAS Collaboration, {\em A measurement of the material in the ATLAS inner detector
+using secondary hadronic interactions}, arXiv:1110.6191, JINST 7 (2012) P01013}
+
+\bibitem{JEStrack}
+{The ATLAS Collaboration, {\em Validation of the ATLAS jet energy scale uncertainties using tracks
+in proton-proton collision $\sqrt{s}=7$ TeV}, ATLAS-CONF-2011-067}
+
+\bibitem{trackEff}
+{The ATLAS Collaboration, {\em Track Reconstruction Efficiency in $\sqrt{s}=7$ TeV Data for Tracks with $\pt > 100 $ MeV }, ATL-PHYS-INT-2010-112}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \bibitem{HqT}
 {D.~de Florian, G.~Ferrera, M.~Grazzini and D.~Tommasini}, {\em
