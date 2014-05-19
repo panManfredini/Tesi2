@@ -172,6 +172,10 @@ T.~Gleisberg et al., {\em {Event generation with SHERPA 1.1}\/},  JHEP {\bf 02}
   %%CITATION = ARXIV:1007.2241;%%
   %556 citations counted in INSPIRE as of 14 May 2013
 
+\bibitem{LHCxsec}
+  S. Heinemeyer {\it et al.}  [LHC Higgs Cross Section Working Group Collaboration],
+  ``Handbook of LHC Higgs Cross Sections: 3. Higgs Properties,''
+  arXiv:1307.1347 [hep-ph].
 
 \bibitem{MSSMmhmax}
 {M. Carena, S. Heinemeyer, C. E. M. Wagner, and G. Weiglein}, {\em {Suggestions

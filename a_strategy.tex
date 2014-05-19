@@ -1,5 +1,5 @@
-\chapter[Neutral MSSM Higgs Search...]{The Search for neutral MSSM Higgs Bosons in the final state:
-$\tau^{+}\tau^{-} \rightarrow e \mu + 4\nu$} \label{chap:anal}
+\chapter[Neutral MSSM Higgs Bosons Search...]{Search for neutral MSSM Higgs Bosons in the 
+$A/h/H \rightarrow \tau^{+}\tau^{-} \rightarrow e \mu + 4\nu$ decays} \label{chap:anal}
 
 %A search for neutral MSSM Higgs bosons with the ATLAS detector at the
 %LHC is presented.  This analysis is based on an integrated luminosity of $20.3 ~fb^{-1}$
@@ -9,70 +9,6 @@ $\tau^{+}\tau^{-} \rightarrow e \mu + 4\nu$} \label{chap:anal}
 %leptons, which subsequently decay to an electron, a muon and four
 %neutrinos. Furthermore, 
 %
-
-This chapter presents the search for the neutral MSSM Higgs bosons decaying in tau pairs
-and fully leptonic final state. This search is based on 20.3 $fb^{-1}$ of 8 TeV data 
-recorded by ATLAS experiment during 2012 at Large Hadron Collider~(LHC)~\cite{LHC}.
-In this analysis two channels are employed by requiring the
-presence or absence of a b-tagged jet, this increases the 
-sensitivity to the neutral MSSM Higgs boson via
-the b-associated and gluon-gluon fusion production modes,
-respectively. Data driven methods are used to estimate \Ztautau an QCD multi-jet backgrounds.
-
-The chapter is divided in four sections: in section~\ref{sec:strategy} an introduction to experimental searches and to the strategy
-of this particular analysis is given, in section~\ref{sec:BackgroundEstimation} the background model estimation is described, 
-while in section~\ref{sec:Systematics} methods to evaluate systematics uncertaities are discussed, finally 
-in section~\ref{sec:result} the result of the sarch are presented.
-
-%Discovering the mechanism responsible for electroweak
-%symmetry-breaking and the origin of mass for elementary particles has been
-%one of the major goals of the physics program at the Large Hadron
-%Collider~(LHC)~\cite{LHC}.  In the Standard Model (SM) this mechanism
-%requires the existence of a single scalar particle, the Higgs
-%boson~\cite{ENGLERT,HIGGS,HIGGS2,HIGGS3,Guralnik:1964eu}.
-%In the Minimal Supersymmetric extension of the Standard Model
-%(MSSM)~\cite{MSSM1, MSSM2} the Higgs sector is composed of two Higgs
-%doublets of opposite hyper-charge, resulting in five observable Higgs
-%bosons.  Two of these Higgs bosons are neutral and $CP$-even
-%($h$,$H$), one is neutral and $CP$-odd ($A$) and two are charged
-%($H^\pm$).  At tree level their properties such as masses, widths and
-%branching ratios can be predicted in terms of only two parameters,
-%often chosen to be the mass of the $CP$-odd Higgs boson $m_A$, and
-%the ratio of the vacuum expectation values of the two Higgs doublets
-%$\tan\beta$ (more detail in chapter~\ref{}).  
-
-%This chapter is divided in three sections:
-%in section~\ref{sec:strategy} an introduction to experimental searches and to the strategy
-%of this particular analysis is given, in section~\ref{sec:bkg} is described the core of this thesis
-%work, i.e. the detail of the background modeling for this analysis, while in section~\ref{sec:result}
-%the result of the sarch are presented.
-
-
-\clearpage
-
-%%\section{Inside Neutral MSSM Higgs}
-%\section{What is a Search?}
-%\section{Search First Principle}
-%\section{Search Elements}
-%\section{The Search in a Nutshel}
-\section{The Search Strategy}
-\label{sec:strategy}
-
-\subsection{Motivation}
-
-\begin{figure}[tp]
-     \begin{center}
-
-            \includegraphics[width=0.6\textwidth]{figure/mh_mod.png}
-
-    \end{center}
-    \caption{$m_{A} - \text{tan}\beta$ plane for the  $m_{h}^{mod+}$ scenario, with excluded region
-	from direct Higgs searches at Lep (blue) and LHC (red). The two green shades corresponds to
-	the allowed parameter space for the assumption of $M_{h} = 125.5 \pm 2 (3)$ GeV. For more detail 
-	see~\cite{}.}
-   \label{fig:mhmod}
-\end{figure}
-
 Under the light of the recent discovery of a Higgs 
 boson with mass of 125 GeV \cite{}, remains an open question
 wheter this new particle constitute all the pieces of the Higgs
@@ -94,123 +30,83 @@ Another approach is to directly search for %model dependent
 for additional Higgses in a well defined model, which is the approach followed in this
 thesis where new neutral bosons are sought within the MSSM (see chapter \ref{}). 
 
-In the MSSM a Higgs boson with properties that  
-resembles the one for a SM Higgs boson occures naturally in large regions 
-of parameter space, for practical reason however,
+
+%Discovering the mechanism responsible for electroweak
+%symmetry-breaking and the origin of mass for elementary particles has been
+%one of the major goals of the physics program at the Large Hadron
+%Collider~(LHC)~\cite{LHC}.  In the Standard Model (SM) this mechanism
+%requires the existence of a single scalar particle, the Higgs
+%boson~\cite{ENGLERT,HIGGS,HIGGS2,HIGGS3,Guralnik:1964eu}.
+
+%This chapter is divided in three sections:
+%in section~\ref{sec:strategy} an introduction to experimental searches and to the strategy
+%of this particular analysis is given, in section~\ref{sec:bkg} is described the core of this thesis
+%work, i.e. the detail of the background modeling for this analysis, while in section~\ref{sec:result}
+%the result of the sarch are presented.
+
+
+\clearpage
+
+%%\section{Inside Neutral MSSM Higgs}
+%\section{What is a Search?}
+%\section{Search First Principle}
+%\section{Search Elements}
+%\section{The Search in a Nutshel}
+\section{Introduction}
+\label{sec:strategy}
+
+%\subsection{Motivation}
+
+\begin{figure}[tp]
+     \begin{center}
+
+            \includegraphics[width=0.6\textwidth]{figure/mh_mod.png}
+
+    \end{center}
+    \caption{Excluded and allowed regions of the $m_{A} - \text{tan}\beta$ parameter space for the  $m_{h}^{mod+}$ 
+	benchmark scenario. Excluded region are determined based on direct Higgs boson searches at LEP (blue) and LHC (red). The two green 
+	bands corresponds to the parameter regions which are compatible with the assumption that 
+	the lightest Higgs boson, \emph{h}, has a mass respectively of $M_{h} = 125.5 \pm 2$ or $\pm 3$ GeV. For more detail 
+	see~\cite{LHCxsec}.}
+   \label{fig:mhmod}
+\end{figure}
+
+In the Minimal Supersymmetric extension of the Standard Model
+(MSSM)~\cite{MSSM1, MSSM2} the Higgs sector is composed of two Higgs
+doublets of opposite hyper-charge, resulting in five observable Higgs
+bosons.  Two of these Higgs bosons are neutral and $CP$-even
+($h$,$H$), one is neutral and $CP$-odd ($A$) and two are charged
+($H^\pm$).  At tree level their properties such as masses, widths and
+branching ratios can be predicted in terms of only two parameters,
+often chosen to be the mass of the $CP$-odd Higgs boson $m_A$, and
+the ratio of the vacuum expectation values of the two Higgs doublets
+$\tan\beta$ (for more details see chapter~\ref{chap:theory}).  
+
+The MSSM predicts the existence of a Higgs boson with properties that  
+resemble those of a SM Higgs boson in large regions of its parameter space. It is technically impossible,
+for an experimental  search, to explore the full parameter space of the model, several benchmark scenarios are then 
+introduced by fixing the parameters to values typical for most interesting physics scenarios.
 % a point in the MSSM parameter space must now not only pass all the 
 %experimental bounds on superparticle masses, but also lead to the prediction of a scalar with
 %mass, production cross section and decay rates compatible with those measured at the LHC.
 %it is not convenient to scan over a large parameter space as the MSSM has, for practical reason
-is usefull to fix  parameter of the model to achieve what is called a benchmark
-scenario. With the recent discovery, bechmark scenarios of the MSSM have been updated to fit
-with the new constraints (more details on benchmark scenarios are in chapter~\ref{}), 
-as an example in figure~\ref{fig:mhmod} are reported the current exclusion limits
-for one of those updated scenarios, $m_{h}^{mod+}$, the green area represents what is currently 
-allowed in the $m_{A} - \text{tan}\beta$ plane showing that there is still plenty of room for BSM
-Higges.
-
-\subsection{How to search for new phenomena?} \label{sec:stat1} 
-%\subsection{What is a search?}
-In experimental physiscs  an observation of a new phenomena or its exclusion  is 
-carachterized by means of statistical statements, in this sense one can say that statistic is the language 
-of experimental physics.
-Search for new physics at the LHC extesively uses frequentistic statistical tests~\cite{LHCstat}.
-%to make
-%robust statements about the exsistence or the exclusion of new phenomena, %to make robust statements... qualcosa qui
-In this section an itroduction to statistical tests is given, for more details see section~\ref{sec:result}.
- 
-A \emph{statistical test} is a rule to reject or accept an hypotesis, where for hypotesis is meant 
-a statement about the distribution of the data. Typically new physics searches are looking for a signal 
-that is additive on top of the background, is then natural to compare two hypotesis:
-the background only hypotesis $H_{0}$, or null hypotesis, and the signal plus background hypotesis $H_{1}$, which is the alternative.
-In the process of decision making is common to define what is called a \emph{signal region} (SR), which is simply
-a set of selections applied to data aimed to enhance signal with respect to the background, 
-the observed number of events in the SR, $N_{SR}$,  are used to make probabilistic statements about the two hypotesis.
-$N_{SR}$  is in fact a random
-variable described by a Poisson distribution, where, in case the null hypotesis is true, $\nu_{B}$ events are expected, otherwise 
-in case $H_1$ is true $\nu_{B} + \nu_{S}$ events are expected. The two probability distributions for the two hypotesis
-totaly describes the \emph{probability model} for this counting experiment.
-%
-%the probability model for null and the alternate hypotesis is then respectively 
-%$\text{Pois}(N_{SR}|\nu_{B})$ and $\text{Pois}(N_{SR}|\nu_{B} + \nu_{S})$.
-Is clear then that the evidence for a signal shows up as an excess of 
-events, a way to quantify the conpatibility of the null hypotesis with data
-is to make a \emph{significance} test: calculate the probability that 
-the background-only would produce at least as many
-as the observed events, which is the so called of p-value and in this case is expressed by the formula:
-$$
-\text{p-value} = \sum_{n=N_{SR}}^{\infty} \text{Pois}(n|\nu_{B})
-$$
-Calculating  p-values is a way to characterize an excess, in high energy physics the commonly accepted p-value that is
-qualified as a discovery is $2.87 \times 10^{-7}$, which is an extremely low probability for the null hypotesis to be true
-and corresponds to five standard deviation for a gaussian distribution. 
-
-In case no excess is observed, the procedure is to build a statisctical test where the 
-null hypotesis is accepted and at the same time the signal hypotesis
-is rejected with a fixed predetermined probability, called confidence level.
-A statistical test is a rule that defines a region in the space of data for which
-a given hypotesis can be accepted or rejected, often rather than using a full set 
-of data $\mathcal{D}$, it is convenient to define a \emph{test statistic}, T, which is usually a single
-number computed from the data, the two hypotesis implies different distributions for T, 
-then one defines an acceptance region \emph{W} in terms of the test statistic, if 
-$T \in W$ the $H_{0}$ is rejected, $H_{1}$ accepted and vice versa,
-the probability with which one rejects $H_{1}$ or $H_{0}$ is then given by the choice of
-\emph{W} and T. Neuman and Pearson provided a framework for hypotesis testing that addresses the 
-choice of the test statistic \cite{NP}.
-%such that 
-%$P(T \in W | H_{0}) \leq \alpha$, where $\apha$ is the size of the test and correspond to the probability
-%for which $H_{0}$ is rejected when is true, 
-
-A discriminating variable is often used to help separating signal and backgrounds, this can be any of the observables of
-the experiment, a usually chosen observable is for example the invariant mass of the final state particles. The expected
-distributions of this observable for the two hypotesis completes the above
-mentioned probability model, the actual implementation is achieved by means of an histograms, 
-i.e. by discretizing the distribution of the observable and making a counting experiment
-for each bin of the histogram, the resulting probability model is then a product of Poissons: 
-\begin{equation}\label{markedpoisson}
-\prod_i \text{Pois}(n_i^{observed} ~ | ~ s_i(\vec{\theta}) + b_i(\vec{\theta})) 
-\end{equation}
-where $s_i$ and $b_i$ are  the number of expected signal and background events in the bin $i$, while $n_i$ are the
-actual observed events in the bin $i$. Here is made explicit that the signal and backgrounds expectations
-depends also on a set of additional parameter $\vec{\theta}$, called \emph{nuissance parameters}, 
-those embed effects like detector mismodeling and theoretical uncertainty.
-
-%A statistical test is a rule that define a region in parameter space for which  a given hypotesis can be accepted or rejected.
-%Often rather than using a full set of data $\vec{X}$, it is convenient to define a \emph{test statistic}, t, which is usually a single
-%number, it is a quantity calculated out of the data, a mapping of a set of measurements into a single number. The test statistic, that is usually
-%connected to the discriminating variable, would then have a different distribution for the different hypotesis, one can then define $\alpha$
-%called the size of the test and $t_{\alpha}$ for which $P(t < t_{\alpha} | H_{0}) \leq \alpha$ then in this case $H_{0}$ is rejected.
-
-%- Alternative: NP provided a framework for hypotesis testing that addresses the choice of the test statistic. First one defines 
-%an acceptance region in terms of a test statistic, such that if $T(\vec{X}) < t_{\alpha}$ one accepts the null hypotesis. 
-%One can think of $T(\vec{X}) = t_{\alpha}$ as a counturn in the space of the data which is the boundary to this acceptance region.
-%Then one defines the size of the test $\alpha$ which is the probability for the null hypotesis to be rejected when true,
-%the test is totally asymmetric: if the null hypotesis is rejected then the alternate is accepted (is this true??)....
-
-Summarizing, there are several ingredients that constitute a search for new physics:
-\begin{itemize}
-	\item Definition of a signal region in data where signal is enhanced with respect to the backgrounds, detailed for this analysis in section \ref{sec:topology} 
-	and \ref{sec:selectiona}.
-	\item Definition of a discriminating variable which is usefull to disentangle between signal and backgrounds, see section \ref{sec:mmc}.
-	\item Definition of the probability model, i.e., the expectation for the distribution of the discriminating variable
-		 for signal and background hypotesis, this is one of the most importat
-		point of a search and main part of the work of this thesis, detailed in section \ref{sec:BackgroundEstimation}.
-	\item Definition of a test statistics to quantify an observation or an exclusion, which is discussed for the LHC in section \ref{sec:result}.
-\end{itemize}
+With the recent Higgs boson discovery, bechmark scenarios of the MSSM have been updated to 
+accomodate for  new experimental constraints (see chapter~\ref{chap:theory}). 
+As an example, Figure~\ref{fig:mhmod} shows the currently excluded and allowed regions of the MSSM parameter space
+for the  $m_{h}^{mod+}$ updated benchmark scenario. In this scenario a supersymmetric SM-like Higgs boson is assumed, 
+large region of the $m_{A} - \text{tan}\beta$ parameter space is compatible with this assumption and remains still unexplored.
 
 
-
-\subsection{Signal Topology}\label{sec:topology}
-
-
-This section describes the strategy to enhance the search sensitivity 
-taking advantage of the signal topology.
-The Sensitivity of a search is the signal strenght that is expected to be  excluded 
-in case of no signal. If one is searching for a rare process, then the analysis strategy, i.e. the
-plan to enhance the signal sensitivity of the search, is crucial.
-This search is complementary to the Standard Model
-Higgs search in tau final state, this is also considered in the analysis strategy, 
-the focus is then on phase space not explored from SM search.
+This chapter presents the search for the neutral MSSM Higgs bosons decaying into pairs of tau leptons
+in the fully leptonic final state. The search is based on 20.3 $\text{fb}^{-1}$ of 8 TeV data 
+recorded by the ATLAS experiment during 2012 at the Large Hadron Collider~(LHC)~\cite{LHC}.
+Higgs boson candidated events are selected based on the topological properties of the Higgs boson production 
+and decay. The two dominant Higgs boson production modes are via gluon-gluon fusion and in association with b-quarks,
+the search take advantage of that being performed separately for events without or with b-tagged jets in the final state,
+respectively. Two of the dominat background contributions, $\Ztautau$ and multi-jet process, are predicted with 
+the corresponding signal-depleted control data samples. The final statistical interpretation of the data is based on the 
+comparison of the observed invariant mass distributions, exclusion limits are set by means of a binned likelihood ratio
+test statistic and interpreted either in the MSSM $m_{h}^{max}$ scenario and in a model independed.
 
 In the MSSM for large region of parameter space one found that one of the 
 $CP$-even neutral Higgses  has properties that resemble the one of the SM Higgs,
@@ -231,8 +127,8 @@ the LHC one of the most relevant production mechanisms for the MSSM
 Higgs bosons is gluon-gluon fusion, $gg\rightarrow A/H/h$. In
 addition, the production in association with $b$-quarks becomes
 important for large value of $\tan\beta$. Those are the two production mechanism
-that are considered in this analysis, figure~\ref{fig:prod} shows the feyinman-diagram
-for those processes, while figure~\ref{fig:xsec} shows the production cross section of the neutral 
+that are considered in this analysis, Figure~\ref{fig:prod} shows the Feynman-diagram
+for those processes, while Figure~\ref{fig:xsec} shows the production cross section of the neutral 
 MSSM Higgses via these two processes. The search is divided in two category which are optimized
 for the two different production mode considered, in the gluon-fusion category
 is requred a b-jet veto (for definition of b-tagging algorithm see chapter~\ref{chap:detector}), in fact no b-jet in the final state are present for this
@@ -240,6 +136,141 @@ production mode. In contrast a a b-jet tag is required for b-associated producti
 this category is expected to be very sensitive to $\tan\beta$. The two category are
 ortogonal and present different backgrounds contributions, which can be
 optimized separately. 
+
+The decays of the neutral
+MSSM Higgs bosons (in the assumption that all supersymmetric particle
+are heavy enough) are the same as for the SM one with the already
+cited exception of $A$. Figure~\ref{fig:xsec} shows the decay branching fractions
+for $H$ and $A$ as a function of the mass, 
+the decay into tau pair is the most important after $b\bar{b}$ and the one used in this analysis. The 
+decay channel in $b\bar{b}$ is in fact very challenging due to the huge background from
+QCD multi-jet.
+In this thesis only cases in which the taus decay one in $e + 2\nu$ and
+the other in $\mu + 2\nu$ are considered, This final state corresponds to a total
+$\tau^+\tau^-$ branching ratio of approximately 6\%.
+ 
+The signal topology described in the previous section is common to many other processes, unfortunately, 
+those have higher cross section than the sought signal and a set of additional selections
+is needed to enhance the sensitivity of the search.
+The most important backgrounds to this search are the production of
+ $\Ztautau $ + jets, the top quark ($t\bar{t}$ and single top production is intended), diboson production 
+(like $WW$ or $ZZ$ events) and Drell-Yan process or events with non-prompt leptons coming 
+solely from hadron decay (in short QCD multi-jet).
+Vector bosons production like  $\Wlnu$ or $\Zll$ + jets (with $\ell$ here meaning either $e$ or $\mu$) are also considered,
+however those processes have a limited impact.
+
+%Searches for neutral MSSM Higgs bosons have been performed at
+%LEP~\cite{LEPLimits}, the
+%Tevatron~\cite{TevatronLimits1,TevatronLimits2,TevatronLimits3,TevatronLimits4,TevatronLimits5,TevatronLimits6}
+%and the LHC~\cite{CMSLimit, ATLASLimit}.  In this note a search for
+%neutral MSSM Higgs bosons with the ATLAS experiment at CERN is
+%presented, using proton-proton collisions at centre-of-mass energy of
+%8~TeV, with a recorded integrated luminosity of
+%$20.3 \ifb$.
+
+In section~\ref{sec:strategy} an introduction to experimental searches and to the strategy
+of this particular analysis is given, in section~\ref{sec:BackgroundEstimation} the background model estimation is described, 
+while in section~\ref{sec:Systematics} methods to evaluate systematics uncertaities are discussed, finally 
+in section~\ref{sec:result} the result of the sarch are presented.
+
+
+\subsection{Simulated Event Samples}
+\label{sec:SimSamples}
+
+%Both the signal and background process modelled by Monte Carlo (MC)
+%simulation were produced within the ATLAS MC12a production campaign.
+%The generators used for the different processes are described below.
+Signal production via the gluon fusion process, $gg\rightarrow A/H/h$,
+was simulated with POWHEG~\cite{POWHEG} and the associated
+$b\bar{b}A/H/h$ production with SHERPA~\cite{SHERPA}.  The
+pseudoscalar Higgs boson samples were generated in the mass range from
+90~GeV to 300~GeV and at $\tan\beta = 20$, the same kinematics
+are assumed for $A/h/H$ Higgs bosons decay products and at other
+$\tan\beta$ values, appropriate reweighting is applied according to the
+different cross-sections. The $m_h^{\mathrm{max}}$ MSSM benchmark
+scenario~\cite{MSSMmhmax} is assumed.
+
+The production of $W$ and $Z/\gamma^*$ bosons in association with jets
+was simulated with the ALPGEN~\cite{Alpgen} generator. 
+%This employs
+%the MLM matching scheme~\cite{MLM} between the hard process,
+%calculated with leading-order matrix elements for up to five jets, and
+%the parton shower.  
+The $t\bar{t}$ process was generated using the POWHEG generator. The single-top (s-channel, $Wt$)
+processes were generated using MC@NLO~\cite{MCatNLO}, while single-top
+(t-channel) processes were generated with AcerMC~\cite{AcerMC}.  The
+production of diboson~($WW$, $WZ$, $ZZ$) were generated with
+HERWIG~\cite{Herwig}.  For all ALPGEN and MC@NLO samples described
+above, the parton shower and hadronisation were simulated with HERWIG
+and the activity of the underlying event with JIMMY~\cite{JIMMY}.
+%The loop-induced $gg\rightarrow WW$ processes were generated using gg2WW~\cite{GG2WW}.  We are not using it Xsec very small
+Different parton density functions (PDFs) sets are used depending on
+the generator - CTEQ6L1~\cite{CTEQ6} is used by ALPGEN and AcerMC while
+CT10~\cite{CT10} is used by SHERPA, POWHEG and MC@NLO. 
+
+TAUOLA~\cite{TAUOLA} and PHOTOS~\cite{PHOTOS} are used to model the
+tau lepton decay and additional photon radiation from charged leptons
+in the leading-log approximation, respectively, except for SHERPA
+samples.  
+
+All MC event samples were passed through the full simulation
+of the ATLAS detector using GEANT4~\cite{Geant4,ATLASSIM} 
+%and are reconstructed with the same software version as used for data. 
+The effects of the 
+simultaneous recording of several events from the
+same or neighbouring bunch crossings (pile-up) are considered in the
+simulation. 
+%Differences between the simulated and actual LHC running
+%conditions have been corrected for by re-weighting the simulated
+%events according to the distribution of the average number of
+%interactions per bunch crossing ($<\mu>$) obtained from the ATLAS
+%data.
+
+The cross-sections of
+the MC event samples used in this note are summarised in
+Table~\ref{tab:MCxsec}. The $W/Z$+jets and $b\bar{b}A/H/h\rightarrow \tau\tau$ cross sections 
+are calculated to NNLO. Those for $\ttbar$ comes from direct cross section measurement \cite{}. The single top and diboson cross sections are calculated at NLO for single top and dibosons. Finally, the direct $gg\rightarrow A/H/h\rightarrow \tau\tau$ signal cross sections 
+are calculated at NNLO and NLO for the top loop and the bottom loop and top/bottom loops interference, respectively.
+
+%The values of the steering parameters used for the HERWIG, JIMMY and PYTHIA
+%generators are described in Ref.~\cite{ATLASMC09Tune}.
+
+\begin{table}[tp]
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{cc}
+\hline \hline
+Process                                                                 & Cross-section~(pb) [$\times$ BR] \\ \hline
+$W\rightarrow \ell$+jets ($\ell=e, \mu, \tau$ )                          & 12.22$\times 10^3$ \\
+$Z/\gamma^{*}\rightarrow \ell\ell$+jets ($m_{\ell\ell}>60$ GeV)      & 1.15$\times 10^3$ \\
+$Z/\gamma^{*}\rightarrow \ell\ell$+jets ($10<m_{\ell\ell}<60$ GeV) & 4.35$\times 10^3$ \\
+$t\bar{t}$                                                              & 137.3 \\
+Single top $t$-, $s$- and $Wt$-channels                                 & 28.4, 1.8, 22.4 \\
+Diboson WW, WZ and ZZ                                                  & 20.6, 6.8, 1.55 \\ \hline
+Signal ($m_A=150$~GeV, $\tan\beta=20$, $m_{h}^{max}$ scenario)   &  \\ \hline
+$gg\rightarrow A\times$BR$(A\rightarrow\tau\tau)\times$BR$(\tau\tau\rightarrow e\mu+ 4\nu)$                 & $ 16.8 \times 0.118 \times 0.062$ \\
+$gg\rightarrow H\times$BR$(H\rightarrow\tau\tau)\times$BR$(\tau\tau\rightarrow e\mu+ 4\nu)$ ($m_H=151$~GeV) & $ 18.4 \times 0.119 \times 0.062$ \\
+$gg\rightarrow h\times$BR$(h\rightarrow\tau\tau)\times$BR$(\tau\tau\rightarrow e\mu+ 4\nu)$ ($m_h=129$~GeV) & $ 13.7 \times 0.110 \times 0.062$ \\
+$b\bar{b}A\times$BR$(A\rightarrow \tau\tau)\times$BR$(\tau\tau\rightarrow e\mu + 4\nu)$                       & $ 39.4 \times 0.118 \times 0.062$ \\
+$b\bar{b}H\times$BR$(H\rightarrow \tau\tau)\times$BR$(\tau\tau\rightarrow e\mu+ 4\nu)$ ($m_H=151$~GeV)       & $ 35.7 \times 0.119 \times 0.062$ \\
+$b\bar{b}h\times$BR$(h\rightarrow \tau\tau)\times$BR$(\tau\tau\rightarrow e\mu+ 4\nu)$ ($m_h=129$~GeV)       & $ 4.71 \times 0.110 \times 0.062$ \\
+\hline \hline
+\end{tabular}
+\end{footnotesize}
+\caption{The cross sections (multiplied by the relevant branching
+  ratios~(BR)) used in this note. Signal cross sections are shown for $m_A=150$~GeV and $\tan\beta=20$}
+\label{tab:MCxsec}
+
+\end{center}
+\end{table}
+
+
+
+
+
+
+\subsection{Event Selections and Categorizzation}\label{sec:topology}
+
 
 \begin{figure}[tp]
      \begin{center}
@@ -298,58 +329,32 @@ optimized separately.
   \end{center}
 \end{table}
 
-The decays of the neutral
-MSSM Higgs bosons (in the assumption that all supersymmetric particle
-are heavy enough) are the same as for the SM one with the already
-cited exception of $A$. Figure~\ref{fig:xsec} shows the decay branching fractions
-for $H$ and $A$ as a function of the mass, 
-the decay into tau pair is the most important after $b\bar{b}$ and the one used in this analysis. The 
-decay channel in $b\bar{b}$ is in fact very challenging due to the huge background from
-QCD multi-jet.
-In this thesis only cases in which the taus decay one in $e + 2\nu$ and
-the other in $\mu + 2\nu$ are considered, This final state corresponds to a total
-$\tau^+\tau^-$ branching ratio of approximately 6\%.
- 
-%Searches for neutral MSSM Higgs bosons have been performed at
-%LEP~\cite{LEPLimits}, the
-%Tevatron~\cite{TevatronLimits1,TevatronLimits2,TevatronLimits3,TevatronLimits4,TevatronLimits5,TevatronLimits6}
-%and the LHC~\cite{CMSLimit, ATLASLimit}.  In this note a search for
-%neutral MSSM Higgs bosons with the ATLAS experiment at CERN is
-%presented, using proton-proton collisions at centre-of-mass energy of
-%8~TeV, with a recorded integrated luminosity of
-%$20.3 \ifb$.
-
-\begin{figure}[tp]
-     \begin{center}
-
-            \includegraphics[width=0.5\textwidth]{figure/br.png}
-
-    \end{center}
-    \caption{Branching fraction for the MSSM neutral higgses $h/H/A$ in the $m_h^{mod+}$ scenario.}
-   \label{fig:br}
-
-\end{figure}
 
 
-Summarising, the signal topology is characterised by a final state with an
-electron, a muon, and missing transverse energy due to the
-presence of four neutrinos from the $\tau$ decays. Furthermore, the
-final state may be split by the presence or
-absence of a $b$-quark initiated jet, depending on the production
-process. This signature is achieved experimentally by requiring:
+The signal events considered in this search are  characterised by the presence of one electron, one muon and 
+four neutrinos, the latter are associated to missing transverse energy of the event. Furthermore, 
+additional b-tagged jets may be present if the the Higgs boson is produced in association with b-quark.
+According to the signal events caractheristics, each event either data and MC should satisfy
+the following selection criteria, these selections are shared by both analysis category and therefore 
+referred in the following as ``common selections'':
+
+
 \begin{enumerate}[label=(\roman*)]
-\item An OR between an elecron and an electron-muon trigger (\verb=EF_e24vhi_medium1= $||$ \verb=EF_e12Tvh_medium1_mu8=).
+\item Trigger requiring the presence of an electron with $\pt > 24$ GeV, or alternativaley,
+	an electron with  $\pt > 12$ GeV togheter with a muon with  $\pt > 8$ GeV. 
+	{\em \footnotesize  Note to Sandra: should I mention that the trigger is a selection during data taking?
+	Or is the trigger is supposed common knowledge?}
 
-\item Exactly one reconstructed electron and one muon of opposite charge, the muon is required to have $\pt > $ 10~GeV, while the electron 
-should have $\pt > $ 15 or 25~GeV depending on the trigger that selected the event. For electron and muon object 
-definition see chapter~\ref{chap:detector}.
+\item Exactly one reconstructed electron and one muon of opposite charge should be present in the event. The muon is required to have $\pt > $ 10~GeV, while the electron 
+should have $\pt > $ 15 or 25~GeV depending on the trigger that selected the event. For definition of reconstructed electron and muon object 
+see chapter~\ref{chap:detector}.
 
 \item The two leptons should be isolated, meaning that in a cone around the lepton there should be little energy deposit (should not be sorraunded by                 
 other particle, common of non-promt leptons coming from jets). For more detail about isolation properties see section ~\ref{sec:BackgroundEstimation}.
 
-\item Hadronic $\tau$ veto: the events is rejected if at least one hadronic $\tau$ is found with $\pt > $ 15 GeV.
+\item The events is rejected if at least one jet from hadronic $\tau$ decay is found with $\pt > $ 15 GeV.
 
-\item Lepton invariant mass greather than 30 GeV.
+\item The invariant mass of the sum of the electron and muon 4-vectors should be greather than 30 GeV.
 \end{enumerate}
 This set of selection all togheter are referred in the following as \emph{preselection}. More detail on preselections 
 are reported in table~\ref{tab:sel}, for details on object reconstruction and quality requirements see chapter~\ref{chapted:detector}. 
@@ -358,17 +363,8 @@ the request of "exactly one b-tagged jet" or "no b-tagged jet" in the event resp
 \emph{taggable} a jet should have $\pt > 20$ GeV and $|\eta| < 2.5$.
 
 
-\subsection{How to deal with Backgrounds}\label{sec:selectiona}
+\subsubsection{Event Category}\label{sec:selectiona}
 %\subsection{Selections}
-The signal topology described in the previous section is common to many other processes, unfortunately, 
-those have higher cross section than the sought signal and a set of additional selections
-is needed to enhance the sensitivity of the search.
-The most important backgrounds to this search are the production of
- $\Ztautau $ + jets, the top quark ($t\bar{t}$ and single top production is intended), diboson production 
-(like $WW$ or $ZZ$ events) and Drell-Yan process or events with non-prompt leptons coming 
-solely from hadron decay (in short QCD multi-jet).
-Vector bosons production like  $\Wlnu$ or $\Zll$ + jets (with $\ell$ here meaning either $e$ or $\mu$) are also considered,
-however those processes have a limited impact.
 
 The final state of Higgs decaying into tau pair coincide with the one from  $\Ztautau$  process, this is then an irreducible 
 background. Exploiting the different kinematics of the Higgs decay with respect to other backgrounds it possible to disentangle
@@ -380,7 +376,7 @@ is reported.  Furthermore the neutrinos will be more likely collinear with the c
 this feature can be matematically seen as the sum of scalar product between missing energy and the leptons four-vectors in the
 transverse plane, if the vectors are normalised to unit versors then what remains is a relation only between angles:
 $$ \hat{E}_{T}^{miss} \cdot ( \hat{P}_{T}^{\mu} + \hat{P}_{T}^{e} ) = cos(\Delta\phi_{E_{T},\mu}) + cos(\Delta\phi_{E_{T},e}) = \sum_\ell cos(\Delta\phi_{E_{T},\ell}) $$
-collinearity implies this sum to be equal to zero as it is shown in figure~\ref{sumcosphi}. 
+collinearity implies this sum to be equal to zero as it is shown in Figure~\ref{sumcosphi}. 
 These two feature can be used to distinguish between mu-e coming from decay from highly 
 boosted object and the one coming from W decays in top or in dibosons backgrounds which will have a more spread distribution.
 In b-veto category these two variables are sufficient to suppress contribution from dibosons,
@@ -391,7 +387,7 @@ the  request of b-jet enhance backgrounds with high jet activity as top producti
 jet activity of Higgs events (also in the case of b-associated production) it is possible to separate them from
 top production which instead is very likely to have two or more highly enegetic jets in the event.
 Little jet activity is achieved by requesting requesting the sum of the jets $\pt$ in the event to be small, this variable is called $\Ht$
-and is shown in figure~\ref{Ht}.
+and is shown in Figure~\ref{Ht}.
 Another feature that distinguish top pair production from Higgs is the much higher invariant mass of the former final state,
 in the transverse plane all the leptons will tend to have a higher momentum, the sum of lepton \pt and \met is then used as
 a discriminating variable. Figure~\ref{sumlepPt} shows the distribution of this last analysis variable.
@@ -429,17 +425,64 @@ while in tables~\ref{tab:eventsel:bveto}-\ref{tab:eventsel:btag} the number of e
 
 \subsection{Mass Reconstruction with MMC Technique}\label{sec:mmc}
 
-Reconstructing the invariant mass of a di-tau system from the tau decay products is a challenging task
-due to the presence of neutrinos in the final state. 
-In a di-tau system in which both taus decays leptonically (with a total of four neutrinos) there are eight uknowns, those are the components of the two 
-four-vectors that represents the missing momentum (carried out by neutrinos) in each tau decay. There are four additional constraint 
-which come from the measures of \MET and from the fact that each single decay should have invariant mass equal to the tau mass,
-therefore there are still four degrees of freedom in the system.
+Reconstructing the invariant mass of a di-$\tau$ resonace is a challenging task
+due to the presence of neutrinos from the $\tau$ lepton decay. 
+In case the $\tau$ leptons decays leptonically a total of four neutrinos are involved in the final state, a pair of neutrinos for each
+$\tau$ lepton decay,  the system presents then eight uknowns, which are the components of the two 
+four-vectors related to each of the two pair of neutrinos.  There are four kinematic constraint to the system which are summarized by 
+following equation:
+%There are four additional constraint 
+%which come from the measurement of \MET and from the fact that each single decay should have invariant mass equal to the tau mass:
+\begin{equation} \label{eq:MMC}
+\begin{split}
+%\begin{align}
+%\begin{gather*}  
+&\vec{E}_T^{miss} = \vec{P}_{T}^{mis_{1}} +  \vec{P}_{T}^{mis_2} \\
+&M_{\tau_{i}}^2 = m^2_{mis_{i}} + m^2_{vis_{i}} + 2 \mathbf{P}_{vis_i} \cdot \mathbf{P}_{mis_i} \\
+%\end{align}
+%\end{gather*}
+\end{split}
+\end{equation}
+where the index \emph{i} runs over the two $\tau$ lepton of the event and assumes the value of 1 or 2, 
+$\mathbf{P}_{mis}$ and $\mathbf{P}_{vis}$ represent respectively the four momentum of the pair of neutrinos 
+and the four momentim of the charged lepton from the $\tau$ lepton decay, $m^2_{miss}$, therefore there are still four degrees of freedom in the system.
 Several approximation are possible to further constraint the momentum carried by neutrinos,
-for example assuming them collinear to the other leptons from tau decay, however those approximation suffers of limitations. 
+for example assuming them collinear to the charged leptons from tau decay, however those approximation suffers of limitations. 
 
-In this analysis, the so-called "Missing Mass Calculator" (MMC)~\cite{MMC}
-is used to calculate the di-tau system invariant mass from its decay products and the \met. This technique employs additional 
+In this analysis, the so-called "Missing Mass Calculator" (MMC) algorithm
+is used to calculate the most likely di-tau system invariant mass given the event topology, %event kinematics
+the implementation in the analysis of this method is based on~\cite{MMC}. 
+The concept of the MMC is to solve equation~\ref{eq:MMC} assigning values to the yet undetermined variables, performing a 
+``scan'' over a four dimensional parameter space. The four independent  variables are chosen 
+to be $ m^2_{mis_{i}}$ and $cos\theta^*_i$ , the latter defined
+as the angle between the charged lepton from the $\tau$ lepton decay and the boost direction of the $\tau$ lepton. 
+The di-tau invariant mass of the event can be calculated for each given point of the parameter space that solves equations~\ref{eq:MMC},
+however, the solution are not all equally likely and probability of a given $\tau$ decay configuration can be predicetd by means
+of PITHYA supplemented with TAUOLA package. Each point in the parameter space, corresponding
+to a particular di-$\tau$ invariant mass, is weighted by its probability to occur. 
+The estimator for the final discriminant, the mass of the di-tau system \mmc, 
+is the maximum of the weighted invariant mass distribution calculated for the scanned points.
+
+The missing energy plays an important role in the mass reconstrution with this method, the mass resolution is
+connected with the missin energy resolution, the scan over the parameter space is then achieved in two steps:
+first a scan over six parameter is done (the one mentioned above and $\vec{E}_T^{miss}$), the scan over $E_{T_x}^{miss}$ and $E_{T_y}^{miss}$
+is done chosing values within one sigma from the central missing energy value, according to its uncertainty,
+the scan is made over the points which are physical solution for the system of equation~\ref{eq:MMC}, each point 
+is then weighed by the probability obtained from the matrix element of a tau lepton decay, the weighted 
+mean of $\vec{E}_T^{miss}$ is assumed as a better estimate and used in a four dimensional scan. 
+
+
+The performance of the missing transverse energy (Emiss
+) reconstruction has a large impact on the
+performance of the MMC. As the resolution
+
+The MMC scans variables in the respective rest frame of the τ leptons. By scanning $cos\theta^*_i$ , defined
+as the angle between the charged lepton from the τ lepton decay and the boost direction of the τ lepton,
+and the mass of the di-neutrino system, the system of equations  can be solved. Each scan point is
+then weighted by the probability obtained from the matrix element of a tau decay decay at tree
+level. The estimator for the final discriminant, the mass of the di-tau system mMMC, is then defined as
+the maximum of the histogram that has been filled with the weighted scan points.
+
 information from the well known tau decay to constraint the system:
 in the above mentioned four dimensional parameter space, in which lies the solution of the di-tau system, not all the points are 
 equally likely for a given event topology, using Pythia simulation supplemented with TAUOLA package,
@@ -450,7 +493,6 @@ for each of the scanned points in the parameter space. As a result this method g
 system invariant mass and a considerable improvement in resolution. The invariant mass distribution 
 calculated with the MMC technique is referred in the following as $\mmc$ and is used as discriminating 
 variable in the limits setting.
-
 
  
 %Accurate invariant mass reconstruction of a di-tau system is a challenging task due to the escaping neutrinos.

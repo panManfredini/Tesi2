@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.14)  14 MAY 2014 17:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  19 MAY 2014 19:24
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -423,91 +423,433 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \openout4 = `tesi.toc'.
 
 
-(./trackjet.tex [1
+(./a_strategy.tex [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2
 
 ]
 Chapter 1.
-[3] <figure/trackjet/bbA_pt.png, id=75, 720.6925pt x 487.8225pt>
-File: figure/trackjet/bbA_pt.png Graphic file (type png)
 
-<use figure/trackjet/bbA_pt.png>
-<figure/trackjet/top_pt.png, id=76, 722.7pt x 485.815pt>
-File: figure/trackjet/top_pt.png Graphic file (type png)
+LaTeX Warning: Reference `' on page 3 undefined on input line 31.
 
-<use figure/trackjet/top_pt.png>
+[3] <figure/mh_mod.png, id=159, 630.10406pt x 535.2497pt>
+File: figure/mh_mod.png Graphic file (type png)
 
-LaTeX Warning: Reference `chap:anal' on page 4 undefined on input line 32.
+<use figure/mh_mod.png>
 
-
-LaTeX Warning: Reference `chap:detector' on page 4 undefined on input line 38.
+LaTeX Warning: Reference `chap:theory' on page 4 undefined on input line 83.
 
 
-LaTeX Warning: Reference `chap:detector' on page 4 undefined on input line 46.
+LaTeX Warning: Reference `chap:theory' on page 4 undefined on input line 94.
+
+[4
+
+ <./figure/mh_mod.png (PNG copy)>]
+
+LaTeX Warning: Reference `chap:detector' on page 5 undefined on input line 134.
 
 
-LaTeX Warning: Reference `chap:detector' on page 4 undefined on input line 50.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
+Underfull \vbox (badness 1320) has occurred while \output is active []
+
+ [5]
+[6] <figure/bba.png, id=225, 279.29344pt x 195.73125pt>
+File: figure/bba.png Graphic file (type png)
+ <use figure/bba.png>
+<figure/ggf.png, id=226, 531.48563pt x 201.75375pt>
+File: figure/ggf.png Graphic file (type png)
+ <use figure/ggf.png>
+<figure/xsec.png, id=227, 695.59875pt x 328.22626pt>
+File: figure/xsec.png Graphic file (type png)
+ <use figure/xsec.png>
+Overfull \hbox (2.1461pt too wide) in paragraph at lines 300--326
+ [] 
+ []
+
+
+LaTeX Warning: Reference `chap:detector' on page 7 undefined on input line 350.
+
+
+[7 <./figure/bba.png (PNG copy)> <./figure/ggf.png (PNG copy)>]
+
+LaTeX Warning: Reference `chapted:detector' on page 8 undefined on input line 3
+60.
+
+[8 <./figure/xsec.png (PNG copy)>] [9]
+<figure/std_plots_presel.pdf, id=270, page=11, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 11>
+<figure/std_plots_presel.pdf, id=271, page=12, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 12>
+<figure/std_plots_presel.pdf, id=272, page=9, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 9>
+<figure/std_plots_presel.pdf, id=273, page=10, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 10> [10] [11 <./figure/std_plots_presel.
+pdf, page is rotated 90 degrees> <./figure/std_plots_presel.pdf, page is rotate
+d 90 degrees> <./figure/std_plots_presel.pdf, page is rotated 90 degrees> <./fi
+gure/std_plots_presel.pdf, page is rotated 90 degrees>]
+Missing character: There is no Ï in font cmr12!
+Missing character: There is no „ in font cmr12!
+Missing character: There is no Ï in font cmr12!
+Missing character: There is no „ in font cmr12!
+Missing character: There is no Ï in font cmr12!
+Missing character: There is no „ in font cmr12!
+
+<figure/std_plots_mass.pdf, id=336, page=1, 569.12625pt x 408.52625pt>
+File: figure/std_plots_mass.pdf Graphic file (type pdf)
+
+<use figure/std_plots_mass.pdf, page 1>
+<figure/std_plots_mass.pdf, id=337, page=3, 569.12625pt x 408.52625pt>
+File: figure/std_plots_mass.pdf Graphic file (type pdf)
+
+<use figure/std_plots_mass.pdf, page 3>
+<figure/std_plots_mass.pdf, id=338, page=2, 569.12625pt x 408.52625pt>
+File: figure/std_plots_mass.pdf Graphic file (type pdf)
+
+<use figure/std_plots_mass.pdf, page 2>
+<figure/std_plots_mass.pdf, id=339, page=5, 569.12625pt x 408.52625pt>
+File: figure/std_plots_mass.pdf Graphic file (type pdf)
+
+<use figure/std_plots_mass.pdf, page 5>
+<figure/std_plots_mass.pdf, id=340, page=7, 569.12625pt x 408.52625pt>
+File: figure/std_plots_mass.pdf Graphic file (type pdf)
+
+<use figure/std_plots_mass.pdf, page 7>
+Underfull \hbox (badness 2671) in paragraph at lines 523--539
+[][] [][]
+ []
+
+<figure/std_plots_mass.pdf, id=341, page=6, 569.12625pt x 408.52625pt>
+File: figure/std_plots_mass.pdf Graphic file (type pdf)
+
+<use figure/std_plots_mass.pdf, page 6>
+
+LaTeX Warning: Float too large for page by 52.8146pt on input line 549.
+
+) (./a_bkg_modeling.tex
+
+LaTeX Warning: Reference `c:detector' on page 12 undefined on input line 24.
+
+
+LaTeX Warning: Reference `' on page 12 undefined on input line 27.
+
+[12] [13 <./figure/std_plots_mass.pdf, page is rotated 90 degrees> <./figure/st
+d_plots_mass.pdf, page is rotated 90 degrees> <./figure/std_plots_mass.pdf, pag
+e is rotated 90 degrees> <./figure/std_plots_mass.pdf, page is rotated 90 degre
+es> <./figure/std_plots_mass.pdf, page is rotated 90 degrees> <./figure/std_plo
+ts_mass.pdf, page is rotated 90 degrees>] [14]
+<figure/std_plots_presel.pdf, id=411, page=5, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 5>
+<figure/std_plots_presel.pdf, id=412, page=7, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 7>
+<figure/std_plots_presel.pdf, id=413, page=2, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 2>
+<figure/std_plots_presel.pdf, id=414, page=4, 569.12625pt x 408.52625pt>
+File: figure/std_plots_presel.pdf Graphic file (type pdf)
+
+<use figure/std_plots_presel.pdf, page 4>
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=417, page=1, 569.12625pt x 408.
+52625pt>
+File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
+ <use figure/bg_estimation/std_plots_twoBtag.pdf, page 1>
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=418, page=6, 569.12625pt x 408.
+52625pt>
+File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
+ <use figure/bg_estimation/std_plots_twoBtag.pdf, page 6>
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=419, page=8, 569.12625pt x 408.
+52625pt>
+File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
+ <use figure/bg_estimation/std_plots_twoBtag.pdf, page 8>
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=420, page=12, 569.12625pt x 408
+.52625pt>
+File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
+ <use figure/bg_estimation/std_plots_twoBtag.pdf, page 12>
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=421, page=13, 569.12625pt x 408
+.52625pt>
+File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
+ <use figure/bg_estimation/std_plots_twoBtag.pdf, page 13>
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=422, page=10, 569.12625pt x 408
+.52625pt>
+File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
+ <use figure/bg_estimation/std_plots_twoBtag.pdf, page 10>
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=423, page=11, 569.12625pt x 408
+.52625pt>
+File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
+ <use figure/bg_estimation/std_plots_twoBtag.pdf, page 11> [15]
+
+LaTeX Warning: Reference `appendix:qcd' on page 16 undefined on input line 198.
+
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 204.
+
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 204.
+ [16]
+<figure/ABCD_regionB_Vs_regionD.pdf, id=447, 569.12625pt x 387.4475pt>
+File: figure/ABCD_regionB_Vs_regionD.pdf Graphic file (type pdf)
 
-Overfull \hbox (45.87534pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 4 \OT1/cmr/m/sl/12 CHAPTER 1.  PROSPECTS FOR NEUTRAL MSSM HIGGS
- SEARCH IMPROVEMENT
+<use figure/ABCD_regionB_Vs_regionD.pdf>
+Overfull \hbox (4.3144pt too wide) in paragraph at lines 243--273
+[][] 
  []
 
-[4
+
+Overfull \hbox (4.3144pt too wide) in paragraph at lines 280--304
+[][] 
+ []
+
+<figure/QCD/qcd_CR_emb.pdf, id=448, page=1, 569.12625pt x 408.52625pt>
+File: figure/QCD/qcd_CR_emb.pdf Graphic file (type pdf)
+
+<use figure/QCD/qcd_CR_emb.pdf, page 1>
+<figure/QCD/qcd_CR_emb.pdf, id=449, page=5, 569.12625pt x 408.52625pt>
+File: figure/QCD/qcd_CR_emb.pdf Graphic file (type pdf)
+
+<use figure/QCD/qcd_CR_emb.pdf, page 5>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 335.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 335.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 335.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 335.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 335.
+
+
+<figure/bg_estimation/std_plots_emb.pdf, id=460, page=1, 569.12625pt x 408.5262
+5pt>
+File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
+ <use figure/bg_estimation/std_plots_emb.pdf, page 1>
+<figure/bg_estimation/std_plots_emb.pdf, id=461, page=2, 569.12625pt x 408.5262
+5pt>
+File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
+ <use figure/bg_estimation/std_plots_emb.pdf, page 2>
+<figure/bg_estimation/std_plots_emb.pdf, id=462, page=3, 569.12625pt x 408.5262
+5pt>
+File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
+ <use figure/bg_estimation/std_plots_emb.pdf, page 3> [17] [18 <./figure/std_pl
+ots_presel.pdf, page is rotated 90 degrees> <./figure/std_plots_presel.pdf, pag
+e is rotated 90 degrees> <./figure/std_plots_presel.pdf, page is rotated 90 deg
+rees> <./figure/std_plots_presel.pdf, page is rotated 90 degrees>] [19 <./figur
+e/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./figure/bg
+_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./figure/bg_est
+imation/std_plots_twoBtag.pdf, page is rotated 90 degrees>]) (./a_sys.tex
+[20 <./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> 
+<./figure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./f
+igure/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees> <./figur
+e/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees>] [21 <./figu
+re/ABCD_regionB_Vs_regionD.pdf, page is rotated 90 degrees> <./figure/QCD/qcd_C
+R_emb.pdf, page is rotated 90 degrees> <./figure/QCD/qcd_CR_emb.pdf, page is ro
+tated 90 degrees>] [22 <./figure/bg_estimation/std_plots_emb.pdf, page is rotat
+ed 90 degrees>] [23 <./figure/bg_estimation/std_plots_emb.pdf, page is rotated 
+90 degrees> <./figure/bg_estimation/std_plots_emb.pdf, page is rotated 90 degre
+es>]
+
+LaTeX Warning: Reference `appendix:shapeNPs' on page 24 undefined on input line
+ 19.
+
+
+LaTeX Warning: Reference `sec:ExclusionLimits' on page 24 undefined on input li
+ne 32.
+
+[24]
+
+LaTeX Warning: Reference `chap:detector' on page 25 undefined on input line 102
+.
+
+[25] [26] [27] <figure/facs_mll_bveto.pdf, id=774, 569.12625pt x 552.0625pt>
+File: figure/facs_mll_bveto.pdf Graphic file (type pdf)
+
+<use figure/facs_mll_bveto.pdf>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 338.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 338.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 338.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 338.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 338.
+
+
+<figure/systematics/emb_sys_NoBtagFull_MFS.png, id=776, 798.985pt x 574.145pt>
+File: figure/systematics/emb_sys_NoBtagFull_MFS.png Graphic file (type png)
+
+<use figure/systematics/emb_sys_NoBtagFull_MFS.png>
+<figure/systematics/emb_sys_NoBtagFull_Iso.png, id=777, 798.985pt x 574.145pt>
+File: figure/systematics/emb_sys_NoBtagFull_Iso.png Graphic file (type png)
+
+<use figure/systematics/emb_sys_NoBtagFull_Iso.png> [28 <./figure/facs_mll_bvet
+o.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `appendix:qcd_additional' on page 29 undefined on inpu
+t line 424.
+
+[29 <./figure/systematics/emb_sys_NoBtagFull_MFS.png (PNG copy)> <./figure/syst
+ematics/emb_sys_NoBtagFull_Iso.png (PNG copy)>]
+<figure/QCD/qcd_plot.pdf, id=839, page=5, 569.12625pt x 385.44pt>
+File: figure/QCD/qcd_plot.pdf Graphic file (type pdf)
+
+<use figure/QCD/qcd_plot.pdf, page 5>
+
+LaTeX Warning: Reference `appendix:qcd' on page 30 undefined on input line 508.
+
+
+<figure/QCD/shape_tag.png, id=841, 698.61pt x 473.77pt>
+File: figure/QCD/shape_tag.png Graphic file (type png)
+
+<use figure/QCD/shape_tag.png>
+<figure/QCD/shape_veto.png, id=842, 698.61pt x 473.77pt>
+File: figure/QCD/shape_veto.png Graphic file (type png)
+
+<use figure/QCD/shape_veto.png>) (./a_result.tex
+
+LaTeX Warning: Citation `lhc' on page 30 undefined on input line 7.
+
+
+LaTeX Warning: Citation `cramer' on page 30 undefined on input line 7.
+
+
+LaTeX Warning: Reference `sec:stat1' on page 30 undefined on input line 12.
+
+
+LaTeX Warning: Reference `markedpoisson' on page 30 undefined on input line 15.
+
+
+[30] [31 <./figure/QCD/qcd_plot.pdf, page is rotated 90 degrees>] [32 <./figure
+/QCD/shape_tag.png (PNG copy)> <./figure/QCD/shape_veto.png (PNG copy)>]
+<figure/test_stat.pdf, id=902, 569.12625pt x 410.53375pt>
+File: figure/test_stat.pdf Graphic file (type pdf)
+
+<use figure/test_stat.pdf>
+
+LaTeX Warning: Reference `sec:stat1' on page 33 undefined on input line 41.
+
+[33] [34 <./figure/test_stat.pdf, page is rotated 90 degrees>] [35]
+File: figure/std_plots_mass.pdf Graphic file (type pdf)
+
+<use figure/std_plots_mass.pdf, page 6>
+File: figure/std_plots_mass.pdf Graphic file (type pdf)
+
+<use figure/std_plots_mass.pdf, page 5>
+<figure/limits/Limits_mAtanBeta_Comb.pdf, id=978, 569.12625pt x 541.02126pt>
+File: figure/limits/Limits_mAtanBeta_Comb.pdf Graphic file (type pdf)
+
+<use figure/limits/Limits_mAtanBeta_Comb.pdf>
+
+LaTeX Warning: Reference `appendix:limit' on page 36 undefined on input line 22
+1.
+
+) (./trackjet.tex [36] [37 <./figure/limits/Limits_mAtanBeta_Comb.pdf>]
+[38
+
+]
+Chapter 2.
+[39] <figure/trackjet/bbA_pt.png, id=1034, 720.6925pt x 487.8225pt>
+File: figure/trackjet/bbA_pt.png Graphic file (type png)
+
+<use figure/trackjet/bbA_pt.png>
+<figure/trackjet/top_pt.png, id=1035, 722.7pt x 485.815pt>
+File: figure/trackjet/top_pt.png Graphic file (type png)
+
+<use figure/trackjet/top_pt.png>
+
+LaTeX Warning: Reference `chap:detector' on page 40 undefined on input line 38.
+
+
+
+LaTeX Warning: Reference `chap:detector' on page 40 undefined on input line 46.
+
+
+
+LaTeX Warning: Reference `chap:detector' on page 40 undefined on input line 50.
+
+
+
+Overfull \hbox (51.75027pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 40 \OT1/cmr/m/sl/12 CHAPTER 2.  PROSPECTS FOR NEUTRAL MSSM HIGG
+S SEARCH IMPROVEMENT
+ []
+
+[40
 
  <./figure/trackjet/bbA_pt.png (PNG copy)> <./figure/trackjet/top_pt.png (PNG c
-opy)>] [5] <figure/trackjet/residuals.pdf, id=97, 569.12625pt x 385.44pt>
+opy)>] [41]
+<figure/trackjet/residuals.pdf, id=1054, 569.12625pt x 385.44pt>
 File: figure/trackjet/residuals.pdf Graphic file (type pdf)
 
 <use figure/trackjet/residuals.pdf>
-<figure/trackjet/recoEfficiency.pdf, id=99, 569.12625pt x 385.44pt>
+<figure/trackjet/recoEfficiency.pdf, id=1056, 569.12625pt x 385.44pt>
 File: figure/trackjet/recoEfficiency.pdf Graphic file (type pdf)
 
 <use figure/trackjet/recoEfficiency.pdf>
-<figure/trackjet/std_eff_rej.pdf, id=102, 569.12625pt x 385.44pt>
+<figure/trackjet/std_eff_rej.pdf, id=1059, 569.12625pt x 385.44pt>
 File: figure/trackjet/std_eff_rej.pdf Graphic file (type pdf)
 
 <use figure/trackjet/std_eff_rej.pdf>
-Overfull \hbox (45.87534pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 6 \OT1/cmr/m/sl/12 CHAPTER 1.  PROSPECTS FOR NEUTRAL MSSM HIGGS
- SEARCH IMPROVEMENT
+Overfull \hbox (51.75027pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 42 \OT1/cmr/m/sl/12 CHAPTER 2.  PROSPECTS FOR NEUTRAL MSSM HIGG
+S SEARCH IMPROVEMENT
  []
 
-[6 <./figure/trackjet/residuals.pdf>]
-<figure/trackjet/std_rej_pt.pdf, id=120, 569.12625pt x 385.44pt>
+[42 <./figure/trackjet/residuals.pdf>]
+<figure/trackjet/std_rej_pt.pdf, id=1077, 569.12625pt x 385.44pt>
 File: figure/trackjet/std_rej_pt.pdf Graphic file (type pdf)
 
 <use figure/trackjet/std_rej_pt.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/eff_real_rej_mod.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/eff_real_rej_mod.pdf, id=121, 569.12625pt x 385.44pt>
+<figure/trackjet/eff_real_rej_mod.pdf, id=1078, 569.12625pt x 385.44pt>
 File: figure/trackjet/eff_real_rej_mod.pdf Graphic file (type pdf)
 
-<use figure/trackjet/eff_real_rej_mod.pdf>
-
-LaTeX Warning: Reference `tab:eventsel:btag' on page 7 undefined on input line 
-231.
-
-
-LaTeX Warning: Reference `sec:topology' on page 7 undefined on input line 232.
-
-[7 <./figure/trackjet/recoEfficiency.pdf>]
-Overfull \hbox (45.87534pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 8 \OT1/cmr/m/sl/12 CHAPTER 1.  PROSPECTS FOR NEUTRAL MSSM HIGGS
- SEARCH IMPROVEMENT
+<use figure/trackjet/eff_real_rej_mod.pdf> [43 <./figure/trackjet/recoEfficienc
+y.pdf>]
+Overfull \hbox (51.75027pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 44 \OT1/cmr/m/sl/12 CHAPTER 2.  PROSPECTS FOR NEUTRAL MSSM HIGG
+S SEARCH IMPROVEMENT
  []
 
-[8 <./figure/trackjet/std_eff_rej.pdf> <./figure/trackjet/std_rej_pt.pdf>]
+[44 <./figure/trackjet/std_eff_rej.pdf> <./figure/trackjet/std_rej_pt.pdf>]
 Underfull \hbox (badness 1365) in paragraph at lines 264--264
 []\OT1/cmr/m/n/10 At least one tag-
  []
@@ -550,89 +892,89 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Underfull \vbox (badness 7558) has occurred while \output is active []
 
- [9 <./figure/trackjet/eff_real_rej_mod.pdf>]
+ [45 <./figure/trackjet/eff_real_rej_mod.pdf>]
 Overfull \hbox (51.75027pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 10 \OT1/cmr/m/sl/12 CHAPTER 1.  PROSPECTS FOR NEUTRAL MSSM HIGG
+\OT1/cmr/m/n/12 46 \OT1/cmr/m/sl/12 CHAPTER 2.  PROSPECTS FOR NEUTRAL MSSM HIGG
 S SEARCH IMPROVEMENT
  []
 
-[10] <figure/trackjet/T7/Sys_eff_n.pdf, id=195, 569.12625pt x 385.44pt>
+[46] <figure/trackjet/T7/Sys_eff_n.pdf, id=1147, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/Sys_eff_n.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/Sys_eff_n.pdf>
-<figure/trackjet/T7/Sys_pt_nTrack.pdf, id=196, 569.12625pt x 426.59375pt>
+<figure/trackjet/T7/Sys_pt_nTrack.pdf, id=1148, 569.12625pt x 426.59375pt>
 File: figure/trackjet/T7/Sys_pt_nTrack.pdf Graphic file (type pdf)
 
-<use figure/trackjet/T7/Sys_pt_nTrack.pdf> [11]
+<use figure/trackjet/T7/Sys_pt_nTrack.pdf> [47]
 Overfull \hbox (51.75027pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 12 \OT1/cmr/m/sl/12 CHAPTER 1.  PROSPECTS FOR NEUTRAL MSSM HIGG
+\OT1/cmr/m/n/12 48 \OT1/cmr/m/sl/12 CHAPTER 2.  PROSPECTS FOR NEUTRAL MSSM HIGG
 S SEARCH IMPROVEMENT
  []
 
-[12 <./figure/trackjet/T7/Sys_eff_n.pdf> <./figure/trackjet/T7/Sys_pt_nTrack.pd
+[48 <./figure/trackjet/T7/Sys_eff_n.pdf> <./figure/trackjet/T7/Sys_pt_nTrack.pd
 f>]
-<figure/trackjet/T7/trk_reso_updater.pdf, id=226, 569.12625pt x 387.4475pt>
+<figure/trackjet/T7/trk_reso_updater.pdf, id=1178, 569.12625pt x 387.4475pt>
 File: figure/trackjet/T7/trk_reso_updater.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/trk_reso_updater.pdf>
-<figure/trackjet/T7/trk_fake_etauptade.pdf, id=227, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/trk_fake_etauptade.pdf, id=1179, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/trk_fake_etauptade.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/trk_fake_etauptade.pdf>
-<figure/trackjet/T7/trk_fake_uptade.pdf, id=228, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/trk_fake_uptade.pdf, id=1180, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/trk_fake_uptade.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/trk_fake_uptade.pdf>
-<figure/trackjet/T7/track_efficiency_ratio.pdf, id=229, 569.12625pt x 387.4475p
-t>
+<figure/trackjet/T7/track_efficiency_ratio.pdf, id=1181, 569.12625pt x 387.4475
+pt>
 File: figure/trackjet/T7/track_efficiency_ratio.pdf Graphic file (type pdf)
  <use figure/trackjet/T7/track_efficiency_ratio.pdf>
-<figure/trackjet/T7/inef_10cent_eff_3.pdf, id=233, 569.12625pt x 387.4475pt>
+<figure/trackjet/T7/inef_10cent_eff_3.pdf, id=1185, 569.12625pt x 387.4475pt>
 File: figure/trackjet/T7/inef_10cent_eff_3.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_eff_3.pdf>
-<figure/trackjet/T7/inef_10cent_eff_4.pdf, id=234, 569.12625pt x 387.4475pt>
+<figure/trackjet/T7/inef_10cent_eff_4.pdf, id=1186, 569.12625pt x 387.4475pt>
 File: figure/trackjet/T7/inef_10cent_eff_4.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_eff_4.pdf>
-<figure/trackjet/T7/inef_10cent_eff_5.pdf, id=235, 569.12625pt x 387.4475pt>
+<figure/trackjet/T7/inef_10cent_eff_5.pdf, id=1187, 569.12625pt x 387.4475pt>
 File: figure/trackjet/T7/inef_10cent_eff_5.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_eff_5.pdf>
-<figure/trackjet/T7/inef_10cent_pt_3.pdf, id=236, 569.12625pt x 387.4475pt>
+<figure/trackjet/T7/inef_10cent_pt_3.pdf, id=1188, 569.12625pt x 387.4475pt>
 File: figure/trackjet/T7/inef_10cent_pt_3.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_pt_3.pdf>
-<figure/trackjet/T7/inef_10cent_pt_4.pdf, id=237, 569.12625pt x 387.4475pt>
+<figure/trackjet/T7/inef_10cent_pt_4.pdf, id=1189, 569.12625pt x 387.4475pt>
 File: figure/trackjet/T7/inef_10cent_pt_4.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_pt_4.pdf>
-<figure/trackjet/T7/inef_10cent_pt_5.pdf, id=238, 569.12625pt x 387.4475pt>
+<figure/trackjet/T7/inef_10cent_pt_5.pdf, id=1190, 569.12625pt x 387.4475pt>
 File: figure/trackjet/T7/inef_10cent_pt_5.pdf Graphic file (type pdf)
 
-<use figure/trackjet/T7/inef_10cent_pt_5.pdf>) (./tesi.bbl [13]
+<use figure/trackjet/T7/inef_10cent_pt_5.pdf>) (./tesi.bbl [49]
 Overfull \hbox (51.75027pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 14 \OT1/cmr/m/sl/12 CHAPTER 1.  PROSPECTS FOR NEUTRAL MSSM HIGG
+\OT1/cmr/m/n/12 50 \OT1/cmr/m/sl/12 CHAPTER 2.  PROSPECTS FOR NEUTRAL MSSM HIGG
 S SEARCH IMPROVEMENT
  []
 
-[14 <./figure/trackjet/T7/trk_reso_updater.pdf> <./figure/trackjet/T7/trk_fake_
+[50 <./figure/trackjet/T7/trk_reso_updater.pdf> <./figure/trackjet/T7/trk_fake_
 etauptade.pdf> <./figure/trackjet/T7/trk_fake_uptade.pdf> <./figure/trackjet/T7
-/track_efficiency_ratio.pdf>] [15 <./figure/trackjet/T7/inef_10cent_eff_3.pdf, 
+/track_efficiency_ratio.pdf>] [51 <./figure/trackjet/T7/inef_10cent_eff_3.pdf, 
 page is rotated 90 degrees> <./figure/trackjet/T7/inef_10cent_eff_4.pdf, page i
 s rotated 90 degrees> <./figure/trackjet/T7/inef_10cent_eff_5.pdf, page is rota
 ted 90 degrees>]
 Overfull \hbox (51.75027pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 16 \OT1/cmr/m/sl/12 CHAPTER 1.  PROSPECTS FOR NEUTRAL MSSM HIGG
+\OT1/cmr/m/n/12 52 \OT1/cmr/m/sl/12 CHAPTER 2.  PROSPECTS FOR NEUTRAL MSSM HIGG
 S SEARCH IMPROVEMENT
  []
 
-[16 <./figure/trackjet/T7/inef_10cent_pt_3.pdf, page is rotated 90 degrees> <./
+[52 <./figure/trackjet/T7/inef_10cent_pt_3.pdf, page is rotated 90 degrees> <./
 figure/trackjet/T7/inef_10cent_pt_4.pdf, page is rotated 90 degrees> <./figure/
-trackjet/T7/inef_10cent_pt_5.pdf, page is rotated 90 degrees>] [17
+trackjet/T7/inef_10cent_pt_5.pdf, page is rotated 90 degrees>] [53
 
-] [18]
-Underfull \hbox (badness 2197) in paragraph at lines 201--204
+] [54]
+Underfull \hbox (badness 2197) in paragraph at lines 205--208
 \OT1/cmr/m/it/12 fras-truc-ture\OT1/cmr/m/n/12 , ATLAS-SOFT-2010-01-004, sub-mi
 t-ted to Eur. Phys. J. C.,
  []
@@ -640,52 +982,58 @@ t-ted to Eur. Phys. J. C.,
 Missing character: There is no â in font cmti12!
 Missing character: There is no ˆ in font cmti12!
 Missing character: There is no ’ in font cmti12!
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 241--243
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
 []\OT1/cmr/m/n/12 ATLAS egamma WG, \OT1/cmr/m/it/12 Elec-tron ef-fi-ciency mea-
 sure-ments\OT1/cmr/m/n/12 ,
  []
 
 
-Overfull \hbox (20.44154pt too wide) in paragraph at lines 277--280
+Overfull \hbox (20.44154pt too wide) in paragraph at lines 281--284
 \OT1/cmr/m/it/12 Provider\OT1/cmr/m/n/12 , https://twiki.cern.ch/twiki/bin/view
 /Main/JetEnergyResolutionProvider. 
  []
 
-[20] [21]
-Overfull \hbox (128.65894pt too wide) in paragraph at lines 383--384
+[56] [57]
+Overfull \hbox (128.65894pt too wide) in paragraph at lines 387--388
 []\OT1/cmr/m/n/12 Statistical twiki, Nuis-sanceCheck. []https://twiki.cern.ch/t
 wiki/bin/view/AtlasProtected/NuisanceCheck[] 
  []
 
-) [22] (./tesi.aux)
+) [58] (./tesi.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6323 strings out of 493848
- 91764 string characters out of 1152823
- 172352 words of memory out of 3000000
- 9328 multiletter control sequences out of 15000+50000
- 12797 words of font info for 49 fonts, out of 3000000 for 9000
+ 6782 strings out of 493848
+ 100648 string characters out of 1152823
+ 197612 words of memory out of 3000000
+ 9607 multiletter control sequences out of 15000+50000
+ 19535 words of font info for 73 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,11n,39p,510b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+ 38i,16n,39p,875b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb
-></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-ti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tesi.pdf (22 pages, 580489 bytes).
+ic/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
+/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti1
+2.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on tesi.pdf (58 pages, 1454649 bytes).
 PDF statistics:
- 757 PDF objects out of 1000 (max. 8388607)
- 131 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1736 PDF objects out of 2073 (max. 8388607)
+ 265 named destinations out of 1000 (max. 500000)
+ 507 words of extra memory for PDF output out of 10000 (max. 10000000)
 
