@@ -90,25 +90,78 @@ All tracks found with $\pt > 100$ MeV are written to the database.
 %secondary vertices.
 
 \paragraph{Vertex Reconstruction}
-Bla on vertex
-
+The vertex recostruction algorithm and its performance are described in full detail in~\cite{AtlasCSCBook,VertexPerf} and
+only briefly summarized here.
 %say good tracks
-The vertex finding is performed by an iterative approach, a vertex seed is found by  
-looking for the global maximum in the distribution of z coordinates of
-the tracks computed with respect the averange position of the collision point. The position of the averange interaction point 
-is computed every few minutes with the method described in~\cite{beamspot}.
+The vertex finding is perfomed as follows:  a set of well reconstructed tracks are selected,
+a vertex is seeded according to the global maximum of the selected tracks $z$ coordinate distribution, the tracks $z$ coordinate 
+is computed with respect the expected averange collision point. 
 An adaptive vertex fitting algorithm~\cite{Vertex} determines the vertex position taking as input the vertex seed position and the 
 tracks around it. Tracks that are incompatible with the found vertex by more than seven standard deviation
-are used to seed the next vertex, the iteration continues untill no tracks are left or no additional vertex can be found.
+are used to seed the next vertex. The iteration continues untill no tracks are left or no additional vertex can be found.
+The procedure depends  on the expected position of the averange interaction point, which is monitored 
+during LHC data taking and is computed every few minutes with the method described in~\cite{beamspot}.
 
 The vertex with the larger sum of tracks $\pt$ associated is identified as the \emph{primary vertex} (PV), 
-i.e. the interaction point of the hard scattering of the event. All the other vertices are assumed to result from
+i.e. the interaction point related to the hard scattering of the event. All the other vertices are assumed to result from
 minimum bias interaction and are called \emph{pile-up} vertices.
-In data recorded during 2012, an averange of 21 multiple interaction are occurred per bunch crossing.
-A correct pile-up description is crucial for MC simulation, events are weighted in simulation according to pile-up 
-condition in data.
+In data recorded during 2012, an averange of 21 multiple interaction are occurred per bunch crossing,
+such a high vertex multiplicity strongly affects the ambient energy density in the event, 
+a correct pile-up description is then crucial for MC simulation. The ATLAS MC production assures that events 
+are simulated with various pile-up conditions, simulated events are then weighted according to the averange interaction
+per bunch crossing recorded in data.
 
 
+\section{Jets Reconstruction and Energy Calibration}
+Jets are reconstructed in ATLAS by means of the FastJet package~\cite{fastjet}, 
+which provides a broad range of jet finding algorithms and analysis tools. 
+In the following jet reconstruction methods relevant for the
+analysis presented in this theses are brifly described, for more detail see~\cite{AtlasCSCBook}.
+
+In general, jets may be reconstructed out of any set of four vector objects, 
+however in ATLAS, the most important detectors for jet reconstruction are the ATLAS calorimeters.
+Calorimeter cells are grouped togheter by a clustering algorithm forming what are called \emph{topological clusters}~\cite{TopoClusterAlgo},
+those are three-dimensional cluster representing the energy deposition of the shower.
+the clustering starts with seed cells with a signal-to-noise ratio greather that a certain threshold, 
+all nearby cells are grouped to the seed cells if they passes a second, lower, signal-to-noise ratio treshould.
+
+Topological clusters are then fed to an \emph{anti-$k_t$} algorithm~\cite{antikt}. The algorithm defines a metric
+to assess distances between the clusters $i$ and $j$, the metric is defined as follows:
+\begin{align}
+d_{ij} &= \text{min}(\frac{1}{k_{t,i}^2}, \frac{1}{k_{t,j}^2}) \cdot \frac{\Delta R_{ij}^2}{R^2}  \\
+d_i   &= \frac{1}{k_{t,i}^2} 
+\end{align}
+where $k_{t,i}$ is the $\pt$ of the cluster $i$ and $\Delta R_{ij}^2 = \sqrt{\Delta\phi_{ij}^2 + \Delta\eta_{ij}^2}$, for
+this analysis $R=0.4$ is chosen.
+If the distance between two cluster $d_{ij}$ is smaller that $d_i$ the clusters are grouped togheter and their four momentum
+summed, otherwise their are kept as single entity. The clustering procedure is iterated until is not possible to merge object
+anymore. The metric is designed in a way that high $\pt$ jet will accumulate the soft activity surrounding them leading to conical
+jet shapes. 
+
+Given the high pile-up environment of LHC  is important to distinguish jets coming from the hard scattering process and those
+related to pile-up interaction, for this purpose a techique, called \emph{jet vertex fraction} (JVF), is implemented in the 
+ATLAS jet reconstruction software.
+The JVF relies on Inner Detector informations, it is defined as the $\pt$ weighted fraction of tracks pointing
+to to the primary vertex associated to the jet:
+\begin{equation}
+\text{JVF} = \frac{\sum\limits_{PV-tracks}\pt}{\sum\limits_{tracks}\pt}
+\end{equation} 
+the jet vertex fraction  is only available within Inner Detector coverage $|\eta| < 2.5$,
+while calorimeter jet reconstruction is possible up to $|\eta| < 4.5$.
+
+\paragraph{Calorimeter Jet Energy Calibration}
+The ATLAS calorimeters were calibrated using test beam electrons~\cite{EMcalibration},  the response
+to electromagnetic shower however,  is different from the one to hadronic shower, a dedicated jet energy scale
+(JES) calibration is then performed by means of MC simulation~\cite{jesinsitu}: 
+jet energy is corrected to correspond, as a mean value, to the simulated energy 
+of the fragmentating parton origin of the jet. The direction of the jet is also corrected to constraint it to point
+to the primary vertex instead to the center of ATLAS detector. A set of corrections are then evaluated to take into account
+effect of pile-up~\cite{jespileup, jesarea}. Jet resolution is also corrected in MC to better describe the data~\cite{jer}. 
+Finally, several jet energy scale correction are applied for a better agreement between 
+data and simulation, those corrections are evaluated based on 2011 ATLAS data compared to MC simulation and 
+exploiting several techniques, JES systematic uncertainty due not perfect MC modeling are also evaluated,
+a full description of JES "in-situ" methodology corrections and related systematics uncertainties are 
+described in~\cite{jesinsitu, JES}.
 
 \subsection{Electrons}
 \label{sec:presel:elec}
@@ -219,33 +272,6 @@ event, to reduce the dependence on pileup. In this analysis, a muon with
 $\etcone/\pt<0.04$ and $\ptcone/\pt<0.06$ is considered isolated.
 
 
-\subsection{Jets}
-\label{sec:presel:jet}
-
-The jets used in this analysis are reconstructed using the Anti-$k_T$
-algorithm \cite{AntiKT} with the distance parameter R=0.4 taking
-topological clusters as inputs. The reconstructed jets are calibrated
-to the Local Cluster Weighting (LCW) scale \cite{jetenergyscale}. In
-addition, the effect of pileup on the reconstructed energy is reduced
-by applying a further correction based on the pile-up area method with
-a final in-situ calibration also applied.
-
-A preselection is then applied that requires the reconstructed jets
-to have a transverse momentum of $\pt > 30\GeV$ after calibration  and
-to be within the pseudorapidity range $|\eta| < 4.5$. The effect of pileup on
-the reconstructed jets is further reduced by requiring that jets with
-the pseudorapidity range $|\eta|<2.4$ and a transverse momentum of $\pt <
-50\GeV$ have a absolute value of the Jet Vertex Fraction (JVF) of greater than 0.5.
-
-A separate set of preselected jets is defined that are used only for
-b-tagging (henceforth known as ``taggable jets''). Such jets are
-reconstructed and calibrated as for the standard preselected
-jets. However, the taggable jets are required to have a transverse
-momentum of $\pt > 20\GeV$ and to have a reconstructed pseudorapidity
-of $|\eta| < 2.5$. The second requirement ensures that charged
-particles within the jets pass through the tracking volume and hence
-can be used for b-tagging of the jet. Finally, the same JVF selection
-as the standard preselected jets is applied to the taggable jets.
 
 \subsection{b-Tagging}
 \label{sec:presel:btag}

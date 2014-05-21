@@ -2,25 +2,26 @@
 \contentsline {section}{\numberline {1.1}Tracks and Vertex Reconstruction}{4}{section.1.1}
 \contentsline {paragraph}{Track Reconstruction}{4}{section*.2}
 \contentsline {paragraph}{Vertex Reconstruction}{4}{section*.3}
-\contentsline {subsection}{\numberline {1.1.1}Electrons}{5}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Muons}{5}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Jets}{6}{subsection.1.1.3}
-\contentsline {subsection}{\numberline {1.1.4}b-Tagging}{7}{subsection.1.1.4}
-\contentsline {subsection}{\numberline {1.1.5}Taus}{7}{subsection.1.1.5}
-\contentsline {subsection}{\numberline {1.1.6}Overlap Removal}{7}{subsection.1.1.6}
-\contentsline {subsection}{\numberline {1.1.7}Missing Transverse Energy}{8}{subsection.1.1.7}
-\contentsline {subsection}{\numberline {1.1.8}Vertices}{8}{subsection.1.1.8}
-\contentsline {subsection}{\numberline {1.1.9}Event Cleaning}{8}{subsection.1.1.9}
-\contentsline {subsection}{\numberline {1.1.10}Monte Carlo Corrections}{10}{subsection.1.1.10}
-\contentsline {subsubsection}{Trigger Efficiency corrections}{10}{section*.4}
-\contentsline {subsubsection}{Lepton Reconstruction Efficiency Corrections}{10}{section*.5}
-\contentsline {subsubsection}{b-tagging Efficiency Corrections}{10}{section*.6}
-\contentsline {subsubsection}{Pileup Reweighting}{11}{section*.7}
+\contentsline {section}{\numberline {1.2}Jets Reconstruction and Energy Calibration}{5}{section.1.2}
+\contentsline {paragraph}{Calorimeter Jet Energy Calibration}{6}{section*.4}
+\contentsline {subsection}{\numberline {1.2.1}Electrons}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Muons}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}b-Tagging}{8}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Taus}{8}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Overlap Removal}{8}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Missing Transverse Energy}{8}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.7}Vertices}{9}{subsection.1.2.7}
+\contentsline {subsection}{\numberline {1.2.8}Event Cleaning}{9}{subsection.1.2.8}
+\contentsline {subsection}{\numberline {1.2.9}Monte Carlo Corrections}{9}{subsection.1.2.9}
+\contentsline {subsubsection}{Trigger Efficiency corrections}{9}{section*.5}
+\contentsline {subsubsection}{Lepton Reconstruction Efficiency Corrections}{11}{section*.6}
+\contentsline {subsubsection}{b-tagging Efficiency Corrections}{11}{section*.7}
+\contentsline {subsubsection}{Pileup Reweighting}{11}{section*.8}
 \contentsline {chapter}{\numberline {2}Neutral MSSM Higgs Bosons Search...}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{14}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Simulated Event Samples}{16}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Event Selections and Categorizzation}{17}{subsection.2.1.2}
-\contentsline {subsubsection}{Event Category}{18}{section*.8}
+\contentsline {subsubsection}{Event Category}{18}{section*.9}
 \contentsline {subsection}{\numberline {2.1.3}Mass Reconstruction with MMC Technique}{20}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}Background Modeling and Validation}{22}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Top Quark Pair Production Validation}{22}{subsection.2.2.1}
@@ -28,15 +29,15 @@
 \contentsline {subsection}{\numberline {2.2.3}$Z \rightarrow \tau \tau $ + Jets Background: Embedding Technique}{29}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Systematic Uncertainties}{34}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Detector-related Systematics Uncertainties}{34}{subsection.2.3.1}
-\contentsline {paragraph}{Luminosity}{34}{section*.9}
-\contentsline {paragraph}{Pileup}{35}{section*.10}
-\contentsline {paragraph}{Trigger Efficiency}{35}{section*.11}
-\contentsline {paragraph}{Electrons}{35}{section*.12}
-\contentsline {paragraph}{Muons}{35}{section*.13}
-\contentsline {paragraph}{Taus}{35}{section*.14}
-\contentsline {paragraph}{Jets}{35}{section*.15}
-\contentsline {paragraph}{b-Tagging}{36}{section*.16}
-\contentsline {paragraph}{Missing Transverse Energy}{36}{section*.17}
+\contentsline {paragraph}{Luminosity}{34}{section*.10}
+\contentsline {paragraph}{Pileup}{35}{section*.11}
+\contentsline {paragraph}{Trigger Efficiency}{35}{section*.12}
+\contentsline {paragraph}{Electrons}{35}{section*.13}
+\contentsline {paragraph}{Muons}{35}{section*.14}
+\contentsline {paragraph}{Taus}{35}{section*.15}
+\contentsline {paragraph}{Jets}{35}{section*.16}
+\contentsline {paragraph}{b-Tagging}{36}{section*.17}
+\contentsline {paragraph}{Missing Transverse Energy}{36}{section*.18}
 \contentsline {subsection}{\numberline {2.3.2}Theoretical Uncertainties}{38}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}\ensuremath {Z\rightarrow \tau \tau }\xspace Embedding Systematics}{38}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}QCD Multi-Jet Systematics}{40}{subsection.2.3.4}

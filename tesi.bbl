@@ -261,6 +261,54 @@ R. Fruhwirth, W. Waltenberger, P. Vanlaer, \emph{Adaptive vertex fitting}, J. Ph
   Detector, Trigger and Physics}\/},  CERN-OPEN-2008-020,
   \href{http://arxiv.org/abs/{0901.0512}}{{\tt arXiv:{0901.0512}}}.
 
+\bibitem{fastjet}
+M. Cacciari, G. P. Salam, and G. Soyez, \emph{FastJet user manual}, Eur.Phys.J. C72
+(2012) 1896.
+
+\bibitem{TopoClusterAlgo}
+W.~Lampl et al., {\em Calorimeter Clustering Algorithms : Description and
+  Performance\/},  ATL-LARG-PUB-2008-002.
+
+\bibitem{EMcalibration}
+E. Abat, J. Abdallah, T. Addy, P. Adragna, et al.,\emph{ Combined performance studies
+for electrons at the 2004 ATLAS combined test-beam}, JINST 5 (2010) P11006.
+
+\bibitem{jesinsitu}
+ATLAS Collaboration, \emph{Jet energy measurement with the ATLAS detector in proton-proton
+collisions at $\sqrt{s} = 7$ TeV}, Submitted to EPJ (2011) , arXiv:1112.6426 
+
+\bibitem{jespileup}
+The ATLAS Collaboration, \emph{Pile-up corrections for jets from proton-proton collisions at
+ATLAS in 2011}, ATLAS-CONF-2012-064, July, 2012.
+
+\bibitem{jesarea}
+M. Cacciari and G. P. Salam, \emph{Pileup subtraction using jet areas}, Phys.Lett. B659
+(2008) 119.
+
+\bibitem{jer}
+The ATLAS Collaboration, G. Aad et al., \emph{Jet energy resolution in proton-proton
+collisions at $\sqrt{s} = 7$ TeV recorded in 2010 with the ATLAS detector}, Eur.Phys.J.
+C73 (2013) 2306
+
+\bibitem{JES}
+{The ATLAS} collaboration, \emph{Jet energy scale and its systematic uncertainty in proton-proton collisions at $\sqrt{s}=7$
+ TeV with ATLAS 2011 data}, ATLAS-CONF-2013-004
+
+
+
+
+\bibitem{LocalHadronCalib}
+T.~Barillari et al., {\em Local Hadron Calibration\/},  ATL-LARG-PUB-2009-001.
+
+\bibitem{ATLASJETEnergyScale}
+{The ATLAS} Collaboration, {\em Jet energy scale and its systematic uncertainty
+  in proton-proton collisions at $\sqrt{s}=7$~TeV in ATLAS 2010 data\/},
+  ATLAS-CONF-2011-032.
+
+\bibitem{antikt}
+M. Cacciari, G. P. Salam, and G. Soyez, \emph{The anti-kt jet clustering algorithm},
+JHEP 04 (2008) 63.
+
 \bibitem{MuonResolution}
 {The ATLAS} Collaboration, {\em ATLAS Muon Momentum Resolution in the First
   Pass Reconstruction of the 2010 p-p Collision Data at $\sqrt{s}=7$~TeV\/},
@@ -285,17 +333,6 @@ R. Fruhwirth, W. Waltenberger, P. Vanlaer, \emph{Adaptive vertex fitting}, J. Ph
 M.~Cacciari, G.~P. Salam, and G.~Soyez, {\em {The anti-$k_t$ jet clustering
   algorithm}\/},  JHEP {\bf 04} (2008)  063.
 
-\bibitem{TopoClusterAlgo}
-W.~Lampl et al., {\em Calorimeter Clustering Algorithms : Description and
-  Performance\/},  ATL-LARG-PUB-2008-002.
-
-\bibitem{LocalHadronCalib}
-T.~Barillari et al., {\em Local Hadron Calibration\/},  ATL-LARG-PUB-2009-001.
-
-\bibitem{ATLASJETEnergyScale}
-{The ATLAS} Collaboration, {\em Jet energy scale and its systematic uncertainty
-  in proton-proton collisions at $\sqrt{s}=7$~TeV in ATLAS 2010 data\/},
-  ATLAS-CONF-2011-032.
 
 \bibitem{ATLASTAUIDnew}
 {TheATLAS} Collaboration, {\em Performance of the Reconstruction and
