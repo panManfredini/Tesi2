@@ -222,6 +222,40 @@ ATL-COM-PHYS-2013-722.
 T.~S. et~al., {\em $\mathrm{Z}$ physics at LEP 1\/},  CERN 89-08 {\bf 3} (1989)
    143.
 
+\bibitem{Athena}
+  A.~Bazan, T.~Bouedo, P.~Ghez, M.~Marino and C.~Tull,
+  ``The Athena data dictionary and description language,''
+  eConf C {\bf 0303241} (2003) MOJT010
+  [cs/0305049 [cs-se]].
+
+\bibitem{ID}
+{The ATLAS} Collaboration, Inner Detector: Technical Design Report, CERN/LHCC/97-016/017
+(1997).
+
+\bibitem{ATLAS}
+{The ATLAS} Collaboration, G. Aad et al., The ATLAS Experiment at the CERN Large Hardon
+Collider, 2008 JINST 3 S08003.
+
+
+\bibitem{IDtracking}
+T. Cornelissen et al., Concepts, Design and Implementation of the ATLAS New Tracking, ATLAS
+Note ATL-SOFT-PUB-2007-007 (2007).
+
+\bibitem{Kalman}
+Kalman, R. E. (1960). \emph{"A New Approach to Linear Filtering and Prediction Problems".} 
+Journal of Basic Engineering 82 (1): 35–45. doi:10.1115/1.3662552
+
+\bibitem{beamspot}
+{The ATLAS} Collaboration, \emph{Characterization of Interaction-Point Beam Parameters Using the pp
+Event-Vertex Distribution Reconstructed in the ATLAS Detector at the LHC}, ATL-CONF-2010-027.
+
+\bibitem{Vertex}
+R. Fruhwirth, W. Waltenberger, P. Vanlaer, \emph{Adaptive vertex fitting}, J. Phys. G34 (2007).
+
+\bibitem{VertexPerf}
+{The ATLAS} Collaboration, Performance of primary vertex reconstruction in proton-proton collisions at $s = sqrt(7)$ TeV in the ATLAS experiment.
+ ATLAS-CONF-2010-069.
+
 \bibitem{AtlasCSCBook}
 {The ATLAS} Collaboration, {\em {Expected Performance of the ATLAS Experiment -
   Detector, Trigger and Physics}\/},  CERN-OPEN-2008-020,
@@ -236,6 +270,8 @@ T.~S. et~al., {\em $\mathrm{Z}$ physics at LEP 1\/},  CERN 89-08 {\bf 3} (1989)
 {The ATLAS} Collaboration, {\em Muon reconstruction efficiency in reprocessed
   2010 LHC p-p collision data recorded with the ATLAS detector\/},
   ATLAS-CONF-2011-063.
+
+
 
 \bibitem{ElectronID2011}
 {The ATLAS} Collaboration, {\em Expected electron performance in the ATLAS

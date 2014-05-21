@@ -1,37 +1,55 @@
-\contentsline {chapter}{\numberline {1}Neutral MSSM Higgs Bosons Search...}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Simulated Event Samples}{6}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Event Selections and Categorizzation}{7}{subsection.1.1.2}
-\contentsline {subsubsection}{Event Category}{8}{section*.2}
-\contentsline {subsection}{\numberline {1.1.3}Mass Reconstruction with MMC Technique}{10}{subsection.1.1.3}
-\contentsline {section}{\numberline {1.2}Background Modeling and Validation}{12}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Top Quark Pair Production Validation}{15}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Multi-jet Background}{15}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}$Z \rightarrow \tau \tau $ + Jets Background: Embedding Technique}{17}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Systematic Uncertainties}{20}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Detector-related Systematics Uncertainties}{24}{subsection.1.3.1}
-\contentsline {paragraph}{Luminosity}{24}{section*.3}
-\contentsline {paragraph}{Pileup}{24}{section*.4}
-\contentsline {paragraph}{Trigger Efficiency}{24}{section*.5}
-\contentsline {paragraph}{Electrons}{25}{section*.6}
-\contentsline {paragraph}{Muons}{25}{section*.7}
-\contentsline {paragraph}{Taus}{25}{section*.8}
-\contentsline {paragraph}{Jets}{25}{section*.9}
-\contentsline {paragraph}{b-Tagging}{25}{section*.10}
-\contentsline {paragraph}{Missing Transverse Energy}{25}{section*.11}
-\contentsline {subsection}{\numberline {1.3.2}Theoretical Uncertainties}{26}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}\ensuremath {Z\rightarrow \tau \tau }\xspace Embedding Systematics}{28}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}QCD Multi-Jet Systematics}{29}{subsection.1.3.4}
-\contentsline {section}{\numberline {1.4}Results}{30}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}LHC Procedure For Limits Setting}{30}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Exclusion Limits}{35}{subsection.1.4.2}
-\contentsline {chapter}{\numberline {2}Prospects for Neutral MSSM Higgs Search Improvement}{39}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction to Trackjets}{40}{section.2.1}
-\contentsline {section}{\numberline {2.2}Trackjet Performance}{41}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}B-tagging on Trackjets}{42}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Impact of Trackjet on the Analysis}{43}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}A Novel Technique for low-$\ensuremath {P_{T}}\xspace $ b-Tagging}{46}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Systematic Uncertainties on Trackjets}{46}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Introduction to Trackjet Systematics}{46}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Trackjets Uncertainty from Material Budget }{47}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Track Subtraction Method Validation}{47}{subsection.2.3.3}
+\contentsline {chapter}{\numberline {1}Reconstruction of Physics Object}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Tracks and Vertex Reconstruction}{4}{section.1.1}
+\contentsline {paragraph}{Track Reconstruction}{4}{section*.2}
+\contentsline {paragraph}{Vertex Reconstruction}{4}{section*.3}
+\contentsline {subsection}{\numberline {1.1.1}Electrons}{5}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Muons}{5}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Jets}{6}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}b-Tagging}{7}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}Taus}{7}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.1.6}Overlap Removal}{7}{subsection.1.1.6}
+\contentsline {subsection}{\numberline {1.1.7}Missing Transverse Energy}{8}{subsection.1.1.7}
+\contentsline {subsection}{\numberline {1.1.8}Vertices}{8}{subsection.1.1.8}
+\contentsline {subsection}{\numberline {1.1.9}Event Cleaning}{8}{subsection.1.1.9}
+\contentsline {subsection}{\numberline {1.1.10}Monte Carlo Corrections}{10}{subsection.1.1.10}
+\contentsline {subsubsection}{Trigger Efficiency corrections}{10}{section*.4}
+\contentsline {subsubsection}{Lepton Reconstruction Efficiency Corrections}{10}{section*.5}
+\contentsline {subsubsection}{b-tagging Efficiency Corrections}{10}{section*.6}
+\contentsline {subsubsection}{Pileup Reweighting}{11}{section*.7}
+\contentsline {chapter}{\numberline {2}Neutral MSSM Higgs Bosons Search...}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{14}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Simulated Event Samples}{16}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Event Selections and Categorizzation}{17}{subsection.2.1.2}
+\contentsline {subsubsection}{Event Category}{18}{section*.8}
+\contentsline {subsection}{\numberline {2.1.3}Mass Reconstruction with MMC Technique}{20}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Background Modeling and Validation}{22}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Top Quark Pair Production Validation}{22}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Multi-jet Background}{27}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}$Z \rightarrow \tau \tau $ + Jets Background: Embedding Technique}{29}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Systematic Uncertainties}{34}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Detector-related Systematics Uncertainties}{34}{subsection.2.3.1}
+\contentsline {paragraph}{Luminosity}{34}{section*.9}
+\contentsline {paragraph}{Pileup}{35}{section*.10}
+\contentsline {paragraph}{Trigger Efficiency}{35}{section*.11}
+\contentsline {paragraph}{Electrons}{35}{section*.12}
+\contentsline {paragraph}{Muons}{35}{section*.13}
+\contentsline {paragraph}{Taus}{35}{section*.14}
+\contentsline {paragraph}{Jets}{35}{section*.15}
+\contentsline {paragraph}{b-Tagging}{36}{section*.16}
+\contentsline {paragraph}{Missing Transverse Energy}{36}{section*.17}
+\contentsline {subsection}{\numberline {2.3.2}Theoretical Uncertainties}{38}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}\ensuremath {Z\rightarrow \tau \tau }\xspace Embedding Systematics}{38}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}QCD Multi-Jet Systematics}{40}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Results}{43}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}LHC Procedure For Limits Setting}{43}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Exclusion Limits}{46}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}Prospects for Neutral MSSM Higgs Search Improvement}{49}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction to Trackjets}{50}{section.3.1}
+\contentsline {section}{\numberline {3.2}Trackjet Performance}{51}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}B-tagging on Trackjets}{52}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Impact of Trackjet on the Analysis}{53}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}A Novel Technique for low-$\ensuremath {P_{T}}\xspace $ b-Tagging}{56}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Systematic Uncertainties on Trackjets}{56}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Introduction to Trackjet Systematics}{56}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Trackjets Uncertainty from Material Budget }{57}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Track Subtraction Method Validation}{57}{subsection.3.3.3}

@@ -425,12 +425,11 @@ while in tables~\ref{tab:eventsel:bveto}-\ref{tab:eventsel:btag} the number of e
 
 \subsection{Mass Reconstruction with MMC Technique}\label{sec:mmc}
 
-Reconstructing the invariant mass of a di-$\tau$ resonace is a challenging task
-due to the presence of neutrinos from the $\tau$ lepton decay. 
-In case the $\tau$ leptons decays leptonically a total of four neutrinos are involved in the final state, a pair of neutrinos for each
-$\tau$ lepton decay,  the system presents then eight uknowns, which are the components of the two 
-four-vectors related to each of the two pair of neutrinos.  There are four kinematic constraint to the system which are summarized by 
-following equation:
+Acurate invariant mass reconstuction of a di-$\tau$ resonace is a challenging task
+due to the presence of neutrinos from the $\tau$ leptons decay. 
+In case of leptonic decay of both $\tau$ leptons a pair of neutrinos for each
+of them are involved in the final state,  the system presents then eight uknowns, which corresponds to the four-momentum of the neutrinos pairs.
+Four additional kinematic constraint are set by the following equations:
 %There are four additional constraint 
 %which come from the measurement of \MET and from the fact that each single decay should have invariant mass equal to the tau mass:
 \begin{equation} \label{eq:MMC}
@@ -443,56 +442,39 @@ following equation:
 %\end{gather*}
 \end{split}
 \end{equation}
-where the index \emph{i} runs over the two $\tau$ lepton of the event and assumes the value of 1 or 2, 
-$\mathbf{P}_{mis}$ and $\mathbf{P}_{vis}$ represent respectively the four momentum of the pair of neutrinos 
-and the four momentim of the charged lepton from the $\tau$ lepton decay, $m^2_{miss}$, therefore there are still four degrees of freedom in the system.
-Several approximation are possible to further constraint the momentum carried by neutrinos,
-for example assuming them collinear to the charged leptons from tau decay, however those approximation suffers of limitations. 
+where the index \emph{i} runs over the two $\tau$ leptons of the event and assumes the values of 1 or 2, 
+$\vec{P}_{T}^{mis_{i}}$, $m_{mis_{i}}$ and $\mathbf{P}_{mis_{i}}$ are respectively the transverse momentum, the invariant mass and 
+the four momentum of the pair of neutrinos related to the  $\tau$ lepton decay \emph{i} with mass $M_{\tau}$, the subscript \emph{vis} indicates insetad 
+quantities related to the charged lepton from  $\tau$ lepton decay. The system has still four degrees of freedom,
+%$m^2_{miss}$, therefore there are still four degrees of freedom in the system.
+several approximation are possible to further constraint the momentum carried by neutrinos,
+for example assuming them collinear to the electron or muon from $\tau$ lepton decay, however those approximation 
+suffers of mass resolution limitations.
 
 In this analysis, the so-called "Missing Mass Calculator" (MMC) algorithm
-is used to calculate the most likely di-tau system invariant mass given the event topology, %event kinematics
-the implementation in the analysis of this method is based on~\cite{MMC}. 
+is used to calculate the most likely di-$\tau$ system invariant mass given the event topology, %event kinematics
+the implementation of the method in this search is based on~\cite{MMC}. 
 The concept of the MMC is to solve equation~\ref{eq:MMC} assigning values to the yet undetermined variables, performing a 
 ``scan'' over a four dimensional parameter space. The four independent  variables are chosen 
 to be $ m^2_{mis_{i}}$ and $cos\theta^*_i$ , the latter defined
 as the angle between the charged lepton from the $\tau$ lepton decay and the boost direction of the $\tau$ lepton. 
-The di-tau invariant mass of the event can be calculated for each given point of the parameter space that solves equations~\ref{eq:MMC},
-however, the solution are not all equally likely and probability of a given $\tau$ decay configuration can be predicetd by means
-of PITHYA supplemented with TAUOLA package. Each point in the parameter space, corresponding
-to a particular di-$\tau$ invariant mass, is weighted by its probability to occur. 
+The di-$\tau$ invariant mass of the event can be calculated for each given point of the parameter space that solves equations~\ref{eq:MMC},
+however, the solutions are not all equally likely and  the probability of a given $\tau$ decay configuration can be predicetd by means
+of simulation (PYTHIA supplemented with TAUOLA package is used). Each point in the parameter space, corresponding
+to a particular di-$\tau$ invariant mass, is then weighted by its probability to occur. 
 The estimator for the final discriminant, the mass of the di-tau system \mmc, 
 is the maximum of the weighted invariant mass distribution calculated for the scanned points.
 
-The missing energy plays an important role in the mass reconstrution with this method, the mass resolution is
-connected with the missin energy resolution, the scan over the parameter space is then achieved in two steps:
-first a scan over six parameter is done (the one mentioned above and $\vec{E}_T^{miss}$), the scan over $E_{T_x}^{miss}$ and $E_{T_y}^{miss}$
-is done chosing values within one sigma from the central missing energy value, according to its uncertainty,
-the scan is made over the points which are physical solution for the system of equation~\ref{eq:MMC}, each point 
-is then weighed by the probability obtained from the matrix element of a tau lepton decay, the weighted 
-mean of $\vec{E}_T^{miss}$ is assumed as a better estimate and used in a four dimensional scan. 
+The missing energy plays an important role in the MMC method and  its resolution has an impact on the calculation
+of the invarian mass. To improve $\met$ resolution, a scan over a six dimensional parameter space is performed 
+in a similar way as described above, in this case however, $\vec{E}_T^{miss}$ is also considered uknown and value are assigned 
+to it according to its uncertainty. The probability of each solution is calculated and the final missing transverse
+energy is given by the weighted mean of the scanned points. 
 
+The final procedure consist in obtaining first an estimated for $\met$ by means of a six dimensional scan over the solution of equations~\ref{eq:MMC},
+successively a four dimensional scan is performed fixing $\met$ to the updated value and calculating the most likely invariant mass 
+of the di-$\tau$ system. Figure.....
 
-The performance of the missing transverse energy (Emiss
-) reconstruction has a large impact on the
-performance of the MMC. As the resolution
-
-The MMC scans variables in the respective rest frame of the τ leptons. By scanning $cos\theta^*_i$ , defined
-as the angle between the charged lepton from the τ lepton decay and the boost direction of the τ lepton,
-and the mass of the di-neutrino system, the system of equations  can be solved. Each scan point is
-then weighted by the probability obtained from the matrix element of a tau decay decay at tree
-level. The estimator for the final discriminant, the mass of the di-tau system mMMC, is then defined as
-the maximum of the histogram that has been filled with the weighted scan points.
-
-information from the well known tau decay to constraint the system:
-in the above mentioned four dimensional parameter space, in which lies the solution of the di-tau system, not all the points are 
-equally likely for a given event topology, using Pythia simulation supplemented with TAUOLA package,
-a likelihood based on $\Delta R  =  \sqrt{\Delta\eta^2 + \Delta\phi^2}$ distribution between the missing energy and each of the two "visible" leptons is build, 
-minimising the likelihood for a given event topology it is possible to determine the most likely point in the parameter space
-and solve the system. Effect of resolution are taken into account by producing a mass distribution
-for each of the scanned points in the parameter space. As a result this method give a more precise measurement of the di-tau
-system invariant mass and a considerable improvement in resolution. The invariant mass distribution 
-calculated with the MMC technique is referred in the following as $\mmc$ and is used as discriminating 
-variable in the limits setting.
 
  
 %Accurate invariant mass reconstruction of a di-tau system is a challenging task due to the escaping neutrinos.
