@@ -322,29 +322,28 @@ ATLAS-CONF-2011-102}, CERN, 2011, ATLAS-CONF-2011-102.
 \bibitem{electronAlgo}
 The ATLAS collaboration, \emph{Expected electron performance in the ATLAS experiment}, ATL-PHYS-PUB-2011-006
 
-\bibitem{MuonResolution}
-{The ATLAS} Collaboration, {\em ATLAS Muon Momentum Resolution in the First
-  Pass Reconstruction of the 2010 p-p Collision Data at $\sqrt{s}=7$~TeV\/},
-  ATLAS-CONF-2011-046.
+\bibitem{eleEff}
+The ATLAS Collaboration, \emph{Electron reconstruction and identification efficiency measurements with the ATLAS detector using the 2011 LHC proton-proton collision data}, CERN-PH-EP-2014-040, arXiv:1404.2240
 
-\bibitem{MuonReconstruction}
-{The ATLAS} Collaboration, {\em Muon reconstruction efficiency in reprocessed
-  2010 LHC p-p collision data recorded with the ATLAS detector\/},
-  ATLAS-CONF-2011-063.
+\bibitem{eleEnergy}
+The ATLAS Collaboration, G. Aad et al., \emph{Electron performance measurements with
+the ATLAS detector using the 2010 LHC proton-proton collision data},
+Eur.Phys.J. C72 (2012) 1909.
 
+\bibitem{staco}
+S. Hassini, et al., \emph{A muon identification and combined reconstruction procedure for the
+ATLAS detector at the LHC using the (MUONBOY, STACO, MuTag)
+reconstruction packages}, NIM A572 (2007) 77–79.
 
+\bibitem{muoneffres}
+The ATLAS Collaboration, G. Aad et al., \emph{Preliminary results on the muon
+reconstruction efficiency, momentum resolution, and momentum scale in ATLAS
+2012 pp collision data}, ATLAS-CONF-2013-088, CERN, 2013,
 
-\bibitem{ElectronID2011}
-{The ATLAS} Collaboration, {\em Expected electron performance in the ATLAS
-  experiment\/},  ATLAS-PUB-2011-006.
-
-\bibitem{TWIKI_EgammaWG_Eff_SF}
-{ATLAS egamma WG}, {\em Electron efficiency measurements\/},
-  {https://twiki.cern.ch/twiki/bin/view/AtlasProtected/EfficiencyMeasurements}.
-
-\bibitem{AntiKT}
-M.~Cacciari, G.~P. Salam, and G.~Soyez, {\em {The anti-$k_t$ jet clustering
-  algorithm}\/},  JHEP {\bf 04} (2008)  063.
+\bibitem{ETMISS}
+{The ATLAS} Collaboration, {\em Reconstruction and Calibration of Missing
+  Transverse Energy and Performance in $Z$ and $W$ events in ATLAS
+  Proton-Proton Collisions at $\sqrt{s}$=7 TeV\/},  ATLAS-CONF-2011-080.
 
 
 \bibitem{ATLASTAUIDnew}
@@ -352,10 +351,6 @@ M.~Cacciari, G.~P. Salam, and G.~Soyez, {\em {The anti-$k_t$ jet clustering
   Identification of Hadronic tau Decays in ATLAS with 2011 Data\/},
   ATLAS-CONF-2012-142.
 
-\bibitem{ETMISS}
-{The ATLAS} Collaboration, {\em Reconstruction and Calibration of Missing
-  Transverse Energy and Performance in $Z$ and $W$ events in ATLAS
-  Proton-Proton Collisions at $\sqrt{s}$=7 TeV\/},  ATLAS-CONF-2011-080.
 
 \bibitem{MMC}
 A.~Elagin, P.~Murat, A.~Pranko, and A.~Safonov, {\em {A New Mass Reconstruction

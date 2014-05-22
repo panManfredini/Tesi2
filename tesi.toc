@@ -1,10 +1,20 @@
-\contentsline {chapter}{\numberline {1}Prospects for Neutral MSSM Higgs Search Improvement}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction to Trackjets}{4}{section.1.1}
-\contentsline {section}{\numberline {1.2}Trackjet Performance}{6}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}B-tagging on Trackjets}{7}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Impact of Trackjet on the Analysis}{10}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}A Novel Technique for low-$\ensuremath {P_{T}}\xspace $ b-Tagging}{12}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Systematic Uncertainties on Trackjets}{12}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Introduction to Trackjet Systematics}{12}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Trackjets Uncertainty from Material Budget }{13}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Track Subtraction Method Validation}{15}{subsection.1.3.3}
+\contentsline {chapter}{\numberline {1}Reconstruction of Physics Object}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Tracks and Vertex Reconstruction}{4}{section.1.1}
+\contentsline {paragraph}{Track Reconstruction}{4}{section*.2}
+\contentsline {paragraph}{Vertex Reconstruction}{4}{section*.3}
+\contentsline {section}{\numberline {1.2}Jets Reconstruction and Energy Calibration}{5}{section.1.2}
+\contentsline {paragraph}{Calorimeter Jet Energy Calibration}{6}{section*.4}
+\contentsline {section}{\numberline {1.3}Jet b-Tagging}{6}{section.1.3}
+\contentsline {section}{\numberline {1.4}Electrons Reconstruction}{7}{section.1.4}
+\contentsline {section}{\numberline {1.5}Muons Reconstruction}{8}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}b-Tagging}{9}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Taus}{9}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Overlap Removal}{9}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.4}Missing Transverse Energy}{10}{subsection.1.5.4}
+\contentsline {subsection}{\numberline {1.5.5}Vertices}{10}{subsection.1.5.5}
+\contentsline {subsection}{\numberline {1.5.6}Event Cleaning}{10}{subsection.1.5.6}
+\contentsline {subsection}{\numberline {1.5.7}Monte Carlo Corrections}{10}{subsection.1.5.7}
+\contentsline {subsubsection}{Trigger Efficiency corrections}{12}{section*.5}
+\contentsline {subsubsection}{Lepton Reconstruction Efficiency Corrections}{12}{section*.6}
+\contentsline {subsubsection}{b-tagging Efficiency Corrections}{12}{section*.7}
+\contentsline {subsubsection}{Pileup Reweighting}{12}{section*.8}

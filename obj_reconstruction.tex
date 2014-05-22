@@ -214,114 +214,74 @@ for 2012 data in~\cite{BtaggingScaleFactors, BtaggingScaleFactorsNew} and used a
 
 \section{Electrons Reconstruction} \label{sec:elec}
 Electron are reconstructed combining calorimeter and Inner Detector information,
-an electron dedicated reconstruction algorithm is presented in~\cite{electronAlgo} is based on clusters reconstructed in the electromagnetic
-calorimeter, which then are associated to tracks of charged particles reconstructed in the Inner Detector.
+the ATLAS dedicated electron reconstruction algorithm is presented in~\cite{electronAlgo}.
+The electron reconstruction starts from clusters of calorimeter cells, 
+tracks are sought in the Inner Detector to match the cluster, special care is taken in order to account for 
+Bremsstrahlung losses during the track matching stage. Once an electromagnetic shower in the calorimeter is 
+found to match with one or more tracks, the combination is considered as an electron candidate.  The energy is computed as 
+a weighted average between the cluster energy and the track momentum, several corrections are applied to
+take into account energy loss in the material of the Inner Detector and effect of electromagnetic shower 
+leakage. The $\phi$  and $\eta$ directions are taken from the corresponding track parameters. 
+
+Further selection are applied to the electrons candidates to reduce contamination
+from pothon conversion and hadronic jet, there are three different identification criteria:
+\begin{itemize}
+	\item Loose: selections related to the shape of the shower and to hadronic leackage are applied.
+	\item Medium: additionally to the loose requirements, information on the strip layer of the electromagnetic
+	calorimeter is used, stricter track matching requirements are also applied.
+	\item Tight: additionally to medium requirements, 
+		converted photons are rejected by requiring a hit in the Inner Detector b-layer (if the module
+		is expected to be operating), TRT electron identification capability is employed.
+\end{itemize}
+
+The electron identification performaces are compared between data and simulation in~\cite{eleEff}, 
+correction to the electron identification efficiency are estimated and 
+applied as weight to simulated electron candidates. Additional corrections are applied to the energy scale and resolution
+of simulated electron to match the one in data according to~\cite{eleEnergy}.
+Finally, the electrons usend in the presented analysis are rejected if matching 
+with a region of the calorimeter with readout problems or suffering from high noise.
+
+Prompt electrons, coming from the decay of a resonance like the $Z^0$ boson or the Higgs boson are very
+likely to be \emph{isolated}, i.e. very little activity is expected in their sourraundings, this is in contrast
+to electron that come from decay of hadrons, which instead will be likely to be embedded in a jet of particle.
+Two isolation variables are then defined by the sum of the energy in a $\Delta R$ cone around the electron
+candidate:
+\begin{itemize}
+	\item Track isolation $\pt^{cone}$: which is the scalar sum of the track $\pt$ in a $\Delta R \leq 0.4$
+	cone around the electron, the electron track is not considered.
+	
+	\item Calorimeter isolation $E_T^{cone}$: which is the scalar sum of  topological cluster transverse energy
+	 in a  $\Delta R \leq 0.2$ cone around the electron. Cluster associated to the electron are not considered.
+	 This variable is corrected as a function of the vertex multiplicity in the event in order to assure a constant 
+	 selection efficiency.
+\end{itemize}
 
 
-This analysis uses electrons found by the standard electron
-identification algorithms ~\cite{AtlasCSCBook} that pass the {\tt Medium++}
-criteria. A preselection is applied to the electrons to ensure that
-the electron cluster has a transverse energy of $E_T > 15\GeV$, is
-within the pseudorapidity range $|\eta|<2.47$, but is outside of the region
-$1.37<|\eta|<1.52$. The first requirement ensures that the selected
-electrons are within a range of $E_T$ where the electron reconstruction
-and trigger efficiencies are well understood. The further requirements
-ensure that the electron is reconstructed within the acceptance of
-the ATLAS tracking, but outside of the transition region between the
-barrel and end-cap calorimeters. 
-In addition, the author is required to be either one or three, to ensure that the electron was 
-reconstructed with either the standard electron algorithm or both the
-standard and soft electron algorithms, respectively.
-Finally, to ensure that the electron is not reconstructed within a region of the
-calorimeter with readout problems, dead or non-nominal high voltage
-conditions or suffering from high noise, the electron is rejected if
-the cluster $\eta$ and $\phi$ position match a flagged region in the
-Object Quality maps (OQ maps) provided by the egamma
-performance group~\cite{EGammaRecomendations}.
 
-For the electrons used in this analysis, the four-vector of the
-particle is defined using the energy of the electron calorimeter
-cluster and the direction of the electron track. Selections that
-involve the electron position in the calorimeter, in this analysis the
-$\eta$ and the OQ map selections, are however made using a four-vector built
-entirely from the electron cluster properties. Both the energy scale
-and resolution of the electrons used in this analysis are corrected,
-following the recommendations of the EGamma performance group, by
-using the {\tt egammaAnalysiUtils}
-package\cite{EGammaRecomendations}. Energy scale corrections are
-applied to electrons in data, whereas an additional smearing is
-applied to the electron energy in MC.
+\section{Muons Reconstruction}\label{sec:muon}
+ATLAS employs a variety of strategies for identifying and reconstructing muons, 
+the main detector used for this purpose is the Muon Spectrometer, which may be supplemented with
+others detectors informations. A detailed description
+of the muon reconstruction algorithms and their performance is reported in~\cite{AtlasCSCBook},
+in the following only the muon reconstruction strategy relevant for this thesis is described.
 
-In addition to the preselection defined above, isolation criteria are
-defined to select electrons with little or no activity around
-them. The calorimetric isolation, \etcone, is calculated as the sum of
-the transverse energy of the additional topological clusters in the
-electromagnetic and hadronic calorimeters in a cone of $\Delta R <
-0.2$ around an electron\footnote{The $\Delta R$ variable is defined by
-$\Delta R=\sqrt{(\Delta\eta)^2+(\Delta\phi)^2}$, where $\Delta \eta$
-and $\Delta \phi$ correspond to the difference between
-the pseudorapidities and azimuthal angles of the objects considered, respectively.}. 
-The summed transverse energy is corrected, as a function of the
-number of primary vertices in the event, to reduce the dependence on
-pileup. In addition, the track isolation, \ptcone, is defined as the
-scalar sum of the $\pt$ of all additional tracks with $\pt>1\GeV$ in a
-cone of radius $\Delta R<0.4$ around an electron. In this analysis, an
-electron with $\etcone/\pt<0.08$ and $\ptcone/\pt<0.06$ is considered isolated.
+The STACO \emph{combined} muon algorithm~\cite{staco} associate tracks found in the
+Muon Spectrometer with the corresponding Inner Detector track and calorimeter information, the muons are then
+ identified at their production vertex with optimum parameter resolution.
+First  track segment are reconstructed in each of the three
+muon station, segments are then liked togheter to form a track. The muon track is
+extrapolated to the Inner Detector taking into account energy loss and multiple scattering in the calorimeters,
+then, it is  matched with a Inner Detector track via $\chi^2$ matching. Finally
+a statistical combination of the Inner Detector and Muon Spectrometer tracks is performed to obtain a combined vector. 
 
+Muon reconstruction efficiency, momentum scale and resolution are evaluated in~\cite{muoneffres},
+performance are compared with MC simulation and a set of corrections, aimed to restore agreement
+between data and simulation, are provided. Correction on muon momentum scale, resolution and reconstruction
+efficiency are applied to muons in the presented analysis.
 
-\subsection{Muons}
-\label{sec:presel:muon}
-
-Muons reconstructed by the STACO algorithm \cite{AtlasCSCBook} are
-used in this analysis - those passing the STACO Loose quality criteria
-are considered at the preselection stage, whereas the more stringent
-STACO Combined quality criteria are required for the final muon
-selection. Muons with a transverse momentum $\pt > 10\GeV$ and
-within the pseudorapidity range $|\eta| < 2.5$ are selected. The
-difference between the $z$ position of the muon track extrapolated to
-the beam line and the primary vertex $z$ position must be less than 10
-mm. 
-
-Further quality criteria, as recomended by the Muon Combined Performance Group,
- are placed on the Inner Detector track of
-the muon candidate to ensure that it is well reconstructed and to
-reduce the fake rate due to decays of hadrons in flight. These
-requirements ensure that multiple hits are found on the track in the
-various layers of the ID, but take into account that dead or
-uninstrumented regions may be crossed by the muon. Firstly, if the
-muon passes through a section of the b layer of the Pixel detector
-that is instrumented and not suffering from detector problems, there
-should be one or more b layer hits on the track. The sum of the number
-of hits on the track in the Pixel detector and the number of crossed
-dead Pixel detector layers should be at least one. The sum of the
-number of hits within the SCT detector and the number of dead SCT
-modules crossed should be five or greater. The total number of crossed
-dead Pixel detector and SCT detector layers should be less than three.
-When within the angular region $|\eta|<1.9$, the sum of the TRT hits
-and outliers on the track must be greater than five and the ratio of
-TRT outlier hits to the total number of TRT hits must be less than
-0.9. When the muon track is in the region $|\eta|\ge1.9$, the ratio of
-TRT outlier hits to the total number of TRT hits must be less than 0.9
-only if the sum of the TRT hits and outliers on the track is be
-greater than five.
-
-The momentum scale and resolution of the muons in this analysis are
-corrected in MC following the recommendations of the Muon Combined
-Performance group. The momentum corrections were measured by comparing
-the di-muon mass peak position and resolution between data and MC at
-the Z resonance. Smearings are applied in a coherent manner to
-the ID, MS extrapolated and combined momenta of the transverse
-momentum of the muon. In addition, a scale correction is applied to
-the combined momentum momentum.
-
-As for the electrons used in this analysis, both calorimeteric and
-track based isolation are used to require little or no activity around a muon
-in addition to the preselection above. The muon \etcone and \ptcone
-variables are defined as for the electron case and are calculated
-in cones of $\Delta R<0.2$ and $\Delta R<0.4$ around the muon, respectively. 
-Once more \etcone is corrected as a function of the number of primary vertices in the
-event, to reduce the dependence on pileup. In this analysis, a muon with
-$\etcone/\pt<0.04$ and $\ptcone/\pt<0.06$ is considered isolated.
+Isolation variable, as described for electrons, are also implemented for muons, the only exception 
+is the use of calorimeter cluster with fixed size in the definition of $E_T^{cone}$.
+Similar pile-up corrections are also used for muons.  
 
 
 
