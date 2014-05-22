@@ -319,6 +319,9 @@ high-performance b-tagging algorithms in the 7 TeV collision data,
 ATLAS-CONF-2011-102}, CERN, 2011, ATLAS-CONF-2011-102.
 
 
+\bibitem{electronAlgo}
+The ATLAS collaboration, \emph{Expected electron performance in the ATLAS experiment}, ATL-PHYS-PUB-2011-006
+
 \bibitem{MuonResolution}
 {The ATLAS} Collaboration, {\em ATLAS Muon Momentum Resolution in the First
   Pass Reconstruction of the 2010 p-p Collision Data at $\sqrt{s}=7$~TeV\/},
