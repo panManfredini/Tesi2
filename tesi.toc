@@ -4,19 +4,20 @@
 \contentsline {paragraph}{Vertex Reconstruction}{4}{section*.3}
 \contentsline {section}{\numberline {1.2}Jets Reconstruction and Energy Calibration}{5}{section.1.2}
 \contentsline {paragraph}{Calorimeter Jet Energy Calibration}{6}{section*.4}
-\contentsline {subsection}{\numberline {1.2.1}Electrons}{6}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Muons}{7}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}b-Tagging}{8}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Taus}{8}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Overlap Removal}{8}{subsection.1.2.5}
-\contentsline {subsection}{\numberline {1.2.6}Missing Transverse Energy}{8}{subsection.1.2.6}
-\contentsline {subsection}{\numberline {1.2.7}Vertices}{9}{subsection.1.2.7}
-\contentsline {subsection}{\numberline {1.2.8}Event Cleaning}{9}{subsection.1.2.8}
-\contentsline {subsection}{\numberline {1.2.9}Monte Carlo Corrections}{9}{subsection.1.2.9}
-\contentsline {subsubsection}{Trigger Efficiency corrections}{9}{section*.5}
-\contentsline {subsubsection}{Lepton Reconstruction Efficiency Corrections}{11}{section*.6}
-\contentsline {subsubsection}{b-tagging Efficiency Corrections}{11}{section*.7}
-\contentsline {subsubsection}{Pileup Reweighting}{11}{section*.8}
+\contentsline {section}{\numberline {1.3}Jet b-Tagging}{6}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Electrons}{7}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Muons}{8}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}b-Tagging}{9}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Taus}{9}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Overlap Removal}{9}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.6}Missing Transverse Energy}{10}{subsection.1.3.6}
+\contentsline {subsection}{\numberline {1.3.7}Vertices}{10}{subsection.1.3.7}
+\contentsline {subsection}{\numberline {1.3.8}Event Cleaning}{10}{subsection.1.3.8}
+\contentsline {subsection}{\numberline {1.3.9}Monte Carlo Corrections}{11}{subsection.1.3.9}
+\contentsline {subsubsection}{Trigger Efficiency corrections}{11}{section*.5}
+\contentsline {subsubsection}{Lepton Reconstruction Efficiency Corrections}{12}{section*.6}
+\contentsline {subsubsection}{b-tagging Efficiency Corrections}{12}{section*.7}
+\contentsline {subsubsection}{Pileup Reweighting}{12}{section*.8}
 \contentsline {chapter}{\numberline {2}Neutral MSSM Higgs Bosons Search...}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{14}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Simulated Event Samples}{16}{subsection.2.1.1}

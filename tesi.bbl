@@ -296,7 +296,6 @@ C73 (2013) 2306
 
 
 
-
 \bibitem{LocalHadronCalib}
 T.~Barillari et al., {\em Local Hadron Calibration\/},  ATL-LARG-PUB-2009-001.
 
@@ -308,6 +307,17 @@ T.~Barillari et al., {\em Local Hadron Calibration\/},  ATL-LARG-PUB-2009-001.
 \bibitem{antikt}
 M. Cacciari, G. P. Salam, and G. Soyez, \emph{The anti-kt jet clustering algorithm},
 JHEP 04 (2008) 63.
+
+
+\bibitem{jetfitter}
+G. Piacquadio, C. Weiser, \emph{A new inclusive secondary vertex algorithm for b-jet
+tagging in ATLAS}, JPCS 119 (2008) 032032
+
+\bibitem{btagPerf}
+The ATLAS Collaboration, G. Aad et al., \emph{Commissioning of the ATLAS
+high-performance b-tagging algorithms in the 7 TeV collision data,
+ATLAS-CONF-2011-102}, CERN, 2011, ATLAS-CONF-2011-102.
+
 
 \bibitem{MuonResolution}
 {The ATLAS} Collaboration, {\em ATLAS Muon Momentum Resolution in the First

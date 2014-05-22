@@ -25,6 +25,8 @@ To fully carachterize a track other parameters need to be measured
 and those are: the $\phi$ and $\theta$ angles to define its direction, the impact parameter is the 
 distance of clostest approach o the track to the beam axis calculated with respect to the origin of coordinate, $d_0$ 
 is the impact parameter in the $x-y$ plane,  while $z_0$  is along the $z$ axis.
+The transverse impact parameter $d_0$ is the distance of closest approach of the track to the primary vertex
+point in the $r-\phi$ projection. The $z$ coordinate of the track at this point of closest approach is referred to $z_0$
 
 \paragraph{Track Reconstruction}
 Tracks are reconstructed  by the Inner Detector track reconstruction software~\cite{IDtracking}.
@@ -150,18 +152,65 @@ the jet vertex fraction  is only available within Inner Detector coverage $|\eta
 while calorimeter jet reconstruction is possible up to $|\eta| < 4.5$.
 
 \paragraph{Calorimeter Jet Energy Calibration}
-The ATLAS calorimeters were calibrated using test beam electrons~\cite{EMcalibration},  the response
-to electromagnetic shower however,  is different from the one to hadronic shower, a dedicated jet energy scale
+The ATLAS calorimeters were calibrated using test beam electrons~\cite{EMcalibration}, however  the response
+to electromagnetic shower  is different from the one to hadronic shower, a dedicated jet energy scale
 (JES) calibration is then performed by means of MC simulation~\cite{jesinsitu}: 
 jet energy is corrected to correspond, as a mean value, to the simulated energy 
-of the fragmentating parton origin of the jet. The direction of the jet is also corrected to constraint it to point
-to the primary vertex instead to the center of ATLAS detector. A set of corrections are then evaluated to take into account
+of the hadronizing parton origin of the jet. The direction of the jet is also corrected to constraint it to point
+to the primary vertex instead to the center of the ATLAS detector. A set of corrections are then evaluated to take into account
 effect of pile-up~\cite{jespileup, jesarea}. Jet resolution is also corrected in MC to better describe the data~\cite{jer}. 
 Finally, several jet energy scale correction are applied for a better agreement between 
 data and simulation, those corrections are evaluated based on 2011 ATLAS data compared to MC simulation and 
-exploiting several techniques, JES systematic uncertainty due not perfect MC modeling are also evaluated,
+exploits several techniques, JES systematic uncertainty due not perfect MC modeling are also evaluated,
 a full description of JES "in-situ" methodology corrections and related systematics uncertainties are 
-described in~\cite{jesinsitu, JES}.
+described in~\cite{jesinsitu, JES}. %all the correction are combined toghether obtaining the final JES
+
+
+\section{Jet b-Tagging}
+Typical decay lenght of b-hadron at ATLAS is of the order of few millimeter, exploiting the high precision of the
+Inner Detector tracker is possible to identify jet originatig from b-quarks with respect to other flavors, 
+those jets are called \emph{b-jets} and the identification technique used \emph{b-tagging}.
+
+Several algorithm has been developed in ATLAS for jet b-tagging, the relevant b-tagging algorithm
+to this thesis are briefly described in what follows, for more detailed description see~\cite{AtlasCSCBook}.
+The first step of jet b-tagging is to associate tracks to jets based on a $\Delta R$ cone matching, those tracks 
+should satisfy strict selection criteria aimed to assure good quality 
+and to reject tracks likely to come from strange hadron decays or photon conversion. 
+For the discrimination between b-jet or light-jet (and in some cases also c-jet) 
+algorithms uses the MC prediction of the distribution of some discriminating variable 
+for the two hypotesis.
+Given the relatively high mass of b-hadrons, the tracks
+associated with b-jet will have spreaded impact parameters, this feature is used by the IP3D b-jet tagging 
+algorithm, in which is implemented a discriminatig variable based on the sum of the impact parameter significances of all the tracks
+associated to the jet. An alternative approach, used by the $SV1$ algorithm, is instead  to searches for inclusive 
+secondary vertex formed by the decay products of the b-hadron,  the search includes also 
+the subsequent charm hadron decays. Another algorithm, called JetFitter~\cite{jetfitter}, uses instead the direction of the jet
+to fully reconstruct the decay chain of b-hadron, the assuption made is that the decayed particles will lie along the
+jet axis. Finally, the three algorithm just described are combined togheter using an
+artificial neural network to maximize the discriminating power, the output of this neural network is referred
+as $MV1$ and is used in the search presented in this thesis. 
+
+\begin{figure}[tp]
+     \begin{center}
+
+            \includegraphics[width=0.6\textwidth]{figure/obj/btag_perf.pdf}
+
+    \end{center}
+    \caption{Light-jet rejection as a function of the b-jet tagging efficiency for different tagging algorithms~\cite{btagPerf}.
+	    Rejection here is defined as the inverse of mistagging rate, and the distributions are referred to a 
+		$\ttbar$ sample.}
+   \label{fig:beff}
+\end{figure}
+
+The perfomance of the mentioned algorithms are evaluated in data  and compared to simulation in~\cite{btagPerf}.
+B-hadron tagging efficiency and mistagging rate are the most common feature that describes the performance of a
+b-tagging algorithm, Figure~\ref{fig:beff} shows the b-tagging efficiency as a fuction of the inverse of the mistagging rate
+for different b-tagging algorithm, the tagging efficiency $\epsilon_b^{\ttbar}$ is usually referred to b-hadron in $\ttbar$ events
+and totally specify a b-tagging selection point.
+Correction due to non perfect modeling of b-tagging performance are evaluated by means of several methods
+for 2012 data in~\cite{BtaggingScaleFactors, BtaggingScaleFactorsNew} and used as event weights in MC simulation.
+
+
 
 \subsection{Electrons}
 \label{sec:presel:elec}
