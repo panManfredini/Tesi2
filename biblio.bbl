@@ -1,5 +1,5 @@
 %\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{}
-\begin{thebibliography}{}
+%\begin{thebibliography}{}
 \bibitem{LHC}
 L.~Evans and P.~Bryant, {\em {LHC Machine}\/},  JINST {\bf 3} (2008)  S08001.
 
@@ -222,6 +222,12 @@ ATL-COM-PHYS-2013-722.
 T.~S. et~al., {\em $\mathrm{Z}$ physics at LEP 1\/},  CERN 89-08 {\bf 3} (1989)
    143.
 
+\bibitem{Athena}
+  A.~Bazan, T.~Bouedo, P.~Ghez, M.~Marino and C.~Tull,
+  ``The Athena data dictionary and description language,''
+  eConf C {\bf 0303241} (2003) MOJT010
+  [cs/0305049 [cs-se]].
+
 \bibitem{ID}
 {The ATLAS} Collaboration, Inner Detector: Technical Design Report, CERN/LHCC/97-016/017
 (1997).
@@ -229,13 +235,6 @@ T.~S. et~al., {\em $\mathrm{Z}$ physics at LEP 1\/},  CERN 89-08 {\bf 3} (1989)
 \bibitem{ATLAS}
 {The ATLAS} Collaboration, G. Aad et al., The ATLAS Experiment at the CERN Large Hardon
 Collider, 2008 JINST 3 S08003.
-
-\bibitem{Athena}
-  A.~Bazan, T.~Bouedo, P.~Ghez, M.~Marino and C.~Tull,
-  ``The Athena data dictionary and description language,''
-  eConf C {\bf 0303241} (2003) MOJT010
-  [cs/0305049 [cs-se]].
-
 
 \bibitem{AtlasCSCBook}
 {The ATLAS} Collaboration, {\em {Expected Performance of the ATLAS Experiment -
@@ -250,37 +249,17 @@ Note ATL-SOFT-PUB-2007-007 (2007).
 Kalman, R. E. (1960). \emph{"A New Approach to Linear Filtering and Prediction Problems".} 
 Journal of Basic Engineering 82 (1): 35–45. doi:10.1115/1.3662552
 
-\bibitem{VertexPerf}
-{The ATLAS} Collaboration, Performance of primary vertex reconstruction in proton-proton collisions at $s = sqrt(7)$ TeV in the ATLAS experiment.
- ATLAS-CONF-2010-069.
-
-\bibitem{Vertex}
-R. Fruhwirth, W. Waltenberger, P. Vanlaer, \emph{Adaptive vertex fitting}, J. Phys. G34 (2007).
-
 \bibitem{beamspot}
 {The ATLAS} Collaboration, \emph{Characterization of Interaction-Point Beam Parameters Using the pp
 Event-Vertex Distribution Reconstructed in the ATLAS Detector at the LHC}, ATL-CONF-2010-027.
 
-\bibitem{electronAlgo}
-The ATLAS collaboration, \emph{Expected electron performance in the ATLAS experiment}, ATL-PHYS-PUB-2011-006
+\bibitem{Vertex}
+R. Fruhwirth, W. Waltenberger, P. Vanlaer, \emph{Adaptive vertex fitting}, J. Phys. G34 (2007).
 
-\bibitem{eleEff}
-The ATLAS Collaboration, \emph{Electron reconstruction and identification efficiency measurements with the ATLAS detector using the 2011 LHC proton-proton collision data}, CERN-PH-EP-2014-040, arXiv:1404.2240
+\bibitem{VertexPerf}
+{The ATLAS} Collaboration, Performance of primary vertex reconstruction in proton-proton collisions at $s = sqrt(7)$ TeV in the ATLAS experiment.
+ ATLAS-CONF-2010-069.
 
-\bibitem{eleEnergy}
-The ATLAS Collaboration, G. Aad et al., \emph{Electron performance measurements with
-the ATLAS detector using the 2010 LHC proton-proton collision data},
-Eur.Phys.J. C72 (2012) 1909.
-
-\bibitem{staco}
-S. Hassini, et al., \emph{A muon identification and combined reconstruction procedure for the
-ATLAS detector at the LHC using the (MUONBOY, STACO, MuTag)
-reconstruction packages}, NIM A572 (2007) 77–79.
-
-\bibitem{muoneffres}
-The ATLAS Collaboration, G. Aad et al., \emph{Preliminary results on the muon
-reconstruction efficiency, momentum resolution, and momentum scale in ATLAS
-2012 pp collision data}, ATLAS-CONF-2013-088, CERN, 2013,
 
 \bibitem{fastjet}
 M. Cacciari, G. P. Salam, and G. Soyez, \emph{FastJet user manual}, Eur.Phys.J. C72
@@ -289,10 +268,6 @@ M. Cacciari, G. P. Salam, and G. Soyez, \emph{FastJet user manual}, Eur.Phys.J. 
 \bibitem{TopoClusterAlgo}
 W.~Lampl et al., {\em Calorimeter Clustering Algorithms : Description and
   Performance\/},  ATL-LARG-PUB-2008-002.
-
-\bibitem{antikt}
-M. Cacciari, G. P. Salam, and G. Soyez, \emph{The anti-kt jet clustering algorithm},
-JHEP 04 (2008) 63.
 
 \bibitem{EMcalibration}
 E. Abat, J. Abdallah, T. Addy, P. Adragna, et al.,\emph{ Combined performance studies
@@ -320,6 +295,19 @@ C73 (2013) 2306
  TeV with ATLAS 2011 data}, ATLAS-CONF-2013-004
 
 
+
+\bibitem{LocalHadronCalib}
+T.~Barillari et al., {\em Local Hadron Calibration\/},  ATL-LARG-PUB-2009-001.
+
+\bibitem{ATLASJETEnergyScale}
+{The ATLAS} Collaboration, {\em Jet energy scale and its systematic uncertainty
+  in proton-proton collisions at $\sqrt{s}=7$~TeV in ATLAS 2010 data\/},
+  ATLAS-CONF-2011-032.
+
+\bibitem{antikt}
+M. Cacciari, G. P. Salam, and G. Soyez, \emph{The anti-kt jet clustering algorithm},
+JHEP 04 (2008) 63.
+
 \bibitem{ATLASCLEANING}
 {The ATLAS} Collaboration, {\em Data-Quality Requirements and Event Cleaning
   for Jets and Missing Transverse Energy Reconstruction with the ATLAS Detector
@@ -335,13 +323,27 @@ The ATLAS Collaboration, G. Aad et al., \emph{Commissioning of the ATLAS
 high-performance b-tagging algorithms in the 7 TeV collision data,
 ATLAS-CONF-2011-102}, CERN, 2011, ATLAS-CONF-2011-102.
 
-\bibitem{BtaggingScaleFactors}
-{The ATLAS} Collaboration, {\em Measuring the b-tag efficiency in a ttbar sample with 4.7 $fb^{-1}$ of data from the ATLAS detector} ATLAS-CONF-2012-097.
 
-\bibitem{BtaggingScaleFactorsNew}
-{The ATLAS} Collaboration, {\em  Calibration of b-tagging using dileptonic top pair events in a combinatorial likelihood approach with the ATLAS experiment } 
- ATLAS-CONF-2014-004.
+\bibitem{electronAlgo}
+The ATLAS collaboration, \emph{Expected electron performance in the ATLAS experiment}, ATL-PHYS-PUB-2011-006
 
+\bibitem{eleEff}
+The ATLAS Collaboration, \emph{Electron reconstruction and identification efficiency measurements with the ATLAS detector using the 2011 LHC proton-proton collision data}, CERN-PH-EP-2014-040, arXiv:1404.2240
+
+\bibitem{eleEnergy}
+The ATLAS Collaboration, G. Aad et al., \emph{Electron performance measurements with
+the ATLAS detector using the 2010 LHC proton-proton collision data},
+Eur.Phys.J. C72 (2012) 1909.
+
+\bibitem{staco}
+S. Hassini, et al., \emph{A muon identification and combined reconstruction procedure for the
+ATLAS detector at the LHC using the (MUONBOY, STACO, MuTag)
+reconstruction packages}, NIM A572 (2007) 77–79.
+
+\bibitem{muoneffres}
+The ATLAS Collaboration, G. Aad et al., \emph{Preliminary results on the muon
+reconstruction efficiency, momentum resolution, and momentum scale in ATLAS
+2012 pp collision data}, ATLAS-CONF-2013-088, CERN, 2013,
 
 \bibitem{ETMISS}
 {The ATLAS} Collaboration, {\em Reconstruction and Calibration of Missing
@@ -417,6 +419,12 @@ T.~A. Collaboration, {\em Search for the neutral Higgs bosons of the Minimal
  {The ATLAS} Collaboration, {\em Search for neutral Higgs Bosons in the decay mode $H \rightarrow \tau\tau \rightarrow ll +4\nu$ in proton proton collision
  at  $\sqrt{7}$ TeV with the ATLAS Detector}, ATL-COM-PHYS-2011-758.
 
+\bibitem{BtaggingScaleFactors}
+{The ATLAS} Collaboration, {\em Measuring the b-tag efficiency in a ttbar sample with 4.7 $fb^{-1}$ of data from the ATLAS detector} ATLAS-CONF-2012-097.
+
+\bibitem{BtaggingScaleFactorsNew}
+{The ATLAS} Collaboration, {\em  Calibration of b-tagging using dileptonic top pair events in a combinatorial likelihood approach with the ATLAS experiment } 
+ ATLAS-CONF-2014-004.
 
 \bibitem{luminosity}
 {The ATLAS} Collaboration, {\em Luminosity Determination in pp Collisions at
@@ -477,5 +485,5 @@ in proton-proton collision $\sqrt{s}=7$ TeV}, ATLAS-CONF-2011-067}
 \bibitem{NPcheck}
 {Statistical twiki, NuissanceCheck. \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/NuisanceCheck}{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/NuisanceCheck}}
 
-\end{thebibliography}
+%\end{thebibliography}
 %\end{thebibliography}\endgroup

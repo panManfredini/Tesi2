@@ -2,10 +2,10 @@
 \chapter{Reconstruction of Physics Object}\label{chap:obj} \vspace{1cm}
 
 ATLAS raw data, which stores the detectors signals of all the read-out channels, are rather 
-inconvenient for data analysis. Typically, those data undergo to several steps of reconstruction 
+unconvinient for data analysis. Typically, those data undergo to several steps of reconstruction 
 before being ready for the analyzers use. Reconstruction software is hold within the 
 ATLAS reconstruction software framework ATHENA~\cite{Athena}. In this framework, physics observables
-reconstruction and particle identification are performed in an object orient fashion.
+reconstruction and particle identification are perfomed in an object orient fashion.
 
 This chapter briefly describes the ATLAS strategies for physics object reconstruction used in chapter~\ref{chap:anal}.
 For a detailed overview of the ATLAS detector reconstruction software  see~\cite{AtlasCSCBook}. 
@@ -15,67 +15,115 @@ For a detailed overview of the ATLAS detector reconstruction software  see~\cite
 
 \section{Tracks Reconstruction}
 The reconstruction of charged particles tracks and interaction vertex is based on Inner Detector
-information, which allows tracks reconstruction within $|\eta| < 2.5$. 
-Charged particle bends in the transverse plane due to the magnetic field of the Inner Detector and
-transverse momentum measure can be achieved. 
-A track is characterized by its momentum vector and two \emph{impact parameters}: $d_0$, which is the distance 
-of closest approach of the track to the interaction point in the $x-y$ projection and $z_0$,
-which is the $z$ coordinate of the track calculated at the same point.
+information, charged particle bends in the transverse plane due to the magnetic field of the Inner Detector and
+this allow to measure their transverse momentum, they can only be reconstructed whithin $|\eta| < 2.5$.
+To fully carachterize a track other parameters need to be measured
+and those are: the $\phi$ and $\theta$ angles to define its direction, the impact parameter is the 
+distance of clostest approach o the track to the beam axis calculated with respect to the origin of coordinate, $d_0$ 
+is the impact parameter in the $x-y$ plane,  while $z_0$  is along the $z$ axis.
+The transverse impact parameter $d_0$ is the distance of closest approach of the track to the primary vertex
+point in the $r-\phi$ projection. The $z$ coordinate of the track at this point of closest approach is referred to $z_0$
 
 Tracks are reconstructed  by the Inner Detector track reconstruction software~\cite{IDtracking}.
 First raw data from the pixel and SCT detectors are transformed in three dimensional space points 
 which are called ``hits'', while the  TRT detector information is translated into drift circles. 
-Then, track seeds are formed from a combination of space-points in the three pixel layers and the first SCT layer, these
+Thn, track seeds are formed from a combination of space-points in the three pixel layers and the first SCT layer, these
 seeds are then extended throughout the SCT to form track candidates. The tracks candidate are fitted 
-using a \emph{Kalman filter} algorithm~\cite{Kalman}, ambiguities in the cluster-to-track association are resolved
+using a \emph{Kalman filter} algorothm~\cite{Kalman}, ambiguities in the cluster-to-track association are resolved
 and fake tracks are rejected. The selected tracks are then extended to the TRT and finally refitted with the full information of all three
 detectors. To help improve tracking efficiency for secondary tracks coming from photon conversion or decays of long-lived 
-particles (like kaons), a complementary algorithm searches for unused track segments in the TRT, which will be then extended
+particles (like kaons), a complementary algorithm searches foir unused track segments in the TRT, which will be then extended
 towards the SCT and the pixel in a very similar way as described for the default algorithm.
 All tracks found with $\pt > 100$ MeV are written to the database.
 
+%Next, these candidates are
+%fitted, “outlier” clusters are removed, ambiguities in the cluster-to-track association are resolved,
+%and fake tracks are rejected. 
+%
+%Silicon pixel, stripes ecc.. responds to te passage of charged particle with a signal,
+%those signal are interpreted on a boolean bases and are called ``hits'', 
+%The inner detector track reconstruction software [5] follows a modular and flexible software design,
+%%which includes features covering the requirements of both the inner detector and muon spectrometer [2]
+%%reconstruction. These features comprise a common event data model [6] and detector description [7],
+%%which allow for standardised interfaces to all reconstruction tools, such as track extrapolation, track fitting
+%%including material corrections and vertex fitting. The extrapolation package combines propagation
+%%tools with an accurate and optimised description of the active and passive material of the full detector [8]
+%%to allow for material corrections in the reconstruction process. The suite of track-fitting tools includes
+%%global-c2 and Kalman-filter techniques, and also more specialised fitters such as dynamic noise adjustment
+%%(DNA) [9], Gaussian-sum filters (GSF) [10] and deterministic annealing filters [11]. Optimisation
+%%of these tools continues and their performance will need to be evaluated on real data. The tools intended
+%%to cope with electron bremsstrahlung (DNA and GSF – see Section 5.1) will be run after the track reconstruction,
+%%as part of the electron-photon identification. Other common tracking tools are provided,
+%%including those to apply calibration corrections at later stages of the pattern recognition, to correct for
+%%module deformations or to resolve hit-association ambiguities.
+%Track reconstruction in the inner detector is logically sub-divided into three stages:
+%1. A pre-processing stage, in which the raw data from the pixel and SCT detectors are converted
+%into clusters and the TRT raw timing information is translated into calibrated drift circles. The
+%SCT clusters are transformed into space-points, using a combination of the cluster information
+%from opposite sides of a SCT module.
+%2. A track-finding stage, in which different tracking strategies [5, 12], optimised to cover different
+%applications, are implemented. (The results of studies of the various algorithms are reported else-
+%where [13].) 
+%
+%The default tracking exploits the high granularity of the pixel and SCT detectors to
+%find prompt tracks originating from the vicinity of the interaction region. First, track seeds are
+%formed from a combination of space-points in the three pixel layers and the first SCT layer. These
+%seeds are then extended throughout the SCT to form track candidates. Next, these candidates are
+%fitted, “outlier” clusters are removed, ambiguities in the cluster-to-track association are resolved,
+%and fake tracks are rejected. This is achieved by applying quality cuts. For example, a cut is made
+%on the number of associated clusters, with explicit limits set on the number of clusters shared between
+%several tracks and the number of holes per track (a hole is defined as a silicon sensor crossed
+%by a track without generating any associated cluster). The selected tracks are then extended into
+%the TRT to associate drift-circle information in a road around the extrapolation and to resolve the
+%left-right ambiguities. Finally, the extended tracks are refitted with the full information of all three
+%detectors. The quality of the refitted tracks is compared to the silicon-only track candidates and
+%hits on track extensions resulting in bad fits are labelled as outliers (they are kept as part of the
+%track but are not included in the fit).
+%A complementary track-finding strategy, called back-tracking, searches for unused track segments
+%in the TRT. Such segments are extended into the SCT and pixel detectors to improve the tracking
+%efficiency for secondary tracks from conversions or decays of long-lived particles.
+%3. A post-processing stage, in which a dedicated vertex finder is used to reconstruct primary vertices.
+%This is followed by algorithms dedicated to the reconstruction of photon conversions and of
+%secondary vertices.
 
 \section{Vertex Reconstruction}
-The vertex reconstruction algorithm and its performance are described in full detail in~\cite{AtlasCSCBook,VertexPerf} and
+The vertex recostruction algorithm and its performance are described in full detail in~\cite{AtlasCSCBook,VertexPerf} and
 only briefly summarized here.
 %say good tracks
-The vertex finding is performed as follows:  a set of well reconstructed tracks are selected,
+The vertex finding is perfomed as follows:  a set of well reconstructed tracks are selected,
 a vertex is seeded according to the global maximum of the selected tracks $z$ coordinate distribution, the tracks $z$ coordinate 
-is computed with respect the expected average collision point. 
-An \emph{adaptive vertex fitting} algorithm~\cite{Vertex} determines the vertex position taking as input the vertex seed position and the 
+is computed with respect the expected averange collision point. 
+An adaptive vertex fitting algorithm~\cite{Vertex} determines the vertex position taking as input the vertex seed position and the 
 tracks around it. Tracks that are incompatible with the found vertex by more than seven standard deviation
-are used to seed the next vertex. The iteration continues until no tracks are left or no additional vertex can be found.
-The procedure depends  on the expected position of the average interaction point, which is monitored 
+are used to seed the next vertex. The iteration continues untill no tracks are left or no additional vertex can be found.
+The procedure depends  on the expected position of the averange interaction point, which is monitored 
 during LHC data taking and is computed every few minutes with the method described in~\cite{beamspot}.
 
 The vertex with the larger sum of tracks $\pt$ associated is identified as the \emph{primary vertex} (PV), 
-which is the interaction point related to the hard scattering of the event. All the other vertices are assumed to result from
+i.e. the interaction point related to the hard scattering of the event. All the other vertices are assumed to result from
 minimum bias interaction and are called \emph{pile-up} vertices.
-In data recorded during 2012, an average of 21 multiple interaction are occurred per bunch crossing,
+In data recorded during 2012, an averange of 21 multiple interaction are occurred per bunch crossing,
 such a high vertex multiplicity strongly affects the ambient energy density in the event, 
-a correct pile-up description is then crucial for MC simulation. In ATLAS, simulated events are produced under
-various pile-up conditions, the events are then weighted according to the average interaction
+a correct pile-up description is then crucial for MC simulation. The ATLAS MC production assures that events 
+are simulated with various pile-up conditions, simulated events are then weighted according to the averange interaction
 per bunch crossing recorded in data.
 
 
 \section{Electrons Reconstruction} \label{sec:elec}
-Electron are reconstructed combining EM calorimeter and Inner Detector information,
+Electron are reconstructed combining calorimeter and Inner Detector information,
 the ATLAS dedicated electron reconstruction algorithm is presented in~\cite{electronAlgo}.
-The electron reconstruction starts from clusters of EM calorimeter cells, 
-tracks are sought in the Inner Detector to match the clusters, special care is taken in order to account for 
-Bremsstrahlung losses during the track matching stage. 
-An electron candidate is defined as a cluster in the EM calorimeter combined with a track.
-%Once an electromagnetic shower in the calorimeter is 
-%found to match with one or more tracks, the combination of those is considered as an electron candidate.  
-The electron energy is computed as 
+The electron reconstruction starts from clusters of calorimeter cells, 
+tracks are sought in the Inner Detector to match the cluster, special care is taken in order to account for 
+Bremsstrahlung losses during the track matching stage. Once an electromagnetic shower in the calorimeter is 
+found to match with one or more tracks, the combination is considered as an electron candidate.  The energy is computed as 
 a weighted average between the cluster energy and the track momentum, several corrections are applied to
 take into account energy loss in the material of the Inner Detector and effect of electromagnetic shower 
-leakage. The electron direction is taken from the corresponding track parameters. 
+leakage. The $\phi$  and $\eta$ directions are taken from the corresponding track parameters. 
 
-Further selection are applied to the electron candidates to reduce contamination
-from photon conversion and hadronic jet, three different identification criteria are provided:
+Further selection are applied to the electrons candidates to reduce contamination
+from pothon conversion and hadronic jet, there are three different identification criteria:
 \begin{itemize}
-	\item Loose: selections related to the shape of the shower and to hadronic leakage are applied.
+	\item Loose: selections related to the shape of the shower and to hadronic leackage are applied.
 	\item Medium: additionally to the loose requirements, information on the strip layer of the electromagnetic
 	calorimeter is used, stricter track matching requirements are also applied.
 	\item Tight: additionally to medium requirements, 
@@ -83,18 +131,18 @@ from photon conversion and hadronic jet, three different identification criteria
 		is expected to be operating), TRT electron identification capability is employed.
 \end{itemize}
 
-The electron identification performances are compared between data and simulation in~\cite{eleEff}, 
+The electron identification performaces are compared between data and simulation in~\cite{eleEff}, 
 correction to the electron identification efficiency are estimated and 
 applied as weight to simulated electron candidates. Additional corrections are applied to the energy scale and resolution
 of simulated electron to match the one in data according to~\cite{eleEnergy}.
-Finally, the electrons used in the presented analysis are rejected if matching 
+Finally, the electrons usend in the presented analysis are rejected if matching 
 with a region of the calorimeter with readout problems or suffering from high noise.
 
 Prompt electrons, coming from the decay of a resonance like the $Z^0$ boson or the Higgs boson are very
-likely to be \emph{isolated}, i.e. very little activity is expected in their surroundings, this is in contrast
+likely to be \emph{isolated}, i.e. very little activity is expected in their sourraundings, this is in contrast
 to electron that come from decay of hadrons, which instead will be likely to be embedded in a jet of particle.
-Two isolation variables are then defined by the sum of the energy in a $\Delta R = \sqrt{\Delta\phi^2 + \Delta\eta^2}$ 
-cone around the electron candidate:
+Two isolation variables are then defined by the sum of the energy in a $\Delta R$ cone around the electron
+candidate:
 \begin{itemize}
 	\item Track isolation $\pt^{cone}$: which is the scalar sum of the track $\pt$ in a $\Delta R \leq 0.4$
 	cone around the electron, the electron track is not considered.
@@ -118,7 +166,7 @@ The STACO \emph{combined} muon algorithm~\cite{staco} associate tracks found in 
 Muon Spectrometer with the corresponding Inner Detector track and calorimeter information, the muons are then
  identified at their production vertex with optimum parameter resolution.
 First  track segment are reconstructed in each of the three
-muon station, segments are then liked together to form a track. The muon track is
+muon station, segments are then liked togheter to form a track. The muon track is
 extrapolated to the Inner Detector taking into account energy loss and multiple scattering in the calorimeters,
 then, it is  matched with a Inner Detector track via $\chi^2$ matching. Finally
 a statistical combination of the Inner Detector and Muon Spectrometer tracks is performed to obtain a combined vector. 
@@ -129,7 +177,7 @@ between data and simulation, are provided. Correction on muon momentum scale, re
 efficiency are applied to muons in the presented analysis.
 
 Isolation variable, as described for electrons, are also implemented for muons, the only exception 
-is the use of calorimeter cluster with fixed size (towers) in the definition of $E_T^{cone}$.
+is the use of calorimeter cluster with fixed size in the definition of $E_T^{cone}$.
 Similar pile-up corrections are also used for muons.  
 
 
@@ -138,14 +186,14 @@ Similar pile-up corrections are also used for muons.
 Jets are reconstructed in ATLAS by means of the FastJet package~\cite{fastjet}, 
 which provides a broad range of jet finding algorithms and analysis tools. 
 In the following jet reconstruction methods relevant for the
-analysis presented in this theses are briefly described, for more detail see~\cite{AtlasCSCBook}.
+analysis presented in this theses are brifly described, for more detail see~\cite{AtlasCSCBook}.
 
 In general, jets may be reconstructed out of any set of four vector objects, 
 however in ATLAS, the most important detectors for jet reconstruction are the ATLAS calorimeters.
-Calorimeter cells are grouped together by a clustering algorithm forming what are called \emph{topological clusters}~\cite{TopoClusterAlgo},
+Calorimeter cells are grouped togheter by a clustering algorithm forming what are called \emph{topological clusters}~\cite{TopoClusterAlgo},
 those are three-dimensional cluster representing the energy deposition of the shower.
-the clustering starts with seed cells with a signal-to-noise ratio greater that a certain threshold, 
-all nearby cells are grouped to the seed cells if they passes a second, lower, signal-to-noise ratio threshold.
+the clustering starts with seed cells with a signal-to-noise ratio greather that a certain threshold, 
+all nearby cells are grouped to the seed cells if they passes a second, lower, signal-to-noise ratio treshould.
 
 Topological clusters are then fed to an \emph{anti-$k_t$} algorithm~\cite{antikt}. The algorithm defines a metric
 to assess distances between the clusters $i$ and $j$, the metric is defined as follows:
@@ -153,15 +201,15 @@ to assess distances between the clusters $i$ and $j$, the metric is defined as f
 d_{ij} &= \text{min}(\frac{1}{k_{t,i}^2}, \frac{1}{k_{t,j}^2}) \cdot \frac{\Delta R_{ij}^2}{R^2}  \\
 d_i   &= \frac{1}{k_{t,i}^2} 
 \end{align}
-where $k_{t,i}$ is the $\pt$ of the cluster $i$ and $\Delta R_{ij}^2 = \sqrt{\Delta\phi_{ij}^2 + \Delta\eta_{ij}^2}$. For
-the presented  analysis $R=0.4$ is chosen.
-If the distance between two cluster $d_{ij}$ is smaller that $d_i$ the clusters are grouped together and their four momentum
-summed, otherwise their are kept as single entity. The clustering procedure is iterated until no cluster can be further merged. 
-The metric is designed in a way that high $\pt$ clusters will accumulate the soft activity surrounding them leading to conical
+where $k_{t,i}$ is the $\pt$ of the cluster $i$ and $\Delta R_{ij}^2 = \sqrt{\Delta\phi_{ij}^2 + \Delta\eta_{ij}^2}$, for
+this analysis $R=0.4$ is chosen.
+If the distance between two cluster $d_{ij}$ is smaller that $d_i$ the clusters are grouped togheter and their four momentum
+summed, otherwise their are kept as single entity. The clustering procedure is iterated until is not possible to merge object
+anymore. The metric is designed in a way that high $\pt$ jet will accumulate the soft activity surrounding them leading to conical
 jet shapes. 
 
 Given the high pile-up environment of LHC  is important to distinguish jets coming from the hard scattering process and those
-related to pile-up interaction, for this purpose, a technique called \emph{jet vertex fraction} (JVF) is implemented in the 
+related to pile-up interaction, for this purpose a techique, called \emph{jet vertex fraction} (JVF), is implemented in the 
 ATLAS jet reconstruction software.
 The JVF relies on Inner Detector informations, it is defined as the $\pt$ weighted fraction of tracks pointing
 to to the primary vertex associated to the jet:
@@ -173,22 +221,22 @@ while calorimeter jet reconstruction is possible up to $|\eta| < 4.5$.
 
 \paragraph{Calorimeter Jet Energy Calibration}
 The ATLAS calorimeters were calibrated using test beam electrons~\cite{EMcalibration}, however  the response
-to electromagnetic shower  is different from the one to hadronic shower. A dedicated jet energy scale
+to electromagnetic shower  is different from the one to hadronic shower, a dedicated jet energy scale
 (JES) calibration is then performed by means of MC simulation~\cite{jesinsitu}: 
 jet energy is corrected to correspond, as a mean value, to the simulated energy 
 of the hadronizing parton origin of the jet. The direction of the jet is also corrected to constraint it to point
 to the primary vertex instead to the center of the ATLAS detector. A set of corrections are then evaluated to take into account
 effect of pile-up~\cite{jespileup, jesarea}. Jet resolution is also corrected in MC to better describe the data~\cite{jer}. 
 Finally, several jet energy scale correction are applied for a better agreement between 
-data and simulation, those corrections are evaluated based on 2011 ATLAS data and  
+data and simulation, those corrections are evaluated based on 2011 ATLAS data compared to MC simulation and 
 exploits several techniques, JES systematic uncertainty due not perfect MC modeling are also evaluated,
 a full description of JES "in-situ" methodology corrections and related systematics uncertainties are 
-described in~\cite{jesinsitu, JES}. %all the correction are combined together obtaining the final JES
+described in~\cite{jesinsitu, JES}. %all the correction are combined toghether obtaining the final JES
 
 
 \section{Jet b-Tagging}
-The typical decay length of b-hadron at ATLAS is of the order of few millimeter. Exploiting the high precision of the
-Inner Detector tracker is possible to identify jet originating from b-quarks with respect to other flavors, 
+Typical decay lenght of b-hadron at ATLAS is of the order of few millimeter, exploiting the high precision of the
+Inner Detector tracker is possible to identify jet originatig from b-quarks with respect to other flavors, 
 those jets are called \emph{b-jets} and the identification technique used \emph{b-tagging}.
 
 Several algorithm has been developed in ATLAS for jet b-tagging, the relevant b-tagging algorithm
@@ -196,17 +244,17 @@ to this thesis are briefly described in what follows, for more detailed descript
 The first step of jet b-tagging is to associate tracks to jets based on a $\Delta R$ cone matching, those tracks 
 should satisfy strict selection criteria aimed to assure good quality 
 and to reject tracks likely to come from strange hadron decays or photon conversion. 
-For the discrimination between b-jet and light-jet (and in some cases also c-jet) 
+For the discrimination between b-jet or light-jet (and in some cases also c-jet) 
 algorithms uses the MC prediction of the distribution of some discriminating variable 
-for the two hypothesis.
+for the two hypotesis.
 Given the relatively high mass of b-hadrons, the tracks
 associated with b-jet will have spreaded impact parameters, this feature is used by the IP3D b-jet tagging 
-algorithm, where a discriminating variable is implemented based on the impact parameter significances of the tracks
+algorithm, in which is implemented a discriminatig variable based on the sum of the impact parameter significances of all the tracks
 associated to the jet. An alternative approach, used by the $SV1$ algorithm, is instead  to searches for inclusive 
 secondary vertex formed by the decay products of the b-hadron,  the search includes also 
 the subsequent charm hadron decays. Another algorithm, called JetFitter~\cite{jetfitter}, uses instead the direction of the jet
-to fully reconstruct the decay chain of b-hadron, the assumption made is that the decayed particles will lie along the
-jet axis. Finally, the three algorithm just described are combined together using an
+to fully reconstruct the decay chain of b-hadron, the assuption made is that the decayed particles will lie along the
+jet axis. Finally, the three algorithm just described are combined togheter using an
 artificial neural network to maximize the discriminating power, the output of this neural network is referred
 as $MV1$ and is used in the search presented in this thesis. 
 
@@ -222,9 +270,9 @@ as $MV1$ and is used in the search presented in this thesis.
    \label{fig:beff}
 \end{figure}
 
-The performance of the mentioned algorithms are evaluated in data  and compared to simulation in~\cite{btagPerf}.
+The perfomance of the mentioned algorithms are evaluated in data  and compared to simulation in~\cite{btagPerf}.
 B-hadron tagging efficiency and mistagging rate are the most common feature that describes the performance of a
-b-tagging algorithm, Figure~\ref{fig:beff} shows the b-tagging efficiency as a function of the inverse of the mistagging rate
+b-tagging algorithm, Figure~\ref{fig:beff} shows the b-tagging efficiency as a fuction of the inverse of the mistagging rate
 for different b-tagging algorithm, the tagging efficiency $\epsilon_b^{\ttbar}$ is usually referred to b-hadron in $\ttbar$ events
 and totally specify a b-tagging selection point.
 Correction due to non perfect modeling of b-tagging performance are evaluated by means of several methods
@@ -235,8 +283,8 @@ for 2012 data in~\cite{BtaggingScaleFactors, BtaggingScaleFactorsNew} and used a
 
 \section{Missing Transverse Energy } \label{sec:met}
 The missing transverse energy, \met, is the absolute value of the vectorial sum of the transverse momenta
-in the event. Undetected particles, such as neutrinos leads to an unbalance of the total
-transverse momentum, thus, to a non zero \met.
+in the event. Undetected particles, such as neutrinos leads to an unbalace of the total
+transverse mometum, thus, to a non zero \met.
 
 Reconstruction and calibration of \met at ATLAS is described in detail in~\cite{ETMISS}. 
 The missing transverse energy relies on the reconstruction of all physics object 
@@ -244,10 +292,10 @@ in the event: it includes muons and their energy deposit in the calorimeter, ele
 Inner Detector tracks (to take into account low-$\pt$ particles not well reconstructed in the calorimeters),
 photons and $\tau$ leptons. The calorimeters cells are then calibrated depending on the
 object they are associated with. Cells not associated to any object are included in the so called
- ``CellOut term'', this term,  together with the one related to jets with $10 < \pt < 20$ GeV
+ ``CellOut term'', this term,  togheter with the one related to jets with $10 < \pt < 20$ GeV
 are referred to as the \emph{soft term} of the missing transverse energy.
 The soft term is found to be very sensitive to pile-up, a solution to reduce this effect 
-is to scale it by its soft-term-vertex-fraction (STVF), which is calculated exactly as for JVF in jets.
+is to scale it by its soft-term-vertex-fraction (STVF), which is calculated exaclty as for JVF in jets.
 
 A description of the performance of the ATLAS \met reconstruction and calibration may be found in~\cite{ETMISS2}.
 
@@ -256,18 +304,18 @@ A description of the performance of the ATLAS \met reconstruction and calibratio
 The reconstruction of hadronically decaying $\tau$ candidates (in the following $\tau_h$)
 is described in detail in~\cite{AtlasCSCBook}.
 A $\tau_h$ candidate is seeded by reconstructed calorimeter jets with $\pt > 10$ GeV and $|\eta| < 2.5$,
-tracks are then associated to the jet and a combination between tracking and calorimeters informations
+tracks are then associated to the jet and a combination between tracking and calorimeters informormations
 is performed.  Hadronic tau decays can be distinguished from jets by their low track multiplicity and 
 narrow clustering of electromagnetic and hadronic calorimeter activity. The $\tau_h$ identification 
 in ATLAS is performed by a multivariate discriminant based on Boosted Decision Trees (BDTs)~\cite{ATLASTAUIDnew}.
 One BDT discriminant has been developed to discriminate $\tau_h$  from quark and gluon 
 initiated jets and a separate BDT was developed to reject electrons.
-The analysis presented in the next chapter requires one or three charged tracks associated to the $\tau_h$ candidate, 
-for the identification a ``Medium'' BDT working point is chosen, additionally, a BDT-based electron veto is 
+The analyis presented in the next chapter requires one or three charged tracks associated to the $\tau_h$ candidate, 
+for the identification a ``Medium'' BDT working point is choosen, additionally, a BDT-based electron veto is 
 applied.
 
 \section{Overlap Removal} \label{sec:olr}
-Reconstruction of the physics object defined in the previous section may sometimes
+Recostruction of the physics object defined in the previous section may sometimes
 be ambiguous, for example, an hadronic $\tau$ is always reconstructed also as a jet.
 To avoid double counting of the same physics object a procedure of overlap removal is performed
 in the presented analysis. Physics object of different sort are matched in a cone of $\Delta R <0.2$,
@@ -295,6 +343,6 @@ simulated particles (also called \emph{truth-particles}), their identity, proper
 interactions are stored in the event  based on the conventions defined in~\cite{hepmc}.
 A particle is defined stable if $c \tau > 1$~m, where $\tau$ is its mean life time, particle emerging from 
 interaction with the detector are excluded from this definition. 
-Each particle has an associated ``barcode'' which is a unique identifier for that particle
+Each particle has an associated ``barcode'' wich is a unique identifier for that particle
 in that event. Jets reconstructed from stable particles are called \emph{truth-jets}.
 
