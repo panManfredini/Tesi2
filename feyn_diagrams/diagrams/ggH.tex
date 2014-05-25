@@ -1,0 +1,30 @@
+\documentclass[12pt]{article} 
+ \usepackage{feynarts} 
+ \begin{document} 
+ \thispagestyle{empty}
+
+\begin{feynartspicture}(200,200)(1,1)
+\FADiagram{}
+\FAProp(-0.,15.)(5.,15.)(0.,){Cycles}{0}
+\FALabel(2.5,16.52)[b]{g}
+\FAProp(0.,5.)(5.,5.)(0.,){Cycles}{0}
+\FALabel(2.5,3.98)[t]{g}
+\FAProp(5.,15.)(5.,5.)(0.,){Straight}{0}
+\FALabel(6.52,10.)[l]{t/b}
+\FAProp(5.,15.)(10.,10.)(0.,){Straight}{0}
+%\FALabel(8.02,13.02)[bl]{t/b}
+\FAProp(5.,5.)(10.,10.)(0.,){Straight}{0}
+%\FALabel(7.9392,7.0607)[tl]{t/b}
+\FAProp(10.,10.)(15.,10.)(0.,){ScalarDash}{0}
+\FALabel(12.5,9.18)[t]{A/h/H}
+\FAProp(15.,10.)(20.,15.)(0.,){Straight}{-1}
+\FALabel(19.48,15.52)[br]{$\tau^+$}
+\FAProp(15.,10.)(20.,5.)(0.,){Straight}{1}
+\FALabel(19.48,4.4799)[tr]{$\tau^-$}
+\FAVert(5.,15.){0}
+\FAVert(5.,5.){0}
+\FAVert(10.,10.){0}
+\FAVert(15.,10.){0}
+ \end{feynartspicture} 
+ 
+\end{document} 

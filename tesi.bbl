@@ -40,37 +40,37 @@ H.~E. Haber and G.~L. Kane, {\em {The search for supersymmetry: Probing physics
   tau-tau final states with up to 2.2~\ifb of data}\/},
   \href{http://arxiv.org/abs/1003.3363}{{\tt arXiv:1003.3363 [hep-ex]}}.
 
-\bibitem{TevatronLimits2}
-{CDF} Collaboration, T.~Aaltonen et al. Phys. Rev. Lett. {\bf 103} (2009)
-  201801.
+%\bibitem{TevatronLimits2}
+%{CDF} Collaboration, T.~Aaltonen et al. Phys. Rev. Lett. {\bf 103} (2009)
+%  201801.
+%
+%\bibitem{TevatronLimits3}
+%{D0} Collaboration, V.~Abazov et al. Phys. Rev. Lett. {\bf 101} (2008)  071804.
+%
+%\bibitem{TevatronLimits4}
+%{TNPWG (Tevatron New Physics Higgs Working Group), CDF and D0 Collaborations},
+%  {\em {Search for Neutral Higgs Bosons in Events with Multiple Bottom Quarks
+%  at the Tevatron}\/},
+%\href{http://arxiv.org/abs/1207.2757}{{\tt arXiv:1207.2757 [hep-ex]}}.
+%%%CITATION = ARXIV:1207.2757;%%.
+%
+%\bibitem{TevatronLimits5}
+%{CDF Collaboration, T. Aaltonen et al.}, {\em {Search for Higgs Bosons Produced
+%  in Association with $b$-quarks}\/},
+%  \href{http://dx.doi.org/10.1103/PhysRevD.85.032005}{Phys.Rev. {\bf D85}
+%  (2012)  032005},
+%\href{http://arxiv.org/abs/1106.4782}{{\tt arXiv:1106.4782 [hep-ex]}}.
+%%%CITATION = ARXIV:1106.4782;%%.
 
-\bibitem{TevatronLimits3}
-{D0} Collaboration, V.~Abazov et al. Phys. Rev. Lett. {\bf 101} (2008)  071804.
-
-\bibitem{TevatronLimits4}
-{TNPWG (Tevatron New Physics Higgs Working Group), CDF and D0 Collaborations},
-  {\em {Search for Neutral Higgs Bosons in Events with Multiple Bottom Quarks
-  at the Tevatron}\/},
-\href{http://arxiv.org/abs/1207.2757}{{\tt arXiv:1207.2757 [hep-ex]}}.
-%%CITATION = ARXIV:1207.2757;%%.
-
-\bibitem{TevatronLimits5}
-{CDF Collaboration, T. Aaltonen et al.}, {\em {Search for Higgs Bosons Produced
-  in Association with $b$-quarks}\/},
-  \href{http://dx.doi.org/10.1103/PhysRevD.85.032005}{Phys.Rev. {\bf D85}
-  (2012)  032005},
-\href{http://arxiv.org/abs/1106.4782}{{\tt arXiv:1106.4782 [hep-ex]}}.
-%%CITATION = ARXIV:1106.4782;%%.
-
-\bibitem{TevatronLimits6}
-{D0 Collaboration, V.M. Abazov et al.}, {\em {Search for neutral Higgs bosons
-  in the multi-$b$-jet topology in 5.2fb$^{-1}$ of $p\bar{p}$ collisions at
-  $\sqrt{s} = 1.96$ TeV}\/},
-  \href{http://dx.doi.org/10.1016/j.physletb.2011.02.062}{Phys.Lett. {\bf B698}
-  (2011)  97--104},
-\href{http://arxiv.org/abs/1011.1931}{{\tt arXiv:1011.1931 [hep-ex]}}.
-%%CITATION = ARXIV:1011.1931;%%.
-
+%\bibitem{TevatronLimits6}
+%{D0 Collaboration, V.M. Abazov et al.}, {\em {Search for neutral Higgs bosons
+%  in the multi-$b$-jet topology in 5.2fb$^{-1}$ of $p\bar{p}$ collisions at
+%  $\sqrt{s} = 1.96$ TeV}\/},
+%  \href{http://dx.doi.org/10.1016/j.physletb.2011.02.062}{Phys.Lett. {\bf B698}
+%  (2011)  97--104},
+%\href{http://arxiv.org/abs/1011.1931}{{\tt arXiv:1011.1931 [hep-ex]}}.
+%%%CITATION = ARXIV:1011.1931;%%.
+%
 \bibitem{CMSLimit}
 {The CMS Collaboration, S.~Chatrchyan et al., }
   \href{http://arxiv.org/abs/1104.1619 [hep-ex]}{{\tt arXiv:1104.1619 [hep-ex]
@@ -83,15 +83,6 @@ H.~E. Haber and G.~L. Kane, {\em {The search for supersymmetry: Probing physics
 \href{http://arxiv.org/abs/1211.6956}{{\tt arXiv:1211.6956 [hep-ex]}}.
 %%CITATION = ARXIV:1211.6956;%%.
 
-\bibitem{ATLASHiggsObservationJuly2012}
-T.~A. Collaboration, {\em Observation of a new particle in the search for the
-  Standard Model Higgs boson with the ATLAS detector at the LHC\/},  Physics
-  Letters B {\bf 716} (2012)  1--29.
-
-\bibitem{CMSHiggsObservationJuly2012}
-T.~C. Collatoration, {\em Observation of a new boson at a mass of 125 GeV with
-  the CMS experiment at the LHC\/},  Physics Letters B {\bf 716} (2012)
-  30--61.
 
 \bibitem{theo125}
 {S. Heinemeyer, O. St\r{a}l and G. Weiglein}, {\em {Interpreting the LHC Higgs
@@ -376,6 +367,30 @@ CERN, 2012.
 M. Dobbs and J.B. Hansen, \emph{“The HepMC C++ Monte Carlo Event Record for High Energy
 Physics”}, Computer Physics Communications, ATL-SOFT-2000-001.
 
+\bibitem{AHiggsO}
+The ATLAS Collaboration, {\em Observation of a new particle in the search for the
+  Standard Model Higgs boson with the ATLAS detector at the LHC\/},  Physics
+  Letters B {\bf 716} (2012)  1--29.
+
+\bibitem{CHiggsO}
+The CMS Collatoration, {\em Observation of a new boson at a mass of 125 GeV with
+  the CMS experiment at the LHC\/},  Physics Letters B {\bf 716} (2012)
+  30--61.
+
+\bibitem{ASpin0}
+The ATLAS Collaboration, \emph{ Evidence for the spin-0 nature of the Higgs boson using ATLAS data },
+Phys. Lett. B 726 (2013), pp. 120-144.
+
+\bibitem{ACouplings}
+The ATLAS Collaboration, \emph{ Measurements of Higgs boson production and couplings in diboson final states with 
+the ATLAS detector at the LHC}, Phys. Lett. B 726 (2013), pp. 88-119.
+
+\bibitem{CFermions}
+The CMS Collaboration, \emph{``Evidence for the direct decay of the 125 GeV Higgs boson to fermions,''}
+  arXiv:1401.6527 [hep-ex].
+
+\bibitem{CWidth}
+The CMS Collaboration, \emph{ Higgs boson width from on- vs. off-shell production and decay to Z-boson pairs },  arXiv:1405.3455.
 
 \bibitem{MMC}
 A.~Elagin, P.~Murat, A.~Pranko, and A.~Safonov, {\em {A New Mass Reconstruction

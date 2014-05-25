@@ -1,4 +1,4 @@
-\newgeometry{left=5cm, right=3.5cm,bottom=4cm, top=4cm}
+\newgeometry{left=4cm, right=4cm,bottom=4cm, top=4cm}
 \chapter[Neutral MSSM Higgs Bosons Search...]{Search for neutral MSSM Higgs Bosons in the 
 $A/h/H \rightarrow \tau^{+}\tau^{-} \rightarrow e \mu + 4\nu$ decays} \label{chap:anal}
 
@@ -14,37 +14,49 @@ $A/h/H \rightarrow \tau^{+}\tau^{-} \rightarrow e \mu + 4\nu$ decays} \label{cha
 %leptons, which subsequently decay to an electron, a muon and four
 %neutrinos. Furthermore, 
 %
-Under the light of the recent discovery of a Higgs 
-boson with mass of 125 GeV \cite{}, remains an open question
+Under the light of the recent discovery at LHC of a Higgs 
+boson with mass of 125 GeV \cite{AHiggsO,CHiggsO}, remains an open question
 wheter this new particle constitute all the pieces of the Higgs
 sector or wheter it is only one of several bosons predicted in some theories 
-that go beyond the SM. The most recent measurements \cite{} of its
-properties shows it to be, within experimental uncertainties, perfectly 
-compatible with the SM Higgs boson, however such a new particle can 
+that go beyond the SM. The most recent measurements \cite{ASpin0,ACouplings,CFermions,CWidth} of its
+properties shows this new boson to be, within experimental uncertainties, perfectly 
+compatible with the SM Higgs boson, however such a new particle can still
 be accomodated within several beyond the 
 standard model (BSM) theories, this is particularly true for Super Symmetry. 
 
-There are two approach to explore the Higgs sector:
-one can study the cupling of the Higgs boson with vector
-bosons and fermions, those measure in fact are sensitive to new physics and can determine
-%given the unitarity property of scattering
-%aplitudes for longitudinal vectors and fermions, one can understand 
-if this particle is  fully responsible for
-the generation of all the SM particles masses. 
-Another approach is to directly search for %model dependent
-for additional Higgses in a well defined model, which is the approach followed in this
-thesis where new neutral bosons are sought within the MSSM (see chapter \ref{}). 
+This chapter presents the search for the neutral MSSM Higgs bosons decaying into pairs of tau leptons
+in the fully leptonic final state, which is part of the ATLAS publication\footnote{to Sandra: I'll remove this sentence
+if Conf note wont be ready in time} for the neutral
+MSSM higgs boson search~\cite{}. The search is based on 20.3 $\text{fb}^{-1}$ of 8 TeV data 
+recorded by the ATLAS experiment during 2012 at the Large Hadron Collider.
+A brief summary of the MSSM Higgs sector fenomenology is given in section
 
+In section~\ref{sec:strategy} an introduction to experimental searches and to the strategy
+of this particular analysis is given, in section~\ref{sec:BackgroundEstimation} the background model estimation is described, 
+while in section~\ref{sec:Systematics} methods to evaluate systematics uncertaities are discussed, finally 
+in section~\ref{sec:result} the result of the sarch are presented.
 
-%Discovering the mechanism responsible for electroweak
-%symmetry-breaking and the origin of mass for elementary particles has been
-%one of the major goals of the physics program at the Large Hadron
-%Collider~(LHC)~\cite{LHC}.  In the Standard Model (SM) this mechanism
-%requires the existence of a single scalar particle, the Higgs
-%boson~\cite{ENGLERT,HIGGS,HIGGS2,HIGGS3,Guralnik:1964eu}.
-
-%This chapter is divided in three sections:
-%in section~\ref{sec:strategy} an introduction to experimental searches and to the strategy
+%There are two approach to explore the Higgs sector:
+%one can study the cupling of the Higgs boson with vector
+%bosons and fermions, those measure in fact are sensitive to new physics and can determine
+%%given the unitarity property of scattering
+%%aplitudes for longitudinal vectors and fermions, one can understand 
+%if this particle is  fully responsible for
+%the generation of all the SM particles masses. 
+%Another approach is to directly search for %model dependent
+%for additional Higgses in a well defined model, which is the approach followed in this
+%thesis where new neutral bosons are sought within the MSSM (see chapter \ref{}). 
+%
+%
+%%Discovering the mechanism responsible for electroweak
+%%symmetry-breaking and the origin of mass for elementary particles has been
+%%one of the major goals of the physics program at the Large Hadron
+%%Collider~(LHC)~\cite{LHC}.  In the Standard Model (SM) this mechanism
+%%requires the existence of a single scalar particle, the Higgs
+%%boson~\cite{ENGLERT,HIGGS,HIGGS2,HIGGS3,Guralnik:1964eu}.
+%
+%%This chapter is divided in three sections:
+%%in section~\ref{sec:strategy} an introduction to experimental searches and to the strategy
 %of this particular analysis is given, in section~\ref{sec:bkg} is described the core of this thesis
 %work, i.e. the detail of the background modeling for this analysis, while in section~\ref{sec:result}
 %the result of the sarch are presented.
@@ -53,16 +65,7 @@ thesis where new neutral bosons are sought within the MSSM (see chapter \ref{}).
 \restoregeometry
 \clearpage
 
-%%\section{Inside Neutral MSSM Higgs}
-%\section{What is a Search?}
-%\section{Search First Principle}
-%\section{Search Elements}
-%\section{The Search in a Nutshel}
-\section{Introduction}
-\label{sec:strategy}
-
-%\subsection{Motivation}
-
+\section{Introduction} \label{sec:intro}
 \begin{figure}[tp]
      \begin{center}
 
@@ -80,108 +83,205 @@ thesis where new neutral bosons are sought within the MSSM (see chapter \ref{}).
 In the Minimal Supersymmetric extension of the Standard Model
 (MSSM)~\cite{MSSM1, MSSM2} the Higgs sector is composed of two Higgs
 doublets of opposite hyper-charge, resulting in five observable Higgs
-bosons.  Two of these Higgs bosons are neutral and $CP$-even
+bosons:  two of these are neutral and $CP$-even
 ($h$,$H$), one is neutral and $CP$-odd ($A$) and two are charged
 ($H^\pm$).  At tree level their properties such as masses, widths and
 branching ratios can be predicted in terms of only two parameters,
-often chosen to be the mass of the $CP$-odd Higgs boson $m_A$, and
+often chosen to be the mass of the $CP$-odd Higgs boson $m_A$ and
 the ratio of the vacuum expectation values of the two Higgs doublets
 $\tan\beta$ (for more details see chapter~\ref{chap:theory}).  
+It is impractical
+for an experimental  search to explore the full parameter space of the MSSM, several benchmark scenarios are then 
+introduced by fixing the parameters to typical values for most interesting phenomenology to occur.
+With the recent Higgs boson discovery, bechmark scenarios of the MSSM have been updated to 
+accomodate for  new experimental constraints. 
+As an example, Figure~\ref{fig:mhmod} shows the currently excluded and allowed regions of the MSSM parameter space
+for the  $m_{h}^{mod+}$ updated benchmark scenario. In this scenario a supersymmetric SM-like Higgs boson 
+is assumed with a mass $m_h = 125$ GeV, large region of the $m_{A} - \text{tan}\beta$ parameter space 
+are compatible with this assumption and remains still unexplored, this is a strong motivation to 
+pursue the search for additional neutral MSSM Higgs bosons.
 
 The MSSM predicts the existence of a Higgs boson with properties that  
-resemble those of a SM Higgs boson in large regions of its parameter space. It is technically impossible,
-for an experimental  search, to explore the full parameter space of the model, several benchmark scenarios are then 
-introduced by fixing the parameters to values typical for most interesting physics scenarios.
-% a point in the MSSM parameter space must now not only pass all the 
-%experimental bounds on superparticle masses, but also lead to the prediction of a scalar with
-%mass, production cross section and decay rates compatible with those measured at the LHC.
-%it is not convenient to scan over a large parameter space as the MSSM has, for practical reason
-With the recent Higgs boson discovery, bechmark scenarios of the MSSM have been updated to 
-accomodate for  new experimental constraints (see chapter~\ref{chap:theory}). 
-As an example, Figure~\ref{fig:mhmod} shows the currently excluded and allowed regions of the MSSM parameter space
-for the  $m_{h}^{mod+}$ updated benchmark scenario. In this scenario a supersymmetric SM-like Higgs boson is assumed, 
-large region of the $m_{A} - \text{tan}\beta$ parameter space is compatible with this assumption and remains still unexplored.
-
-
-This chapter presents the search for the neutral MSSM Higgs bosons decaying into pairs of tau leptons
-in the fully leptonic final state. The search is based on 20.3 $\text{fb}^{-1}$ of 8 TeV data 
-recorded by the ATLAS experiment during 2012 at the Large Hadron Collider~(LHC)~\cite{LHC}.
-Higgs boson candidated events are selected based on the topological properties of the Higgs boson production 
-and decay. The two dominant Higgs boson production modes are via gluon-gluon fusion and in association with b-quarks,
-the search take advantage of that being performed separately for events without or with b-tagged jets in the final state,
-respectively. Two of the dominat background contributions, $\Ztautau$ and multi-jet process, are predicted with 
-the corresponding signal-depleted control data samples. The final statistical interpretation of the data is based on the 
-comparison of the observed invariant mass distributions, exclusion limits are set by means of a binned likelihood ratio
-test statistic and interpreted either in the MSSM $m_{h}^{max}$ scenario and in a model independed.
-
-In the MSSM for large region of parameter space one found that one of the 
-$CP$-even neutral Higgses  has properties that resemble the one of the SM Higgs,
-this is usually the case for the lightest Higgs, \emph{h}, the other two, $H$ and $A$, 
+resemble those of a SM Higgs boson in large regions of its parameter space. 
+This is usually the case for the lightest Higgs, \emph{h}, the other two, $H$ and $A$, 
 tend to be degenerate in mass and decouple from gauge bosons.
-An interesting fenomenological consequence is that the coupling of the latter
-two Higgses with down (up) type fermions are enhanced
+%Production and decay mode 
+%with vector bosons are forbidden for the CP-odd, $A$ and are suppressed for 
+%the CP-even, $H$, Higgs bosons. 
+On the other hand, the couplings of the latter two Higgses with down (up) type fermions are enhanced
 (suppressed) by $\tan\beta$, meaning that for large $\tan\beta$
-bottom-quark and $\tau$ lepton will play a more important role than in
-the SM case either for production and decay.
-
-The production of the neutral $CP$-even MSSM Higgs bosons at hadron
-colliders proceeds via the same processes as for the SM Higgs
-production. However, the pseudoscalar $A$ instead cannot be produced
-in association with gauge bosons or in vector boson fusion (VBF) at
-tree-level, as this coupling is forbidden due to $CP$-invariance.  At
-the LHC one of the most relevant production mechanisms for the MSSM
-Higgs bosons is gluon-gluon fusion, $gg\rightarrow A/H/h$. In
-addition, the production in association with $b$-quarks becomes
-important for large value of $\tan\beta$. Those are the two production mechanism
-that are considered in this analysis, Figure~\ref{fig:prod} shows the Feynman-diagram
-for those processes, while Figure~\ref{fig:xsec} shows the production cross section of the neutral 
-MSSM Higgses via these two processes. The search is divided in two category which are optimized
-for the two different production mode considered, in the gluon-fusion category
-is requred a b-jet veto (for definition of b-tagging algorithm see chapter~\ref{chap:detector}), in fact no b-jet in the final state are present for this
-production mode. In contrast a a b-jet tag is required for b-associated production,
-this category is expected to be very sensitive to $\tan\beta$. The two category are
-ortogonal and present different backgrounds contributions, which can be
-optimized separately. 
-
-The decays of the neutral
-MSSM Higgs bosons (in the assumption that all supersymmetric particle
-are heavy enough) are the same as for the SM one with the already
-cited exception of $A$. Figure~\ref{fig:xsec} shows the decay branching fractions
-for $H$ and $A$ as a function of the mass, 
-the decay into tau pair is the most important after $b\bar{b}$ and the one used in this analysis. The 
-decay channel in $b\bar{b}$ is in fact very challenging due to the huge background from
-QCD multi-jet.
-In this thesis only cases in which the taus decay one in $e + 2\nu$ and
-the other in $\mu + 2\nu$ are considered, This final state corresponds to a total
-$\tau^+\tau^-$ branching ratio of approximately 6\%.
+bottom-quark and $\tau$ lepton will play an important role either for production and decay. 
  
-The signal topology described in the previous section is common to many other processes, unfortunately, 
-those have higher cross section than the sought signal and a set of additional selections
-is needed to enhance the sensitivity of the search.
-The most important backgrounds to this search are the production of
- $\Ztautau $ + jets, the top quark ($t\bar{t}$ and single top production is intended), diboson production 
-(like $WW$ or $ZZ$ events) and Drell-Yan process or events with non-prompt leptons coming 
-solely from hadron decay (in short QCD multi-jet).
-Vector bosons production like  $\Wlnu$ or $\Zll$ + jets (with $\ell$ here meaning either $e$ or $\mu$) are also considered,
-however those processes have a limited impact.
+The two most relevant production mechanisms for the MSSM
+Higgs bosons at LHC are gluon-gluon fusion, $gg\rightarrow A/H/h$ and 
+the production in association with $b$-quarks $pp \rightarrow b(b)A/h/H$, the latter becoming
+important for large value of $\tan\beta$. Those are the two production mechanism
+considered in this analysis. 
+The favoured decay mode for the neutral MSSM Higgs bosons  is $b\bar{b}$ (in the assumption that all supersymmetric particle
+are heavy enough), this is followed, for the CP-odd $A$ and CP-even $H$ Higgs bosons, 
+by the decay to $\tau$ pairs. Given that the former is very difficult to distinguish from the large $b\bar{b}$
+background at the LHC, the decay mode $A/h/H \rightarrow \tau^+ \tau^-$  provides the highest sensitivity for this search.
 
-%Searches for neutral MSSM Higgs bosons have been performed at
-%LEP~\cite{LEPLimits}, the
-%Tevatron~\cite{TevatronLimits1,TevatronLimits2,TevatronLimits3,TevatronLimits4,TevatronLimits5,TevatronLimits6}
-%and the LHC~\cite{CMSLimit, ATLASLimit}.  In this note a search for
+In the following a search for the neutral MSSM Higgs bosons  in the final state 
+$A/h/H \rightarrow \tau^+ \tau^- \rightarrow e \mu +4\nu$ is presented. 
+This search is coplementary to the other $\tau$ final state searches 
+carachterized by the presence of one or two hadronic $\tau$ decays. Despite the fact that the $e-\mu$ final
+state corresponds to a total $\tau^+\tau^-$ branching ratio of only 6\%, this search has a competitive 
+sensitivity with the other $\tau$ final state, especially for low $m_A$. 
+This effect is mainly due to the high transverse momentum requirement at trigger level for  hadronic $\tau$ decay.
+
+
+
+
+\section{Signal and Background Processes}
+Signal events, in which the neutral MSSM Higgs bosons decays trough 
+$A/h/H \rightarrow \tau^+ \tau^- \rightarrow e \mu +4\nu$, are carachterized 
+by the presence of one electron and one muon of opposite charge, these are isolated and with 
+relatively high transverse momentum, additionally four neutrinos contribute to the missing transverse energy of the event. 
+Figure~\ref{fig:feyndiagSignal} shows leading order Feynman diagram for the two signal production mode considered,
+gluon-gluon fusion and b-associated production.
+The production modes also contributes to the carachterizzation of the signal topology: the presence or the absence 
+of b-jet in the final state is in fact expeted in case of  b-associated or gluon-gluon fusion production mode, respectively.
+
+\begin{figure}[tp]
+     \begin{center}
+
+          %  \includegraphics[width=0.3\textwidth]{feyn_diagrams/diagrams/bbA.pdf}\hspace{1cm}
+          %  \includegraphics[width=0.3\textwidth]{feyn_diagrams/diagrams/bbA2.pdf}\hspace{1cm}
+          %  \includegraphics[width=0.3\textwidth]{feyn_diagrams/diagrams/bbA3.pdf}\\
+          %  \includegraphics[width=0.3\textwidth]{feyn_diagrams/diagrams/ggH.pdf}
+
+    \end{center}
+    \caption{To Sandra: the diagrams are will be updated asap.}    
+	
+   \label{fig:feyndiagSignal}
+\end{figure}
+
+
+The signal topology  just described is common to several other processes, which unfortunately, 
+have higher cross section than the sought signal.
+The dominat backgrounds for this search are the production of  $Z/\gamma^* \rightarrow \tau^+ \tau^- $
+either via Drell-Yan process or in association with jets and the top quark production ($t\bar{t}$ and single top production is intended). 
+Additional significant backgrounds are  diboson production 
+(like $WW$ or $ZZ$) and  events with non-prompt leptons coming solely from hadron decay (QCD multi-jet).
+Vector bosons production like  $\Wlnu$ or $\Zll$ in association with jets (with $\ell$ here meaning either $e$ or $\mu$) 
+are also considered, however these processes have a limited impact. Figure~\ref{fig:feyndiagBack} shows few relevant exaples of 
+leading order Feynman diagrams for the dominant background processes.
+The production cross sections times the relevant branching fraction for signal and backgrounds are summarised in
+Table~\ref{tab:MCxsec}. 
+%The $W/Z$ and $b\bar{b}A/H/h$ production cross sections 
+%are calculated to NNLO. The one for $\ttbar$, single top and diboson cross sections are calculated at NLO.
+%Finally, the direct $gg\rightarrow A/H/h$ signal cross sections 
+%are calculated at NNLO and NLO for the top loop and the bottom loop respectively.
+%
+
+\begin{figure}[tp]
+     \begin{center}
+
+          %  \includegraphics[width=0.3\textwidth]{feyn_diagrams/diagrams/bbA.pdf}\hspace{1cm}
+          %  \includegraphics[width=0.3\textwidth]{feyn_diagrams/diagrams/bbA2.pdf}\hspace{1cm}
+          %  \includegraphics[width=0.3\textwidth]{feyn_diagrams/diagrams/bbA3.pdf}\\
+          %  \includegraphics[width=0.3\textwidth]{feyn_diagrams/diagrams/ggH.pdf}
+
+    \end{center}
+    \caption{To Sandra: the diagrams are will be updated asap.}    
+	
+   \label{fig:feyndiagBack}
+\end{figure}
+
+
+%The values of the steering parameters used for the HERWIG, JIMMY and PYTHIA
+%generators are described in Ref.~\cite{ATLASMC09Tune}.
+
+\begin{table}[tp]
+\begin{center}
+%\begin{footnotesize}
+\begin{small}
+\begin{tabular}{lr}
+\hline \hline
+Process                                                                 & Cross-section~(pb) [$\times$ BR] \\ [1pt]
+\hline
+\multicolumn{2}{c}{Signal ($m_A=150$~GeV, $\tan\beta=20$, $m_{h}^{max}$ scenario) }  \\ [1pt]
+
+$gg\rightarrow A/h/H \rightarrow\tau\tau \rightarrow e\mu+ 4\nu)$                 &  $0.12 / 0.09 / 0.13$ \\
+$pp \rightarrow b\bar{b}A/h/H \rightarrow \tau\tau \rightarrow e\mu + 4\nu)$       & $ 0.29 /0.03 / 0.25   $ \\[1pt]
+\hline
+\multicolumn{2}{c}{Backgrounds} \\[1pt]
+$W\rightarrow \ell$+jets                           & 12.22$\times 10^3$ \\
+$Z/\gamma^{*}\rightarrow \ell\ell$+jets       & 5.5$\times 10^3$ \\
+$t\bar{t} \rightarrow \ell \ell + X$                                                              & 137.3 \\
+Single top ($t$, $s$ and $Wt$ channels) $\rightarrow \ell + X$               & 28.4, 1.8, 22.4 \\
+Diboson WW, WZ and ZZ  $\rightarrow \ell + X$                                          & 20.6, 6.8, 1.55 \\ [1pt]
+\hline 
+\hline
+\end{tabular}
+\end{small}
+\caption{The cross sections multiplied by the relevant branching ratios~(BR) for signal and the considered
+backgrounds. the symbol $\ell$ stands for $\ell= (e, \mu, \tau)$. 
+Signal cross sections are calculated for the $m_{h}^{max}$ scenario shown for
+ $m_A=150$~GeV and $\tan\beta=20$, in this case  $m_H=151$~GeV and $m_h=129$~GeV.}
+ \label{tab:MCxsec}
+
+\end{center}
+\end{table}
+
+
+\section{Analysis Strategy} \label{sec:strategy}
+
+Searches for neutral MSSM Higgs bosons have been performed at
+LEP~\cite{LEPLimits}, the
+Tevatron~\cite{TevatronLimits1}
+and the LHC~\cite{CMSLimit, ATLASLimit}.  In this thesis a search for the MSSM 
+$A/h/H \rightarrow \tau^+ \tau^- \rightarrow e \mu +4\nu$ is performed. The $e-\mu$ final state 
+is choosen out of the three possible fully 
+leptonic final state of a $\tau^+ \tau^-$ resonance,
+since it respresent the 50\% of the fully total cases and since for the $e-e$ and $\mu-\mu$ case large background
+contribution are expected not only from $\Ztautau$ but also from $\Zee$ and $\Zmumu$, respectively.
+
+Candidated events are selected based on the topological properties of the Higgs boson production
+and decay, the events are requires to present one electron and one muon, isolated and of opposite charge.
+The set of events is divided in two orthogonal category which are optimized separately
+for the two different production mode considered. In the gluon-gluon fusion category (also called \emph{b-veto} category),
+the absence of a b-tagged jet is required, the main background in this category is $\Ztautau$. 
+In contrast, the presence of a b-tagged jet is required for b-associated production category (also called 
+\emph{b-tag} category), the request of a b-jet suppress the $\Ztautau$ background, $\ttbar$ and single top production
+are then the main backgrounds in this category.
+
+The $A/h/H \rightarrow\tau\tau \rightarrow e\mu+ 4\nu$ search is performed in the MSSM $m_h^{max}$ benchmark scenario
+scanning the $m_A - \tan\beta$ plane in the ranges $90 \leq m_A \leq 300$ GeV and $5 < \tan\beta < 60$,
+the signal prediction is evaluated by simulation.
+
+The dominat $\Ztautau$ background is estimated from data via a signal-depleted control sample.
+QCD multi-jet prediction is also estimated from data since it represent a challenge for MC simulation.  
+The prediction of all the other backgrounds is obtained by means of MC simulation.
+The background model predictions are validated using different signal-depleted control data samples, 
+good agreement is found.
+
+The systematics uncertainties taken into account for simulated signal and backgrounds arise from uncertainties on  
+cross section calculations and on the modeling of the detector response. For backgrounds that are estimated from data,
+specific uncertainty are evaluated considering the possible uncertainties of the estimation methods.
+
+
+The final statistical interpretation of the data is based on the 
+comparison of the observed invariant mass distributions with the expected background and signal+background
+predictions. Exclusion limits are set by means of a binned likelihood ratio
+test statistic. The limits are interpreted  in the MSSM $m_{h}^{max}$ scenario and evaluated as a function
+of $m_A$ and $\tan\beta$, furthermore, the limits are interpreted, in a less model depended
+way, in terms of the cross section for the production of a generic Higgs boson, $\phi$, of mass  $m_\phi$, 
+via the production mode $pp \rightarrow b\bar{b}\phi$ and $gg \rightarrow \phi$.
+
+
+ 
+
 %neutral MSSM Higgs bosons with the ATLAS experiment at CERN is
 %presented, using proton-proton collisions at centre-of-mass energy of
 %8~TeV, with a recorded integrated luminosity of
 %$20.3 \ifb$.
 
-In section~\ref{sec:strategy} an introduction to experimental searches and to the strategy
-of this particular analysis is given, in section~\ref{sec:BackgroundEstimation} the background model estimation is described, 
-while in section~\ref{sec:Systematics} methods to evaluate systematics uncertaities are discussed, finally 
-in section~\ref{sec:result} the result of the sarch are presented.
 
 
 \subsection{Simulated Event Samples}
-\label{sec:SimSamples}
+\label{sec:sample}
 
 %Both the signal and background process modelled by Monte Carlo (MC)
 %simulation were produced within the ATLAS MC12a production campaign.
@@ -232,74 +332,14 @@ simulation.
 %interactions per bunch crossing ($<\mu>$) obtained from the ATLAS
 %data.
 
-The cross-sections of
-the MC event samples used in this note are summarised in
-Table~\ref{tab:MCxsec}. The $W/Z$+jets and $b\bar{b}A/H/h\rightarrow \tau\tau$ cross sections 
-are calculated to NNLO. Those for $\ttbar$ comes from direct cross section measurement \cite{}. The single top and diboson cross sections are calculated at NLO for single top and dibosons. Finally, the direct $gg\rightarrow A/H/h\rightarrow \tau\tau$ signal cross sections 
-are calculated at NNLO and NLO for the top loop and the bottom loop and top/bottom loops interference, respectively.
-
-%The values of the steering parameters used for the HERWIG, JIMMY and PYTHIA
-%generators are described in Ref.~\cite{ATLASMC09Tune}.
-
-\begin{table}[tp]
-\begin{center}
-\begin{footnotesize}
-\begin{tabular}{cc}
-\hline \hline
-Process                                                                 & Cross-section~(pb) [$\times$ BR] \\ \hline
-$W\rightarrow \ell$+jets ($\ell=e, \mu, \tau$ )                          & 12.22$\times 10^3$ \\
-$Z/\gamma^{*}\rightarrow \ell\ell$+jets ($m_{\ell\ell}>60$ GeV)      & 1.15$\times 10^3$ \\
-$Z/\gamma^{*}\rightarrow \ell\ell$+jets ($10<m_{\ell\ell}<60$ GeV) & 4.35$\times 10^3$ \\
-$t\bar{t}$                                                              & 137.3 \\
-Single top $t$-, $s$- and $Wt$-channels                                 & 28.4, 1.8, 22.4 \\
-Diboson WW, WZ and ZZ                                                  & 20.6, 6.8, 1.55 \\ \hline
-Signal ($m_A=150$~GeV, $\tan\beta=20$, $m_{h}^{max}$ scenario)   &  \\ \hline
-$gg\rightarrow A\times$BR$(A\rightarrow\tau\tau)\times$BR$(\tau\tau\rightarrow e\mu+ 4\nu)$                 & $ 16.8 \times 0.118 \times 0.062$ \\
-$gg\rightarrow H\times$BR$(H\rightarrow\tau\tau)\times$BR$(\tau\tau\rightarrow e\mu+ 4\nu)$ ($m_H=151$~GeV) & $ 18.4 \times 0.119 \times 0.062$ \\
-$gg\rightarrow h\times$BR$(h\rightarrow\tau\tau)\times$BR$(\tau\tau\rightarrow e\mu+ 4\nu)$ ($m_h=129$~GeV) & $ 13.7 \times 0.110 \times 0.062$ \\
-$b\bar{b}A\times$BR$(A\rightarrow \tau\tau)\times$BR$(\tau\tau\rightarrow e\mu + 4\nu)$                       & $ 39.4 \times 0.118 \times 0.062$ \\
-$b\bar{b}H\times$BR$(H\rightarrow \tau\tau)\times$BR$(\tau\tau\rightarrow e\mu+ 4\nu)$ ($m_H=151$~GeV)       & $ 35.7 \times 0.119 \times 0.062$ \\
-$b\bar{b}h\times$BR$(h\rightarrow \tau\tau)\times$BR$(\tau\tau\rightarrow e\mu+ 4\nu)$ ($m_h=129$~GeV)       & $ 4.71 \times 0.110 \times 0.062$ \\
-\hline \hline
-\end{tabular}
-\end{footnotesize}
-\caption{The cross sections (multiplied by the relevant branching
-  ratios~(BR)) used in this note. Signal cross sections are shown for $m_A=150$~GeV and $\tan\beta=20$}
-\label{tab:MCxsec}
-
-\end{center}
-\end{table}
 
 
 
 
 
-
-\subsection{Event Selections and Categorizzation}\label{sec:topology}
+\section{Event Selections and Categorizzation}\label{sec:selection}
 Data quality requirement according to~\cite{ATLASCLEANING} reccomend to not use event with jet activity in 
 
-
-\begin{figure}[tp]
-     \begin{center}
-
-            \includegraphics[height=3cm]{figure/bba.png}
-            \includegraphics[height=3cm]{figure/ggf.png}
-
-    \end{center}
-    \caption{Feynman diagram for b-associated production and gluon-gluon fusion for MSSM neutral Higgs.}
-   \label{fig:prod}
-\end{figure}
-
-\begin{figure}[tp]
-     \begin{center}
-
-            \includegraphics[width=\textwidth]{figure/xsec.png}
-
-    \end{center}
-    \caption{Production cross section for the \emph{h/H/A} MSSM neutral Higgs bosons via b-associated production and
-	gluon-gluon fusion production mode. The calculation are for the $m_h^{max}$ scenario and for $\tan \beta=5$ (left) and $\tan \beta=30$ (right).}
-   \label{fig:xsec}
-\end{figure}
 
 \begin{table}[t]
   \begin{center}
@@ -338,9 +378,6 @@ Data quality requirement according to~\cite{ATLASCLEANING} reccomend to not use 
 
 
 
-The signal events considered in this search are  characterised by the presence of one electron, one muon and 
-four neutrinos, the latter are associated to missing transverse energy of the event. Furthermore, 
-additional b-tagged jets may be present if the the Higgs boson is produced in association with b-quark.
 According to the signal events caractheristics, each event either data and MC should satisfy
 the following selection criteria, these selections are shared by both analysis category and therefore 
 referred in the following as ``common selections'':

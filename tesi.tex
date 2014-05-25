@@ -21,6 +21,7 @@
 %\usepackage{caption}
 %\usepackage{subcaption}
 
+ \usepackage{feynarts} 
 \listfiles
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % This is where the document really begins
@@ -66,7 +67,7 @@
 \def\GeV{\ensuremath{\text{GeV}}\xspace}
 \def\Zee{\ensuremath{Z\rightarrow ee}\xspace}
 \def\Zmumu{\ensuremath{Z\rightarrow \mu\mu}\xspace}
-\def\Ztautau{\ensuremath{Z\rightarrow \tau\tau}\xspace}
+\def\Ztautau{\ensuremath{Z/\gamma^*\rightarrow \tau\tau}\xspace}
 \def\Ztt{\ensuremath{Z\rightarrow \tau\tau}\xspace}
 \def\Wlnu{\ensuremath{W\rightarrow \ell \nu}\xspace}
 \def\Zll{\ensuremath{Z\rightarrow \ell \ell}\xspace}
@@ -84,7 +85,7 @@
 \def\mA{\ensuremath{m_{A}} }
 \def\ifb{\ensuremath{fb^{-1}} }
 
-\linespread{1.2}
+%\linespread{1.2}
 \begin{document}
 \tableofcontents
 
@@ -137,12 +138,13 @@
 %\input{t_pheno.tex}
 
 %\input{detector}
-\input{obj_reconstruction}
+%\input{obj_reconstruction}
+
 %analysis
-%\input{a_strategy}
-%\input{a_bkg_modeling}
-%\input{a_sys}
-%\input{a_result}
+\input{a_strategy}
+\input{a_bkg_modeling}
+\input{a_sys}
+\input{a_result}
 
 %trackjets
 %\input{trackjet}
