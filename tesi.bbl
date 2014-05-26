@@ -446,10 +446,36 @@ T.~A. Collaboration, {\em Search for the neutral Higgs bosons of the Minimal
 A.~B. et~al., {\em Rivet user manual\/},
   \href{http://arxiv.org/abs/1003.0694}{{\tt arXiv:1003.0694 [hep-ph]}}.
 
-\bibitem{CCGV}
+
+\bibitem{lhclimits}
+The ATLAS and CMS Collaborations, \emph{Procedure for the LHC Higgs boson search combination in summer 2011},
+ATL-PHYS-PUB-2011-011, ATL-COM-PHYS-2011-818, CMS-NOTE-2011-005.
+
+\bibitem{roofit}
+W. Verkerke and D. P. Kirkby, \emph{The Roofit Toolkit for Data Modeling}, eConf
+C0303241 (2003) MOLT007, arXiv:physics/0306116
+
+\bibitem{roostat}
+K. S. Cranmer et al., \emph{The Roostats Project}, PoS ACAT2010 (2010) 57.
+
+\bibitem{histfactory}
+K. Cranmer, G. Lewis, L. Moneta, A. Shibata, and W. Verkerke, \emph{Histfactory: A
+Tool for Creating Statistical Models for use with Roofit and Roostats},
+CERN–OPEN–2012–016 (2012)
+
+\bibitem{Asympt}
 E.~G. G.~Cowan, K.~Cranmer and O.~Vitells, {\em {Asymptotic formulae for
   likelihood-based tests of new physics}\/},
   \href{http://arxiv.org/abs/1007.1727}{{\tt arXiv:1007.1727 [hep-ex]}}.
+
+\bibitem{cls1}
+A. L. Read. \emph{Presentation of search results: the CLs technique}. J. Phys. G: Nucl. Part.
+Phys., 28, 2002.
+
+\bibitem{cls2}
+A. L. Read. \emph{Modified frequentist analysis of search results (the CLs method)}. In Proceedings
+of the First Workshop on Confidence Limits, CERN, Geneva, Switzerland, 2000.
+
 
 \bibitem{LHCHiggsCrossSectionWorkingGroup:2011ti}
 {LHC Higgs Cross Section Working Group}, S.~Dittmaier, C.~Mariotti,
@@ -465,6 +491,8 @@ E.~G. G.~Cowan, K.~Cranmer and O.~Vitells, {\em {Asymptotic formulae for
 \href{http://arxiv.org/abs/1201.3084}{{\tt arXiv:1201.3084 [hep-ph]}}.
 
 %%CITATION = ARXIV:1201.3084;%%.
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%trackjets stuff%%%%%%%%%%%%%%
 \bibitem{IDperformance}

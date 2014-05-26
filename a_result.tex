@@ -2,32 +2,69 @@
 \section{Results}
 \label{sec:result}
 
-\subsection{LHC Procedure For Limits Setting}
+\subsection{Statistical Procedure For Limits Setting}
 \label{sec:limits}
-A detailed description of the LHC procedure for Higgs search can be found in \cite{lhc,cramer},
-in the following a brief summary is given.
-Statistical tests are used for quantify an observation or to set an exclusion limit, 
-in search for new phenomena, hypotesis testing is performed by means of two hypotesis: 
-the \textit{background only} $H_0$ and and the \textit{signal+background} $H_1$.  
-As its has allready been outlined in section~\ref{sec:stat1}, any statistical test is based on probability
-distribution, once a probability density function (p.d.f.) is defined, one can calculate its value for a given 
-set of data obtaining what is called a "likelihood".  Taking the marked Poisson
-p.d.f. in equation~\eqref{markedpoisson}  one obtain the following likelihood function:
+The statistical interpretation of data in this search is based on the LHC limit 
+setting procedure for Higgs searches~\cite{lhclimits}. The statistical procedures described in the 
+following are implemented in the software package~\cite{roofit,roostat,histfactory}.
+
+\subsubsection{The Likelihood Definition}
+Statistical tests are used to quantify the significance of an observation or to set an exclusion limits, 
+in a search for new phenomena, hypotesis testing is performed by means of two hypotesis: 
+the \textit{background only} $H_0$ and and the \textit{signal-plus-background} $H_1$ hypotesis.  
+The main ingrediend of the \emph{test statistic}, defined later on in this section, is 
+is a binned likelihood function of the set of data, $\mathcal{D}$:
 \begin{equation}\label{likelihood}
-\mathcal{L}(\text{data}|\mu, \boldsymbol{\theta}) = \text{Poisson(data} | \mu \cdot s(\boldsymbol{\theta}) + b(\boldsymbol{\theta})) 
-	\cdot f(\boldsymbol{\theta} | \hat{\boldsymbol{\theta}})
+\mathcal{L}(\mathcal{D}~|~\mu, \boldsymbol{\theta}) = \text{Poisson(}\mathcal{D}~ |~ \mu \cdot s(\boldsymbol{\theta}) 
+	+ b(\boldsymbol{\theta})) \cdot \prod_{j} \mathcal{G}(\theta_j ~|~ 0, 1)
 \end{equation}
-this now describes how likely are the data under a certain hypotesis and it is only function of the parameter $\mu$ and of the
-nuissance parameter $\boldsymbol{\theta}$. If the hypotesis under test is unlikely to happen with the given dataset the value of 
-$\mathcal{L}$ is decreasing,
-one can define which is the best value of a parameter that describes the data via maximising the likelihood,
-obtaining a so called maximum likelihood estimator. The Poisson distribution in equation~\eqref{likelihood}
-stands for a product of Poisson probabilities to observe  events in the bin \textit{i} of an histogram:
+which describes how likely is a set of data under a certain hypotesis,
+where $\boldsymbol{\theta}$ represent the set of \emph{nuissance} parameter considered which are related to
+the uncertainties of the background and signal-plus-background model, like for example JES. 
+The functions s($\boldsymbol{\theta}$) and  b($\boldsymbol{\theta}$)
+represents the expectaion of events for signal and background, respectively. The signal strenght parameter, $\mu$,
+allows to reproduce a continuous set of signal hypotesis in which the signal cross section is scaled by the factor $\mu$,
+for $\mu = 0$ the background only hypotesis is obtained. The function $\mathcal{G}(\theta_j | 0,1)$
+represents the probability density function for the nuissance parameter $\theta_j$, which is assumed 
+Gaussian distributed\footnote{Systematic uncertaintyies evaluation  come from auxiliary measurements, from Bayes theorem,
+	assuming a flat prior and a Gaussian distribution for the measured parameter  a Gaussian posterior is obtained.
+				}
+ with mean~=~0 and $\sigma = 1$,  the effect of the nuissance parameter $\theta_j$ on the yield
+of signal and background and on their invariant mass shape is evaluated separately as described in Section~\ref{sec:sys}, 
+to each value of the set $\boldsymbol{\theta}$ is then associated a variation of the prediction of the yield for signal and background
+with respect to the nominal prediction s(0) and b(0), respectively.
+%are evaluated represent
+%the uncertainties on the signal and background yields,  or mass shape of the analysis, those uncertainties 
+%are usually measured by auxiliary measure to the analysis, like JES for example, or come from theory uncertainty,
+%the single p.d.f. of the parameter $\theta_i$ is assumed Gaussian distributed 
+%where and it is only function of the parameter $\mu$ and of the
+%nuissance parameter $\boldsymbol{\theta}$. If the hypotesis under test is unlikely to happen with the given dataset the value of 
+%$\mathcal{L}$ is decreasing,
+%one can define which is the best value of a parameter that describes the data via maximising the likelihood,
+%obtaining a so called maximum likelihood estimator. 
+The Poisson distribution in equation~\eqref{likelihood} is a binned p.d.f. and 
+stands for a product of Poisson probabilities to observe $n_i$ events in the bin \textit{i} of an histogram:
 $$
-\prod_{i} \frac{(\mu s_i +b_i)^{n_i}}{n_i!} ~ e^{-\mu s_i -b_i}
+ \text{Poisson(}\mathcal{D} ~ | ~ \mu \cdot s(\boldsymbol{\theta}) + b(\boldsymbol{\theta})) = \prod_{i} \frac{(\mu s_i(\boldsymbol{\theta}) +b_i(\boldsymbol{\theta}))^{n_i}}{n_i!} ~ e^{-\mu s_i(\boldsymbol{\theta})
+ -b_i(\boldsymbol{\theta})}
 $$
-while the $f(\boldsymbol{\theta} | \hat{\boldsymbol{\theta}})$ is the p.d.f. for a given set of nuissance 
-parameter $\boldsymbol{\theta}$ with their best estimate $\hat{\boldsymbol{\theta}}$. 
+the yield in the bin $i$ for the observed data, signal prediction and background prediction is referred to the $\mmc$ 
+for the final selections in b-tag and b-veto category, respectively.
+
+\subsubsection{Statistical Combination of Search Channels}
+Different search channels or complementary event categories in one search channel, like the b–tagged and b–vetoed categories, 
+can be combined in order to increase the
+sensitivity to the signal. In case that the channels have no overlap in selected events, the
+likelihood function for the statistical combination is the product of the likelihood
+functions for the individual channels or categories. The  convention described in~\cite{lhclimits} is used
+to take into account correlation between uncertainties for the combination of the search results.
+Uncertainties are considered either as 100\% correlated, which means that the same nuissance parameter
+is employed for the different category,  or uncorrelated, in which case different nuissance parameter are
+employed. Partially correlated uncertainties are either broken down to 100\% correlated or uncorrelated components or
+defined as either to be 100\% correlated or to be uncorrelated. The decision is made according to which 
+assumption is more conservative. 
+
+  
 
 \begin{figure}[tp]
   \centering
@@ -37,23 +74,20 @@ parameter $\boldsymbol{\theta}$ with their best estimate $\hat{\boldsymbol{\thet
 \label{fig:teststat}
 \end{figure}
 
-To compiute the compatibility of the data with the $H_{0}$ and $H_{1}$ hypotesis and then exclusion limits, 
-one needs to define a test statistic. The test statistic, which has already been mentioned in section~\ref{sec:stat1},
-is a function of the data which returns a real value. One can in principle use any test statistic, however, 
-given the size of the test (probability to reject the null hypotesis when is true) one would like to have 
-a test statistic which has the highest power $1 - \beta$ possible (probability to reject the 
-null hypotesys when it is false). Figure~\ref{fig:teststat} shows an example
-of the distribution of an hipotetical test statistic for two hypotesis.
-It has been shown by Neuman-P~\cite{} that in case of simple hyptesis (probability model without any parameter),
-then the test statistic with the highest power is the ratio of the likelihood calculated with the two hypotesis.
-The standard procedure at the LHC is to use the following test statistic \cite{} based on the likelihood ratio:
-$$
-\tilde{q_{\mu}} ~ = ~ -2 \text{ln} ~ \frac{\mathcal{L}(\text{data}|\mu, \hat{\boldsymbol{\theta}}_{\mu})}{\mathcal{L}(\text{data}|\hat{\mu}, \hat{\boldsymbol{\theta}})}
+\subsubsection{The Test Statistic}
+To compiute the compatibility of the data with the $H_{0}$ and $H_{1}$ hypotesis by means of a significance test or
+to compiute exclusion limits, a test statistic needs to be defined. 
+The standard procedure at the LHC is to use the following \emph{profiled likelihood ratio} test statistics~\cite{Asympt}: 
+\begin{equation}
+\tilde{q_{\mu}} ~ = ~ -2 \text{ln} ~ \frac{\mathcal{L}(\mathcal{D}~|~\mu, \hat{\boldsymbol{\theta}}_{\mu})}{\mathcal{L}(\mathcal{D} ~| ~ 
+\hat{\mu}, \hat{\boldsymbol{\theta}})}
 \quad \text{with the constraint} \quad 0 \leq \hat{\mu} \leq \mu
-$$
- where $\hat{\mu}$ and $\hat{\boldsymbol{\theta}}$ are the maximum likelihood estimators for $\mu$ and $\boldsymbol{\theta}$ given the data, 
+\end{equation}
+ where $\mathcal{L}$ is the likelihood fuction defined in equation~\eqref{likelihood}, $\hat{\mu}$ and $\hat{\boldsymbol{\theta}}$ 
+are the global maximum likelihood estimators for $\mu$ and $\boldsymbol{\theta}$ given the data, 
 whereas $\hat{\boldsymbol{\theta}}_{\mu}$ is the maximul likelihood estimator of $\boldsymbol{\theta}$ given the data but considering
-a signal streght of value $\mu$, $\tilde{q_{\mu}}$ is increasing with increasing disagreement between data and the $\mu$ hypotesis under test.
+a signal streght of value $\mu$. $\tilde{q_{\mu}}$ is increasing with 
+increasing disagreement between data and the $\mu$ hypotesis under test.
 The procedure for limits setting follows five steps:
 \begin{enumerate}
 	\item The signal hypotesis with signal streght $\mu$ is assumed, under this assumpion a set of 
@@ -63,22 +97,24 @@ The procedure for limits setting follows five steps:
 	the expected probability density function for $\tilde{q_{\mu}}$ given $\mu$, 
 	$\text{f}(\tilde{q_{\mu}} ~| ~ \mu, \hat{\boldsymbol{\theta}}_{\mu},H_1)$.
 
-	\item One does the same thing for the null hypotesis, generate pseudo-data with the distribution of background only and 
-	obtain  the $\text{f}(\tilde{q_{\mu}} ~ | ~ \mu = 0, \hat{\boldsymbol{\theta}}_{0}, H_0)$.
+	\item The same procedure is repeated for the null hypotesis: pseudo-data are generated with the distribution 
+	of background only and 	obtain  the $\text{f}(\tilde{q_{\mu}} ~ | ~ \mu = 0, \hat{\boldsymbol{\theta}}_{0}, H_0)$.
 
-	\item Once the p.d.f. for the signal and signal + background hypotesis is obtained, one can define for a given dataset (that can be this time
-	real data or again pseudodata)  two p-values for any given value of $\mu$, which are the probability to obtain data less compatible with the hypotesis in consideration:
+	\item Once the p.d.f. for the signal and signal-plus-background hypotesis is obtained, 
+	is possible to define for a given dataset (that can be this time
+	real data or again pseudodata)  two p-values for any given value of $\mu$, which are the probability 
+	to obtain data less compatible with the hypotesis in consideration than the observed ones:
 	$$
 	p_{s+b} = P(\tilde{q_{\mu}} > \tilde{q_{\mu}}^{observed} ~ | ~ H_1)  
 	$$
 	$$ 
 	p_{b} = P(\tilde{q_{\mu}} > \tilde{q_{\mu}}^{observed} ~ | ~ H_0)
 	$$
-	The ratio of this two probability is what is called the $CL_{s} = p_{s+b} / p_{b}$ \cite{}.
+	The ratio of this two probability is what is called the $CL_{s} = p_{s+b} / p_{b}$ \cite{cls1,cls2}.
 
 	\item If for a given $\mu$ is obtained $CL_{s} ~ \leq ~ \alpha $ one states that the signal hypotesis (with that $\mu$) 
 	is excluded with (1 - $\alpha$) $CL_{s}$ confidence level. To get the 95\% confidence level upper limit on $\mu$,
-	denoted as $\mu^{95}$ one adjust $\mu$ until $CL_{s} = 0.05$. 
+	denoted as $\mu^{95\%}$ one adjust $\mu$ until $CL_{s} = 0.05$. 
 \end{enumerate}
 This is a quite complicated prescription, however 
 its interpretation is not so different from the usual Neyman Costruction~\cite{} of confidence intervals:
@@ -105,6 +141,7 @@ The expected median exclusion upper-limit and its error are evaluated by generat
 pseudo-data and calculating $CL_s$ and $\mu^{95}$ for each of them, from the distribution of  $\mu^{95}$ one can get the mean
 excluded value and its error.
 
+\subsubsection{The ABCD Method}
 %How ABCD  is actually implemented in limits machinery
 The actual implementation in the limit framework of the ABCD method follows that suggested in~\cite{ABCD}.
 Here three free parameters are fitted: number of multi-jet events in region B, $N_{B}^{QCD}$, factor that extrapolates from SS region to OS regions, \rqcd, and the factor that 

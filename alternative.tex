@@ -471,7 +471,6 @@ variables with their optimized cut values is shown. In Table~\ref{tab:eventsel:b
 the prediction for the number of background and signal events that survises at 
 each selection stage of this category is reported.
 
-
 \begin{figure}[p]
      \begin{center}
      \subfigure[]{		
@@ -492,14 +491,77 @@ each selection stage of this category is reported.
      }	
 
     \end{center}
-    \caption{Distribution of analysis variable after the selections common to both category, a comparison of the prediction
-	   of background model prediction and data is made showing good agreement.  The yellow band represents the total
-		systematic uncertainty for the background model prediction.}
+    \caption{Distribution of analysis variable after the selections common to both category.}
    \label{fig:selections}
 \end{figure}
 
 
 
+
+%\begin{sidewaystable}
+%  \centering
+%  \begin{tabular}{ccccccccc}
+%    \hline\hline
+%   & Data & \Ztautau & \Zll &  \Wln & Single Top & \ttbar & Dibosons & Multi-jet \\
+%   \hline
+%Preselection & 188421	&79175.7 $\pm$	253.9	&853.4 $\pm$	66.6	&4977.5 $\pm$	387.3	&5265.5 $\pm$	48.9	&58575.1 $\pm$	175.7	&10726.5 $\pm$	51.3	&33831.6 $\pm$$\pm$	742.7 \\
+%Exactly zero b-tagged jets & -	&78397.4 $\pm$	253.5	&840.3 $\pm$	66.2	&4905.7 $\pm$	386.8	&2235.2 $\pm$	34.3	&13313.3 $\pm$	93.9	        &10590.6 $\pm$	51.0	&31916.2 $\pm$	721.7 \\
+%$\Delta\phi(e-\mu)>1.6$  & -	&75551.4 $\pm$	252.1	&725.2 $\pm$	62.7	&3503.7 $\pm$	307.8	&1492.3 $\pm$	27.9	&8465.6 $\pm$	73.1	        & 8387.3	$\pm$ 45.4 	&28831.1 $\pm$	594.7 \\
+%$\sum\cos\Delta\phi > -0.4$ &-	&72161.7 $\pm$	249.8	&632.5 $\pm$	59.6	&2112.2 $\pm$	202.7	&925.1 $\pm$	22.5	&5635.9 $\pm$	59.0	        & 4535.9 $\pm$	33.3	        &23625.5 $\pm$	413.3 \\
+%  \hline
+%    \hline
+%  \end{tabular}
+%  \caption{Number of data and background events in the b-veto channel.}
+%  \label{tab:eventsel:bveto}
+%\end{sidewaystable}
+
+\begin{sidewaystable}
+  \centering
+   \begin{footnotesize}	
+  \begin{tabular}{ccccc}
+    \hline\hline
+	&	Preselection			&	n(b-jet)=0			&	$\Delta\phi(e-\mu)>1.6$			&	$\sum\cos\Delta\phi > -0.4$ 		\\	
+    \hline
+   \hline
+Data	&	125886			&	89155			&	-			&	-				-			\\
+Multijet	&	6693	$\pm$	456	&	6357	$\pm$	461	&	5322	$\pm$	438	&	4137	$\pm$	339	\\
+\Zll 	&	569	$\pm$	48	&	564	$\pm$	48	&	516	$\pm$	47	&	434	$\pm$	44		\\
+\Wlnu	&	1625	$\pm$	155	&	1604	$\pm$	155	&	1145	$\pm$	125	&	714	$\pm$	101		\\
+Diboson	&	9338	$\pm$	48	&	9235	$\pm$	48	&	7358	$\pm$	43	&	4002	$\pm$	31		\\
+\ttbar	&	40632	$\pm$	106	&	7707	$\pm$	46	&	5044	$\pm$	37	&	3416	$\pm$	31		\\
+Single Top	&	4449	$\pm$	44	&	1664	$\pm$	27	&	1124	$\pm$	22	&	682	$\pm$	18	\\
+\Ztautau	&	61503	$\pm$	68	&	60440	$\pm$	67	&	58078	$\pm$	65	&	55303	$\pm$	64	\\
+Signal	&				&				&	-			&	-						\\
+    \hline
+  \end{tabular}
+  \caption{Number of data and background events in the b-veto channel.}
+  \label{tab:eventsel:bveto}
+   \end{footnotesize}	
+\end{sidewaystable}
+
+\begin{table}
+  \centering
+   \begin{footnotesize}	
+  \begin{tabular}{cccccccc}
+    \hline\hline
+	& Preselection			&	n(b-jet)=1			&	$\Delta\phi(e-\mu)>2$			&	$\sum\cos\Delta\phi > -0.2$			&	$P_{T\mu} + P_{Te} + \met < 100$ GeV			&	$ H_T < 100$ GeV					\\
+   \hline
+Data	&	125886			&	23352			&	-			&	-			&	-			&	-						\\
+Multijet	&	6700	$\pm$	500	&	330	$\pm$	40	&	208	$\pm$	27	&	135	$\pm$	22	&	114	$\pm$	17	&	100	$\pm$	15	\\
+\Zll 	&	570	$\pm$	50	&	5.2	$\pm$	1.8	&	2.3	$\pm$	1.1	&	2.3	$\pm$	1.1	&	1.7	$\pm$	1.0	&	0.9	$\pm$	0.8		\\
+\Wlnu	&	1630	$\pm$	150	&	20	$\pm$	6	&	15	$\pm$	6	&	13	$\pm$	6	&	10	$\pm$	6	&	10	$\pm$	6		\\
+Diboson	&	9340	$\pm$	50	&	99	$\pm$	5	&	63	$\pm$	4	&	36.4	$\pm$	3.0	&	14.8	$\pm$	1.8	&	13.3	$\pm$	1.8		\\
+\ttbar	&	40630	$\pm$	110	&	19810	$\pm$	70	&	9680	$\pm$	50	&	6450	$\pm$	50	&	808	$\pm$	15	&	350	$\pm$	10		\\
+Single Top	&	4450	$\pm$	40	&	2456	$\pm$	33	&	1223	$\pm$	23	&	784	$\pm$	18	&	122	$\pm$	7	&	99	$\pm$	7		\\
+\Ztautau	&	61500	$\pm$	70	&	952	$\pm$	9	&	625	$\pm$	7	&	540	$\pm$	7	&	482	$\pm$	6	&	421	$\pm$	6		\\
+Signal	&				&				&	-			&	-			&	-			&	-						\\
+    \hline
+    \hline
+  \end{tabular}
+  \caption{Number of data and background events in the b-tag channel.}
+  \label{tab:eventsel:btag}
+   \end{footnotesize}	
+\end{table}
 
 \subsection{Mass Reconstruction with MMC Technique}\label{sec:mmc}
 
@@ -528,54 +590,6 @@ quantities related to the charged lepton from  $\tau$ lepton decay. The system h
 several approximation are possible to further constraint the momentum carried by neutrinos,
 for example assuming them collinear to the electron or muon from $\tau$ lepton decay, however those approximation 
 suffers of mass resolution limitations.
-
-\begin{table}[tp]
-  \centering
-   \begin{footnotesize}	
-  \begin{tabular}{ccccc}
-    \hline\hline
-	&	Preselection			&	n(b-jet)=0			&	$\Delta\phi(e-\mu)>1.6$			&	$\sum\cos\Delta\phi > -0.4$ 		\\	
-    \hline
-   \hline
-Data	&	125886			&	89155			&	-			&	-				-			\\
-Multijet	&	6693	$\pm$	456	&	6357	$\pm$	461	&	5322	$\pm$	438	&	4137	$\pm$	339	\\
-\Zll 	&	569	$\pm$	48	&	564	$\pm$	48	&	516	$\pm$	47	&	434	$\pm$	44		\\
-\Wlnu	&	1625	$\pm$	155	&	1604	$\pm$	155	&	1145	$\pm$	125	&	714	$\pm$	101		\\
-Diboson	&	9338	$\pm$	48	&	9235	$\pm$	48	&	7358	$\pm$	43	&	4002	$\pm$	31		\\
-\ttbar	&	40632	$\pm$	106	&	7707	$\pm$	46	&	5044	$\pm$	37	&	3416	$\pm$	31		\\
-Single Top	&	4449	$\pm$	44	&	1664	$\pm$	27	&	1124	$\pm$	22	&	682	$\pm$	18	\\
-\Ztautau	&	61503	$\pm$	68	&	60440	$\pm$	67	&	58078	$\pm$	65	&	55303	$\pm$	64	\\
-Signal	&				&				&	-			&	-						\\
-    \hline
-  \end{tabular}
-  \caption{Number of data and background events in the b-veto channel.}
-  \label{tab:eventsel:bveto}
-   \end{footnotesize}	
-\end{table}
-
-\begin{table}[t]
-  \centering
-   \begin{footnotesize}	
-  \begin{tabular}{cccccccc}
-    \hline\hline
-	& 	n(b-jet)=1			&	$\Delta\phi$&	$\sum\cos\Delta\phi$			&	$P_{T\mu} + P_{Te} + \met$&	$ H_T$	\\
-   \hline
-Data	&	23352			&	-			&	-			&	-			&	-						\\
-Multijet	330	$\pm$	40	&	208	$\pm$	27	&	135	$\pm$	22	&	114	$\pm$	17	&	100	$\pm$	15	\\
-\Zll 	&	5.2	$\pm$	1.8	&	2.3	$\pm$	1.1	&	2.3	$\pm$	1.1	&	1.7	$\pm$	1.0	&	0.9	$\pm$	0.8		\\
-\Wlnu	&	20	$\pm$	6	&	15	$\pm$	6	&	13	$\pm$	6	&	10	$\pm$	6	&	10	$\pm$	6		\\
-Diboson	&	99	$\pm$	5	&	63	$\pm$	4	&	36.4	$\pm$	3.0	&	14.8	$\pm$	1.8	&	13.3	$\pm$	1.8		\\
-\ttbar	&	19810	$\pm$	70	&	9680	$\pm$	50	&	6450	$\pm$	50	&	808	$\pm$	15	&	350	$\pm$	10		\\
-Single Top &	2456	$\pm$	33	&	1223	$\pm$	23	&	784	$\pm$	18	&	122	$\pm$	7	&	99	$\pm$	7		\\
-\Ztautau &	952	$\pm$	9	&	625	$\pm$	7	&	540	$\pm$	7	&	482	$\pm$	6	&	421	$\pm$	6		\\
-Signal		&				&	-			&	-			&	-			&	-						\\
-    \hline
-    \hline
-  \end{tabular}
-  \caption{Number of data and background events in the b-tag channel.}
-  \label{tab:eventsel:btag}
-   \end{footnotesize}	
-\end{table}
 
 In this analysis, the so-called "Missing Mass Calculator" (MMC) algorithm
 is used to calculate the most likely di-$\tau$ system invariant mass given the event topology, %event kinematics
