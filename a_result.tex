@@ -15,24 +15,30 @@ the \textit{background only} $H_0$ and and the \textit{signal-plus-background} $
 The main ingrediend of the \emph{test statistic}, defined later on in this section, is 
 is a binned likelihood function of the set of data, $\mathcal{D}$:
 \begin{equation}\label{likelihood}
-\mathcal{L}(\mathcal{D}~|~\mu, \boldsymbol{\theta}) = \text{Poisson(}\mathcal{D}~ |~ \mu \cdot s(\boldsymbol{\theta}) 
-	+ b(\boldsymbol{\theta})) \cdot \prod_{j} \mathcal{G}(\theta_j ~|~ 0, 1)
+\mathcal{L}(\mathcal{D}~|~\mu, \boldsymbol{\theta}) = \text{Pois(}\mathcal{D}~ |~ \mu \cdot s(\boldsymbol{\theta}) 
+	+ b(\boldsymbol{\theta})) \cdot \prod_{j,i}\mathcal{G}(\theta_j^{sys} ~ | ~ 0, 1) \cdot \Gamma(\theta^{stat}_i | \beta_i)
 \end{equation}
 which describes how likely is a set of data under a certain hypotesis,
 where $\boldsymbol{\theta}$ represent the set of \emph{nuissance} parameter considered which are related to
-the uncertainties of the background and signal-plus-background model, like for example JES. 
+the systematic ($\theta_j^{sys}$) and to the statistical ($\theta^{stat}_i$) 
+uncertainties of the background and signal-plus-background model. 
 The functions s($\boldsymbol{\theta}$) and  b($\boldsymbol{\theta}$)
 represents the expectaion of events for signal and background, respectively. The signal strenght parameter, $\mu$,
-allows to reproduce a continuous set of signal hypotesis in which the signal cross section is scaled by the factor $\mu$,
-for $\mu = 0$ the background only hypotesis is obtained. The function $\mathcal{G}(\theta_j | 0,1)$
-represents the probability density function for the nuissance parameter $\theta_j$, which is assumed 
-Gaussian distributed\footnote{Systematic uncertaintyies evaluation  come from auxiliary measurements, from Bayes theorem,
+allows to reproduce a continuous set of signal hypotesis in which the signal cross section is scaled by the factor $\mu$.
+For $\mu = 0$ the background only hypotesis is obtained. The function $\mathcal{G}(\theta_j^{sys} ~ | ~ 0, 1)$
+represents the probability density function for the nuissance parameter $\theta_j^{sys}$ related to a systematic uncertainty, 
+which is assumed to be Gaussian\footnote{Systematic uncertaintyies evaluation  come from auxiliary measurements, from Bayes theorem,
 	assuming a flat prior and a Gaussian distribution for the measured parameter  a Gaussian posterior is obtained.
 				}
- with mean~=~0 and $\sigma = 1$,  the effect of the nuissance parameter $\theta_j$ on the yield
-of signal and background and on their invariant mass shape is evaluated separately as described in Section~\ref{sec:sys}, 
-to each value of the set $\boldsymbol{\theta}$ is then associated a variation of the prediction of the yield for signal and background
-with respect to the nominal prediction s(0) and b(0), respectively.
+distributed with mean~=~0 and $\sigma = 1$.  The effect of the nuissance parameter $\theta_j^{sys}$ on the yield
+of signal and background and on their invariant mass shape is evaluated separately as described in Section~\ref{sec:sys}.
+The function  $\Gamma(\theta^{stat}_i | \beta_i)$ stands for an extended gamma function\footnote{The posterior of a
+	Poisson distribution assuming a flat prior is a gamma function}
+and 
+represents the p.d.f. for the nuissance parameter $\theta^{stat}_i$ related 
+to the statistical uncertainty, $ \beta_i$, for the bin $i$ of the histogram.
+Each value of the set $\boldsymbol{\theta}$ is associated with a variation of the prediction of the yield of the signal and background
+with respect to the nominal prediction.
 %are evaluated represent
 %the uncertainties on the signal and background yields,  or mass shape of the analysis, those uncertainties 
 %are usually measured by auxiliary measure to the analysis, like JES for example, or come from theory uncertainty,
@@ -45,11 +51,11 @@ with respect to the nominal prediction s(0) and b(0), respectively.
 The Poisson distribution in equation~\eqref{likelihood} is a binned p.d.f. and 
 stands for a product of Poisson probabilities to observe $n_i$ events in the bin \textit{i} of an histogram:
 $$
- \text{Poisson(}\mathcal{D} ~ | ~ \mu \cdot s(\boldsymbol{\theta}) + b(\boldsymbol{\theta})) = \prod_{i} \frac{(\mu s_i(\boldsymbol{\theta}) +b_i(\boldsymbol{\theta}))^{n_i}}{n_i!} ~ e^{-\mu s_i(\boldsymbol{\theta})
+ \text{Pois(}\mathcal{D} ~ | ~ \mu \cdot s(\boldsymbol{\theta}) + b(\boldsymbol{\theta})) = \prod_{i} \frac{(\mu s_i(\boldsymbol{\theta}) +b_i(\boldsymbol{\theta}))^{n_i}}{n_i!} ~ e^{-\mu s_i(\boldsymbol{\theta})
  -b_i(\boldsymbol{\theta})}
 $$
 the yield in the bin $i$ for the observed data, signal prediction and background prediction is referred to the $\mmc$ 
-for the final selections in b-tag and b-veto category, respectively.
+distribution of the final selections in b-tag and b-veto category, respectively. 
 
 \subsubsection{Statistical Combination of Search Channels}
 Different search channels or complementary event categories in one search channel, like the b–tagged and b–vetoed categories, 
@@ -64,19 +70,9 @@ employed. Partially correlated uncertainties are either broken down to 100\% cor
 defined as either to be 100\% correlated or to be uncorrelated. The decision is made according to which 
 assumption is more conservative. 
 
-  
-
-\begin{figure}[tp]
-  \centering
- \includegraphics[width=0.5\textwidth]{figure/test_stat.pdf}
-  \caption{Example of a test statistic which in this case is just the total number of events of a counting experiment.
-	Under the hypotesis $H_0$ are expected four events, while under the $H_1$ seven  events are expected.} 
-\label{fig:teststat}
-\end{figure}
-
-\subsubsection{The Test Statistic}
+\subsubsection{The Test Statistic and Limit Setting}
 To compiute the compatibility of the data with the $H_{0}$ and $H_{1}$ hypotesis by means of a significance test or
-to compiute exclusion limits, a test statistic needs to be defined. 
+to compiute exclusion limits, a test statistic is defined. 
 The standard procedure at the LHC is to use the following \emph{profiled likelihood ratio} test statistics~\cite{Asympt}: 
 \begin{equation}
 \tilde{q_{\mu}} ~ = ~ -2 \text{ln} ~ \frac{\mathcal{L}(\mathcal{D}~|~\mu, \hat{\boldsymbol{\theta}}_{\mu})}{\mathcal{L}(\mathcal{D} ~| ~ 
@@ -88,21 +84,25 @@ are the global maximum likelihood estimators for $\mu$ and $\boldsymbol{\theta}$
 whereas $\hat{\boldsymbol{\theta}}_{\mu}$ is the maximul likelihood estimator of $\boldsymbol{\theta}$ given the data but considering
 a signal streght of value $\mu$. $\tilde{q_{\mu}}$ is increasing with 
 increasing disagreement between data and the $\mu$ hypotesis under test.
-The procedure for limits setting follows five steps:
+The procedure for limits setting follows few steps:
 \begin{enumerate}
-	\item The signal hypotesis with signal streght $\mu$ is assumed, under this assumpion a set of 
-	\textit{pseudo-data} is generated for different values of $\mu$.
-
-	\item  $\tilde{q_{\mu}}$ is calculated for each of the \textit{pseudo-dataset} and each signal hypotesis generating
-	the expected probability density function for $\tilde{q_{\mu}}$ given $\mu$, 
-	$\text{f}(\tilde{q_{\mu}} ~| ~ \mu, \hat{\boldsymbol{\theta}}_{\mu},H_1)$.
-
-	\item The same procedure is repeated for the null hypotesis: pseudo-data are generated with the distribution 
-	of background only and 	obtain  the $\text{f}(\tilde{q_{\mu}} ~ | ~ \mu = 0, \hat{\boldsymbol{\theta}}_{0}, H_0)$.
+%	\item The signal hypotesis with signal streght $\mu$ is assumed, under this assumpion a set of MC 
+%	\textit{pseudo-data} is generated for different values of $\mu$.
+%
+%	\item  $\tilde{q_{\mu}}$ is calculated for each of the \textit{pseudo-dataset} and each signal hypotesis generating
+%	the expected probability density function for $\tilde{q_{\mu}}$ given $\mu$, 
+%	$\text{f}(\tilde{q_{\mu}} ~| ~ \mu, \hat{\boldsymbol{\theta}}_{\mu},H_1)$.
+%
+%	\item The same procedure is repeated for the null hypotesis: pseudo-data are generated with the distribution 
+%	of background only and 	obtain  the $\text{f}(\tilde{q_{\mu}} ~ | ~ \mu = 0, \hat{\boldsymbol{\theta}}_{0}, H_0)$.
+%
+	\item The probability density function of $\tilde{q_{\mu}}$ is determined  under the signal hypotesis and the background 
+	only hypotesis for any $\mu$, the determination of these distribution employes the asymptotic aproximation formulaes
+	described in~\cite{Asympt}
+	
 
 	\item Once the p.d.f. for the signal and signal-plus-background hypotesis is obtained, 
-	is possible to define for a given dataset (that can be this time
-	real data or again pseudodata)  two p-values for any given value of $\mu$, which are the probability 
+	is possible to define for a given dataset  two p-values for any given value of $\mu$, which are the probability 
 	to obtain data less compatible with the hypotesis in consideration than the observed ones:
 	$$
 	p_{s+b} = P(\tilde{q_{\mu}} > \tilde{q_{\mu}}^{observed} ~ | ~ H_1)  
@@ -116,18 +116,16 @@ The procedure for limits setting follows five steps:
 	is excluded with (1 - $\alpha$) $CL_{s}$ confidence level. To get the 95\% confidence level upper limit on $\mu$,
 	denoted as $\mu^{95\%}$ one adjust $\mu$ until $CL_{s} = 0.05$. 
 \end{enumerate}
-This is a quite complicated prescription, however 
-its interpretation is not so different from the usual Neyman Costruction~\cite{} of confidence intervals:
-for each $\mu$ is possible to define $\tilde{q_{\mu}}^{95}$ for which the probability 
-P$(\tilde{q_{\mu}} \geq \tilde{q_{\mu}}^{95} ~ |~ \mu, ~ H_1$) = 5\%, this means that if $H_1$ is true one expects 
-$\tilde{q_{\mu}} \geq \tilde{q_{\mu}}^{95}$ in 5\% of the cases. With this definition $\mu^{95}$ would be the value of $\mu$
-that for the observed data gives $\tilde{q_{\mu}} = \tilde{q_{\mu}}^{95}$, or in other words a p-value of 5\%.
-By costruction, rejecting $\mu > \mu^{95}$ the hypotesis $H_1$ will be rejected, when is true, at most 5\% of the time,
+%This is a quite complicated prescription, however 
+%its interpretation is not so different from the usual Neyman Costruction~\cite{} of confidence intervals:
+%for each $\mu$ is possible to define $\tilde{q_{\mu}}^{95}$ for which the probability 
+%P$(\tilde{q_{\mu}} \geq \tilde{q_{\mu}}^{95} ~ |~ \mu, ~ H_1$) = 5\%, this means that if $H_1$ is true one expects 
+%$\tilde{q_{\mu}} \geq \tilde{q_{\mu}}^{95}$ in 5\% of the cases. With this definition $\mu^{95}$ would be the value of $\mu$
+%that for the observed data gives $\tilde{q_{\mu}} = \tilde{q_{\mu}}^{95}$, or in other words a p-value of 5\%.
+By costruction, rejecting $\mu > \mu^{95\%}$ the hypotesis $H_1$ will be rejected, when is true, at most 5\% of the time,
 given the fact that $\tilde{q_{\mu}}$ is increasing with increasing discrepancy of the hypotesis with data.
-The difference with the $CL_{s}$ prescription is that there the ratio of p-values is used to define $\mu^{95}$: 
-it has been shown that this choice protect the upper limit from down fluctuation of the data, giving a conservative
-estimate in any case.
-%
+The $CL_{s}$ prescription, defined with the ratio of p-values, protects the limit from down fluctuation of the data
+giving a conservative estimate in any case.
 % For each pseudo-data sample one can calculate then $\mu^{95}$, which is the biggest value of $\mu$ which gives $\tilde{q_{\mu}} > \tilde{q_{\mu}}^{95}$
 %
 % Generate a large set of pseudo-data under the hypotesis $H_{0}$ and calculate  $\mu^{95}$ for each of them, by costruction one would have
@@ -136,17 +134,19 @@ estimate in any case.
 %So one it is said that the $\mu > \mu^{95}$ are excluded by data under the hypotesis $H_1$ at 95\% of Confidence Level, meaning that 
 %for value of $\mu > \mu^{95}$  one would reject the $H_1$ when is true at most 5\% of the time. 
 %
-
-The expected median exclusion upper-limit and its error are evaluated by generating a large sample of \emph{bacground only}
-pseudo-data and calculating $CL_s$ and $\mu^{95}$ for each of them, from the distribution of  $\mu^{95}$ one can get the mean
-excluded value and its error.
+The expected median exclusion upper-limit and its error are evaluated with this procedure under the background only hypotesys.
+An alternative and more robust procedure to the  asymptotic approximation for the distribution of $\tilde{q_{\mu}}$ is 
+the generation of large MC pseudo-data,  and define statistically the probability density function. This procedure has been
+used as a cross check.
 
 \subsubsection{The ABCD Method}
 %How ABCD  is actually implemented in limits machinery
 The actual implementation in the limit framework of the ABCD method follows that suggested in~\cite{ABCD}.
-Here three free parameters are fitted: number of multi-jet events in region B, $N_{B}^{QCD}$, factor that extrapolates from SS region to OS regions, \rqcd, and the factor that 
-extrapolates from isolated to anti-isolated regions $R_{BD}$. Neglecting signal contributions, the following 
-equations can be written for the event yield of the B,C and D control regions:
+The control data sample B,C and D are considered as additional channels to be statistically combined
+to the signal channels. Three free parameters are fitted in B,C and D which are: the 
+number of multi-jet events in the data sample B, $N_{B}^{QCD}$, the factor \rqcd 
+and the factor that extrapolates from isolated to anti-isolated data control samples $R_{BD}$. Neglecting signal contributions, 
+the following equations can be written for the event yield of the B,C and D control data samples:
 %$$N_{B} = N_{B}^{BKG} + N_{B}^{QCD} $$ 
 %$$N_{C} = N_{C}^{BKG} +  N_{B}^{QCD} \times \rqcd \times R_{BD} $$
 %$$N_{D} =  N_{D}^{BKG} + N_{B}^{QCD} \times  R_{BD} $$
@@ -155,10 +155,10 @@ equations can be written for the event yield of the B,C and D control regions:
 \item[] $N_{C} = N_{C}^{BKG} +  N_{B}^{QCD} \times \rqcd \times R_{BD} $
 \item[] $N_{D} =  N_{D}^{BKG} + N_{B}^{QCD} \times  R_{BD} $
 \end{itemize}
-where $N^{BKG}$ represent the prediction of  non-QCD background in the relative regions.
-The estimate of multi-jet event yield in SR will be then $ N_{B}^{QCD} \times \rqcd $. This method is 
+where $N^{BKG}$ represent the prediction of  non-QCD background in the relative data samples.
+The estimate of multi-jet event yield in the signal region will be then $ N_{B}^{QCD} \times \rqcd $. This method is 
 particularly powerful because in the best fit of \rqcd the statistical 
-and systematics uncertainty for non-QCD backgrounds and data will be considered.
+and systematics uncertainty for non-QCD backgrounds and data are considered.
 
 
 \subsection{Exclusion Limits}
@@ -206,7 +206,8 @@ Data	        &	& -		& - 		& -	& 	&	-	&	-	&	-	\\	[0.5ex]
 \hline
 
 \end{tabular}
-\caption{Comparison between yield in data and the one expected from our background model, b-tag and b-veto category are reported separately. }
+\caption{Comparison between yield in data and the one expected from the background model, 
+	b-tag and b-veto category are reported separately. }
 \label{table:final_numbers}
 \end{table}
 
@@ -218,7 +219,7 @@ Data	        &	& -		& - 		& -	& 	&	-	&	-	&	-	\\	[0.5ex]
     	%\caption{\footnotesize full B-tag.}
      }
      \subfigure[]{		
-            \includegraphics[page=5,width=0.47\textwidth]{figure/std_plots_mass.pdf}
+            \includegraphics[page=7,width=0.47\textwidth]{figure/std_plots_mass.pdf}
 	    \label{fullveto2}	
     	%\caption{\footnotesize full B-veto.}
      }	

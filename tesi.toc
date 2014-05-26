@@ -32,5 +32,6 @@
 \contentsline {subsection}{\numberline {1.8.1}Statistical Procedure For Limits Setting}{32}{subsection.1.8.1}
 \contentsline {subsubsection}{The Likelihood Definition}{32}{section*.16}
 \contentsline {subsubsection}{Statistical Combination of Search Channels}{33}{section*.17}
-\contentsline {subsubsection}{The Test Statistic}{33}{section*.18}
+\contentsline {subsubsection}{The Test Statistic and Limit Setting}{33}{section*.18}
+\contentsline {subsubsection}{The ABCD Method}{34}{section*.19}
 \contentsline {subsection}{\numberline {1.8.2}Exclusion Limits}{35}{subsection.1.8.2}

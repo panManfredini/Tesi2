@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.14)  26 MAY 2014 20:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.14)  27 MAY 2014 01:02
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -777,7 +777,7 @@ File: figure/QCD/shape_veto.png Graphic file (type png)
 t.pdf, page is rotated 90 degrees>] [31 <./figure/QCD/shape_tag.png (PNG copy)>
  <./figure/QCD/shape_veto.png (PNG copy)>]
 
-LaTeX Warning: Reference `sec:sys' on page 32 undefined on input line 33.
+LaTeX Warning: Reference `sec:sys' on page 32 undefined on input line 34.
 
 [32]
 Missing character: There is no â in font cmr12!
@@ -786,26 +786,23 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- <figure/test_stat.pdf, id=896, 569.12625pt x 410.53375pt>
-File: figure/test_stat.pdf Graphic file (type pdf)
+ [33]
 
-<use figure/test_stat.pdf> [33 <./figure/test_stat.pdf, page is rotated 90 degr
-ees>] [34]
+LaTeX Warning: Citation `CCGV' on page 34 undefined on input line 181.
 
-LaTeX Warning: Citation `CCGV' on page 35 undefined on input line 180.
-
+[34]
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
-<use figure/std_plots_mass.pdf, page 6>
+ <use figure/std_plots_mass.pdf, page 6>
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
 
-<use figure/std_plots_mass.pdf, page 5>
-<figure/limits/Limits_mAtanBeta_Comb.pdf, id=972, 569.12625pt x 541.02126pt>
+<use figure/std_plots_mass.pdf, page 7>
+<figure/limits/Limits_mAtanBeta_Comb.pdf, id=930, 569.12625pt x 541.02126pt>
 File: figure/limits/Limits_mAtanBeta_Comb.pdf Graphic file (type pdf)
 
 <use figure/limits/Limits_mAtanBeta_Comb.pdf>
 
 LaTeX Warning: Reference `appendix:limit' on page 35 undefined on input line 25
-7.
+9.
 
 [35] [36 <./figure/limits/Limits_mAtanBeta_Comb.pdf>]) (./tesi.bbl [37]
 [38
@@ -956,7 +953,6 @@ figure/QCD/qcd_plot.pdf
 figure/QCD/shape_tag.png
 figure/QCD/shape_veto.png
 a_result.tex
-figure/test_stat.pdf
 figure/std_plots_mass.pdf
 figure/std_plots_mass.pdf
 figure/limits/Limits_mAtanBeta_Comb.pdf
@@ -968,13 +964,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6814 strings out of 493848
- 98618 string characters out of 1152823
- 202694 words of memory out of 3000000
- 9663 multiletter control sequences out of 15000+50000
+ 6806 strings out of 493848
+ 98472 string characters out of 1152823
+ 202458 words of memory out of 3000000
+ 9657 multiletter control sequences out of 15000+50000
  20494 words of font info for 77 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,16n,39p,875b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,16n,39p,875b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
@@ -994,9 +990,9 @@ ype1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
 cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on tesi.pdf (46 pages, 1001585 bytes).
+Output written on tesi.pdf (46 pages, 949919 bytes).
 PDF statistics:
- 1279 PDF objects out of 1440 (max. 8388607)
- 265 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1235 PDF objects out of 1440 (max. 8388607)
+ 264 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
