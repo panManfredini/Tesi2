@@ -10,32 +10,32 @@ following are implemented in the software package~\cite{roofit,roostat,histfacto
 
 \subsubsection{The Likelihood Definition}
 Statistical tests are used to quantify the significance of an observation or to set an exclusion limits, 
-in a search for new phenomena, hypothesis testing is performed by means of two hypothesis: 
-the \textit{background only} $H_0$ and and the \textit{signal-plus-background} $H_1$ hypothesis.  
-The main ingredient of the \emph{test statistic}, defined later on in this section, is 
+in a search for new phenomena, hypotesis testing is performed by means of two hypotesis: 
+the \textit{background only} $H_0$ and and the \textit{signal-plus-background} $H_1$ hypotesis.  
+The main ingrediend of the \emph{test statistic}, defined later on in this section, is 
 is a binned likelihood function of the set of data, $\mathcal{D}$:
 \begin{equation}\label{likelihood}
 \mathcal{L}(\mathcal{D}~|~\mu, \boldsymbol{\theta}) = \text{Pois(}\mathcal{D}~ |~ \mu \cdot s(\boldsymbol{\theta}) 
 	+ b(\boldsymbol{\theta})) \cdot \prod_{j,i}\mathcal{G}(\theta_j^{sys} ~ | ~ 0, 1) \cdot \Gamma(\theta^{stat}_i | \beta_i)
 \end{equation}
-which describes how likely is a set of data under a certain hypothesis.
-Here the $\boldsymbol{\theta}$ represent the set of \emph{nuisance} parameter considered which are related to
+which describes how likely is a set of data under a certain hypotesis.
+Here the $\boldsymbol{\theta}$ represent the set of \emph{nuissance} parameter considered which are related to
 the systematic ($\theta_j^{sys}$) and to the statistical ($\theta^{stat}_i$) 
 uncertainties of the background and signal-plus-background model. 
 The functions s($\boldsymbol{\theta}$) and  b($\boldsymbol{\theta}$)
-represents the expectation of events for signal and background, respectively. The signal strength parameter, $\mu$,
-allows to reproduce a continuous set of signal hypothesis in which the signal cross section is scaled by the factor $\mu$.
-For $\mu = 0$ the background only hypothesis is obtained. The function $\mathcal{G}(\theta_j^{sys} ~ | ~ 0, 1)$
-represents the probability density function for the nuisance parameter $\theta_j^{sys}$ related to a systematic uncertainty, 
-which is assumed to be Gaussian\footnote{Systematic uncertainties evaluation  come from auxiliary measurements, from Bayes theorem,
+represents the expectaion of events for signal and background, respectively. The signal strenght parameter, $\mu$,
+allows to reproduce a continuous set of signal hypotesis in which the signal cross section is scaled by the factor $\mu$.
+For $\mu = 0$ the background only hypotesis is obtained. The function $\mathcal{G}(\theta_j^{sys} ~ | ~ 0, 1)$
+represents the probability density function for the nuissance parameter $\theta_j^{sys}$ related to a systematic uncertainty, 
+which is assumed to be Gaussian\footnote{Systematic uncertaintyies evaluation  come from auxiliary measurements, from Bayes theorem,
 	assuming a flat prior and a Gaussian distribution for the measured parameter  a Gaussian posterior is obtained.
 				}
-distributed with mean~=~0 and $\sigma = 1$.  The effect of the nuisance parameter $\theta_j^{sys}$ on the yield
+distributed with mean~=~0 and $\sigma = 1$.  The effect of the nuissance parameter $\theta_j^{sys}$ on the yield
 of signal and background and on their invariant mass shape is evaluated separately as described in Section~\ref{sec:Systematics}.
 The function  $\Gamma(\theta^{stat}_i | \beta_i)$ stands for an extended gamma function\footnote{The posterior of a
 	Poisson distribution assuming a flat prior is a gamma function}
 and 
-represents the p.d.f. for the nuisance parameter $\theta^{stat}_i$ related 
+represents the p.d.f. for the nuissance parameter $\theta^{stat}_i$ related 
 to the statistical uncertainty, $ \beta_i$, for the bin $i$ of the histogram.
 Each value of the set $\boldsymbol{\theta}$ is associated with a variation of the prediction of the yield of the signal and background
 with respect to the nominal prediction.
@@ -44,9 +44,9 @@ with respect to the nominal prediction.
 %are usually measured by auxiliary measure to the analysis, like JES for example, or come from theory uncertainty,
 %the single p.d.f. of the parameter $\theta_i$ is assumed Gaussian distributed 
 %where and it is only function of the parameter $\mu$ and of the
-%nuisance parameter $\boldsymbol{\theta}$. If the hypothesis under test is unlikely to happen with the given dataset the value of 
+%nuissance parameter $\boldsymbol{\theta}$. If the hypotesis under test is unlikely to happen with the given dataset the value of 
 %$\mathcal{L}$ is decreasing,
-%one can define which is the best value of a parameter that describes the data via maximizing the likelihood,
+%one can define which is the best value of a parameter that describes the data via maximising the likelihood,
 %obtaining a so called maximum likelihood estimator. 
 The Poisson distribution in equation~\eqref{likelihood} is a binned p.d.f. and 
 stands for a product of Poisson probabilities to observe $n_i$ events in the bin \textit{i} of an histogram:
@@ -65,46 +65,46 @@ sensitivity to the signal. In case that the channels have no overlap in selected
 likelihood function for the statistical combination is the product of the likelihood
 functions for the individual channels or categories. The  convention described in~\cite{lhclimits} is used
 to take into account correlation between uncertainties for the combination of the search results.
-Uncertainties are considered either as 100\% correlated, which means that the same nuisance parameter
-is employed for the different category,  or uncorrelated, in which case different nuisance parameter are
+Uncertainties are considered either as 100\% correlated, which means that the same nuissance parameter
+is employed for the different category,  or uncorrelated, in which case different nuissance parameter are
 employed. Partially correlated uncertainties are either broken down to 100\% correlated or uncorrelated components or
 defined as either to be 100\% correlated or to be uncorrelated. The decision is made according to which 
 assumption is more conservative. 
 
 \subsubsection{The Test Statistic and Limit Setting}
-To compute the compatibility of the data with the $H_{0}$ and $H_{1}$ hypothesis by means of a significance test or
-to compute exclusion limits, a test statistic is defined. 
+To compiute the compatibility of the data with the $H_{0}$ and $H_{1}$ hypotesis by means of a significance test or
+to compiute exclusion limits, a test statistic is defined. 
 The standard procedure at the LHC is to use the following \emph{profiled likelihood ratio} test statistics~\cite{Asympt}: 
 \begin{equation}
 \tilde{q_{\mu}} ~ = ~ -2 \text{ln} ~ \frac{\mathcal{L}(\mathcal{D}~|~\mu, \hat{\boldsymbol{\theta}}_{\mu})}{\mathcal{L}(\mathcal{D} ~| ~ 
 \hat{\mu}, \hat{\boldsymbol{\theta}})}
 \quad \text{with the constraint} \quad 0 \leq \hat{\mu} \leq \mu
 \end{equation}
- where $\mathcal{L}$ is the likelihood function defined in equation~\eqref{likelihood}, $\hat{\mu}$ and $\hat{\boldsymbol{\theta}}$ 
+ where $\mathcal{L}$ is the likelihood fuction defined in equation~\eqref{likelihood}, $\hat{\mu}$ and $\hat{\boldsymbol{\theta}}$ 
 are the global maximum likelihood estimators for $\mu$ and $\boldsymbol{\theta}$ given the data, 
-whereas $\hat{\boldsymbol{\theta}}_{\mu}$ is the maximum likelihood estimator of $\boldsymbol{\theta}$ given the data but considering
-a signal strength of value $\mu$. $\tilde{q_{\mu}}$ is increasing with 
-increasing disagreement between data and the $\mu$ hypothesis under test.
+whereas $\hat{\boldsymbol{\theta}}_{\mu}$ is the maximul likelihood estimator of $\boldsymbol{\theta}$ given the data but considering
+a signal streght of value $\mu$. $\tilde{q_{\mu}}$ is increasing with 
+increasing disagreement between data and the $\mu$ hypotesis under test.
 The procedure for limits setting follows few steps:
 \begin{enumerate}
-%	\item The signal hypothesis with signal strength $\mu$ is assumed, under this assumption a set of MC 
+%	\item The signal hypotesis with signal streght $\mu$ is assumed, under this assumpion a set of MC 
 %	\textit{pseudo-data} is generated for different values of $\mu$.
 %
-%	\item  $\tilde{q_{\mu}}$ is calculated for each of the \textit{pseudo-dataset} and each signal hypothesis generating
+%	\item  $\tilde{q_{\mu}}$ is calculated for each of the \textit{pseudo-dataset} and each signal hypotesis generating
 %	the expected probability density function for $\tilde{q_{\mu}}$ given $\mu$, 
 %	$\text{f}(\tilde{q_{\mu}} ~| ~ \mu, \hat{\boldsymbol{\theta}}_{\mu},H_1)$.
 %
-%	\item The same procedure is repeated for the null hypothesis: pseudo-data are generated with the distribution 
+%	\item The same procedure is repeated for the null hypotesis: pseudo-data are generated with the distribution 
 %	of background only and 	obtain  the $\text{f}(\tilde{q_{\mu}} ~ | ~ \mu = 0, \hat{\boldsymbol{\theta}}_{0}, H_0)$.
 %
-	\item The probability density function of $\tilde{q_{\mu}}$ is determined  under the signal hypothesis and the background 
-	only hypothesis for any $\mu$, the determination of these distribution employes the asymptotic approximation formulas
+	\item The probability density function of $\tilde{q_{\mu}}$ is determined  under the signal hypotesis and the background 
+	only hypotesis for any $\mu$, the determination of these distribution employes the asymptotic aproximation formulaes
 	described in~\cite{Asympt}
 	
 
-	\item Once the p.d.f. for the signal and signal-plus-background hypothesis is obtained, 
+	\item Once the p.d.f. for the signal and signal-plus-background hypotesis is obtained, 
 	is possible to define for a given dataset  two p-values for any given value of $\mu$, which are the probability 
-	to obtain data less compatible with the hypothesis in consideration than the observed ones:
+	to obtain data less compatible with the hypotesis in consideration than the observed ones:
 	$$
 	p_{s+b} = P(\tilde{q_{\mu}} > \tilde{q_{\mu}}^{observed} ~ | ~ H_1)  
 	$$
@@ -113,29 +113,29 @@ The procedure for limits setting follows few steps:
 	$$
 	The ratio of this two probability is what is called the $CL_{s} = p_{s+b} / p_{b}$ \cite{cls1,cls2}.
 
-	\item If for a given $\mu$ is obtained $CL_{s} ~ \leq ~ \alpha $ one states that the signal hypothesis (with that $\mu$) 
+	\item If for a given $\mu$ is obtained $CL_{s} ~ \leq ~ \alpha $ one states that the signal hypotesis (with that $\mu$) 
 	is excluded with (1 - $\alpha$) $CL_{s}$ confidence level. To get the 95\% confidence level upper limit on $\mu$,
 	denoted as $\mu^{95\%}$ one adjust $\mu$ until $CL_{s} = 0.05$. 
 \end{enumerate}
 %This is a quite complicated prescription, however 
-%its interpretation is not so different from the usual Neyman Construction~\cite{} of confidence intervals:
+%its interpretation is not so different from the usual Neyman Costruction~\cite{} of confidence intervals:
 %for each $\mu$ is possible to define $\tilde{q_{\mu}}^{95}$ for which the probability 
 %P$(\tilde{q_{\mu}} \geq \tilde{q_{\mu}}^{95} ~ |~ \mu, ~ H_1$) = 5\%, this means that if $H_1$ is true one expects 
 %$\tilde{q_{\mu}} \geq \tilde{q_{\mu}}^{95}$ in 5\% of the cases. With this definition $\mu^{95}$ would be the value of $\mu$
 %that for the observed data gives $\tilde{q_{\mu}} = \tilde{q_{\mu}}^{95}$, or in other words a p-value of 5\%.
-By construction, rejecting $\mu > \mu^{95\%}$ the hypothesis $H_1$ will be rejected, when is true, at most 5\% of the time,
-given the fact that $\tilde{q_{\mu}}$ is increasing with increasing discrepancy of the hypothesis with data.
+By costruction, rejecting $\mu > \mu^{95\%}$ the hypotesis $H_1$ will be rejected, when is true, at most 5\% of the time,
+given the fact that $\tilde{q_{\mu}}$ is increasing with increasing discrepancy of the hypotesis with data.
 The $CL_{s}$ prescription, defined with the ratio of p-values, protects the limit from down fluctuation of the data
 giving a conservative estimate in any case.
 % For each pseudo-data sample one can calculate then $\mu^{95}$, which is the biggest value of $\mu$ which gives $\tilde{q_{\mu}} > \tilde{q_{\mu}}^{95}$
 %
-% Generate a large set of pseudo-data under the hypothesis $H_{0}$ and calculate  $\mu^{95}$ for each of them, by construction one would have
+% Generate a large set of pseudo-data under the hypotesis $H_{0}$ and calculate  $\mu^{95}$ for each of them, by costruction one would have
 %	that if $H_1$ is true for $\mu > \mu^{95}$ one has $\tilde{q_{\mu}} > \tilde{q_{\mu}}^{95}$ only 5\% of the cases.
 %	
-%So one it is said that the $\mu > \mu^{95}$ are excluded by data under the hypothesis $H_1$ at 95\% of Confidence Level, meaning that 
+%So one it is said that the $\mu > \mu^{95}$ are excluded by data under the hypotesis $H_1$ at 95\% of Confidence Level, meaning that 
 %for value of $\mu > \mu^{95}$  one would reject the $H_1$ when is true at most 5\% of the time. 
 %
-The expected median exclusion upper-limit and its error are evaluated with this procedure under the background only hypothesis.
+The expected median exclusion upper-limit and its error are evaluated with this procedure under the background only hypotesys.
 An alternative and more robust procedure to the  asymptotic approximation for the distribution of $\tilde{q_{\mu}}$ is 
 the generation of large MC pseudo-data,  and define statistically the $\tilde{q_{\mu}}$ probability density function. 
 This procedure has been used as a cross check.
@@ -165,11 +165,11 @@ and systematics uncertainty for non-QCD backgrounds and data are considered.
 \subsection{Exclusion Limits}
 The procedure described in section~\ref{sec:limits} is  the one used for the SM Higgs, for the MSSM further complication
 arises: one has to consider in the signal 
-model three Higgs, in a particular scenario the masses and cross section are defined for a given point in the $\tan \beta - m_A$
+model three Higges, in a particular scenario the masses and cross section are defined for a given point in the $\tan \beta - m_A$
 plane, so the procedure described previously has to be repeated for each point in that plane. 
 %For a given scenario, 
 %a point in the  $\tan \beta - m_A$ plane is excluded with 95\% $CL_{s}$ confidence level if $\mu^{95} \leq 1$ for that point. 
-%Only a limited number of $\tan \beta - m_A$ points are generated, 
+%Only a limited number of $\tan \beta - m_A$ points are gerated, 
 %a linear interpolation is used to determine the $\tan \beta$ excluded for a given $m_A$.
 For the $m_h^{max}$ scenario exclusion limits are derived by calculating $95\%$ CLs limits on the cross section of
 $bb$/$gg\to A$/$H$/$h\to\tau_{lep}\tau_{lep}$ for 15 tan$\beta$ values (between\footnote{The set of  tan$\beta$ values used
@@ -194,9 +194,9 @@ Sample 	&	& \multicolumn{3}{c}{b-tagged category} 		&	& \multicolumn{3}{c}{b-vet
 \hline
 \Ztautau        &     	&       418  	&    $\pm$ 6	&	&       & 54680		& $\pm$ 60	&  		\\   [0.5ex]
 \ttbar          &       &       330   	&    $\pm$ 10	&       &       & 2228		& $\pm$ 25	&	  	\\  [0.5ex]
-Multi-jet        &       &       100	&    $\pm$ 15	&       &       & 3940		& $\pm$ 330	&	  	\\  [0.5ex]
+Multijet        &       &       100	&    $\pm$ 15	&       &       & 3940		& $\pm$ 330	&	  	\\  [0.5ex]
 \Wlnu           &       &       10      &    $\pm$ 6    &       &       & 650		& $\pm$ 100	&	  	\\  [0.5ex]
-Dibosons         &       &       13.1    &    $\pm$ 1.8  &       &       & 2921		& $\pm$ 27	&	  	\\  [0.5ex]
+Diboson         &       &       13.1    &    $\pm$ 1.8  &       &       & 2921		& $\pm$ 27	&	  	\\  [0.5ex]
 Single Top      &       &       90	&    $\pm$ 6    &       &       & 443		& $\pm$ 15	&	  	\\  [0.5ex]
 \Zll            &       &       0.9     &    $\pm$ 0.8  &       &       & 430		& $\pm$ 40	&	  	\\  [0.5ex]
 Total           &       &       962     &    $\pm$ 16 	&       &       & 65290		& $\pm$ 180	&	  	\\  [0.5ex]

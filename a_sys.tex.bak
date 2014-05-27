@@ -7,7 +7,7 @@ set of corrections are applied either at object reconstruction level and at even
 the uncertainties on such corrections are considered as detector-related systematic 
 uncertainties and are addressed in section~\ref{sec:sys:sys_det}. 
 For samples which rely on MC simulation, theory-related
-systematic uncertainties, which include uncertainties on the cross-section and
+systematic unceratinties, which include uncertainties on the cross-section and
 uncertainties on the acceptance of analysis selections,  
 are  described in section~\ref{sec:sys_theory}.
 Further systematic uncertainties related to data-driven methods for backgrounds estimation
@@ -21,14 +21,14 @@ Embedding, for which significant deviation are found only in the b-veto category
 Systematic uncertainties that do not affect the
 mass shape distribution and have an impact on the event yield of less than 0.5\% (per sample) are 
 neglected in the final limit calculations.
-%hey in fact do not have any significant effect on the final expected limits.
+%hey infact do not have any significant effect on the final expected limits.
 
 
 \subsection{Detector-related Systematics Uncertainties}
 \label{sec:sys:sys_det}
 Here systematic uncertainty related to object reconstruction and event 
 corrections are addressed, those corrections are based on the measure of some relevant parameter, 
-each of those parameters correspond to a "nuisance parameter" in the probability model used for statistical tests
+each of those parameters correspond to a "nuissance paremeter" in the probability model used for statistical tests
 as described in Section~\ref{sec:result}.
 Each parameter is variated independently (one sigma up or down) according with its 
 uncertainty and the impact on the analysis yield for each sample is evaluated.
@@ -42,7 +42,7 @@ The integrated luminosity of the 8 TeV data recorded at ATLAS during 2012 is mea
 
 \paragraph{Pileup}
 Simulated events are re-weighted to reproduce the average interactions per bunch crossing, $<\mu>$, seen in data. 
-Those event weights has an uncertainty which is propagated to each simulated sample.
+Those event weights has an uncertainty wich is propagated to each simulated sample.
 %It has been seen
 %that a proper description of the minimum bias vertex multiplicity is obtained if the $<\mu>$ 
 %value in MC is first scaled by a factor of $1.11 \pm 0.03$ before re-weighting to match data. The uncertainty
@@ -50,9 +50,9 @@ Those event weights has an uncertainty which is propagated to each simulated sam
 
 \paragraph{Trigger Efficiency}
 is corrected in simulation to match (as a mean value) the one in data, those correction weights 
-are evaluated as a function of $\pt$ and $\eta$ of the leptons and have associated uncertainties. 
+are evaluated as a function of $\pt$ and $\eta$ of the leptons and have assciated uncertainties. 
 Systematic uncertainties on both the single electron and electron-muon trigger efficiency are considered independently,  
-those uncertainty range approximately 1-2\%.
+those uncertainty range aproximately 1-2\%.
 
 In the Embedding sample, the trigger is emulated by applying weights to the event
 topology in order to recover the right trigger efficiency, those weights are related to the one just described above
@@ -73,8 +73,8 @@ All the other uncertainties related to energy scale and resolution are summed in
 \paragraph{Muons}
 The uncertainty on muon identification efficiency depends on the charge and momentum of the muon.
 Typically these uncertainties are of the order of a fraction of percent, and are referred as "Muon ID". 
-The uncertainties on the muon energy scale and resolution are considered independently for the inner detector 
-and muon spectrometer measurements, then are added in quadrature to estimate the final effect ("Muon E").
+The uncertainties on the muon energy scale and resolution are considerd independently for the inner detector 
+and muon spectrometer measurements, then are added in quadrature to eastimate the final effect ("Muon E").
 
 \paragraph{Taus}
 Hadronic tau object are only used in the analysis as a veto. Uncertainties on both tau energy scale 
@@ -83,15 +83,15 @@ and identification efficiency have been investigated and are found to be negligi
 \paragraph{Jets}
 The systematic uncertainties on the Jet Energy Scale (JES) are split up into multiple sets of nuisance parameters, which
 are related to different effects and components, for example the sensitivity to pileup or
-to the flavor composition of the jet. The overall uncertainty on the JES ranges 
+to the flavour composition of the jet. The overall uncertainty on the JES ranges 
 between 3\% and 7\%, depending on the $\pt$ and $\eta$ of the jet. To give an idea of the effect that these
-uncertainty have on the analysis yield their sum in quadrature is reported in table~\ref{tab:ExpSys:btag} and~\ref{tab:ExpSys:bveto} as "JES", however
+uncertainty have on the analisis yield their sum in quadrature is reported in table~\ref{tab:ExpSys:btag} and~\ref{tab:ExpSys:bveto} as "JES", however
 this is just a simplification for illustration purposes and in the limits extraction those uncertainties are considered uncorrelated.
 Systematic uncertainty due to jet resolution ("Jet Resolution") are obtained by smearing the jet energy 
 according to its uncertainty, which range 10-20\% depending on the direction of the jet.
 %The recommendation \cite{TWIKI_JETMET} to propagate each individual 
 % source of uncertainty through the full analysis is followed. In this analysis the reduced set of fourteen uncertainties, know as 
-% \verb=InsituJES2012_14NP=, have been considered: these include two uncertainties for eta inter calibration, four pile-up 
+% \verb=InsituJES2012_14NP=, have been considered: these include two uncertainties for eta intercalibration, four pile-up 
 % uncertainties, a high-$\pt$ uncertainty and an uncertainty for MC non-closure. Of these, only the terms "JES Effective 1", 
 % "JES Effective 2" and "JES Effective 3", the pileup uncertainty as a function of the number of primary vertices ("JES Pileup-NPV") and the uncertainty due to the jet area ("JES Pileup-Rho") have a significant effect on the event yields. Additionally, 
 % the uncertainty related to the fraction of quark to gluon jets ("JES Flav. Comp") and on the different response to them ("JES Flav. Resp.") are considered. The additional uncertainty assigned to the b-jet energy scale, referred as "JES B", is also 
@@ -102,10 +102,10 @@ according to its uncertainty, which range 10-20\% depending on the direction of 
 \paragraph{b-Tagging}  Corrections are applied to simulation
 to match b-tagging efficiency in data, uncertainties on the knowledge 
 of the b-tagging efficiencies for the 70\% $\epsilon_b^{\ttbar}$ working point of the MV1 b-tagger are
-considered, those uncertainty range between 5-10\% depending on the $\pt$ of the jet. 
+considered, those uncertainy range between 5-10\% depending on the $\pt$ of the jet. 
 The effect of those uncertainties is evaluated independently in the cases of
  b-quark, c-quark and light or gluon initiated jets and referred respectively 
-to as "B  Eff", "C Eff" and "L Eff". The tagging and mis-tagging efficiency uncertainties 
+to as "B  Eff", "C Eff" and "L Eff". The tagging and mistagging efficiency uncertainties 
  are considered to be totally anti-correlated. 
 
 \paragraph{Missing Transverse Energy}
@@ -157,7 +157,7 @@ Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
   \end{tabular}
   \caption{Summary of the effect of the experimental systematic uncertainties on the yields of the different
 	samples used  in the b-tag channel. Here "Other" refers to the sum of all the remaining samples: $\Wlnu$, 
-	dibosons, $\Zll$ and single top. The signal samples listed here are b-associated production and gluon 
+	diboson, $\Zll$ and single top. The signal samples listed here are b-associated production and gluon 
 	fusion with $m_{A}=120$ GeV and $\tan\beta=20$.} 
 
   \label{tab:ExpSys:btag}
@@ -198,7 +198,7 @@ Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
   \end{tabular}
   \caption{Summary of the effect of the experimental systematic uncertainties on the yields of the different
 	samples used  in the b-veto channel. Here "Other" refers to the sum of all the remaining samples: 
-	$\Wlnu$, dibosons, $\Zll$ and single top. The signal samples listed here are b-associated production 
+	$\Wlnu$, diboson, $\Zll$ and single top. The signal samples listed here are b-associated production 
 	and gluon fusion with $m_{A}=120$ GeV and $\tan\beta=20$. 
 	 Shape uncertainty are noted with the symbol (\textbf{s}).} 
  \label{tab:ExpSys:bveto}
@@ -210,7 +210,7 @@ Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
 \label{sec:sys_theory}
 %\subsection{Simulated Cross-Section Uncertainties}
 
-Uncertainties on the cross-sections that have been used to normalize
+Uncertainties on the cross-sections that have been used to normalise
 simulation samples to data are reported in
 Table~\ref{table:sys_xsec}. These
 uncertainties include contributions due to parton distribution
@@ -226,7 +226,7 @@ Since the effect on the invariant mass distribution of the di-tau system from th
 uncertainties is negligible (as an example see
 Figure~\ref{fig:theory_mass} ), only the variation in
 acceptance is considered as systematic uncertainty.
-The acceptance uncertainties for the ALPGEN $\Ztautau$  MC, used for the normalization of the embedded sample, 
+The acceptance uncertainties for the ALPGEN $\Ztautau$  MC, used for the normalisation of the embedded sample, 
 are estimated at lepton common selection to be 4\% \cite{2010SMLLSupportNote}.
 %\footnote{A bit old result, to be reviewed. Depends also on the
 %Embedding choice}
@@ -240,7 +240,7 @@ $t\bar{t}$ simulated events are estimated to be of 2\%~\cite{ttbaremu}. %\textco
 %For other, single and dibosons
 %production as well as single top production a 2\% uncertainty is
 %assumed.
-The acceptance uncertainties on dibosons and single top production are assumed to be 2\%~\cite{2010SMLLSupportNote}.
+The acceptance uncertainties on diboson and single top production are assumed to be 2\%~\cite{2010SMLLSupportNote}.
 %\footnote{preliminary, this is following LEP-Had note, we
 %  should cite some previous result here.}.
 Uncertainties on signal acceptance have been estimated
@@ -264,7 +264,7 @@ and on the analysis category.
 %and down by a factor of two and the renormalisation scale by a factor of
 %10\%. Uncertainties due to the PDFs were determined by taking the RMS
 %of the acceptance of the 52 error sets of the CT10 PDF set.  These
-%effects are summarized in Table~\ref{table:sys_bba}. For a total
+%effects are summarised in Table~\ref{table:sys_bba}. For a total
 %uncertainty, all effects are summed in quadrature giving a total
 %uncertainties that varies from 4\% to 30\% depending on $\mA$ and on the
 %analysis category.  For gluon fusion production, generated with POWHEG
@@ -273,7 +273,7 @@ and on the analysis category.
 %renormalisation and factorisation scales were varied simultaneously
 %(the renormalisation scale by 10\% and the factorisation scale by factor 2\%).
 %PDFs uncertainties were handled in the same way as for the $b$-quark
-%associated production.  These variations are summarized in Table
+%associated production.  These variations are summarised in Table
 %\ref{table:sys_gga}.  The uncertainties shown in Tables
 %\ref{table:sys_bba} and \ref{table:sys_gga} are based on samples with
 %$m_{A} = 120 \text{ GeV}$.  Results for the mass points 90, 200
@@ -385,7 +385,7 @@ a looser selection would have limited impact because of isolation requirements a
 The resulting uncertainty, referred to as "EMB\_ISO", affects both the yield and the \mmc shape of 
 the Embedding samples, as shown in figure~\ref{fig:EMBMFS}. 
 
-Finally, because the normalization of the Embedding sample is determined by the use of the ALPGEN sample, 
+Finally, because the normalisation of the Embedding sample is determined by the use of the ALPGEN sample, 
 the relative cross section and luminosity uncertainties are assigned. In addition
 all the detector-related systematic uncertainties relevant to the decay products of the simulated tau 
 decay are propagated to the Embedding sample.
@@ -424,28 +424,28 @@ The difference between \rqcd and $R_{QCD}^{iso} $ in the vicinity of the standar
 The plot in Figure~\ref{fig:os_ss_ratio} is made after common selection, similar plots using the full selection
 for the two categories are in Appendix~\ref{appendix:qcd_additional}.
 
-%for the definition of lepton isolations used in this analysis, the ratio is calculated in samples where the isolation requirements are reversed. Due to a high contamination of signal and non-QCD backgrounds, "semi-isolated" OS and SS samples are additionally defined, where the lepton isolation is larger than the standard requirement, but less than a sliding cut. These samples are labelled $\hat{A}$ and $\hat{B}$  for the semi-isolated OS and SS samples, respectively, and hence we can define $R_{QCD}^{iso}  = \hat{A} / \hat{B}$. The difference between \rqcd and $R_{QCD}^{iso} $ in the vicinity of our standard cut value is then assigned as a systematic uncertainty on \rqcd. Using the point where the cuts on the lepton isolation are twice their standard values, i.e.. the $x=100\%$ point on the graph, a systematic uncertainty of 15\% is found.
+%for the definition of lepton isolations used in this analysis, the ratio is calculated in samples where the isolation requirements are reversed. Due to a high contamination of signal and non-QCD backgrounds, "semi-isolated" OS and SS samples are additionally defined, where the lepton isolation is larger than the standard requirement, but less than a sliding cut. These samples are labelled $\hat{A}$ and $\hat{B}$  for the semi-isolated OS and SS samples, respectively, and hence we can define $R_{QCD}^{iso}  = \hat{A} / \hat{B}$. The difference between \rqcd and $R_{QCD}^{iso} $ in the vicinity of our standard cut value is then assigned as a systematic uncertainty on \rqcd. Using the point where the cuts on the lepton isolation are twice their standard values, ie. the $x=100\%$ point on the graph, a systematic uncertainty of 15\% is found.
 
 %An additional method considers calculating $\rqcd^{AB}$ as the ratio between the estimated QCD contributions in sample A and B.
 %These samples, however, suffers of large contribution of non-QCD background and possible signal contamination, 
 %this method is then only used as a cross check. Table~\ref{table:MCsub} shows a comparison between \rqcd and  $\rqcd^{AB}$
-%for the two category at an early stage of the cut-flow where signal contamination is negligible, agreement is seen within statistical uncertainties.
+%for the two category at an early stage of the cutflow where signal contamination is negligible, agreement is seen within statistical uncertainties.
 
 An additional method, used as a crosscheck, considers calculating \rqcd as the ratio between the estimated QCD contributions in sample A 
 and B. Here the non-QCD contributions are once more subtracted from data. However the large contribution of this non-QCD background, 
 along with lack of statistics and possible signal contamination, lead to this method being only used as a cross check. Table~\ref{table:MCsub} shows 
-a comparison between \rqcd and $\rqcd^{AB}$ for the two categories at the common selection stage of the cut-flow, where signal contamination is negligible. 
+a comparison between \rqcd and $\rqcd^{AB}$ for the two categories at the common selection stage of the cutflow, where signal contamination is negligible. 
 Agreement is seen between \rqcd values in the two samples, within statistical uncertainties. 
 
 %\footnote{This effect is maybe due to the use of a \PT dependent isolation variable that effects the quark-gluon fraction.}.
 %Expectation for non-QCD backgrounds are subtracted as usual. 
 %This effect however doesn't tell anything on the uncertainty of our
 %measure of \rqcd, we want to measure instead what is the discrepancy (for each
-%chosen isolation cut value) between \rqcd and the same factor calculated 
+%choosen isolation cut value) between \rqcd and the same factor calculated 
 %flipping isolation requirements, i.e. using the isolated samples A and B, we call this factor $R_{QCD}^{iso}$. 
 %Due to the high contamination of non-QCD backgrounds and signal in these samples we then define:
-%OS and SS isolated samples $\hat{A}$ and $\hat{B}$ in which the leptons isolation
-%should be greater than the standard value but less of predefined quantity on the x axis 
+%OS and SS isolated samples $\hat{A}$ and $\hat{B}$ in wich the leptons isolation
+%should be greather than the standard value but less of predefined quantity on the x axis 
 %of the graph (black curve). In definitive we have $R_{QCD}^{iso}  = \hat{A} / \hat{B}$.
 %We then assign as a systematics uncertainty the difference between the two curves (red and black) in the vicinity of our
 %standard cut value (we use the point where the cut value is doubled, 100\% in the graph because 
@@ -458,7 +458,7 @@ Agreement is seen between \rqcd values in the two samples, within statistical un
 %that allows you to extrapolate yield from sample B to SR, however it suffer of contamination by non-QCD backgrounds
 %and lack of statistics.
 %Table~\ref{table:MCsub} shows comparison between \rqcd and real-\rqcd
-%for the two category at an early stage of the cut-flow where signal contamination is negligible.
+%for the two category at an early stage of the cutflow where signal contamination is negligible.
 %Discrepancies are within statistical uncertainty and underline that an assignment of a  15\%
 %uncertainty to the \rqcd factor is conservative.
 
@@ -478,7 +478,7 @@ B-tagged			&  1.78    $\pm$   0.02 	& 1.9   $\pm$	0.9 		&	2.0  $\pm$ 0.8	\\
 \hline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\end{tabular}
-	  \caption{Comparison between \rqcd, $\rqcd^{AB}$ and $R_{QCD}^{iso}$ for early stage in the cut-flow, only b-tag and b-veto
+	  \caption{Comparison between \rqcd, $\rqcd^{AB}$ and $R_{QCD}^{iso}$ for early stage in the cutflow, only b-tag and b-veto
 	requirement are applied after common selections. Reported is statistical uncertainty only.}
 	\label{table:MCsub}
 	\end{center}

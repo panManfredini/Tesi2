@@ -2,13 +2,13 @@
 \label{sec:BackgroundEstimation}
 
 This section describes the strategies for background modeling and validation.
-Monte Carlo  simulation is extensively used for model either background and signal, 
+Monte Carlo  simulation is extesively used for model either background and signal, 
 the  simulations of any process are usually prone to systematics
 uncertainties due to non-perfect descriptions of pileup effects,
 underlying event and detector performance, therefore,
-data-driven background estimation method are employed for the estimate of $\Ztautau$ and QCD multi-jet backgrounds,
+data-driven background esimation method are employed for the estimate of $\Ztautau$ and QCD multi-jet backgrounds,
 described respectively in section~\ref{sec:ztau} and~\ref{sec:qcd}.
-%estimate backgrounds from data. In particular for the following cases:
+%stimate backgrounds from data. In particular for the following cases:
 %\begin{itemize}
 %  \item[$\bullet$] The $Z \rightarrow \tau\tau \rightarrow ll ~ + ~  4\nu$ is estimated from data using the embedding technique described in Section~\ref{sec:data_mc}.
 %  \item[$\bullet$] The multi-jet background is estimated completely from data using the so-called ABCD method.   
@@ -54,7 +54,7 @@ variables in this data sample, good agreement between data and MC prediction is 
 an overall data to background ratio of $0.998 \pm 0.011\mathrm{(stat.)} \pm 0.110 \mathrm{(sys.)}$ is observed. 
 The total systematic uncertainty on the ratio is dominated by the uncertainty on the b-tagging efficiency. 
 %In addition, this result could be used
-%as a measure of $t\bar{t}$ normalization avoiding systematic uncertainty on the theoretical cross section of
+%as a measure of $t\bar{t}$ normalisation avoiding systematic uncertainty on the theoretical cross section of
 %this process. In this case, however, additional acceptance systematics would need to be evaluated in a dedicated study.
 %
 %with a dedicated RIVET analysis and uncertainties of the order of the cross section 
@@ -202,7 +202,7 @@ agreement between data and the background model is found within statistical and 
 	\includegraphics[width=9cm]{figure/ABCD_regionB_Vs_regionD}
 	\end{center}
 	\caption{Comparison of the electron \pt~distribution in sample B and sample D, showing the bias due to the trigger. 
-	The histograms are normalized to the same area.}
+	The histograms are normalised to the same area.}
 	\label{fig:BvsD}
 \end{figure}
 %%%%	this table is not that useful
@@ -320,7 +320,7 @@ of the leptons, details on the systematic uncertainty evaluation are addressed i
 
 
 \subsection{$Z \rightarrow \tau\tau$ + Jets Background: Embedding Technique}\label{sec:ztau}
-The background from \Ztautau decays is the major background to this analysis, a good understanding 
+The background from \Ztautau decays is the major background to this analysis, a good uderstanding 
 of it is then crucial.
  Unfortunately, for a light Higgs boson, it is impossible to completely separate \Ztautau decays 
 from the signal and a signal free data control sample cannot be defined.
@@ -333,7 +333,7 @@ Further details on this technique may be found in \cite{Embedding, SMold}.
 
 %The selection of the \Zmumu input data requires exactly two combined, opposite charged
 %muons, where the leading muon has a transverse momentum $\pt > 20 \GeV$ and 
-%the sub-leading muon $\pt > 15\GeV$. Both muons are requited to lie within $|\eta|<2.5$ and to be isolated with 
+%the subleading muon $\pt > 15\GeV$. Both muons are requited to lie within $|\eta|<2.5$ and to be isolated with 
 %$\ptcone 20/\pt<0.2$ (see Section~\ref{sec:presel}). Additionally 
 %the invariant mass of the two muons is required to be in the range $M_{\mu\mu} > 40$ GeV.
 %Once the muon pair events are selected, all tracks and calorimeter cells associated to the muons are 
@@ -348,7 +348,7 @@ Further details on this technique may be found in \cite{Embedding, SMold}.
 %The Embedding technique, which uses \Zmumu decays to 
 %model \Ztautau events in a data-driven way, is described in Section~\ref{sec:data_mc}. 
 Trigger is not simulated in the Embedding samples, the event yield
-is normalized to ALPGEN \Ztautau at common selection stage. Furthermore a set of corrections, as described in \cite{SMnew}, are
+is normalised to ALPGEN \Ztautau at common selection stage. Furthermore a set of corrections, as described in \cite{SMnew}, are
 applied to unfold from the original \Zmumu trigger and reconstruction efficiency, then trigger and reconstruction efficiency 
 for a $e-\mu$ final state are emulated by means of event weight.
 

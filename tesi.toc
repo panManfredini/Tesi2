@@ -1,37 +1,42 @@
 \contentsline {chapter}{\numberline {1}Neutral MSSM Higgs Bosons Search...}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}
-\contentsline {section}{\numberline {1.2}Signal and Background Processes}{5}{section.1.2}
-\contentsline {section}{\numberline {1.3}Analysis Strategy}{6}{section.1.3}
-\contentsline {section}{\numberline {1.4}Data and Simulated Event Samples}{7}{section.1.4}
-\contentsline {subsubsection}{Data Sample}{7}{section*.2}
-\contentsline {subsubsection}{Signal Samples}{7}{section*.3}
-\contentsline {subsubsection}{Background Samples}{8}{section*.4}
-\contentsline {section}{\numberline {1.5}Event Selections and Categorizzation}{8}{section.1.5}
-\contentsline {subsubsection}{b-Veto Category}{9}{section*.5}
-\contentsline {subsubsection}{b-Tag Category}{9}{section*.6}
-\contentsline {subsection}{\numberline {1.5.1}Mass Reconstruction with MMC Technique}{10}{subsection.1.5.1}
-\contentsline {section}{\numberline {1.6}Background Modeling and Validation}{13}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Top Quark Pair Production Validation}{13}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Multi-jet Background}{15}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}$Z \rightarrow \tau \tau $ + Jets Background: Embedding Technique}{16}{subsection.1.6.3}
-\contentsline {section}{\numberline {1.7}Systematic Uncertainties}{21}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Detector-related Systematics Uncertainties}{23}{subsection.1.7.1}
-\contentsline {paragraph}{Luminosity}{23}{section*.7}
-\contentsline {paragraph}{Pileup}{23}{section*.8}
-\contentsline {paragraph}{Trigger Efficiency}{23}{section*.9}
-\contentsline {paragraph}{Electrons}{23}{section*.10}
-\contentsline {paragraph}{Muons}{24}{section*.11}
-\contentsline {paragraph}{Taus}{24}{section*.12}
-\contentsline {paragraph}{Jets}{24}{section*.13}
-\contentsline {paragraph}{b-Tagging}{24}{section*.14}
-\contentsline {paragraph}{Missing Transverse Energy}{24}{section*.15}
-\contentsline {subsection}{\numberline {1.7.2}Theoretical Uncertainties}{27}{subsection.1.7.2}
-\contentsline {subsection}{\numberline {1.7.3}\ensuremath {Z/\gamma ^*\rightarrow \tau \tau }\xspace Embedding Systematics}{27}{subsection.1.7.3}
-\contentsline {subsection}{\numberline {1.7.4}QCD Multi-Jet Systematics}{29}{subsection.1.7.4}
-\contentsline {section}{\numberline {1.8}Results}{32}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Statistical Procedure For Limits Setting}{32}{subsection.1.8.1}
-\contentsline {subsubsection}{The Likelihood Definition}{32}{section*.16}
-\contentsline {subsubsection}{Statistical Combination of Search Channels}{33}{section*.17}
-\contentsline {subsubsection}{The Test Statistic and Limit Setting}{33}{section*.18}
-\contentsline {subsubsection}{The ABCD Method}{34}{section*.19}
-\contentsline {subsection}{\numberline {1.8.2}Exclusion Limits}{35}{subsection.1.8.2}
+\contentsline {section}{\numberline {1.1}Introduction to The Search}{5}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}The Higgs Sector in The MSSM}{5}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Signal and Background Processes}{6}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Analysis Strategy}{7}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Data and Simulated Event Samples}{9}{subsection.1.1.4}
+\contentsline {subsubsection}{Data Sample}{9}{section*.2}
+\contentsline {subsubsection}{Signal Samples}{9}{section*.3}
+\contentsline {subsubsection}{Background Samples}{9}{section*.4}
+\contentsline {section}{\numberline {1.2}Event Selections and Categorization}{10}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}The ``Common'' Selections}{10}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}b-vetoed Category}{11}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}b-tagged Category}{12}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Mass Reconstruction with MMC Technique}{14}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Background Modeling and Validation}{15}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Top Quark Pair Production Validation}{17}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Multi-jet Background}{17}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}$Z \rightarrow \tau \tau $ + Jets Background: Embedding Technique}{21}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Systematic Uncertainties}{26}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Detector-related Systematics Uncertainties}{28}{subsection.1.4.1}
+\contentsline {paragraph}{Luminosity}{28}{section*.5}
+\contentsline {paragraph}{Pileup}{28}{section*.6}
+\contentsline {paragraph}{Trigger Efficiency}{28}{section*.7}
+\contentsline {paragraph}{Electrons}{28}{section*.8}
+\contentsline {paragraph}{Muons}{29}{section*.9}
+\contentsline {paragraph}{Taus}{29}{section*.10}
+\contentsline {paragraph}{Jets}{29}{section*.11}
+\contentsline {paragraph}{b-Tagging}{29}{section*.12}
+\contentsline {paragraph}{Missing Transverse Energy}{29}{section*.13}
+\contentsline {subsection}{\numberline {1.4.2}Theoretical Uncertainties}{30}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}\ensuremath {Z/\gamma ^*\rightarrow \tau \tau }\xspace Embedding Systematics}{33}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}QCD Multi-Jet Systematics}{34}{subsection.1.4.4}
+\contentsline {section}{\numberline {1.5}Results}{36}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Statistical Procedure For Limits Setting}{36}{subsection.1.5.1}
+\contentsline {subsubsection}{The Likelihood Definition}{37}{section*.14}
+\contentsline {subsubsection}{Statistical Combination of Search Channels}{38}{section*.15}
+\contentsline {subsubsection}{The Test Statistic and Limit Setting}{38}{section*.16}
+\contentsline {subsubsection}{The ABCD Method}{39}{section*.17}
+\contentsline {subsection}{\numberline {1.5.2}Exclusion Limits}{40}{subsection.1.5.2}
+\contentsline {chapter}{\numberline {A}QCD Trigger bias}{53}{appendix.A}
+\contentsline {chapter}{\numberline {B}QCD Additional Plots}{55}{appendix.B}
+\contentsline {chapter}{\numberline {C}Limits cross checks and additional plots}{57}{appendix.C}
