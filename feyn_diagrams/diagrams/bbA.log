@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.14)  24 MAY 2014 18:00
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.14)  30 MAY 2014 17:25
 entering extended mode
  %&-line parsing enabled.
 **bbA.tex
@@ -58,11 +58,11 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
+(Font)              <12> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
+(Font)              <6> on input line 23.
  [1
 
 ]
@@ -74,6 +74,6 @@ Here is how much of TeX's memory you used:
  3599 multiletter control sequences out of 15000+50000
  6676 words of font info for 24 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 23i,7n,23p,156b,167s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 23i,6n,23p,156b,167s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bbA.dvi (1 page, 7720 bytes).
+Output written on bbA.dvi (1 page, 7572 bytes).

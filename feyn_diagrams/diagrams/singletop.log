@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.14)  30 MAY 2014 17:27
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.14)  30 MAY 2014 19:31
 entering extended mode
  %&-line parsing enabled.
-**Ztautau.tex
-(./Ztautau.tex
+**singletop.tex
+(./singletop.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
@@ -42,8 +42,8 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \v@float=\dimen112
 \v@lx=\dimen113
 \v@ly=\dimen114
-) (./Ztautau.aux)
-\openout1 = `Ztautau.aux'.
+) (./singletop.aux)
+\openout1 = `singletop.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -58,22 +58,22 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 19.
 
 [1
 
-] (./Ztautau.aux) ) 
+] (./singletop.aux) ) 
 Here is how much of TeX's memory you used:
  249 strings out of 493849
- 2702 string characters out of 1152846
- 54321 words of memory out of 3000000
+ 2720 string characters out of 1152846
+ 55321 words of memory out of 3000000
  3599 multiletter control sequences out of 15000+50000
  6676 words of font info for 24 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 23i,6n,23p,160b,167s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 23i,7n,23p,162b,167s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Ztautau.dvi (1 page, 7324 bytes).
+Output written on singletop.dvi (1 page, 7880 bytes).

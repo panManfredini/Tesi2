@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.14)  24 MAY 2014 17:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.14)  30 MAY 2014 17:25
 entering extended mode
  %&-line parsing enabled.
 **ggH.tex
@@ -70,10 +70,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Here is how much of TeX's memory you used:
  249 strings out of 493849
  2666 string characters out of 1152846
- 55321 words of memory out of 3000000
+ 54321 words of memory out of 3000000
  3599 multiletter control sequences out of 15000+50000
  6676 words of font info for 24 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  23i,6n,23p,156b,167s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ggH.dvi (1 page, 7584 bytes).
+Output written on ggH.dvi (1 page, 7476 bytes).
