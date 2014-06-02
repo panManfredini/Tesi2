@@ -21,7 +21,7 @@
 %\usepackage{caption}
 %\usepackage{subcaption}
 
- \usepackage{feynarts} 
+% \usepackage{feynarts} 
 \listfiles
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % This is where the document really begins
@@ -85,7 +85,7 @@
 \def\mA{\ensuremath{m_{A}} }
 \def\ifb{\ensuremath{fb^{-1}} }
 
-\linespread{1.2}
+%\linespread{1.2}
 \begin{document}
 \tableofcontents
 
@@ -135,35 +135,21 @@
 %%
 
 %Theory
+\input{t_intro}
 %\input{t_pheno.tex}
 
 %\input{detector}
 %\input{obj_reconstruction}
 
 %analysis
-\input{a_strategy}
-\input{a_bkg_modeling}
-\input{a_sys}
-\input{a_result}
+%\input{a_strategy}
+%\input{a_bkg_modeling}
+%\input{a_sys}
+%\input{a_result}
 
 %trackjets
 %\input{trackjet}
 
-%\input{atlas}
-%\input{samples}
-%\input{preselection}
-%\input{selection}
-%\clearpage
-%% bg estimation:
-%\input{bg_estimation}
-%\input{bg_estimation_embedding}
-%\clearpage
-%\input{distributions}
-%\clearpage
-%%%
-%\input{systematics}
-%\input{exclusionlimits}
-%\input{summary}
 
 
 %\section{Acknowledgements}
@@ -180,9 +166,9 @@
 
 \newpage
 \appendix
-\input{appendix_qcd}
+%\input{appendix_qcd}
 %\input{appendix_presel.tex}
-\input{appendix_limit}
+%\input{appendix_limit}
 
 %\input{appendix_additional}
 %\input{appendix_shapeNPs}

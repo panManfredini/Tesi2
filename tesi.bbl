@@ -1,5 +1,45 @@
 %\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{}
 \begin{thebibliography}{}
+
+\bibitem{Hollik}
+  W.~Hollik,  \emph{``Electroweak theory,''}  hep-ph/9602380.
+
+\bibitem{Peskin}
+Michael E. Peskin, Dan V. Schroeder, \emph{An Introduction To Quantum Field Theory}, Westview Press, 1995.
+
+\bibitem{Altarelli}
+  G.~Altarelli,
+  \emph{``Collider Physics within the Standard Model: a Primer,''}
+  arXiv:1303.2842 .
+
+\bibitem{SusyPrimer}
+S.~P.~Martin,
+ \emph{``A Supersymmetry primer,''}
+  In *Kane, G.L. (ed.): Perspectives on supersymmetry II* 1-153
+  [hep-ph/9709356].
+
+\bibitem{Djuadi}
+A. Djouadi, \emph{The Anatomy of Electroweak Symmetry Breaking — Tome II: The Higgs
+Bosons in the Minimal Supersymmetric Model}, Phys. Rep. 459 (2008) 1.
+
+\bibitem{pdg}
+The Review of Particle Physics,
+J. Beringer et al. (Particle Data Group), Phys. Rev. D86, 010001 (2012)
+and 2013 partial update for the 2014 edition. 
+
+\bibitem{smtest}
+The ALEPH, CDF, D0, DELPHI, L3, OPAL and SLD Collaborations, the LEP
+Electroweak Working Group, Tevatron Working Group and SLD Electroweak and
+Heavy Flavour Working Groups, \emph{Precision Electroweak Measurements and
+Constraints on the Standard Model}, arXiv:1012.2367. Updated for 2012
+winter conferences, March 2012.
+
+\bibitem{precisiontest}
+ G.~Altarelli and M.~W.~Grunewald,
+  \emph{``Precision electroweak tests of the standard model,''}
+  Phys.\ Rept.\  {\bf 403-404} (2004) 189
+  [hep-ph/0404165].
+
 \bibitem{LHC}
 L.~Evans and P.~Bryant, {\em {LHC Machine}\/},  JINST {\bf 3} (2008)  S08001.
 
