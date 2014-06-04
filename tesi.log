@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  2 JUN 2014 18:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  4 JUN 2014 13:32
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -444,24 +444,29 @@ LaTeX Warning: Citation `page7Martins' on page 5 undefined on input line 74.
 LaTeX Warning: Citation `page11Djuadi' on page 5 undefined on input line 81.
 
 
-LaTeX Warning: Citation `djuadi12' on page 5 undefined on input line 125.
-
-[5]
-
-LaTeX Warning: Citation `djuadipage5orBetterPage12' on page 6 undefined on inpu
-t line 143.
+LaTeX Warning: Citation `djuadi12' on page 5 undefined on input line 126.
 
 
-LaTeX Warning: Citation `djuadiPage5' on page 6 undefined on input line 145.
+LaTeX Warning: Citation `djuadipage5orBetterPage12' on page 5 undefined on inpu
+t line 144.
 
 
-LaTeX Warning: Citation `djuadi5' on page 6 undefined on input line 146.
+LaTeX Warning: Citation `djuadiPage5' on page 5 undefined on input line 146.
 
-) (./tesi.bbl
-Underfull \vbox (badness 5592) has occurred while \output is active []
 
- [6]
-[7] [8
+LaTeX Warning: Citation `djuadi5' on page 5 undefined on input line 147.
+
+[5] [6]
+
+LaTeX Warning: Citation `djouadiP21' on page 7 undefined on input line 154.
+
+
+LaTeX Warning: Citation `djouadiP21' on page 7 undefined on input line 155.
+
+
+LaTeX Warning: Citation `djuadiP22' on page 7 undefined on input line 159.
+
+) (./tesi.bbl [7] [8
 
 ]
 Underfull \hbox (badness 1466) in paragraph at lines 11--14
@@ -587,25 +592,27 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6220 strings out of 493848
- 87717 string characters out of 1152823
- 172060 words of memory out of 3000000
- 9240 multiletter control sequences out of 15000+50000
+ 6224 strings out of 493848
+ 87768 string characters out of 1152823
+ 173060 words of memory out of 3000000
+ 9242 multiletter control sequences out of 15000+50000
  9931 words of font info for 37 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,12n,38p,366b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tesi.pdf (16 pages, 201473 bytes).
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmtt12.pfb>
+Output written on tesi.pdf (16 pages, 220261 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
- 143 named destinations out of 1000 (max. 500000)
+ 342 PDF objects out of 1000 (max. 8388607)
+ 145 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
