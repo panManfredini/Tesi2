@@ -1,7 +1,13 @@
-\contentsline {chapter}{\numberline {1}The Higgs Bosons and The MSSM}{3}{chapter.1}
+\contentsline {chapter}{\numberline {1}The Higgs Bosons and the MSSM}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Standard Model of Particle Physics and its Limitations}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Overview of the SM}{4}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Precision Test and Limitation of the SM}{5}{subsection.1.1.2}
 \contentsline {section}{\numberline {1.2}The Minimal Supersymmetric Standard Model}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Introduction}{5}{subsection.1.2.1}
 \contentsline {subsubsection}{$R$-parity conservation}{5}{section*.2}
 \contentsline {subsubsection}{The Soft SUSY Breaking}{7}{section*.3}
-\contentsline {section}{\numberline {1.3}The Higgs Sector in The MSSM }{7}{section.1.3}
-\contentsline {section}{\numberline {1.4}Higgs Phenomenology in The MSSM}{7}{section.1.4}
+\contentsline {subsection}{\numberline {1.2.2}The Higgs Sector in the MSSM }{7}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Neutral Higgs Bosons Phenomenology in the MSSM}{8}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}MSSM Higgs Couplings with SM Particles}{8}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}MSSM Higgs Benchmark Scenarios}{9}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}MSSM Higgs Production and Decay at the LHC}{9}{subsection.1.3.3}

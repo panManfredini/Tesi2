@@ -1,4 +1,4 @@
-\chapter{The Higgs Bosons and The MSSM}
+\chapter{The Higgs Bosons and the MSSM}
 This chapter is devoted to introduce the the Minimal Supersymmetric 
 extension of the Standard Model (MSSM) whit focus on  its Higgs sector.
 In section... introduction is given based on~\cite{Altarelli}, 
@@ -7,6 +7,7 @@ In section... introduction is given based on~\cite{Altarelli},
 \clearpage
 
 \section{The Standard Model of Particle Physics and its Limitations}
+\subsection{Overview of the SM}
 The Standard Model (SM) of particle physics is a theory aimed to describe and quantitatively predict
 the phenomenology of foundamental interaction. At ``microscopic''  level all the phenomenology of matter and 
 radiation can be understood in terms of three classes of foundamental interactions, which are the strong, the electromagnetic
@@ -38,6 +39,7 @@ but have electroweak charges, in particular electric charges $-1$ for charged le
 is intended for respective anti-particle)  and charge 0 for neutrinos $\nu_e$, $\nu_{\mu}$ and $\nu_{\tau}$.
 Qarks and leptons are grouped in three  ``generations'' with equal quantum numbers but different masses.
 
+\subsection{Precision Test and Limitation of the SM}
 
 Precision tests of the SM has been performed over a wide range of energies in experiment in the last several decades,
 Precision tests~\cite{precisiontest} of the standard electroweak theory performed at LEP, SLC and Tevatron~\cite{smtest}, 
@@ -65,6 +67,7 @@ provide a test for low-energies of the standard model.
 
  
 \section{The Minimal Supersymmetric Standard Model}
+\subsection{Introduction}
 Supersymmetry (SUSY) was first introduced since it offer a natural way to solve the hierarchy problem....\cite{}
 This is achieved by introducing a symmetry transformation that relates bosons with fermions. The SUSY generators $\mathcal{Q}$ 
 transforms fermion into bosons and vice versa:
@@ -149,14 +152,16 @@ However, in absence of phases and  mixing, and if obey to a set of boundary cond
 
 
 
-\section{The Higgs Sector in The MSSM }
+\subsection{The Higgs Sector in the MSSM }
 In the MSSM two doublets of complex scalar field of opposite hypercharge are required to break the electroweak symmetry, 
 this requirement is motivated by the needs to generate  masses separately to isospin up-type fermion and down-type fermions~\cite{djouadiP21}
 and to cancel chiral anomalies that otherwise would spoil the renormalizability of the theory~\cite{djouadiP21}. The two Higgs doublet then are:
 \begin{equation}
 H_1 = \binom{H_1^0}{H_1^-} ~ ~ \text{with } Y_{H_1} = -1, \quad \quad H_2 = \binom{H_2^+}{H_2^0} ~ ~ \text{with } Y_{H_2} = +1  
 \end{equation}
-In analogy with the SM, a similar Higgs mechanism is employed in the MSSM~\cite{djuadiP22} to break electroweak symmetry. The neutral components of the 
+In analogy with the SM, a similar Higgs mechanism is employed in the MSSM~\cite{djuadiP22},  requiring that the minimum 
+of the Higgs potential breaks $SU(2)_L \otimes U(1)_Y$ group while preserving the electromagnetic symmetry $U(1)_Q$.
+the  to break electroweak symmetry. The neutral components of the 
 two Higgs field acquire vacuum expectation values:
 \begin{equation}
 \langle H_1^0 \rangle = \frac{v_1}{\sqrt{2}}, \quad \quad \quad  \langle H_2^0 \rangle = \frac{v_2}{\sqrt{2}}
@@ -165,8 +170,76 @@ Three of the original eight degrees of freedom of the scalar fields are absorbed
 polarizations and acquire masses. The remaning degrees of freedom correspond to five scalar Higgs bosons: two CP-even and neutral $h$ and $H$, 
 a neutral pseudoscalar boson $A$ and a pair of charged bosons $H^{\pm}$. At tree level, besides the masses of these particle, two additional parameter
 define the system: the mixing angle in the neutral CP-even sector $\alpha$ and the ratio between the two vacuum expectation value $\tan \beta = v_1/v_2$.
+However, the supersymmetric structure of the theory impose strong constraint on the Higgs spectrum, out of the six parameters which describe 
+the MSSM Higgs sector, $M_h$, $M_H$, $M_A$, $M_{H^\pm}$, $\beta$ and $\alpha$, only two  are actually independent at tree level, a common choice 
+is $\tan \beta$ and $M_A$. At tree level these relation impose a strong hierarchical structure on the mass spectrum: the $h$ boson is the lightest
+with  $M_h < M_Z$,  $M_A < M_H$ and $M_{H^\pm}^2 = M_A^2 M_W^2$. Furthermore, the following relation holds between the mixing angles, which is particularly important
+for the Higgs couplings:
+\begin{equation}
+\cos^2(\beta - \alpha) = \frac{M_h^2 (M_Z^2 - M_h^2)}{M_A^2 (M_H^2 - M_h^2)}
+\end{equation}
+These relations, however, are broken by large radiative corrections to the Higgs 
+masses~\cite{djuadiPage6}, which cause the costraint on the mass of $h$ to move from the tree level value of $M_Z$ to $\mh \apprle 140$ GeV.
+Another restriction, coming from GUT assumptions gives $1 \apprle \tan \beta \apprle m_t/m_b$ ~\cite{sebpage27}.
 
 
-\section{Higgs Phenomenology in The MSSM}
+\section{Neutral Higgs Bosons Phenomenology in the MSSM}
+
+\subsection{MSSM Higgs Couplings with SM Particles}
+The phenomenology of the MSSM Higgs bosons is enclused in their couplings with standard model and supersymmetric particles, 
+a short overview of the former, based onthe review~\cite{Djuadi}, is given in this section.
+
+The Feynman diagram for the possible couplings between MSSM Higgs bosons and vector bosons are shown in Figure~\ref{fig:couplings}, where is possible to identify threelinear 
+couplings $V_{\mu}V_{\nu}H_i$ among one Higgs boson and two gauge bosons and $V_{\mu}H_{i}H_j$ among one gauge boson and two Higgs bosons,
+as well as the couplings between two Higgs bosons and two gauge bosons $V_{\mu}V_{\nu}H_iH_j$.
+\begin{figure}[tp]
+     \begin{center}
+     \subfigure[]{		
+            \includegraphics[width=0.3\textwidth]{figure/blank.pdf}
+     }	
+     \subfigure[]{		
+            \includegraphics[width=0.3\textwidth]{figure/blank.pdf}
+     }	
+     \subfigure[]{		
+            \includegraphics[width=0.3\textwidth]{figure/blank.pdf}
+     }
+     \end{center}
+   \label{fig:couplings}
+    \caption{Feynman diagrams for the couplings between one Higgs boson and two gauge bosons (a), two Higgs bosons and one gauge boson (b)
+		and two Higgs bosons and two gauge bosons (c). Based on~\cite{Djuadi}. }
+\end{figure}
+Among these couplings, the most relevat for MSSM Higgs phenomenology is the trilinear couplings between two gauge bosons and one Higgs boson $V_{\mu}V_{\nu}H_i$,
+in this case, since the photon is massless, there are no Higgs-$\gamma\gamma$ and Higgs-$Z\gamma$ couplings at tree level, CP-invariance also forbids $WWA$, $ZZA$
+and $WZH^{\pm}$ couplings, for this case only the following couplings remains:
+\begin{align} \label{eq:couplings}
+Z_{\mu}Z_{\nu} h ~ :  ~ & ig_z M_Z \sin(\beta -\alpha) g_{\mu\nu},  &  Z_{\mu}Z_{\nu} H ~ : ~  ~    & ig_z M_Z \cos(\beta -\alpha) g_{\mu\nu} \\
+W_{\mu}^+W_{\nu}^- h ~: ~&  ig_w M_W \sin(\beta -\alpha) g_{\mu\nu},  &  W_{\mu}^+W_{\nu}^- H ~ : ~ ~ & ig_w M_W \cos(\beta -\alpha) g_{\mu\nu}
+\end{align}
+The couplings of the neutral CP-even Higgs bosons $h$ and $H$ with pair of vector bosons are prortional to $ \sin(\beta -\alpha)$ and $\cos(\beta -\alpha)$
+respectively, where $\cos(\beta -\alpha)$ is fixed at tree level following equation~\eqref{eq:couplings}. An interesting fenomenological consequence is
+that, calling $G_{VVh}$ and $G_{VVH}$ a general   coupling between two vector bosons and one of the neutral CP-even Higgs bosons the following equation holds:
+\begin{equation}\label{eq:couplingSM}
+G^2_{VVh} +G^2_{VVH} = g^2_{VVH_{SM}}
+\end{equation}
+this means that the couplings with vector bosons for $h$ and $H$ respectively increase and decrease with $\tan\beta$, for
+large value of $\tan\beta$, $h$ has SM-like couplings with vector bosons and $H$  decouple from them. For an overview of all the other
+couplinq between vector boson and Higgs bosons, charged Higgs, trilinear and quartic coupling between Higgs bosons and couplings 
+to SUSY particles refer to~\cite{Djuadi}.
+
+The MSSM Higgs bosons couplings with isospin up-type $u$, and down-type $d$ fermions also depend on $\tan\beta$ and may be written
+as follows:
+\begin{align*}
+G_{huu} ~\propto ~ & m_u [\sin(\beta - \alpha)  + \cot\beta \cos(\beta - \alpha)], & G_{hdd} ~\propto ~ & m_u [\sin(\beta - \alpha)  - \tan\beta \cos(\beta - \alpha)]\\
+G_{Huu} ~\propto ~& m_u [\cos(\beta - \alpha)  - \cot\beta \sin(\beta - \alpha)], & G_{Hdd} ~\propto~  & m_d [\cos(\beta - \alpha)  + \tan\beta \sin(\beta - \alpha)]\\
+G_{Auu} ~ \propto ~ & m_u  \cot\beta, & G_{Add} ~ \propto ~ & m_d \tan\beta 
+\end{align*} 
+Then the couplings of 
+
+
+
+
+\subsection{MSSM Higgs Benchmark Scenarios}
+
+\subsection{MSSM Higgs Production and Decay at the LHC}
 
 
