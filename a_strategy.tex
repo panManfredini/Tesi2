@@ -1,5 +1,5 @@
 \newgeometry{left=4cm, right=4cm,bottom=4cm, top=4cm}
-\chapter[Neutral MSSM Higgs Bosons Search...]{Search for neutral MSSM Higgs Bosons in the 
+\chapter[Neutral MSSM Higgs Bosons Search...]{Search for neutral MSSM Higgs Bosons in  
 $A/h/H \rightarrow \tau^{+}\tau^{-} \rightarrow e \mu + 4\nu$ decays} \label{chap:anal}
 
 
@@ -14,28 +14,30 @@ $A/h/H \rightarrow \tau^{+}\tau^{-} \rightarrow e \mu + 4\nu$ decays} \label{cha
 %leptons, which subsequently decay to an electron, a muon and four
 %neutrinos. Furthermore, 
 %
-Under the light of the recent discovery at LHC of a Higgs 
-boson with mass of 125 GeV \cite{AHiggsO,CHiggsO}, remains an open question
-whether this new particle constitute all the pieces of the Higgs
-sector or whether it is only one of several bosons predicted in some theories 
+In light of the recent discovery of a Higgs 
+boson with mass of $\sim 126$ GeV at LHC~\cite{AHiggsO,CHiggsO}, it remains an open question
+whether this new particle is the only missing piece of the electroweak symmetry breaking
+sector or whether it is one of several Higgs bosons predicted in some theories 
 that go beyond the SM. The most recent measurements \cite{ASpin0,ACouplings,CFermions,CWidth} of its
-properties shows this new boson to be, within experimental uncertainties, perfectly 
-compatible with the SM Higgs boson, however, such a new particle can still
-be accommodated within several beyond the 
-standard model (BSM) theories, this is particularly true for Super Symmetry. 
+properties shows this new boson to be, within experimental uncertainties, fully
+compatible with the SM Higgs boson. Nevertheles, such a new particle can also still
+be accommodated within several theories beyond the 
+standard model (BSM), among all of them, Supersymmetry  is a theoretically favoured scenario
+as the most predictive framework beyond the Standard Model.
 
 This chapter presents the search for the neutral MSSM Higgs bosons decaying into pairs of tau leptons
-in the fully leptonic final state, which is part of the ATLAS publication~\cite{}\footnote{to Sandra: I'll remove this sentence
-if Conf note wont be ready in time} for the neutral
-MSSM Higgs boson search. The search is based on 20.3 $\text{fb}^{-1}$ of 8 TeV data 
+in the fully leptonic final state, published in Ref.~\cite{}\footnote{to Sandra: I'll remove this sentence
+if Conf note wont be ready in time} as a part of the search for the neutral
+MSSM Higgs bosons in all final states of the tau leptons decay. 
+The search is based on 20.3 $\text{fb}^{-1}$ of 8 TeV data 
 recorded by the ATLAS experiment during 2012 at the Large Hadron Collider.
 The chapter is organized as follows: a brief summary of the MSSM Higgs sector 
 and an introduction to the analysis strategy is given in Section~\ref{sec:intro},
 while the event selection and categorization are described in Section~\ref{sec:selection}. 
-In Section~\ref{sec:BackgroundEstimation} the background model estimation is described and
-in Section~\ref{sec:Systematics} methods to evaluate systematics uncertainties are discussed. Finally, 
-in section~\ref{sec:result} the result of the search are presented along with an overview of the
-statistical methods employed.
+In Section~\ref{sec:BackgroundEstimation} the estimation of the background is described and
+in Section~\ref{sec:Systematics} methods to evaluate systematic uncertainties are discussed. Finally, 
+in section~\ref{sec:result}, an overview of the statistical methods employed along with the corresponding
+result of the search are presented.
 
 %There are two approach to explore the Higgs sector:
 %one can study the coupling of the Higgs boson with vector
@@ -66,9 +68,9 @@ statistical methods employed.
 \restoregeometry
 \clearpage
 
-\section{Introduction to The Search} \label{sec:intro}
+\section{Introduction } \label{sec:intro}
 
-\subsection{The Higgs Sector in The MSSM}
+\subsection{The Higgs Sector in the MSSM}
 
 \begin{figure}[tp]
      \begin{center}
@@ -77,9 +79,11 @@ statistical methods employed.
 
     \end{center}
     \caption{Excluded and allowed regions of the $m_{A} - \text{tan}\beta$ parameter space for the  $m_{h}^{mod+}$ 
-	benchmark scenario. Excluded region are determined based on direct Higgs boson searches at LEP (blue) and LHC (red). The two green 
-	bands corresponds to the parameter regions which are compatible with the assumption that 
-	the lightest Higgs boson, \emph{h}, has a mass respectively of $M_{h} = 125.5 \pm 2$ or $\pm 3$ GeV. For more detail 
+	MSSM benchmark scenario. Excluded regions are determined based on direct Higgs boson searches at LEP 
+	(blue) and LHC (red). The two green 
+	bands correspond to the parameter regions which are compatible with the assumption that 
+	the lightest MSSM Higgs boson, \emph{h}, has a mass respectively of $M_{h} = 125.5 \pm 2$ (dark green) 
+	or $125.5 \pm 3$ GeV (light green). For more detail 
 	see~\cite{LHCxsec}.}
    \label{fig:mhmod}
 \end{figure}
@@ -96,43 +100,49 @@ the ratio of the vacuum expectation values of the two Higgs doublets
 $\tan\beta$ (for more details see chapter~\ref{chap:theory}).  
 The MSSM predicts the existence of a Higgs boson with properties that  
 resemble those of a SM Higgs boson in large regions of its parameter space. 
-This is usually the case for the lightest Higgs, \emph{h}, the other two, $H$ and $A$, 
+This is usually the case for the lightest Higgs boson, \emph{h}, while the other two, $H$ and $A$, 
 tend to be degenerate in mass and decouple from gauge bosons.
 %Production and decay mode 
 %with vector bosons are forbidden for the CP-odd, $A$ and are suppressed for 
 %the CP-even, $H$, Higgs bosons. 
-On the other hand, the couplings of the latter two Higgses with down (up) type fermions are enhanced
-(suppressed) by $\tan\beta$, meaning that for large $\tan\beta$
-bottom-quark and $\tau$ lepton will play an important role either for production and decay. 
+On the other hand, the couplings of the latter two Higgs bosons with down (up) type fermions are enhanced
+(suppressed) proportionally to the value of $\tan\beta$, meaning that for large $\tan\beta$
+bottom-quark and $\tau$ lepton will play an important role for the Higgs boson production and its decays. 
  
-The two most relevant production mechanisms for the MSSM
-Higgs bosons at LHC are gluon-gluon fusion, $gg\rightarrow A/H/h$ and 
-the production in association with $b$-quarks $pp \rightarrow b(b)A/h/H$, the latter becoming
-important for large value of $\tan\beta$. Those are the two production mechanism
+The two most relevant MSSM Higgs bosons production mechanisms 
+at the LHC are gluon fusion, $gg\rightarrow A/H/h$, and 
+the production in association with $b$-quarks, $pp \rightarrow b(b)A/h/H$, the latter becoming increasingly 
+important for large values of $\tan\beta$. These two are the only production mechanisms
 considered in this analysis. 
-The favored decay mode for the neutral MSSM Higgs bosons  is $b\bar{b}$ (in the assumption that all supersymmetric particle
-are heavy enough), this is followed, for the CP-odd $A$ and CP-even $H$ Higgs bosons, 
-by the decay to $\tau$ pairs. Given that the former is very difficult to distinguish from the large $b\bar{b}$
-background at the LHC, the decay mode $A/h/H \rightarrow \tau^+ \tau^-$  provides the highest sensitivity for this search.
+Assuming there are no decays into supersymmetric particles since these are too heavy, 
+the favored neutral MSSM Higgs bosons decay mode  is the decay into a pair of b-quark and antiquark,
+$A/h/H \rightarrow b\bar{b}$. This is followed, for the CP-odd $A$ and CP-even $H$ Higgs bosons, 
+by the decay into pairs of $\tau$ leptons. Given that it is very difficult to distinguish the former decay 
+from the large $b\bar{b}$ background, the decay mode 
+$A/h/H \rightarrow \tau^+ \tau^-$  provides the highest sensitivity in the search for neutral MSSM Higgs bosons.
 
-In the following a search for the neutral MSSM Higgs bosons  in the final state 
+Searches for neutral MSSM Higgs bosons have been performed at
+LEP~\cite{LEPLimits}, the
+Tevatron~\cite{TevatronLimits1} and the LHC~\cite{CMSLimit, ATLASLimit}. 
+In the following the search for the neutral MSSM Higgs bosons  in the final state 
 $A/h/H \rightarrow \tau^+ \tau^- \rightarrow e \mu +4\nu$ is presented. 
-This search is complementary to the other $\tau$ final state searches 
-characterized by the presence of one or two hadronic $\tau$ decays. Despite the fact that the $e-\mu$ final
-state corresponds to a total $\tau^+\tau^-$ branching ratio of only 6\%, this search has a competitive 
-sensitivity with the other $\tau$ final state, especially for low $m_A$. 
-This effect is mainly due to the high transverse momentum requirement at trigger level for  hadronic $\tau$ decay.
+This search is complementary to the searches in other $\tau^+\tau^-$ final states
+characterized by the presence of one or two hadronicaly decaying $\tau$ leptons. Despite of the fact that the 
+$\tau\tau$ branching ration in $e \mu +4\nu$ is only 6\%, this decay channel provides a sensitivity 
+to the signal comparable to those in other $\tau\tau$ final states, especially for low $m_A$ values. 
+This is mainly due to the high transverse momentum treshold at the trigger level for  hadronicaly decaying $\tau$ leptons.
 
-It is impractical
-for an experimental  search to explore the full parameter space of the MSSM, several benchmark scenarios are then 
-introduced by fixing the parameters to typical values for most interesting phenomenology to occur.
+As it is impractical for an experimental  search to explore the full parameter space of the MSSM, 
+which has many free paramers, several benchmark scenarios are  
+introduced by fixing all except $m_A$ and $\tan\beta$ parameters to values typical for most interesting 
+physics cases.
 With the recent Higgs boson discovery, benchmark scenarios of the MSSM have been updated to 
 accommodate for  new experimental constraints. 
 As an example, Figure~\ref{fig:mhmod} shows the currently excluded and allowed regions of the MSSM parameter space
-for the  $m_{h}^{mod+}$ updated benchmark scenario. In this scenario a supersymmetric SM-like Higgs boson 
-is assumed with a mass $m_h = 125$ GeV, large region of the $m_{A} - \text{tan}\beta$ parameter space 
-are compatible with this assumption and remains still unexplored, this is a strong motivation to 
-pursue the search for additional neutral MSSM Higgs bosons.
+for the  $m_{h}^{mod+}$ updated benchmark scenario. In this scenario a large region of the $m_{A} - \text{tan}\beta$
+parameter space is compatible with the assumption that the observed Higgs boson correspond to the supersymmetric
+SM-like Higgs boson, $h$. A large part of this parameter space is still experimentally unexplored,
+this is a strong motivation to pursue the search for additional neutral MSSM Higgs bosons.
 
 
 \subsection{Signal and Background Processes}
@@ -230,10 +240,6 @@ Signal cross sections are calculated for the $m_{h}^{max}$ scenario shown for
 
 \subsection{Analysis Strategy} \label{sec:strategy}
 
-Searches for neutral MSSM Higgs bosons have been performed at
-LEP~\cite{LEPLimits}, the
-Tevatron~\cite{TevatronLimits1}
-and the LHC~\cite{CMSLimit, ATLASLimit}. 
 
 In this thesis a search for the MSSM 
 $A/h/H \rightarrow \tau^+ \tau^- \rightarrow e \mu +4\nu$ is presented. The $e-\mu$ final state 
