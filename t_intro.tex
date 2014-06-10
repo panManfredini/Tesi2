@@ -1,43 +1,61 @@
-\chapter{The Higgs Bosons and the MSSM}
-This chapter is devoted to introduce the the Minimal Supersymmetric 
-extension of the Standard Model (MSSM) whit focus on  its Higgs sector.
-In section... introduction is given based on~\cite{Altarelli}, 
+\newgeometry{left=4.5cm, right=4.5cm,bottom=4cm, top=4cm}
 
+\chapter{The Higgs Bosons and the MSSM}
+
+ \vspace{2cm}
+
+This chapter is devoted to introduce the theoretical background to the experimental search presented in this thesis.
+A brief overview of the Standard Model of particle physisics is given in Section~\ref{sec:SM} based on Reference~\cite{Altarelli}. 
+Among all the extesion of the Standard Model, the Minimal Supersymmetric 
+extension of the Standard Model (MSSM) is a theoretically favoured scenario as one of the most predictive
+framework beyond the Standard Model, it is introduced in Section~\ref{sec:MSSM} with focus on its Higgs sector and is based on 
+References~\cite{SusyPrimer,Djuadi}.
+Finally, a review of the MSSM Higgs bosons phenomenological aspects, which are relevant to the presented search, is given 
+in Section~\ref{sec:pheno} based on Reference~\cite{LHCxsec}.
+%In section... introduction is given based on~\cite{Altarelli}, 
+%This chapter is devoted to introduce the the Minimal Supersymmetric 
+%extension of the Standard Model (MSSM) whit focus on  its Higgs sector.
+%In section... introduction is given based on~\cite{Altarelli}, 
+
+\restoregeometry
 
 \clearpage
 
-\section{The Standard Model of Particle Physics and its Limitations}
-\subsection{Overview of the SM}
+\section{The Standard Model of Particle Physics} \label{sec:SM}
+\subsection{Introduction}
+A detailed description of the Standard Model of particle physics may be found in Ref.~\cite{Peskin}, only a brief overview is
+given in what follows.
+
 The Standard Model (SM) of particle physics is a theory aimed to describe and quantitatively predict
-the phenomenology of foundamental interaction. At ``microscopic''  level all the phenomenology of matter and 
-radiation can be understood in terms of three classes of foundamental interactions, which are the strong, the electromagnetic
-and the weak interactions, the gravitational force is instead negligible in atomic and nuclear physics (quantum effects in gravity are
-expected to become important at energies corresponding to the Planck mass $E \sim M_{planck} c^2 \sim 10^{19}$ GeV).
-All these interactions (with the exception of gravity) are described by a local relativistic quantum field theory.
-To each particle, described as pointlike, is associated a field with suitable
-(depending on the particle spin) transformation properties under the Lorentz group (the
-relativistic space-time coordinate transformations). The description
-of all these particle interactions is based on a common principle: ``gauge'' invariance. A
-gauge symmetry is invariance under transformations that rotate the basic internal degrees of freedom but
- with rotation angles that depend on the space-time point.
+the phenomenology of foundamental interactions. At ``microscopic''  level the spectrum of all interactions between matter and 
+radiation can be understood in terms of three classes of foundamental forces: the strong, the electromagnetic
+and the weak forces. These interactions are described by a local relativistic quantum field theory, where to each particle
+is associated a field with suitable transformation properties under the Lorentz group.
+The theory is based on the principle of gauge invariance, which means invariance under  a symmetry  transformations    
+that operates on basic internal degrees of freedom and depends on the space-time coordinate.
+The gravitational force is negligible in atomic and nuclear physics, in fact,
+quantum effects of gravity are expected at energies corresponding to the Planck mass $E \sim M_{planck} c^2 \sim 10^{19}$~GeV.
 
-The SM is a gauge field theory based on the symmetry group $SU(3)_c \otimes SU(2)_L \otimes U(1)_Y$. This group has $8+3+1=12$
-generators with a non trivial commutator algebra. The electromagnetic and weak interactions (EW) are described \cite{} by the 
-$SU(2)_L \otimes U(1)_Y$ symmetry group, while the $ SU(3)_c$ is the colour group of the theory of strong interactions (QCD)~\cite{}.
+The SM is a gauge field theory based on the symmetry group $SU(3)_c \otimes SU(2)_L \otimes U(1)_Y$. The group has $8+3+1=12$
+generators with a non trivial commutator algebra. The electromagnetic and weak interactions~\cite{EW1,EW2,EW3}  are described  by the 
+$SU(2)_L \otimes U(1)_Y$ symmetry group, while the $ SU(3)_c$ is the colour group of the theory of strong interactions (QCD)~\cite{qcd1}.
 To each generator of the symmetry group is associated a vector boson which act as mediator of the correspondig interactions.
-Eight gluons are associated to the $ SU(3)_c$ colour generators, while for $SU(2)_L \otimes U(1)_Y$ there are four gauge bosons $W^{\pm}$,
-$Z^0$ and $\gamma$. Of these, only the gluons and the photon are massless since the symmetry induced by the other three generators is
-spontaneusly broken. In the SM the spontaneus symmetry breacking is realized by the Higgs mechanism~\cite{}, the Higgs particle has 
-been recently found at the LHC with $m_H \sim 125$ GeV \cite{} representing one of the major mailstone of particle physics.
+Eight gluons are associated to the $ SU(3)_c$ colour generators, while for four gauge bosons $W^{\pm}$,
+$Z^0$ and $\gamma$ are associated to the generators of $SU(2)_L \otimes U(1)_Y$. 
+Only the gluons and the photon are massless since the symmetry induced by the other three generators is
+spontaneusly broken. In the SM the spontaneus symmetry breaking is realized by the Higgs mechanism~\cite{ENGLERT,HIGGS,HIGGS2,HIGGS3,kibble}.
 The Higgs boson acts as mediator of a new class of interactions that, at tree level, are coupled in proportion to the particle masses.
+An Higgs boson, with properties that resemble the one of the SM, 
+has recently been discovered at the LHC with $m_H \sim 126$~GeV \cite{AHiggsO,CHiggsO} and represents one of the major mailstone of particle physics.
 
-The fermionic (all of spin 1/2) matter fields of the SM are quarks and leptons. 
+The fermionic matter fields of the SM are quarks and leptons. 
 Quarks  are subject to all SM interactions, each type of quark is a colour triplet and carries 
 electroweak charges, in particular electric charges $+2/3$ for up-type quarks and $-1/3$
 for down-type quarks.  Leptons are colourless
 but have electroweak charges, in particular electric charges $-1$ for charged leptons $e$, $\mu$ and $\tau$ (opposite sign charge 
 is intended for respective anti-particle)  and charge 0 for neutrinos $\nu_e$, $\nu_{\mu}$ and $\nu_{\tau}$.
 Qarks and leptons are grouped in three  ``generations'' with equal quantum numbers but different masses.
+
 
 \subsection{Precision Test and Limitation of the SM}
 
@@ -46,11 +64,48 @@ Precision tests~\cite{precisiontest} of the standard electroweak theory performe
 has confirmed the couplings of quark and leptons to the weak gauge bosons $W^{\pm}$  and $Z$ are indeed
 precisely those prescribed by the gauge symmetry. The accuracy of a few per-mille for these
 tests implies that, not only the tree level, but also the structure of quantum corrections has
-been verified. Several other experimental results~\cite{pdg} rare decays and the anomalus magnetic moment of the muon
-provide a test for low-energies of the standard model.
+been verified. Several other experimental results~\cite{pdg} including rare decays and the anomalus magnetic moment of the muon
+provide a test for low-energies of the standard model. The recent discovery of a Higgs boson with mass in perfect agreement with 
+the prediction of the SM~\cite{gfitter}.
 
-%However 
-%In spite of this success, the conceptual situation with the
+In spite of this success, the Standard Model is conceptually unsatisfactory for quite few deficiencies and is
+widely belived to be an effective theory valid only at the present accessible energies. Beside the fact that 
+it does not  include  gravitational force, it does not explaint the pattern of fermion masses and in its simplest 
+version does not include neutrino masses, it ha at least other three conceptual problems which indicates the need 
+for physics Beyond the Standard Model (BSM):
+\begin{itemize}
+\item Calculating the radiative correction to the Higgs boson mass, quadratic divergencies of the order  
+	of the cut-off scale $\Lambda$ occur, where  $\Lambda$ defines  the energy
+	beyond which the theory ceases to be valid and new physics should appear~\cite{Djuadi4}. If the cut-off is choosen 
+	to be $\sim M_{Planck}$, then an 
+	unnatural fine tunig should occur to cancell these divergencies leaving the Higgs boson with a mass of the order of the electroweak breaking scale, $M_{EW}$.
+	A question that has no satisfactory answer in the SM is how these cancellations can occur and why $\Lambda >> M_{EW}$, these problems are
+	called the fine-tuning and hierarchy problem~\cite{Hierarchy1,Hierarchy2,Hierarchy3}.
+	%Supersymmetry was first introduced to answer this question, indeed, the new symmetry prevents the Higgs boson mass to acquire very large 
+	%radiative corrections, the quadratic divergent loop of the SM particles are exactly canceled by the loop contribution 
+	%of the corresponding partners, solving in this way the hierarchy problem~\cite{Djuadi5}.
+
+\item   The SM does not have a candidate which can explain the large contribution 
+	of non-barionic, non-luminous matter to the density of the Universe~\cite{darkmatter1,darkmatter2,darkmatter3}. To be a Dark Matter candidate a particle should be
+	stable, massive and should interact only via very weak interactions. 
+	%Supersymmetry models,  provided with R-parity consevation,
+	%provides a natural candidate for Dark Matter, which would be then the lighest SUSY particle which cannot further decay.
+
+\item Another unsatisfactory aspect of the SM is that does not provide the unification of the electroweak and strong interactions,
+	their couplings do not meet at high energies. Considering the successfull unification of electromagnetic and weak
+	interaction, the existence of Grand Unified Theory (GUT) has been 
+	suggested~\cite{GUT1,GUT2}, which predicts the unification of all the three gauge coupling strenght at the GUT energy scale,
+	$\Lambda_{GUT} \simeq 10^{16}$~GeV and describes the three forces within a single gauge group with just one coupling constant.
+	%The particle spectrum in SUSY, instead, contributes to the renormalizzation group evolution of the three gauge couplings constants and 
+	%favours them to meet at energies around $10^{16}$ GeV~\cite{djuadi4}. 
+
+\end{itemize}
+Among all the extension of the SM, Supersymmetry is a theoretically favoured scenario as the most predictive framework beyond the Standard Model.
+As discussed in Section~\ref{sec:MSSM}, it gives a natural answer to the hierarchy problem, provides a suitable candidate for Dark Matter
+and predicts unification of the three gauge couplings at GUT energy scale.
+
+
+% the conceptual situation with the
 %standard model is unsatisfactory for quite a few deficiencies:
 %– the smallness of the electroweak scale v ∼ 246GeV << MPl (the ‘hierarchy problem’);
 %– the large number of free parameters (gauge couplings,
@@ -66,22 +121,24 @@ provide a test for low-energies of the standard model.
 %-neutrino masses
 
  
-\section{The Minimal Supersymmetric Standard Model}
-\subsection{Introduction}
-Supersymmetry (SUSY) was first introduced since it offer a natural way to solve the hierarchy problem....\cite{}
-This is achieved by introducing a symmetry transformation that relates bosons with fermions. The SUSY generators $\mathcal{Q}$ 
-transforms fermion into bosons and vice versa:
+\section{The Minimal Supersymmetric Standard Model}\label{sec:MSSM}
+\subsection{Introduction to the MSSM}
+Supersymmetry (SUSY)~\cite{Susy1,Susy2,Susy3} was first introduced since as a natural way to solve the hierarchy problem.
+The SUSY generators $\mathcal{Q}$ transforms fermion into bosons and vice versa:
 \begin{equation}
 \mathcal{Q}|\text{Fermion}\rangle = |\text{Boson}\rangle, ~ ~ ~ \mathcal{Q}|\text{Boson}\rangle = |\text{Fermion}\rangle
 \end{equation}
-This is suggesting that in a supersymmetric extesion of the SM \cite{page7Martins} each of the known foundamental particles 
+This is suggesting that in a supersymmetric extesion of the SM  each of the known foundamental particles 
 is in either a chiral or gauge ``supermultiplet'' and must have a superpartner with spin differing by 1/2 unit.
-Fermions since the left-handed and right-handed component transform differently under gauge transformations also their superpartner 
-should maintain this property, the name of the superpartner of the quarks and leptons are made by adding an ``s'' to the SM name, standing for scalar.
+In this way, the quadratic divergent loop contribution to the Higgs mass of the SM 
+particles are canceled by the loop contribution of the corresponding partners. 
+Since the left-handed and right-handed components of fermions transform differently under gauge transformations also their superpartner 
+should maintain this property. The name of the superpartner of the quarks and leptons are made by adding an ``s'' to the SM name, standing for scalar.
 Accordingly, the gauge bosons related to the generator of the group $SU(3)_c \otimes SU(2)_L \otimes U(1)_Y$ should also have a spin 1/2 partner,
 whose name will be made by adding a ``ino'' at the end of the SM name. The symbol of superpartners is defined by adding a ($\tilde{ ~ }$) to the SM symbol.
 
-The  Minimal Supersymmetric extension of the Standard Model  (MSSM)~\cite{page11Djuadi}, is defined by requiring the minimal gauge group (i.e., the SM one)
+The  Minimal Supersymmetric extension of the Standard Model  (MSSM)~\cite{MSSM1,MSSM2,MSSM3,MSSM4,MSSM5,MSSM6}, 
+is defined by requiring the minimal gauge group (i.e., the SM one)
 and the minimal particle content: three generation of fermions (without right-handed neutrinos), gauge bosons and two Higgs doublet, 
 each with its superpartners. Tables~\ref{tab:chiralsup} and~\ref{tab:gaugesup} summarize chiral and gauge supermultiplets in the MSSM.
 This guys will mix to form neutralino and chargino....
@@ -183,9 +240,9 @@ masses~\cite{djuadiPage6}, which cause the costraint on the mass of $h$ to move 
 Another restriction, coming from GUT assumptions gives $1 \apprle \tan \beta \apprle m_t/m_b$ ~\cite{sebpage27}.
 
 
-\section{Neutral Higgs Bosons Phenomenology in the MSSM}
+\section{Neutral Higgs Bosons Phenomenology in the MSSM}\label{sec:pheno}
 
-\subsection{MSSM Higgs Couplings with SM Particles}
+\subsection{MSSM Higgs Couplings with SM Particles}\label{sec:couplings}
 The phenomenology of the MSSM Higgs bosons is enclused in their couplings with standard model and supersymmetric particles, 
 a short overview of the former, based onthe review~\cite{Djuadi}, is given in this section.
 
@@ -228,18 +285,174 @@ to SUSY particles refer to~\cite{Djuadi}.
 
 The MSSM Higgs bosons couplings with isospin up-type $u$, and down-type $d$ fermions also depend on $\tan\beta$ and may be written
 as follows:
+\begin{small}
 \begin{align*}
 G_{huu} ~\propto ~ & m_u [\sin(\beta - \alpha)  + \cot\beta \cos(\beta - \alpha)], & G_{hdd} ~\propto ~ & m_u [\sin(\beta - \alpha)  - \tan\beta \cos(\beta - \alpha)]\\
 G_{Huu} ~\propto ~& m_u [\cos(\beta - \alpha)  - \cot\beta \sin(\beta - \alpha)], & G_{Hdd} ~\propto~  & m_d [\cos(\beta - \alpha)  + \tan\beta \sin(\beta - \alpha)]\\
 G_{Auu} ~ \propto ~ & m_u  \cot\beta, & G_{Add} ~ \propto ~ & m_d \tan\beta 
 \end{align*} 
-Then the couplings of 
-
-
+\end{small}
+Then the couplings with down-type (up-type) fermions of either the $h$ or $H$ boson is enhanced (suppressed) by a factor $\tan\beta$, depending
+on the magnitude of $\cos(\beta - \alpha)$ or $\sin(\beta - \alpha)$, while the coupling of $A$ boson with down-type (up-type) fermions are directly 
+enhanced (suppressed) by $\tan\beta$.
 
 
 \subsection{MSSM Higgs Benchmark Scenarios}
+In the MSSM  the Higgs sector is fully determined at tree level by two free parameter by convention chosen to be $M_A$ and $\tan\beta$, 
+meaning that the Higgs bosons masses, decay branching fraction and production cross section are all determined. However, radiative corrections
+contribute significantly to the Higgs masses~\cite{sebThesis26}, these physical quatintity becomes dependent on several other parameters.
+The main corrections arises from the top-stop quark sector, and fro large $\tan\beta$ also from the bottom-sbottom quark sector,
+and in general dependent on the SUSY-breacking scale $M_{SUSY}$, the trilinear Higgs Yukawa couplings.
 
-\subsection{MSSM Higgs Production and Decay at the LHC}
+Due to the large number of free parameters, a complete scan of the MSSM parameter space is impractical in experimental analysis and phenomenological
+studies. Several benchmark scenarios has been proposed~\cite{LHCxsec}, where the SUSY parameters, entering via radiative corrections, 
+are fixed to particular benchmark values which exibit interesting features of the MSSM Higgs phenomenology, while the parameters 
+$M_A$ and $\tan\beta$ are left free to vary, and usually results are presented in a $M_A-\tan\beta$ plane.
+
+One of the most interesting benchmark scenarios is the $m_h^{max}$ benchmark scenario~\cite{seb26}, where the parameter that contributes to radiative
+corrections are fixed such that the mass of the light CP-even Higgs boson, $M_h$, is maximal under the variation of $M_A$ and $\tan\beta$. This
+scenario allows to set conservative lower bounds on $M_A$, $M_H^{\pm}$ and $\tan\beta$~\cite{Xsec243}. This scenario was used in the past 
+to set limits at LEP, Tevatron and LHC~\cite{LEPLimits,TevatronLimits1,CMSLimit,ATLASLimit}, 
+however, given the recent discovery of a Higgs boson with mass \~125.5 GeV, this scenario
+tend to predict a too high mass for $M_h$, resulting to be, for large part of the parameter space, inconsistent with this observation
+by roughly two $\sigma$. The mass of $M_h$ is bounded to be $M_h < 135$ GeV.
+
+An interesting up-to-date benchmark scenario is the $m_h^{mod\pm}$ benchmark scenario, where departing from the parameter configuration of the $m_h^{max}$
+the amount of mixing in the stop sector is reduced and has the feature of predict that the lightest CP-even Higgs boson should have a mass
+$M_h \simeq 125.5 \pm 3 $ GeV. The low-$M_H$ benchmark scenario is complementary to the  $m_h^{mod\pm}$, in this scenario, the observed 
+Higgs boson is instead interpreted as the heavy CP-even Higgs boson of the MSSM, implying that $h$ and $A$ should have relatively small mass.
+For an overview of the interesting benchmark scenario refer to~\cite{LHCxsec}. 
+
+
+The $m_h^{max}$ benchmark scenario has been used throughout this thesis, since it provides a model that can be compared with past exclusion limits
+and it has been shown that experimentally, the resolution to the Higgs mass in the $\tau\tau$ decay mode is not enough to distinguish between
+the $m_h^{max}$ scenario and an updated  scenario in which $M_h \simeq 125.5 \pm 3 $ GeV for all the points in the parameter space. More over
+it is a ``general purpose'' scenario in which exclusion limits can be assesed from low to very large value of $M_A$, which is not the case
+otherwise due to the Higgs masses hierarchy.
+
+
+ 
+
+
+\subsection{Neutral MSSM Higgs Bosons Production and Decay at LHC}
+For large region of the MSSM parameter space a SM-like Higgs boson is expected, usually identified with the lightest 
+CP-even Higgs boson, $h$. 
+Given the Higgs bosons couplings discussed in Section~\ref{sec:couplings} tourns out that, in this case, $H$ and $A$, 
+tend to be degenerate in mass and decouple from gauge bosons. Furthermore the coupling of the latter
+two Higgses with down (up) type fermions are enhanced (suppressed) by $\tan\beta$, therefore, for large $\tan\beta$
+bottom-quark and $\tau$ lepton will play a more important role than in
+the SM case either for production and decay. 
+
+\begin{figure}[tp]
+     \begin{center}
+
+            \includegraphics[width=0.5\textwidth]{figure/br.png}
+
+    \end{center}
+    \caption{Branching fraction for the MSSM neutral higgses $h/H/A$ in the $m_h^{max}$ scenario.}
+   \label{fig:br}
+
+\end{figure}
+
+The production of the neutral $CP$-even MSSM Higgs bosons at hadron
+colliders proceeds via the same processes as for the SM Higgs
+production. However, the pseudoscalar $A$ instead cannot be produced
+in association with gauge bosons or in vector boson fusion (VBF) at
+tree-level, as this coupling is forbidden due to $CP$-invariance.  At
+the LHC one of the most relevant production mechanisms for the MSSM
+Higgs bosons is gluon-gluon fusion, $gg\rightarrow A/H/h$. In
+addition, the production in association with $b$-quarks becomes
+important for large value of $\tan\beta$. Those are the two production mechanism
+that are considered in this analysis, Figure~\ref{fig:prod} shows the Feynman-diagram
+for those processes, while Figure~\ref{fig:xsec} shows the production cross section of the neutral 
+MSSM Higgses via these two processes in the $m_h^{max}$ scenario.
+
+
+The decays of the neutral
+MSSM Higgs bosons (in the assumption that all supersymmetric particle
+are heavy enough) are the same as for the SM one with the already
+cited exception of $A$. Figure~\ref{fig:xsec} shows the decay branching fractions
+for $H$ and $A$ as a function of the mass, 
+the decay into tau pair is the most important after $b\bar{b}$ and the one used in this thesis. 
+
+
+\begin{figure}[tp]
+     \begin{center}
+
+            \includegraphics[height=3cm]{figure/blank.pdf}
+            \includegraphics[height=3cm]{figure/blank.pdf}
+
+    \end{center}
+    \caption{Feynman diagram for b-associated production and gluon-gluon fusion for MSSM neutral Higgs.}
+   \label{fig:prod}
+\end{figure}
+
+\begin{figure}[tp]
+     \begin{center}
+
+            \includegraphics[width=\textwidth]{figure/xsec.png}
+
+    \end{center}
+    \caption{Production cross section for the \emph{h/H/A} MSSM neutral Higgs bosons via b-associated production and
+	gluon-gluon fusion production mode. The calculation are for the $m_h^{max}$ scenario and for $\tan \beta=5$ (left) and $\tan \beta=30$ (right).}
+   \label{fig:xsec}
+\end{figure}
+
+
+
+
+\subsection{Current Status of the Seacrh for Neutral MSSM Higgs Bosons}
+
+The measure of the couplings of the found SM-like Higgs boson can shed light on the Higgs sector and determine if this boson
+is fully responsable for the generation of all the SM particles masses. 
+%In fact, the couplings are sensitive to new physics,
+%given the unitarity property of scattering aplitudes for longitudinal vectors and fermions, 
+There are then two approaches to explore the Higgs sector: one, is to use the measured Higgs couplings with SM particles to 
+set constraint on new physics, while the other is to directly search for additional Higgses in a well defined model, like in this case the MSSM.
+
+In case the SM-like Higgs boson is interpreted as the light CP-even Higgs boson of the MSSM, the couplings of the Higgs boson 
+to vector bosons ($k_V$), up-type fermions ($k_u$) and down-type fermions ($k_d$), can be expressed as a ratio to the corresponding SM expectation
+and this allow to set exclusion limits in the $m_A - \tan\beta$ plane~\cite{AtlasConstraint}. Figure~\ref{fig:ex1} shows the exclusion limits in a 
+``simplified MSSM'' model~\cite{atlasCostraint11} via fits to the measured rates of Higgs boson production and decay.
+
+ 
+\begin{figure}[tp]
+     \begin{center}
+
+            \includegraphics[height=5cm]{figure/limits/constraintAtlas.pdf}
+
+    \end{center}
+    \caption{Regions of the  $m_A - \tan\beta$ plane excluded in a simplified MSSM model via fits to the measured
+%rates of Higgs boson production and decays. The likelihood contours where $−2 \ln \Lambda = 6.0$, corresponding
+approximately to 95\% CL ($2\sigma$), are indicated for the data and expectation assuming the SM Higgs sector.
+The light shaded and hashed regions indicate the observed and expected exclusions, respectively. The
+SM decoupling limit is $m_A \rightarrow \infty$. See Reference~\cite{AtlasConstraint}.}
+
+   \label{fig:ex1}
+\end{figure}
+
+
+The current latest constraint on $m_A - \tan\beta$  by direct search of neutral MSSM Higgs bosons are instead shown in Figure~\ref{}
+and are part of the work of this thesis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

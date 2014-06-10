@@ -1,11 +1,6 @@
 %\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{}
 \begin{thebibliography}{}
 
-\bibitem{Hollik}
-  W.~Hollik,  \emph{``Electroweak theory,''}  hep-ph/9602380.
-
-\bibitem{Peskin}
-Michael E. Peskin, Dan V. Schroeder, \emph{An Introduction To Quantum Field Theory}, Westview Press, 1995.
 
 \bibitem{Altarelli}
   G.~Altarelli,
@@ -21,6 +16,65 @@ S.~P.~Martin,
 \bibitem{Djuadi}
 A. Djouadi, \emph{The Anatomy of Electroweak Symmetry Breaking — Tome II: The Higgs
 Bosons in the Minimal Supersymmetric Model}, Phys. Rep. 459 (2008) 1.
+
+\bibitem{LHCxsec}
+  S. Heinemeyer {\it et al.}  [LHC Higgs Cross Section Working Group Collaboration],
+  ``Handbook of LHC Higgs Cross Sections: 3. Higgs Properties,''
+  arXiv:1307.1347 [hep-ph].
+
+\bibitem{Peskin}
+Michael E. Peskin, Dan V. Schroeder, \emph{An Introduction To Quantum Field Theory}, Westview Press, 1995.
+
+\bibitem{EW1}
+S. L. Glashow, Partial Symmetries of Weak Interactions, Nuc. Phys. 22 (1961) 579.
+
+\bibitem{EW2}
+A. Salam, Weak and Electromagnetic Interactions, Conf. Proc. C 680519 (1968)
+367. Originally printed in Svartholm: Elementary Particle Theory, proceedings of
+the Nobel Symposium held 1968 at Lerum, Sweden.
+
+\bibitem{EW3}
+S. Weinberg, A Model of Leptons, Phys. Rev. Lett. 19 (1967) 1264.
+
+\bibitem{qcd1}
+H. Fritsch, M. Gell-Mann, and H. Leutwyler, Advantages of the Color Octet Gluon
+Picture, Phys. Lett. B 47 (1973) 365.
+
+\bibitem{ENGLERT}
+F.~Englert and R.~Brout, {\em {Broken Symmetry and the Mass of Gauge Vector
+  Mesons}\/},  Phys. Rev. Lett. {\bf 13} (1964)  321.
+
+\bibitem{HIGGS}
+P.~W. Higgs, {\em {Broken symmetries, massless particles and gauge fields}\/},
+  Phys. Lett. {\bf 12} (1964)  132.
+
+\bibitem{HIGGS2}
+P.~W. Higgs, {\em {Broken Symmetries and the Masses of Gauge Bosons}\/},  Phys.
+  Rev. Lett. {\bf 13} (1964)  508.
+
+\bibitem{HIGGS3}
+P.~W. Higgs, {\em {Spontaneous Symmetry Breakdown without Massless Bosons}\/},
+  Phys. Rev. {\bf 145} (1966)  1156.
+
+\bibitem{kibble}
+T. W. B. Kibble, Symmetry Breaking in Non–Abelian Gauge Theories, Phys. Rev.
+155 (1967) 1554.
+	
+\bibitem{AHiggsO}
+The ATLAS Collaboration, {\em Observation of a new particle in the search for the
+  Standard Model Higgs boson with the ATLAS detector at the LHC\/},  Physics
+  Letters B {\bf 716} (2012)  1--29.
+
+\bibitem{CHiggsO}
+The CMS Collatoration, {\em Observation of a new boson at a mass of 125 GeV with
+  the CMS experiment at the LHC\/},  Physics Letters B {\bf 716} (2012)
+  30--61.
+
+
+
+\bibitem{Hollik}
+  W.~Hollik,  \emph{``Electroweak theory,''}  hep-ph/9602380.
+
 
 \bibitem{pdg}
 The Review of Particle Physics,
@@ -40,36 +94,91 @@ winter conferences, March 2012.
   Phys.\ Rept.\  {\bf 403-404} (2004) 189
   [hep-ph/0404165].
 
+\bibitem{gfitter}
+The Gfitter Group, M. Baak, et al., Updated Status of the Global Electroweak Fit
+And constraints on New Physics, Eur. Phys. J. C 72 (2012) 2003. Updated for 2012
+winter conferences, March 2012, http://gfitter.desy.de.
+
+
+\bibitem{Hierarchy1}
+S. Weinberg, Gauge Hierarchies, Phys. Lett. B 82 (1979) 387.
+
+\bibitem{Hierarchy2}
+M. Veltman, The Infrared–Ultraviolet Connection, Acta Phys. Polon. B 12 (1981)
+437.
+\bibitem{Hierarchy3}
+C. Smith and G. Ross, The Real Gauge Hierarchy Problem, Phys. Lett. B 105
+(1981) 38.
+
+\bibitem{darkmatter1}
+F. Zwicky, Spectral Displacement of Extra Galactic Nebulae, Helv. Phys. Acta 6
+(1933) 110.
+
+\bibitem{darkmatter2}
+E. W. Kolb and M. S. Turner, The Early Universe, Front. Phys. 69 (1990) 1.
+
+\bibitem{darkmatter3}
+The WMAP Collaboration, D. N. Spergel et al., First Year Wilkinson Microwave
+Anisotropy Probe (wmap) Observations: Determination of Cosmological Parameters,
+Astrophys. J. Suppl. 148 (2003) 175.
+
+\bibitem{GUT1}
+H. M. Georgi and S. L. Glashow, Unity of All Elementary–Particle Forces, Phys.
+Rev. Lett. 32 (1974) 438.
+
+\bibitem{GUT2}
+J. C. Pati and A. Salam, Lepton Number as the Fourth “Color”, Phys. Rev. D 10
+(1974) 275.
+
+\bibitem{Susy1}
+P. Fayet, Phys. Lett. B 64, 159 (1976).
+\bibitem{Susy2}
+P. Fayet, Phys. Lett. B 69, 489 (1977), Phys. Lett. B 84, 416 (1979).
+
+\bibitem{Susy3}
+G.R. Farrar and P. Fayet, Phys. Lett. B 76, 575 (1978).
+
+\bibitem{MSSM1}
+S. Martin, in Perspectives on Supersymmetry, Ed. G.L. Kane, World Scientific, Singa-
+pore, 1998, hep-ph/9709356.
+
+\bibitem{MSSM2}
+For reviews on the MSSM, see: P. Fayet and S. Ferrara, Phys. Rep. 32 (1977) 249;
+H.P. Nilles, Phys. Rep. 110 (1984) 1; R. Barbieri, Riv. Nuovo Cim. 11N4 (1988) 1; R.
+Arnowitt and Pran Nath, Report CTP-TAMU-52-93; J. Bagger, Lectures at TASI-95,
+hep-ph/9604232.
+
+\bibitem{MSSM3}
+H. E. Haber and G. Kane, Phys. Rep. 117 (1985) 75.
+
+\bibitem{MSSM4}
+M. Drees and S. Martin, CLTP Report (1995) and hep-ph/9504324.
+
+\bibitem{MSSM5}
+D.J.H. Chung, L.L. Everett, G.L. Kane, S.F. King, J. Lykken and L.T. Wang, Phys.
+Rept. 407 (2005) 1.
+
+\bibitem{MSSM6}
+M. Drees, R.M. Godbole and P. Roy, Theory and Phenomenology of Sparticles, World
+Scientific, Spring 2004.
+
+
 \bibitem{LHC}
 L.~Evans and P.~Bryant, {\em {LHC Machine}\/},  JINST {\bf 3} (2008)  S08001.
 
-\bibitem{ENGLERT}
-F.~Englert and R.~Brout, {\em {Broken Symmetry and the Mass of Gauge Vector
-  Mesons}\/},  Phys. Rev. Lett. {\bf 13} (1964)  321.
 
-\bibitem{HIGGS}
-P.~W. Higgs, {\em {Broken symmetries, massless particles and gauge fields}\/},
-  Phys. Lett. {\bf 12} (1964)  132.
-
-\bibitem{HIGGS2}
-P.~W. Higgs, {\em {Broken Symmetries and the Masses of Gauge Bosons}\/},  Phys.
-  Rev. Lett. {\bf 13} (1964)  508.
-
-\bibitem{HIGGS3}
-P.~W. Higgs, {\em {Spontaneous Symmetry Breakdown without Massless Bosons}\/},
-  Phys. Rev. {\bf 145} (1966)  1156.
 
 \bibitem{Guralnik:1964eu}
 {G.~S.~Guralnik, C.R.~ Hagen and T.~W.~B.~Kibble} Phys.Rev.Lett. {\bf 13}
   (1964)  585.
 
-\bibitem{MSSM1}
-N.~P. Nilles, {\em {Supersymmetry, supergravity and particle physics}\/},
-  Phys. Rep. {\bf 110} (1984)  1.
+%\bibitem{MSSM1}
+%N.~P. Nilles, {\em {Supersymmetry, supergravity and particle physics}\/},
+%  Phys. Rep. {\bf 110} (1984)  1.
 
-\bibitem{MSSM2}
-H.~E. Haber and G.~L. Kane, {\em {The search for supersymmetry: Probing physics
-  beyond the standard model}\/},  Phys. Rep. {\bf 117} (1985)  75.
+%\bibitem{MSSM2}
+%H.~E. Haber and G.~L. Kane, {\em {The search for supersymmetry: Probing physics
+%  beyond the standard model}\/},  Phys. Rep. {\bf 117} (1985)  75.
 
 \bibitem{LEPLimits}
 {{ALEPH, DELPHI, L3 and OPAL}} Collaboration, {\em {Search for neutral MSSM
@@ -122,6 +231,10 @@ H.~E. Haber and G.~L. Kane, {\em {The search for supersymmetry: Probing physics
   with the ATLAS detector}\/},
 \href{http://arxiv.org/abs/1211.6956}{{\tt arXiv:1211.6956 [hep-ex]}}.
 %%CITATION = ARXIV:1211.6956;%%.
+
+\bibitem{AtlasConstraint}
+{The ATLAS Collaboration }, \emph{ Constraints on New Phenomena via Higgs Boson Coupling Measurements
+with the ATLAS Detector.} ATLAS-CONF-2014-010.
 
 
 \bibitem{theo125}
@@ -203,10 +316,6 @@ T.~Gleisberg et al., {\em {Event generation with SHERPA 1.1}\/},  JHEP {\bf 02}
   %%CITATION = ARXIV:1007.2241;%%
   %556 citations counted in INSPIRE as of 14 May 2013
 
-\bibitem{LHCxsec}
-  S. Heinemeyer {\it et al.}  [LHC Higgs Cross Section Working Group Collaboration],
-  ``Handbook of LHC Higgs Cross Sections: 3. Higgs Properties,''
-  arXiv:1307.1347 [hep-ph].
 
 \bibitem{MSSMmhmax}
 {M. Carena, S. Heinemeyer, C. E. M. Wagner, and G. Weiglein}, {\em {Suggestions
@@ -407,15 +516,6 @@ CERN, 2012.
 M. Dobbs and J.B. Hansen, \emph{“The HepMC C++ Monte Carlo Event Record for High Energy
 Physics”}, Computer Physics Communications, ATL-SOFT-2000-001.
 
-\bibitem{AHiggsO}
-The ATLAS Collaboration, {\em Observation of a new particle in the search for the
-  Standard Model Higgs boson with the ATLAS detector at the LHC\/},  Physics
-  Letters B {\bf 716} (2012)  1--29.
-
-\bibitem{CHiggsO}
-The CMS Collatoration, {\em Observation of a new boson at a mass of 125 GeV with
-  the CMS experiment at the LHC\/},  Physics Letters B {\bf 716} (2012)
-  30--61.
 
 \bibitem{ASpin0}
 The ATLAS Collaboration, \emph{ Evidence for the spin-0 nature of the Higgs boson using ATLAS data },
