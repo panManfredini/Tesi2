@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.14)  10 JUN 2014 23:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  11 JUN 2014 20:00
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -479,109 +479,68 @@ Chapter 1.
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 77.
- (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
+
+LaTeX Warning: Citation `Djuadi4' on page 5 undefined on input line 80.
 
 
-LaTeX Warning: Citation `Djuadi4' on page 5 undefined on input line 79.
-
-
-Overfull \hbox (11.63745pt too wide) in paragraph at lines 124--124
+Overfull \hbox (11.63745pt too wide) in paragraph at lines 127--127
 []\OT1/cmr/bx/n/17.28 The Min-i-mal Su-per-sym-met-ric Stan-dard Model 
  []
 
 
-Underfull \vbox (badness 6188) has occurred while \output is active []
+Underfull \vbox (badness 7685) has occurred while \output is active []
 
  [5]
+[6] [7] [8]
+Overfull \hbox (17.79619pt too wide) in paragraph at lines 244--248
+\OT1/cmr/m/n/12 These re-la-tions are bro-ken by large ra-dia-tive cor-rec-tion
+s to the Higgs bosons masses [[]46[]],
+ []
 
-LaTeX Warning: Citation `djuadi12' on page 6 undefined on input line 186.
-
-[6]
-
-LaTeX Warning: Citation `djuadipage5orBetterPage12' on page 7 undefined on inpu
-t line 204.
-
-
-LaTeX Warning: Citation `djuadiPage5' on page 7 undefined on input line 206.
-
-
-LaTeX Warning: Citation `djuadi5' on page 7 undefined on input line 207.
-
-
-LaTeX Warning: Citation `djouadiP21' on page 7 undefined on input line 214.
-
-
-LaTeX Warning: Citation `djouadiP21' on page 7 undefined on input line 215.
-
-[7]
-
-LaTeX Warning: Citation `djuadiP22' on page 8 undefined on input line 219.
-
-
-LaTeX Warning: Citation `djuadiPage6' on page 8 undefined on input line 239.
-
-
-LaTeX Warning: Citation `sebpage27' on page 8 undefined on input line 240.
-
-<figure/blank.pdf, id=247, 796.9775pt x 597.23125pt>
+<figure/blank.pdf, id=282, 796.9775pt x 597.23125pt>
 File: figure/blank.pdf Graphic file (type pdf)
  <use figure/blank.pdf>
 File: figure/blank.pdf Graphic file (type pdf)
 
 <use figure/blank.pdf>
 File: figure/blank.pdf Graphic file (type pdf)
- <use figure/blank.pdf> [8]
-Overfull \hbox (4.12843pt too wide) in paragraph at lines 293--293
+ <use figure/blank.pdf> [9 <./figure/blank.pdf>]
+Overfull \hbox (4.12843pt too wide) in paragraph at lines 304--304
 [] 
  []
 
 
-LaTeX Warning: Citation `sebThesis26' on page 9 undefined on input line 303.
+LaTeX Warning: Citation `Xsec243' on page 10 undefined on input line 327.
 
-[9 <./figure/blank.pdf>]
-
-LaTeX Warning: Citation `seb26' on page 10 undefined on input line 312.
-
-
-LaTeX Warning: Citation `Xsec243' on page 10 undefined on input line 314.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-<figure/br.png, id=300, 679.03688pt x 1873.7503pt>
+[10] <figure/br.png, id=331, 679.03688pt x 1873.7503pt>
 File: figure/br.png Graphic file (type png)
  <use figure/br.png>
-File: figure/blank.pdf Graphic file (type pdf)
-
-<use figure/blank.pdf>
+[11] [12 <./figure/br.png (PNG copy)>]
 File: figure/blank.pdf Graphic file (type pdf)
  <use figure/blank.pdf>
-<figure/xsec.png, id=304, 695.59875pt x 328.22626pt>
+File: figure/blank.pdf Graphic file (type pdf)
+
+<use figure/blank.pdf> <figure/xsec.png, id=348, 695.59875pt x 328.22626pt>
 File: figure/xsec.png Graphic file (type png)
- <use figure/xsec.png>
-Overfull \hbox (0.60918pt too wide) in paragraph at lines 404--404
+
+<use figure/xsec.png>
+Overfull \hbox (0.60918pt too wide) in paragraph at lines 418--418
 []\OT1/cmr/bx/n/14.4 Current Sta-tus of the Seacrh for Neu-tral MSSM Higgs
  []
 
 
-LaTeX Warning: Citation `atlasCostraint11' on page 11 undefined on input line 4
-16.
+LaTeX Warning: Citation `atlasCostraint11' on page 13 undefined on input line 4
+30.
 
-<figure/limits/constraintAtlas.pdf, id=307, 569.12625pt x 387.4475pt>
+[13 <./figure/xsec.png (PNG copy)>]
+<figure/limits/constraintAtlas.pdf, id=356, 569.12625pt x 387.4475pt>
 File: figure/limits/constraintAtlas.pdf Graphic file (type pdf)
 
 <use figure/limits/constraintAtlas.pdf>
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 435.
+LaTeX Warning: Reference `' on page 14 undefined on input line 449.
 
-) (./a_strategy.tex [11] [12 <./figure/br.png (PNG copy)>] [13 <./figure/xsec.p
-ng (PNG copy)> <./figure/limits/constraintAtlas.pdf>]
+) (./a_strategy.tex [14 <./figure/limits/constraintAtlas.pdf>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -614,10 +573,7 @@ ng (PNG copy)> <./figure/limits/constraintAtlas.pdf>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [14
 
-
-]
 Chapter 2.
 
 LaTeX Warning: Reference `sec:Systematics' on page 15 undefined on input line 3
@@ -626,7 +582,10 @@ LaTeX Warning: Reference `sec:Systematics' on page 15 undefined on input line 3
 
 LaTeX Warning: Reference `sec:result' on page 15 undefined on input line 39.
 
-[15] [16] <figure/mh_mod.png, id=361, 630.10406pt x 535.2497pt>
+[15
+
+
+] [16] <figure/mh_mod.png, id=393, 630.10406pt x 535.2497pt>
 File: figure/mh_mod.png Graphic file (type png)
 
 <use figure/mh_mod.png>
@@ -639,7 +598,7 @@ LaTeX Warning: Reference `chap:theory' on page 17 undefined on input line 100.
  <./figure/mh_mod.png (PNG copy)>] [18] [19] [20]
 Overfull \hbox (6.80835pt too wide) in paragraph at lines 328--345
 \OT1/cmr/m/n/12 er-a-tor. The single-top (s-channel, $\OML/cmm/m/it/12 Wt$\OT1/
-cmr/m/n/12 ) pro-cesses were gen-er-ated us-ing MC@NLO [[]51[]],
+cmr/m/n/12 ) pro-cesses were gen-er-ated us-ing MC@NLO [[]61[]],
  []
 
 
@@ -648,26 +607,26 @@ LaTeX Warning: Reference `chap:obj' on page 21 undefined on input line 351.
 
 Overfull \hbox (25.55605pt too wide) in paragraph at lines 350--355
 []\OT1/cmr/m/n/12 The AT-LAS de-tec-tor re-sponse is sim-u-lated for all the MC
- sam-ples us-ing GEANT4 [[]64[],
+ sam-ples us-ing GEANT4 [[]73[],
  []
 
 [21]
 
 LaTeX Warning: Reference `chap:obj' on page 22 undefined on input line 393.
 
-[22] <figure/std_plots_presel.pdf, id=457, page=11, 569.12625pt x 408.52625pt>
+[22] <figure/std_plots_presel.pdf, id=489, page=11, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 11>
-<figure/std_plots_presel.pdf, id=458, page=12, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=490, page=12, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 12>
-<figure/std_plots_presel.pdf, id=459, page=9, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=491, page=9, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 9>
-<figure/std_plots_presel.pdf, id=460, page=10, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=492, page=10, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 10>
@@ -678,15 +637,15 @@ Underfull \vbox (badness 6380) has occurred while \output is active []
 lots_presel.pdf, page is rotated 90 degrees> <./figure/std_plots_presel.pdf, pa
 ge is rotated 90 degrees> <./figure/std_plots_presel.pdf, page is rotated 90 de
 grees>] [25]
-<figure/std_plots_mass.pdf, id=532, page=1, 569.12625pt x 408.52625pt>
+<figure/std_plots_mass.pdf, id=564, page=1, 569.12625pt x 408.52625pt>
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
 
 <use figure/std_plots_mass.pdf, page 1>
-<figure/std_plots_mass.pdf, id=533, page=7, 569.12625pt x 408.52625pt>
+<figure/std_plots_mass.pdf, id=565, page=7, 569.12625pt x 408.52625pt>
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
 
 <use figure/std_plots_mass.pdf, page 7>
-<figure/std_plots_mass.pdf, id=534, page=6, 569.12625pt x 408.52625pt>
+<figure/std_plots_mass.pdf, id=566, page=6, 569.12625pt x 408.52625pt>
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
 
 <use figure/std_plots_mass.pdf, page 6>
@@ -694,49 +653,49 @@ File: figure/std_plots_mass.pdf Graphic file (type pdf)
 LaTeX Warning: Float too large for page by 0.45992pt on input line 675.
 
 ) (./a_bkg_modeling.tex
-<figure/std_plots_presel.pdf, id=540, page=5, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=572, page=5, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 5>
-<figure/std_plots_presel.pdf, id=541, page=7, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=573, page=7, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 7>
-<figure/std_plots_presel.pdf, id=542, page=2, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=574, page=2, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 2>
-<figure/std_plots_presel.pdf, id=543, page=4, 569.12625pt x 408.52625pt>
+<figure/std_plots_presel.pdf, id=575, page=4, 569.12625pt x 408.52625pt>
 File: figure/std_plots_presel.pdf Graphic file (type pdf)
 
 <use figure/std_plots_presel.pdf, page 4> [26] [27 <./figure/std_plots_mass.pdf
 , page is rotated 90 degrees> <./figure/std_plots_mass.pdf, page is rotated 90 
 degrees> <./figure/std_plots_mass.pdf, page is rotated 90 degrees>]
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=602, page=1, 569.12625pt x 408.
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=634, page=1, 569.12625pt x 408.
 52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 1>
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=603, page=6, 569.12625pt x 408.
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=635, page=6, 569.12625pt x 408.
 52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 6>
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=604, page=8, 569.12625pt x 408.
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=636, page=8, 569.12625pt x 408.
 52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 8>
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=605, page=12, 569.12625pt x 408
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=637, page=12, 569.12625pt x 408
 .52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 12>
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=606, page=13, 569.12625pt x 408
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=638, page=13, 569.12625pt x 408
 .52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 13>
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=607, page=10, 569.12625pt x 408
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=639, page=10, 569.12625pt x 408
 .52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 10>
-<figure/bg_estimation/std_plots_twoBtag.pdf, id=608, page=11, 569.12625pt x 408
+<figure/bg_estimation/std_plots_twoBtag.pdf, id=640, page=11, 569.12625pt x 408
 .52625pt>
 File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_twoBtag.pdf, page 11> [28]
@@ -744,7 +703,15 @@ File: figure/bg_estimation/std_plots_twoBtag.pdf Graphic file (type pdf)
 LaTeX Warning: Reference `appendix:qcd' on page 29 undefined on input line 185.
 
 
-<figure/ABCD_regionB_Vs_regionD.pdf, id=627, 569.12625pt x 387.4475pt>
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 191.
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 191.
+
+<figure/ABCD_regionB_Vs_regionD.pdf, id=659, 569.12625pt x 387.4475pt>
 File: figure/ABCD_regionB_Vs_regionD.pdf Graphic file (type pdf)
 
 <use figure/ABCD_regionB_Vs_regionD.pdf>
@@ -757,11 +724,11 @@ Overfull \hbox (25.9196pt too wide) in paragraph at lines 267--291
 [][] 
  []
 
-<figure/QCD/qcd_CR_emb.pdf, id=628, page=1, 569.12625pt x 408.52625pt>
+<figure/QCD/qcd_CR_emb.pdf, id=660, page=1, 569.12625pt x 408.52625pt>
 File: figure/QCD/qcd_CR_emb.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_CR_emb.pdf, page 1>
-<figure/QCD/qcd_CR_emb.pdf, id=629, page=5, 569.12625pt x 408.52625pt>
+<figure/QCD/qcd_CR_emb.pdf, id=661, page=5, 569.12625pt x 408.52625pt>
 File: figure/QCD/qcd_CR_emb.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_CR_emb.pdf, page 5>
@@ -805,15 +772,15 @@ re/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees>] [33 <./fig
 ure/ABCD_regionB_Vs_regionD.pdf, page is rotated 90 degrees> <./figure/QCD/qcd_
 CR_emb.pdf, page is rotated 90 degrees> <./figure/QCD/qcd_CR_emb.pdf, page is r
 otated 90 degrees>]
-<figure/bg_estimation/std_plots_emb.pdf, id=849, page=1, 569.12625pt x 408.5262
+<figure/bg_estimation/std_plots_emb.pdf, id=881, page=1, 569.12625pt x 408.5262
 5pt>
 File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_emb.pdf, page 1>
-<figure/bg_estimation/std_plots_emb.pdf, id=850, page=2, 569.12625pt x 408.5262
+<figure/bg_estimation/std_plots_emb.pdf, id=882, page=2, 569.12625pt x 408.5262
 5pt>
 File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_emb.pdf, page 2>
-<figure/bg_estimation/std_plots_emb.pdf, id=851, page=3, 569.12625pt x 408.5262
+<figure/bg_estimation/std_plots_emb.pdf, id=883, page=3, 569.12625pt x 408.5262
 5pt>
 File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
  <use figure/bg_estimation/std_plots_emb.pdf, page 3>
@@ -856,37 +823,54 @@ Missing character: There is no œ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no  in font cmr12!
- [38] [39]
-Underfull \hbox (badness 2197) in paragraph at lines 345--348
+ [38]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no œ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no Ì in font cmr12!
+Missing character: There is no  in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no  in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [39] [40]
+Underfull \hbox (badness 2197) in paragraph at lines 380--383
 \OT1/cmr/m/it/12 fras-truc-ture\OT1/cmr/m/n/12 , ATLAS-SOFT-2010-01-004, sub-mi
 t-ted to Eur. Phys. J. C.,
  []
 
-[40]
 Missing character: There is no â in font cmti12!
 Missing character: There is no ˆ in font cmti12!
 Missing character: There is no ’ in font cmti12!
 
-Underfull \hbox (badness 1769) in paragraph at lines 366--368
+Underfull \hbox (badness 1769) in paragraph at lines 401--403
 []\OT1/cmr/m/n/12 The AT-LAS Col-lab-o-ra-tion, In-ner De-tec-tor: Tech-ni-cal 
 De-sign Re-port,
  []
 
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
 [41]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [42]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [42] [43]
 Missing character: There is no â in font cmti12!
 Missing character: There is no € in font cmti12!
 Missing character: There is no œ in font cmti12!
 Missing character: There is no â in font cmti12!
 Missing character: There is no € in font cmti12!
 Missing character: There is no  in font cmti12!
- [43] [44]
+ [44]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -896,13 +880,13 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-
-Overfull \hbox (134.53387pt too wide) in paragraph at lines 663--664
+ [45]
+Overfull \hbox (134.53387pt too wide) in paragraph at lines 698--699
 []\OT1/cmr/m/n/12 Statistical twiki, Nuis-sanceCheck. []https://twiki.cern.ch/t
 wiki/bin/view/AtlasProtected/NuisanceCheck[] 
  []
 
-) [45] (./tesi.aux)
+) [46] (./tesi.aux)
 
  *File List*
     book.cls    2007/10/19 v1.4h Standard LaTeX document class
@@ -967,7 +951,6 @@ refcount.sty    2008/08/11 v3.1 Data extraction from references (HO)
    ursfs.fd    1998/03/24 rsfs font definition file (jk)
    uwasy.fd    2003/10/30 v2.0 Wasy-2 symbol font definitions
  t_intro.tex
-  omscmr.fd    1999/05/25 v2.5h Standard LaTeX font definitions
 figure/blank.pdf
 figure/blank.pdf
 figure/blank.pdf
@@ -997,6 +980,7 @@ figure/bg_estimation/std_plots_twoBtag.pdf
 figure/bg_estimation/std_plots_twoBtag.pdf
 figure/bg_estimation/std_plots_twoBtag.pdf
 figure/bg_estimation/std_plots_twoBtag.pdf
+  omscmr.fd    1999/05/25 v2.5h Standard LaTeX font definitions
 figure/ABCD_regionB_Vs_regionD.pdf
 figure/QCD/qcd_CR_emb.pdf
 figure/QCD/qcd_CR_emb.pdf
@@ -1011,10 +995,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7058 strings out of 493848
- 100156 string characters out of 1152823
- 197077 words of memory out of 3000000
- 9892 multiletter control sequences out of 15000+50000
+ 7072 strings out of 493848
+ 100287 string characters out of 1152823
+ 197494 words of memory out of 3000000
+ 9893 multiletter control sequences out of 15000+50000
  21308 words of font info for 83 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,16n,39p,715b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1036,9 +1020,9 @@ ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.
 pfb></usr/share/texmf-texlive/fonts/type1/public/wasy/wasy10.pfb>
-Output written on tesi.pdf (45 pages, 1088426 bytes).
+Output written on tesi.pdf (46 pages, 1096689 bytes).
 PDF statistics:
- 1195 PDF objects out of 1200 (max. 8388607)
- 284 named destinations out of 1000 (max. 500000)
+ 1232 PDF objects out of 1440 (max. 8388607)
+ 297 named destinations out of 1000 (max. 500000)
  362 words of extra memory for PDF output out of 10000 (max. 10000000)
 

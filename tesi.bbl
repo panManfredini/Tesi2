@@ -162,6 +162,46 @@ Rept. 407 (2005) 1.
 M. Drees, R.M. Godbole and P. Roy, Theory and Phenomenology of Sparticles, World
 Scientific, Spring 2004.
 
+\bibitem{softerm1}
+L. Girardello and M.T. Grisaru, Nucl. Phys. B194 (1982) 65.
+
+\bibitem{softerm2}
+Y. Okada, M. Yamaguchi and T. Yanagida, Prog. Theor. Phys. 85 (1991) 1; ibid. Phys.
+Lett. B262 (1991) 54; J.R. Ellis, G. Ridolfi and F. Zwirner, Phys. Lett. B257 (1991)
+83; ibid. Phys. Lett. B262 (1991) 477; H.E. Haber and R. Hempfling, Phys. Rev. Lett.
+66 (1991) 1815.
+
+\bibitem{softerm3}
+A. Djouadi and S. Rosiers–Lees (conv.) et al., Summary Report of the MSSM Working
+Group for the “GDR–Supersym ́trie”, hep-ph/9901246.
+
+\bibitem{Higgsm1}
+K. Inoue, A. Komatsu and S. Takeshita, Prog. Theor. Phys 68 (1982) 927; (E) ibid. 70
+(1983) 330.
+
+\bibitem{Higgsm2}
+E. Witten, Nucl. Phys. B188 (1981) 513; ibid Nucl. Phys. B202 (1982) 253; N. Sakai,
+Z. Phys. C11 (1981) 153; S. Dimopoulos and H. Georgi, Nucl. Phys. B193 (1981) 150;
+R.K. Kaul and P. Majumdar, Nucl. Phys. B199 (1982) 36.
+
+\bibitem{Higgsm3}
+J.F. Donoghue and L.F. Li, Phys. Rev. 19 (1979) 945.
+
+\bibitem{Higgsm4}
+J.F. Gunion and H.E. Haber, Nucl. Phys. B278 (1986) 449.
+
+\bibitem{Higgsm5}
+J.F. Gunion and H.E. Haber, Nucl. Phys. B272 (1986) 1; (E) hep-ph/9301205.
+
+\bibitem{Higgsm6}
+M. Frank et al., The Higgs Boson Masses and Mixings of the Complex MSSM in the
+Feynman–Diagrammatic Approach, JHEP 0702 (2007) 47.
+
+\bibitem{MSSMmhmax}
+{M. Carena, S. Heinemeyer, C. E. M. Wagner, and G. Weiglein}, {\em {Suggestions
+  for benchmark scenarios for MSSM Higgs boson searches at hadron
+  colliders}\/},  Eur. Phys. J. {\bf C26} (2003)  601--607,
+  \href{http://arxiv.org/abs/hep-ph/0202167}{{\tt hep-ph/0202167}}.
 
 \bibitem{LHC}
 L.~Evans and P.~Bryant, {\em {LHC Machine}\/},  JINST {\bf 3} (2008)  S08001.
@@ -317,11 +357,6 @@ T.~Gleisberg et al., {\em {Event generation with SHERPA 1.1}\/},  JHEP {\bf 02}
   %556 citations counted in INSPIRE as of 14 May 2013
 
 
-\bibitem{MSSMmhmax}
-{M. Carena, S. Heinemeyer, C. E. M. Wagner, and G. Weiglein}, {\em {Suggestions
-  for benchmark scenarios for MSSM Higgs boson searches at hadron
-  colliders}\/},  Eur. Phys. J. {\bf C26} (2003)  601--607,
-  \href{http://arxiv.org/abs/hep-ph/0202167}{{\tt hep-ph/0202167}}.
 
 \bibitem{ATLASMC09Tune}
 {The ATLAS} Collaboration, {\em ATLAS Monte Carlo Tunes for MC09\/},
