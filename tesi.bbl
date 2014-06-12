@@ -20,7 +20,12 @@ Bosons in the Minimal Supersymmetric Model}, Phys. Rep. 459 (2008) 1.
 \bibitem{LHCxsec}
   S. Heinemeyer {\it et al.}  [LHC Higgs Cross Section Working Group Collaboration],
   ``Handbook of LHC Higgs Cross Sections: 3. Higgs Properties,''
-  arXiv:1307.1347 [hep-ph].
+  arXiv:1307.1347
+
+\bibitem{LHCxsec1}
+S.~Dittmaier {\it et al.}  [LHC Higgs Cross Section Working Group Collaboration],
+  \emph{``Handbook of LHC Higgs Cross Sections: 1. Inclusive Observables,''}
+  arXiv:1101.0593
 
 \bibitem{Peskin}
 Michael E. Peskin, Dan V. Schroeder, \emph{An Introduction To Quantum Field Theory}, Westview Press, 1995.
@@ -88,16 +93,31 @@ Heavy Flavour Working Groups, \emph{Precision Electroweak Measurements and
 Constraints on the Standard Model}, arXiv:1012.2367. Updated for 2012
 winter conferences, March 2012.
 
-\bibitem{precisiontest}
- G.~Altarelli and M.~W.~Grunewald,
-  \emph{``Precision electroweak tests of the standard model,''}
-  Phys.\ Rept.\  {\bf 403-404} (2004) 189
-  [hep-ph/0404165].
+%\bibitem{precisiontest}
+% G.~Altarelli and M.~W.~Grunewald,
+%  \emph{``Precision electroweak tests of the standard model,''}
+%  Phys.\ Rept.\  {\bf 403-404} (2004) 189
+%  [hep-ph/0404165].
 
 \bibitem{gfitter}
 The Gfitter Group, M. Baak, et al., Updated Status of the Global Electroweak Fit
 And constraints on New Physics, Eur. Phys. J. C 72 (2012) 2003. Updated for 2012
 winter conferences, March 2012, http://gfitter.desy.de.
+
+\bibitem{gminus2}
+G.W. Bennett et al., Phys. Rev. Lett. 89, 101804 (2002);
+Erratum ibid. Phys. Rev. Lett. 89, 129903 (2002);
+G.W. Bennett et al., Phys. Rev. Lett. 92, 161802 (2004);
+G.W. Bennett et al., Phys. Rev. D73, 072003 (2006).
+
+\bibitem{FBasymmetry}
+B.~Bhattacherjee, S.~S.~Biswal and D.~Ghosh,
+\emph{Top quark forward-backward asymmetry at Tevatron and its implications at the LHC},
+  Phys.\ Rev.\ D {\bf 83} (2011) 091501
+  [arXiv:1102.0545 [hep-ph]].
+
+\bibitem{Lambda}
+M. Veltman, Acta. Phys. Pol. B8 (1977) 475.
 
 
 \bibitem{Hierarchy1}
@@ -208,6 +228,20 @@ Feynman–Diagrammatic Approach, JHEP 0702 (2007) 47.
 S. Heinemeyer, O. Stal, and G. Weiglein, \emph{Interpreting the LHC Higgs Search Results in the
 MSSM}, Phys. Lett. B 710 (2012) 201–206, arXiv:1112.3026.
 
+\bibitem{AtlasConstraint}
+{The ATLAS Collaboration }, \emph{ Constraints on New Phenomena via Higgs Boson Coupling Measurements
+with the ATLAS Detector.} ATLAS-CONF-2014-010.
+
+\bibitem{sympleMSSM1}
+L. Maiani, A. Polosa, and V. Riquer, Bounds to the Higgs Sector Masses in Minimal
+Supersymmetry from LHC Data, arXiv:1305.2172.
+
+ 
+\bibitem{sympleMSSM2}
+A. Djouadi, L. Maiani, G. Moreau, A. Polosa, J. Quevillon, et al., The post-Higgs MSSM scenario:
+Habemus MSSM?, arXiv:1307.5205.
+
+
 \bibitem{LHC}
 L.~Evans and P.~Bryant, {\em {LHC Machine}\/},  JINST {\bf 3} (2008)  S08001.
 
@@ -277,9 +311,6 @@ L.~Evans and P.~Bryant, {\em {LHC Machine}\/},  JINST {\bf 3} (2008)  S08001.
 \href{http://arxiv.org/abs/1211.6956}{{\tt arXiv:1211.6956 [hep-ex]}}.
 %%CITATION = ARXIV:1211.6956;%%.
 
-\bibitem{AtlasConstraint}
-{The ATLAS Collaboration }, \emph{ Constraints on New Phenomena via Higgs Boson Coupling Measurements
-with the ATLAS Detector.} ATLAS-CONF-2014-010.
 
 
 \bibitem{theo125}
