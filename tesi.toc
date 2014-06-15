@@ -15,21 +15,30 @@
 \contentsline {subsection}{\numberline {1.3.2}MSSM Higgs Benchmark Scenarios}{10}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Neutral MSSM Higgs Bosons Production and Decay at LHC}{11}{subsection.1.3.3}
 \contentsline {subsection}{\numberline {1.3.4}Current Status of the Seacrh for Neutral MSSM Higgs Bosons}{12}{subsection.1.3.4}
-\contentsline {chapter}{\numberline {2}Neutral MSSM Higgs Bosons Search...}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction }{19}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}The Higgs Sector in the MSSM}{19}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Signal and Background Processes}{20}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Analysis Strategy}{21}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Data and Simulated Event Samples}{22}{subsection.2.1.4}
-\contentsline {subsubsection}{Data Sample}{22}{section*.7}
-\contentsline {subsubsection}{Signal Samples}{22}{section*.8}
-\contentsline {subsubsection}{Background Samples}{23}{section*.9}
-\contentsline {section}{\numberline {2.2}Event Selections and Categorization}{23}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}The ``Common'' Selections}{23}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}b-vetoed Category}{24}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}b-tagged Category}{25}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Mass Reconstruction with MMC Technique}{27}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Background Modeling and Validation}{28}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Top Quark Pair Production Validation}{28}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Multi-jet Background}{30}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}$Z \rightarrow \tau \tau $ + Jets Background: Embedding Technique}{31}{subsection.2.3.3}
+\contentsline {chapter}{\numberline {2}The ATLAS Detector at the LHC}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{18}{section.2.1}
+\contentsline {section}{\numberline {2.2}The ATLAS Detector}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The ATLAS coordinate system}{20}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}The Inner Detector}{21}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}The Calorimeter System}{22}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}The Muon Spectrometer}{22}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}The Trigger System}{23}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Luminosity Measuremet}{24}{subsection.2.2.6}
+\contentsline {chapter}{\numberline {3}Neutral MSSM Higgs Bosons Search...}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction }{27}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}The Higgs Sector in the MSSM}{27}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Signal and Background Processes}{28}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Analysis Strategy}{29}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Data and Simulated Event Samples}{31}{subsection.3.1.4}
+\contentsline {subsubsection}{Data Sample}{31}{section*.7}
+\contentsline {subsubsection}{Signal Samples}{32}{section*.8}
+\contentsline {subsubsection}{Background Samples}{32}{section*.9}
+\contentsline {section}{\numberline {3.2}Event Selections and Categorization}{32}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The ``Common'' Selections}{32}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}b-vetoed Category}{33}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}b-tagged Category}{34}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Mass Reconstruction with MMC Technique}{35}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Background Modeling and Validation}{37}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Top Quark Pair Production Validation}{39}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Multi-jet Background}{39}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}$Z \rightarrow \tau \tau $ + Jets Background: Embedding Technique}{43}{subsection.3.3.3}

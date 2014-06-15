@@ -245,11 +245,32 @@ Habemus MSSM?, arXiv:1307.5205.
 \bibitem{LHC}
 L.~Evans and P.~Bryant, {\em {LHC Machine}\/},  JINST {\bf 3} (2008)  S08001.
 
+\bibitem{ATLASDetector}
+{The ATLAS} Collaboration, G.~Aad et al., {\em {The ATLAS Experiment at the
+  CERN Large Hadron Collider}\/},  JINST {\bf 3} (2008)  S08003.
+
+\bibitem{lhcImage}
+J.~Haffner, \emph{The CERN accelerator complex}, OPEN-PHO-ACCEL-2013-056.
+
+
+\bibitem{cms}
+CMS Collaboration, CMS technical proposal, CERN-LHCC-94-38.
+
+\bibitem{lhcb}
+LHCb Collaboration, LHCb technical proposal, CERN-LHCC-98-004.
+
+\bibitem{alice}
+ALICE Collaboration, ALICE: Technical proposal for a large ion collider
+experiment at the CERN LHC, CERN-LHCC-95-71, CERN, 1995,
 
 
 \bibitem{Guralnik:1964eu}
 {G.~S.~Guralnik, C.R.~ Hagen and T.~W.~B.~Kibble} Phys.Rev.Lett. {\bf 13}
   (1964)  585.
+
+\bibitem{luminosity}
+{The ATLAS} Collaboration, {\em Luminosity Determination in pp Collisions at
+  $\sqrt s = 7$ TeV using the ATLAS Detector in 2011\/},  ATLAS-CONF-2011-116.
 
 %\bibitem{MSSM1}
 %N.~P. Nilles, {\em {Supersymmetry, supergravity and particle physics}\/},
@@ -329,9 +350,6 @@ L.~Evans and P.~Bryant, {\em {LHC Machine}\/},  JINST {\bf 3} (2008)  S08001.
 \href{http://arxiv.org/abs/1207.1348}{{\tt arXiv:1207.1348 [hep-ph]}}.
 %%CITATION = ARXIV:1207.1348;%%.
 
-\bibitem{ATLASDetector}
-{The ATLAS} Collaboration, G.~Aad et al., {\em {The ATLAS Experiment at the
-  CERN Large Hadron Collider}\/},  JINST {\bf 3} (2008)  S08003.
 
 \bibitem{Alpgen}
 M.~L. Mangano et al., {\em {ALPGEN, a generator for hard multiparton processes
@@ -646,9 +664,6 @@ T.~A. Collaboration, {\em Search for the neutral Higgs bosons of the Minimal
 \bibitem{ttbaremu}
 The Atlas Collaboration, \emph{ Measurement of the ttbar production cross-section in pp collisions at $\sqrt{s} = 8$ TeV using e-mu events with b-tagged jets }. ATLAS-CONF-2013-097.
 
-\bibitem{luminosity}
-{The ATLAS} Collaboration, {\em Luminosity Determination in pp Collisions at
-  $\sqrt s = 7$ TeV using the ATLAS Detector in 2011\/},  ATLAS-CONF-2011-116.
 
 \bibitem{PYTHIA}
 {T. Sjostrand, S. Mrenna and P. Skands}, {\em {PYTHIA 6.4 physics and
