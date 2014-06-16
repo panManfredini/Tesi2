@@ -4,12 +4,12 @@
 
 The Large Hadron Collider (LHC) located at the European Organization for Nuclear Research (CERN)
 is  the largest particle collider facility in the world. The ATLAS experiment is one of the several experiment situated 
-at the LHC, it is a general-purpose detector dedicated to explore a wide range of physics topics, from
+at the LHC, it is a general-purpose detector dedicated to explore a wide range of physiscs topics, from
 precision measurements of known Standard Model processes to the search for physics beyond the Standard Model. 
 Proton-proton collision data recorded by the ATLAS experiment  has been used in this thesis 
 for the search for the neutral MSSM Higgs bosons.
 
-This chapter is organised as follows: the design and performance of the LHC  are summarised in 
+This chapter is organized as follows: the design and performance of the LHC  are summarized in 
 Section~\ref{sec:lhc} (based on Reference~\cite{LHC}),  while a description of the  ATLAS detector  is given 
 in Section~\ref{sec:atlas} (based on Reference~\cite{ATLASDetector}).
 
@@ -20,7 +20,7 @@ in Section~\ref{sec:atlas} (based on Reference~\cite{ATLASDetector}).
 
 
 \section{The Large Hadron Collider}\label{sec:lhc}
-The LHC is a superconducting hadron synchrotron  collider. It is  installed in the tunnel of the former LEP electron-positron collider
+The LHC is a superconducting hadron syncrotron  collider. It is  installed in the tunnel of the former LEP electron-positron collider
 and has $\sim 27$ km circumference.
 LHC is designed to collide proton beams with a centre-of-mass energy of 14 TeV and an unprecedented luminosity of 
 $10^{34} ~ cm^{-2} s^{-1}$. It can also collide heavy ions (lead) with an energy of 2.8 TeV per nucleon and 
@@ -30,22 +30,22 @@ The LHC provides proton-proton collision for several experiments, the most relev
 LHCb~\cite{lhcb} and ALICE~\cite{alice} experiments. 
 Figure~\ref{fig:LHC} shows the layout of the CERN accelerator complex, the  protons follows several acceleration steps before injection in the LHC machine.
 First a linac accelerator ($Linac\,2$) accelerates the protons to an energy of 50~MeV, then they are injected in the \emph{booster} which accelerates them
-further to 1.4~GeV. The energy is increased to 25~GeV and successively to 450~GeV by means of two synchrotron accelerators, the \emph{Proton Synchrotron} (PS)
-and the \emph{Super Proton Synchrotron} (SPS). Finally, two proton beams are  injected with opposite direction into the LHC 
-where they reach their final energy.
+further to 1.4~GeV. The energy is increased to 25~GeV and successively to 450~GeV by means of two syncrotron accelerators, the \emph{Proton Syncrotron} (PS)
+and the \emph{Super Proton Synctrotron} (SPS). Finally, two proton beams are  injected with opposite direction into the LHC 
+where they reach their final erergy.
 
-The LHC beams are constituted by bunches of protons which are housed in two separate vacuum pipes. 
+The LHC beams are costituited by bunches of protons which are housed in two separate vacuum pipes. 
 Radiofrequency cavities are employed  to accelerate the protons,
-while superconducting magnets bends and focuses the bunches.
+while superconductig magnets bends and focuses the bunches.
 The LHC is designed to accelerate up to 2835 bunches per beam, each of them containing $\sim 10^{11}$ protons.
 The nominal bunch spacing allows collision every 25~ns representing a real challenge for any read-out electronics.
 
-In 2010, fist collisions took place at the LHC between proton beams of energy of 3.5~TeV. The LHC was successfully in 
+In 2010, fist collisions took place at the LHC between proton beams of energy of 3.5~TeV. The LHC was succesfully in 
 operation during years 2011 and 2012, beam of protons were initially delivered with energies of 3.5~TeV  which was increased to 4~TeV in 2012.
 Peak luminosities of about $4\times10^{33} ~ cm^{-2}s^{-2}$ and $8\times10^{33} ~ cm^{-2}s^{-2}$  have been reached 
 during years 2011 and 2012 respectively. The ATLAS experiment recorded in fully operational conditions an integrated luminosity of 4.57~$fb^{-1}$ 
 during year 2011, while an integrated luminosity of 20.3~$fb^{-1}$ was recorded during year 2012.
-Data recordered during  these two years  led to one of the major milestone in particle physics, the discovery in 2012 of a Higgs boson.
+Data recordered during  these two years  led to one of the major mailstone in particle physics, the discovery in 2012 of a Higgs boson.
 
 
 
@@ -58,7 +58,7 @@ Data recordered during  these two years  led to one of the major milestone in pa
 
     \end{center}
     \caption{Illustration of the CERN accelerator complex~\cite{lhcImage}. The acceleration of protons starts with Linac2 followed by the
-	acceleration in the Booster. The Proton Synchrotron (PS) and the Super Proton Synchrotron (SPS) accelerate further the protons before
+	acceleration in the Booster. The Proton Syncrotron (PS) and the Super Proton Syncrotron (SPS) accelerate further the protons before
 	final injection into the LHC  machine.}
 
 
@@ -67,13 +67,13 @@ Data recordered during  these two years  led to one of the major milestone in pa
 
 
 \section{The ATLAS Detector}\label{sec:atlas}
-The ATLAS detector is a multi-purpose detector which aim to explore a wide range of physics topics. The physics programme of the ATLAS experiment ranges from 
+The ATLAS detector is a multi-purpose detector which aim to explore a wide range of physiscs topics. The physics programme of the ATLAS experiment ranges from 
 precision measurements of known Standard Model processes to the search for physics beyond the Standard Model in a large variety of scenarios.
-The ATLAS detector is designed to satisfy the tight requirements on particle identification and measurements accuracy imposed by the physics goals.
+The ATLAS detector is designed to satisfy the tight requirements on particle identification and measurements acuracy imposed by the physics goals.
 A schematic view of the ATLAS detector is shown in Figure~\ref{fig:atlas}. ATLAS is $44\,m$ long and $25\,m$ high, it has a typical design for a collider 
 experiments with a forward-backward symmetry with respect the interaction point. It consist of four sub-detector which are built cylindrically around the
 beam pipe, going from the inside to outside they are: an Inner Detector tracker, an electromagnetic calorimeter, an hadronic calorimeter and finally
-a muon spectrometer surrounds the whole experiment. Each of these sub-detector is briefly described in what follows based on  Reference~\cite{ATLASDetector}.
+a muon spectrometer sourrounds the whole experiment. Each of these sub-detector is briefly described in what follows based on  Reference~\cite{ATLASDetector}.
 
 
 \begin{figure}[tp]
@@ -92,8 +92,8 @@ a muon spectrometer surrounds the whole experiment. Each of these sub-detector i
 
 \subsection{The ATLAS coordinate system}
 The ATLAS coordinate system has its origin in the interaction region. The $z-$axis is pointing along the beam direction,
-the $y-$axis is pointing upwards and the $x-$axis towards the centre of the LHC ring. The angle $\phi$ is defined in the plane orthogonal
-to the beam axis, starting from the positive side of the $x-$axis. The angle $\theta$ is instead defined with respect to the $z-$axis.
+the $y-$axis is pointing upwards and the $x-$axis towards the center of the LHC ring. The angle $\phi$ is defined in the plane orthogonal
+to the beam axis, starting from the positve side of the $x-$axis. The angle $\theta$ is instead defined with respect to the $z-$axis.
 A commonly used spatial coordinate in  experiments at collider is the rapidity $y$:
 \begin{equation}
 y ~ = ~ 1/2 \cdot \ln \left( \frac{E + p_{z}}{E - P_z} \right) 
@@ -124,8 +124,8 @@ $\Delta R ~=~\sqrt{\Delta \eta^2 + \Delta \phi^2}\,.$
 \end{figure}
 
 
-The Inner Detector (ID) performs track reconstruction  and momentum measurements of charged particles, it has a total length of $5.3\,m$ and a diameter of $2.5\,m\,.$
-The momentum measurement is performed by measuring the tracks curvature in a $2\,T$ magnetic field generated by 
+The Inner Detector (ID) performs track reconstruction  and momentum measurements of charged particles, it has a total lenght of $5.3\,m$ and a diameter of $2.5\,m\,.$
+The momentum measurment is performed by measuring the tracks curvature in a $2\,T$ magnetic field generated by 
 a super-conducting solenoid. The layout of the Inner Detector is illustrated in Figure~\ref{fig:atlasID},
 it consist of three independent detector modules with fine granularity
 covering the region $|\eta| < 2.5\,.$ The innermost of these detectors is the Pixel detector,
@@ -133,12 +133,12 @@ which consist of three cylindrical layers of pixel silicon sensors in the barrel
 referred to as the B-layer. The spatial resolution of the pixel sensors is $10\,\mu m$ in the transverse and $115\,\mu m$ in the longitudinal
 direction with respect to the beam pipe.
 
-The Semi-Conductor Tracker (SCT) surrounds the Pixel detector with four cylindrical layers of silicon microstrip sensor in the barrel
+The Semi-Conductor Tracker (SCT) surrounds the Pixel detector with four cilindrical layers of silicon microstrip sensor in the barrel
 and nine disks in the  endcap region. The spatial resolution achieved by the SCT is of $17\,\mu m$ in the transverse and $590\,\mu m$ in the longitudinal direction 
 respectively.
 
 The outermost detector module is the Transition Radiation Tracker (TRT). It is composed of $4\,mm$ diameter Kapton straw tubes
-with a tungsten wire in their centre. The tube is filled with a gas mixture which allows the detection of transition 
+with a tungsten wire in their center. The tube is filled with a gas mixture which allows the detection of transition 
 radiation photons. This detector can only measure position along the transverse direction.
 
 % is t used in
@@ -178,11 +178,11 @@ radiation photons. This detector can only measure position along the transverse 
    \label{fig:atlasCal}
 \end{figure}
 
-An illustration of the ATLAS calorimeter system is shown in Figure~\ref{fig:atlasCal}, it consist of an electromagnetic calorimeter (EM) surrounded by an hadronic 
+An illustration of the ATLAS calorimeter system is shown in Figure~\ref{fig:atlasCal}, it consist of an electromagnetic calorimeter (EM) sourraunded by an hadronic 
 calorimeter.  These calorimeters cover the range $|\eta| < 4.9$ using different techniques suited to the
-widely varying  radiation environment over this large $\eta-$range. Both these calorimeters are sampling calorimeters, they are builded alternating
+widely varying  radiation environment over this large $\eta-$range. Both these calorimeters are sampling calorimeters, they are builded alternatig
 active material which performs the detector response and a passive absorber.
-The total detector thickness at $\eta = 0$ is 9.7 interaction length. 
+The total detector thickness at $\eta = 0$ is 9.7 interaction lenght. 
 
 The EM Lar calorimeter is ideally suited for precision measurements of electrons and photons.  It uses lead as absorber material and liquid argon 
 as active material. It extends up to $|\eta| < 3.2\,.$
@@ -192,12 +192,12 @@ jet reconstruction and missing transverse energy measurements. The hadronic calo
 with the changing radiation environment as a function of $\eta$. The Tile calorimeter covers region in pseudorapidity up to $|\eta| < 1.7$, it uses 
 scintillating tiles as active material and steel as absorber. 
 In the forward region ATLAS is instrumented with a Lar hadronic endcap calorimeter (HEC),
-which extends up to $|\eta| < 3.2$ and uses argon as active material and copper as absorber. The region in $3.1 <|\eta| < 4.9$ is instrumented instead with a 
+which extends up to $|\eta| < 3.2$ and uses argon as active material and copper as absorber. The region in $3.1 <|\eta| < 4.9$ is istrumented instead with a 
 liquid argon Forward CALorimeter (FCAL), 
 %this provides clear benefits in terms of uniformity of the calorimetric coverage as well as
 %reduced radiation background levels in the muon spectrometer. 
 which is divided in three modules, the closest to the interaction point uses 
-copper as absorber material, while the other two uses tungsten.
+copper as absormer material, while the other two uses tungsten.
 
 
 
@@ -249,13 +249,13 @@ the event rate to roughly 200 Hz. Its selections are implemented using the offli
 described in Chapter~\ref{chap:obj}.
 
 
-\subsection{Luminosity Measurement}
-A precise measurement of the recordered integrated luminosity is extremely important for all the physics measurements of the ATLAS physics program.
+\subsection{Luminosity Measuremet}
+A precise measurement of the recordered integrated luminosity is extremely important for all the physics measuremens of the ATLAS physics program.
 
 Several technique are employed in ATLAS for the measure of the luminosity. The most relevant detectors that  monitor the 
-luminosity are the Inner Detector, the BMC and the LUCID detectors. For a detailed description of the ATLAS luminosity measurements
+luminosity are the Inner Detector, the BMC and the LUCID detectors. For a detalied description of the ATLAS luminosity measurements
 and its performance see Reference~\cite{luminosity}.
-The Inner Detector measure the luminosity by the average reconstructed proton-proton interaction per bunch crossing.
+The Inner Detector measure the luminosity by the averange reconstructed proton-proton interaction per buch crossing.
 The LUCID detector surrounds the beampipe on both sides of the interaction point at a distance of 17 m, providing whit its Cherenkov
 detectors the measures of the particle flux from the interaction point in a very forward region. The BCM counts the number of collision per 
 bunch crossing providing an independent luminosity estimate.

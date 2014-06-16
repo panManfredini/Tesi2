@@ -5,8 +5,8 @@
  \vspace{2cm}
 
 This chapter is devoted to introduce the theoretical background to the experimental search presented in this thesis.
-A brief overview of the Standard Model of particle physics is given in Section~\ref{sec:SM} based on Reference~\cite{Altarelli}. 
-Among all the extension of the Standard Model, the Minimal Supersymmetric 
+A brief overview of the Standard Model of particle physisics is given in Section~\ref{sec:SM} based on Reference~\cite{Altarelli}. 
+Among all the extesion of the Standard Model, the Minimal Supersymmetric 
 extension of the Standard Model (MSSM) is a theoretically favoured scenario as one of the most predictive
 framework beyond the Standard Model. The MSSM is introduced in Section~\ref{sec:MSSM} with focus on its Higgs sector, based on 
 References~\cite{SusyPrimer,Djuadi}.
@@ -27,8 +27,8 @@ A detailed description of the Standard Model of particle physics may be found in
 given in what follows.
 
 The Standard Model (SM) of particle physics is a theory aimed to describe and quantitatively predict
-the phenomenology of fundamental interactions. At ``microscopic''  level the spectrum of all interactions between matter and 
-radiation can be understood in terms of three classes of fundamental forces: the strong, the electromagnetic
+the phenomenology of foundamental interactions. At ``microscopic''  level the spectrum of all interactions between matter and 
+radiation can be understood in terms of three classes of foundamental forces: the strong, the electromagnetic
 and the weak forces. These interactions are described by a local relativistic quantum field theory, where to each particle
 is associated a field with suitable transformation properties under the Lorentz group.
 The theory is based on the principle of gauge invariance, which means invariance under  a symmetry  transformations    
@@ -39,14 +39,14 @@ quantum effects of gravity are expected at energies corresponding to the Planck 
 The SM is a gauge field theory based on the symmetry group $SU(3)_c \otimes SU(2)_L \otimes U(1)_Y$. The group has $8+3+1=12$
 generators with a non trivial commutator algebra. The electromagnetic and weak interactions~\cite{EW1,EW2,EW3}  are described  by the 
 $SU(2)_L \otimes U(1)_Y$ symmetry group, while the $ SU(3)_c$ is the colour group of the theory of strong interactions (QCD)~\cite{qcd1}.
-To each generator of the symmetry group is associated a vector boson which act as mediator of the corresponding interactions.
+To each generator of the symmetry group is associated a vector boson which act as mediator of the correspondig interactions.
 Eight gluons are associated to the $ SU(3)_c$ colour generators, while  four gauge bosons $W^{\pm}$,
 $Z^0$ and $\gamma$ are associated to the generators of $SU(2)_L \otimes U(1)_Y$. 
 Only the gluons and the photon are massless since the symmetry induced by the other three generators is
-spontaneously broken. In the SM the spontaneous symmetry breaking is realised by the Higgs mechanism~\cite{ENGLERT,HIGGS,HIGGS2,HIGGS3,kibble}.
+spontaneusly broken. In the SM the spontaneus symmetry breaking is realized by the Higgs mechanism~\cite{ENGLERT,HIGGS,HIGGS2,HIGGS3,kibble}.
 The Higgs boson acts as mediator of a new class of interactions that, at tree level, are coupled in proportion to the particle masses.
 An Higgs boson with properties that resemble the one of the SM 
-has recently been discovered at the LHC with $m_H \sim 126$~GeV \cite{AHiggsO,CHiggsO}. %and represents one of the major milestone of particle physics.
+has recently been discovered at the LHC with $m_H \sim 126$~GeV \cite{AHiggsO,CHiggsO}. %and represents one of the major mailstone of particle physics.
 
 The fermionic matter fields of the SM are quarks and leptons. 
 Quarks  are subject to all SM interactions, each type of quark is a colour triplet and carries 
@@ -59,7 +59,7 @@ Qarks and leptons are grouped in three  ``generations'' with equal quantum numbe
 
 \subsection{Precision Test and Limitation of the SM}
 
-The Standard Model has been successfully tested in a vast number of experiments over a wide range of energies during the last few decades.
+The Standard Model has been succesflully tested in a vast number of experiments over a wide range of energies during the last few decades.
 Precision tests of the electroweak theory performed at LEP, SLC and the Tevatron~\cite{smtest}, 
 has confirmed that the couplings of quark and leptons to the weak gauge bosons $W^{\pm}$  and $Z$ are indeed
 precisely those prescribed by the gauge symmetry. The accuracy of a few per-mille for these
@@ -67,45 +67,45 @@ tests implies that, not only the tree level, but also the structure of quantum c
 been verified. Several other experimental results~\cite{pdg}
 including rare decays of hadrons provides low-energies test of the Standard Model. 
 The recent discovery of a Higgs boson  is also another success of the SM, its mass, spin and couplings 
-are in agreement with expected values from a global fit of electroweak constraints~\cite{gfitter}.
+are in agreement with expected values from a global fit of electroweak costraints~\cite{gfitter}.
 
 Among all the parameters of the Standard Model only few of them presents tension with experimental data, 
-the most significant discrepancies are slightly above three standard deviations and are given by: the anomalous magnetic moment 
+the most significant discrepancies are sligthly above three standard deviations and are given by: the anomalus magnetic moment 
 of the muon~\cite{gminus2}, $a_{\mu}$  and the forward-backward asymmetry of top quarks~\cite{FBasymmetry}, $A_{FB}^{\ttbar}$.   
 
 
 In spite of this success, the Standard Model is conceptually unsatisfactory for quite few deficiencies and is
-widely believed to be an effective theory valid only at the present accessible energies. Beside the fact that 
+widely belived to be an effective theory valid only at the present accessible energies. Beside the fact that 
 it does not  include  gravitational force, it does not explain the pattern of fermion masses and in its simplest 
 version does not include neutrino masses, it has at least other three conceptual problems which indicates the need 
 for physics Beyond the Standard Model (BSM):
 %\begin{itemize}
 %\item
-\paragraph{Hierarchy Problem} Calculating the radiative correction to the Higgs boson mass, quadratic divergences occur of the order  
+\paragraph{Hierarchy Problem} Calculating the radiative correction to the Higgs boson mass, quadratic divergencies occurr of the order  
 	of the cut-off scale $\Lambda$, where  $\Lambda$ defines  the energy
-	beyond which the theory ceases to be valid and new physics should appear~\cite{Lambda}. If the cut-off is chosen 
-	to be $\sim M_{Planck}$, then a fine tuning  with an unnaturally high precision , $\mathcal{O}(10^{-30})$, should occur to cancel these divergences 
+	beyond which the theory ceases to be valid and new physics should appear~\cite{Lambda}. If the cut-off is choosen 
+	to be $\sim M_{Planck}$, then a fine tunig  with an unnaturally high precision , $\mathcal{O}(10^{-30})$, should occur to cancell these divergencies 
 	leaving the Higgs boson with a mass of the order of the electroweak breaking scale, $M_{EW}$.
 	A question that has no satisfactory answer in the SM is how these cancellations can occur and why $\Lambda >> M_{EW}$, these problems are
 	called the fine-tuning and hierarchy problem~\cite{Hierarchy1,Hierarchy2,Hierarchy3}.
 	%Supersymmetry was first introduced to answer this question, indeed, the new symmetry prevents the Higgs boson mass to acquire very large 
-	%radiative corrections, the quadratic divergent loop of the SM particles are exactly cancelled by the loop contribution 
+	%radiative corrections, the quadratic divergent loop of the SM particles are exactly canceled by the loop contribution 
 	%of the corresponding partners, solving in this way the hierarchy problem~\cite{Djuadi5}.
 
 %\item
 \paragraph{Dark Matter}   The SM does not have a candidate which can explain the large contribution 
 	of non-barionic, non-luminous matter to the density of the Universe~\cite{darkmatter1,darkmatter2,darkmatter3}. To be a Dark Matter candidate a particle should be
 	stable, massive and should interact only via very weak interactions. 
-	%Supersymmetry models,  provided with R-parity conservation,
-	%provides a natural candidate for Dark Matter, which would be then the lightest SUSY particle which cannot further decay.
+	%Supersymmetry models,  provided with R-parity consevation,
+	%provides a natural candidate for Dark Matter, which would be then the lighest SUSY particle which cannot further decay.
 
 %\item 
 \paragraph{Unification Problem}	Another unsatisfactory aspect of the SM is that does not provide the unification of the electroweak and strong interactions,
-	their couplings do not meet at high energies. Considering the successful unification of electromagnetic and weak
+	their couplings do not meet at high energies. Considering the successfull unification of electromagnetic and weak
 	interaction, the existence of Grand Unified Theory (GUT) has been 
-	suggested~\cite{GUT1,GUT2}, which predicts the unification of all the three gauge coupling strength at the GUT energy scale,
+	suggested~\cite{GUT1,GUT2}, which predicts the unification of all the three gauge coupling strenght at the GUT energy scale,
 	$\Lambda_{GUT} \simeq 10^{16}$~GeV and describes the three forces within a single gauge group with just one coupling constant.
-	%The particle spectrum in SUSY, instead, contributes to the renormalisation group evolution of the three gauge couplings constants and 
+	%The particle spectrum in SUSY, instead, contributes to the renormalizzation group evolution of the three gauge couplings constants and 
 	%favours them to meet at energies around $10^{16}$ GeV~\cite{djuadi4}. 
 
 %\end{itemize}
@@ -139,10 +139,10 @@ The SUSY generators $\mathcal{Q}$ transforms fermion into bosons and vice versa:
 \begin{equation}
 \mathcal{Q}|\text{Fermion}\rangle = |\text{Boson}\rangle, ~ ~ ~ \mathcal{Q}|\text{Boson}\rangle = |\text{Fermion}\rangle
 \end{equation}
-In a supersymmetric extension of the SM  each of the known fundamental particles 
+In a supersymmetric extesion of the SM  each of the known foundamental particles 
 is in either a chiral or gauge \emph{supermultiplet} and must have a superpartner with spin differing by 1/2 unit.
 SUSY naturally solve the hierarchy problem since the quadratic divergent loop contribution to the Higgs mass of the SM 
-particles are cancelled by the loop contribution of the corresponding superpartners. 
+particles are canceled by the loop contribution of the corresponding superpartners. 
 The name of the superpartner of the quarks and leptons are made by adding an ``s'' to the SM name, standing for scalar.
 Accordingly, the gauge bosons related to the generator of the group $SU(3)_c \otimes SU(2)_L \otimes U(1)_Y$ should also have a spin 1/2 partner,
 whose name will be made by adding a ``ino'' at the end of the SM name. The symbol of superpartners is defined by adding a ($\tilde{ ~ }$) to the SM symbol.
@@ -152,8 +152,8 @@ transform differently under gauge transformations also their superpartner presen
 The  Minimal Supersymmetric extension of the Standard Model  (MSSM)~\cite{MSSM1,MSSM2,MSSM3,MSSM4,MSSM5,MSSM6}, 
 is defined by requiring the minimal gauge group (i.e., the SM one)
 and the minimal particle content: three generation of fermions (without right-handed neutrinos), gauge bosons and two Higgs doublet, 
-each with its own superpartner. Tables~\ref{tab:chiralsup} and~\ref{tab:gaugesup} summarise chiral and gauge supermultiplets in the MSSM.
-Among the gauge eigenstates summarised in these tables, the superpartner of the Higgs bosons, the \emph{higgsinos} mix with the \emph{wino}
+each with its own superpartner. Tables~\ref{tab:chiralsup} and~\ref{tab:gaugesup} summarize chiral and gauge supermultiplets in the MSSM.
+Among the gauge eigenstates summarized in these tables, the superpartner of the Higgs bosons, the \emph{higgsinos} mix with the \emph{wino}
 and \emph{bino} to give the ``ino'' mass eigenstates: two charginos $\chi_{1,2}^\pm$ and four neutralinos $\chi_{1,2,3,4}^0$.
 \begin{table}
 \begin{center}
@@ -173,7 +173,7 @@ higgsinos, Higgs	& $H_1$			&	$( \tilde{H}_1^0 ~ \tilde{H}_1^-)$  &	$( H_1^0 ~ H_
 			& $H_1$			&	$( \tilde{H}_2^+ ~ \tilde{H}_2^0)$  &	$( H_2^+ ~ H_2^0)$ \\%[0.1cm]	 
 \hline
 \end{tabular}
-\caption{This table is based on Reference~\cite{SusyPrimer} and summarise the chiral supermultiplets in the Minimal Supersymmetric Standard Model. The spin-0 fields are complex scalars
+\caption{This table is based on Reference~\cite{SusyPrimer} and summarize the chiral supermultiplets in the Minimal Supersymmetric Standard Model. The spin-0 fields are complex scalars
 	and the spin-1/2 are left-handed two-component Weyl fermions.}
 \label{tab:chiralsup}
 \end{center}
@@ -190,7 +190,7 @@ W bosons, winos		& $W_a$ (a=1,...,3)	& $W^{\pm}$ $W^0$	& $\tilde{W}^{\pm}$ $\til
 B boson, bino		&$B$			& $B^0$			& $\tilde{B}^0$ \\
 \hline
 \end{tabular}
-\caption{This table is based on Reference~\cite{SusyPrimer} and summarise the gauge supermultiplets in the Minimal Supersymmetric Standard Model.}
+\caption{This table is based on Reference~\cite{SusyPrimer} and summarize the gauge supermultiplets in the Minimal Supersymmetric Standard Model.}
 \label{tab:gaugesup}
 \end{center}
 \end{table}
@@ -205,7 +205,7 @@ where $L$ and $B$ are lepton and barion numbers and $s$ stands for the spin quan
 SM particles and $-1$ for their superpartners. This symmetry was first introduced as a simple way to overcome the problem of instability of the proton.
 Lepton and barion number violation leads, in many cases, 
 to unstable proton with life-time shorter than the experimental lower limit. The conservation of $R$-parity has also other important 
-phenomenological consequences: SUSY particles are always produced in pairs and decays always in an odd number of SUSY particles.
+fenomenological consequences: SUSY particles are always produced in pairs and decays always in an odd number of SUSY particles.
 Furthermore, the lightest SUSY particle, often chosen as one of the neutralinos, is stable and provides a suitable 
 candidate for dark matter.
 
@@ -215,7 +215,7 @@ In case  Supersymmetry is an exact symmetry of nature, the SM particles and thei
 and quantum numbers except for the spin. However, the particle spectrum of SUSY has not yet been observed, suggesting that,
 if  these particles exist, they  should have an higher mass than their SM superpartners. 
 To achieve SUSY-breaking in a way which does not reintroduce the quadratic divergences to the Higgs mass squared, a so called ``soft-SUSY-breaking''
-term is introduced to the SUSY Lagrangian~\cite{softerm1,softerm2}. This term explicitly break SUSY introducing the mass terms for Higgs, gauginos and
+term is introduced to the SUSY lagrangian~\cite{softerm1,softerm2}. This term explicitly break SUSY introducing the mass terms for Higgs, gauginos and
 sfermions, as well as  trilinear coupling terms between sfermions and Higgs bosons. In general, if intergenerational mixing and 
 complex phases are allowed, the soft-SUSY-breaking terms will introduce a huge number of unknown parameters $\mathcal{O}(100)$~\cite{softerm3}.
 However, in absence of phases and  mixing, and if the soft terms obey  a set of boundary conditions~\cite{softerm1,softerm2}, 
@@ -239,7 +239,7 @@ two Higgs field acquire vacuum expectation values:
 \langle H_1^0 \rangle = \frac{v_1}{\sqrt{2}}, \quad \quad \quad  \langle H_2^0 \rangle = \frac{v_2}{\sqrt{2}}
 \end{equation}
 Three of the original eight degrees of freedom of the scalar fields are absorbed by the $W^{\pm}$ and $Z$ bosons, which acquire
-their longitudinal polarisations and masses. The remaining degrees of freedom correspond to five scalar Higgs bosons: two CP-even and neutral $h$ and $H$, 
+their longitudinal polarizations and masses. The remaning degrees of freedom correspond to five scalar Higgs bosons: two CP-even and neutral $h$ and $H$, 
 a neutral CP-odd boson $A$ and a pair of charged bosons $H^{\pm}$. Six parameters describes the MSSM Higgs sector: $M_h$, $M_H$, $M_A$, $M_{H^\pm}$,
 $\beta$ and $\alpha$, where the latter represents the mixing angle in the neutral CP-even sector, while $\tan \beta $ is equal to the 
 ratio between the two vacuum expectation values $\tan \beta = v_1/v_2$.
@@ -251,7 +251,7 @@ following relation holds between the mixing angles:
 \cos^2(\beta - \alpha) = \frac{M_h^2 (M_Z^2 - M_h^2)}{M_A^2 (M_H^2 - M_h^2)}
 \end{equation}
 These relations are broken by large radiative corrections to the Higgs bosons 
-masses~\cite{Higgsm5}, which cause the constraint on the mass of $h$ to move from the tree level value of $M_Z$ to $\mh \apprle 140$ GeV.
+masses~\cite{Higgsm5}, which cause the costraint on the mass of $h$ to move from the tree level value of $M_Z$ to $\mh \apprle 140$ GeV.
 Another restriction, coming from GUT assumptions gives $1 \apprle \tan \beta \apprle m_t/m_b$ ~\cite{Higgsm6}.
 
 
@@ -264,7 +264,7 @@ a short overview of the former, based on the Reference~\cite{Djuadi}, is given i
 %The Feynman diagram for 
 The possible couplings between MSSM Higgs bosons and vector bosons 
 %are shown in Figure~\ref{fig:couplings}, where is possible to identify 
-are: the three-linear couplings $V_{\mu}V_{\nu}H_i$ among one Higgs boson and two gauge bosons and $V_{\mu}H_{i}H_j$ among one gauge boson and two Higgs bosons,
+are: the threelinear couplings $V_{\mu}V_{\nu}H_i$ among one Higgs boson and two gauge bosons and $V_{\mu}H_{i}H_j$ among one gauge boson and two Higgs bosons,
 as well as the couplings between two Higgs bosons and two gauge bosons $V_{\mu}V_{\nu}H_iH_j$. Figure~\ref{fig:couplings} shows the Feynman diagram 
 relative to these couplings.
 \begin{figure}[tp]
@@ -283,15 +283,15 @@ relative to these couplings.
     \caption{Feynman diagrams for the couplings between one Higgs boson and two gauge bosons (a), two Higgs bosons and one gauge boson (b)
 		and two Higgs bosons and two gauge bosons (c). Based on~\cite{Djuadi}. }
 \end{figure}
-Among all of them, the most relevant for MSSM Higgs phenomenology are the trilinear couplings between two gauge bosons and one Higgs boson $V_{\mu}V_{\nu}H_i$.
+Among all of them, the most relevat for MSSM Higgs phenomenology are the trilinear couplings between two gauge bosons and one Higgs boson $V_{\mu}V_{\nu}H_i$.
 For this case, since the photon is massless, there are no Higgs-$\gamma\gamma$ and Higgs-$Z\gamma$ couplings at tree level. CP-invariance also forbids $WWA$, $ZZA$
 and $WZH^{\pm}$ couplings. Then, for the $V_{\mu}V_{\nu}H_i$ couplings, only the following possibilities remains:
 \begin{align} 
 Z_{\mu}Z_{\nu} h ~ :  ~ & ig_z M_Z \sin(\beta -\alpha) g_{\mu\nu},  &  Z_{\mu}Z_{\nu} H ~ : ~  ~    & ig_z M_Z \cos(\beta -\alpha) g_{\mu\nu} \\
 W_{\mu}^+W_{\nu}^- h ~: ~&  ig_w M_W \sin(\beta -\alpha) g_{\mu\nu},  &  W_{\mu}^+W_{\nu}^- H ~ : ~ ~ & ig_w M_W \cos(\beta -\alpha) g_{\mu\nu} \label{eq:couplings} 
 \end{align}
-The couplings of the neutral CP-even Higgs bosons $h$ and $H$ with pair of vector bosons are proportional to $ \sin(\beta -\alpha)$ and $\cos(\beta -\alpha)$
-respectively, where $\cos(\beta -\alpha)$ is fixed at tree level following equation~\eqref{eq:mixing}. An interesting phenomenological consequence is
+The couplings of the neutral CP-even Higgs bosons $h$ and $H$ with pair of vector bosons are prortional to $ \sin(\beta -\alpha)$ and $\cos(\beta -\alpha)$
+respectively, where $\cos(\beta -\alpha)$ is fixed at tree level following equation~\eqref{eq:mixing}. An interesting fenomenological consequence is
 that, calling $G_{VVh}$ and $G_{VVH}$ the coupling between two generic vector bosons and one of the neutral CP-even Higgs bosons the following equation holds:
 \begin{equation}\label{eq:couplingSM}
 G^2_{VVh} +G^2_{VVH} = g^2_{VVH_{SM}}
@@ -328,7 +328,7 @@ Higgs-sbottom Yukawa couplings, the electroweak gaugino and gluino mass paramete
 Due to the large number of free parameters, a complete scan of the MSSM parameter space is impractical in experimental analysis and phenomenological
 studies. To cope with this difficulty several benchmark scenarios has been proposed~\cite{LHCxsec,mhmax2}, where the SUSY parameters
  entering via radiative corrections 
-are fixed to particular benchmark values which exhibit interesting features of the MSSM Higgs phenomenology, while the parameters 
+are fixed to particular benchmark values which exibit interesting features of the MSSM Higgs phenomenology, while the parameters 
 $M_A$ and $\tan\beta$ are left free to vary. Usually results are presented in a $M_A-\tan\beta$ plane.
 
 The $m_h^{max}$ benchmark scenario~\cite{MSSMmhmax} was  used in the past searches for neutral MSSM Higgs bosons performed
@@ -364,7 +364,7 @@ For an overview of other relevant  benchmark scenarios refer to Reference~\cite{
 \subsection{Neutral MSSM Higgs Bosons Production and Decay at LHC}
 For large region of the MSSM parameter space a SM-like Higgs boson is expected, 
 this role is commonly played by the lightest CP-even Higgs boson, $h$. 
-Given the Higgs bosons couplings discussed in Section~\ref{sec:couplings} turns out that the MSSM Higgs bosons $H$ and $A$
+Given the Higgs bosons couplings discussed in Section~\ref{sec:couplings} tourns out that the MSSM Higgs bosons $H$ and $A$
 tend to be degenerate in mass and decouple from gauge bosons. Furthermore the coupling of the latter
 two Higgs bosons with down (up) type fermions are enhanced (suppressed) by $\tan\beta$, therefore, for large $\tan\beta$
 bottom-quark and $\tau$ lepton will play an important role for 
@@ -448,12 +448,12 @@ pairs is the most important after $b\bar{b}$ and the one used in this thesis.
 
 
 
-\subsection{Current Status of the Search for Neutral MSSM Higgs Bosons}
+\subsection{Current Status of the Seacrh for Neutral MSSM Higgs Bosons}
 
 The measure of the couplings of the observed SM-like Higgs boson can shed light on the Higgs sector and determine if this boson
-is fully responsible for the generation of all the SM particles masses. 
+is fully responsable for the generation of all the SM particles masses. 
 %In fact, the couplings are sensitive to new physics,
-%given the unitarity property of scattering amplitudes for longitudinal vectors and fermions, 
+%given the unitarity property of scattering aplitudes for longitudinal vectors and fermions, 
 There are two approaches to explore the Higgs sector: one, is to use the measured Higgs couplings with SM particles to 
 set constraint on new physics, while the other is to directly search for additional Higgs bosons in a well defined model.
 
