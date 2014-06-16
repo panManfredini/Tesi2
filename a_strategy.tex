@@ -320,10 +320,10 @@ collected at the LHC during 2012 at a center-of-mass energy of $\sqrt{s}=8$~TeV,
 corresponding to an integrated luminosity of 20.3 fb$^{-1}$.
 The events used in this analysis are recorded using a combination of a
 single electron and combined electron-muon triggers. Only recorded events 
-in which all the relevant components of the ATLAS detector were
+in which all  relevant components of the ATLAS detector were
 fully operational are considered.
-Additional data quality requirements are applied to the events according to~\cite{ATLASCLEANING},
-these requirements assures the rejection of  events with data corruption due to the LAr and Tile calorimeters and
+Additional data quality requirements are applied to each event according to~\cite{ATLASCLEANING}.
+These requirements assure the rejection of  events %with data corruption due to the LAr and Tile calorimeters and
 with jet activity in known noisy calorimeter regions. 
 
 
@@ -336,12 +336,10 @@ with jet activity in known noisy calorimeter regions.
 Signal production via the gluon fusion process, $gg\rightarrow A/H/h$,
 was simulated with POWHEG~\cite{POWHEG} and the associated
 $b\bar{b}A/H/h$ production with SHERPA~\cite{SHERPA}.  The
-pseudo scalar Higgs boson samples were generated in the mass range from
-90~GeV to 300~GeV and at $\tan\beta = 20$, the same kinematics
-are assumed for $A/h/H$ Higgs bosons decay products and at other
-$\tan\beta$ values, appropriate re weighting is applied according to the
-different cross-sections. The $m_h^{\mathrm{max}}$ MSSM benchmark
-scenario is assumed.
+pseudo-scalar Higgs boson samples were generated in the mass range from
+90~GeV to 300~GeV assiuming $\tan\beta = 20$, all three  neutral Higgs bosons ($A/h/H$) are assumed to decay 
+with the same kinematic properties. Appropriate re-weighting of the production cross sections is applied 
+to simulate other $\tan\beta$ values. The $m_h^{\mathrm{mod}}$ MSSM benchmark scenario is assumed.
 
 
 \subsubsection{Background Samples}
@@ -351,15 +349,15 @@ was simulated with the ALPGEN~\cite{Alpgen} generator.
 %the MLM matching scheme~\cite{MLM} between the hard process,
 %calculated with leading-order matrix elements for up to five jets, and
 %the parton shower.  
-The $t\bar{t}$ process was generated using the POWHEG generator. The single-top (s-channel, $Wt$)
-processes were generated using MC@NLO~\cite{MCatNLO}, while single-top
-(t-channel) processes were generated with AcerMC~\cite{AcerMC}.  The
-production of dibosons~($WW$, $WZ$, $ZZ$) were generated with
-HERWIG~\cite{Herwig}.  For all ALPGEN and MC@NLO samples described
+The $t\bar{t}$ process was generated using the POWHEG generator. The single top quark 
+production via s-channel and in  $Wt$
+process were generated using MC@NLO~\cite{MCatNLO}, while single top quark production via 
+t-channel  was generated with the AcerMC~\cite{AcerMC} generator.  Diboson processes ($WW$, $WZ$, $ZZ$) were generated with
+the HERWIG~\cite{Herwig} generator.  For all ALPGEN and MC@NLO event samples described
 above, the parton shower and hadronisation were simulated with HERWIG
-and the activity of the underlying event with JIMMY~\cite{JIMMY}.
+and the underlying event activity with the JIMMY~\cite{JIMMY} programme.
 %The loop-induced $gg\rightarrow WW$ processes were generated using gg2WW~\cite{GG2WW}.  We are not using it Xsec very small
-Different parton density functions (PDFs) sets are used depending on
+Different sets of parton density functions (PDFs)  are used depending on
 the generator: CTEQ6L1~\cite{CTEQ6} is used by ALPGEN and AcerMC while
 CT10~\cite{CT10} is used by SHERPA, POWHEG and MC@NLO. 
 
@@ -367,26 +365,27 @@ TAUOLA~\cite{TAUOLA} and PHOTOS~\cite{PHOTOS} are used to model the
 tau lepton decay and additional photon radiation from charged leptons
 in the leading-log approximation, respectively.
 
-The ATLAS detector response is simulated for all the MC samples using GEANT4~\cite{Geant4,ATLASSIM},
-the physics object reconstruction is performed with the same software as for data described in chapter~\ref{chap:obj}.
-The effects of the simultaneous recording of several events from the
-same or neighboring bunch crossings (pile-up) are considered in the
+The ATLAS detector response is simulated for all generated samples using the GEANT4~\cite{Geant4,ATLASSIM} package,
+the reconstruction of physics objects, described in chapter~\ref{chap:obj}, is performed with the same software used also for 
+the data.
+The effects of the simultaneous recording of additional proton collisions from the
+same or neighboring bunch crossings (pile-up) are taken into account in the
 simulation. 
 
 
 
-\section{Event Selections and Categorization}\label{sec:selection}
+\section{Event Selection and Categorization}\label{sec:selection}
 
 
-\subsection{The ``Common'' Selections}\label{sec:presel}
+\subsection{The Common Selection Criteria}\label{sec:presel}
 
-According to the signal events characteristics, each event either data and MC should satisfy
-the following selection criteria, these selections are shared by both analysis category and therefore 
-referred in the following as ``common selections'':
+According to the characteristic properties of signal events, each event in data and simulation should satisfy
+the selection criteria described in the following. Since these are shared by both the b-tagged and b-vetoed event category,
+they are referred to as common selection criteria:
 
 
 \begin{enumerate}[label=(\roman*)]
-\item A trigger selection, requiring the presence of an electron with $\pt > 24$ GeV, or alternativaley,
+\item A trigger selection, requiring the presence of a single electron with $\pt > 24$ GeV, or alternativaley,
 	an electron with  $\pt > 12$ GeV togheter with a muon with  $\pt > 8$ GeV. 
 
 \item At least one reconstructed vertex with more that three associated tracks. This selection is aimed to 
@@ -397,54 +396,59 @@ referred in the following as ``common selections'':
 
 \item Exactly one ``Combined'' muon with $|\eta| < 2.5$ and  $\pt > $ 10~GeV.
 
-\item The electron should be isolated with $E_T^{cone}/\pt < 0.08$ and $P_T^{cone}/\pt < 0.06$ .
+\item The electron should be isolated with $E_T^{cone}/\pt < 0.08$ and $P_T^{cone}/\pt < 0.06\,.$ 
 
-\item The muon should be isolated with  $E_T^{cone}/\pt < 0.04$ and $P_T^{cone}/\pt <  0.06$ 
+\item The muon should be isolated with  $E_T^{cone}/\pt < 0.04$ and $P_T^{cone}/\pt <  0.06\.$ 
 
 \item Muon and electron should be of opposite charge.
 
 \item Overlap removal between electron, muon, $\tau_h$ and jets is performed.
 
-\item The events is rejected if at least one hadronic $\tau$ decay is found with $\pt > $ 15 GeV.
+\item The event is rejected if at least one hadronic $\tau$ lepton decay is found with the transverse 
+	momentum of the corresponding $\tau$-jet  $\pt > $ 15 GeV.
 
-\item The invariant mass of the sum of the electron and muon 4-vectors should be greather than 30 GeV.
+\item To reduce QCD-multijet background contamination, the invariant mass obtained from the sum 
+	of the electron and muon four-momenta should be greather than 30 GeV.
 
 \end{enumerate}
-For details about the definition of physics object used above and their quality requirements  refer to chapter~\ref{chap:obj}.
- 
-The two analysis category, \emph{b-tagged} and \emph{b-vetoed}, are defined adding on top of the common selections 
-the request of exactly one b-tagged jet or the absence of b-tagged jet in the event respectively. To be 
-\emph{taggable} a jet should have $\pt > 20$ GeV, $|\eta| < 2.5$ and $\text{JVF} > 0.5$.
-A jet is considered tagged if passes the selection of the $MV1$ algorithm at 70\% of efficiency for b-quark, 
-$\epsilon_b^{\ttbar}$. Further selection
-are applied to each category and optimized separately, these additional selection are described in the following.
+Details on  the definition of physics objects and the applied quality criteria  can be found in  chapter~\ref{chap:obj}.
 
-\subsection{b-vetoed Category}\label{sec:veto}
+Events accepted by the common selection criteria are categorized into the 
+\emph{b-tagged} and \emph{b-vetoed} event categories by requiring the presence of exactly one 
+b-tagged jet or the absence of any b-tagged jet in the event, respectively. A jet is considered b-tagged if it has 
+$\pt > 20$ GeV, $|\eta| < 2.5$, $\text{JVF} > 0.5$ and it passes the selection of the $MV1$ b-tagging
+algorithm at 70\% of efficiency for b-quark, $\epsilon_b^{\ttbar}$. Further selection criteria
+are applied to each category and optimized separately, as described in the following.
+
+\subsection{b-vetoed Event Category}\label{sec:veto}
 %\subsection{Selections}
 
-The final state of Higgs decaying into tau pair coincide with the one from  $\Ztautau$  process, this is then an irreducible 
-background for this category. Exploiting the different kinematics of the Higgs decay with respect to 
-other backgrounds is possible to disentangle
-between them. In the Higgs decaying into $\tau^{+} \tau^{-} \rightarrow e ~ \mu + 4\nu$ the taus are highly boosted
-and this feature is transferred to the final state leptons, their kinematics then result to be  significantly different 
-with respect to process like diboson or $\ttbar$. A first difference is that  $e$ and $\mu$ from the Higgs decay 
-will be more likely "back-to-back",
-as it is shown in Figure~\ref{dphi} where the angle between the leptons in the transverse plane 
-$\Delta\phi_{e,\mu} = |\phi_{e} - \phi_{\mu}|$ 
-is reported.  Furthermore the neutrinos will be more likely collinear with the charged leptons:
-this feature can be matematically seen as the sum of scalar product between missing energy and the leptons four-vectors in the
-transverse plane, if the vectors are normalised to unit versors then what remains is a relation only between angles:
+%The final state of Higgs decaying into tau pair coincide with the one from  
+A veto on the presence of b-tagged jets in the final state allows for the selection of signal events which
+are produced predominantly via gluon fusion. In this event category the 
+$\Ztautau$  process is an irreducible background due to the same topology of the Higgs and $Z$ boson decay.
+Other background processes can still be discriminated against the signal due to their kinamatic properties.
+The $\tau$ leptons from the Higgs boson decay are higly boosted and so are their decay products, this results
+in significantly different lepton kinematic with respect to diboson or $\ttbar$ background processes. 
+Firstly, the electron and muon from Higgs boson decay 
+will be more likely emitted back-to-back. This is illustrated in Figure~\ref{dphi}, showing 
+the angular distance between the two leptons in the transverse plane 
+$\Delta\phi_{e,\mu} = |\phi_{e} - \phi_{\mu}|$ for the signal and relevant background processes.  
+Secondly, the neutrinos from the Higgs boson decay  will be more likely collinear with the charged leptons,
+thus, the angular correlation between the direction of the missing transverse energy and the two leptons,
+derived as: 
+%re can be matematically seen as the sum of scalar product between missing energy and the leptons four-vectors in the
+%transverse plane, if the vectors are normalised to unit versors then what remains is a relation only between angles:
 $$ \hat{E}_{T}^{miss} \cdot ( \hat{P}_{T}^{\mu} + \hat{P}_{T}^{e} ) = cos(\Delta\phi_{E_{T},\mu}) 
 + cos(\Delta\phi_{E_{T},e}) = \sum_\ell cos(\Delta\phi_{E_{T},\ell}) $$
-collinearity implies this sum to be equal to zero as it is shown in Figure~\ref{sumcosphi}. 
-These two feature can be used to distinguish between $e-\mu$ and $\met$ coming from decay of highly 
-boosted and back-to-back object and the one coming from W decays in top or in dibosons backgrounds,
-in which the leptons are not necessarily back-to-back and the neutrinos not collinear with them.
-In b-vetoed category these two variables are sufficient to suppress contribution from dibosons,
-no other selection is applied in this category because it has been shown to not bring significant improvement.
-The actual selection employed in this category are shown in Table~\ref{tab:sel}, while in Table~\ref{tab:eventsel:bveto}
-the prediction for the number of background and signal events that survises at 
-each selection stage of this category is reported.
+is expected to tend to zero, as is shown in Figure~\ref{sumcosphi}. 
+These two features can be used to discriminate the signal from the W boson, top quark or in dibosons background processes.
+%ck-to-back and the neutrinos not collinear with them.
+%In b-vetoed category these two variables are sufficient to suppress contribution from dibosons,
+No further selection criteria are applied in this event category, as it has been shown that no significant improvement
+of the analysis sensitivity can be achieved.
+The exact selection criteria are listed in Table~\ref{tab:sel}, while in Table~\ref{tab:eventsel:bveto}
+the predicted number of background and signal events after each stage of selection are reported.
 
 
 \begin{table}[t]
