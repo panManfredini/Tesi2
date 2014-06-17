@@ -396,9 +396,9 @@ they are referred to as common selection criteria:
 
 \item Exactly one ``Combined'' muon with $|\eta| < 2.5$ and  $\pt > $ 10~GeV.
 
-\item The electron should be isolated with $E_T^{cone}/\pt < 0.08$ and $P_T^{cone}/\pt < 0.06\,.$ 
+\item The electron should be isolated with $E_T^{cone}/ \pt < 0.08$ and $P_T^{cone}/ \pt < 0.06\,.$ 
 
-\item The muon should be isolated with  $E_T^{cone}/\pt < 0.04$ and $P_T^{cone}/\pt <  0.06\.$ 
+\item The muon should be isolated with  $E_T^{cone}/ \pt < 0.04$ and $P_T^{cone}/ \pt <  0.06\,.$ 
 
 \item Muon and electron should be of opposite charge.
 
@@ -467,46 +467,47 @@ the predicted number of background and signal events after each stage of selecti
 %	&	Tau Veto \\
 %	&	$M_{e-\mu} > 30$ GeV \\
 %      \hline
-      b-vetoed & Exactly zero b-tagged taggable jets \\	
+      b-vetoed &  No b-tagged jets \\	
       & $\Delta\phi(e-\mu)>1.6$ \\
       & $\sum\cos\Delta\phi > -0.4$ \\[5pt]
       \hline
-      b-tagged & Exactly one b-tagged taggable jet \\
+      b-tagged & Exactly one b-tagged  jet \\
       & $\Delta\phi(e-\mu)>2$ \\
       & $\sum\cos\Delta\phi > -0.2$ \\
       & $ H_T < 100$ GeV \\
       & $P_{T\mu} + P_{Te} + \met < 100$ GeV \\[3pt]
       \hline \hline
     \end{tabular}
-    \caption{Summary of the dedicated b-tagged and b-vetoed category selections that are employed after the common selections.}
+    \caption{Summary of the event selection criteria in the b-tagged and b-vetoed event categories, applied after the common 
+	event selection has been performed.}
     \label{tab:sel}
   %\end{footnotesize}
   \end{center}
 \end{table}
 
-\subsection{b-tagged Category}\label{sec:tag}
-In the b-tagged category the situation is different, 
-the  request of a b-jet enhance backgrounds with b-jet activity as top and single top production.
-In this category selection on $\Delta\phi(e-\mu)$ and $\sum\cos\Delta\phi$  are employed as described for b-vetoed,
-since these selections are effective in reducing top and diboson backgrounds. In addition further selection exclusive of this category
-are employed  and are described below.
+\subsection{b-tagged Event Category}\label{sec:tag}
+The request of exactly one b-tagged jet in the b-tagged event category selects predominantly signal events produced 
+in  b-quarks associated production mode.
+Background processes with b-jet activity, as the top quark and single top quark production become enhanced compared to the $\Ztautau$ background.
+Also in this category selection requirement on $\Delta\phi(e-\mu)$ and $\sum\cos\Delta\phi$  are imposed as described for the b-vetoed event category,
+in order to reduce the top quark and diboson background contributions. Further selection criteria specific for  this category
+are employed  as described below.
 
-Given the relatively low jet activity of Higgs events (also in the case of b-associated production), 
-it is possible to separate them from
-top production which instead is very likely to have two or more highly enegetic jets in the event.
-Little jet activity is achieved by requesting the sum of the jets $\pt$ in the event to be small, this variable is called $\Ht$
-and is shown in Figure~\ref{Ht}. The jets used for the calculation of $H_T$ should have $\pt > 30 $ GeV, $|\eta| < 4.5$  and
-$\text{JVF} > 0.5 $ (when applicable).
+Given the relatively low jet activity of the signal events, it is possible to discriminate these from
+top quark production. The top quark proces are very likely to have two or more highly enegetic jets in the event, unlike the signal
+b-jet which are relatively low energetic.
+Weak jet activity is ensured by requesting the sum of the jets transverse momenta, $H_T$,  in the event to be small.
+The $H_T$ distribution is shown in Figure~\ref{Ht}. The jets used for the calculation of the $H_T$ value 
+should have $\pt > 30 $ GeV, $|\eta| < 4.5$  and $\text{JVF} > 0.5 $ (if $|\eta| < 2.5$).
 
-Another feature that distinguish top pair production from Higgs is the higher invariant mass of the former final state
-(the highest Higgs mass considered for this search is 300 GeV),
-in the transverse plane all the leptons will tend to have a higher momentum, the sum of electron and muon \pt and \met is then used as
-a discriminating variable. Figure~\ref{sumlepPt} shows the distribution of this last analysis variable.
+Another feature that discriminate top quark  pair production from the Higgs boson signal is the higher invariant mass of the former final state, 
+as the highest Higgs mass considered for the presented  search is 300 GeV.
+The sum of electron and muon transverse momenta with \met is  used as 
+a corresponding discriminating variable, whose distribiution is shown in Figure~\ref{sumlepPt}$\,.$
 
-The above described variables defines the b-tagged category, in table~\ref{tab:sel} a summary of all the employed selection 
-variables with their optimized cut values is shown. In Table~\ref{tab:eventsel:btag}
-the prediction for the number of background and signal events that survises at 
-each selection stage of this category is reported.
+The summary of the exact optimized selection criteria for the b-tagged event category is shown in Table~\ref{tab:sel}.
+In Table~\ref{tab:eventsel:btag} the predicted number of background and signal events after each stage of selection 
+in the b-tagged event category  is reported.
 
 
 \begin{figure}[p]
@@ -529,9 +530,11 @@ each selection stage of this category is reported.
      }	
 
     \end{center}
-    \caption{Distribution of analysis variable after the selections common to both category, a comparison of the prediction
-	   of background model prediction and data is made showing good agreement.  The yellow band represents the total
-		systematic uncertainty for the background model prediction.}
+    \caption{Distributions of relevant discriminating variables shown after the common selection has been applied.
+	The prediction of the  background model is compared to  data.
+	The contribution of the $\Ztautau$ and QCD multi-jet background processes is measured in  dedicated  signal-depleted control data samples,
+	the prediction for all the other bakground processes is obtained from simulation.
+	The yellow band represents the total systematic uncertainty for the background model prediction (see Section~\ref{sec:Systematics}).}
    \label{fig:selections}
 \end{figure}
 
@@ -540,11 +543,18 @@ each selection stage of this category is reported.
 
 \subsection{Mass Reconstruction with MMC Technique}\label{sec:mmc}
 
-Acurate invariant mass reconstuction of a di-$\tau$ resonace is a challenging task
-due to the presence of neutrinos from the $\tau$ leptons decay. 
-In case of leptonic decay of both $\tau$ leptons a pair of neutrinos for each
-of them are involved in the final state,  the system presents then eight uknowns, which corresponds to the four-momentum of the neutrinos pairs.
-Four additional kinematic constraint are set by the following equations:
+Acurate invariant mass reconstruction of a di-$\tau$ resonace is a challenging task due to the undetected neutrinos. 
+In the presented analysis a total of four neutrinos are involved in the final state, two for each 
+of the $\tau$ lepton decays.
+% In case of leptonic decay of the $\tau$ leptons
+%a total of four neutrinos are involved in the final state. 
+The invariant mass depends on eight uknowns given by the two
+sums of neutrino four-momenta, one for each $\tau$ lepton decay. These unknowns can be constrained by four parameters 
+obtained from the measured  missing transverse energy and from the $\tau$ lepton mass, using the following equations:
+% 
+%In case of leptonic decay of both $\tau$ leptons a pair of neutrinos for each
+%of them are involved in the final state,  the system presents then eight uknowns, which corresponds to the four-momentum of the neutrinos pairs.
+%Four additional kinematic constraint are set by the following equations:
 %There are four additional constraint 
 %which come from the measurement of \MET and from the fact that each single decay should have invariant mass equal to the tau mass:
 \begin{equation} \label{eq:MMC}
@@ -557,14 +567,13 @@ Four additional kinematic constraint are set by the following equations:
 %\end{gather*}
 \end{split}
 \end{equation}
-where the index \emph{i} runs over the two $\tau$ leptons of the event and assumes the values of 1 or 2. 
+where the index \emph{i} runs over the two $\tau$ leptons in the event. 
 $\vec{P}_{T}^{mis_{i}}$, $m_{mis_{i}}$ and $\mathbf{P}_{mis_{i}}$ are respectively the transverse momentum, the invariant mass and 
-the four momentum of the pair of neutrinos related to the  $\tau$ lepton decay \emph{i} with mass $M_{\tau}$, the subscript \emph{vis} indicates instead 
-quantities related to the charged lepton from  $\tau$ lepton decay. The system has still four degrees of freedom,
-%$m^2_{miss}$, therefore there are still four degrees of freedom in the system.
-several approximation are possible to further constraint the momentum carried by neutrinos,
-for example assuming them collinear to the electron or muon from $\tau$ lepton decay, however those approximation 
-suffers of mass resolution limitations.
+the four momentum of the pair of neutrinos originating from the decay of the $i$-th  $\tau$ 
+lepton with mass $M_{\tau}$. The subscript \emph{vis} indicates instead 
+quantities related to the charged lepton from  the corresponding $\tau$ lepton decay. The remaining four degrees of freedom can be 
+further constrained, for example, assuming that the neutrinos are collinear to the electron or muon from the corresponding 
+$\tau$ lepton decay. Those approximation, however, introduces limitations on the mass resolution.
 
 \begin{table}[tp]
   \centering
@@ -575,6 +584,7 @@ suffers of mass resolution limitations.
     \hline
    \hline
 Data	&	125886			&	89155			&	-			&	-				-			\\
+   \hline
 Multi-jet	&	6693	$\pm$	456	&	6357	$\pm$	461	&	5322	$\pm$	438	&	4137	$\pm$	339	\\
 \Zll 	&	569	$\pm$	48	&	564	$\pm$	48	&	516	$\pm$	47	&	434	$\pm$	44		\\
 \Wlnu	&	1625	$\pm$	155	&	1604	$\pm$	155	&	1145	$\pm$	125	&	714	$\pm$	101		\\
@@ -585,7 +595,7 @@ Single Top	&	4449	$\pm$	44	&	1664	$\pm$	27	&	1124	$\pm$	22	&	682	$\pm$	18	\\
 Signal	&				&				&	-			&	-						\\
     \hline
   \end{tabular}
-  \caption{Number of data and background events in the b-vetoed channel.}
+  \caption{Number of observed and predicted signal and background events, after each selection stage in the b-vetoed event category.}
   \label{tab:eventsel:bveto}
    \end{footnotesize}	
 \end{table}
@@ -598,6 +608,7 @@ Signal	&				&				&	-			&	-						\\
 	& 	n(b-jet)=1			&	$\Delta\phi$&	$\sum\cos\Delta\phi$			&	$P_{T\mu} + P_{Te} + \met$&	$ H_T$	\\
    \hline
 Data	&	23352			&	-			&	-			&	-			&	-						\\
+   \hline
 Multi-jet	330	$\pm$	40	&	208	$\pm$	27	&	135	$\pm$	22	&	114	$\pm$	17	&	100	$\pm$	15	\\
 \Zll 	&	5.2	$\pm$	1.8	&	2.3	$\pm$	1.1	&	2.3	$\pm$	1.1	&	1.7	$\pm$	1.0	&	0.9	$\pm$	0.8		\\
 \Wlnu	&	20	$\pm$	6	&	15	$\pm$	6	&	13	$\pm$	6	&	10	$\pm$	6	&	10	$\pm$	6		\\
@@ -609,38 +620,39 @@ Signal		&				&	-			&	-			&	-			&	-						\\
     \hline
     \hline
   \end{tabular}
-  \caption{Number of data and background events in the b-tagged channel.}
+  \caption{Number of observed and predicted signal and background events, after each selection stage in the b-tagged event category.}
   \label{tab:eventsel:btag}
    \end{footnotesize}	
-\end{table}
+\end{table}  %INCOMPLETE ------------missing signal
 
 In this analysis, the so-called "Missing Mass Calculator" (MMC) algorithm
-is used to calculate the most likely di-$\tau$ system invariant mass given the event topology, %event kinematics
-the implementation of the method in this search is based on~\cite{MMC}. 
-The concept of the MMC is to solve equation~\ref{eq:MMC} assigning values to the yet undetermined variables, performing a 
-``scan'' over a four dimensional parameter space. The four independent  variables are chosen 
+is used to calculate the most likely  invariant mass of the di-$\tau$ system for a given event topology. %event kinematics
+The implementation of the MMC method in this search is based on~\cite{MMC}. 
+The MMC algorithm solves the equations~\ref{eq:MMC} for a set of points in a grid of a 
+%assigning values to the yet undetermined variables, performing a ``scan'' over a 
+four-dimensional parameter space. The four independent  variables are chosen 
 to be $ m^2_{mis_{i}}$ and $cos\theta^*_i$ , the latter defined
 as the angle between the charged lepton from the $\tau$ lepton decay and the boost direction of the $\tau$ lepton. 
-The di-$\tau$ invariant mass of the event can be calculated for each given point of the parameter space that solves equations~\ref{eq:MMC},
-however, the solutions are not all equally likely and  the probability of a given $\tau$ decay configuration can be predicted by means
-of simulation (PYTHIA supplemented with TAUOLA package is used). Each point in the parameter space, corresponding
-to a particular di-$\tau$ invariant mass, is then weighted by its probability to occur. 
-The estimator for the final discriminant, the mass of the di-tau system \mmc, 
-is the maximum of the weighted invariant mass distribution calculated for the scanned points.
+The di-$\tau$ invariant mass in each  event is then  calculated for each given point of the parameter space.
+Each solution is weighted by the probability that a $\tau$ lepton decay assumes a given configuration. The probability
+of a given configuration is predicted  by means of simulation using PYTHIA generator supplemented with TAUOLA package. 
+The invariant mass of the di-$\tau$  system, \mmc, is then defined as the maximum of the weighted invariant 
+mass distribution obtained from all scanned points.
 
-The missing energy plays an important role in the MMC method and  its resolution has an impact on the calculation
-of the invariant mass. To improve $\met$ resolution, a scan over a six dimensional parameter space is performed 
-in a similar way as described above, in this case however, $\vec{E}_T^{miss}$ is also considered unknown and a scan 
-is performed on it assigning values  according to its uncertainty. 
-The probability of each solution is calculated and the final missing transverse
-energy is given by the weighted mean of the scanned points. 
+The resolution of the missing transverse energy measurement impacts the resolution of the invariant mass obtained with the \mmc method.
+To improve the $\met$ resolution, a scan over a six-dimensional parameter space is performed 
+in a similar manner as described above. For this purpose, the value of $\vec{E}_T^{miss}$ is also considered unknown and a scan 
+is performed over all possible values constrained by the measured $\met$ and its corresponding uncertainty.
+%on it assigning values  according to its uncertainty. 
+%The probability of each solution is calculated and the final missing transverse
+%energy is given by the weighted mean of the scanned points. 
+%
+%The final procedure consist in obtaining first an estimate for $\met$ by means of a six dimensional scan over the solution of equations~\ref{eq:MMC},
+%successively a four dimensional scan is performed fixing $\met$ to the updated value and calculating the most likely invariant mass 
+%of the di-$\tau$ system.
 
-The final procedure consist in obtaining first an estimate for $\met$ by means of a six dimensional scan over the solution of equations~\ref{eq:MMC},
-successively a four dimensional scan is performed fixing $\met$ to the updated value and calculating the most likely invariant mass 
-of the di-$\tau$ system.
-Figure~\ref{fig:mass} shows the final state invariant mass distribution calculated with  \mmc 
-discriminating variable, the distribution is shown after the common selection and after the full selection
-of both category. 
+Figure~\ref{fig:mass} shows the  \mmc invariant mass distribution after after the common selection 
+and after applying the full selection in both event categories. 
 
  
 %Accurate invariant mass reconstruction of a di-tau system is a challenging task due to the escaping neutrinos.
@@ -694,7 +706,8 @@ of both category.
     \end{center}
      	
 
-    \caption{\footnotesize Distribution of the \mmc for different cuts stage, see text. Left column corresponds to b-tagged category, right column to b-vetoed.}
+    \caption{\footnotesize Observed and expected distribution of the 
+	invariant di-$\tau$ mass \mmc for different stage of analysis selections.}
    \label{fig:mass}
 \end{figure}
 

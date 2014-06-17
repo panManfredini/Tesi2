@@ -1,26 +1,25 @@
-\section{Background Modeling and Validation}
+\section{Background Prediction and Validation}
 \label{sec:BackgroundEstimation}
 
-This section describes the strategies for background modeling and validation.
-Monte Carlo  simulation is extensively used for model either background and signal, 
-the  simulations of any process are usually prone to systematics
-uncertainties due to non-perfect descriptions of pileup effects,
-underlying event and detector performance, therefore,
-data-driven background estimation method are employed for the estimate of $\Ztautau$ and QCD multi-jet backgrounds,
-described respectively in section~\ref{sec:ztau} and~\ref{sec:qcd}.
+This section describes the strategies for  the prediction of the background contributions and validation of these predictions.
+Monte Carlo  simulation is extensively used to model the kinematic properties of the background and signal processes.
+However, since the  simulation of any process is usually prone to systematic
+uncertainties due to a non-perfect description of the pileup effects,
+underlying event and detector performance, the background contributions from 
+$\Ztautau$ and QCD multi-jet process are estimated using dedicated signal-free control data samples, 
+as described respectively in section~\ref{sec:ztau} and~\ref{sec:qcd}.
 %estimate backgrounds from data. In particular for the following cases:
 %\begin{itemize}
 %  \item[$\bullet$] The $Z \rightarrow \tau\tau \rightarrow ll ~ + ~  4\nu$ is estimated from data using the embedding technique described in Section~\ref{sec:data_mc}.
 %  \item[$\bullet$] The multi-jet background is estimated completely from data using the so-called ABCD method.   
 %\end{itemize}
-Other background processes, such as \ttbar, single top, dibosons, $Z
+Contributions of other background processes, such as \ttbar, single top quark, dibosons, $Z
 \rightarrow ll$ + jets (where $l = e,\mu$) and W + jets, are estimated
-using MC predictions. Given the particular importance of \ttbar a dedicated study to validate
-this background has been made and described in section~\ref{sec:top_est}.
+from simulation. Given the relatively large \ttbar background contribution, a dedicated study to validate
+this background prediction has been made as described in section~\ref{sec:top_est}.
 
-A good agreement between data and background model is found after the common selections, 
-this is supported by figure~\ref{fig:validation} which shows few kinematic variables and
-figure~\ref{fig:selections} which shows analysis selection variables after common selections.
+A good agreement between data and background prediction is found after the common selection, as can be seen in 
+Figure~\ref{fig:selections} and Figure~\ref{fig:validation}.
 
 
 \begin{figure}[p]
@@ -31,28 +30,33 @@ figure~\ref{fig:selections} which shows analysis selection variables after commo
             \includegraphics[page=4,width=0.47\textwidth]{figure/std_plots_presel.pdf}
 
     \end{center}
-    \caption{Distribution of some kinematic variables after common selections.}
+    \caption{ Observed and expected distribution of  kinematic variables after common selections. 
+	The prediction of the  background model is compared to  data.
+	The contribution of the $\Ztautau$ and QCD multi-jet background processes is measured in  dedicated  signal-depleted control data samples,
+	the prediction for all the other bakground processes is obtained from simulation.
+	The yellow band represents the total systematic uncertainty for the background model prediction.}
    \label{fig:validation}
 \end{figure}
 
 
 
-\subsection{Top Quark Pair Production Validation}
+\subsection{Validation of the \ttbar Background Prediction}
 \label{sec:top_est}
 
-The background from top quark pair production is estimated using a sample of simulated events with POWHEG-PYTHIA MC
-generator. Since this is one of the major backgrounds for this analysis a careful validation is needed, for this purpose
- a \ttbar rich and signal-depleted data control sample is defined using events passing 
-the common selections  with the additional requirement of two b-tagged jets.
+The background contribution from top quark pair production is estimated using a sample of simulated events generated with POWHEG-PYTHIA Monte Carlo
+generator. Since this is one of the major background processes for the presented analysis a careful validation 
+of the predicted contribution is needed. For this purpose
+signal-depleted data validation sample  enriched with \ttbar events  by requiring the presence of exactly two b-tagged jets in all the events
+passing the common selection.
 %Since this is one of the major backgrounds for this analysis (especially in b-tag category)
 %a careful validation of this background model is need, for this purpose a  top quark enriched control region (CR)  
 %is defined by adding to the preselection the further requirement of exactly two b-tagged jets in the event. 
-Figures~\ref{fig:kinematicsttbar} and~\ref{fig:cutsttbar} show a set of kinematic and analysis selection
-variables in this data sample, good agreement between data and MC prediction is found:
+Figures~\ref{fig:kinematicsttbar} and~\ref{fig:cutsttbar} show the distributions for a set of kinematic properties and all discriminating 
+variables obtained with this  data sample. Good agreement between data and Monte Carlo prediction is found with 
 %and shows that our top-quark background model describes well the data
 %Also the prediction of the event yield in this CR is in good agreement with data: 
-an overall data to background ratio of $0.998 \pm 0.011\mathrm{(stat.)} \pm 0.110 \mathrm{(sys.)}$ is observed. 
-The total systematic uncertainty on the ratio is dominated by the uncertainty on the b-tagging efficiency. 
+overall ratio of the observed to the predicted number of \ttbar events of $0.998 \pm 0.011\mathrm{(stat.)} \pm 0.110 \mathrm{(sys.)}\,.$
+The total systematic uncertainty on the ratio is dominated by the uncertainty of the b-tagging efficiency. 
 %In addition, this result could be used
 %as a measure of $t\bar{t}$ normalization avoiding systematic uncertainty on the theoretical cross section of
 %this process. In this case, however, additional acceptance systematics would need to be evaluated in a dedicated study.
@@ -75,7 +79,10 @@ The total systematic uncertainty on the ratio is dominated by the uncertainty on
         }
 
     \end{center}
-    \caption{ Distributions  of a) the MMC mass, b) the transverse momentum of the electron $\pt(e)$ and c) the transverse momentum of the muon $\pt(\mu)$, for both data and MC in the \ttbar control sample. The uncertainties on the points for the ratio plot show the statistical uncertainty on the data to background ratio, whereas the yellow band show the total systematic uncertainty on this ratio.} 
+    \caption{ Observed and expected distributions  of a) the di-$\tau$ invariant mass
+	\mmc, b) the electron transverse momentum $\pt(e)$ and c) the muon transverse momentum $\pt(\mu)$ in the \ttbar validation sample. 
+	The error bars on the observed to the predicted events ratio indicates the statistical uncertainty,
+	whereas the yellow band indicates the total systematic uncertainty of this ratio.} 
    \label{fig:kinematicsttbar}
 \end{figure}
 
@@ -101,53 +108,54 @@ The total systematic uncertainty on the ratio is dominated by the uncertainty on
         }
 
     \end{center}
-    \caption{Distributions of a) $\Delta\phi(e-\mu)$,
-      b) $\sum\cos\Delta\phi$, c) \SumLtMET and d) \Ht , for both data and MC in the \ttbar control sample. The uncertainty on the points for the ratio plot show the statistical uncertainty on the data to background ratio, whereas the yellow band show the total systematic uncertainty on this ratio.}
+    \caption{ Observed and expected distributions of the discriminating variables, (a) $\Delta\phi(e-\mu)$,
+      (b) $\sum\cos\Delta\phi$, (c) \SumLtMET and (d) \Ht  in the \ttbar validation sample.
+	The error bars on the observed to the predicted events ratio indicates the statistical uncertainty,
+	whereas the yellow band indicates the total systematic uncertainty of this ratio.} 
+ 
    \label{fig:cutsttbar}
 \end{figure}
 
 
-\subsection{Multi-jet Background}
+\subsection{Multi-jet Background Measurement}
 \label{sec:qcd}
 
-The QCD multi-jet background represents an important background, 
-especially in the b-veto category, due to its high cross-section and the 
-relatively low cut on lepton \pt used in this analysis. This
-background is evaluated by a data-driven technique, the so-called ABCD method.
-The ABCD method consists of splitting the set of data events after the common selections in four samples: the
-signal sample, defined by the event selections described in Section~\ref{sec:selection}
-and three signal-depleted control data sample, which do not share events and are
-designed to be enriched in multi-jets events. The four samples are defined by using the relative 
-sign of the charge of  the leptons and  isolation selections. 
-To obtain data samples rich in multi-jet background, the selections on both
-the calorimetric and tracking isolation, described in Section~\ref{sec:presel},  are inverted with respect to the
-nominal ones defining anti-isolated leptons. Is then
-possible to define four data samples: opposite sign (OS) or same sign
-(SS) with respectively isolated or anti-isolated leptons. Historically
-the letters A-D are assigned to this data samples for a quicker reference as
-defined in Table~\ref{table:qcd}.
+The QCD multi-jet process represents an important background, 
+especially in the b-vetoed event category, due to its high cross-section and the 
+relatively low threshold on the lepton \pt used in this analysis. The contribution of this
+background is evaluated by the so-called ABCD data-driven technique.
+The ABCD method splits the sample of data events after the common selection into four sub-samples: the
+signal sample (A), defined by the event selections criteria described in Section~\ref{sec:selection}
+and three signal-depleted control data sample (B,C,D), which are orthogonal to each other  and are
+enriched in multi-jets events. The three control data samples are defined by inverting the requirements on the relative 
+sign of the electron and muon charge  and  on the isolation criteria. 
+Both the calorimetric and tracking isolation criteria described in Section~\ref{sec:presel}  are inverted for each electron and muon 
+with respect to the nominal values, thus defining the so-called anti-isolated leptons. 
+The data are divided into four samples of events with leptons of opposite sign charge (OS) 
+or same sign charge (SS) with respectively isolated or anti-isolated leptons, as summarized in Table~\ref{table:qcd}.
 
 \begin{table} [tp]
 \centering
 \begin{tabular}{c c c }
 \hline
-sample & Lepton Charge & Lepton Isolation \\ [0.5ex]
+Data Sample & Relative Lepton Charge & Lepton Isolation \\ [0.5ex]
 \hline
 A (signal sample) & OS & isolated \\
+\hline
 B & SS & isolated \\
 C & OS & anti-isolated \\
 D & SS & anti-isolated \\ [1ex]
 \hline
 \end{tabular}
-\caption{QCD background estimation control samples, defined by having leptons with opposite signs (OS) or same signs (SS) and by having the leptons either isolated or anti-isolated.}
+\caption{Control data samples for the measurement of the QCD multi-jet background contribution. The samples are defined by the requirements on the relative
+	charge sign of the two leptons (OS,SS) and the isolation criteria applied on them (isolated or anti-isolated). See text.}
 \label{table:qcd}
 \end{table}
 
-An assumption of the ABCD method is that multi-jet backgrounds
-populate the OS and SS events independently of lepton isolation
-criteria, or in other words that the ratio of OS/SS events is uncorrelated 
-with the lepton isolation selections. In this case, the number of QCD events in the signal sample $A$ 
-can be estimated from the yield of multi-jet events in the control samples $B$, $C$ and $D$, using the equation
+The ABCD method assumes that there is no correlation between the relative 
+charge and lepton isolation in QCD multi-jet events, or in other words that the ratio of OS/SS events is uncorrelated 
+with the lepton isolation criteria. In this case, the number ($N_{A}$) of QCD multi-jet events in the signal sample $A$ 
+can be estimated from the yields ($N_B$, $N_C$, $N_D$)  of multi-jet events in the control samples $B$, $C$ and $D$, using the equation
 \begin{equation} \label{eqn:qcdest}
 N_{A}  = N_{B} \times \frac{N_{C}}{N_{D}} =  N_{B} \times \rqcd
 \end{equation}
@@ -155,15 +163,14 @@ N_{A}  = N_{B} \times \frac{N_{C}}{N_{D}} =  N_{B} \times \rqcd
 %from electroweak (W and Z + jets, dibosons) and top processes
 %($t\bar{t}$ and single top production) are  subtracted in each control sample 
 %using the MC prediction for their event yield.  
-To obtain the multi-jet yields in the data control samples, the contamination
-from electroweak (W+jets, Z+jets and dibosons) and top processes
-($t\bar{t}$ and single top production) are  subtracted in each control sample 
-using the MC prediction for their event yield.  Tables~\ref{table:qcd_yield_btag}~and~\ref{table:qcd_yield_bveto}
-show the event yield
-% in the b-tagged and b-veto categories, respectively,
-for each control sample throughout the full cut-flows along with the
-predictions of non-QCD multi-jets events which are subtracted.
-Signal contamination has been checked in all the three control samples for different 
+To obtain the pure QCD multi-jet event yields in the data control samples, the contribution 
+from contaminating electroweak (W+jets, Z+jets and dibosons) and top quark processes
+($t\bar{t}$,  single top quark production) is  subtracted in each control sample based 
+on the prediction from simulation.
+Tables~\ref{table:qcd_yield_btag}~and~\ref{table:qcd_yield_bveto}
+show the observed event yield in each control sample at different stages of the event selection along with the
+predictions of non-QCD background contributions  which are subtracted.
+Signal contamination has been evaluated in all  three control samples for different 
 mass points. For the range of $m_{A}$ and $\mathrm{tan}\beta$ considered in this analysis, the highest signal contamination 
 is seen in sample B for the mass point $m_{A} = 300$ GeV and $\mathrm{tan}\beta = 50$, where  a contamination 
 of 0.2\% is observed\footnote
