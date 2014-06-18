@@ -170,45 +170,47 @@ on the prediction from simulation.
 Tables~\ref{table:qcd_yield_btag}~and~\ref{table:qcd_yield_bveto}
 show the observed event yield in each control sample at different stages of the event selection along with the
 predictions of non-QCD background contributions  which are subtracted.
-Signal contamination has been evaluated in all  three control samples for different 
-mass points. For the range of $m_{A}$ and $\mathrm{tan}\beta$ considered in this analysis, the highest signal contamination 
+Signal contamination has been evaluated in all  three control samples for different signal 
+mass points. For the range of $m_{A}$ and $\mathrm{tan}\beta$ values considered in this analysis, the highest signal contamination 
 is seen in sample B for the mass point $m_{A} = 300$ GeV and $\mathrm{tan}\beta = 50$, where  a contamination 
-of 0.2\% is observed\footnote
-{
-This value is mainly due to b-associated production and,
-as it scales with the cross section, for $\mathrm{tan}\beta = 20$ would be an order of magnitude smaller.
+of 0.2\% is observed\footnote{
+This contamination signal originates mainly from the production in association wit b-quarks and,
+as it scales with the cross section, it will be an order of magnitude smaller for $\tan\beta = 20\,.$
 }.
 
-Shapes of kinematic distributions for QCD events are taken from 
-sample B, this sample is expected to have similar kinematic property to the signal sample, however, suffers of either lower statistics 
-and higher contamination with respect to sample C or D.
-This choice is made to avoid a shape bias due to isolation requirements at trigger level (only the single-electron trigger ask for isolation),
+The modeling of the shapes of kinematic distributions in QCD multi-jet events is given by the data sample B.
+The events in this sample are expected to have similar kinematic properties as in  the signal sample.
+A drawback of this choice is a rather low number of events and a higher contamination with non-QCD process compared to samples C and D.
+Sample B is chosen  to avoid a shape bias due to isolation requirements at the trigger level, since the single-electron trigger 
+allready imposes isolation requirements. 
 %the trigger:  an isolated trigger is used 
 %for electrons (as described in Section~\ref{sec:eventsel}), where the offline requirement equivalent to this trigger choice is $\ptcone20/\pt <0.1$.
-figure~\ref{fig:BvsD} shows the comparison between the electron $\pt$ distributions in sample B and D, 
-in the latter high $\pt$ electrons are suppressed, they do not pass trigger selections. 
-Eventually the trigger isolation requirement could
-bias also the ratio OS/SS, this possibility has been checked carefully
-in a dedicated study and reported in Appendix \ref{appendix:qcd}:
-to a good approximation, such trigger effects cancel out in the ratio
-OS/SS and no additional systematic is needed.
+Figure~\ref{fig:BvsD} shows the comparison of the electron $\pt$ distributions in sample B and D. In the latter sample 
+high-$\pt$ electrons are suppressed as they do not pass the trigger selection. 
+Eventually the trigger isolation requirement could also 
+bias the ratio \rqcd. This possibility has been carefully studied 
+in a dedicated study as reported in Appendix~\ref{appendix:qcd}.
+To a good approximation, the mentioned trigger effects cancel out in the ratio
+\rqcd and no additional systematic uncertainty needs to be taken into account.
 
-To test the ABCD method predictions an additional control sample has been defined with the following selections:
+
+To test the predictions of the ABCD method  an additional validation sample has been defined with the following selection criteria after
+applying the common selection:
 \begin{itemize}
 \item \MET $< 20$ GeV
 \item \Ht $< 70$ GeV and \SumLtMET$ < 50$ GeV
 \item $0 < \mmc < 80$ GeV  	 
 \end{itemize}
-This control sample is designed to enhance multi-jet background with respect to \Ztautau keeping the final 
+This validation sample is designed to enhance the multi-jet background contribution with respect to \Ztautau keeping the final 
 state kinematics as similar as possible to the signal sample.
-Figure~\ref{fig:ABCD_cr} shows the \mmc distribution for this control sample with and without b-tagging requirements, 
-agreement between data and the background model is found within statistical and detector related systematics uncertainty. 
+Figure~\ref{fig:ABCD_cr} shows the \mmc distribution for this validation sample with and without the  b-tagging requirements.
+Agreement between data and the background predictions is found within statistical and detector-related systematics uncertainty. 
 
 \begin{figure}[tp]
 	\begin{center}
 	\includegraphics[width=9cm]{figure/ABCD_regionB_Vs_regionD}
 	\end{center}
-	\caption{Comparison of the electron \pt~distribution in sample B and sample D, showing the bias due to the trigger. 
+	\caption{Comparison of the electron \pt~distribution in control samples B and sample D, showing the bias due to the trigger. 
 	The histograms are normalized to the same area.}
 	\label{fig:BvsD}
 \end{figure}
@@ -233,14 +235,47 @@ agreement between data and the background model is found within statistical and 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PUT FINAL NUMBERS!!!!!!!!!!!!!!!! %%%%%%%%%%%%%%%%%%
+
+
+\begin{table} [p]
+	\begin{tabular}[c]{l r c c c c}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hline
+\hline 
+Event Selection  &  		& B & C & D &  \rqcd \\ 
+\hline
+Common Selection 	&   Data	&6189			&604628			&312901		    &	1.929 $\pm$  	0.004		\\
+	        &   non-QCD	&2510 $\pm$  180  	&1090 $\pm$   30  	&730	$\pm$ 35    &				\\
+\hline
+B-veto	     	&   Data	&5673		  & 558217 		& 284847		    &	1.960	$\pm$	0.004	\\
+	     	&   non-QCD	&2220	$\pm$ 180 & 710 $\pm$ 30	& 415 $\pm$	30	    &				\\
+\hline
+$\Delta\phi(e-\mu)$  &   Data		&4610		&532583 		&271404		    	    &	1.962	$\pm$	0.005	\\
+	     &   non-QCD	&1700 $\pm$170	&580 $\pm$	30	& 345 $\pm$	30	    &				\\
+\hline
+$\sum\cos\Delta\phi$ &   Data& 3417	&486747 		& 247712	   		    &	1.965	$\pm$	0.005 	\\
+	     &   non-QCD     & 1120  $\pm$ 100	& 370 $\pm$ 	20		& 230 $\pm$	20  &				\\
+\hline
+$\mmc > 0.$    &  Data		& 3177		& 479967 		& 244276	    	    &	1.965	$\pm$	0.005	\\
+	     &   non-QCD	& 1000 $\pm$ 100	& 300  $\pm$ 17		&190	$\pm$ 20    &			\\[1ex]
+\hline
+\hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\end{tabular}
+	\caption{Number of observed events and the predicted non-QCD contribution at different stages of the event selections for b-veto category. 
+	The error on the \rqcd ratio is of statistical nature only.}
+	\centering
+	\label{table:qcd_yield_bveto}
+\end{table}
+
 \begin{table} [p]
 	\begin{tabular}[c]{l r c c c c}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \hline 
 \hline 
-Selection  &  		& B & C  & D &  \rqcd \\
+Event Selection  &  		& B & C  & D &  \rqcd \\
 \hline
-Common Selections&   Data	&6189			&604628			&312901		    &	1.929 $\pm$  	0.004		\\
+Common Selection&   Data	&6189			&604628			&312901		    &	1.929 $\pm$  	0.004		\\
 	        &   non-QCD	&2510 $\pm$  180  	&1090 $\pm$   30  	&730	$\pm$ 35    &				\\
 \hline
 B-tag	     	&   Data	&419		&44619 			&27257		    &	1.64	$\pm$	0.01	\\
@@ -264,42 +299,11 @@ $\mmc > 0.$    &  Data	& 70	& 27634 	& 15522		    			    &	1.78	$\pm$	0.02	\\
 \hline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\end{tabular}
-	  \caption{QCD background estimation as a function of the analysis selections for the b-tagged category. The yields for the different control samples, as well as the scaling factor \rqcd, are reported. The error on the \rqcd is statistical only.}
+	\caption{Number of observed events and the predicted non-QCD contribution at different stages of the event selections for b-tag category. 
+	The error on the \rqcd ratio is of statistical nature only.}
 	\centering
 	\label{table:qcd_yield_btag}
 \end{table}
-
-
-\begin{table} [p]
-	\begin{tabular}[c]{l r c c c c}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hline
-\hline 
-Selection  &  		& B & C & D &  \rqcd \\ 
-\hline
-Common Selections 	&   Data	&6189			&604628			&312901		    &	1.929 $\pm$  	0.004		\\
-	        &   non-QCD	&2510 $\pm$  180  	&1090 $\pm$   30  	&730	$\pm$ 35    &				\\
-\hline
-B-veto	     	&   Data	&5673		  & 558217 		& 284847		    &	1.960	$\pm$	0.004	\\
-	     	&   non-QCD	&2220	$\pm$ 180 & 710 $\pm$ 30	& 415 $\pm$	30	    &				\\
-\hline
-$\Delta\phi(e-\mu)i$  &   Data		&4610		&532583 		&271404		    	    &	1.962	$\pm$	0.005	\\
-	     &   non-QCD	&1700 $\pm$170	&580 $\pm$	30	& 345 $\pm$	30	    &				\\
-\hline
-$\sum\cos\Delta\phi$ &   Data& 3417	&486747 		& 247712	   		    &	1.965	$\pm$	0.005 	\\
-	     &   non-QCD     & 1120  $\pm$ 100	& 370 $\pm$ 	20		& 230 $\pm$	20  &				\\
-\hline
-$\mmc > 0.$    &  Data		& 3177		& 479967 		& 244276	    	    &	1.965	$\pm$	0.005	\\
-	     &   non-QCD	& 1000 $\pm$ 100	& 300  $\pm$ 17		&190	$\pm$ 20    &			\\[1ex]
-\hline
-\hline
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\end{tabular}
-	\caption{QCD background estimation as a function of the analysis selections for b-veto category. The yields for the different control samples, as well as the scaling factor \rqcd, are reported. The error on the \rqcd is statistical only.}
-	\centering
-	\label{table:qcd_yield_bveto}
-\end{table}
-
 
 
 \begin{figure}[tp]
@@ -313,30 +317,32 @@ $\mmc > 0.$    &  Data		& 3177		& 479967 		& 244276	    	    &	1.965	$\pm$	0.005
 	}
 	
 	\end{center}
-	\caption{\mmc distribution for QCD cross check samples defined in section \ref{sec:qcd} (a) and for the same control sample when in addition one b-tagged jet is required (b). }
+	\caption{\mmc distribution obtained with QCD validation samples 
+	defined in Section~\ref{sec:qcd}, without~(a) and with an additional requirement of exactly one b-tagged jet in the final state~(b).}
 	\label{fig:ABCD_cr}
 \end{figure}
 
 
 Systematic uncertainties are assigned on the scaling factor \rqcd and on the shape of
-the discriminating variable \mmc to take into account any correlation between isolation and charge 
-of the leptons, details on the systematic uncertainty evaluation are addressed in Section~\ref{sec:Systematics}.
+the discriminating variable \mmc to take into account any correlation between the isolation and the relative charge 
+of the leptons as detailed in Section~\ref{sec:Systematics}.
 
 
 
 
 
-\subsection{$Z \rightarrow \tau\tau$ + Jets Background: Embedding Technique}\label{sec:ztau}
-The background from \Ztautau decays is the major background to this analysis, a good understanding 
-of it is then crucial.
- Unfortunately, for a light Higgs boson, it is impossible to completely separate \Ztautau decays 
-from the signal and a signal free data control sample cannot be defined.
-However, thanks to the small Higgs coupling to muons, \Zmumu decays provide a good starting point to 
-model \Ztautau events in a data-driven way. An hybrid Data-MC sample, known as "Embedding" is used to model the \Ztautau background: 
-$\Zmumu$ candidates are selected in data, then, the two muons from the $Z$ decay are substituted with the decay 
-products from simulated taus, this means that the energy deposit and tracks in a cone around the muon are subtracted
-and substituted with the one from $\tau$ decay, those taus have the same kinematics as the original muons. 
-Further details on this technique may be found in \cite{Embedding, SMold}.
+\subsection{$Z \rightarrow \tau\tau$ + Jets Background Measurement}\label{sec:ztau}
+The  \Ztautau decays are the major source of  background to the presented  analysis,  calling for its thorough understanding.
+Unfortunately, for a light Higgs boson, it is impossible to fully discriminate the  \Ztautau decays 
+from the signal and thus a 
+dedicated signal-free data control sample cannot be defined.
+However, thanks to the small Higgs boson coupling to muons, \Zmumu decays provide a good starting point to 
+model \Ztautau events based on data. A hybrid approach relying on data and simulation known as the "embedding" is used for this purpose.
+The $\Zmumu$ event candidates are selected in data. The two muons from the $Z$ decay are then substituted with the decay 
+products from simulated $\tau$ lepton decays. The energy deposit in the calorimeter and the reconstructed tracks 
+in a cone of given size around the muon are subtracted
+and substituted with the corresponding predictions from the $\tau$ lepton decay. These $\tau$ leptons  have the same kinematic properties
+ as the original muons. Further details on the embedding technique may be found in \cite{Embedding, SMold}.
 
 %The selection of the \Zmumu input data requires exactly two combined, opposite charged
 %muons, where the leading muon has a transverse momentum $\pt > 20 \GeV$ and 
@@ -352,27 +358,31 @@ Further details on this technique may be found in \cite{Embedding, SMold}.
 %an additional correction is applied to emulate the electron and muon trigger efficiencies in the final \Ztautau embedded events. 
 %For a full description of the corrections and validation see \cite{SMnew}.
 
-%The Embedding technique, which uses \Zmumu decays to 
+%The embedding technique, which uses \Zmumu decays to 
 %model \Ztautau events in a data-driven way, is described in Section~\ref{sec:data_mc}. 
-Trigger is not simulated in the Embedding samples, the event yield
-is normalized to ALPGEN \Ztautau at common selection stage. Furthermore a set of corrections, as described in \cite{SMnew}, are
-applied to unfold from the original \Zmumu trigger and reconstruction efficiency, then trigger and reconstruction efficiency 
-for a $e-\mu$ final state are emulated by means of event weight.
+As the Trigger is not simulated in the described embedded samples, only the shapes of kinematic distributions are modelled by the embedded sample,
+while the $\Ztt$ event yield
+is normalized to ALPGEN \Ztautau prediction at a common selection stage. Furthermore, a set of corrections as described in \cite{SMnew}, is
+applied to unfold from the original \Zmumu trigger and reconstruction efficiency. Subsequently,
+the trigger and reconstruction efficiency  the $e \mu +4\nu $ final state are emulated by means of event weights.
 
-The Embedding technique has been validated in several studies, detailed in~\cite{Embedding, SMnew}, which show a good description of 
-data and \Ztautau MC by Embedding. In the context of this analysis, 
-figures~\ref{fig:emb_vs_alp1} and \ref{fig:emb_vs_alp} show comparisons of various kinematic variables between
-data, Embedding and ALPGEN \Ztautau simulated events at common selection. No significant deviation is seen 
-between the \mmc distribution of the Embedding and ALPGEN samples, 
-however other relevant variables for this analysis, such as the \MET 
-and the number of b-jets, are slightly better described by Embedding. 
+The embedding technique has been validated in several studies detailed in~\cite{Embedding, SMnew},  demostrating a reliable performance of the embedding technique
+and a good description of data. In the context of this analysis, 
+Figures~\ref{fig:emb_vs_alp1} and~\ref{fig:emb_vs_alp} show comparisons of various kinematic distributions between
+data, embedded and ALPGEN \Ztautau events at the common selection stage. No significant differences are  seen 
+between for the \mmc distribution. 
+Other relevant discriminating variables, such as the \MET 
+and the number of b-jets in the final state, are slightly better described by the embedded $\Ztautau$ sample, as expected due to the 
+imperfect modeling of these variables with simulation.
 
 \begin{figure}[tp]
      \begin{center}
 
             \includegraphics[page=1, width=0.6\textwidth]{figure/bg_estimation/std_plots_emb.pdf}
 \end{center}
-    \caption{Comparison between the embedded \Ztautau and ALPGEN for $\mmc$ distributions.}
+    \caption{Comparison of the \mmc distributions obtained from the ALPGEN \Ztautau simulation and from the embedding technique after 
+	the requirements of th common selection  has been applied. 
+	The yellow bad indicates the total systematic uncertainty  relative to the ALPGEN simulation sample.}
    \label{fig:emb_vs_alp1}
 \end{figure}
 
@@ -384,30 +394,36 @@ and the number of b-jets, are slightly better described by Embedding.
             \includegraphics[page=3, width=0.6\textwidth]{figure/bg_estimation/std_plots_emb.pdf}
 
     \end{center}
-    \caption{Comparison between embedded \Ztautau and ALPGEN for $\MET$ and the number of b-tagged jets distributions.
-	Data are superimposed, with the contribution of non-\Ztautau are subtracted.}
+    \caption{Comparison of the (a)  $\MET$  and (b) b-tagged jet multiplicity distributions in
+	embedded and ALPGEN \Ztautau events after the requirements of the common selection has been applied.
+	Data are superimposed after subtracting  the contribution of non-\Ztautau processes.The yellow bad indicates
+	 the total systematic uncertainty  relative to the ALPGEN simulation sample.}
    \label{fig:emb_vs_alp}
 \end{figure}
 
 
 %plot comparing embedding and ALPGEN Et miss and b-tagging, data -MC not Ztautau and compare data alp and emb.
 
-The Embedding sample is based on selecting \Zmumu candidates in data, the selections assure a rather 
-pure \Zmumu sample, however further selections used in this analysis, for example the b-tagging requirements, 
-could enhance the contamination fraction from other processes. Dedicated studies have been
-made to estimate the $t\bar{t}$ and QCD multi-jet contamination in the Embedding sample.
-The \ttbar~ contamination is estimated by evaluating the Embedding yield in a two b-tag control sample
-(as described in Section~\ref{sec:top_est}), these events are assumed to be solely from $t\bar{t}$
-and their yield in the signal sample is extrapolated using MC simulation.
-Table~\ref{table:emb_cont_tt} shows a summary for the top contamination in Embedding. 
+The embedded sample is based on the selected \Zmumu event candidates in data. The \Zmumu selection criteria 
+assure a rather pure \Zmumu sample. However, further event selection criteria used in the presented analysis, 
+for example the b-tagging requirements, could enhance the contamination of this sample with events  from other processes. 
+Dedicated studies have been made to estimate the $t\bar{t}$ and QCD multi-jet contamination in the embedded sample.
+The \ttbar~ contamination is estimated by evaluating the yield of embedded \Ztt events in a validation sample with two b-tagged jets
+(as described in Section~\ref{sec:top_est}). These events are assumed to originate solely from the $t\bar{t}$ process
+and the corresponding yield in the signal sample is extrapolated from simulation.
+Table~\ref{table:emb_cont_tt} summarizes the evaluated top quark contamination in the embedded $\Ztt$ sample, separately for the two event categories.
 The multi-jet contamination can be estimated starting 
-from the Embedding yield in (ABCD) sample C,
+from the yield of embedded events in the sample C defined by the ABCD method.
 %one should not use SS samples because embedding already requires leptons to be OS, then would be biased
-assuming all events in this control sample as QCD multi-jet events, the contamination in the signal sample 
-can be estimated by means of the ABCD method (see Section~\ref{sec:qcd}). The \rqcd factor, in this case, 
-is evaluated using a $\mu-\mu$ final state with same kinematic selections as for Embedding \Zmumu candidate.
-Table~\ref{table:emb_cont_qcd}
-shows the estimated contamination of QCD multi-jet in Embedding. 
+It is assumed that all events in this validation sample are QCD multi-jet events. The QCD multi-jet contamination 
+of the embedded events in the  signal sample 
+can be estimated as:
+\begin{equation} \label{eqn:qcdEmb}
+N_{A}^{QCD-emb}  = N_{C}^{QCD-emb} \times \frac{N_{B}^{\mu\mu}}{N_{D}^{\mu\mu}} =  N_{B} \times R_{QCD}^{\mu\mu}
+\end{equation}
+The transfer factor $R_{QCD}^{\mu\mu}$, is evaluated using a di-muon final state with same kinematic selection criteria
+ as for \Zmumu candidates entering the embedding procedure.
+Table~\ref{table:emb_cont_qcd} shows the estimated contamination of QCD multi-jet in the embedded sample.  
 Contamination effects are considered negligible.
 
 
@@ -417,16 +433,17 @@ Contamination effects are considered negligible.
 \begin{tabular}{c c c c c}
 \hline
 \hline
- & Embedding yield	& Transfer	& Estimated events	& Contamination \\
- & in control sample	& factor	& in signal sample	&	\\		 [0.5ex]
+ & Yield of 		& Transfer	& Estimated events	& Contamination \\
+ & embedded events	& factor	& in signal sample	&	\\		 [0.5ex]
 \hline
 b-tag & $84 \pm 9$  & $(2.6 \pm 0.1) \times 10^{-2}$ &  $2.2 \pm 0.2$&  0.5 \% \\
 b-veto & $84 \pm 9$ & $(1.74 \pm 0.02) \times 10^{-1}$ & $15 \pm 2$ & 0.03 \% \\[1ex]
 \hline
 \end{tabular}
 \end{small}
-\caption{Evaluating Embedding $t\bar{t}$ contamination using a two b-tag CR. The transfer factor is the
-multiplicative factor that allows to estimate events in signal sample from the control sample. }
+\caption{Evaluation of the $t\bar{t}$ contamination  in the embedded $\Ztt$ sample using a two b-tag validation sample. 
+The transfer factor is a multiplicative factor obtained from simulation that allows to extrapolate
+the measuremet from the validation sample into the signal sample. }
 \label{table:emb_cont_tt}
 \end{table}
 
@@ -436,19 +453,19 @@ multiplicative factor that allows to estimate events in signal sample from the c
 \begin{tabular}{c c c c c}
 \hline
 \hline
- & Embedding yield	& Transfer	& Estimated events	& Contamination \\
- & in control sample	& factor	& in signal sample	&	\\		 [0.5ex]
+ & Yield of embedded events	& Transfer	& Estimated events	& Contamination \\
+ &  in QCD control sample C		& factor	& in signal sample	&	\\		 [0.5ex]
 \hline
 B-tag  & $12 \pm 3$ & $ (7 \pm 1) \times 10^{-3}$ &  $(8.4 \pm 0.3) \times 10^{-2}$ &  0.03 \% \\
 B-veto & $390 \pm 20$ & $(2.5 \pm 0.1) \times 10^{-2}$ & $10.0 \pm 0.5$ & 0.02 \% \\[1ex]
 \hline
 \end{tabular}
 \end{small}
-\caption{Evaluating Embedding contamination due to QCD multi-jet using ABCD method, 
-the control sample here is with OS anti-isolated events (sample C). The transfer factor is the
-multiplicative factor that allows to estimate events in signal sample from the control sample, in this case is $N_{B} / N_{D}$
-and is evaluated using mu-mu final state with the same kinematic selection used in the 
-definition of the Embedding sample. }
+\caption{Evaluation of the QCD multi-jet contamination  in the embedded $\Ztt$ sample  using the control sample
+ with OS anti-isolated events (sample C). The transfer factor $R_{QCD}^{\mu\mu}$ is the
+multiplicative factor that allows to extrapolate the measured events in control sample C into the signal sample.
+The transfer factor is evaluated using di-muon events with same kinematic properties as the  $\Zmumu$ candidates 
+entering the embedding procedure.}
 \label{table:emb_cont_qcd}
 \end{table}
 

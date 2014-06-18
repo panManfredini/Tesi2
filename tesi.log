@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  17 JUN 2014 20:15
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  18 JUN 2014 18:14
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -671,24 +671,24 @@ e/bg_estimation/std_plots_twoBtag.pdf, page is rotated 90 degrees>]
 LaTeX Warning: Reference `appendix:qcd' on page 21 undefined on input line 192.
 
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 198.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 200.
 
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 198.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 200.
 
 <figure/ABCD_regionB_Vs_regionD.pdf, id=621, 569.12625pt x 387.4475pt>
 File: figure/ABCD_regionB_Vs_regionD.pdf Graphic file (type pdf)
 
 <use figure/ABCD_regionB_Vs_regionD.pdf>
-Overfull \hbox (25.9196pt too wide) in paragraph at lines 237--267
+Overfull \hbox (21.28493pt too wide) in paragraph at lines 241--266
 [][] 
  []
 
 
-Overfull \hbox (25.9196pt too wide) in paragraph at lines 274--298
+Overfull \hbox (21.28493pt too wide) in paragraph at lines 272--303
 [][] 
  []
 
@@ -702,27 +702,27 @@ File: figure/QCD/qcd_CR_emb.pdf Graphic file (type pdf)
 <use figure/QCD/qcd_CR_emb.pdf, page 5>
 
 LaTeX Warning: Reference `sec:Systematics' on page 21 undefined on input line 3
-23.
+28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 329.
+(hyperref)                removing `math shift' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 329.
+(hyperref)                removing `\rightarrow' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 329.
+(hyperref)                removing `\tau' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 329.
+(hyperref)                removing `\tau' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 329.
+(hyperref)                removing `math shift' on input line 334.
 
 [21] [22 <./figure/ABCD_regionB_Vs_regionD.pdf, page is rotated 90 degrees>]
 [23 <./figure/QCD/qcd_CR_emb.pdf, page is rotated 90 degrees> <./figure/QCD/qcd
@@ -738,20 +738,24 @@ File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
 <figure/bg_estimation/std_plots_emb.pdf, id=738, page=3, 569.12625pt x 408.5262
 5pt>
 File: figure/bg_estimation/std_plots_emb.pdf Graphic file (type pdf)
- <use figure/bg_estimation/std_plots_emb.pdf, page 3> [24 <./figure/bg_estimati
-on/std_plots_emb.pdf, page is rotated 90 degrees>] [25 <./figure/bg_estimation/
-std_plots_emb.pdf, page is rotated 90 degrees> <./figure/bg_estimation/std_plot
-s_emb.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 417--429
+ <use figure/bg_estimation/std_plots_emb.pdf, page 3>
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
+ [24 <./figure/bg_estimation/std_plots_emb.pdf, page is rotated 90 degrees>] [2
+5 <./figure/bg_estimation/std_plots_emb.pdf, page is rotated 90 degrees> <./fig
+ure/bg_estimation/std_plots_emb.pdf, page is rotated 90 degrees>]
+Overfull \hbox (32.69608pt too wide) in paragraph at lines 453--468
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--429
+Underfull \hbox (badness 10000) in paragraph at lines 453--468
 
  []
 
-) (./tesi.bbl [26]
+) (./tesi.bbl [26] [27] [28
+
+]
 Underfull \hbox (badness 1466) in paragraph at lines 6--9
 []\OT1/cmr/m/n/12 G. Altarelli, \OT1/cmr/m/it/12 ``Col-lider Physics within the
  Stan-dard Model: a Primer,''
@@ -763,16 +767,14 @@ Missing character: There is no ” in font cmti12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[27
-
-]
+[29]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [28]
+ [30]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no œ in font cmr12!
@@ -796,11 +798,11 @@ Missing character: There is no  in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [29]
+ [31]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [30] [31]
+ [32] [33]
 Underfull \hbox (badness 2197) in paragraph at lines 434--437
 \OT1/cmr/m/it/12 fras-truc-ture\OT1/cmr/m/n/12 , ATLAS-SOFT-2010-01-004, sub-mi
 t-ted to Eur. Phys. J. C.,
@@ -818,18 +820,18 @@ De-sign Re-port,
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[32]
+[34]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [33]
+ [35]
 Missing character: There is no â in font cmti12!
 Missing character: There is no € in font cmti12!
 Missing character: There is no œ in font cmti12!
 Missing character: There is no â in font cmti12!
 Missing character: There is no € in font cmti12!
 Missing character: There is no  in font cmti12!
- [34]
+ [36]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -839,13 +841,13 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [35]
+ [37]
 Overfull \hbox (134.53387pt too wide) in paragraph at lines 749--750
 []\OT1/cmr/m/n/12 Statistical twiki, Nuis-sanceCheck. []https://twiki.cern.ch/t
 wiki/bin/view/AtlasProtected/NuisanceCheck[] 
  []
 
-) [36] (./tesi.aux)
+) [38] (./tesi.aux)
 
  *File List*
     book.cls    2007/10/19 v1.4h Standard LaTeX document class
@@ -955,10 +957,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7057 strings out of 493848
- 100925 string characters out of 1152823
- 194349 words of memory out of 3000000
- 9902 multiletter control sequences out of 15000+50000
+ 7061 strings out of 493848
+ 100965 string characters out of 1152823
+ 195835 words of memory out of 3000000
+ 9903 multiletter control sequences out of 15000+50000
  21308 words of font info for 83 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,16n,41p,709b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -979,9 +981,9 @@ share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
 s/cm/cmtt12.pfb>
-Output written on tesi.pdf (36 pages, 822708 bytes).
+Output written on tesi.pdf (38 pages, 826204 bytes).
 PDF statistics:
- 1118 PDF objects out of 1200 (max. 8388607)
- 272 named destinations out of 1000 (max. 500000)
+ 1129 PDF objects out of 1200 (max. 8388607)
+ 275 named destinations out of 1000 (max. 500000)
  296 words of extra memory for PDF output out of 10000 (max. 10000000)
 
