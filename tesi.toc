@@ -16,3 +16,17 @@
 \contentsline {subsection}{\numberline {1.3.1}Validation of the \ensuremath {t\mathaccentV {bar}016{t}}\xspace Background Prediction}{17}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Multi-jet Background Measurement}{17}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}$Z \rightarrow \tau \tau $ + Jets Background Measurement}{21}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Systematic Uncertainties}{26}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Detector-related Systematics Uncertainties}{26}{subsection.1.4.1}
+\contentsline {paragraph}{Luminosity}{28}{section*.5}
+\contentsline {paragraph}{Pileup}{28}{section*.6}
+\contentsline {paragraph}{Trigger Efficiency}{28}{section*.7}
+\contentsline {paragraph}{Electrons}{28}{section*.8}
+\contentsline {paragraph}{Muons}{28}{section*.9}
+\contentsline {paragraph}{Taus-Jets}{29}{section*.10}
+\contentsline {paragraph}{Jets}{29}{section*.11}
+\contentsline {paragraph}{b-Tagging}{29}{section*.12}
+\contentsline {paragraph}{Missing Transverse Energy}{29}{section*.13}
+\contentsline {subsection}{\numberline {1.4.2}Theoretical Uncertainties}{29}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}\ensuremath {Z/\gamma ^*\rightarrow \tau \tau }\xspace Embedding Systematics}{32}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}QCD Multi-Jet Systematics}{33}{subsection.1.4.4}

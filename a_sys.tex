@@ -29,69 +29,72 @@ neglected.
 
 \subsection{Detector-related Systematics Uncertainties}
 \label{sec:sys:sys_det}
-Here systematic uncertainty related to object reconstruction and event 
-corrections are addressed, those corrections are based on the measure of some relevant parameter, 
-each of those parameters correspond to a "nuisance parameter" in the probability model used for statistical tests
+Systematic uncertainties related to object reconstruction and event-by-event 
+corrections are based on the calibration measurements of the relevant parameter. Each 
+of those parameters correspond to a nuisance parameter in the probability model used for the  statistical interpretation
 as described in Section~\ref{sec:result}.
-Each parameter is variated independently (one sigma up or down) according with its 
-uncertainty and the impact on the analysis yield for each sample is evaluated.
-In the following, detector related uncertainty are  described with some more details,
-table~\ref{tab:ExpSys:btag} and~\ref{tab:ExpSys:bveto} briefly summarize the impact on the samples 
-yield for the most significant systematic uncertainty considered. 
+Each parameter is varied independently by one standard deviation up or down according to its measured
+uncertainty. The corresponding impact on the  yield of simulated events is evaluated for each signal and background sample.
+In the following, detector-related uncertainty are  described in more details.
+Tables~\ref{tab:ExpSys:btag} and~\ref{tab:ExpSys:bveto} briefly summarize the impact of these uncertainties on the 
+predicted sample yields. 
 
 
 \paragraph{Luminosity}
-The integrated luminosity of the 8 TeV data recorded at ATLAS during 2012 is measured to be $20.3 ~ fb^{-1}$ \cite{luminosity}, its uncertainty  is  2.8\%.
+The integrated luminosity of the 8 TeV data recorded with the ATLAS detector during 2012 is measured 
+to be $20.3 ~ fb^{-1}$ \cite{luminosity} with an uncertainty  of  2.8\%.
 
 \paragraph{Pileup}
-Simulated events are re-weighted to reproduce the average interactions per bunch crossing, $<\mu>$, seen in data. 
-Those event weights has an uncertainty which is propagated to each simulated sample.
+Simulated events are re-weighted to reproduce the average number of interactions per bunch crossing $<\mu>$ as seen in data. 
+Those event weights have an uncertainty which is propagated to each simulated sample.
 %It has been seen
 %that a proper description of the minimum bias vertex multiplicity is obtained if the $<\mu>$ 
 %value in MC is first scaled by a factor of $1.11 \pm 0.03$ before re-weighting to match data. The uncertainty
 %on this value is taken as a systematic uncertainty for the analysis.
 
 \paragraph{Trigger Efficiency}
-is corrected in simulation to match (as a mean value) the one in data, those correction weights 
-are evaluated as a function of $\pt$ and $\eta$ of the leptons and have associated uncertainties. 
-Systematic uncertainties on both the single electron and electron-muon trigger efficiency are considered independently,  
-those uncertainty range approximately 1-2\%.
+is corrected in simulation to match (on the average) the one observed in data. Those correction weights 
+are evaluated as a function of $\pt$ and $\eta$ of the corresponding leptons and have associated uncertainties. 
+Systematic uncertainties on both the single electron and electron-muon trigger efficiency are taken into account 
+independently and range approximately from 1-2\%.
 
-In the Embedding sample, the trigger is emulated by applying weights to the event
-topology in order to recover the right trigger efficiency, those weights are related to the one just described above
-and have similar uncertainty. Trigger efficiency uncertainty for Embedding are considered uncorrelated with 
-the one of other samples.
+In the embedded $\Ztt$ sample, the trigger is emulated by applying weights  according to  the event
+topology. Those weights are related to the ones described above
+and have similar uncertainties. Trigger efficiency uncertainty for the embedded sample 
+ are considered uncorrelated with those of other samples.
 
 \paragraph{Electrons}
-Two types of uncertainty on reconstructed electron objects are considered:
-the first are related to electron identification and reconstruction efficiencies ("Electron ID"), 
-the second type are related to electron energy scale and resolution corrections.
-The energy scale uncertainties are split into a set of six different nuisance parameters, 
-however, only few of them give a non negligible contribution. Two of them are found
-to affect the shape of the \mmc distribution and are considered independently, those are the uncertainty
-that arise from the $Z \rightarrow ee$ momentum measurement ("Electron Zee") 
+Two sources of uncertainty on reconstructed electron objects are considered:
+the first  related to electron identification and reconstruction efficiencies ("Electron ID"), 
+the second  related to electron energy scale and resolution corrections.
+The energy scale uncertainties are described by a set of six different nuisance parameters~\cite{eleEnergy}.
+However, only a few of them give a non-negligible contribution to the analysis. Two of them are found
+to affect the shape of the \mmc distribution and are considered independently: uncertainty
+arising from the electron  momentum measurement with $Z \rightarrow ee$ data ("Electron Zee") 
 and the one related to low momentum electrons ("Electron LOWPT"). 
-All the other uncertainties related to energy scale and resolution are summed in quadrature ("Electron E").
+All other uncertainties related to energy scale and resolution are summed in quadrature ("Electron E").
 
 \paragraph{Muons}
 The uncertainty on muon identification efficiency depends on the charge and momentum of the muon.
 Typically these uncertainties are of the order of a fraction of percent, and are referred as "Muon ID". 
 The uncertainties on the muon energy scale and resolution are considered independently for the inner detector 
-and muon spectrometer measurements, then are added in quadrature to estimate the final effect ("Muon E").
+and muon spectrometer measurements and are hen  added in quadrature to estimate the final uncertainty ("Muon E").
 
-\paragraph{Taus}
-Hadronic tau object are only used in the analysis as a veto. Uncertainties on both tau energy scale 
+\paragraph{Taus-Jets}
+The jets from the hadronically decaying $\tau$ leptons are only considered 
+in the analysis by applying a veto on their presence in an event. Uncertainties on both $\tau$-jet energy scale 
 and identification efficiency have been investigated and are found to be negligible for this analysis.
 
 \paragraph{Jets}
-The systematic uncertainties on the Jet Energy Scale (JES) are split up into multiple sets of nuisance parameters, which
-are related to different effects and components, for example the sensitivity to pileup or
-to the flavor composition of the jet. The overall uncertainty on the JES ranges 
-between 3\% and 7\%, depending on the $\pt$ and $\eta$ of the jet. To give an idea of the effect that these
-uncertainty have on the analysis yield their sum in quadrature is reported in table~\ref{tab:ExpSys:btag} and~\ref{tab:ExpSys:bveto} as "JES", however
-this is just a simplification for illustration purposes and in the limits extraction those uncertainties are considered uncorrelated.
-Systematic uncertainty due to jet resolution ("Jet Resolution") are obtained by smearing the jet energy 
-according to its uncertainty, which range 10-20\% depending on the direction of the jet.
+The systematic uncertainties on the Jet Energy Scale (JES) are described by multiple sets of nuisance parameters~\cite{JES}
+related to different effects and jet energy components. For example the sensitivity to pileup effects or
+to the flavor composition of the jet are considered separately. The overall uncertainty on the JES ranges 
+between 3\% and 7\%, depending on the $\pt$ and $\eta$ of the jet. 
+The overall impact of the JES uncertainty on the analysis Tables~\ref{tab:ExpSys:btag} and~\ref{tab:ExpSys:bveto}
+by summing all component in quadrature, while in the statistical interpretation of data
+those uncertainties are considered uncorrelated.
+Systematic uncertainty due to the jet resolution ("Jet Resolution") are obtained by smearing the jet energy 
+according to the measured  uncertainty which ranges from 10-20\% depending on the direction of the jet.
 %The recommendation \cite{TWIKI_JETMET} to propagate each individual 
 % source of uncertainty through the full analysis is followed. In this analysis the reduced set of fourteen uncertainties, know as 
 % \verb=InsituJES2012_14NP=, have been considered: these include two uncertainties for eta inter calibration, four pile-up 
@@ -103,19 +106,18 @@ according to its uncertainty, which range 10-20\% depending on the direction of 
 % resulting effect on the yield is symmetrised.
 
 \paragraph{b-Tagging}  Corrections are applied to simulation
-to match b-tagging efficiency in data, uncertainties on the knowledge 
+to match the b-tagging efficiency observed  in data. Uncertainties on the knowledge 
 of the b-tagging efficiencies for the 70\% $\epsilon_b^{\ttbar}$ working point of the MV1 b-tagger are
-considered, those uncertainty range between 5-10\% depending on the $\pt$ of the jet. 
-The effect of those uncertainties is evaluated independently in the cases of
- b-quark, c-quark and light or gluon initiated jets and referred respectively 
-to as "B  Eff", "C Eff" and "L Eff". The tagging and mis-tagging efficiency uncertainties 
- are considered to be totally anti-correlated. 
+considered~\cite{BtaggingScaleFactors,BtaggingScaleFactorsNew}, ranging from 5-10\% in dependence on the $\pt$ of the jet. 
+The effect of those uncertainties is evaluated independently for the
+ b-quark, c-quark and light or gluon initiated jets and referred to respectively 
+ as "B  Eff", "C Eff" and "L Eff". The tagging and mis-tagging efficiency uncertainties 
+ are considered to be fully anti-correlated. 
 
 \paragraph{Missing Transverse Energy}
-The effect of the energy scale
-uncertainties for all the physics objects is propagated to the \met calculation.
-In addition, uncertainty on the energy scale and resolution due to the remaining 
-calorimeter energy deposit, the ``soft-terms'', is considered and estimated to be of the order of 10\%~\cite{ETMISS}. All the
+The effect of the energy scale uncertainties for all  physics objects is propagated to the \met calculation.
+In addition, uncertainty on the energy scale and resolution due to the remaining unassociated 
+calorimeter energy deposits, the ``soft-terms'', is considered and estimated to be of the order of 10\%~\cite{ETMISS}. All the
 uncertainty on \met are independently propagated through the analysis and are
 added in quadrature, this final term is referred as "MET" uncertainty.
 
@@ -232,7 +234,7 @@ acceptance is considered as systematic uncertainty.
 The acceptance uncertainties for the ALPGEN $\Ztautau$  MC, used for the normalization of the embedded sample, 
 are estimated at lepton common selection to be 4\% \cite{2010SMLLSupportNote}.
 %\footnote{A bit old result, to be reviewed. Depends also on the
-%Embedding choice}
+%embedding choice}
 Since additional selections are applied directly to the embedded sample, 
 no further acceptance uncertainties is considered. Acceptance systematics on
 $t\bar{t}$ simulated events are estimated to be of 2\%~\cite{ttbaremu}. %\textcolor{red}{still to be added}.
@@ -341,7 +343,7 @@ and on the analysis category.
 
 \subsection{\Ztautau Embedding Systematics}\label{sec:embsys}
 
-An important element of the Embedding method is the subtraction of the 
+An important element of the embedding method is the subtraction of the 
 calorimeter cells associated with the muons in the original \Zmumu event and their substitution with those from the simulated tau
 decays. To make a conservative estimate of the systematic uncertainty on this procedure, 
 the energy of the subtracted cells is scaled up or down by 30\%. The analysis is repeated with those modified 
@@ -353,7 +355,7 @@ distribution, shown in figure~\ref{fig:EMBMFS}.
 	\includegraphics[width=0.49\textwidth]{figure/systematics/emb_sys_NoBtagFull_MFS.png}
 	\includegraphics[width=0.49\textwidth]{figure/systematics/emb_sys_NoBtagFull_Iso.png}
 	\end{center}
-	\caption{Impact of EMB\_MFS (left) and EMB\_ISO (right) systematic uncertainties $\mmc$distribution for Embedding sample.
+	\caption{Impact of EMB\_MFS (left) and EMB\_ISO (right) systematic uncertainties $\mmc$distribution for embedding sample.
 	Only the b-veto category report significant deviations.}
 	\label{fig:EMBMFS}
 \end{figure}
@@ -372,8 +374,8 @@ distribution, shown in figure~\ref{fig:EMBMFS}.
 %	}
 %
 %    \end{center}
-%    \caption{Effect on the \mmc distribution of the Embedding sample due to (a) the EMB\_MFS and (b) Embedding isolation systematics. The plots are made after the full b-veto category selection.}
-%   \label{fig:EmbeddingShapeNPs}
+%    \caption{Effect on the \mmc distribution of the embedding sample due to (a) the EMB\_MFS and (b) embedding isolation systematics. The plots are made after the full b-veto category selection.}
+%   \label{fig:embeddingShapeNPs}
 %\end{figure}
 
 In the selection of the \Zmumu sample only a loose requirement on muon track isolation is required.
@@ -381,23 +383,23 @@ A different selection on the muon isolation may effect the selected sample by mo
 % since the requirement is indirectly acting also on the muon \PT, 
 changing the non-\Zmumu contamination or the activity in the calorimeter. 
 To estimate  the importance of these effects in the
-Embedding sample, the isolation selection on the muons in the original \Zmumu events is tightened,
+embedding sample, the isolation selection on the muons in the original \Zmumu events is tightened,
 %to $\ptcone 40/ \PT<0.06$ 
 %and $\etcone 20/ \PT<0.04$, rather than the nominal selection of only $\ptcone 20/ \PT<0.2 $. 
 a looser selection would have limited impact because of isolation requirements at trigger level.
 The resulting uncertainty, referred to as "EMB\_ISO", affects both the yield and the \mmc shape of 
-the Embedding samples, as shown in figure~\ref{fig:EMBMFS}. 
+the embedding samples, as shown in figure~\ref{fig:EMBMFS}. 
 
-Finally, because the normalization of the Embedding sample is determined by the use of the ALPGEN sample, 
+Finally, because the normalization of the embedding sample is determined by the use of the ALPGEN sample, 
 the relative cross section and luminosity uncertainties are assigned. In addition
 all the detector-related systematic uncertainties relevant to the decay products of the simulated tau 
-decay are propagated to the Embedding sample.
+decay are propagated to the embedding sample.
  
 %\begin{figure}[tp]
 %	\begin{center}
 %	\includegraphics[width=0.49\textwidth]{figure/systematics/emb_sys_BtagFull_Iso.png}
 %	\end{center}
-%	\caption{Embedding Isolation systematic uncertainty impact $\mmc$.}
+%	\caption{embedding Isolation systematic uncertainty impact $\mmc$.}
 %	\label{fig:EMBISO}
 %\end{figure}
 
