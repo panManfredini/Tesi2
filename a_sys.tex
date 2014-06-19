@@ -117,9 +117,9 @@ The effect of those uncertainties is evaluated independently for the
 \paragraph{Missing Transverse Energy}
 The effect of the energy scale uncertainties for all  physics objects is propagated to the \met calculation.
 In addition, uncertainty on the energy scale and resolution due to the remaining unassociated 
-calorimeter energy deposits, the ``soft-terms'', is considered and estimated to be of the order of 10\%~\cite{ETMISS}. All the
-uncertainty on \met are independently propagated through the analysis and are
-added in quadrature, this final term is referred as "MET" uncertainty.
+calorimeter energy deposits, the ``soft-terms'', is considered and estimated to be of the order of 10\%~\cite{ETMISS}. 
+\met uncertainties are independently propagated through the analysis and are
+added in quadrature, this final term is referred as the "MET" uncertainty.
 
 
 %\paragraph{Summary} A summary of the effect of the experimental and theoretical systematic uncertainties on signal and background yields for the b-tag and b-veto channels are shown in Table~\ref{tab:ExpSys:btag} and Table~\ref{tab:ExpSys:bveto}, respectively. It should 
@@ -127,53 +127,11 @@ added in quadrature, this final term is referred as "MET" uncertainty.
 %Hence, some of the yield differences reported are statistically dominated for these samples.
 %%	As a solution the mean value between all the sample mass point can be taken as measure of the single systematic, 
 %However the gluon fusion production mode has a negligible contribution in b-tag category.
-	
-\begin{table}[tp]
-  \centering
-  \begin{tabular}{lccccc}
-    \hline\hline
-      	      		   \multicolumn{6}{c}{ b-tag category uncertainties (\%)}  \\
-     \hline
-      Source             & Signal bbH 	   & Signal ggH      & \Ztautau      &  Top 	& Other	 \\
-    \hline
-Electron ID  		 &2.3		   &2.6		     &	2.8          &1.8	&2.0	 \\
-Electron E	  	 &0.7		   &1.2		     &0.5	     &0.5	&0.9	 \\
-Electron LOWPT	  	 &0.4		   &0.0		     &0.4	     &0.1	&0.4	 \\ 
-Electron Zee	  	 &0.3		   &0.6		     &0.4	     &0.6	&0.5	 \\
-Muon ID 		 &0.3		   &0.3	   	     &0.3	     &0.3	&0.3	 \\
-Muon E		  	 &0.5		   &0.8		     &0.1	     &0.1	&0.2	 \\
-Trigger Single	Ele.  	 &0.7		   &0.5		     &0.5	     &0.8	&0.8	 \\
-Trigger Dilepton  	 &1.0		   &1.2		     &1.4	     &0.6	&0.6	 \\
-Embedding MFS	  	 &-		   &-		     &0.0	     &-		&-	 \\
-Embedding Iso.	  	 &-		   &-		     &1.3	     &-		&-	 \\
-JES		  	 &2.7		   &7.3		     &-		     &10.0	&7.0	 \\
-JER		  	 &1.4		   &6.3		     &-		     &2.9	&3.0	 \\
-B Eff		  	 &10.2		   &3.1		     &-		     &2.6	&5.0	 \\
-C Eff		  	 &0.2		   &4.3		     &-		     &0.0	&1.2	 \\
-L Eff		  	 &0.4		   &8.0		     &-		     &0.1	&1.2	 \\
-Pileup			 &0.4		   &0.7		     &0.4	     &0.4	&0.9	 \\
-MET 		  	 &0.7		   &0.5 	     &0.2	     &1.0	&1.2	 \\
-%Acceptance		 &		   &		     &		     &		&	  \\
-%Cross Section	  	 &-		   &-		     &5.0	     &5.5	&7.1	 \\
-Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
-
-    \hline
-    \hline
-  \end{tabular}
-  \caption{Summary of the effect of the experimental systematic uncertainties on the yields of the different
-	samples used  in the b-tag channel. Here "Other" refers to the sum of all the remaining samples: $\Wlnu$, 
-	dibosons, $\Zll$ and single top. The signal samples listed here are b-associated production and gluon 
-	fusion with $m_{A}=120$ GeV and $\tan\beta=20$.} 
-
-  \label{tab:ExpSys:btag}
-\end{table}
-
-
 \begin{table}
   \centering
   \begin{tabular}{lccccc}
     \hline\hline
-      	      		   \multicolumn{6}{c}{ b-veto category uncertainties (\%)}  \\
+      	      		   \multicolumn{6}{c}{ b-vetoed event category,  Uncertainties on event yields (\%)}  \\
      \hline
       Source             & Signal bbH & Signal ggH & \Ztautau &  Top 	& Other	 \\
     \hline
@@ -201,13 +159,57 @@ Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
     \hline
     \hline
   \end{tabular}
-  \caption{Summary of the effect of the experimental systematic uncertainties on the yields of the different
-	samples used  in the b-veto channel. Here "Other" refers to the sum of all the remaining samples: 
-	$\Wlnu$, dibosons, $\Zll$ and single top. The signal samples listed here are b-associated production 
-	and gluon fusion with $m_{A}=120$ GeV and $\tan\beta=20$. 
-	 Shape uncertainty are noted with the symbol (\textbf{s}).} 
+  \caption{Impact of the experimental systematic uncertainties on the event yields in different
+	simulated samples in the b-vetoed event category. Here "Other" refers to the sum of all remaining background 
+	samples: $\Wlnu$, 
+	dibosons, $\Zll$ and single top quark processes. The signal produced in association with b-quarks  and via 
+	gluon fusion is considered separately assuming $m_{A}=150$ GeV and $\tan\beta=20$. 
+	Uncertainy that impacts the \mmc mass distribution are noted with the symbol (\textbf{s}).} 
  \label{tab:ExpSys:bveto}
 \end{table}
+
+	
+\begin{table}[tp]
+  \centering
+  \begin{tabular}{lccccc}
+    \hline\hline
+      	      		   \multicolumn{6}{c}{ b-tagged event  category, Uncertainties on event yields (\%)}  \\
+     \hline
+      Source             & Signal bbH 	   & Signal ggH      & \Ztautau      &  Top 	& Other	 \\
+    \hline
+Electron ID  		 &2.3		   &2.6		     &	2.8          &1.8	&2.0	 \\
+Electron E	  	 &0.7		   &1.2		     &0.5	     &0.5	&0.9	 \\
+Electron LOWPT	  	 &0.4		   &0.0		     &0.4	     &0.1	&0.4	 \\ 
+Electron Zee	  	 &0.3		   &0.6		     &0.4	     &0.6	&0.5	 \\
+Muon ID 		 &0.3		   &0.3	   	     &0.3	     &0.3	&0.3	 \\
+Muon E		  	 &0.5		   &0.8		     &0.1	     &0.1	&0.2	 \\
+Trigger Single	Ele.  	 &0.7		   &0.5		     &0.5	     &0.8	&0.8	 \\
+Trigger Dilepton  	 &1.0		   &1.2		     &1.4	     &0.6	&0.6	 \\
+Embedding MFS	  	 &-		   &-		     &0.0	     &-		&-	 \\
+Embedding Iso.	  	 &-		   &-		     &1.3	     &-		&-	 \\
+JES		  	 &2.7		   &7.3		     &-		     &10.0	&7.0	 \\
+JER		  	 &1.4		   &6.3		     &-		     &2.9	&3.0	 \\
+B Eff		  	 &10.2		   &3.1		     &-		     &2.6	&5.0	 \\
+C Eff		  	 &0.2		   &4.3		     &-		     &0.0	&1.2	 \\
+L Eff		  	 &0.4		   &8.0		     &-		     &0.1	&1.2	 \\
+Pileup			 &0.4		   &0.7		     &0.4	     &0.4	&0.9	 \\
+MET 		  	 &0.7		   &0.5 	     &0.2	     &1.0	&1.2	 \\
+%Acceptance		 &		   &		     &		     &		&	  \\
+%Cross Section	  	 &-		   &-		     &5.0	     &5.5	&7.1	 \\
+Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
+
+    \hline
+    \hline
+  \end{tabular}
+  \caption{Impact of the experimental systematic uncertainties on the event yields in different
+	simulated samples in the b-taged event category. Here "Other" refers to the sum of all remaining background 
+	samples: $\Wlnu$, 
+	dibosons, $\Zll$ and single top quark processes. The signal produced in association with b-quarks  and via 
+	gluon fusion is considered separately assuming $m_{A}=150$ GeV and $\tan\beta=20$.} 
+
+  \label{tab:ExpSys:btag}
+\end{table}
+
 
 
 
@@ -216,28 +218,29 @@ Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
 %\subsection{Simulated Cross-Section Uncertainties}
 
 Uncertainties on the cross-sections that have been used to normalize
-simulation samples to data are reported in
+the contribution of simulated samples to the integrated luminosity of analyzed data are reported in
 Table~\ref{table:sys_xsec}. These
 uncertainties include contributions due to parton distribution
-functions (PDFs), the choice of the value of strong coupling constant,
-and the renormalisation and factorisation scales.  Furthermore the
-uncertainties on signal cross-section depends on $\tan\beta$, the
-Higgs boson type ($A$/$h$/$H$) and mass.
+functions (PDFs), the choice of the value of the strong coupling constant,
+the renormalisation and factorisation scales.  Furthermore, the
+uncertainties on the signal cross-section depend on the  $\tan\beta$ value, the nature of the 
+Higgs boson ($A$/$h$/$H$) and its mass.
 
-The effect of systematic uncertainties due to various MC tuning
-parameters, underlying event and
-lepton kinematic description is considered.
-Since the effect on the invariant mass distribution of the di-tau system from these systematic
-uncertainties is negligible (as an example see
-Figure~\ref{fig:theory_mass} ), only the variation in
-acceptance is considered as systematic uncertainty.
-The acceptance uncertainties for the ALPGEN $\Ztautau$  MC, used for the normalization of the embedded sample, 
-are estimated at lepton common selection to be 4\% \cite{2010SMLLSupportNote}.
+The impact  of systematic uncertainties due to various Monte Carlo tuning
+parameters for the description of the  underlying event and
+lepton kinematic properties is considered.
+Since the distribiution of the invariant mass of all visible $\tau$ lepton decay is not affected by these systematic
+uncertainties, as an example see
+Figure~\ref{fig:theory_mass}, 
+only the variation in the acceptance is considered as a systematic uncertainty.
+The acceptance uncertainties for the simulated ALPGEN $\Ztautau$  sample, which is 
+used for the normalization of the embedded sample, 
+are estimated at the common selection stage to be 4\% \cite{2010SMLLSupportNote}.
 %\footnote{A bit old result, to be reviewed. Depends also on the
 %embedding choice}
-Since additional selections are applied directly to the embedded sample, 
-no further acceptance uncertainties is considered. Acceptance systematics on
-$t\bar{t}$ simulated events are estimated to be of 2\%~\cite{ttbaremu}. %\textcolor{red}{still to be added}.
+Since additional selection criteria  are applied directly to the embedded sample, 
+no further acceptance uncertainties are considered. Acceptance uncertainties on the yield of 
+$t\bar{t}$ simulated events are estimated to be  2\%~\cite{ttbaremu}. %\textcolor{red}{still to be added}.
 %evaluated
 %\footnote{also here is not totally clear yet} 
 %by the difference between MC@NLO and POWHEG in
@@ -245,17 +248,18 @@ $t\bar{t}$ simulated events are estimated to be of 2\%~\cite{ttbaremu}. %\textco
 %For other, single and dibosons
 %production as well as single top production a 2\% uncertainty is
 %assumed.
-The acceptance uncertainties on dibosons and single top production are assumed to be 2\%~\cite{2010SMLLSupportNote}.
+The acceptance uncertainties on dibosons and single top quark production are estimated to be 2\%~\cite{2010SMLLSupportNote}.
 %\footnote{preliminary, this is following LEP-Had note, we
 %  should cite some previous result here.}.
-Uncertainties on signal acceptance have been estimated
-by producing samples with variated MC generator parameters and evaluating, at
-truth-level, the effect of analysis selections on leptons, taus and
-jets. This truth-level study is implemented within the Rivet framework
-\cite{RIVET}, where additionally b-tagging is performed by identifying b-quarks and applying
-a weighting according to the estimated ATLAS b-tagging
+
+Uncertainties on the signal acceptance have been estimated with signal 
+samples produced  varying generator parameters. The impact on the selection
+ of leptons, $\tau$-jet  and jets is evaluated at the particle level, prior to 
+simulation of the detector response. This truth-level study is implemented within the Rivet framework
+\cite{RIVET}, where the b-tagging is performed by identifying the b-quarks and applying
+ weights according to the measured ATLAS b-tagging
 efficiencies \cite{BtaggingScaleFactors}. The variation of the acceptance
-with respect to the nominal MC tune has  been considered as
+with respect to the nominal Monte Carlo tune has  been considered as
 a source of systematic uncertainty. For signal a total acceptance 
 uncertainty varies from 4\% to 30\% depending on $\mA$, production process 
 and on the analysis category.
@@ -289,7 +293,9 @@ and on the analysis category.
 \begin{center}
 \includegraphics[width=8cm]{figure/facs_mll_bveto}
 \end{center}
-\caption{ Comparison of the visible mass of tau decay products after factorisation scale variation for the b-veto category on a gluon fusion signal sample.}
+\caption{ Distribution of the invariant mass of all visible $\tau$-lepton decay products 
+for different choiches of the factorisation scale. The shown distribution is 
+for gluon fusion produced signal in the b-vetoed event category.}
 \label{fig:theory_mass}
 \end{figure}
 
