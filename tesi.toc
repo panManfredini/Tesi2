@@ -28,5 +28,11 @@
 \contentsline {paragraph}{b-Tagging}{29}{section*.12}
 \contentsline {paragraph}{Missing Transverse Energy}{29}{section*.13}
 \contentsline {subsection}{\numberline {1.4.2}Theoretical Uncertainties}{29}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}\ensuremath {Z/\gamma ^*\rightarrow \tau \tau }\xspace Embedding Systematics}{32}{subsection.1.4.3}
-\contentsline {subsection}{\numberline {1.4.4}QCD Multi-Jet Systematics}{33}{subsection.1.4.4}
+\contentsline {subsection}{\numberline {1.4.3}Systematic Uncertainties of the \ensuremath {Z/\gamma ^*\rightarrow \tau \tau }\xspace Embedded Sample}{32}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}QCD Multi-Jet Systematic Uncertainties}{33}{subsection.1.4.4}
+\contentsline {section}{\numberline {1.5}Results}{37}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Statistical Procedure }{37}{subsection.1.5.1}
+\contentsline {subsubsection}{The Likelihood Function}{37}{section*.14}
+\contentsline {subsubsection}{Statistical Combination of Results From Two Event Categories}{38}{section*.15}
+\contentsline {subsubsection}{The Test Statistic and the Exclusion Limits}{38}{section*.16}
+\contentsline {subsection}{\numberline {1.5.2}Exclusion Limits}{39}{subsection.1.5.2}

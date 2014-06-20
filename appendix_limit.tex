@@ -3,6 +3,28 @@
 \chapter{Limits cross checks and additional plots}
 \label{appendix:limit}
 
+\section{The ABCD Method }
+%How ABCD  is actually implemented in limits machinery
+The actual implementation in the limit framework of the ABCD method follows that suggested in~\cite{ABCD}.
+The control data samples B,C and D are considered as additional channels to be statistically combined
+to two the signal event category. Three free parameters are fitted in B,C and D channels which are: the 
+number of multi-jet events in the data sample B, $N_{B}^{QCD}$, the factor \rqcd 
+and the factor that extrapolates from isolated to anti-isolated data control samples $R_{BD}$. Neglecting signal contributions, 
+the following equations can be written for the event yield of the B,C and D control data samples:
+%$$N_{B} = N_{B}^{BKG} + N_{B}^{QCD} $$ 
+%$$N_{C} = N_{C}^{BKG} +  N_{B}^{QCD} \times \rqcd \times R_{BD} $$
+%$$N_{D} =  N_{D}^{BKG} + N_{B}^{QCD} \times  R_{BD} $$
+\begin{itemize}
+\item[] $N_{B} = N_{B}^{BKG} + N_{B}^{QCD}$
+\item[] $N_{C} = N_{C}^{BKG} +  N_{B}^{QCD} \times \rqcd \times R_{BD} $
+\item[] $N_{D} =  N_{D}^{BKG} + N_{B}^{QCD} \times  R_{BD} $
+\end{itemize}
+where $N^{BKG}$ represent the prediction of  non-QCD background in the relative data samples.
+The estimate of multi-jet event yield in the signal sample will be then $ N_{B}^{QCD} \times \rqcd $. This method is 
+particularly powerful because in the best fit of \rqcd the statistical 
+and systematics uncertainty for non-QCD backgrounds and data are considered.
+
+\section{Additional Limit Checks}
 During the limit derivation, the systematic uncertainties (translated in term of nuisance parameter) are fitted to the data,
 several checks are have been performed to ensure the quality of our statistical model.
 If some of the nuisance parameters are significantly different from their nominal value 
