@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  20 JUN 2014 19:10
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.14)  20 JUN 2014 23:18
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -821,8 +821,12 @@ LaTeX Warning: Reference `appendix:limit' on page 38 undefined on input line 63
 .
 
 [38] [39]
+Overfull \hbox (34.4104pt too wide) in paragraph at lines 189--216
+ [][] 
+ []
+
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
- <use figure/std_plots_mass.pdf, page 6>
+<use figure/std_plots_mass.pdf, page 6>
 File: figure/std_plots_mass.pdf Graphic file (type pdf)
 
 <use figure/std_plots_mass.pdf, page 7>
@@ -831,12 +835,10 @@ File: figure/limits/Limits_mAtanBeta_Comb.pdf Graphic file (type pdf)
 
 <use figure/limits/Limits_mAtanBeta_Comb.pdf>
 
-LaTeX Warning: Reference `appendix:limit' on page 40 undefined on input line 25
-1.
+LaTeX Warning: Reference `appendix:limit' on page 40 undefined on input line 29
+3.
 
-) (./tesi.bbl [40] [41 <./figure/limits/Limits_mAtanBeta_Comb.pdf>] [42
-
-]
+[40] [41 <./figure/limits/Limits_mAtanBeta_Comb.pdf>]) (./tesi.bbl [42]
 Underfull \hbox (badness 1466) in paragraph at lines 6--9
 []\OT1/cmr/m/n/12 G. Altarelli, \OT1/cmr/m/it/12 ``Col-lider Physics within the
  Stan-dard Model: a Primer,''
@@ -848,7 +850,9 @@ Missing character: There is no ” in font cmti12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[43]
+[43
+
+]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -1049,13 +1053,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7219 strings out of 493848
- 103732 string characters out of 1152823
- 199685 words of memory out of 3000000
+ 7220 strings out of 493848
+ 103743 string characters out of 1152823
+ 200406 words of memory out of 3000000
  9983 multiletter control sequences out of 15000+50000
  23363 words of font info for 90 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,16n,41p,877b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,16n,41p,1062b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
@@ -1075,9 +1079,9 @@ ype1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
 cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on tesi.pdf (52 pages, 1046275 bytes).
+Output written on tesi.pdf (52 pages, 1048328 bytes).
 PDF statistics:
- 1458 PDF objects out of 1728 (max. 8388607)
- 331 named destinations out of 1000 (max. 500000)
+ 1459 PDF objects out of 1728 (max. 8388607)
+ 332 named destinations out of 1000 (max. 500000)
  395 words of extra memory for PDF output out of 10000 (max. 10000000)
 

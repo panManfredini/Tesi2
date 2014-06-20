@@ -35,4 +35,4 @@
 \contentsline {subsubsection}{The Likelihood Function}{37}{section*.14}
 \contentsline {subsubsection}{Statistical Combination of Results From Two Event Categories}{38}{section*.15}
 \contentsline {subsubsection}{The Test Statistic and the Exclusion Limits}{38}{section*.16}
-\contentsline {subsection}{\numberline {1.5.2}Exclusion Limits}{39}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.2}Exclusion Limits on the Signal Production}{39}{subsection.1.5.2}
