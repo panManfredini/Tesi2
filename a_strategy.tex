@@ -75,7 +75,7 @@ result of the search are presented.
 \begin{figure}[tp]
      \begin{center}
 
-            \includegraphics[width=0.6\textwidth]{figure/mh_mod.png}
+            \includegraphics[width=0.7\textwidth]{figure/mh_mod.png}
 
     \end{center}
     \caption{Excluded and allowed regions of the $m_{A} - \text{tan}\beta$ parameter space for the  $m_{h}^{mod+}$ 
@@ -468,11 +468,11 @@ the predicted number of background and signal events after each stage of selecti
 %	&	$M_{e-\mu} > 30$ GeV \\
 %      \hline
       b-vetoed &  No b-tagged jets \\	
-      & $\Delta\phi(e-\mu)>1.6$ \\
+      & $\Delta\phi_{e,\mu}>1.6$ \\
       & $\sum\cos\Delta\phi > -0.4$ \\[5pt]
       \hline
       b-tagged & Exactly one b-tagged  jet \\
-      & $\Delta\phi(e-\mu)>2$ \\
+      & $\Delta\phi{e,\mu}>2$ \\
       & $\sum\cos\Delta\phi > -0.2$ \\
       & $ H_T < 100$ GeV \\
       & $P_{T\mu} + P_{Te} + \met < 100$ GeV \\[3pt]
@@ -513,19 +513,19 @@ in the b-tagged event category  is reported.
 \begin{figure}[p]
      \begin{center}
      \subfigure[]{		
-            \includegraphics[page=11,width=0.47\textwidth]{figure/std_plots_presel.pdf}
+            \includegraphics[width=0.47\textwidth]{figure/final_plots/std_presel_deltaPhi.pdf}
 	    \label{dphi}	
      }	
      \subfigure[]{		
-            \includegraphics[page=12,width=0.47\textwidth]{figure/std_plots_presel.pdf}
+            \includegraphics[width=0.47\textwidth]{figure/final_plots/std_presel_sum_cos_deltaPhi.pdf}
 	    \label{sumcosphi}	
      }	
      \subfigure[]{		
-            \includegraphics[page=9,width=0.47\textwidth]{figure/std_plots_presel.pdf}
+            \includegraphics[width=0.47\textwidth]{figure/final_plots/std_presel_Ht.pdf}
 	    \label{Ht}	
      }	
      \subfigure[]{		
-            \includegraphics[page=10,width=0.47\textwidth]{figure/std_plots_presel.pdf}
+            \includegraphics[width=0.47\textwidth]{figure/final_plots/std_presel_Et_plus_leptonPt.pdf}
 	    \label{sumlepPt}	
      }	
 
@@ -534,6 +534,7 @@ in the b-tagged event category  is reported.
 	The prediction of the  background model is compared to  data.
 	The contribution of the $\Ztautau$ and QCD multi-jet background processes is measured in  dedicated  signal-depleted control data samples,
 	the prediction for all the other bakground processes is obtained from simulation.
+ 	 The notation ``Other'' stands 	for the electroweak processes $\Wlnu$, $\Zll$, diboson and single top quark production.
 	The yellow band represents the total systematic uncertainty for the background model prediction (see Section~\ref{sec:Systematics}).}
    \label{fig:selections}
 \end{figure}
@@ -592,7 +593,7 @@ Dibosons	&	9338	$\pm$	48	&	9235	$\pm$	48	&	7358	$\pm$	43	&	4002	$\pm$	31		\\
 \ttbar	&	40632	$\pm$	106	&	7707	$\pm$	46	&	5044	$\pm$	37	&	3416	$\pm$	31		\\
 Single Top	&	4449	$\pm$	44	&	1664	$\pm$	27	&	1124	$\pm$	22	&	682	$\pm$	18	\\
 \Ztautau	&	61503	$\pm$	68	&	60440	$\pm$	67	&	58078	$\pm$	65	&	55303	$\pm$	64	\\
-Signal	&				&				&	-			&	-						\\
+%Signal	&				&				&	-			&	-						\\
     \hline
   \end{tabular}
   \caption{Number of observed and predicted signal and background events, after each selection stage in the b-vetoed event category.}
@@ -616,7 +617,7 @@ Dibosons	&	99	$\pm$	5	&	63	$\pm$	4	&	36.4	$\pm$	3.0	&	14.8	$\pm$	1.8	&	13.3	$\pm
 \ttbar	&	19810	$\pm$	70	&	9680	$\pm$	50	&	6450	$\pm$	50	&	808	$\pm$	15	&	350	$\pm$	10		\\
 Single Top &	2456	$\pm$	33	&	1223	$\pm$	23	&	784	$\pm$	18	&	122	$\pm$	7	&	99	$\pm$	7		\\
 \Ztautau &	952	$\pm$	9	&	625	$\pm$	7	&	540	$\pm$	7	&	482	$\pm$	6	&	421	$\pm$	6		\\
-Signal		&				&	-			&	-			&	-			&	-						\\
+%Signal		&				&	-			&	-			&	-			&	-						\\
     \hline
     \hline
   \end{tabular}
@@ -651,8 +652,8 @@ is performed over all possible values constrained by the measured $\met$ and its
 %successively a four dimensional scan is performed fixing $\met$ to the updated value and calculating the most likely invariant mass 
 %of the di-$\tau$ system.
 
-Figure~\ref{fig:mass} shows the  \mmc invariant mass distribution after after the common selection 
-and after applying the full selection in both event categories. 
+Figure~\ref{fig:mass} shows the  \mmc invariant mass distribution after the common selection and after the requirement of the presence or the
+absence of a b-tagged jet.
 
  
 %Accurate invariant mass reconstruction of a di-tau system is a challenging task due to the escaping neutrinos.
@@ -670,44 +671,27 @@ and after applying the full selection in both event categories.
 
 \begin{figure}[p]
      \begin{center}
-     
      \subfigure[]{		
-            \includegraphics[page=1,width=0.6\textwidth]{figure/std_plots_mass.pdf}
-	    \label{presel}	
-    	%\caption{\footnotesize common selections.}
-     }\\	
-
-%     \subfigure[]{		
-%            \includegraphics[page=3,width=0.47\textwidth]{figure/std_plots_mass.pdf}
-%	    \label{veto}	
-%    	%\caption{\footnotesize b-vetoed.}
-%     }	
-%     \subfigure[]{		
-%            \includegraphics[page=2,width=0.47\textwidth]{figure/std_plots_mass.pdf}
-%	    \label{tag}	
-%    	%\caption{\footnotesize b-tagged.}
-%     }	
-     \subfigure[]{		
-            \includegraphics[page=7,width=0.6\textwidth]{figure/std_plots_mass.pdf}
-	    \label{fullveto}	
-    	%\caption{\footnotesize full b-vetoed.}
+            \includegraphics[width=0.47\textwidth]{figure/final_plots/std_presel_mmc_mass.pdf}
      }	
-%     \subfigure[]{		
-%            \includegraphics[page=7,width=0.47\textwidth]{figure/std_plots_mass.pdf}
-%	    \label{btagphi}	
-    	%\caption{\footnotesize b-tagged + $\Delta\phi$ + $\sum_\ell cos(\Delta\phi_{E_{T},\ell})$.}
-%     }
-     
      \subfigure[]{		
-            \includegraphics[page=6,width=0.6\textwidth]{figure/std_plots_mass.pdf}
-	    \label{fullbtag}	
-    	%\caption{\footnotesize full b-tagged.}
-     }
+            \includegraphics[width=0.47\textwidth]{figure/final_plots/std_presel_Btag_mmc_mass.pdf}
+     }	
+     \subfigure[]{		
+            \includegraphics[width=0.47\textwidth]{figure/final_plots/std_presel_NoBtag_mmc_mass.pdf}
+     }	
+
     \end{center}
      	
 
-    \caption{\footnotesize Observed and expected distribution of the 
-	invariant di-$\tau$ mass \mmc for different stage of analysis selections.}
+    \caption{Observed and expected distribution of the 
+	invariant di-$\tau$ mass \mmc for different stage of analysis selections: after requiring the common selection (a),
+	requiring the presence of extacly one b-tagged jet (b) or the absence of a b-tagged jet (c) after applying common selection.
+	The prediction of the  background model is compared to  data.
+        The contribution of the $\Ztautau$ and QCD multi-jet background processes is measured in  dedicated  signal-depleted control data samples,
+        the prediction for all the other bakground processes is obtained from simulation.
+        The notation ``Other'' stands  for the electroweak processes $\Wlnu$, $\Zll$, diboson and single top quark production.
+        The yellow band represents the total systematic uncertainty for the background model prediction.}
    \label{fig:mass}
 \end{figure}
 
