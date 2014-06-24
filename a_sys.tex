@@ -5,19 +5,19 @@ This section describes a number of sources of systematic uncertainties
 that are relevant for the presented  analysis. To account for differences in the observed and simulated 
 detector response a set of corrections is applied at the level of object reconstruction  
 and at event level as described in chapter~\ref{chap:obj}. 
-The uncertainties du to such corrections are refered to as detector-related systematic 
+The uncertainties due to such corrections are referred to as detector-related systematic 
 uncertainties and are addressed in section~\ref{sec:sys:sys_det}. 
-For all process whose contributions are predicted from simulation, also theory-related
+For all processes whose contributions are predicted from simulation, also theory-related
 systematic uncertainties need to be accounted for. These include uncertainties on the cross-section and
- on the acceptance of events after given analysis selection criteria and 
+ on the acceptance of events after the given analysis selection criteria and 
 are  described in section~\ref{sec:sys_theory}$\,.$
 Further systematic uncertainties related to the background measurements with dedicated control data 
 are described in Sections~\ref{sec:embsys} and~\ref{sec:qcdsys}$\,.$
 
 Each source of systematic uncertainty can contribute separately to the uncertainty on the
 final event yield and on the shape of the $\mmc$
-distribution which is used as final discriminating variable in statistical interpretation of data. Systematic uncertainties
-that the shape of the mass distribution are
+distribution which is used as final discriminating variable in the statistical interpretation of data. Systematic uncertainties
+that affect the shape of the mass distribution are
 documented in appendix~\ref{appendix:shapeNPs}. Uncertainty on the \mmc shape distribution 
 are found to be negligible for all except the embedded sample, for which significant 
 deviation from the nominal distribution are found in the b-vetoed category only. 
@@ -33,7 +33,7 @@ Systematic uncertainties related to object reconstruction and event-by-event
 corrections are based on the calibration measurements of the relevant parameter. Each 
 of those parameters correspond to a nuisance parameter in the probability model used for the  statistical interpretation
 as described in Section~\ref{sec:result}.
-Each parameter is varied independently by one standard deviation up or down according to its measured
+Each parameter is varied independently by one standard deviation  according to its measured
 uncertainty. The corresponding impact on the  yield of simulated events is evaluated for each signal and background sample.
 In the following, detector-related uncertainty are  described in more details.
 Tables~\ref{tab:ExpSys:btag} and~\ref{tab:ExpSys:bveto} briefly summarize the impact of these uncertainties on the 
@@ -87,10 +87,10 @@ and identification efficiency have been investigated and are found to be negligi
 
 \paragraph{Jets}
 The systematic uncertainties on the Jet Energy Scale (JES) are described by multiple sets of nuisance parameters~\cite{JES}
-related to different effects and jet energy components. For example the sensitivity to pileup effects or
-to the flavor composition of the jet are considered separately. The overall uncertainty on the JES ranges 
+related to different effects and jet energy components, for example the sensitivity to pileup effects or
+to the flavour composition of the jet. The overall uncertainty on the JES ranges 
 between 3\% and 7\%, depending on the $\pt$ and $\eta$ of the jet. 
-The overall impact of the JES uncertainty on the analysis Tables~\ref{tab:ExpSys:btag} and~\ref{tab:ExpSys:bveto}
+The overall impact of the JES uncertainty on the analysis yields is shown in Tables~\ref{tab:ExpSys:btag} and~\ref{tab:ExpSys:bveto}
 by summing all component in quadrature, while in the statistical interpretation of data
 those uncertainties are considered uncorrelated.
 Systematic uncertainty due to the jet resolution ("Jet Resolution") are obtained by smearing the jet energy 
@@ -108,7 +108,7 @@ according to the measured  uncertainty which ranges from 10-20\% depending on th
 \paragraph{b-Tagging}  Corrections are applied to simulation
 to match the b-tagging efficiency observed  in data. Uncertainties on the knowledge 
 of the b-tagging efficiencies for the 70\% $\epsilon_b^{\ttbar}$ working point of the MV1 b-tagger are
-considered~\cite{BtaggingScaleFactors,BtaggingScaleFactorsNew}, ranging from 5-10\% in dependence on the $\pt$ of the jet. 
+considered~\cite{BtaggingScaleFactors,BtaggingScaleFactorsNew}. These uncertainties range from 5-10\% in dependence on the $\pt$ of the jet. 
 The effect of those uncertainties is evaluated independently for the
  b-quark, c-quark and light or gluon initiated jets and referred to respectively 
  as "B  Eff", "C Eff" and "L Eff". The tagging and mis-tagging efficiency uncertainties 
@@ -119,7 +119,7 @@ The effect of the energy scale uncertainties for all  physics objects is propaga
 In addition, uncertainty on the energy scale and resolution due to the remaining unassociated 
 calorimeter energy deposits, the ``soft-terms'', is considered and estimated to be of the order of 10\%~\cite{ETMISS}. 
 \met uncertainties are independently propagated through the analysis and are
-added in quadrature, this final term is referred as the "MET" uncertainty.
+added in quadrature, this final term is referred to as the "MET" uncertainty.
 
 
 %\paragraph{Summary} A summary of the effect of the experimental and theoretical systematic uncertainties on signal and background yields for the b-tag and b-veto channels are shown in Table~\ref{tab:ExpSys:btag} and Table~\ref{tab:ExpSys:bveto}, respectively. It should 
@@ -127,7 +127,7 @@ added in quadrature, this final term is referred as the "MET" uncertainty.
 %Hence, some of the yield differences reported are statistically dominated for these samples.
 %%	As a solution the mean value between all the sample mass point can be taken as measure of the single systematic, 
 %However the gluon fusion production mode has a negligible contribution in b-tag category.
-\begin{table}
+\begin{table}[!htp]
   \centering
   \begin{tabular}{lccccc}
     \hline\hline
@@ -164,7 +164,7 @@ Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
 	samples: $\Wlnu$, 
 	dibosons, $\Zll$ and single top quark processes. The signal produced in association with b-quarks  and via 
 	gluon fusion is considered separately assuming $m_{A}=150$ GeV and $\tan\beta=20$. 
-	Uncertainy that impacts the \mmc mass distribution are noted with the symbol (\textbf{s}).} 
+	Uncertainty that impacts the \mmc mass distribution are noted with the symbol (\textbf{s}).} 
  \label{tab:ExpSys:bveto}
 \end{table}
 
@@ -217,6 +217,31 @@ Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
 \label{sec:sys_theory}
 %\subsection{Simulated Cross-Section Uncertainties}
 
+
+\begin{table} [!t]
+\centering
+\begin{tabular}{c c c }
+\hline
+\hline
+Generator & Process & Uncertainty \\ [0.5ex]
+\hline
+ALPGEN & $Z \rightarrow \tau\tau / ee /\mu\mu$ & $\pm 5\%$ \\
+POWHEG & \ttbar					& $\pm 5.5\%$\\
+ALPGEN & $W  \rightarrow \tau\nu / e\nu /\mu\nu$&  $\pm  5\%$ \\
+AcerMC & single top & $\pm 13 \%$ \\
+HERWIG & dibosons & $\pm 6 \%$ \\
+SHERPA & $bbA$/$h$/$H$  ($m_{A} \ge 120$~GeV)     & $-(<20)$\%,  $+(<9)$ \%\\
+SHERPA & $bbA$/$h$/$H$  ($m_{A} =   110$~GeV)     & $-(<25)$\%,  $+(<9)$ \%\\
+SHERPA & $bbA$/$h$/$H$  ($m_{A} =   100$~GeV)     & $-(<28)$\%,  $+(<9)$ \%\\
+SHERPA & $bbA$/$h$/$H$  ($m_{A} =    90$~GeV)     & $-(<30)$\%,  $+(<9)$ \%\\
+POWHEG & $ggA$/$h$/$H$  ($m_{A} \le 300$~GeV)     & $<$ 15\%\\  [0.5ex]
+\hline \hline 
+\end{tabular}
+\caption{Cross-section uncertainties for background and signal processes, $\tan\beta = 20$ is assumed for all signal samples.}
+\label{table:sys_xsec}
+\end{table}
+
+
 Uncertainties on the cross-sections that have been used to normalize
 the contribution of simulated samples to the integrated luminosity of analyzed data are reported in
 Table~\ref{table:sys_xsec}. These
@@ -229,9 +254,10 @@ Higgs boson ($A$/$h$/$H$) and its mass.
 The impact  of systematic uncertainties due to various Monte Carlo tuning
 parameters for the description of the  underlying event and
 lepton kinematic properties is considered.
-Since the distribiution of the invariant mass of all visible $\tau$ lepton decay is not affected by these systematic
-uncertainties, as an example see
-Figure~\ref{fig:theory_mass}, 
+Since the distribution of the invariant mass of all visible $\tau$ lepton decay products is found to be not affected by these systematic,
+uncertainties
+% as an example see
+%Figure~\ref{fig:theory_mass}, 
 only the variation in the acceptance is considered as a systematic uncertainty.
 The acceptance uncertainties for the simulated ALPGEN $\Ztautau$  sample, which is 
 used for the normalization of the embedded sample, 
@@ -289,16 +315,6 @@ and on the analysis category.
 %and 300 GeV are shown in Appendix \ref{appendix:additional} of this note.
  
 
-\begin{figure}[tdp]
-\begin{center}
-\includegraphics[width=8cm]{figure/facs_mll_bveto}
-\end{center}
-\caption{ Distribution of the invariant mass of all visible $\tau$-lepton decay products 
-for different choiches of the factorisation scale. The shown distribution is 
-for gluon fusion produced signal in the b-vetoed event category.}
-\label{fig:theory_mass}
-\end{figure}
-
 
 %\begin{table}[tdp]
 %  \begin{center}
@@ -347,6 +363,20 @@ for gluon fusion produced signal in the b-vetoed event category.}
 %  \end{center}
 %\end{table}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%Figure Lorentz%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure}[tp]
+%\begin{center}
+%\includegraphics[width=0.65\textwidth]{figure/facs_mll_bveto2}
+%\end{center}
+%\caption{ Distribution of the invariant mass of all visible $\tau$-lepton decay products 
+%for different choices of the factorisation scale. The shown distribution is 
+%for gluon fusion produced signal in the b-vetoed event category.}
+%\label{fig:theory_mass}
+%\end{figure}
+%
+
+
 \subsection{Systematic Uncertainties of the \Ztautau Embedded Sample}\label{sec:embsys}
 
 An important element of the embedding method is the subtraction of the 
@@ -356,10 +386,11 @@ the energy of the subtracted cells is scaled up or down by 30\%. The analysis is
 samples and the relative uncertainty is referred as "EMB\_MFS". This uncertainty affects mainly the shape of the \mmc mass 
 distribution, shown in Figure~\ref{fig:EMBMFS}.
 
+
 \begin{figure}[tp]
 	\begin{center}
-	\includegraphics[width=0.49\textwidth]{figure/systematics/emb_sys_NoBtagFull_MFS.png}
-	\includegraphics[width=0.49\textwidth]{figure/systematics/emb_sys_NoBtagFull_Iso.png}
+	\includegraphics[width=0.49\textwidth]{figure/systematics/emb_sys_veto_MFS.pdf}
+	\includegraphics[width=0.49\textwidth]{figure/systematics/emb_sys_veto_iso.pdf}
 	\end{center}
 	\caption{Impact of EMB\_MFS (left) and EMB\_ISO (right) systematic uncertainties on the $\mmc$ mass distribution for in the  embedded sample.
 	Significant impact is observed only in the b-vetoed event category.}
@@ -398,7 +429,7 @@ The resulting uncertainty, referred to as "EMB\_ISO", affects both the event yie
 the \mmc mass distribution in the embedded sample, as shown in Figure~\ref{fig:EMBMFS}. 
 
 Finally, because the normalization of the embedded sample is determined from the simulated ALPGEN sample, 
-the uncertainties on the relative cross section in the two event category and luminosity uncertainty are assigned. In addition
+the uncertainties related to the cross section and to luminosity are assigned. In addition
 all detector-related systematic uncertainties relevant to the decay products of the simulated $\tau$ lepton 
 decay are propagated to the embedded sample.
  
@@ -411,17 +442,39 @@ decay are propagated to the embedded sample.
 %\end{figure}
 
 \subsection{QCD Multi-Jet Systematic Uncertainties}\label{sec:qcdsys}
+\begin{table} [!tp]
+	\begin{center}
+	\begin{tabular}{l  c c c }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hline 
+\hline
+Selection  		&  \rqcd  			&  $\rqcd^{AB}$  		&  $R_{QCD}^{iso}$ \\ 
+\hline
+common selection 		&   1.929 $\pm$     0.004	&	2.12 $\pm$ 0.17		&	2.22 $\pm$ 0.16	\\
+No b-tagged jets		&  1.965   $\pm$   0.005    	& 2.10   $\pm$	0.16 		&	2.22 $\pm$ 0.16	\\
+Exactly one b-tagged jet	&  1.78    $\pm$   0.02 	& 1.9   $\pm$	0.9 		&	2.0  $\pm$ 0.8	\\
+\hline
+\hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\end{tabular}
+	  \caption{Comparison between \rqcd, $\rqcd^{AB}$ and $R_{QCD}^{iso}$ after the common selection stage and after requiring
+	or vetoing the presence of b-tagged jets. Only the statistical uncertainty is reported here.
+	The value of $\rqcd^{iso}$ is reported for for the lepton isolation threshold which is twice the nominal value,
+	while  for  $\rqcd^{AB}$ and \rqcd the nominal values are reported. }
+	\label{table:MCsub}
+	\end{center}
+\end{table}
 
 The QCD multi-jet background is estimated via the ABCD method, as
 described in Section~\ref{sec:qcd}. This technique relies strongly on
 the assumption that the lepton isolation variables are uncorrelated to the relative
 charge of the two leptons. Systematic uncertainties
 are assigned to take into account possible deviations from this assumption.
-First the correlation between the ratio  \rqcd and the lepton isolation critria is considered,
+First the correlation between the ratio  \rqcd and the lepton isolation criteria is considered,
 then the result is compared with an auxiliary measurement. 
 
 Figure~\ref{fig:os_ss_ratio} shows the \rqcd factor, i.e. the ratio between the QCD 
-yields in data samples C and D, as a function of the sliding lepton isolation threshold relative to the 
+yields in data samples C and D, as a function of a sliding lepton isolation threshold relative to the 
 nominal analysis selection (red points).
 %correlation is clearly visible. 
 As described previously, the expected contamination of  non-QCD background processes is subtracted from the data in samples C and D.
@@ -481,36 +534,24 @@ Good agreement is seen between the results of these methods.
 %uncertainty to the \rqcd factor is conservative.
 
 
-\begin{table} [tp]
-	\begin{center}
-	\begin{tabular}{l  c c c }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hline 
-\hline
-Selection  		&  \rqcd  			&  $\rqcd^{AB}$  		&  $R_{QCD}^{iso}$ \\ 
-\hline
-common selection 		&   1.929 $\pm$     0.004	&	2.12 $\pm$ 0.17		&	2.22 $\pm$ 0.16	\\
-No b-tagged jets		&  1.965   $\pm$   0.005    	& 2.10   $\pm$	0.16 		&	2.22 $\pm$ 0.16	\\
-Exactly one b-tagged jet	&  1.78    $\pm$   0.02 	& 1.9   $\pm$	0.9 		&	2.0  $\pm$ 0.8	\\
-\hline
-\hline
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\end{tabular}
-	  \caption{Comparison between \rqcd, $\rqcd^{AB}$ and $R_{QCD}^{iso}$ after the common selection stage and after requiring
-	or vetoing the presence of b-tagged jets. Only the statistical uncertainty is reported here.
-	The value of $\rqcd^{iso}$ is reported for for the lepton isolation threshold which is twice the nominal value,
-	while  for  $\rqcd^{AB}$ and \rqcd the nominal values are reported. }
-	\label{table:MCsub}
-	\end{center}
-\end{table}
+The shape of the \mmc mass distribution differs between the OS and SS in 
+anti-isolated samples (C and D) as shown in Figure~\ref{fig:qcd_shape_unc}.
+The size of this effect is within the above \rqcd uncertainty for the  relevant mass range of the QCD multi-jet background (QCD multi-jet background
+contribution is negligible for $\mmc  > 150$ GeV) and hence no correction factor is applied to the mass shape of sample B. 
+It is assumed, however, that there could be the same 
+shape difference in the isolated samples and thus a shape uncertainty is  assigned to the mass distribution in 
+sample B to account for this  deviation. Further 
+shape uncertainties due to non-QCD background subtraction are found to be negligible. The uncertainty due to the use of an isolation 
+requirement at the trigger level is discussed in Appendix~\ref{appendix:qcd} and is found to be negligible.
 
 
-\begin{figure}[tp]
+
+\begin{figure}[ht]
 	\begin{center}
-	\includegraphics[page=5,width=0.9\textwidth]{figure/QCD/qcd_plot.pdf}
+	\includegraphics[width=0.60\textwidth]{figure/systematics/QCD_presel_SYS.pdf}
 	\end{center}
 	\caption{Transfer factors \rqcd and $R_{QCD}^{iso}$  (see text) as a function of the sliding lepton isolation 
-	thresholds. The thresholds are varied in percetages relative to the nominal lepton isolation threshold (value of zero on the plot).
+	thresholds. The thresholds are varied in percentages relative to the nominal lepton isolation threshold (value of zero on the plot).
 	The common selection are applied.
 	%As an example the point at 100\% in the plot corresponds
 	%to $\rqcd$ evaluated by increasing the isolation requirement by 100\% respect to the standard cut value.
@@ -523,21 +564,10 @@ Exactly one b-tagged jet	&  1.78    $\pm$   0.02 	& 1.9   $\pm$	0.9 		&	2.0  $\p
 	\label{fig:os_ss_ratio}
 \end{figure}
 
-The shape of the \mmc mass distribution differs between the OS and SS in 
-anti-isolated samples (C and D) as shown in Figure~\ref{fig:qcd_shape_unc}.
-The size of this effect is within the above \rqcd uncertainty for the  relevant mass range of the QCD multi-jet background (QCD multi-jet background
-contribution is negligible for $\mmc  > 150$ GeV) and hence no correction factor is applied to the mass shape of sample B. 
-It is assumed, however, that there could be the same 
-shape difference in the isolated samples and thus a shape uncertainty is  assigned to the mass distribution in 
-sample B to account for this  deviation. Further 
-shape uncertainties due to non-QCD background subtraction are found to be negligible. The uncertainty due to the use of an isolation 
-requirement at the trigger level is discussed in Appendix~\ref{appendix:qcd} and is found to be negligible.
-
-
-\begin{figure}[tp]
+\begin{figure}[h]
 	\begin{center}
-	\includegraphics[width=0.65\textwidth]{figure/QCD/shape_tag.png}
-	\includegraphics[width=0.65\textwidth]{figure/QCD/shape_veto.png}
+	\includegraphics[width=0.47\textwidth]{figure/systematics/qcd_shape_tag.pdf}
+	\includegraphics[width=0.47\textwidth]{figure/systematics/qcd_shape_veto.pdf}
 	\end{center}
 	\caption{Differences in the shape of the invariant \mmc mass distribution in data samples  C and D shown 
 	separately for the b-taged  and b-vetoed event categories. The data samples C and D are normalised to the same 
@@ -548,29 +578,5 @@ requirement at the trigger level is discussed in Appendix~\ref{appendix:qcd} and
 
 
 
-
-
-\begin{table} [t]
-\centering
-\begin{tabular}{c c c }
-\hline
-\hline
-Generator & Process & Uncertainty \\ [0.5ex]
-\hline
-ALPGEN & $Z \rightarrow \tau\tau / ee /\mu\mu$ & $\pm 5\%$ \\
-POWHEG & \ttbar					& $\pm 5.5\%$\\
-ALPGEN & $W  \rightarrow \tau\nu / e\nu /\mu\nu$&  $\pm  5\%$ \\
-AcerMC & single top & $\pm 13 \%$ \\
-HERWIG & dibosons & $\pm 6 \%$ \\
-SHERPA & $bbA$/$h$/$H$  ($m_{A} \ge 120$~GeV)     & $-(<20)$\%,  $+(<9)$ \%\\
-SHERPA & $bbA$/$h$/$H$  ($m_{A} =   110$~GeV)     & $-(<25)$\%,  $+(<9)$ \%\\
-SHERPA & $bbA$/$h$/$H$  ($m_{A} =   100$~GeV)     & $-(<28)$\%,  $+(<9)$ \%\\
-SHERPA & $bbA$/$h$/$H$  ($m_{A} =    90$~GeV)     & $-(<30)$\%,  $+(<9)$ \%\\
-POWHEG & $ggA$/$h$/$H$  ($m_{A} \le 300$~GeV)     & $<$ 15\%\\  [0.5ex]
-\hline \hline 
-\end{tabular}
-\caption{Cross-section uncertainties for background and signal processes, $\tan\beta = 20$ is assumed for all signal samples.}
-\label{table:sys_xsec}
-\end{table}
 
 

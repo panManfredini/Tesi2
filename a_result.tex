@@ -20,28 +20,29 @@ is a binned likelihood function for the data set, $\mathcal{D}$:
 \mathcal{L}(\mathcal{D}~|~\mu, \boldsymbol{\theta}) = \text{Pois(}\mathcal{D}~ |~ \mu \cdot s(\boldsymbol{\theta}) 
 	+ b(\boldsymbol{\theta})) \cdot \prod_{j,i}\mathcal{G}(\theta_j^{sys} ~ | ~ 0, 1) \cdot \Gamma(\theta^{stat}_i | \beta_i)
 \end{equation}
-describing how likely is a certain hypotesis given the observation of the data set $\mathcal{D}$.
-The signal strenght modifier $\mu$ allows for reproducing a continuous set of signal hypotheses with 
+describing how likely is a certain hypothesis given the observation of the data set $\mathcal{D}$.
+The signal strength modifier $\mu$ allows for reproducing a continuous set of signal hypotheses with 
 different cross-section. The value of $\mu= 0$ corresponds to the background-only hypothesis. 
 The vector $\boldsymbol{\theta}$ represents the set of \emph{nuisance} parameters  related to
 the systematic ($\theta_j^{sys}$) and to the statistical ($\theta^{stat}_i$) 
 uncertainties of the background and signal predictions. 
 The functions s($\boldsymbol{\theta}$) and  b($\boldsymbol{\theta}$)
-represent the expected signal and background distribution, respectively, these are binned histograms
-of the invariant \mmc mass distributions.
+represent the expected signal and background distribution respectively, these are binned histograms
+of the invariant \mmc mass distribution.
 The function $\mathcal{G}(\theta_j^{sys} ~ | ~ 0, 1)$
-is the  Gaussian\footnote{Evaluation of systematic uncertainties is obtained from from auxiliary measurements, from Bayes theorem,
+is the  Gaussian\footnote{Evaluation of systematic uncertainties is obtained from auxiliary measurements. From Bayes theorem,
 	assuming a flat prior and a Gaussian distribution for the measured parameter a Gaussian posterior is obtained.	
 }
 probability density function (p.d.f.) for the nuisance parameter $\theta_j^{sys}$, 
 which is assumed to be distributed with mean~=~0 and $\sigma = 1$.  The impact of the corresponding systematic uncertainty
 on the  signal and backgrounds yields and on the shape of the \mmc invariant mass distribution
  is evaluated separately as described in Section~\ref{sec:Systematics}.
-The function  $\Gamma(\theta^{stat}_i | \beta_i)$ is an extended gamma function\footnote{The posterior of a
+The function  $\Gamma(\theta^{stat}_i | \beta_i)$ is an extended gamma function
+\footnote{The posterior of a
 	Poisson distribution assuming a flat prior is a gamma function}
 describing the p.d.f. for the nuisance parameter $\theta^{stat}_i$ related 
-to the statistical uncertainty $ \beta_i$, for the bin $i$ of the histogram.
-Each value of the nuissance parameter set $\boldsymbol{\theta}$ is associated with a variation of the predicted
+to the statistical uncertainty $ \beta_i$, for the bin $i$ of the considered histogram.
+Each value of the nuisance parameter set $\boldsymbol{\theta}$ is associated with a variation of the predicted
 signal and background event yields with respect to the nominal prediction.
 %are evaluated represent
 %the uncertainties on the signal and background yields,  or mass shape of the analysis, those uncertainties 
@@ -50,15 +51,15 @@ signal and background event yields with respect to the nominal prediction.
 %where and it is only function of the parameter $\mu$ and of the
 %nuisance parameter $\boldsymbol{\theta}$. If the hypothesis under test is unlikely to happen with the given dataset the value of 
 %$\mathcal{L}$ is decreasing,
-%one can define which is the best value of a parameter that describes the data via maximizing the likelihood,
+%one can define which is the best value of a parameter that describes the data via maximising the likelihood,
 %obtaining a so called maximum likelihood estimator. 
 The Poisson distribution in equation~\eqref{likelihood} is a binned p.d.f. and 
-stands for a product of Poisson probabilities to observe $n_i$ events in the bin \textit{i} of the \mmc histogram:
+stands for a product of Poisson probabilities to observe $n_i$ events in the bin \textit{i} of the \mmc mass distribution histogram:
 $$
  \text{Pois(}\mathcal{D} ~ | ~ \mu \cdot s(\boldsymbol{\theta}) + b(\boldsymbol{\theta})) = \prod_{i} \frac{(\mu s_i(\boldsymbol{\theta}) +b_i(\boldsymbol{\theta}))^{n_i}}{n_i!} ~ e^{-\mu s_i(\boldsymbol{\theta}.)
  -b_i(\boldsymbol{\theta})}
 $$
-The \mmc mass distributions in the b-tagged and b-vetoed category are analyzed separately.
+The \mmc mass distributions in the b-tagged and b-vetoed category are analysed separately.
 The actual implementation in the likelihood function of the ABCD method follows that suggested in~\cite{ABCD}
 and it is described in more detail in Appendix~\ref{appendix:limit}.
 
@@ -72,9 +73,8 @@ functions for the individual categories. For the combination, the  convention de
 to take into account the correlation between different sources of uncertainties.
 Uncertainties are considered either as fully correlated, which means that the same nuisance parameter
 is describing the given systematic effect in both categories,  or fully uncorrelated, in which case different nuisance parameter are
-employed in the two categories. Partially correlated uncertainties are either slit into component which are fully
-or uncorrelated or they are defined as  to either fully correlated or uncorrelated.
-The choice of the above options is made by always selecting the most conservative assumptin.
+employed in the two categories. Partially correlated uncertainties are either split into component which are fully
+ uncorrelated or they are defined as  to either fully correlated or uncorrelated, depending on which assumption is the most conservative.
 
 
 
@@ -86,11 +86,11 @@ To compute the compatibility of the data with a given hypothesis a test statisti
 \hat{\mu}, \hat{\boldsymbol{\theta}})}
 \quad \text{with the constraint} \quad 0 \leq \hat{\mu} \leq \mu.
 \end{equation}
-$\mathcal{L}$ is the likelihood function defined in equation~\eqref{likelihood}, $\hat{\mu}$ and $\hat{\boldsymbol{\theta}}$ 
+where $\mathcal{L}$ is the likelihood function defined in equation~\eqref{likelihood}, $\hat{\mu}$ and $\hat{\boldsymbol{\theta}}$ 
 are the global maximum likelihood estimators for $\mu$ and $\boldsymbol{\theta}$ given the data, 
 whereas $\hat{\boldsymbol{\theta}}_{\mu}$ is the maximum likelihood estimator of $\boldsymbol{\theta}$ given the data but  with
 a signal strength fixed to the value of $\mu$. $\tilde{q_{\mu}}$ is increasing with 
-increasing disagreement between data and the given hypothesis with a signal strenght $\mu$.
+increasing disagreement between data and the given $\mu$ hypothesis.
 Based on this, the procedure for setting upper exclusion limits on the signal cross-section
 is defined as follows:
 \begin{enumerate}
@@ -106,13 +106,13 @@ is defined as follows:
 %
 	\item The probability density function of $\tilde{q_{\mu}}$ is determined  under the background-only ($H_0$) and 
 	the  signal-plus-background ($H_{\mu}$) hypotheses for any given value of $\mu$.
-	Since the determination of these distributions by means of pseudo-data demands large computing time,
+	Since the determination of these distributions by means of pseudo-data demands large computing resources,
 	asymptotic approximation formulas described in~\cite{Asympt} are employed.
 	
 
 	\item Once the p.d.f. for the background-only and signal-plus-background hypothesis are obtained, 
 	it is possible to define for a given dataset  two probability values (p-values) for any given value of $\mu$.
-	These are the probabilities to observe data less compatible with the considered hypothesis than the 
+	These are the probabilities to obtain data less compatible with the considered hypothesis than the 
 	actual observation:
 	$$
 	p_{s+b} = P(\tilde{q_{\mu}} > \tilde{q_{\mu}}^{observed} ~ | ~ H_{\mu})  
@@ -125,8 +125,8 @@ is defined as follows:
 	\item If for a given $\mu$ the $CL_{s}$ value of $CL_{s} ~ \leq ~ \alpha $ is obtained, the signal-plus-background
 	 hypothesis (with the corresponding $\mu$ value)  is considered to be 
 	 excluded at a (1 - $\alpha$) $CL_{s}$ confidence level. The 95\% confidence level upper limit on $\mu$,
-	denoted as $\mu^{95\%}$, is defined as the smallest value of $\mu$ for which the  $CL_{s}$ value is no longer 
-	greather than  $0.05\,.$
+	denoted as $\mu^{95\%}$, is defined as the smallest value of $\mu$ for which the  $CL_{s}$ is no longer 
+	greater than  $0.05\,.$
 \end{enumerate}
 %This is a quite complicated prescription, however 
 %its interpretation is not so different from the usual Neyman Construction~\cite{} of confidence intervals:
@@ -163,7 +163,7 @@ by two parameter $\tan \beta$ and $m_A$. Thus, the previously described procedur
 %Only a limited number of $\tan \beta - m_A$ points are generated, 
 %a linear interpolation is used to determine the $\tan \beta$ excluded for a given $m_A$.
 For the $m_h^{mod}$ scenario exclusion limits at $95\%$ CLs confidence level 
-are derived on the cross section for the neutran MSSM Higgs bosons ($A/h/H$) production via gluon fusion and in association
+are derived on the cross section for the neutral MSSM Higgs bosons ($A/h/H$) production via gluon fusion and in association
 with b-quarks,  the considered Higgs bosons decay is $A$/$H$/$h\to\tau\tau\to \mu e + 4\nu$. 
 A scan has been performed over for 15 tan$\beta$ values ranging\footnote{
 			The set of  tan$\beta$ values used
@@ -174,17 +174,17 @@ A linear interpolation is used to determine the excluded $\tan \beta$ for a give
 The procedure is repeated for a set of 12 CP-odd Higgs boson masses values $m_A$ ranging from 90 GeV 
 to 300 GeV\footnote{ The set of $m_A$ values used is: 90, 100, 110, 120, 125, 130,
 			140, 150, 170, 200, 250 and 300 GeV}.
-The expected and observed event yields are compared in bins of the \mmc distribution. The bin sizes are
+The expected and observed event yields are compared in bins of the \mmc mass distribution. The bin sizes are
  chosen such that the number of events per bin is high enough to justify the use of the 
 asymptotic approximation.
 Table~\ref{table:final_numbers} compares the expected and the observed event yields in 
  the two event categories at the final
-stage of the cut event selection. Additionally, Figure \ref{fig:mmc_categories} shows the corresponding 
+stage of the event selection. Additionally, Figure \ref{fig:mmc_categories} shows the corresponding 
 \mmc mass distributions.
 
-
-\begin{table} [t]
+\begin{table} [!t]
 \centering
+%\begin{small}
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{c p{0.5cm} r l l p{1cm} r l l }
 \hline
@@ -192,10 +192,10 @@ stage of the cut event selection. Additionally, Figure \ref{fig:mmc_categories} 
 Sample 	&	& \multicolumn{3}{c}{b-tag category} 		   	 &	& \multicolumn{3}{c}{b-veto category} 		\\
 		&	&  N(event)	&	Stat.	&Syst. 	 & 	&  N(event)	&  Stat.& Syst.		\\ 
 \hline
-\Ztautau        &     	&       418  	&    $\pm$ 6	&$^{+27}_{-27}$  (7\%)	&       & 54680	& $\pm$ 60  &$^{+3500}_{-3500}$ (6\%)\\
-\ttbar          &       &       330   	&    $\pm$ 10	& $^{+37}_{-35}$ (11\%) &       & 2159	& $\pm$ 25  &$^{+280}_{-300}$ (14\%)\\ 
-Multijet        &       &       101	&    $\pm$ 15	& $^{+15}_{-15}$ (15\%) &       & 3930	& $\pm$ 330 &$^{+590}_{-590}$ (15\%)\\ 
-Other	 	&	&	114	&    $\pm $ 9	&$^{+12}_{-12}$ (11\%) 	&	& 4450	& $\pm$ 110 &$^{+250}_{-250}$ (6\%)\\
+\Ztautau        &     	&       418  	&    $\pm$ 6	&$^{+27}_{-27}$  	&       & 54680	& $\pm$ 60  &$^{+3500}_{-3500}$ \\
+\ttbar          &       &       330   	&    $\pm$ 10	& $^{+37}_{-35}$ &       & 2159	& $\pm$ 25  &$^{+280}_{-300}$ \\ 
+Multijet        &       &       101	&    $\pm$ 15	& $^{+15}_{-15}$  &       & 3930	& $\pm$ 330 &$^{+590}_{-590}$ \\ 
+Other	 	&	&	114	&    $\pm $ 9	&$^{+12}_{-12}$  	&	& 4450	& $\pm$ 110 &$^{+250}_{-250}$ \\
 Total           &       &       963     &    $\pm$ 21 	&$^{+50}_{-50}$        &       & 65220	& $\pm$ 360 &$^{+3600}_{-3600}$ \\
 \hline
 Signal  	&	&	144	&    $\pm$ 7	&$^{+24}_{-33}$		&	& 2028  & $\pm$ 27 & $^{+150}_{-100}$	\\
@@ -205,14 +205,14 @@ Data	        &	& -		& - 		& -		& 	&-	&-	&	-	\\
 \hline
 
 \end{tabular}
+%\end{small}
 \caption{Expected and observed number event yields in the b-tagged and b-vetoed event category after the full event 
 selections. The various background and signal expected event yields are normalized
-to the integrated luminosity of the data sample (20.3 $fb^{-1}$ ).
+to the integrated luminosity of the data sample (20.3 $fb^{-1}$).
  The notation ``Other'' stands 
 for the electroweak processes $\Wlnu$, $\Zll$, diboson and single top quark production.
 $\Ztautau$ has been estimated using the embedding technique. 
 The uncertainties quoted include the statistical uncertainty (first number) and the systematic uncertainties (second number).
-The numbers in parentheses indicate the systematic uncertainty in percent. 
 For the prediction of the MSSM Higgs bosons signal yield, $m_A =150$~GeV and $\tan\beta =20$
 is assumed in the $m_h^{mod}$ scenario. }
 \label{table:final_numbers}
@@ -264,7 +264,7 @@ is assumed in the $m_h^{mod}$ scenario. }
     \caption{ Observed and expected distribution of the \mmc mass for (left) the b-tagged event category and (right) the b-vetoed event category after
         the full event selections. The prediction of the  background model is compared to  data.
 	The contribution of the $\Ztautau$ and QCD multi-jet background processes is measured in  dedicated  signal-depleted control data samples,
-	the prediction for all the other bakground processes is obtained from simulation. 
+	the prediction for all the other background processes is obtained from simulation. 
  	 The notation ``Other'' stands 	for the electroweak processes $\Wlnu$, $\Zll$, diboson and single top quark production.
 	The prediction for the signal is evaluated considering the production of the three neutral MSSM Higgs bosons in association with b-quarks
 	and via the gluon fusion processes in the  $m_{H}^{mod}$ scenario for values of $m_A=150$ GeV and $\tan \beta =20$. 
@@ -280,12 +280,12 @@ The expected and observed exclusion limits at $95\%$ $CL_s$  confidence-level
 are shown as dashed and solid black lines respectively. The green 
 and yellow bands correspond to the $1\sigma$ and $2\sigma$ error bands on the expected exclusion limit. 
 The analysis is sensitive to the MSSM Higgs boson production for $\tan\beta \geq 13$ and the mass range $90<m_A<200$~GeV.
-The observed limit is presently unknown. %excludes a CP-odd Higgs with mass $m_A=$140GeV with $\tan\beta \gtrsim$XX.
+The observed limit is .... %excludes a CP-odd Higgs with mass $m_A=$140GeV with $\tan\beta \gtrsim$XX.
 
 
 \begin{figure}[tp]
   \centering
-  \includegraphics[width=0.65\textwidth]{figure/limits/Limits_mAtanBeta_Comb.pdf}
+  \includegraphics[width=0.8\textwidth]{figure/limits/comb_mit_thesi.pdf}
   \caption{Expected and observed  exclusion limits at the $95\%$ $CL_s$ confidence-level for MSSM Higgs bosons production 
    interpreted in the  $m_A - \tan\beta$ parameter space of the $m_h^{mod}$ scenario. 
 	Combined result of the  b-tagged and b-vetoed category is shown.}
@@ -302,10 +302,10 @@ More information on the limit setting procedure and its validation can be found 
 
 \begin{figure}[tp]
   \centering
-% \includegraphics[width=0.45\textwidth]{}
-% \includegraphics[width=0.45\textwidth]{}
+ \includegraphics[width=0.6\textwidth]{figure/limits/bbA_combined_thesi.pdf}
+ \includegraphics[width=0.6\textwidth]{figure/limits/ggA_comb_thesi.pdf}
   \caption{ Limits on the production of a scalar particle decaying to a di-tau pair
-    and produced     in association with b quarks (left) or   via gluon-gluon fusion (right). Still not produced...}
+    and produced     in association with b quarks (top) or   via gluon-gluon fusion (bottom).}
 \label{fig:limit_xs}
 \end{figure}
 
