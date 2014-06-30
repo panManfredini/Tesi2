@@ -1,26 +1,25 @@
 \newgeometry{left=5cm, right=4cm,bottom=4cm, top=4cm}
 \chapter{Reconstruction of Physics Object}\label{chap:obj} \vspace{1cm}
 
-ATLAS raw data, which stores the detectors signals of all the read-out channels, are rather 
-inconvenient for data analysis. Typically, those data undergo to several steps of reconstruction 
-before being ready for the analyzers use. Reconstruction software is hold within the 
-ATLAS reconstruction software framework ATHENA~\cite{Athena}. In this framework, physics observables
-reconstruction and particle identification are performed in an object orient fashion.
+The raw ATLAS  data, containing  detectors signals of all  read-out channels, need to
+ undergo  several reconstruction steps before they can be analyzed. Reconstruction software is developed 
+ within the object oriented ATLAS reconstruction software framework ATHENA~\cite{Athena}, which allow for reconstruction and 
+identification of various objects corresponding to physics particles traversing the detector.
 
-This chapter briefly describes the ATLAS strategies for physics object reconstruction used in chapter~\ref{chap:anal}.
+
+This chapter briefly describes the ATLAS reconstruction strategies for physics objects relevant for the 
+analysis of the neutal MSSM $A/h/H \rightarrow \tautau$ decay channel presented in this thesis.
 For a detailed overview of the ATLAS detector reconstruction software  see~\cite{AtlasCSCBook}. 
 
 \restoregeometry
 \clearpage
 
-\section{Tracks Reconstruction}
-The reconstruction of charged particles tracks and interaction vertex is based on Inner Detector
-information, which allows tracks reconstruction within $|\eta| < 2.5$. 
-Charged particle bends in the transverse plane due to the magnetic field of the Inner Detector and
-transverse momentum measure can be achieved. 
-A track is characterized by its momentum vector and two \emph{impact parameters}: $d_0$, which is the distance 
-of closest approach of the track to the interaction point in the $x-y$ projection and $z_0$,
-which is the $z$ coordinate of the track calculated at the same point.
+\section{Reconstruction of Charged Particle Tracks}
+The reconstruction of charged particles tracks and interaction vertices is based on the measurements in the inner detector,
+which allow for the reconstruction of tracks within the pseudorapidity range of $|\eta| < 2.5$. 
+A track is characterized by its four-momentum vector and two impact parameters: $d_0$, i.e.,  the distance 
+of closest approach between the track and the interaction point in the transverse plane and $z_0$, i.e.
+the $z$ coordinate of the track calculated at the same point. 
 
 Tracks are reconstructed  by the Inner Detector track reconstruction software~\cite{IDtracking}.
 First raw data from the pixel and SCT detectors are transformed in three dimensional space points 
