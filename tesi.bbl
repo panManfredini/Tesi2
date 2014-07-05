@@ -493,6 +493,10 @@ Event-Vertex Distribution Reconstructed in the ATLAS Detector at the LHC}, ATL-C
 \bibitem{electronAlgo}
 The ATLAS collaboration, \emph{Expected electron performance in the ATLAS experiment}, ATL-PHYS-PUB-2011-006
 
+\bibitem{TMVA}
+A. Hocker, P. Speckmayer, J. Stelzer, F. Tegenfeldt, and H. Voss, \emph{TMVA, toolkit for multivariate
+data analysis with ROOT}, CERN-2008-001 .
+
 \bibitem{eleEff}
 The ATLAS Collaboration, \emph{Electron reconstruction and identification efficiency measurements with the ATLAS detector using the 2011 LHC proton-proton collision data}, CERN-PH-EP-2014-040, arXiv:1404.2240
 
