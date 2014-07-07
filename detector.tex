@@ -2,16 +2,21 @@
 \chapter{The ATLAS Detector at the LHC}\label{chap:detector}
  \vspace{0.5cm}
 
-The Large Hadron Collider (LHC) located at the European Organization for Nuclear Research (CERN)
-is  the largest particle collider facility in the world. The ATLAS experiment is one of the several experiment situated 
-at the LHC, it is a general-purpose detector dedicated to explore a wide range of physics topics, from
-precision measurements of known Standard Model processes to the search for physics beyond the Standard Model. 
-Proton-proton collision data recorded by the ATLAS experiment  has been used in this thesis 
-for the search for the neutral MSSM Higgs bosons.
+The Large Hadron Collider (LHC) located at the European Organization for Nuclear Research (CERN) in Geveva, Swizerland,
+is  the largest particle collider facility in the world, colliding protons and heavy ions at so far largest centre-of-mass
+energies. The ATLAS experiment is one of the several experiments 
+at the LHC, taking data with a  general-purpose detector designed  to search for a a wide range of new 
+physics phenomena by means of precision measurements of known Standard Model processes and by 
+explicit search for new physics processes beyond the Standard Model. 
+Proton-proton collision data recorded by the ATLAS detector in 2012  has been used for 
+the search for the neutral MSSM Higgs bosons presented in this thesis.
 
 This chapter is organised as follows: the design and performance of the LHC  are summarised in 
-Section~\ref{sec:lhc} (based on Reference~\cite{LHC}),  while a description of the  ATLAS detector  is given 
-in Section~\ref{sec:atlas} (based on Reference~\cite{ATLASDetector}).
+Section~\ref{sec:lhc}~\cite{LHC} 
+%(based on Reference~\cite{LHC}),  while a 
+and  a brief description of the  ATLAS detector  is given 
+in Section~\ref{sec:atlas}~\cite{ATLASDetector}.
+% (based on Reference~\cite{ATLASDetector}).
 
 
 \restoregeometry
@@ -20,32 +25,36 @@ in Section~\ref{sec:atlas} (based on Reference~\cite{ATLASDetector}).
 
 
 \section{The Large Hadron Collider}\label{sec:lhc}
-The LHC is a superconducting hadron synchrotron  collider. It is  installed in the tunnel of the former LEP electron-positron collider
-and has $\sim 27$ km circumference.
-LHC is designed to collide proton beams with a centre-of-mass energy of 14 TeV and an unprecedented luminosity of 
-$10^{34} ~ cm^{-2} s^{-1}$. It can also collide heavy ions (lead) with an energy of 2.8 TeV per nucleon and 
-a peak luminosity of $10^{27} ~ cm^{-2} s^{-1}$. 
+The LHC is a superconducting hadron synchrotron  collider. It is  installed in the tunnel of the former Large Electron-Positron collider (LEP)
+with a circumference of about $27$~km.
+LHC is designed to collide proton beams at a nominal centre-of-mass energy of 14 TeV and an unprecedented peak luminosity of 
+$10^{34} ~ \text{cm}^{-2} \text{s}^{-1}$. It can also collide heavy ion (lead) beams carying  an energy of 2.8 TeV per nucleon and 
+a peak luminosity of $10^{27} ~ \text{cm}^{-2} \text{s}^{-1}$. 
 
-The LHC provides proton-proton collision for several experiments, the most relevant for the physics program  are the ATLAS, CMS~\cite{cms},
-LHCb~\cite{lhcb} and ALICE~\cite{alice} experiments. 
-Figure~\ref{fig:LHC} shows the layout of the CERN accelerator complex, the  protons follows several acceleration steps before injection in the LHC machine.
-First a linac accelerator ($Linac\,2$) accelerates the protons to an energy of 50~MeV, then they are injected in the \emph{booster} which accelerates them
-further to 1.4~GeV. The energy is increased to 25~GeV and successively to 450~GeV by means of two synchrotron accelerators, the \emph{Proton Synchrotron} (PS)
-and the \emph{Super Proton Synchrotron} (SPS). Finally, two proton beams are  injected with opposite direction into the LHC 
+Figure~\ref{fig:LHC} shows the layout of the CERN accelerator complex. The  protons undergo several acceleration steps before 
+their injection into the LHC machine.
+The a linac accelerator ($Linac\,2$) accelerates the protons to an energy of 50~MeV, after which
+they are injected into the \emph{booster} and further  accelerated
+to 1.4~GeV. The proton energy is increased to 25~GeV and successively to 450~GeV by means of two synchrotron accelerators, the \emph{Proton Synchrotron} (PS)
+and the \emph{Super Proton Synchrotron} (SPS). Finally, two proton beams are  injected in opposite directions into the LHC ring
 where they reach their final energy.
 
-The LHC beams are constituted by bunches of protons which are housed in two separate vacuum pipes. 
+The proton beams are  housed in two separate vacuum pipes and consist of up to 2835 proton bunches, each
+of them containing about $10^{11}$ protons. 
 Radiofrequency cavities are employed  to accelerate the protons,
-while superconducting magnets bends and focuses the bunches.
-The LHC is designed to accelerate up to 2835 bunches per beam, each of them containing $\sim 10^{11}$ protons.
-The nominal bunch spacing allows collision every 25~ns representing a real challenge for any read-out electronics.
+while superconducting magnets bend and focus the bunches.
+The nominal bunch spacing allows for bunch crossings  every 25~ns and represents a challenge for any detector read-out electronics.
 
-In 2010, fist collisions took place at the LHC between proton beams of energy of 3.5~TeV. The LHC was successfully in 
-operation during years 2011 and 2012, beam of protons were initially delivered with energies of 3.5~TeV  which was increased to 4~TeV in 2012.
-Peak luminosities of about $4\times10^{33} ~ cm^{-2}s^{-2}$ and $8\times10^{33} ~ cm^{-2}s^{-2}$  have been reached 
-during years 2011 and 2012 respectively. The ATLAS experiment recorded in fully operational conditions an integrated luminosity of 4.57~$fb^{-1}$ 
-during year 2011, while an integrated luminosity of 20.3~$fb^{-1}$ was recorded during year 2012.
-Data recordered during  these two years  led to one of the major milestone in particle physics, the discovery in 2012 of a Higgs boson.
+Fist proton-proton collisions took place at the LHC in 2010 at a centre-of-mass  energy of 7~TeV. 
+The LHC was successfully delivering data during  years 2011 and 2012, increasing the  centre-of-mass  energy to 8~TeV in 2012.
+Peak luminosities of about $4\times10^{33} ~ \text{cm}^{-2}\text{s}^{-2}$ and $8\times10^{33} ~ \text{cm}^{-2}\text{s}^{-2}$  have been reached 
+during years 2011 and 2012 respectively.
+The physics program of the LHC is driven by four major experiments which are ATLAS, CMS~\cite{cms},
+LHCb~\cite{lhcb} and ALICE~\cite{alice}. 
+The ATLAS experiment recorded proton-proton collision data corresponding to an integrated luminosity of 4.57~$\text{fb}^{-1}$ 
+during year 2011 and additional  20.3~$\text{fb}^{-1}$ during 2012.
+Data recordered during  these two years  led among others to one of the major milestones
+ in particle physics, the discovery of  a Higgs boson with a mass of about $\sim 126$~GeV.
 
 
 
@@ -58,8 +67,8 @@ Data recordered during  these two years  led to one of the major milestone in pa
 
     \end{center}
     \caption{Illustration of the CERN accelerator complex~\cite{lhcImage}. The acceleration of protons starts with Linac2 followed by the
-	acceleration in the Booster. The Proton Synchrotron (PS) and the Super Proton Synchrotron (SPS) accelerate further the protons before
-	final injection into the LHC  machine.}
+	acceleration in the Booster. The Proton Synchrotron (PS) and the Super Proton Synchrotron (SPS) accelerate the protons further  before
+	their final injection into the LHC  machine, where they acquire their final energy.}
 
 
    \label{fig:LHC}
@@ -67,13 +76,16 @@ Data recordered during  these two years  led to one of the major milestone in pa
 
 
 \section{The ATLAS Detector}\label{sec:atlas}
-The ATLAS detector is a multi-purpose detector which aim to explore a wide range of physics topics. The physics programme of the ATLAS experiment ranges from 
-precision measurements of known Standard Model processes to the search for physics beyond the Standard Model in a large variety of scenarios.
-The ATLAS detector is designed to satisfy the tight requirements on particle identification and measurements accuracy imposed by the physics goals.
-A schematic view of the ATLAS detector is shown in Figure~\ref{fig:atlas}. ATLAS is $44\,m$ long and $25\,m$ high, it has a typical design for a collider 
-experiments with a forward-backward symmetry with respect the interaction point. It consist of four sub-detector which are built cylindrically around the
-beam pipe, going from the inside to outside they are: an Inner Detector tracker, an electromagnetic calorimeter, an hadronic calorimeter and finally
-a muon spectrometer surrounds the whole experiment. Each of these sub-detector is briefly described in what follows based on  Reference~\cite{ATLASDetector}.
+The ATLAS detector is a multi-purpose detector aiming to explore a wide range of physics 
+phenomena at the Teraelectronvolt energy scales.
+The physics goals drive the detector design, imposing strong requirements on particle reconstruction and 
+ identification accuracy.
+A schematic view of the ATLAS detector is shown in Figure~\ref{fig:atlas}. 
+With its lenght of $44\,$m and its height of $25\,$m  is the largest detector at the LHC, it is centered around one of the LHC interaction points about
+100 under ground. It consist of four sub-detectors which are installed  cylindrically around the
+beam pipe, symmetrically in the forward and backward direction with respect to the proton beams.
+The innermost sub-detector is the inner detector (ID), followed by the electromagnetic calorimeter, the hadronic calorimeter and finally
+a muon spectrometer (MS) in the outermost layer. Each of these sub-detector is briefly described in what follows based on  Reference~\cite{ATLASDetector}.
 
 
 \begin{figure}[tp]
@@ -82,7 +94,7 @@ a muon spectrometer surrounds the whole experiment. Each of these sub-detector i
             \includegraphics[width=\textwidth]{figure/ATLAS.jpeg}
 
     \end{center}
-    \caption{Cut-away view of the ATLAS detector with its sub-detectors system.  Reference~\cite{ATLASDetector}.}
+    \caption{Cut-away view of the ATLAS detector with its sub-detectors~\cite{ATLASDetector}.}
 
 
 
