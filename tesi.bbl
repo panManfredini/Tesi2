@@ -272,6 +272,10 @@ experiment at the CERN LHC, CERN-LHCC-95-71, CERN, 1995,
 {The ATLAS} Collaboration, {\em Luminosity Determination in pp Collisions at
   $\sqrt s = 7$ TeV using the ATLAS Detector in 2011\/},  ATLAS-CONF-2011-116.
 
+\bibitem{lucid}
+The ATLAS Collaboration, {\em A Cherenkov Detector for Monitoring ATLAS Luminosity}, 
+ATL-LUM-PROC-2010-004.
+
 %\bibitem{MSSM1}
 %N.~P. Nilles, {\em {Supersymmetry, supergravity and particle physics}\/},
 %  Phys. Rep. {\bf 110} (1984)  1.
