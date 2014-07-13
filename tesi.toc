@@ -3,91 +3,91 @@
 \contentsline {section}{\numberline {2.1}The Standard Model of Particle Physics}{8}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Introduction}{8}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Precision Tests and Limitations of the SM}{9}{subsection.2.1.2}
-\contentsline {paragraph}{Hierarchy Problem}{10}{section*.2}
+\contentsline {paragraph}{Hierarchy Problem}{9}{section*.2}
 \contentsline {paragraph}{Dark Matter}{10}{section*.3}
 \contentsline {paragraph}{Unification Problem}{10}{section*.4}
-\contentsline {section}{\numberline {2.2}The Minimal Supersymmetric Standard Model}{11}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Introduction to the MSSM}{11}{subsection.2.2.1}
-\contentsline {subsubsection}{$R$-parity conservation}{13}{section*.5}
-\contentsline {subsubsection}{The Soft SUSY Breaking}{13}{section*.6}
-\contentsline {subsection}{\numberline {2.2.2}The Higgs Sector in the MSSM }{14}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Phenomenology of the Neutral MSSM Higgs Bosons}{15}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Couplings of the MSSM Higgs Bosons to SM Particles}{15}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}MSSM Benchmark Scenarios}{17}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Production and Decay of Neutral MSSM Higgs Bosons at LHC}{18}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Status of the Search for Neutral MSSM Higgs Bosons}{19}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.2}The Minimal Supersymmetric Standard Model}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Introduction to the MSSM}{10}{subsection.2.2.1}
+\contentsline {subsubsection}{$R$-parity conservation}{12}{section*.5}
+\contentsline {subsubsection}{The Soft SUSY Breaking}{12}{section*.6}
+\contentsline {subsection}{\numberline {2.2.2}The Higgs Sector in the MSSM }{13}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Phenomenology of the Neutral MSSM Higgs Bosons}{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Couplings of the MSSM Higgs Bosons to SM Particles}{14}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}MSSM Benchmark Scenarios}{15}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Production and Decay of Neutral MSSM Higgs Bosons at LHC}{17}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Status of the Search for Neutral MSSM Higgs Bosons}{18}{subsection.2.3.4}
 \contentsline {chapter}{\numberline {3}The ATLAS Detector at the LHC}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}The Large Hadron Collider}{26}{section.3.1}
-\contentsline {section}{\numberline {3.2}The ATLAS Detector}{28}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The ATLAS coordinate system}{29}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.2}The ATLAS Detector}{26}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The ATLAS coordinate system}{28}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}The Inner Detector}{29}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}The Calorimeter System}{31}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}The Muon Spectrometer}{33}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.3}The Calorimeter System}{30}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}The Muon Spectrometer}{32}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}The Trigger System}{33}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Luminosity Measurement}{34}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.6}Luminosity Measurement}{33}{subsection.3.2.6}
 \contentsline {chapter}{\numberline {4}Reconstruction of Physics Objects}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Reconstruction of Charged Particle Tracks}{36}{section.4.1}
 \contentsline {section}{\numberline {4.2}Vertex Reconstruction}{36}{section.4.2}
 \contentsline {section}{\numberline {4.3}Electron Reconstruction and Identification}{37}{section.4.3}
 \contentsline {section}{\numberline {4.4}Muon Reconstruction}{39}{section.4.4}
-\contentsline {section}{\numberline {4.5}Jet Reconstruction and Energy Calibration}{40}{section.4.5}
-\contentsline {paragraph}{Energy Calibration}{41}{section*.7}
-\contentsline {section}{\numberline {4.6}Identification of Jets from b-quarks}{42}{section.4.6}
-\contentsline {section}{\numberline {4.7}Tau-Jet Reconstruction}{44}{section.4.7}
-\contentsline {section}{\numberline {4.8}Missing Transverse Energy }{44}{section.4.8}
-\contentsline {section}{\numberline {4.9}Overlap Removal}{45}{section.4.9}
-\contentsline {section}{\numberline {4.10}Trigger}{45}{section.4.10}
-\contentsline {section}{\numberline {4.11}Truth Particles}{46}{section.4.11}
+\contentsline {section}{\numberline {4.5}Jet Reconstruction and Energy Calibration}{39}{section.4.5}
+\contentsline {paragraph}{Energy Calibration}{40}{section*.7}
+\contentsline {section}{\numberline {4.6}Identification of Jets from b-quarks}{41}{section.4.6}
+\contentsline {section}{\numberline {4.7}Tau-Jet Reconstruction}{43}{section.4.7}
+\contentsline {section}{\numberline {4.8}Missing Transverse Energy }{43}{section.4.8}
+\contentsline {section}{\numberline {4.9}Overlap Removal}{44}{section.4.9}
+\contentsline {section}{\numberline {4.10}Trigger}{44}{section.4.10}
+\contentsline {section}{\numberline {4.11}Truth Particles}{44}{section.4.11}
 \contentsline {chapter}{\numberline {5}Neutral MSSM Higgs Bosons Search}{47}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction }{49}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}The Higgs Sector in the MSSM}{49}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Signal and Background Processes}{51}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Analysis Strategy}{55}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Data and Simulated Event Samples}{56}{subsection.5.1.4}
-\contentsline {subsubsection}{Data Sample}{56}{section*.8}
-\contentsline {subsubsection}{Signal Samples}{56}{section*.9}
-\contentsline {subsubsection}{Background Samples}{57}{section*.10}
-\contentsline {section}{\numberline {5.2}Event Selection and Categorization}{57}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}The Common Selection Criteria}{57}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}b-vetoed Event Category}{59}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}b-tagged Event Category}{61}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Mass Reconstruction with MMC Technique}{62}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Background Prediction and Validation}{65}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Validation of the \ensuremath {t\mathaccentV {bar}016{t}}\xspace Background Prediction}{65}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Multi-jet Background Measurement}{67}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}$Z \rightarrow \tau \tau $ + Jets Background Measurement}{73}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Systematic Uncertainties}{78}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Detector-related Systematics Uncertainties}{79}{subsection.5.4.1}
-\contentsline {paragraph}{Luminosity}{80}{section*.11}
-\contentsline {paragraph}{Pileup}{80}{section*.12}
-\contentsline {paragraph}{Trigger Efficiency}{80}{section*.13}
-\contentsline {paragraph}{Electrons}{80}{section*.14}
-\contentsline {paragraph}{Muons}{81}{section*.15}
-\contentsline {paragraph}{Taus-Jets}{81}{section*.16}
-\contentsline {paragraph}{Jets}{81}{section*.17}
-\contentsline {paragraph}{b-Tagging}{81}{section*.18}
-\contentsline {paragraph}{Missing Transverse Energy}{82}{section*.19}
-\contentsline {subsection}{\numberline {5.4.2}Theoretical Uncertainties}{82}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Systematic Uncertainties of the \ensuremath {Z/\gamma ^*\rightarrow \tau \tau }\xspace Embedded Sample}{85}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}QCD Multi-Jet Systematic Uncertainties}{87}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Results}{89}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Statistical Procedure }{89}{subsection.5.5.1}
-\contentsline {subsubsection}{The Likelihood Function}{90}{section*.20}
-\contentsline {subsubsection}{Statistical Combination of Results From Two Event Categories}{91}{section*.21}
-\contentsline {subsubsection}{The Test Statistic and the Exclusion Limits}{92}{section*.22}
-\contentsline {subsection}{\numberline {5.5.2}Exclusion Limits on the Signal Production}{93}{subsection.5.5.2}
-\contentsline {chapter}{\numberline {6}Prospects For Higgs Search Improvements}{99}{chapter.6}
-\contentsline {section}{\numberline {6.1}Track-based Jets}{101}{section.6.1}
-\contentsline {section}{\numberline {6.2}Performance of the Track-based Jets}{103}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Track-based Jets Reconstruction}{103}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}B-tagging with Track-Based Jets}{105}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3} Employment of Track-jet for the MSSM Higgs Boson Search}{109}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Systematic Uncertainties of Track-jet Reconstruction}{111}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Material Budget Uncertainty on Track-Based Jets Reconstruction }{112}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Validation of the Track Subtraction Method}{113}{subsection.6.3.2}
-\contentsline {chapter}{\numberline {A}QCD Trigger bias}{135}{appendix.A}
-\contentsline {chapter}{\numberline {B}QCD Additional Plots}{137}{appendix.B}
-\contentsline {chapter}{\numberline {C}Limits cross checks and additional plots}{139}{appendix.C}
-\contentsline {section}{\numberline {C.1}The ABCD Method }{139}{section.C.1}
-\contentsline {section}{\numberline {C.2}Additional Limit Checks}{140}{section.C.2}
-\contentsline {section}{\numberline {C.3}Shape Systematics}{153}{section.C.3}
+\contentsline {section}{\numberline {5.1}Introduction }{48}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}The Higgs Sector in the MSSM}{48}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Signal and Background Processes}{50}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Analysis Strategy}{51}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Data and Simulated Event Samples}{54}{subsection.5.1.4}
+\contentsline {subsubsection}{Data Sample}{54}{section*.8}
+\contentsline {subsubsection}{Signal Samples}{54}{section*.9}
+\contentsline {subsubsection}{Background Samples}{54}{section*.10}
+\contentsline {section}{\numberline {5.2}Event Selection and Categorization}{55}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}The Common Selection Criteria}{55}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}b-Vetoed Event Category}{56}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}b-Tagged Event Category}{57}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Mass Reconstruction with the MMC Technique}{59}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Background Prediction and Validation}{62}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Validation of the \ensuremath {t\mathaccentV {bar}016{t}}\xspace Background Prediction}{62}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Multi-jet Background Measurement}{62}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}$Z \rightarrow \tau \tau $ + Jets Background Measurement}{72}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Systematic Uncertainties}{75}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Detector-related Systematics Uncertainties}{75}{subsection.5.4.1}
+\contentsline {paragraph}{Luminosity}{75}{section*.11}
+\contentsline {paragraph}{Pileup}{76}{section*.12}
+\contentsline {paragraph}{Trigger Efficiency}{76}{section*.13}
+\contentsline {paragraph}{Electrons}{76}{section*.14}
+\contentsline {paragraph}{Muons}{76}{section*.15}
+\contentsline {paragraph}{Taus-Jets}{77}{section*.16}
+\contentsline {paragraph}{Jets}{77}{section*.17}
+\contentsline {paragraph}{b-Tagging}{77}{section*.18}
+\contentsline {paragraph}{Missing Transverse Energy}{77}{section*.19}
+\contentsline {subsection}{\numberline {5.4.2}Theoretical Uncertainties}{80}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Systematic Uncertainties of the \ensuremath {Z/\gamma ^*\rightarrow \tau \tau }\xspace Embedded Sample}{81}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}QCD Multi-Jet Systematic Uncertainties}{83}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Results}{84}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Statistical Procedure }{84}{subsection.5.5.1}
+\contentsline {subsubsection}{The Likelihood Function}{84}{section*.20}
+\contentsline {subsubsection}{Statistical Combination of Results From Two Event Categories}{87}{section*.21}
+\contentsline {subsubsection}{The Test Statistic and the Exclusion Limits}{87}{section*.22}
+\contentsline {subsection}{\numberline {5.5.2}Exclusion Limits on the Signal Production}{88}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {6}Prospects For Higgs Search Improvements}{95}{chapter.6}
+\contentsline {section}{\numberline {6.1}Track-based Jets}{96}{section.6.1}
+\contentsline {section}{\numberline {6.2}Performance of the Track-based Jets}{98}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Track-based Jets Reconstruction}{98}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}B-tagging with Track-Based Jets}{99}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3} Employment of Track-jet for the MSSM Higgs Boson Search}{103}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Systematic Uncertainties of Track-jet Reconstruction}{106}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Material Budget Uncertainty on Track-Based Jets Reconstruction }{106}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Validation of the Track Subtraction Method}{107}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {A}QCD Trigger bias}{129}{appendix.A}
+\contentsline {chapter}{\numberline {B}QCD Additional Plots}{131}{appendix.B}
+\contentsline {chapter}{\numberline {C}Limits cross checks and additional plots}{133}{appendix.C}
+\contentsline {section}{\numberline {C.1}The ABCD Method }{133}{section.C.1}
+\contentsline {section}{\numberline {C.2}Additional Limit Checks}{134}{section.C.2}
+\contentsline {section}{\numberline {C.3}Shape Systematics}{147}{section.C.3}
