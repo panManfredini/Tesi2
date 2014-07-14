@@ -53,41 +53,41 @@
 \contentsline {subsection}{\numberline {5.2.3}b-Tagged Event Category}{57}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Mass Reconstruction with the MMC Technique}{59}{subsection.5.2.4}
 \contentsline {section}{\numberline {5.3}Background Prediction and Validation}{62}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Validation of the \ensuremath {t\mathaccentV {bar}016{t}}\xspace Background Prediction}{62}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Multi-jet Background Measurement}{62}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}$Z \rightarrow \tau \tau $ + Jets Background Measurement}{72}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Systematic Uncertainties}{75}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Detector-related Systematics Uncertainties}{75}{subsection.5.4.1}
-\contentsline {paragraph}{Luminosity}{75}{section*.11}
-\contentsline {paragraph}{Pileup}{76}{section*.12}
-\contentsline {paragraph}{Trigger Efficiency}{76}{section*.13}
-\contentsline {paragraph}{Electrons}{76}{section*.14}
-\contentsline {paragraph}{Muons}{76}{section*.15}
-\contentsline {paragraph}{Taus-Jets}{77}{section*.16}
-\contentsline {paragraph}{Jets}{77}{section*.17}
-\contentsline {paragraph}{b-Tagging}{77}{section*.18}
-\contentsline {paragraph}{Missing Transverse Energy}{77}{section*.19}
-\contentsline {subsection}{\numberline {5.4.2}Theoretical Uncertainties}{80}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Systematic Uncertainties of the \ensuremath {Z/\gamma ^*\rightarrow \tau \tau }\xspace Embedded Sample}{81}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}QCD Multi-Jet Systematic Uncertainties}{83}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Results}{84}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Statistical Procedure }{84}{subsection.5.5.1}
-\contentsline {subsubsection}{The Likelihood Function}{84}{section*.20}
-\contentsline {subsubsection}{Statistical Combination of Results From Two Event Categories}{87}{section*.21}
-\contentsline {subsubsection}{The Test Statistic and the Exclusion Limits}{87}{section*.22}
-\contentsline {subsection}{\numberline {5.5.2}Exclusion Limits on the Signal Production}{88}{subsection.5.5.2}
-\contentsline {chapter}{\numberline {6}Prospects For Higgs Search Improvements}{95}{chapter.6}
-\contentsline {section}{\numberline {6.1}Track-based Jets}{96}{section.6.1}
-\contentsline {section}{\numberline {6.2}Performance of the Track-based Jets}{98}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Track-based Jets Reconstruction}{98}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}B-tagging with Track-Based Jets}{99}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3} Employment of Track-jet for the MSSM Higgs Boson Search}{103}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Systematic Uncertainties of Track-jet Reconstruction}{106}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Material Budget Uncertainty on Track-Based Jets Reconstruction }{106}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Validation of the Track Subtraction Method}{107}{subsection.6.3.2}
-\contentsline {chapter}{\numberline {A}QCD Trigger bias}{129}{appendix.A}
-\contentsline {chapter}{\numberline {B}QCD Additional Plots}{131}{appendix.B}
-\contentsline {chapter}{\numberline {C}Limits cross checks and additional plots}{133}{appendix.C}
-\contentsline {section}{\numberline {C.1}The ABCD Method }{133}{section.C.1}
-\contentsline {section}{\numberline {C.2}Additional Limit Checks}{134}{section.C.2}
-\contentsline {section}{\numberline {C.3}Shape Systematics}{147}{section.C.3}
+\contentsline {subsection}{\numberline {5.3.1}Validation of the \ensuremath {t\mathaccentV {bar}016{t}}\xspace Background Simulation}{62}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Measurement of Multi-jet Background}{62}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}$Z \rightarrow \tau \tau $ + Jets Background Measurement}{69}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Systematic Uncertainties}{73}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Detector-related Systematics Uncertainties}{74}{subsection.5.4.1}
+\contentsline {paragraph}{Luminosity}{74}{section*.11}
+\contentsline {paragraph}{Pileup}{74}{section*.12}
+\contentsline {paragraph}{Trigger Efficiency}{75}{section*.13}
+\contentsline {paragraph}{Electrons}{75}{section*.14}
+\contentsline {paragraph}{Muons}{75}{section*.15}
+\contentsline {paragraph}{Taus-Jets}{75}{section*.16}
+\contentsline {paragraph}{Jets}{76}{section*.17}
+\contentsline {paragraph}{b-Tagging}{76}{section*.18}
+\contentsline {paragraph}{Missing Transverse Energy}{76}{section*.19}
+\contentsline {subsection}{\numberline {5.4.2}Theoretical Uncertainties}{76}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Systematic Uncertainties of the \ensuremath {Z/\gamma ^*\rightarrow \tau \tau }\xspace Embedded Sample}{80}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}QCD Multi-Jet Systematic Uncertainties}{81}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Results}{83}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Statistical Procedure }{83}{subsection.5.5.1}
+\contentsline {subsubsection}{The Likelihood Function}{83}{section*.20}
+\contentsline {subsubsection}{Statistical Combination of Results From Two Event Categories}{85}{section*.21}
+\contentsline {subsubsection}{The Test Statistic and the Exclusion Limits}{85}{section*.22}
+\contentsline {subsection}{\numberline {5.5.2}Exclusion Limits on the Signal Production}{87}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {6}Prospects For Higgs Search Improvements}{93}{chapter.6}
+\contentsline {section}{\numberline {6.1}Track-based Jets}{94}{section.6.1}
+\contentsline {section}{\numberline {6.2}Performance of the Track-based Jets}{96}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Track-based Jets Reconstruction}{96}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}B-tagging with Track-Based Jets}{97}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3} Employment of Track-jet for the MSSM Higgs Boson Search}{101}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Systematic Uncertainties of Track-jet Reconstruction}{104}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Material Budget Uncertainty on Track-Based Jets Reconstruction }{104}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Validation of the Track Subtraction Method}{105}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {A}QCD Trigger bias}{127}{appendix.A}
+\contentsline {chapter}{\numberline {B}QCD Additional Plots}{129}{appendix.B}
+\contentsline {chapter}{\numberline {C}Limits cross checks and additional plots}{131}{appendix.C}
+\contentsline {section}{\numberline {C.1}The ABCD Method }{131}{section.C.1}
+\contentsline {section}{\numberline {C.2}Additional Limit Checks}{132}{section.C.2}
+\contentsline {section}{\numberline {C.3}Shape Systematics}{145}{section.C.3}

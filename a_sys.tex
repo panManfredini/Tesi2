@@ -1,47 +1,44 @@
 \section{Systematic Uncertainties}
 \label{sec:Systematics}
 
-This section describes a number of sources of systematic uncertainties
-that are relevant for the presented  analysis. To account for differences in the observed and simulated 
-detector response a set of corrections is applied at the level of object reconstruction  
-and at event level as described in chapter~\ref{chap:obj}. 
-The uncertainties due to such corrections are referred to as detector-related systematic 
-uncertainties and are addressed in section~\ref{sec:sys:sys_det}. 
-For all processes whose contributions are predicted from simulation, also theory-related
-systematic uncertainties need to be accounted for. These include uncertainties on the cross-section and
- on the acceptance of events after the given analysis selection criteria and 
-are  described in section~\ref{sec:sys_theory}$\,.$
-Further systematic uncertainties related to the background measurements with dedicated control data 
+In this section the systematic uncertainties for the measurement of this thesis are discussed.
+To account for differences in the actual and simulated detector response, corrections are applied at the level of
+object reconstruction  and of event selection as described in Chapter~\ref{chap:obj}. 
+The detector-related systematic uncertainties due to these corrections are addressed in Section~\ref{sec:sys:sys_det}. 
+For all processes whose contributions are predicted by simulation, also theoretical
+uncertainties related to cross-section calculation and to the acceptance of the selection criteria 
+have been taken into account as  described in section~\ref{sec:sys_theory}$\,.$
+The Systematic uncertainties due to  background measurements using dedicated control data samples
 are described in Sections~\ref{sec:embsys} and~\ref{sec:qcdsys}$\,.$
 
-Each source of systematic uncertainty can contribute separately to the uncertainty on the
-final event yield and on the shape of the $\mmc$
-distribution which is used as final discriminating variable in the statistical interpretation of data. Systematic uncertainties
-that affect the shape of the mass distribution are
-documented in appendix~\ref{appendix:shapeNPs}. Uncertainty on the \mmc shape distribution 
-are found to be negligible for all except the embedded sample, for which significant 
-deviation from the nominal distribution are found in the b-vetoed category only. 
-Systematic uncertainties that do not affect the
+Each source of systematic uncertainty can contribute separately to the uncertainties in the
+final event yield and in the shape of the $\mmc$
+distribution which is used as final discriminating variable in the statistical interpretation of the data. Systematic uncertainties
+affecting the shape of the mass distribution are
+documented in Appendix~\ref{appendix:shapeNPs}. Uncertainties in the shape of the \mmc  distribution 
+are found to be significant only for the embedded sample in the b-vetoed category,
+for all other  backgrounds these uncertainties are found to be negligible.
+Systematic uncertainties which do not affect the
 shape of the mass distribution and have an impact on the event yield of less than 0.5\% for each process are 
 neglected.
 %hey in fact do not have any significant effect on the final expected limits.
 
 
-\subsection{Detector-related Systematics Uncertainties}
+\subsection{Detector-Related Systematic Uncertainties}
 \label{sec:sys:sys_det}
 Systematic uncertainties related to object reconstruction and event-by-event 
-corrections are based on the calibration measurements of the relevant parameter. Each 
-of those parameters correspond to a nuisance parameter in the probability model used for the  statistical interpretation
-as described in Section~\ref{sec:result}.
+corrections are derived from the calibration measurements of the relevant parameters. These 
+parameters correspond to a nuisance parameter in the probability model used for the  statistical interpretation
+of the data as described in Section~\ref{sec:result}.
 Each parameter is varied independently by one standard deviation  according to its measured
-uncertainty. The corresponding impact on the  yield of simulated events is evaluated for each signal and background sample.
-In the following, detector-related uncertainty are  described in more details.
-Tables~\ref{tab:ExpSys:btag} and~\ref{tab:ExpSys:bveto} briefly summarize the impact of these uncertainties on the 
-predicted sample yields. 
+uncertainty, the impact on the event  yield is evaluated for each simulated signal and background sample.
+In the following the detector-related uncertainties are  described in more detail.
+Tables~\ref{tab:ExpSys:bveto} and~\ref{tab:ExpSys:btag}  summarize the systematic uncertainties in the 
+predicted event yields. 
 
 
 \paragraph{Luminosity}
-The integrated luminosity of the 8 TeV data recorded with the ATLAS detector during 2012 is measured 
+The integrated luminosity recordered during 2012 by the ATLAS detector at centre-of-mass energy of 8~TeV is measured 
 to be $20.3 ~ fb^{-1}$ \cite{luminosity} with an uncertainty  of  2.8\%.
 
 \paragraph{Pileup}
@@ -52,31 +49,30 @@ Those event weights have an uncertainty which is propagated to each simulated sa
 %value in MC is first scaled by a factor of $1.11 \pm 0.03$ before re-weighting to match data. The uncertainty
 %on this value is taken as a systematic uncertainty for the analysis.
 
-\paragraph{Trigger Efficiency}
-is corrected in simulation to match (on the average) the one observed in data. Those correction weights 
-are evaluated as a function of $\pt$ and $\eta$ of the corresponding leptons and have associated uncertainties. 
-Systematic uncertainties on both the single electron and electron-muon trigger efficiency are taken into account 
-independently and range approximately from 1-2\%.
+\paragraph{The Trigger Efficiency}
+is corrected in simulation to match on  average the one observed in data. The correction weights and their uncertainties 
+are evaluated as a function of $\pt$ and $\eta$ of the leptons. 
+Systematic uncertainties in the single-electron and the electron-plus-muon trigger efficiencies are taken into account 
+independently and are in the range of 1-2\%.
 
-In the embedded $\Ztt$ sample, the trigger is emulated by applying weights  according to  the event
-topology. Those weights are related to the ones described above
-and have similar uncertainties. Trigger efficiency uncertainty for the embedded sample 
- are considered uncorrelated with those of other samples.
+For the embedded $\Ztt$ sample, the trigger is emulated by applying weights  depending on the  $\pt$ and $\eta$ of the leptons. 
+These weights  have similar uncertainties as the ones described above. Trigger efficiency uncertainties for the embedded sample 
+ are considered uncorrelated with the ones of other samples.
 
 \paragraph{Electrons}
-Two sources of uncertainty on reconstructed electron objects are considered:
+Two sources of uncertainty in the electron reconstruction are considered:
 the first  related to electron identification and reconstruction efficiencies ("Electron ID") which range approximately from 1-2\%
 depending on the transverse momentum of the electron, 
-the second related to electron energy scale  and resolution corrections, both raging from 0.3-3\% depending on $\eta$. 
-The energy scale uncertainties are described by a set of six different nuisance parameters~\cite{eleEnergy}.
-However, only a few of them give a non-negligible contribution to the analysis. Two of them are found
-to affect the shape of the \mmc distribution and are considered independently: uncertainty
-arising from the electron  momentum measurement with $Z \rightarrow ee$ data ("Electron Zee") 
-and the one related to low momentum electrons ("Electron LOWPT"). 
-All other uncertainties related to energy scale and resolution are summed in quadrature ("Electron E").
+the second related to electron energy scale  and resolution, both in the range of 0.3-3\% depending on the pseudorapidity of the electron. 
+The energy scale uncertainties are described by six nuisance parameters~\cite{eleEnergy}.
+Only a few of them gives a non-negligible contribution to the systematic error. Two of them 
+affect the shape of the \mmc distribution and are considered independently: one is relatd to the electron  
+momentum measurement from  $Z \rightarrow ee$ data ("Electron Zee") 
+and the other related to the reconstruction of low momentum electrons ("Electron LOWPT"). 
+All other uncertainties related to energy scale and resolution are combined quadratically ("Electron E").
 
 \paragraph{Muons}
-The uncertainty on muon identification efficiency depends on the charge and momentum of the muon.
+The uncertainty in muon identification efficiency depends on the charge and momentum of the muon.
 Typically these uncertainties are of the order of a fraction of percent, and are referred as "Muon ID". 
 The uncertainties on the muon energy scale and resolution are considered independently for the inner detector 
 and muon spectrometer measurements and are hen  added in quadrature to estimate the final uncertainty ("Muon E").
