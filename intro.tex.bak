@@ -1,0 +1,76 @@
+\chapter{Introduction}
+
+ 
+The Standard Model (SM) of particle physics is a theory that describes at quantum level the interacion 
+between matter and radiation, it is a very predictive  theoretical framework and 
+has been largely confirmed by experimets.  The description of the interaction
+between the elementary constituent of matter (spin 1/2 fermions) via the electromagnetic, weak and strong interaction
+is mediated by gauge (spin 1) bosons and based on the principle of local gauge invariance.
+To introduce the mass for all these  particles without spoiling the electroweak symmetry of the theory
+a mechanism of spontaneus symmetry breacking is necessary, this is achieved by introducing 
+an additional complex scalar field, the Higgs field, which breaks the symmetry and
+give rise, in addition to the particles masses, to a new scalar particle, the Higgs boson.
+
+The recent discovery at the  Large Hadron Collider (LHC) of a new boson of mass
+of about 125~GeV by the ATLAS and CMS experiments~\cite{AHiggsO,CHiggsO} is in agreement with the 
+SM prediction for the Higgs boson.
+The most recent measurements  of its properties~\cite{ASpin0,ACouplings,CFermions,CWidth} shows 
+that they are fully compatible with the SM Higgs boson. However, it remains an open question
+whether this new particle is the only missing piece of the electroweak symmetry breaking
+sector or whether it is one of several Higgs bosons predicted in  theories 
+that go beyond the SM.  Among  them, supersymmetry is a theoretically favoured model
+since it offer an elegant way to solve several of the current theoretical limitations of the SM.
+The minimal supersymmetric extension of the SM (MSSM) predicts the existence
+of five Higgs bosons, two of them neutral and CP-even $h$ and $H$, one neutral CP-odd $A$ and two charged $H^{\pm}$.
+This thesis present a search for the neutral MSSM Higgs bosons performed with proton-proton collision data recordered by the ATLAS
+experiment at the LHC. Chapter~\ref{chap:theory} of this thesis 
+is devoed to introduce the Minimal Supersymmetric extension of the Standard Model, focusing 
+in particular on its Higgs sector, with a description of the expected neutral MSSM Higgs bosons
+phenomenology.
+
+
+The search presented in this thesis is based on 20.3 $\text{fb}^{-1}$ of proton-proton collision data at 
+a centre-of-mass energy of $\sqrt{s} = 8$~TeV recordered by the ATLAS experimet.
+The latter is one of the several experiments
+at the LHC, taking data with a  multi-purpose detector designed  to search for  a wide range of new 
+physics phenomena and to perform  precision measurements of known Standard Model processes.
+The ATLAS detector consist of four sub-detectors which are installed  cylindrically around the
+beam pipe, symmetrically in the forward and backward direction with respect to the proton beams.
+The innermost sub-detector is the inner detector, followed by the electromagnetic calorimeter, the hadronic calorimeter and finally
+a muon spectrometer in the outermost layer.
+An overview of the ATLAS experiment and of the Large Hadron Collider complex is given in Chapter~\ref{chap:detector}. 
+
+The data recordered by the ATLAS experiment need to undergo several steps of offline reconstruction 
+before being ready for analysis, the physics object reconstruction and quality criteria used in this thesis are described in 
+Chapter~\ref{chap:obj}.
+
+The main topic of this thesis is the search for the neutral MSSM Higgs bosons decaying into pairs of tau leptons,
+each subsequently decaying into an electron or muon and two neutrinos.
+This final state correspond to 6\% of the total branching fraction of a di-tau leptons system decays. 
+In spite the  limited branching fraction, this final state has a competitive sensitivity with the other channels, especially
+for low Higgs boson mass.
+The search is performed for the two most significant production modes, gluon fusion and in association with
+b-quarks. The  selected events are categorised into two mutually exclusive categories based on the presence
+and on the absence of b-tagged jets in the final state.
+The search for the neutral MSSM higgs boson is presented in Chapter~\ref{chap:anal}.
+
+The Higgs bosons produced in association with b-quark is carachterized by the presence of relatively low-transverse momentum
+jets (originating from b-quarks), the reconstruction and calibration of calorimeter jets for such a low transverse momentum 
+suffers strongly of pile-up effects. This is one of the main reason for sensitivity loss of this search in the category that 
+requires a b-tagged jet. An alternative approach would be to use the so-called track-based jets reconstruction, 
+which relies only on identified inner detector tracks for the jet reconstruction.  The measure of inner detector tracks
+is very precise and is possible to associate them with the corresponding interaction vertex,  
+this feature makes track-based jets more robust against pile-up effects than calorimeter-based jets. 
+A study on the prospect for enhancing the sensitivity of the neutral MSSM 
+higgs boson search  by using track-based jet is presented in Chapter~\ref{chap:trackjet}.
+
+
+
+
+
+
+
+
+
+
+

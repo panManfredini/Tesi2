@@ -1,5 +1,9 @@
 
-\documentclass[12pt,a4paper,twoside]{book}
+%\documentclass[12pt,a4paper,twoside]{book}
+\documentclass[BCOR=20mm,DIV=15,fontsize=12pt,parskip=half,twoside,headsepline,headinclude,captions=nooneline,bibliography=totoc,listof=totoc,english]{scrbook}
+
+\setkomafont{sectioning}{\normalfont\bfseries}
+
 \usepackage{subfigure}
 \usepackage{amsmath}
 \usepackage{mathrsfs}
@@ -23,6 +27,19 @@
 %\usepackage{graphicx}
 %\usepackage{caption}
 %\usepackage{subcaption}
+\usepackage[titletoc]{appendix}
+\usepackage{fancyhdr}
+%\pagestyle { empty }
+
+\newenvironment{abstract}%
+%{\cleardoublepage \null \vfill \begin{center}%
+{ \begin{center}%
+\bfseries Abstract \end{center}}%
+{\vfill\null}
+\newenvironment{ackno}%
+{\cleardoublepage \null \vfill \begin{center}%
+\bfseries Acknowledgements \end{center}}%
+{\vfill\null}
 
 % \usepackage{feynarts} 
 \listfiles
@@ -92,9 +109,8 @@
 \def\mHp{\ensuremath{M_{H^\pm}}}
 \def\ifb{\ensuremath{fb^{-1}} }
 
-\linespread{1.1}
+\linespread{1.4}
 \begin{document}
-\tableofcontents
 
 %\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -140,6 +156,17 @@
 %%
 %%
 %%
+\newcommand{\submissiondate}{...}
+\newcommand{\confirmationdate}{...}
+
+\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+
+
+\input{titlepage_tum}
+
+\input{abstract}
+
+\tableofcontents
 
 \input{intro}
 
@@ -159,9 +186,9 @@
 %trackjets
 \input{trackjet}
 
+\input{conclusions}
 
-
-%\section{Acknowledgements}
+\input{akno}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bibliography
@@ -174,12 +201,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newpage
-\appendix
+\begin{appendices}
+%\appendix
 \input{appendix_qcd}
 \input{appendix_limit}
 
 %\input{appendix_additional}
 \input{appendix_shapeNPs}
+\end{appendices}
 
 %\input{appendix_mcuncertainties}
 %%\input{appendix_OSSS}

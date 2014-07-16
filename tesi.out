@@ -48,14 +48,14 @@
 \BOOKMARK [2][-]{subsection.5.3.2}{Measurement of Multi-jet Background}{section.5.3}
 \BOOKMARK [2][-]{subsection.5.3.3}{Z \040+ Jets Background Measurement}{section.5.3}
 \BOOKMARK [1][-]{section.5.4}{Systematic Uncertainties}{chapter.5}
-\BOOKMARK [2][-]{subsection.5.4.1}{Detector-related Systematics Uncertainties}{section.5.4}
+\BOOKMARK [2][-]{subsection.5.4.1}{Detector-Related Systematic Uncertainties}{section.5.4}
 \BOOKMARK [2][-]{subsection.5.4.2}{Theoretical Uncertainties}{section.5.4}
-\BOOKMARK [2][-]{subsection.5.4.3}{Systematic Uncertainties of the Z/* Embedded Sample}{section.5.4}
+\BOOKMARK [2][-]{subsection.5.4.3}{Systematic Uncertainties of Z/* Embedded Sample}{section.5.4}
 \BOOKMARK [2][-]{subsection.5.4.4}{QCD Multi-Jet Systematic Uncertainties}{section.5.4}
 \BOOKMARK [1][-]{section.5.5}{Results}{chapter.5}
 \BOOKMARK [2][-]{subsection.5.5.1}{Statistical Procedure }{section.5.5}
 \BOOKMARK [2][-]{subsection.5.5.2}{Exclusion Limits on the Signal Production}{section.5.5}
-\BOOKMARK [0][-]{chapter.6}{Prospects For Higgs Search Improvements}{}
+\BOOKMARK [0][-]{chapter.6}{Prospects for Improved Higgs Search with b-tagging of Track-Jet}{}
 \BOOKMARK [1][-]{section.6.1}{Track-based Jets}{chapter.6}
 \BOOKMARK [1][-]{section.6.2}{Performance of the Track-based Jets}{chapter.6}
 \BOOKMARK [2][-]{subsection.6.2.1}{Track-based Jets Reconstruction}{section.6.2}
@@ -64,9 +64,12 @@
 \BOOKMARK [1][-]{section.6.3}{Systematic Uncertainties of Track-jet Reconstruction}{chapter.6}
 \BOOKMARK [2][-]{subsection.6.3.1}{Material Budget Uncertainty on Track-Based Jets Reconstruction }{section.6.3}
 \BOOKMARK [2][-]{subsection.6.3.2}{Validation of the Track Subtraction Method}{section.6.3}
-\BOOKMARK [0][-]{appendix.A}{QCD Trigger bias}{}
-\BOOKMARK [0][-]{appendix.B}{QCD Additional Plots}{}
-\BOOKMARK [0][-]{appendix.C}{Limits cross checks and additional plots}{}
-\BOOKMARK [1][-]{section.C.1}{The ABCD Method }{appendix.C}
-\BOOKMARK [1][-]{section.C.2}{Additional Limit Checks}{appendix.C}
-\BOOKMARK [1][-]{section.C.3}{Shape Systematics}{appendix.C}
+\BOOKMARK [0][-]{chapter.7}{Summary and Conclusions}{}
+\BOOKMARK [0][-]{section*.23}{Acknowledgments}{}
+\BOOKMARK [0][-]{chapter*.24}{Bibliography}{}
+\BOOKMARK [0][-]{Appendix.1.A}{Appendix QCD Trigger bias}{}
+\BOOKMARK [0][-]{Appendix.1.B}{Appendix QCD Additional Plots}{}
+\BOOKMARK [0][-]{Appendix.1.C}{Appendix Limits cross checks and additional plots}{}
+\BOOKMARK [1][-]{section.1.C.1}{The ABCD Method }{Appendix.1.C}
+\BOOKMARK [1][-]{section.1.C.2}{Additional Limit Checks}{Appendix.1.C}
+\BOOKMARK [1][-]{section.1.C.3}{Shape Systematics}{Appendix.1.C}

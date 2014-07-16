@@ -1,0 +1,62 @@
+\thispagestyle{empty}
+\newgeometry{left=3.7cm, right=3.7cm,bottom=4cm ,top=2cm}
+\begin{abstract}
+\begin{small}
+Two studies with the ATLAS experiment  at the Large Hadron Collider (LHC)  have been performed in this thesis: 
+the search for the neutral MSSM Higgs bosons and an investigation on the prospect for enhancing the sensitivity of this search by using track-based jet
+in alternative to the canonical calorimeter-based jet reconstruction.
+
+The search for the neutral MSSM Higgs bosons $A$, $h$ and $H$ has been performed using LHC proton-proton collision data at a centre-of-mass energy
+of 8~TeV corresponding to an integrated luminosity of 20.3$\,\text{fb}^{-1}$. The search focuses on the Higgs boson decays
+into a pair of $\tau$ leptons which subsequently decays via  $\tau^+ \tau^- \rightarrow e \mu +4\nu$.
+The decay into $\tau$ leptons pair has the highest sensitivity for this search.
+The search is performed for the two most significant production modes, gluon fusion and the production in association with b-quarks. 
+To enhance the signal sensitivity,  the  selected events are categorised into two mutually exclusive categories based on the presence
+and on the absence of b-tagged jets in the final state, which are separately optimized for the 
+two production modes.
+The results are interpreted in terms of the  MSSM $m_h^{mod}$ benchmark scenario as a function of the free parameter 
+ $m_A$ and $\tan\beta$. No significant excess of event above the estimated Standard Model background has been found, 
+upper exclusion limits are derived in the $m_A - \tan\beta$ plane for the $m_h^{mod}$ benchmark scenario where values of $\tan\beta \apprge 10$ are excluded 
+for the mass range $90 < m_A < 200$,%something on limits
+the highest local p-value
+is observed in the mass rage $250< m_A <300$~GeV and corresponds to $1.9\,\sigma$.
+In addition, less model-dependent exclusion limits are derived on the cross section for 
+the production of a generic Higgs boson $\phi$ with  mass  $m_\phi$ via the  processes $pp \rightarrow b\bar{b}\phi$ and $gg \rightarrow \phi$.
+
+
+The neutral MSSM Higgs bosons produced in association with b-quark are characterised by the presence of relatively low-transverse momentum
+jets (originating from b-quarks), the reconstruction and calibration of calorimeter jets for such a low transverse momentum 
+suffers strongly of pile-up effects.  An alternative approach employing track-based jet b-tagging is investigated.
+For jets with low transverse momentum the track-based jet provides a higher
+b-hadron reconstruction efficiency than calorimeter-besed  jets and are more suitable  for
+low $\pt$ b-tagging. The sensitivity to the neutral MSSM Higgs boson produced in association with b-quarks can be improved 
+up to a factor two if track-based jet reconstruction is employed instead of the canonical calorimeter based one.
+
+
+%This is one of the main reason for sensitivity loss of this search in the category that 
+%requires a b-tagged jet. An alternative approach would be to use the so-called track-based jets reconstruction, 
+%which relies only on identified inner detector tracks for the jet reconstruction.  The measure of inner detector tracks
+%is very precise and is possible to associate them with the corresponding interaction vertex,  
+%this feature makes track-based jets more robust against pile-up effects than calorimeter-based jets. 
+%A study on the prospect for enhancing the sensitivity of the neutral MSSM 
+%An alternative b-jet identification procedure in which the b-tagging algorithm is applied on 
+%track-based jets instead on canonical calorimeter jets has been studied in this thesis.
+%The calorimeter jets are reconstructed
+%from the energy clusters in the calorimeter, while the track-based jets consist of inner detector tracks,
+%the precise track information makes the latter considerably more robust to pile-up effects.
+%The performance of the b-tagging algorithms on track-based jets is investigated for the first time.
+%Systematic uncertainties on track-based jet reconstruction are also studied: one of the major systematic
+%uncertainty arises from the mismodelling in simulation of the inner detector material (ID)  budget.
+%A novel technique for addressing the ID material budget systematic uncertainty in track-jets energy scale and 
+%reconstruction efficiency has been developed. For low transverse momentum track-jets uncertainty due to 
+%material budget mismodelling in the energy scale is estimated to range from 2\% to 4\% depending on track-jet momentum and number of 
+%associated tracks.
+%It was shown that for jets with low transverse momentum the track-jets provide a higher
+%b-hadron reconstruction efficiency than calorimeter jets and are more suitable  for
+%low $\pt$ b-tagging. The sensitivity to the neutral MSSM Higgs boson produced in association with b-quarks can be improved 
+% up to a factor two if track-jet reconstruction is applied instead of calorimeter based one.
+%However, to exploit the full power of this technique a dedicated calibration of the 
+%b-tagging algorithms is  needed for  track-based jets. 
+\end{small}
+\end{abstract}
+\restoregeometry

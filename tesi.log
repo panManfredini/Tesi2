@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  14 JUL 2014 17:10
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  16 JUL 2014 18:18
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -12,47 +12,115 @@ skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
 orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
 , estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
 rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
-(/usr/share/texmf-texlive/tex/latex/base/book.cls
-Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/bk12.clo
-File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2009/07/24 v3.04a KOMA-Script document class (book)
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
 )
-\c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2009/03/25 v3.03 KOMA-Script package (loading files)
+
+Package scrlfile, 2009/03/25 v3.03 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/share/texmf-texlive/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2009/06/08 v3.03b KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 117.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 118.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 119.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 1272.
+
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2009/07/24 v3.04a KOMA-Script font size class option (12p
+t)
+)
+(/usr/share/texmf-texlive/tex/latex/koma-script/typearea.sty
+Package: typearea 2009/07/24 v3.04a KOMA-Script package (type area)
+
+Package typearea, 2009/07/24 v3.04a KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 15
+(typearea)             BCOR = 56.9055pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 432.48195pt
+(typearea)              DIV departure   = -2%
+(typearea)              \evensidemargin = -0.18967pt
+(typearea)              \oddsidemargin  = 20.67567pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 650.0pt
+(typearea)              \topmargin      = -15.93353pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1115.
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count87
+\c@table=\count88
 \bibindent=\dimen102
 )
-(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Class scrbook Info: You've told me to redefine the font selection of the
+(scrbook)           element `sectioning' that is an alias of element
+(scrbook)           `disposition' on input line 5.
+ (/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip43
-\subfigcapskip=\skip44
+\subfigtopskip=\skip47
+\subfigcapskip=\skip48
 \subfigcaptopadj=\dimen103
-\subfigbottomskip=\skip45
+\subfigbottomskip=\skip49
 \subfigcapmargin=\dimen104
-\subfiglabelskip=\skip46
-\c@subfigure=\count88
-\c@lofdepth=\count89
-\c@subtable=\count90
-\c@lotdepth=\count91
+\subfiglabelskip=\skip50
+\c@subfigure=\count89
+\c@lofdepth=\count90
+\c@subtable=\count91
+\c@lotdepth=\count92
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip47
-\subfig@bottom=\skip48
+\subfig@top=\skip51
+\subfig@bottom=\skip52
 )
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip49
+\@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
@@ -60,7 +128,7 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks14
+\@emptytoks=\toks15
 \ex@=\dimen105
 ))
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
@@ -70,41 +138,41 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count92
+\inf@bad=\count93
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count93
-\leftroot@=\count94
+\uproot@=\count94
+\leftroot@=\count95
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count95
-\DOTSCASE@=\count96
+\classnum@=\count96
+\DOTSCASE@=\count97
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
+\Mathstrutbox@=\box27
+\strutbox@=\box28
 \big@size=\dimen107
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
 \dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
-\tag@help=\toks15
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
-\andhelp@=\toks16
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks16
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks17
 \eqnshift@=\dimen108
 \alignsep@=\dimen109
 \tagshift@=\dimen110
 \tagwidth@=\dimen111
 \totwidth@=\dimen112
 \lineht@=\dimen113
-\@envbody=\toks17
-\multlinegap=\skip50
-\multlinetaggap=\skip51
-\mathdisplay@stack=\toks18
+\@envbody=\toks18
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
@@ -120,29 +188,29 @@ LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 )
 (/usr/share/texmf-texlive/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count104
-\output=\toks19
-\linenoprevgraf=\count105
+\linenopenalty=\count105
+\output=\toks20
+\linenoprevgraf=\count106
 \linenumbersep=\dimen114
 \linenumberwidth=\dimen115
-\c@linenumber=\count106
-\c@pagewiselinenumber=\count107
-\c@LN@truepage=\count108
-\c@internallinenumber=\count109
-\c@internallinenumbers=\count110
+\c@linenumber=\count107
+\c@pagewiselinenumber=\count108
+\c@LN@truepage=\count109
+\c@internallinenumber=\count110
+\c@internallinenumbers=\count111
 \quotelinenumbersep=\dimen116
 \bframerule=\dimen117
 \bframesep=\dimen118
-\bframebox=\box28
+\bframebox=\box29
 LaTeX Info: Redefining \\ on input line 3056.
 )
 (/usr/share/texmf-texlive/tex/latex/preprint/authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip52
-\@affilsep=\skip53
-\c@Maxaffil=\count111
-\c@authors=\count112
-\c@affil=\count113
+\affilsep=\skip56
+\@affilsep=\skip57
+\c@Maxaffil=\count112
+\c@authors=\count113
+\c@affil=\count114
 )
 (/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
@@ -150,10 +218,6 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks20
-)
 (/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -167,7 +231,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count114
+\Gread@gobject=\count115
 ))
 \Gin@req@height=\dimen119
 \Gin@req@width=\dimen120
@@ -175,10 +239,10 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count115
-\rotFPtop=\skip54
-\rotFPbot=\skip55
-\rot@float@box=\box29
+\c@r@tfl@t=\count116
+\rotFPtop=\skip58
+\rotFPbot=\skip59
+\rot@float@box=\box30
 \rot@mess@toks=\toks21
 )
 (/usr/share/texmf-texlive/tex/latex/rotfloat/rotfloat.sty
@@ -186,11 +250,11 @@ Package: rotfloat 2004/01/04 v1.2 Combining float+rotating package (AS)
 
 (/usr/share/texmf-texlive/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count116
+\c@float@type=\count117
 \float@exts=\toks22
-\float@box=\box30
+\float@box=\box31
 \@float@everytoks=\toks23
-\@floatcapt=\box31
+\@floatcapt=\box32
 )
 Package rotfloat Info: float package v1.3 detected on input line 74.
 )
@@ -222,8 +286,8 @@ O)
 Package: xcolor-patch 2009/10/02 xcolor patch
 ))
 \@linkdim=\dimen122
-\Hy@linkcounter=\count117
-\Hy@pagecounter=\count118
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
@@ -288,7 +352,7 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )))
-\Fld@menulength=\count119
+\Fld@menulength=\count120
 \Field@Width=\dimen123
 \Fld@charsize=\dimen124
 \Field@toks=\toks24
@@ -303,21 +367,21 @@ Package hyperref Info: PDF/A mode OFF on input line 4407.
 (/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count120
-\c@Item=\count121
-\c@Hfootnote=\count122
+\Hy@abspage=\count121
+\c@Item=\count122
+\c@Hfootnote=\count123
 )
 *hyperref using default driver hpdftex*
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count123
+\Fld@listcount=\count124
 )
 (/usr/share/texmf-texlive/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2009/05/18 v2.2 Customized lists
 \enit@toks=\toks25
-\labelindent=\skip56
+\labelindent=\skip60
 \enit@outerparindent=\dimen125
-\enitdp@desc=\count124
+\enitdp@desc=\count125
 )
 (/usr/share/texmf-texlive/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 285.
@@ -325,9 +389,9 @@ LaTeX Info: Redefining \nocite on input line 356.
 Package: cite 2009/08/29  v 5.2
 ) (./geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count125
-\Gm@cntv=\count126
-\c@Gm@tempcnt=\count127
+\Gm@cnth=\count126
+\Gm@cntv=\count127
+\c@Gm@tempcnt=\count128
 \Gm@bindingoffset=\dimen126
 \Gm@wd@mp=\dimen127
 \Gm@odd@mp=\dimen128
@@ -338,7 +402,24 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen133
 \Gm@dimlist=\toks26
 
-(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg)) (./tesi.aux
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+(/usr/share/texmf-texlive/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count129
+\c@@ppsavesec=\count130
+\c@@ppsaveapp=\count131
+)
+(/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip61
+\f@ncyO@elh=\skip62
+\f@ncyO@erh=\skip63
+\f@ncyO@olh=\skip64
+\f@ncyO@orh=\skip65
+\f@ncyO@elf=\skip66
+\f@ncyO@erf=\skip67
+\f@ncyO@olf=\skip68
+\f@ncyO@orf=\skip69
+) (./tesi.aux
 
 LaTeX Warning: Label `fig:limit_extract_combined3' multiply defined.
 
@@ -351,74 +432,74 @@ LaTeX Warning: Label `sub@fig:mmc' multiply defined.
 )
 \openout1 = `tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
+\scratchcounter=\count132
 \scratchdimen=\dimen134
-\scratchbox=\box32
-\nofMPsegments=\count129
-\nofMParguments=\count130
+\scratchbox=\box33
+\nofMPsegments=\count133
+\nofMParguments=\count134
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count131
+\MPscratchCnt=\count135
 \MPscratchDim=\dimen135
-\MPnumerator=\count132
+\MPnumerator=\count136
 \everyMPtoPDFconversion=\toks28
 )
-Package hyperref Info: Link coloring OFF on input line 96.
+Package hyperref Info: Link coloring OFF on input line 113.
  (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count133
+\c@section@level=\count137
 )
-LaTeX Info: Redefining \ref on input line 96.
-LaTeX Info: Redefining \pageref on input line 96.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
  (./tesi.out)
 (./tesi.out)
 \@outlinefile=\write3
 \openout3 = `tesi.out'.
 
-\AtBeginShipoutBox=\box33
+\AtBeginShipoutBox=\box34
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=591.5302pt
+* h-part:(L,W,R)=(71.70166pt, 418.25372pt, 107.55255pt)
+* v-part:(T,H,B)=(101.40665pt, 591.53027pt, 152.11002pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=418.25372pt
+* \textheight=591.53027pt
 * \oddsidemargin=-0.56833pt
-* \evensidemargin=35.28255pt
-* \topmargin=-2.73714pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
+* \evensidemargin=35.28256pt
+* \topmargin=-10.73834pt
+* \headheight=18.125pt
+* \headsep=21.75pt
 * \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
+* \footskip=50.75pt
+* \marginparwidth=54.06024pt
+* \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -430,48 +511,88 @@ LaTeX Info: Redefining \pageref on input line 96.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./tesi.toc
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
- (/usr/share/texmf-texlive/tex/latex/jknapltx/ursfs.fd
+(./titlepage_tum.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(91.04872pt, 423.9464pt, 82.51282pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23593pt, 56.9055pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=423.9464pt
+* \textheight=731.23593pt
+* \oddsidemargin=18.77873pt
+* \evensidemargin=10.24283pt
+* \topmargin=-55.23949pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=54.06024pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<logos/TUMLogo_oZ_Outline_blau_CMYK.pdf, id=303, 54.2025pt x 29.10875pt>
+File: logos/TUMLogo_oZ_Outline_blau_CMYK.pdf Graphic file (type pdf)
+
+<use logos/TUMLogo_oZ_Outline_blau_CMYK.pdf>
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 17.
+
+(/usr/share/texmf-texlive/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 3.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 17.
 
 (/usr/share/texmf-texlive/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
-) [1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+[1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2])
-\tf@toc=\write4
-\openout4 = `tesi.toc'.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logos/TUMLogo_oZ_Outline
+_blau_CMYK.pdf>] [2
 
- (./intro.tex [3] [4
 
-]
-Chapter 1.
-[5]) (./t_intro.tex [6]
+
+]) (./abstract.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(128.0374pt, 341.43307pt, 128.0374pt)
-* v-part:(T,H,B)=(113.81102pt, 617.4248pt, 113.81102pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=341.43307pt
-* \textheight=617.4248pt
-* \oddsidemargin=55.76741pt
-* \evensidemargin=55.76741pt
-* \topmargin=9.66724pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
+* h-part:(L,W,R)=(105.2751pt, 386.95773pt, 105.2751pt)
+* v-part:(T,H,B)=(56.9055pt, 674.33041pt, 113.81102pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=386.95773pt
+* \textheight=674.33041pt
+* \oddsidemargin=33.00511pt
+* \evensidemargin=33.00511pt
+* \topmargin=-55.23949pt
+* \headheight=18.125pt
+* \headsep=21.75pt
 * \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
+* \footskip=50.75pt
+* \marginparwidth=54.06024pt
+* \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -483,162 +604,340 @@ Chapter 1.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+ [3
 
+]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[4]) (./tesi.toc
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 1.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 2.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 19.
+ [5
+
+
+
+]
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 28.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 41.
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[6]
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 79.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 88.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 90.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 91.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 92.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 93.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 94.
+)
+\tf@toc=\write4
+\openout4 = `tesi.toc'.
+
+ (./intro.tex
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[7]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[8]
+Chapter 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              You should use the features of package `tocbasic'
+(scrbook)              instead of \float@addtolists.
+(scrbook)              Support for \float@addtolists may be removed from
+(scrbook)              `scrbook' soon .
+
+[9
+
+
+]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[10]) (./t_intro.tex
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[11]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(128.0374pt, 341.43314pt, 128.0374pt)
+* v-part:(T,H,B)=(113.81102pt, 617.4249pt, 113.81102pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=341.43314pt
+* \textheight=617.4249pt
+* \oddsidemargin=55.76741pt
+* \evensidemargin=55.76741pt
+* \topmargin=1.66603pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=54.06024pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [12
+
+
+
+]
 Chapter 2.
-[7
+[13]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
 
-] [8
+[14
 
 
-] [9]
-Overfull \hbox (17.4441pt too wide) in paragraph at lines 139--139
-[]\OT1/cmr/bx/n/17.28 The Min-i-mal Su-per-sym-met-ric Stan-dard Model 
- []
+]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
-[10]
-Underfull \vbox (badness 6063) has occurred while \output is active []
 
- [11]
-[12] [13]
-<feyn_diagrams/diagrams/couplingHVV.pdf, id=545, 107.40125pt x 119.44624pt>
+[15]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[16]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[17]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[18]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[19]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[20]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[21]
+<feyn_diagrams/diagrams/couplingHVV.pdf, id=598, 107.40125pt x 119.44624pt>
 File: feyn_diagrams/diagrams/couplingHVV.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/couplingHVV.pdf>
-<feyn_diagrams/diagrams/couplingVHH.pdf, id=546, 109.40875pt x 120.45pt>
+<feyn_diagrams/diagrams/couplingVHH.pdf, id=599, 109.40875pt x 120.45pt>
 File: feyn_diagrams/diagrams/couplingVHH.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/couplingVHH.pdf>
-<feyn_diagrams/diagrams/couplingVVHH.pdf, id=547, 146.5475pt x 105.39375pt>
+<feyn_diagrams/diagrams/couplingVVHH.pdf, id=600, 146.5475pt x 105.39375pt>
 File: feyn_diagrams/diagrams/couplingVVHH.pdf Graphic file (type pdf)
 
-<use feyn_diagrams/diagrams/couplingVVHH.pdf> [14 <./feyn_diagrams/diagrams/cou
-plingHVV.pdf> <./feyn_diagrams/diagrams/couplingVHH.pdf> <./feyn_diagrams/diagr
-ams/couplingVVHH.pdf>]
-Overfull \hbox (9.93509pt too wide) in paragraph at lines 324--324
+<use feyn_diagrams/diagrams/couplingVVHH.pdf>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[22]
+Overfull \hbox (21.68492pt too wide) in paragraph at lines 324--324
 [] 
  []
 
-[15] [16]
-Overfull \hbox (10.02252pt too wide) in paragraph at lines 376--376
-[]\OT1/cmr/bx/n/14.4 Production and De-cay of Neu-tral MSSM Higgs Bosons
- []
 
-<feyn_diagrams/diagrams/bbA.pdf, id=624, 182.6825pt x 163.61125pt>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[23 <./feyn_diagrams/diagrams/couplingHVV.pdf> <./feyn_diagrams/diagrams/coupli
+ngVHH.pdf> <./feyn_diagrams/diagrams/couplingVVHH.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[24]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[25]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[26] <feyn_diagrams/diagrams/bbA.pdf, id=683, 182.6825pt x 163.61125pt>
 File: feyn_diagrams/diagrams/bbA.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/bbA.pdf>
-<feyn_diagrams/diagrams/bbA2.pdf, id=625, 173.64874pt x 147.55125pt>
+<feyn_diagrams/diagrams/bbA2.pdf, id=684, 173.64874pt x 147.55125pt>
 File: feyn_diagrams/diagrams/bbA2.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/bbA2.pdf>
-<feyn_diagrams/diagrams/bbA3.pdf, id=626, 182.6825pt x 111.41624pt>
+<feyn_diagrams/diagrams/bbA3.pdf, id=685, 182.6825pt x 111.41624pt>
 File: feyn_diagrams/diagrams/bbA3.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/bbA3.pdf>
-<feyn_diagrams/diagrams/ggH.pdf, id=627, 183.68625pt x 130.4875pt>
+<feyn_diagrams/diagrams/ggH.pdf, id=686, 183.68625pt x 130.4875pt>
 File: feyn_diagrams/diagrams/ggH.pdf Graphic file (type pdf)
 
-<use feyn_diagrams/diagrams/ggH.pdf> [17]
-<figure/Xsec/YRHXS_MSSM_neutral_fig6a.pdf, id=636, 569.12625pt x 546.04pt>
+<use feyn_diagrams/diagrams/ggH.pdf>
+<figure/Xsec/YRHXS_MSSM_neutral_fig6a.pdf, id=687, 569.12625pt x 546.04pt>
 File: figure/Xsec/YRHXS_MSSM_neutral_fig6a.pdf Graphic file (type pdf)
 
 <use figure/Xsec/YRHXS_MSSM_neutral_fig6a.pdf>
-<figure/Xsec/YRHXS_MSSM_neutral_fig6b.pdf, id=637, 569.12625pt x 546.04pt>
+<figure/Xsec/YRHXS_MSSM_neutral_fig6b.pdf, id=688, 569.12625pt x 546.04pt>
 File: figure/Xsec/YRHXS_MSSM_neutral_fig6b.pdf Graphic file (type pdf)
 
 <use figure/Xsec/YRHXS_MSSM_neutral_fig6b.pdf>
 
-LaTeX Warning: Float too large for page by 26.1034pt on input line 446.
+LaTeX Warning: Float too large for page by 56.81902pt on input line 446.
 
-<figure/BR_higgs/YRHXS3_BR_fig35.pdf, id=640, 570.13pt x 521.95pt>
+<figure/BR_higgs/YRHXS3_BR_fig35.pdf, id=690, 570.13pt x 521.95pt>
 File: figure/BR_higgs/YRHXS3_BR_fig35.pdf Graphic file (type pdf)
 
 <use figure/BR_higgs/YRHXS3_BR_fig35.pdf>
-<figure/BR_higgs/YRHXS3_BR_fig36.pdf, id=641, 570.13pt x 521.95pt>
+<figure/BR_higgs/YRHXS3_BR_fig36.pdf, id=691, 570.13pt x 521.95pt>
 File: figure/BR_higgs/YRHXS3_BR_fig36.pdf Graphic file (type pdf)
 
 <use figure/BR_higgs/YRHXS3_BR_fig36.pdf>
-<figure/BR_higgs/YRHXS3_BR_fig31.pdf, id=642, 569.12625pt x 521.95pt>
+<figure/BR_higgs/YRHXS3_BR_fig31.pdf, id=692, 569.12625pt x 521.95pt>
 File: figure/BR_higgs/YRHXS3_BR_fig31.pdf Graphic file (type pdf)
 
 <use figure/BR_higgs/YRHXS3_BR_fig31.pdf>
-<figure/BR_higgs/YRHXS3_BR_fig32.pdf, id=643, 569.12625pt x 521.95pt>
+<figure/BR_higgs/YRHXS3_BR_fig32.pdf, id=693, 569.12625pt x 521.95pt>
 File: figure/BR_higgs/YRHXS3_BR_fig32.pdf Graphic file (type pdf)
 
 <use figure/BR_higgs/YRHXS3_BR_fig32.pdf>
-<figure/BR_higgs/YRHXS3_BR_fig37.pdf, id=644, 569.12625pt x 521.95pt>
+<figure/BR_higgs/YRHXS3_BR_fig37.pdf, id=694, 569.12625pt x 521.95pt>
 File: figure/BR_higgs/YRHXS3_BR_fig37.pdf Graphic file (type pdf)
 
 <use figure/BR_higgs/YRHXS3_BR_fig37.pdf>
-<figure/BR_higgs/YRHXS3_BR_fig38.pdf, id=645, 569.12625pt x 521.95pt>
+<figure/BR_higgs/YRHXS3_BR_fig38.pdf, id=695, 569.12625pt x 521.95pt>
 File: figure/BR_higgs/YRHXS3_BR_fig38.pdf Graphic file (type pdf)
 
 <use figure/BR_higgs/YRHXS3_BR_fig38.pdf>
 
-LaTeX Warning: Float too large for page by 9.24954pt on input line 464.
+LaTeX Warning: Float too large for page by 40.99689pt on input line 464.
 
-<figure/limits/constraintAtlas.pdf, id=652, 569.12625pt x 387.4475pt>
+
+Underfull \vbox (badness 7186) has occurred while \output is active []
+
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[27 <./feyn_diagrams/diagrams/bbA.pdf> <./feyn_diagrams/diagrams/bbA2.pdf> <./f
+eyn_diagrams/diagrams/bbA3.pdf> <./feyn_diagrams/diagrams/ggH.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[28 <./figure/Xsec/YRHXS_MSSM_neutral_fig6a.pdf> <./figure/Xsec/YRHXS_MSSM_neut
+ral_fig6b.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[29 <./figure/BR_higgs/YRHXS3_BR_fig35.pdf> <./figure/BR_higgs/YRHXS3_BR_fig36.
+pdf> <./figure/BR_higgs/YRHXS3_BR_fig31.pdf> <./figure/BR_higgs/YRHXS3_BR_fig32
+.pdf> <./figure/BR_higgs/YRHXS3_BR_fig37.pdf> <./figure/BR_higgs/YRHXS3_BR_fig3
+8.pdf>] <figure/limits/constraintAtlas.pdf, id=826, 569.12625pt x 387.4475pt>
 File: figure/limits/constraintAtlas.pdf Graphic file (type pdf)
 
 <use figure/limits/constraintAtlas.pdf>
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no à in font cmr12!
 Missing character: There is no í in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
 
-<figure/paper/limit_comb_2d_mhmodp.pdf, id=656, 569.12625pt x 552.0625pt>
+<figure/paper/limit_comb_2d_mhmodp.pdf, id=829, 569.12625pt x 552.0625pt>
 File: figure/paper/limit_comb_2d_mhmodp.pdf Graphic file (type pdf)
 
 <use figure/paper/limit_comb_2d_mhmodp.pdf>
-<figure/paper/limit_comb_2d_mhmodm.pdf, id=657, 569.12625pt x 552.0625pt>
+<figure/paper/limit_comb_2d_mhmodm.pdf, id=830, 569.12625pt x 552.0625pt>
 File: figure/paper/limit_comb_2d_mhmodm.pdf Graphic file (type pdf)
 
 <use figure/paper/limit_comb_2d_mhmodm.pdf>
-<figure/paper/limit_comb_2d_lightstau.pdf, id=658, 569.12625pt x 552.0625pt>
+<figure/paper/limit_comb_2d_lightstau.pdf, id=831, 569.12625pt x 552.0625pt>
 File: figure/paper/limit_comb_2d_lightstau.pdf Graphic file (type pdf)
 
 <use figure/paper/limit_comb_2d_lightstau.pdf>
-<figure/paper/limit_comb_2d_lightstop.pdf, id=659, 569.12625pt x 552.0625pt>
+<figure/paper/limit_comb_2d_lightstop.pdf, id=832, 569.12625pt x 552.0625pt>
 File: figure/paper/limit_comb_2d_lightstop.pdf Graphic file (type pdf)
 
-<use figure/paper/limit_comb_2d_lightstop.pdf> [18 <./feyn_diagrams/diagrams/bb
-A.pdf> <./feyn_diagrams/diagrams/bbA2.pdf> <./feyn_diagrams/diagrams/bbA3.pdf> 
-<./feyn_diagrams/diagrams/ggH.pdf>] [19 <./figure/Xsec/YRHXS_MSSM_neutral_fig6a
-.pdf> <./figure/Xsec/YRHXS_MSSM_neutral_fig6b.pdf>] [20 <./figure/BR_higgs/YRHX
-S3_BR_fig35.pdf> <./figure/BR_higgs/YRHXS3_BR_fig36.pdf> <./figure/BR_higgs/YRH
-XS3_BR_fig31.pdf> <./figure/BR_higgs/YRHXS3_BR_fig32.pdf> <./figure/BR_higgs/YR
-HXS3_BR_fig37.pdf> <./figure/BR_higgs/YRHXS3_BR_fig38.pdf>] [21 <./figure/limit
-s/constraintAtlas.pdf>]
+<use figure/paper/limit_comb_2d_lightstop.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./detector.tex [22] [23 <./figure/paper/limit_comb_2d_mhmodp.pdf> <./figure/
-paper/limit_comb_2d_mhmodm.pdf> <./figure/paper/limit_comb_2d_lightstau.pdf> <.
-/figure/paper/limit_comb_2d_lightstop.pdf>]
+) (./detector.tex
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[30]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[31 <./figure/limits/constraintAtlas.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[32 <./figure/paper/limit_comb_2d_mhmodp.pdf> <./figure/paper/limit_comb_2d_mhm
+odm.pdf> <./figure/paper/limit_comb_2d_lightstau.pdf> <./figure/paper/limit_com
+b_2d_lightstop.pdf>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(128.0374pt, 341.43307pt, 128.0374pt)
-* v-part:(T,H,B)=(113.81102pt, 617.4248pt, 113.81102pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=341.43307pt
-* \textheight=617.4248pt
+* h-part:(L,W,R)=(128.0374pt, 341.43314pt, 128.0374pt)
+* v-part:(T,H,B)=(113.81102pt, 617.4249pt, 113.81102pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=341.43314pt
+* \textheight=617.4249pt
 * \oddsidemargin=55.76741pt
 * \evensidemargin=55.76741pt
-* \topmargin=9.66724pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
+* \topmargin=1.66603pt
+* \headheight=18.125pt
+* \headsep=21.75pt
 * \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
+* \footskip=50.75pt
+* \marginparwidth=54.06024pt
+* \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -650,66 +949,99 @@ paper/limit_comb_2d_mhmodm.pdf> <./figure/paper/limit_comb_2d_lightstau.pdf> <.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [24
+
+Chapter 3.
+[33
+
 
 
 ]
-Chapter 3.
-[25] <figure/LHC2.jpg, id=894, 486.618pt x 490.4724pt>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[34
+
+
+] <figure/LHC2.jpg, id=948, 486.618pt x 490.4724pt>
 File: figure/LHC2.jpg Graphic file (type jpg)
  <use figure/LHC2.jpg>
-[26
-
-
-] [27 <./figure/LHC2.jpg>]
-<figure/ATLAS.jpeg, id=912, 810.52812pt x 520.94624pt>
+<figure/ATLAS.jpeg, id=952, 810.52812pt x 520.94624pt>
 File: figure/ATLAS.jpeg Graphic file (type jpg)
  <use figure/ATLAS.jpeg>
-[28 <./figure/ATLAS.jpeg>]
-<figure/Inner_detector.jpg, id=919, 803.0pt x 602.25pt>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[35]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[36 <./figure/LHC2.jpg>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[37 <./figure/ATLAS.jpeg>]
+<figure/Inner_detector.jpg, id=969, 803.0pt x 602.25pt>
 File: figure/Inner_detector.jpg Graphic file (type jpg)
 
-<use figure/Inner_detector.jpg> [29]
-Overfull \hbox (5.58638pt too wide) in paragraph at lines 155--159
-[]\OT1/cmr/m/n/12 The out-er-most in-ner de-tec-tor mod-ule is the Tran-si-tion
- Ra-di-a-tion Tracker (TRT).
- []
+<use figure/Inner_detector.jpg>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
-<figure/Calo.png, id=929, 1150.2975pt x 758.835pt>
+
+[38] <figure/Calo.png, id=979, 1150.2975pt x 758.835pt>
 File: figure/Calo.png Graphic file (type png)
  <use figure/Calo.png>
-[30 <./figure/Inner_detector.jpg>]
-Overfull \hbox (6.72534pt too wide) in paragraph at lines 216--230
-[]\OT1/cmr/m/n/12 The hadronic calorime-ter has a coarser gran-u-lar-ity with r
-e-spect the EM calorime-
- []
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
-<figure/muonSpec.png, id=938, 1303.11844pt x 981.6675pt>
+
+[39 <./figure/Inner_detector.jpg>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[40 <./figure/Calo.png (PNG copy)>]
+<figure/muonSpec.png, id=992, 1303.11844pt x 981.6675pt>
 File: figure/muonSpec.png Graphic file (type png)
 
-<use figure/muonSpec.png> [31 <./figure/Calo.png (PNG copy)>] [32 <./figure/muo
-nSpec.png (PNG copy)>] [33]) (./obj_reconstruction.tex [34]
+<use figure/muonSpec.png>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[42 <./figure/muonSpec.png (PNG copy)>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[43]) (./obj_reconstruction.tex
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[44]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(119.50148pt, 367.04083pt, 110.96556pt)
-* v-part:(T,H,B)=(101.40665pt, 629.82918pt, 113.81102pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=367.04083pt
-* \textheight=629.82918pt
+* h-part:(L,W,R)=(119.50148pt, 367.0409pt, 110.96556pt)
+* v-part:(T,H,B)=(101.40665pt, 629.82927pt, 113.81102pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=367.0409pt
+* \textheight=629.82927pt
 * \oddsidemargin=47.23149pt
 * \evensidemargin=38.69557pt
-* \topmargin=-2.73714pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
+* \topmargin=-10.73834pt
+* \headheight=18.125pt
+* \headsep=21.75pt
 * \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
+* \footskip=50.75pt
+* \marginparwidth=54.06024pt
+* \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -723,58 +1055,106 @@ nSpec.png (PNG copy)>] [33]) (./obj_reconstruction.tex [34]
 
 
 Chapter 4.
-[35
+[45
 
-
-]
-Overfull \hbox (3.6975pt too wide) in paragraph at lines 26--39
-[]\OT1/cmr/m/n/12 Tracks are re-con-structed by the in-ner de-tec-tor track re-
-con-struc-tion soft-ware [[]95[]].
- []
-
-[36
 
 
 ]
+Underfull \vbox (badness 5359) has occurred while \output is active []
+
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[46
+
+
+]
+Underfull \vbox (badness 5359) has occurred while \output is active []
+
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[47]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 82.
  (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
- [37] [38] [39]
-[40] [41] <figure/obj/btag_perf.pdf, id=1053, 552.0625pt x 521.95pt>
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[48]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[49]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[50]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[51]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[52]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[53] <figure/obj/btag_perf.pdf, id=1115, 552.0625pt x 521.95pt>
 File: figure/obj/btag_perf.pdf Graphic file (type pdf)
 
 <use figure/obj/btag_perf.pdf>
-Underfull \vbox (badness 3514) has occurred while \output is active []
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
- [42 <./figure/obj/btag_perf.pdf>]
-Underfull \vbox (badness 2334) has occurred while \output is active []
 
- [43]
-[44]) (./a_strategy.tex [45]
+[54 <./figure/obj/btag_perf.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[55]
+Underfull \vbox (badness 2189) has occurred while \output is active []
+
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[56]) (./a_strategy.tex
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[57]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[58]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(105.2751pt, 386.95767pt, 105.2751pt)
-* v-part:(T,H,B)=(56.9055pt, 674.33032pt, 113.81102pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=386.95767pt
-* \textheight=674.33032pt
+* h-part:(L,W,R)=(105.2751pt, 386.95773pt, 105.2751pt)
+* v-part:(T,H,B)=(56.9055pt, 674.33041pt, 113.81102pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=386.95773pt
+* \textheight=674.33041pt
 * \oddsidemargin=33.00511pt
 * \evensidemargin=33.00511pt
-* \topmargin=-47.23828pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
+* \topmargin=-55.23949pt
+* \headheight=18.125pt
+* \headsep=21.75pt
 * \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
+* \footskip=50.75pt
+* \marginparwidth=54.06024pt
+* \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -786,120 +1166,185 @@ Underfull \vbox (badness 2334) has occurred while \output is active []
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [46
+
+Chapter 5.
+[59
+
 
 
 ]
-Chapter 5.
-[47] <figure/mh_mod.png, id=1125, 630.10406pt x 535.2497pt>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[60] <figure/mh_mod.png, id=1189, 630.10406pt x 535.2497pt>
 File: figure/mh_mod.png Graphic file (type png)
 
-<use figure/mh_mod.png> [48
+<use figure/mh_mod.png>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
 
- <./figure/mh_mod.png (PNG copy)>] [49]
+[61
+
+
+ <./figure/mh_mod.png (PNG copy)>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[62]
 File: feyn_diagrams/diagrams/bbA.pdf Graphic file (type pdf)
-
-<use feyn_diagrams/diagrams/bbA.pdf>
+ <use feyn_diagrams/diagrams/bbA.pdf>
 File: feyn_diagrams/diagrams/bbA2.pdf Graphic file (type pdf)
- <use feyn_diagrams/diagrams/bbA2.pdf>
-File: feyn_diagrams/diagrams/bbA3.pdf Graphic file (type pdf)
 
-<use feyn_diagrams/diagrams/bbA3.pdf>
+<use feyn_diagrams/diagrams/bbA2.pdf>
+File: feyn_diagrams/diagrams/bbA3.pdf Graphic file (type pdf)
+ <use feyn_diagrams/diagrams/bbA3.pdf>
 File: feyn_diagrams/diagrams/ggH.pdf Graphic file (type pdf)
- <use feyn_diagrams/diagrams/ggH.pdf>
-[50] <feyn_diagrams/diagrams/Ztautau.pdf, id=1162, 182.6825pt x 94.3525pt>
+
+<use feyn_diagrams/diagrams/ggH.pdf>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[63]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[64] <feyn_diagrams/diagrams/Ztautau.pdf, id=1229, 182.6825pt x 94.3525pt>
 File: feyn_diagrams/diagrams/Ztautau.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/Ztautau.pdf>
-<feyn_diagrams/diagrams/Z_plus_jet.pdf, id=1163, 184.69pt x 102.3825pt>
+<feyn_diagrams/diagrams/Z_plus_jet.pdf, id=1230, 184.69pt x 102.3825pt>
 File: feyn_diagrams/diagrams/Z_plus_jet.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/Z_plus_jet.pdf>
-<feyn_diagrams/diagrams/top.pdf, id=1164, 184.69pt x 129.48375pt>
+<feyn_diagrams/diagrams/top.pdf, id=1231, 184.69pt x 129.48375pt>
 File: feyn_diagrams/diagrams/top.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/top.pdf>
-<feyn_diagrams/diagrams/singletop.pdf, id=1165, 184.69pt x 129.48375pt>
+<feyn_diagrams/diagrams/singletop.pdf, id=1232, 184.69pt x 129.48375pt>
 File: feyn_diagrams/diagrams/singletop.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/singletop.pdf>
-<feyn_diagrams/diagrams/diboson.pdf, id=1166, 183.68625pt x 98.3675pt>
+<feyn_diagrams/diagrams/diboson.pdf, id=1233, 183.68625pt x 98.3675pt>
 File: feyn_diagrams/diagrams/diboson.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/diboson.pdf>
-<feyn_diagrams/diagrams/diboson2.pdf, id=1167, 183.68625pt x 129.48375pt>
+<feyn_diagrams/diagrams/diboson2.pdf, id=1234, 183.68625pt x 129.48375pt>
 File: feyn_diagrams/diagrams/diboson2.pdf Graphic file (type pdf)
 
-<use feyn_diagrams/diagrams/diboson2.pdf> [51] [52 <./feyn_diagrams/diagrams/Zt
-autau.pdf> <./feyn_diagrams/diagrams/Z_plus_jet.pdf> <./feyn_diagrams/diagrams/
-top.pdf> <./feyn_diagrams/diagrams/singletop.pdf> <./feyn_diagrams/diagrams/dib
-oson.pdf> <./feyn_diagrams/diagrams/diboson2.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use feyn_diagrams/diagrams/diboson2.pdf>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
- [53]
-[54] [55] [56]
-<figure/final_plots/presel_total_final.pdf, id=1318, page=16, 569.12625pt x 656
+
+[65]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[66 <./feyn_diagrams/diagrams/Ztautau.pdf> <./feyn_diagrams/diagrams/Z_plus_jet
+.pdf> <./feyn_diagrams/diagrams/top.pdf> <./feyn_diagrams/diagrams/singletop.pd
+f> <./feyn_diagrams/diagrams/diboson.pdf> <./feyn_diagrams/diagrams/diboson2.pd
+f>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[67]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[68]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[69]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[70]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[71]
+<figure/final_plots/presel_total_final.pdf, id=1387, page=16, 569.12625pt x 656
 .4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 16>
-<figure/final_plots/presel_total_final.pdf, id=1319, page=20, 569.12625pt x 656
+<figure/final_plots/presel_total_final.pdf, id=1388, page=20, 569.12625pt x 656
 .4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 20>
-<figure/final_plots/presel_total_final.pdf, id=1320, page=19, 569.12625pt x 656
+<figure/final_plots/presel_total_final.pdf, id=1389, page=19, 569.12625pt x 656
 .4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 19>
-<figure/final_plots/presel_total_final.pdf, id=1321, page=12, 569.12625pt x 656
+<figure/final_plots/presel_total_final.pdf, id=1390, page=12, 569.12625pt x 656
 .4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 12>
 
-LaTeX Warning: Float too large for page by 129.98117pt on input line 529.
+LaTeX Warning: Float too large for page by 216.46198pt on input line 529.
 
-[57] [58 <./figure/final_plots/presel_total_final.pdf> <./figure/final_plots/pr
-esel_total_final.pdf> <./figure/final_plots/presel_total_final.pdf> <./figure/f
-inal_plots/presel_total_final.pdf>]
-Overfull \hbox (3.77513pt too wide) in paragraph at lines 622--641
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[72]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[73 <./figure/final_plots/presel_total_final.pdf> <./figure/final_plots/presel_
+total_final.pdf> <./figure/final_plots/presel_total_final.pdf> <./figure/final_
+plots/presel_total_final.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[74]
+Overfull \hbox (3.77509pt too wide) in paragraph at lines 622--641
  [][] 
  []
 
-[59]
-<figure/final_plots/presel_total_final.pdf, id=1521, page=1, 569.12625pt x 656.
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[75]
+<figure/final_plots/presel_total_final.pdf, id=1595, page=1, 569.12625pt x 656.
 4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 1>
-<figure/final_plots/presel_total_final.pdf, id=1522, page=17, 569.12625pt x 656
+<figure/final_plots/presel_total_final.pdf, id=1596, page=17, 569.12625pt x 656
 .4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 17>
-<figure/final_plots/presel_total_final.pdf, id=1523, page=2, 569.12625pt x 656.
+<figure/final_plots/presel_total_final.pdf, id=1597, page=2, 569.12625pt x 656.
 4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 2>
 
-LaTeX Warning: Float too large for page by 3.04715pt on input line 683.
+LaTeX Warning: Float too large for page by 54.06268pt on input line 683.
 
-) (./a_bkg_modeling.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
-[61 <./figure/final_plots/presel_total_final.pdf> <./figure/final_plots/presel_
-total_final.pdf> <./figure/final_plots/presel_total_final.pdf>]
-<figure/final_plots/presel_total_final.pdf, id=1630, page=9, 569.12625pt x 656.
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[76]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[77 <./figure/final_plots/presel_total_final.pdf> <./figure/final_plots/presel_
+total_final.pdf> <./figure/final_plots/presel_total_final.pdf>])
+(./a_bkg_modeling.tex
+<figure/final_plots/presel_total_final.pdf, id=1702, page=9, 569.12625pt x 656.
 4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 9>
-<figure/final_plots/presel_total_final.pdf, id=1631, page=10, 569.12625pt x 656
+<figure/final_plots/presel_total_final.pdf, id=1703, page=10, 569.12625pt x 656
 .4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 10>
-<figure/final_plots/presel_total_final.pdf, id=1632, page=8, 569.12625pt x 656.
+<figure/final_plots/presel_total_final.pdf, id=1704, page=8, 569.12625pt x 656.
 4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 8>
-<figure/final_plots/presel_total_final.pdf, id=1633, page=7, 569.12625pt x 656.
+<figure/final_plots/presel_total_final.pdf, id=1705, page=7, 569.12625pt x 656.
 4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 7>
@@ -911,80 +1356,118 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 46.
 
-<figure/final_plots/twobtag.pdf, id=1638, page=1, 569.12625pt x 656.4525pt>
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[78]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[79 <./figure/final_plots/presel_total_final.pdf> <./figure/final_plots/presel_
+total_final.pdf> <./figure/final_plots/presel_total_final.pdf> <./figure/final_
+plots/presel_total_final.pdf>]
+<figure/final_plots/twobtag.pdf, id=1762, page=1, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 1>
-<figure/final_plots/twobtag.pdf, id=1639, page=7, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1763, page=7, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 7>
-<figure/final_plots/twobtag.pdf, id=1640, page=6, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1764, page=6, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 6>
 
 pdfTeX warning: pdflatex (file ./figure/final_plots/etmiss_twobtag.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/final_plots/etmiss_twobtag.pdf, id=1641, 569.12625pt x 656.4525pt>
+<figure/final_plots/etmiss_twobtag.pdf, id=1765, 569.12625pt x 656.4525pt>
 File: figure/final_plots/etmiss_twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/etmiss_twobtag.pdf>
 
-LaTeX Warning: Float too large for page by 3.71384pt on input line 99.
+LaTeX Warning: Float too large for page by 54.06268pt on input line 99.
 
-<figure/final_plots/twobtag.pdf, id=1645, page=2, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1768, page=2, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 2>
-<figure/final_plots/twobtag.pdf, id=1646, page=3, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1769, page=3, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 3>
-<figure/final_plots/twobtag.pdf, id=1647, page=4, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1770, page=4, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 4>
-<figure/final_plots/twobtag.pdf, id=1648, page=5, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1771, page=5, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 5>
 
-LaTeX Warning: Float too large for page by 3.04715pt on input line 135.
+LaTeX Warning: Float too large for page by 33.76277pt on input line 135.
 
-[62] [63 <./figure/final_plots/presel_total_final.pdf> <./figure/final_plots/pr
-esel_total_final.pdf> <./figure/final_plots/presel_total_final.pdf> <./figure/f
-inal_plots/presel_total_final.pdf>] [64 <./figure/final_plots/twobtag.pdf> <./f
-igure/final_plots/twobtag.pdf> <./figure/final_plots/twobtag.pdf> <./figure/fin
-al_plots/etmiss_twobtag.pdf>] [65 <./figure/final_plots/twobtag.pdf> <./figure/
-final_plots/twobtag.pdf> <./figure/final_plots/twobtag.pdf> <./figure/final_plo
-ts/twobtag.pdf>]
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[80]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[81 <./figure/final_plots/twobtag.pdf> <./figure/final_plots/twobtag.pdf> <./fi
+gure/final_plots/twobtag.pdf> <./figure/final_plots/etmiss_twobtag.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[82 <./figure/final_plots/twobtag.pdf> <./figure/final_plots/twobtag.pdf> <./fi
+gure/final_plots/twobtag.pdf> <./figure/final_plots/twobtag.pdf>]
 
 pdfTeX warning: pdflatex (file ./figure/ABCD_regionB_Vs_regionD2.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/ABCD_regionB_Vs_regionD2.pdf, id=2179, 569.12625pt x 387.4475pt>
+<figure/ABCD_regionB_Vs_regionD2.pdf, id=2253, 569.12625pt x 387.4475pt>
 File: figure/ABCD_regionB_Vs_regionD2.pdf Graphic file (type pdf)
 
-<use figure/ABCD_regionB_Vs_regionD2.pdf> [66]
-<figure/QCD/qcd_CR_emb_mmc_mass.pdf, id=2194, 569.12625pt x 656.4525pt>
+<use figure/ABCD_regionB_Vs_regionD2.pdf>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[83] <figure/QCD/qcd_CR_emb_mmc_mass.pdf, id=2268, 569.12625pt x 656.4525pt>
 File: figure/QCD/qcd_CR_emb_mmc_mass.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_CR_emb_mmc_mass.pdf>
-<figure/QCD/qcd_CR_emb_Btag_mmc_mass.pdf, id=2195, 569.12625pt x 656.4525pt>
+<figure/QCD/qcd_CR_emb_Btag_mmc_mass.pdf, id=2269, 569.12625pt x 656.4525pt>
 File: figure/QCD/qcd_CR_emb_Btag_mmc_mass.pdf Graphic file (type pdf)
 
-<use figure/QCD/qcd_CR_emb_Btag_mmc_mass.pdf> [67 <./figure/ABCD_regionB_Vs_reg
-ionD2.pdf>] [68 <./figure/QCD/qcd_CR_emb_mmc_mass.pdf> <./figure/QCD/qcd_CR_emb
-_Btag_mmc_mass.pdf>]
-Overfull \hbox (0.953pt too wide) in paragraph at lines 276--303
+<use figure/QCD/qcd_CR_emb_Btag_mmc_mass.pdf>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[84 <./figure/ABCD_regionB_Vs_regionD2.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[85 <./figure/QCD/qcd_CR_emb_mmc_mass.pdf> <./figure/QCD/qcd_CR_emb_Btag_mmc_ma
+ss.pdf>]
+Overfull \hbox (0.95296pt too wide) in paragraph at lines 276--303
  [][] 
  []
 
 
-Overfull \hbox (0.953pt too wide) in paragraph at lines 309--341
+Overfull \hbox (0.95296pt too wide) in paragraph at lines 309--341
 [][]
  []
 
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[86]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[87]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 355.
@@ -1005,25 +1488,31 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 355.
 
-<figure/emb_plots.pdf, id=2365, page=1, 569.12625pt x 656.4525pt>
+<figure/emb_plots.pdf, id=2446, page=1, 569.12625pt x 656.4525pt>
 File: figure/emb_plots.pdf Graphic file (type pdf)
 
-<use figure/emb_plots.pdf, page 1> [69] [70 <./figure/emb_plots.pdf>]
-Underfull \vbox (badness 3460) has occurred while \output is active []
+<use figure/emb_plots.pdf, page 1>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
- [71]
-<figure/emb_plots.pdf, id=2432, page=2, 569.12625pt x 656.4525pt>
+
+[88 <./figure/emb_plots.pdf>]
+<figure/emb_plots.pdf, id=2502, page=2, 569.12625pt x 656.4525pt>
 File: figure/emb_plots.pdf Graphic file (type pdf)
 
 <use figure/emb_plots.pdf, page 2>
-<figure/emb_plots.pdf, id=2433, page=3, 569.12625pt x 656.4525pt>
+<figure/emb_plots.pdf, id=2503, page=3, 569.12625pt x 656.4525pt>
 File: figure/emb_plots.pdf Graphic file (type pdf)
 
 <use figure/emb_plots.pdf, page 3>
-Underfull \vbox (badness 1127) has occurred while \output is active []
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
- [72 <./figure/emb_plots.pdf> <./figure/emb_plots.pdf>]
-Overfull \hbox (4.81636pt too wide) in paragraph at lines 453--465
+
+[89]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[90 <./figure/emb_plots.pdf> <./figure/emb_plots.pdf>]
+Overfull \hbox (4.81631pt too wide) in paragraph at lines 453--465
 [][]
  []
 
@@ -1033,7 +1522,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 453--465
  []
 
 
-Overfull \hbox (4.69118pt too wide) in paragraph at lines 472--485
+Overfull \hbox (4.69113pt too wide) in paragraph at lines 472--485
 [][]
  []
 
@@ -1042,53 +1531,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 472--485
 
  []
 
-) (./a_sys.tex [73] [74] [75] [76] [77] [78] [79]
+) (./a_sys.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[91]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[92]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[93]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[94]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[95]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[96]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[97]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[98]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 381.
+(hyperref)                removing `math shift' on input line 373.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 381.
+(hyperref)                removing `\gamma' on input line 373.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 381.
+(hyperref)                removing `superscript' on input line 373.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 381.
+(hyperref)                removing `\rightarrow' on input line 373.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 381.
+(hyperref)                removing `\tau' on input line 373.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 381.
+(hyperref)                removing `\tau' on input line 373.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 381.
+(hyperref)                removing `math shift' on input line 373.
 
-<figure/systematics/emb_sys_veto_MFS.pdf, id=2557, 569.12625pt x 656.4525pt>
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[99]
+<figure/systematics/emb_sys_veto_MFS.pdf, id=2642, 569.12625pt x 656.4525pt>
 File: figure/systematics/emb_sys_veto_MFS.pdf Graphic file (type pdf)
 
 <use figure/systematics/emb_sys_veto_MFS.pdf>
-<figure/systematics/emb_sys_veto_iso.pdf, id=2558, 569.12625pt x 656.4525pt>
+<figure/systematics/emb_sys_veto_iso.pdf, id=2643, 569.12625pt x 656.4525pt>
 File: figure/systematics/emb_sys_veto_iso.pdf Graphic file (type pdf)
 
-<use figure/systematics/emb_sys_veto_iso.pdf> [80 <./figure/systematics/emb_sys
-_veto_MFS.pdf> <./figure/systematics/emb_sys_veto_iso.pdf>] [81]
-<figure/systematics/QCD_presel_SYS.pdf, id=2665, 569.12625pt x 517.935pt>
+<use figure/systematics/emb_sys_veto_iso.pdf>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[100 <./figure/systematics/emb_sys_veto_MFS.pdf> <./figure/systematics/emb_sys_
+veto_iso.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[101]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[102]
+<figure/systematics/QCD_presel_SYS.pdf, id=2754, 569.12625pt x 517.935pt>
 File: figure/systematics/QCD_presel_SYS.pdf Graphic file (type pdf)
 
 <use figure/systematics/QCD_presel_SYS.pdf>
-<figure/systematics/qcd_shape_tag.pdf, id=2666, 569.12625pt x 656.4525pt>
+<figure/systematics/qcd_shape_tag.pdf, id=2755, 569.12625pt x 656.4525pt>
 File: figure/systematics/qcd_shape_tag.pdf Graphic file (type pdf)
 
 <use figure/systematics/qcd_shape_tag.pdf>
-<figure/systematics/qcd_shape_veto.pdf, id=2667, 569.12625pt x 656.4525pt>
+<figure/systematics/qcd_shape_veto.pdf, id=2756, 569.12625pt x 656.4525pt>
 File: figure/systematics/qcd_shape_veto.pdf Graphic file (type pdf)
 
 <use figure/systematics/qcd_shape_veto.pdf>
@@ -1096,9 +1637,10 @@ File: figure/systematics/qcd_shape_veto.pdf Graphic file (type pdf)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./a_result.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
- [82]
+
+[103]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 20.
@@ -1107,59 +1649,97 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 20.
 
-[83 <./figure/systematics/QCD_presel_SYS.pdf, page is rotated 90 degrees>]
-[84 <./figure/systematics/qcd_shape_tag.pdf> <./figure/systematics/qcd_shape_ve
-to.pdf>] [85] [86]
-<figure/final_plots/Full_tag_qcd_reg.pdf, id=2858, 569.12625pt x 656.4525pt>
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[104 <./figure/systematics/QCD_presel_SYS.pdf, page is rotated 90 degrees>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[105 <./figure/systematics/qcd_shape_tag.pdf> <./figure/systematics/qcd_shape_v
+eto.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[106]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[107]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[108]
+<figure/final_plots/Full_tag_qcd_reg.pdf, id=2952, 569.12625pt x 656.4525pt>
 File: figure/final_plots/Full_tag_qcd_reg.pdf Graphic file (type pdf)
 
 <use figure/final_plots/Full_tag_qcd_reg.pdf>
-<figure/final_plots/Full_veto_qcd_reg.pdf, id=2859, 569.12625pt x 656.4525pt>
+<figure/final_plots/Full_veto_qcd_reg.pdf, id=2953, 569.12625pt x 656.4525pt>
 File: figure/final_plots/Full_veto_qcd_reg.pdf Graphic file (type pdf)
 
 <use figure/final_plots/Full_veto_qcd_reg.pdf>
-<figure/limits/comb_mit_thesi.pdf, id=2861, 569.12625pt x 552.0625pt>
+<figure/limits/comb_mit_thesi.pdf, id=2955, 569.12625pt x 552.0625pt>
 File: figure/limits/comb_mit_thesi.pdf Graphic file (type pdf)
 
-<use figure/limits/comb_mit_thesi.pdf> [87] [88 <./figure/final_plots/Full_tag_
-qcd_reg.pdf> <./figure/final_plots/Full_veto_qcd_reg.pdf>] [89 <./figure/limits
-/comb_mit_thesi.pdf, page is rotated 90 degrees>]
+<use figure/limits/comb_mit_thesi.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/limits/bbA_combined_thesi.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/limits/bbA_combined_thesi.pdf, id=3011, 569.12625pt x 552.0625pt>
+<figure/limits/bbA_combined_thesi.pdf, id=2958, 569.12625pt x 552.0625pt>
 File: figure/limits/bbA_combined_thesi.pdf Graphic file (type pdf)
 
 <use figure/limits/bbA_combined_thesi.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/limits/ggA_comb_thesi.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/limits/ggA_comb_thesi.pdf, id=3013, 569.12625pt x 552.0625pt>
+<figure/limits/ggA_comb_thesi.pdf, id=2960, 569.12625pt x 552.0625pt>
 File: figure/limits/ggA_comb_thesi.pdf Graphic file (type pdf)
 
-<use figure/limits/ggA_comb_thesi.pdf>) (./trackjet.tex [90] [91 <./figure/limi
-ts/bbA_combined_thesi.pdf> <./figure/limits/ggA_comb_thesi.pdf>]
+<use figure/limits/ggA_comb_thesi.pdf>) (./trackjet.tex
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[109]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[110 <./figure/final_plots/Full_tag_qcd_reg.pdf> <./figure/final_plots/Full_vet
+o_qcd_reg.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[111 <./figure/limits/comb_mit_thesi.pdf, page is rotated 90 degrees>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[112 <./figure/limits/bbA_combined_thesi.pdf> <./figure/limits/ggA_comb_thesi.p
+df>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[113]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(119.50148pt, 367.04083pt, 110.96556pt)
-* v-part:(T,H,B)=(101.40665pt, 629.82918pt, 113.81102pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=367.04083pt
-* \textheight=629.82918pt
+* h-part:(L,W,R)=(119.50148pt, 367.0409pt, 110.96556pt)
+* v-part:(T,H,B)=(101.40665pt, 629.82927pt, 113.81102pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=367.0409pt
+* \textheight=629.82927pt
 * \oddsidemargin=47.23149pt
 * \evensidemargin=38.69557pt
-* \topmargin=-2.73714pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
+* \topmargin=-10.73834pt
+* \headheight=18.125pt
+* \headsep=21.75pt
 * \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
+* \footskip=50.75pt
+* \marginparwidth=54.06024pt
+* \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -1171,282 +1751,413 @@ ts/bbA_combined_thesi.pdf> <./figure/limits/ggA_comb_thesi.pdf>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [92
+ [114
+
 
 
 ]
 Chapter 6.
-[93] <figure/trackjet/b_pt_distro2.pdf, id=3331, 569.12625pt x 410.53375pt>
+[115]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[116] <figure/trackjet/b_pt_distro2.pdf, id=3429, 569.12625pt x 410.53375pt>
 File: figure/trackjet/b_pt_distro2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/b_pt_distro2.pdf>
-<figure/trackjet/top_pt_distro.pdf, id=3332, 569.12625pt x 410.53375pt>
+<figure/trackjet/top_pt_distro.pdf, id=3430, 569.12625pt x 410.53375pt>
 File: figure/trackjet/top_pt_distro.pdf Graphic file (type pdf)
 
-<use figure/trackjet/top_pt_distro.pdf> [94
+<use figure/trackjet/top_pt_distro.pdf>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[117
 
 
  <./figure/trackjet/b_pt_distro2.pdf, page is rotated 90 degrees> <./figure/tra
-ckjet/top_pt_distro.pdf, page is rotated 90 degrees>] [95] [96]
-<figure/trackjet/residuals2.pdf, id=3445, 569.12625pt x 387.4475pt>
+ckjet/top_pt_distro.pdf, page is rotated 90 degrees>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[118]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[119] <figure/trackjet/residuals2.pdf, id=3541, 569.12625pt x 387.4475pt>
 File: figure/trackjet/residuals2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/residuals2.pdf>
-<figure/trackjet/rec_eff2.pdf, id=3447, 569.12625pt x 385.44pt>
+<figure/trackjet/rec_eff2.pdf, id=3543, 569.12625pt x 385.44pt>
 File: figure/trackjet/rec_eff2.pdf Graphic file (type pdf)
 
-<use figure/trackjet/rec_eff2.pdf> [97 <./figure/trackjet/residuals2.pdf, page 
-is rotated 90 degrees>]
+<use figure/trackjet/rec_eff2.pdf>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[120]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[121 <./figure/trackjet/residuals2.pdf, page is rotated 90 degrees>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[122 <./figure/trackjet/rec_eff2.pdf, page is rotated 90 degrees>]
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/std_eff_rej2.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/std_eff_rej2.pdf, id=3500, 569.12625pt x 385.44pt>
+<figure/trackjet/std_eff_rej2.pdf, id=3648, 569.12625pt x 385.44pt>
 File: figure/trackjet/std_eff_rej2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/std_eff_rej2.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/std_cal_eff_rej2.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/std_cal_eff_rej2.pdf, id=3502, 569.12625pt x 385.44pt>
+<figure/trackjet/std_cal_eff_rej2.pdf, id=3650, 569.12625pt x 385.44pt>
 File: figure/trackjet/std_cal_eff_rej2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/std_cal_eff_rej2.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/std_rej_pt2.pdf): PDF inclusio
 n: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/std_rej_pt2.pdf, id=3504, 569.12625pt x 385.44pt>
+<figure/trackjet/std_rej_pt2.pdf, id=3652, 569.12625pt x 385.44pt>
 File: figure/trackjet/std_rej_pt2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/std_rej_pt2.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/std_cal_rej_pt2.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/std_cal_rej_pt2.pdf, id=3506, 569.12625pt x 385.44pt>
+<figure/trackjet/std_cal_rej_pt2.pdf, id=3654, 569.12625pt x 385.44pt>
 File: figure/trackjet/std_cal_rej_pt2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/std_cal_rej_pt2.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/eff_real_rej_mod2.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/eff_real_rej_mod2.pdf, id=3508, 569.12625pt x 385.44pt>
+<figure/trackjet/eff_real_rej_mod2.pdf, id=3656, 569.12625pt x 385.44pt>
 File: figure/trackjet/eff_real_rej_mod2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/eff_real_rej_mod2.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98 <./figure/trackjet/rec_eff2.pdf, page is rotated 90 degrees>] [99 <./figur
-e/trackjet/std_eff_rej2.pdf> <./figure/trackjet/std_cal_eff_rej2.pdf>] [100 <./
-figure/trackjet/std_rej_pt2.pdf> <./figure/trackjet/std_cal_rej_pt2.pdf>] [101 
-<./figure/trackjet/eff_real_rej_mod2.pdf>]
-Underfull \hbox (badness 1365) in paragraph at lines 275--275
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[123]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[124 <./figure/trackjet/std_eff_rej2.pdf> <./figure/trackjet/std_cal_eff_rej2.p
+df>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[125 <./figure/trackjet/std_rej_pt2.pdf> <./figure/trackjet/std_cal_rej_pt2.pdf
+>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[126 <./figure/trackjet/eff_real_rej_mod2.pdf>]
+Underfull \hbox (badness 1365) in paragraph at lines 276--276
 []\OT1/cmr/m/n/10 At least one tag-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 []\OT1/cmr/m/n/10 Exactly one jet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 \OT1/cmr/m/n/10 matched to a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 []\OT1/cmr/m/n/10 Exactly one b-
  []
 
 
-Overfull \hbox (13.60474pt too wide) in paragraph at lines 266--286
+Overfull \hbox (13.60469pt too wide) in paragraph at lines 267--287
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--286
+Underfull \hbox (badness 10000) in paragraph at lines 267--287
 
  []
 
 
-Overfull \hbox (0.24213pt too wide) in paragraph at lines 308--308
-[]\OT1/cmr/bx/n/17.28 Systematic Un-cer-tain-ties of Track-jet Re-con-
- []
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[127]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
- [102]
-[103] [104]
+
+[128]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[129]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[130]
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/T7/Sys_pt_nTrack2.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/T7/Sys_pt_nTrack2.pdf, id=3665, 569.12625pt x 426.59375pt>
+<figure/trackjet/T7/Sys_pt_nTrack2.pdf, id=3777, 569.12625pt x 426.59375pt>
 File: figure/trackjet/T7/Sys_pt_nTrack2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/Sys_pt_nTrack2.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/T7/Sys_eff_n2.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/T7/Sys_eff_n2.pdf, id=3667, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/Sys_eff_n2.pdf, id=3779, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/Sys_eff_n2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/Sys_eff_n2.pdf>
-Underfull \vbox (badness 1082) has occurred while \output is active []
+Underfull \vbox (badness 1448) has occurred while \output is active []
 
 
-Overfull \hbox (12.8613pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 6.3.  SYSTEMATIC UNCERTAINTIES OF TRACK-JET RECONSTRUCTION \OT
-1/cmr/m/n/12 105
- []
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
-[105] [106 <./figure/trackjet/T7/Sys_pt_nTrack2.pdf> <./figure/trackjet/T7/Sys_
-eff_n2.pdf>]
-<figure/trackjet/trk_fake_distro_eta2.pdf, id=3697, 569.12625pt x 389.455pt>
+
+[131 <./figure/trackjet/T7/Sys_pt_nTrack2.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[132 <./figure/trackjet/T7/Sys_eff_n2.pdf>]
+<figure/trackjet/trk_fake_distro_eta2.pdf, id=3808, 569.12625pt x 389.455pt>
 File: figure/trackjet/trk_fake_distro_eta2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/trk_fake_distro_eta2.pdf>
-<figure/trackjet/fakerate_pt.pdf, id=3698, 569.12625pt x 387.4475pt>
+<figure/trackjet/fakerate_pt.pdf, id=3809, 569.12625pt x 387.4475pt>
 File: figure/trackjet/fakerate_pt.pdf Graphic file (type pdf)
 
 <use figure/trackjet/fakerate_pt.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/resolution2.pdf): PDF inclusio
 n: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/resolution2.pdf, id=3699, 569.12625pt x 387.4475pt>
+<figure/trackjet/resolution2.pdf, id=3810, 569.12625pt x 387.4475pt>
 File: figure/trackjet/resolution2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/resolution2.pdf>
-<figure/trackjet/trk_eff2.pdf, id=3701, 569.12625pt x 387.4475pt>
+<figure/trackjet/trk_eff2.pdf, id=3812, 569.12625pt x 387.4475pt>
 File: figure/trackjet/trk_eff2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/trk_eff2.pdf>
-<figure/trackjet/T7/inef_10cent_eff_3S.pdf, id=3705, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/inef_10cent_eff_3S.pdf, id=3816, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/inef_10cent_eff_3S.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_eff_3S.pdf>
-<figure/trackjet/T7/inef_10cent_eff_4S.pdf, id=3706, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/inef_10cent_eff_4S.pdf, id=3817, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/inef_10cent_eff_4S.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_eff_4S.pdf>
-<figure/trackjet/T7/inef_10cent_eff_5S.pdf, id=3707, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/inef_10cent_eff_5S.pdf, id=3818, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/inef_10cent_eff_5S.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_eff_5S.pdf>
-<figure/trackjet/T7/inef_10cent_pt_3S.pdf, id=3708, 569.12625pt x 385.44pt>
+
+LaTeX Warning: Float too large for page by 37.93558pt on input line 489.
+
+<figure/trackjet/T7/inef_10cent_pt_3S.pdf, id=3819, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/inef_10cent_pt_3S.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_pt_3S.pdf>
-<figure/trackjet/T7/inef_10cent_pt_4S.pdf, id=3709, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/inef_10cent_pt_4S.pdf, id=3820, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/inef_10cent_pt_4S.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_pt_4S.pdf>
-<figure/trackjet/T7/inef_10cent_pt_5S.pdf, id=3710, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/inef_10cent_pt_5S.pdf, id=3821, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/inef_10cent_pt_5S.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_pt_5S.pdf>
 
-LaTeX Warning: Float too large for page by 12.42982pt on input line 501.
+LaTeX Warning: Float too large for page by 58.23549pt on input line 502.
 
-) (./tesi.bbl
-Overfull \hbox (12.8613pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 6.3.  SYSTEMATIC UNCERTAINTIES OF TRACK-JET RECONSTRUCTION \OT
-1/cmr/m/n/12 107
- []
+) (./conclusions.tex
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
-[107] [108 <./figure/trackjet/trk_fake_distro_eta2.pdf, page is rotated 90 degr
-ees> <./figure/trackjet/fakerate_pt.pdf, page is rotated 90 degrees>]
-Overfull \hbox (12.8613pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 6.3.  SYSTEMATIC UNCERTAINTIES OF TRACK-JET RECONSTRUCTION \OT
-1/cmr/m/n/12 109
- []
 
-[109 <./figure/trackjet/resolution2.pdf> <./figure/trackjet/trk_eff2.pdf, page 
-is rotated 90 degrees>] [110 <./figure/trackjet/T7/inef_10cent_eff_3S.pdf, page
- is rotated 90 degrees> <./figure/trackjet/T7/inef_10cent_eff_4S.pdf, page is r
-otated 90 degrees> <./figure/trackjet/T7/inef_10cent_eff_5S.pdf, page is rotate
-d 90 degrees>]
-Overfull \hbox (12.8613pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 6.3.  SYSTEMATIC UNCERTAINTIES OF TRACK-JET RECONSTRUCTION \OT
-1/cmr/m/n/12 111
- []
+[133]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
-[111 <./figure/trackjet/T7/inef_10cent_pt_3S.pdf, page is rotated 90 degrees> <
+
+[134 <./figure/trackjet/trk_fake_distro_eta2.pdf, page is rotated 90 degrees> <
+./figure/trackjet/fakerate_pt.pdf, page is rotated 90 degrees>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[135 <./figure/trackjet/resolution2.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[136 <./figure/trackjet/trk_eff2.pdf, page is rotated 90 degrees>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[137 <./figure/trackjet/T7/inef_10cent_eff_3S.pdf, page is rotated 90 degrees> 
+<./figure/trackjet/T7/inef_10cent_eff_4S.pdf, page is rotated 90 degrees> <./fi
+gure/trackjet/T7/inef_10cent_eff_5S.pdf, page is rotated 90 degrees>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[138 <./figure/trackjet/T7/inef_10cent_pt_3S.pdf, page is rotated 90 degrees> <
 ./figure/trackjet/T7/inef_10cent_pt_4S.pdf, page is rotated 90 degrees> <./figu
-re/trackjet/T7/inef_10cent_pt_5S.pdf, page is rotated 90 degrees>] [112
+re/trackjet/T7/inef_10cent_pt_5S.pdf, page is rotated 90 degrees>]
+Chapter 7.
+[139
+
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[140]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[141]) (./akno.tex
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[142]) (./tesi.bbl [143
+
+
+] [144
+
+
+]
+Underfull \hbox (badness 2142) in paragraph at lines 6--9
+[]\OT1/cmr/m/n/12 G. Altarelli, \OT1/cmr/m/it/12 Col-lider Physics within the S
+tan-dard Model: a Primer,
+ []
+
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no î in font cmti12!
-
-[113]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
- [114]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- [115]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no Å in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
- [116] [117] [118]
-Underfull \hbox (badness 1394) in paragraph at lines 438--441
-\OT1/cmr/m/it/12 fras-truc-ture\OT1/cmr/m/n/12 , ATLAS-SOFT-2010-01-004, sub-mi
-t-ted to Eur. Phys. J. C.,
- []
-
+[145]
 Missing character: There is no ‚ in font cmti12!
-Missing character: There is no à in font cmti12!
-Missing character: There is no í in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ì in font cmti12!
 
-Underfull \hbox (badness 1137) in paragraph at lines 459--461
-[]\OT1/cmr/m/n/12 The AT-LAS Col-lab-o-ra-tion, In-ner De-tec-tor: Tech-ni-cal 
-De-sign Re-port,
- []
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
-[119]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
- [120] [121]
+
+[146]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ì in font cmti12!
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[147]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ì in font cmti12!
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ú in font cmti12!
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ù in font cmti12!
- [122] [123]
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[148]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ì in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ì in font cmti12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[149]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[150]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[151]
+Underfull \hbox (badness 1394) in paragraph at lines 441--444
+\OT1/cmr/m/it/12 fras-truc-ture\OT1/cmr/m/n/12 , ATLAS-SOFT-2010-01-004, sub-mi
+t-ted to Eur. Phys. J. C.,
+ []
+
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[152]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no à in font cmti12!
+Missing character: There is no í in font cmti12!
+
+Underfull \hbox (badness 1137) in paragraph at lines 462--464
+[]\OT1/cmr/m/n/12 The AT-LAS Col-lab-o-ra-tion, In-ner De-tec-tor: Tech-ni-cal 
+De-sign Re-port,
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[153]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[154]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[155]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[156]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ú in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ù in font cmti12!
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[157]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[158]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
@@ -1456,263 +2167,281 @@ Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [124]
-Overfull \hbox (140.34053pt too wide) in paragraph at lines 757--758
+
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[159]
+Overfull \hbox (140.34048pt too wide) in paragraph at lines 760--761
 []\OT1/cmr/m/n/12 Statistical twiki, Nuis-sanceCheck. []https://twiki.cern.ch/t
 wiki/bin/view/AtlasProtected/NuisanceCheck[] 
  []
 
-) [125] (./appendix_qcd.tex [126
+)
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
-]
+
+[160] (./appendix_qcd.tex
 Appendix A.
-<figure/appendix/trigger_comp.png, id=4329, 698.61pt x 473.77pt>
+<figure/appendix/trigger_comp.png, id=4472, 698.61pt x 473.77pt>
 File: figure/appendix/trigger_comp.png Graphic file (type png)
 
 <use figure/appendix/trigger_comp.png>
-<figure/appendix/trig_comp_ptcone3.png, id=4330, 698.61pt x 475.7775pt>
+<figure/appendix/trig_comp_ptcone3.png, id=4473, 698.61pt x 475.7775pt>
 File: figure/appendix/trig_comp_ptcone3.png Graphic file (type png)
 
 <use figure/appendix/trig_comp_ptcone3.png>
-<figure/appendix/trig_comp_etcone3.png, id=4331, 698.61pt x 475.7775pt>
+<figure/appendix/trig_comp_etcone3.png, id=4474, 698.61pt x 475.7775pt>
 File: figure/appendix/trig_comp_etcone3.png Graphic file (type png)
 
-<use figure/appendix/trig_comp_etcone3.png> [127] [128 <./figure/appendix/trigg
-er_comp.png (PNG copy)> <./figure/appendix/trig_comp_ptcone3.png (PNG copy)> <.
-/figure/appendix/trig_comp_etcone3.png (PNG copy)>]
+<use figure/appendix/trig_comp_etcone3.png> [161
+
+
+]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[162 <./figure/appendix/trigger_comp.png (PNG copy)> <./figure/appendix/trig_co
+mp_ptcone3.png (PNG copy)> <./figure/appendix/trig_comp_etcone3.png (PNG copy)>
+]
 Appendix B.
-<figure/QCD/qcd_plot.pdf, id=4343, page=1, 569.12625pt x 385.44pt>
+<figure/QCD/qcd_plot.pdf, id=4485, page=1, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot.pdf, page 1>
-<figure/QCD/qcd_plot.pdf, id=4344, page=2, 569.12625pt x 385.44pt>
+<figure/QCD/qcd_plot.pdf, id=4486, page=2, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot.pdf, page 2>
-<figure/QCD/qcd_plot.pdf, id=4345, page=3, 569.12625pt x 385.44pt>
+<figure/QCD/qcd_plot.pdf, id=4487, page=3, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot.pdf, page 3>
-<figure/QCD/qcd_plot.pdf, id=4346, page=4, 569.12625pt x 385.44pt>
+<figure/QCD/qcd_plot.pdf, id=4488, page=4, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot.pdf, page 4>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[129
+[163
+
 
 
  <./figure/QCD/qcd_plot.pdf, page is rotated 90 degrees> <./figure/QCD/qcd_plot
-.pdf, page is rotated 90 degrees>] [130 <./figure/QCD/qcd_plot.pdf, page is rot
-ated 90 degrees> <./figure/QCD/qcd_plot.pdf, page is rotated 90 degrees>])
-(./appendix_limit.tex
+.pdf, page is rotated 90 degrees>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[164 <./figure/QCD/qcd_plot.pdf, page is rotated 90 degrees> <./figure/QCD/qcd_
+plot.pdf, page is rotated 90 degrees>]) (./appendix_limit.tex
 Appendix C.
-[131
+[165
 
 
 
-] <figure/np_check/pull_veto.png, id=4412, 1426.32875pt x 1150.2975pt>
+
+] <figure/np_check/pull_veto.png, id=4555, 1426.32875pt x 1150.2975pt>
 File: figure/np_check/pull_veto.png Graphic file (type png)
 
 <use figure/np_check/pull_veto.png>
-<figure/np_check/pull_tag.png, id=4413, 1426.32875pt x 1150.2975pt>
+<figure/np_check/pull_tag.png, id=4556, 1426.32875pt x 1150.2975pt>
 File: figure/np_check/pull_tag.png Graphic file (type png)
 
 <use figure/np_check/pull_tag.png>
-<figure/np_check/NP_combined.png, id=4414, 1426.32875pt x 1152.305pt>
+<figure/np_check/NP_combined.png, id=4557, 1426.32875pt x 1152.305pt>
 File: figure/np_check/NP_combined.png Graphic file (type png)
 
 <use figure/np_check/NP_combined.png>
-<figure/np_check/matrix_veto.png, id=4415, 1426.32875pt x 1150.2975pt>
+<figure/np_check/matrix_veto.png, id=4558, 1426.32875pt x 1150.2975pt>
 File: figure/np_check/matrix_veto.png Graphic file (type png)
 
 <use figure/np_check/matrix_veto.png>
-<figure/np_check/matrix_tag.png, id=4416, 1426.32875pt x 1150.2975pt>
+<figure/np_check/matrix_tag.png, id=4559, 1426.32875pt x 1150.2975pt>
 File: figure/np_check/matrix_tag.png Graphic file (type png)
 
 <use figure/np_check/matrix_tag.png>
-<figure/np_check/comb_unconditiona_matrixl.png, id=4417, 1426.32875pt x 1152.30
+<figure/np_check/comb_unconditiona_matrixl.png, id=4560, 1426.32875pt x 1152.30
 5pt>
 File: figure/np_check/comb_unconditiona_matrixl.png Graphic file (type png)
  <use figure/np_check/comb_unconditiona_matrixl.png>
-<figure/np_check/comb_LLHscan.pdf, id=4418, page=8, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4561, page=8, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 8>
-<figure/np_check/comb_LLHscan.pdf, id=4419, page=9, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4562, page=9, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 9>
-<figure/np_check/comb_LLHscan.pdf, id=4420, page=10, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4563, page=10, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 10>
-<figure/np_check/comb_LLHscan.pdf, id=4421, page=11, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4564, page=11, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 11>
-<figure/np_check/comb_LLHscan.pdf, id=4422, page=12, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4565, page=12, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 12>
-<figure/np_check/comb_LLHscan.pdf, id=4423, page=13, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4566, page=13, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 13>
-<figure/np_check/comb_LLHscan.pdf, id=4424, page=14, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4567, page=14, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 14>
-<figure/np_check/comb_LLHscan.pdf, id=4425, page=15, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4568, page=15, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 15>
-<figure/np_check/comb_LLHscan.pdf, id=4426, page=16, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4569, page=16, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 16>
-<figure/np_check/comb_LLHscan.pdf, id=4427, page=17, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4570, page=17, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 17>
-<figure/np_check/comb_LLHscan.pdf, id=4428, page=18, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4571, page=18, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 18>
-<figure/np_check/comb_LLHscan.pdf, id=4429, page=19, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4572, page=19, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 19>
-<figure/np_check/comb_LLHscan.pdf, id=4430, page=20, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4573, page=20, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 20>
-<figure/np_check/comb_LLHscan.pdf, id=4431, page=21, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4574, page=21, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 21>
-<figure/np_check/comb_LLHscan.pdf, id=4432, page=22, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4575, page=22, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 22>
-<figure/np_check/comb_LLHscan.pdf, id=4433, page=23, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4576, page=23, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 23>
-<figure/np_check/comb_LLHscan.pdf, id=4434, page=24, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4577, page=24, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 24>
-<figure/np_check/comb_LLHscan.pdf, id=4435, page=25, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4578, page=25, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 25>
-<figure/np_check/comb_LLHscan.pdf, id=4436, page=26, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4579, page=26, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 26>
-<figure/np_check/comb_LLHscan.pdf, id=4437, page=27, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4580, page=27, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 27>
-<figure/np_check/comb_LLHscan.pdf, id=4438, page=28, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4581, page=28, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 28>
-<figure/np_check/comb_LLHscan.pdf, id=4439, page=29, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4582, page=29, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 29>
-<figure/np_check/comb_LLHscan.pdf, id=4440, page=30, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4583, page=30, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 30>
-<figure/np_check/comb_LLHscan.pdf, id=4441, page=31, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4584, page=31, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 31>
-<figure/np_check/comb_LLHscan.pdf, id=4442, page=32, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4585, page=32, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 32>
-<figure/np_check/comb_LLHscan.pdf, id=4443, page=33, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4586, page=33, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 33>
-<figure/np_check/comb_LLHscan.pdf, id=4444, page=34, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4587, page=34, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 34>
-<figure/np_check/comb_LLHscan.pdf, id=4445, page=35, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4588, page=35, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 35>
-<figure/np_check/comb_LLHscan.pdf, id=4446, page=36, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4589, page=36, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 36>
-<figure/np_check/comb_LLHscan.pdf, id=4447, page=37, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4590, page=37, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 37>
-<figure/np_check/comb_LLHscan.pdf, id=4448, page=38, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4591, page=38, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 38>
-<figure/np_check/comb_LLHscan.pdf, id=4449, page=39, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4592, page=39, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 39>
-<figure/np_check/comb_LLHscan.pdf, id=4450, page=40, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4593, page=40, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 40>
-<figure/np_check/comb_LLHscan.pdf, id=4451, page=41, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4594, page=41, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 41>
-<figure/np_check/comb_LLHscan.pdf, id=4452, page=42, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4595, page=42, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 42>
-<figure/np_check/comb_LLHscan.pdf, id=4453, page=43, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4596, page=43, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 43>
-<figure/np_check/comb_LLHscan.pdf, id=4454, page=44, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4597, page=44, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 44>
-<figure/np_check/comb_LLHscan.pdf, id=4455, page=45, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4598, page=45, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 45>
-<figure/np_check/comb_LLHscan.pdf, id=4456, page=46, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4599, page=46, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 46>
-<figure/np_check/comb_LLHscan.pdf, id=4457, page=47, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4600, page=47, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 47>
-<figure/np_check/comb_LLHscan.pdf, id=4458, page=48, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4601, page=48, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 48>
-<figure/np_check/comb_LLHscan.pdf, id=4459, page=49, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4602, page=49, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 49>
-<figure/np_check/comb_LLHscan.pdf, id=4460, page=50, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4603, page=50, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 50>
-<figure/np_check/comb_LLHscan.pdf, id=4461, page=51, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4604, page=51, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 51>
-<figure/np_check/comb_LLHscan.pdf, id=4462, page=52, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan.pdf, id=4605, page=52, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan.pdf, page 52>
@@ -1720,7 +2449,7 @@ File: figure/np_check/comb_LLHscan.pdf Graphic file (type pdf)
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 183.
 
-<figure/limits/Limits_mAtanBeta_BTag.pdf, id=4463, 569.12625pt x 541.02126pt>
+<figure/limits/Limits_mAtanBeta_BTag.pdf, id=4606, 569.12625pt x 541.02126pt>
 File: figure/limits/Limits_mAtanBeta_BTag.pdf Graphic file (type pdf)
 
 <use figure/limits/Limits_mAtanBeta_BTag.pdf>
@@ -1729,7 +2458,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 192.
 
 
-<figure/limits/Limits_mAtanBeta_BVeto.pdf, id=4464, 569.12625pt x 541.02126pt>
+<figure/limits/Limits_mAtanBeta_BVeto.pdf, id=4607, 569.12625pt x 541.02126pt>
 File: figure/limits/Limits_mAtanBeta_BVeto.pdf Graphic file (type pdf)
 
 <use figure/limits/Limits_mAtanBeta_BVeto.pdf>
@@ -1738,15 +2467,42 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 201.
 
 
-<figure/limits/Limits_mAtanBeta_CombChannels.pdf, id=4465, 569.12625pt x 541.02
+<figure/limits/Limits_mAtanBeta_CombChannels.pdf, id=4608, 569.12625pt x 541.02
 126pt>
 File: figure/limits/Limits_mAtanBeta_CombChannels.pdf Graphic file (type pdf)
- <use figure/limits/Limits_mAtanBeta_CombChannels.pdf> [132] [133 <./figure/np_
-check/pull_veto.png (PNG copy)>] [134 <./figure/np_check/pull_tag.png (PNG copy
-)>] [135 <./figure/np_check/NP_combined.png (PNG copy)>] [136 <./figure/np_chec
-k/matrix_veto.png (PNG copy)>] [137 <./figure/np_check/matrix_tag.png (PNG copy
-)>] [138 <./figure/np_check/comb_unconditiona_matrixl.png (PNG copy)>]
-[139 <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure
+ <use figure/limits/Limits_mAtanBeta_CombChannels.pdf>
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[166]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[167 <./figure/np_check/pull_veto.png (PNG copy)>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[168 <./figure/np_check/pull_tag.png (PNG copy)>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[169 <./figure/np_check/NP_combined.png (PNG copy)>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[170 <./figure/np_check/matrix_veto.png (PNG copy)>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[171 <./figure/np_check/matrix_tag.png (PNG copy)>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[172 <./figure/np_check/comb_unconditiona_matrixl.png (PNG copy)>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[173 <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure
 /np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb
 _LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, 
 page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotate
@@ -1758,61 +2514,95 @@ is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90
 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./fi
 gure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/
 comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.p
-df, page is rotated 90 degrees>] [140 <./figure/np_check/comb_LLHscan.pdf, page
- is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90
- degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./f
-igure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check
-/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.
-pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is r
-otated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degr
-ees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure
+df, page is rotated 90 degrees>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[174 <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure
 /np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb
 _LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, 
 page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotate
 d 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> 
-<./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees>] [141 <./figur
-e/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/com
-b_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf,
- page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotat
-ed 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees>
- <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_
-check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLH
-scan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page
- is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90
- degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./f
-igure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check
-/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.
-pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is r
-otated 90 degrees>] [142 <./figure/limits/Limits_mAtanBeta_BTag.pdf>] [143 <./f
-igure/limits/Limits_mAtanBeta_BVeto.pdf>] [144 <./figure/limits/Limits_mAtanBet
-a_CombChannels.pdf>]) (./appendix_shapeNPs.tex
-<figure/distributions/NP_Shape_ElecSF_BVeto_mmc.pdf, id=4659, 569.12625pt x 541
+<./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_c
+heck/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHs
+can.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page 
+is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 
+degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./fi
+gure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/
+comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.p
+df, page is rotated 90 degrees>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[175 <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure
+/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb
+_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, 
+page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotate
+d 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> 
+<./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_c
+heck/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHs
+can.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page 
+is rotated 90 degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 
+degrees> <./figure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./fi
+gure/np_check/comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/
+comb_LLHscan.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan.p
+df, page is rotated 90 degrees>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[176 <./figure/limits/Limits_mAtanBeta_BTag.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[177 <./figure/limits/Limits_mAtanBeta_BVeto.pdf>]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[178 <./figure/limits/Limits_mAtanBeta_CombChannels.pdf>])
+(./appendix_shapeNPs.tex
+<figure/distributions/NP_Shape_ElecSF_BVeto_mmc.pdf, id=4802, 569.12625pt x 541
 .02126pt>
 File: figure/distributions/NP_Shape_ElecSF_BVeto_mmc.pdf Graphic file (type pdf
 )
  <use figure/distributions/NP_Shape_ElecSF_BVeto_mmc.pdf>
-<figure/distributions/NP_Shape_ElecLowPt_BVeto_mmc.pdf, id=4660, 569.12625pt x 
+<figure/distributions/NP_Shape_ElecLowPt_BVeto_mmc.pdf, id=4803, 569.12625pt x 
 541.02126pt>
 File: figure/distributions/NP_Shape_ElecLowPt_BVeto_mmc.pdf Graphic file (type 
 pdf)
  <use figure/distributions/NP_Shape_ElecLowPt_BVeto_mmc.pdf>
-<figure/distributions/NP_Shape_ElecZee_BVeto_mmc.pdf, id=4661, 569.12625pt x 54
+<figure/distributions/NP_Shape_ElecZee_BVeto_mmc.pdf, id=4804, 569.12625pt x 54
 1.02126pt>
 File: figure/distributions/NP_Shape_ElecZee_BVeto_mmc.pdf Graphic file (type pd
 f)
  <use figure/distributions/NP_Shape_ElecZee_BVeto_mmc.pdf>
 
-LaTeX Warning: Float too large for page by 111.5769pt on input line 26.
+LaTeX Warning: Float too large for page by 166.1209pt on input line 26.
 
-) [145
+)
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
-] [146 <./figure/distributions/NP_Shape_ElecSF_BVeto_mmc.pdf> <./figure/distrib
-utions/NP_Shape_ElecLowPt_BVeto_mmc.pdf> <./figure/distributions/NP_Shape_ElecZ
-ee_BVeto_mmc.pdf>] (./tesi.aux)
+
+[179
+
+]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[180 <./figure/distributions/NP_Shape_ElecSF_BVeto_mmc.pdf> <./figure/distribut
+ions/NP_Shape_ElecLowPt_BVeto_mmc.pdf> <./figure/distributions/NP_Shape_ElecZee
+_BVeto_mmc.pdf>] (./tesi.aux)
 
  *File List*
-    book.cls    2007/10/19 v1.4h Standard LaTeX document class
-    bk12.clo    2007/10/19 v1.4h Standard LaTeX file (size option)
+ scrbook.cls    2009/07/24 v3.04a KOMA-Script document class (book)
+scrkbase.sty    2009/07/24 v3.04a KOMA-Script package (KOMA-Script-dependent ba
+sics and keyval usage)
+ scrbase.sty    2009/07/24 v3.04a KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
+scrlfile.sty    2009/03/25 v3.03 KOMA-Script package (loading files)
+tocbasic.sty    2009/06/08 v3.03b KOMA-Script package (handling toc-files)
+scrsize12pt.clo    2009/07/24 v3.04a KOMA-Script font size class option (12pt)
+typearea.sty    2009/07/24 v3.04a KOMA-Script package (type area)
 subfigure.sty    2002/03/15 v2.1.5 subfigure package
 subfigure.cfg
  amsmath.sty    2000/07/18 v2.13 AMS math features
@@ -1826,7 +2616,6 @@ mathrsfs.sty    1996/01/01 Math RSFS package v1.0 (jk)
  authblk.sty    2001/02/27 1.3 (PWD)
 rotating.sty    2009/03/28 v2.16a rotated objects in LaTeX
 graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
 graphics.sty    2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
     trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
 graphics.cfg    2009/08/28 v1.8 graphics configuration of TeX Live
@@ -1865,13 +2654,18 @@ enumitem.sty    2009/05/18 v2.2 Customized lists
     cite.sty    2009/08/29  v 5.2
 geometry.sty    2010/09/12 v5.6 Page Geometry
 geometry.cfg
+appendix.sty    2009/09/02 v1.2b extra appendix facilities
+fancyhdr.sty    
 supp-pdf.mkii
  nameref.sty    2007/05/29 v2.31 Cross-referencing by name of section
 refcount.sty    2008/08/11 v3.1 Data extraction from references (HO)
     tesi.out
     tesi.out
+titlepage_tum.tex
+logos/TUMLogo_oZ_Outline_blau_CMYK.pdf
    ursfs.fd    1998/03/24 rsfs font definition file (jk)
    uwasy.fd    2003/10/30 v2.0 Wasy-2 symbol font definitions
+abstract.tex
    intro.tex
  t_intro.tex
 feyn_diagrams/diagrams/couplingHVV.pdf
@@ -1975,6 +2769,8 @@ figure/trackjet/T7/inef_10cent_eff_5S.pdf
 figure/trackjet/T7/inef_10cent_pt_3S.pdf
 figure/trackjet/T7/inef_10cent_pt_4S.pdf
 figure/trackjet/T7/inef_10cent_pt_5S.pdf
+conclusions.tex
+    akno.tex
     tesi.bbl
 appendix_qcd.tex
 figure/appendix/trigger_comp.png
@@ -2050,13 +2846,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8128 strings out of 493848
- 126999 string characters out of 1152823
- 226742 words of memory out of 3000000
- 10564 multiletter control sequences out of 15000+50000
+ 9586 strings out of 493848
+ 151219 string characters out of 1152823
+ 270863 words of memory out of 3000000
+ 11950 multiletter control sequences out of 15000+50000
  23363 words of font info for 90 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,16n,41p,1412b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,16n,44p,1419b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
@@ -2078,9 +2874,9 @@ cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/
 texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/wasy/wasy10.pfb>
-Output written on tesi.pdf (146 pages, 5771000 bytes).
+Output written on tesi.pdf (180 pages, 5831041 bytes).
 PDF statistics:
- 4935 PDF objects out of 5155 (max. 8388607)
- 560 named destinations out of 1000 (max. 500000)
- 1342 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5084 PDF objects out of 5155 (max. 8388607)
+ 596 named destinations out of 1000 (max. 500000)
+ 1371 words of extra memory for PDF output out of 10000 (max. 10000000)
 

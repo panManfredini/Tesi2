@@ -72,26 +72,24 @@ and the other related to the reconstruction of low momentum electrons ("Electron
 All other uncertainties related to energy scale and resolution are combined quadratically ("Electron E").
 
 \paragraph{Muons}
-The uncertainty in muon identification efficiency depends on the charge and momentum of the muon.
-Typically these uncertainties are of the order of a fraction of percent, and are referred as "Muon ID". 
-The uncertainties on the muon energy scale and resolution are considered independently for the inner detector 
-and muon spectrometer measurements and are hen  added in quadrature to estimate the final uncertainty ("Muon E").
+The uncertainty in the  muon identification efficiency depends on the charge and momentum of the muon.
+Typically these uncertainties are on the order of a fraction of percent, and are referred to as "Muon ID". 
+The uncertainties in the muon energy scale and resolution are considered independently for the inner detector 
+and muon spectrometer measurements and are then  added in quadrature ("Muon E").
 
-\paragraph{Taus-Jets}
-The jets from the hadronically decaying $\tau$ leptons are only considered 
-in the analysis by applying a veto on their presence in an event. Uncertainties on both $\tau$-jet energy scale 
-and identification efficiency have been investigated and are found to be negligible for this analysis.
+\paragraph{$\tau$-Jets}
+Jets from  hadronically decaying $\tau$ leptons are vetoed in this analysis. Uncertainties in both the $\tau$-jet energy scale 
+and the identification efficiency have been investigated and were found to be negligible.
 
 \paragraph{Jets}
-The systematic uncertainties on the Jet Energy Scale (JES) are described by multiple sets of nuisance parameters~\cite{JES}
-related to different effects and jet energy components, for example the sensitivity to pileup effects or
-to the flavour composition of the jet. The overall uncertainty on the JES ranges 
-between 3\% and 7\%, depending on the $\pt$ and $\eta$ of the jet. 
-The overall impact of the JES uncertainty on the analysis yields is shown in Tables~\ref{tab:ExpSys:btag} and~\ref{tab:ExpSys:bveto}
-by summing all component in quadrature, while in the statistical interpretation of data
-those uncertainties are considered uncorrelated.
-Systematic uncertainty due to the jet resolution ("Jet Resolution") are obtained by smearing the jet energy 
-according to the measured  uncertainty which ranges from 10-20\% depending on the direction of the jet.
+The systematic uncertainties in the jet energy scale (JES) are described by multiple sets of nuisance parameters~\cite{JES}
+related to different effects and jet energy components, for example  pileup effects and the flavour composition of the jets. 
+The overall uncertainty in the JES ranges from  3 to 7\% depending on $\pt$ and $\eta$ of the jet. 
+The overall impact of the JES uncertainty on the event yields as shown in Tables~\ref{tab:ExpSys:bveto} and~\ref{tab:ExpSys:btag}
+is determined adding all contribution in quadrature, while in the statistical interpretation of data
+those uncertainties are considered independently.
+Systematic uncertainties due to the jet energy resolution ("Jet Resolution") are obtained by smearing the jet energy 
+according to the measured  uncertainty which ranges from 10 to 20\% depending on the jet direction.
 %The recommendation \cite{TWIKI_JETMET} to propagate each individual 
 % source of uncertainty through the full analysis is followed. In this analysis the reduced set of fourteen uncertainties, know as 
 % \verb=InsituJES2012_14NP=, have been considered: these include two uncertainties for eta inter calibration, four pile-up 
@@ -128,7 +126,7 @@ added in quadrature, this final term is referred to as the "MET" uncertainty.
   \centering
   \begin{tabular}{lccccc}
     \hline\hline
-      	      		   \multicolumn{6}{c}{ b-vetoed event category,  Uncertainties on event yields (\%)}  \\
+      	      		   \multicolumn{6}{c}{  Systematic uncertainties in event yields (\%), b-vetoed  category}  \\
      \hline
       Source             & Signal bbH & Signal ggH & \Ztautau &  Top 	& Other	 \\
     \hline
@@ -143,7 +141,7 @@ Trigger Dilep.	  	 &1.0		   &1.0		     &1.3	     &0.2	&0.3	 \\
 Embedding MFS	  	 &-		   &-		     &0.1 (\bf{s})   &-		&-	 \\
 Embedding Iso.	  	 &-		   &-		     &0.0 (\bf{s})   &-		&-	 \\
 JES		  	 &0.6		   &0.7		     &-		     &1.0	&1.2	 \\
-JER		  	 &0.5		   &0.3		     &-		     &0.6	&0.3	 \\
+Jet Resolution  	 &0.5		   &0.3		     &-		     &0.6	&0.3	 \\
 B Eff		  	 &1.8		   &0.0		     &-		     &12.0	&0.8	 \\
 C Eff	  		 &0.0		   &0.1		     &-		     &0.1	&0.0	 \\
 L Eff	  		 &0.0		   &0.1		     &-		     &0.2 	&0.1	 \\
@@ -156,12 +154,11 @@ Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
     \hline
     \hline
   \end{tabular}
-  \caption{Impact of the experimental systematic uncertainties on the event yields in different
-	simulated samples in the b-vetoed event category. Here "Other" refers to the sum of all remaining background 
-	samples: $\Wlnu$, 
-	dibosons, $\Zll$ and single top quark processes. The signal produced in association with b-quarks  and via 
-	gluon fusion is considered separately assuming $m_{A}=150$ GeV and $\tan\beta=20$. 
-	Uncertainty that impacts the \mmc mass distribution are noted with the symbol (\textbf{s}).} 
+  \caption{Experimental systematic uncertainties in the event yields of the different
+	simulated samples in the b-vetoed  category. "Other" refers to the sum of all remaining background contribution from: $\Wlnu$, 
+	dibosons, $\Zll$ and single top quark processes. The Signal produced in association with b-quarks  and via 
+	gluon fusion is considered separately assuming $m_{A}=150$ GeV and $\tan\beta=20$ in the $m_h^{mod}$ scenario. 
+	Uncertainty influencing the shape of the  \mmc distribution labelled with (\textbf{s}).} 
  \label{tab:ExpSys:bveto}
 \end{table}
 
@@ -170,7 +167,7 @@ Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
   \centering
   \begin{tabular}{lccccc}
     \hline\hline
-      	      		   \multicolumn{6}{c}{ b-tagged event  category, Uncertainties on event yields (\%)}  \\
+      	      		   \multicolumn{6}{c}{  Systematic uncertainties in event yields (\%), b-tagged  category}  \\
      \hline
       Source             & Signal bbH 	   & Signal ggH      & \Ztautau      &  Top 	& Other	 \\
     \hline
@@ -185,7 +182,7 @@ Trigger Dilepton  	 &1.0		   &1.2		     &1.4	     &0.6	&0.6	 \\
 Embedding MFS	  	 &-		   &-		     &0.0	     &-		&-	 \\
 Embedding Iso.	  	 &-		   &-		     &1.3	     &-		&-	 \\
 JES		  	 &2.7		   &7.3		     &-		     &10.0	&7.0	 \\
-JER		  	 &1.4		   &6.3		     &-		     &2.9	&3.0	 \\
+Jet Resolution	  	 &1.4		   &6.3		     &-		     &2.9	&3.0	 \\
 B Eff		  	 &10.2		   &3.1		     &-		     &2.6	&5.0	 \\
 C Eff		  	 &0.2		   &4.3		     &-		     &0.0	&1.2	 \\
 L Eff		  	 &0.4		   &8.0		     &-		     &0.1	&1.2	 \\
@@ -198,11 +195,10 @@ Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
     \hline
     \hline
   \end{tabular}
-  \caption{Impact of the experimental systematic uncertainties on the event yields in different
-	simulated samples in the b-taged event category. Here "Other" refers to the sum of all remaining background 
-	samples: $\Wlnu$, 
-	dibosons, $\Zll$ and single top quark processes. The signal produced in association with b-quarks  and via 
-	gluon fusion is considered separately assuming $m_{A}=150$ GeV and $\tan\beta=20$.} 
+  \caption{Experimental systematic uncertainties in the event yields of the different
+	simulated samples in the b-tagged category. "Other" refers to the sum of all remaining background contribution from: $\Wlnu$, 
+	dibosons, $\Zll$ and single top quark processes. The Signal produced in association with b-quarks  and via 
+	gluon fusion is considered separately assuming $m_{A}=150$ GeV and $\tan\beta=20$ in the $m_h^{mod}$ scenario.} 
 
   \label{tab:ExpSys:btag}
 \end{table}
@@ -216,25 +212,25 @@ Luminosity	  	 &2.8 		   &2.8	 	     &2.8 	     &2.8 	&2.8 	 \\
 
 
 \begin{table} [!t]
+\caption{Cross-section uncertainties for signal and background  processes assuming $\tan\beta = 20$ for all signal samples.} \vspace{3mm}
 \centering
 \begin{tabular}{c c c }
 \hline
 \hline
-Generator & Process & Uncertainty \\ [0.5ex]
+Process 					&  Generator		& Uncertainty (\%) \\ [0.5ex]
 \hline
-ALPGEN & $Z \rightarrow \tau\tau / ee /\mu\mu$ & $\pm 5\%$ \\
-POWHEG & \ttbar					& $\pm 5.5\%$\\
-ALPGEN & $W  \rightarrow \tau\nu / e\nu /\mu\nu$&  $\pm  5\%$ \\
-AcerMC & single top & $\pm 13 \%$ \\
-HERWIG & dibosons & $\pm 6 \%$ \\
-SHERPA & $bbA$/$h$/$H$  ($m_{A} \ge 120$~GeV)     & $-(<20)$\%,  $+(<9)$ \%\\
-SHERPA & $bbA$/$h$/$H$  ($m_{A} =   110$~GeV)     & $-(<25)$\%,  $+(<9)$ \%\\
-SHERPA & $bbA$/$h$/$H$  ($m_{A} =   100$~GeV)     & $-(<28)$\%,  $+(<9)$ \%\\
-SHERPA & $bbA$/$h$/$H$  ($m_{A} =    90$~GeV)     & $-(<30)$\%,  $+(<9)$ \%\\
-POWHEG & $ggA$/$h$/$H$  ($m_{A} \le 300$~GeV)     & $<$ 15\%\\  [0.5ex]
+ $Z \rightarrow \tau\tau / ee /\mu\mu$ 		& ALPGEN		&  $\pm 5$ \\ [0.5ex]
+ \ttbar						& POWHEG		&  $\pm 5.5$\\ [0.5ex]
+ $W  \rightarrow \tau\nu / e\nu /\mu\nu$	& ALPGEN		&  $\pm  5$ \\ [0.5ex]
+ single top 					& MC@NLO / AcerMC	&  $\pm 7 ~ / ~\pm 13 $ \\ [0.5ex]
+ dibosons 					& HERWIG		&  $\pm 6 $ 		\\ [0.8ex]
+ $bbA$/$h$/$H$  ($m_{A} \ge 120$~GeV)     	& SHERPA		&  $_{-20}^{+9}$	\\ [0.8ex]
+ $bbA$/$h$/$H$  ($m_{A} =   110$~GeV)     	& SHERPA		&  $_{-25}^{+9}$	\\ [0.8ex]
+ $bbA$/$h$/$H$  ($m_{A} =   100$~GeV)     	& SHERPA		&  $_{-28}^{+9}$	\\ [0.8ex]
+ $bbA$/$h$/$H$  ($m_{A} =    90$~GeV)     	& SHERPA		&  $_{-30}^{+9}$	\\ [0.8ex]
+ $ggA$/$h$/$H$  ($m_{A} \le 300$~GeV)     	& POWHEG		&  $\pm 15$		\\[0.5ex]
 \hline \hline 
 \end{tabular}
-\caption{Cross-section uncertainties for background and signal processes, $\tan\beta = 20$ is assumed for all signal samples.}
 \label{table:sys_xsec}
 \end{table}
 
@@ -245,25 +241,25 @@ Table~\ref{table:sys_xsec}. These
 uncertainties include contributions due to parton distribution
 functions (PDFs), the choice of the value of the strong coupling constant,
 the renormalisation and factorisation scales.  Furthermore, the
-uncertainties on the signal cross-section depend on the  $\tan\beta$ value, the nature of the 
+uncertainties on the signal cross-section depend on the  $\tan\beta$ value, the type of  
 Higgs boson ($A$/$h$/$H$) and its mass.
 
-The impact  of systematic uncertainties due to various Monte Carlo tuning
-parameters for the description of the  underlying event and
-lepton kinematic properties is considered.
-Since the distribution of the invariant mass of all visible $\tau$ lepton decay products is found to be not affected by these systematic,
-uncertainties
+The  systematic uncertainties due to Monte Carlo tuning
+parameters for the description of the  underlying event,
+of lepton kinematical properties and parton density functions have been studied.
+Since the distribution of the invariant mass of all visible $\tau$ lepton decay 
+products is found not to be affected by these systematic uncertainties,
 % as an example see
 %Figure~\ref{fig:theory_mass}, 
-only the variation in the acceptance is considered as a systematic uncertainty.
+only the impact on the acceptance is considered.
 The acceptance uncertainties for the simulated ALPGEN $\Ztautau$  sample, which is 
 used for the normalization of the embedded sample, 
 are estimated at the common selection stage to be 4\% \cite{2010SMLLSupportNote}.
 %\footnote{A bit old result, to be reviewed. Depends also on the
 %embedding choice}
 Since additional selection criteria  are applied directly to the embedded sample, 
-no further acceptance uncertainties are considered. Acceptance uncertainties on the yield of 
-$t\bar{t}$ simulated events are estimated to be  2\%~\cite{ttbaremu}. %\textcolor{red}{still to be added}.
+no further acceptance uncertainties are considered. Acceptance uncertainties in the yield of 
+simulated $t\bar{t}$ events are estimated to be  2\%~\cite{ttbaremu}. %\textcolor{red}{still to be added}.
 %evaluated
 %\footnote{also here is not totally clear yet} 
 %by the difference between MC@NLO and POWHEG in
@@ -271,21 +267,21 @@ $t\bar{t}$ simulated events are estimated to be  2\%~\cite{ttbaremu}. %\textcolo
 %For other, single and dibosons
 %production as well as single top production a 2\% uncertainty is
 %assumed.
-The acceptance uncertainties on dibosons and single top quark production are estimated to be 2\%~\cite{2010SMLLSupportNote}.
+The acceptance uncertainties in diboson and single top quark production are estimated to be 2\%~\cite{2010SMLLSupportNote}.
 %\footnote{preliminary, this is following LEP-Had note, we
 %  should cite some previous result here.}.
 
-Uncertainties on the signal acceptance have been estimated with signal 
-samples produced  varying generator parameters. The impact on the selection
- of leptons, $\tau$-jet  and jets is evaluated at the particle level, prior to 
+Uncertainties in the signal acceptance have been estimated using signal 
+samples simulated with different generator parameters. The impact on the selection
+ of leptons, $\tau$-jets  and jets is evaluated at the particle level, prior to 
 simulation of the detector response. This truth-level study is implemented within the Rivet framework
 \cite{RIVET}, where the b-tagging is performed by identifying the b-quarks and applying
  weights according to the measured ATLAS b-tagging
 efficiencies \cite{BtaggingScaleFactors}. The variation of the acceptance
 with respect to the nominal Monte Carlo tune has  been considered as
-a source of systematic uncertainty. For signal a total acceptance 
-uncertainty varies from 4\% to 30\% depending on $\mA$, production process 
-and on the analysis category.
+a source of systematic uncertainty. The total signal acceptance 
+uncertainty varies from 4\% to 30\% depending on $\mA$, on the production process 
+and event category.
 
 %The acceptance uncertainties of the two signal production modes are
 %evaluated separately because of the use of different generators for each. For
@@ -374,7 +370,7 @@ and on the analysis category.
 %
 
 
-\subsection{Systematic Uncertainties of the \Ztautau Embedded Sample}\label{sec:embsys}
+\subsection{Systematic Uncertainties of  \Ztautau Embedded Sample}\label{sec:embsys}
 
 An important element of the embedding method is the subtraction of the 
 calorimeter cells associated with the muons in the original \Zmumu event and their substitution with those from the simulated $\tau$ lepton
