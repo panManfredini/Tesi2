@@ -23,7 +23,7 @@
 \contentsline {subsection}{\numberline {3.2.1}The ATLAS coordinate system}{35}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}The Inner Detector}{38}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}The Calorimeter System}{40}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}The Muon Spectrometer}{41}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.4}The Muon Spectrometer}{42}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}The Trigger System}{43}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}Luminosity Measurement}{44}{subsection.3.2.6}
 \contentsline {chapter}{\numberline {4}Reconstruction of Physics Objects}{45}{chapter.4}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  18 JUL 2014 19:57
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.14)  19 JUL 2014 00:05
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -970,10 +970,10 @@ Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 [34
 
 
-] <figure/LHC2.jpg, id=964, 486.618pt x 490.4724pt>
+] <figure/LHC2.jpg, id=961, 486.618pt x 490.4724pt>
 File: figure/LHC2.jpg Graphic file (type jpg)
  <use figure/LHC2.jpg>
-<figure/ATLAS.jpeg, id=968, 810.52812pt x 520.94624pt>
+<figure/ATLAS.jpeg, id=965, 810.52812pt x 520.94624pt>
 File: figure/ATLAS.jpeg Graphic file (type jpg)
  <use figure/ATLAS.jpeg>
 Overfull \vbox (4.07489pt too high) has occurred while \output is active []
@@ -995,28 +995,26 @@ File: figure/Inner_detector.jpg Graphic file (type jpg)
 Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
 
-[38] <figure/Calo.png, id=995, 1150.2975pt x 758.835pt>
+[38]
+Overfull \vbox (4.07489pt too high) has occurred while \output is active []
+
+
+[39 <./figure/Inner_detector.jpg>]
+<figure/Calo.png, id=999, 1150.2975pt x 758.835pt>
 File: figure/Calo.png Graphic file (type png)
  <use figure/Calo.png>
 Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
 
-[39 <./figure/Inner_detector.jpg>]
+[40]
 Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
 
-[40 <./figure/Calo.png (PNG copy)>]
-<figure/muonSpec.png, id=1008, 1303.11844pt x 981.6675pt>
+[41 <./figure/Calo.png (PNG copy)>]
+<figure/muonSpec.png, id=1012, 1303.11844pt x 981.6675pt>
 File: figure/muonSpec.png Graphic file (type png)
 
 <use figure/muonSpec.png>
-Overfull \vbox (4.07489pt too high) has occurred while \output is active []
-
-
-[41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (4.07489pt too high) has occurred while \output is active []
 
 
@@ -2853,7 +2851,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  9593 strings out of 493848
  151318 string characters out of 1152823
- 271164 words of memory out of 3000000
+ 271147 words of memory out of 3000000
  11953 multiletter control sequences out of 15000+50000
  23363 words of font info for 90 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -2879,7 +2877,7 @@ cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/
 texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/wasy/wasy10.pfb>
-Output written on tesi.pdf (180 pages, 5835209 bytes).
+Output written on tesi.pdf (180 pages, 5834588 bytes).
 PDF statistics:
  5100 PDF objects out of 5155 (max. 8388607)
  600 named destinations out of 1000 (max. 500000)
