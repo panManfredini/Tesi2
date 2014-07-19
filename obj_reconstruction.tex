@@ -2,13 +2,12 @@
 \newgeometry{left=4.2cm, right=3.9cm,bottom=4cm} %, top=3cm}
 \chapter{Reconstruction of Physics Objects}\label{chap:obj} \vspace{2cm}
 
-The raw ATLAS  data, containing  detectors signals of all  read-out channels, need to
- undergo  several reconstruction steps before they can be analyzed. Reconstruction software is developed 
- within the object oriented ATLAS reconstruction software framework ATHENA~\cite{Athena}, which allow for reconstruction and 
-identification of various objects corresponding to physics particles traversing the detector.
-
-
-This chapter briefly describes the ATLAS reconstruction strategies for physics objects relevant for the
+The raw ATLAS  data containing  signals of all detector read-out channels, need to
+undergo  several reconstruction steps before they can be analyzed. The event reconstruction software is 
+implemented in the ATLAS  software framework ATHENA~\cite{Athena}.
+% which allow for reconstruction and 
+%identification of various objects corresponding to physics particles traversing the detector.
+This chapter describes the procedure for the  reconstruction  of physics objects relevant for the
 analysis presented in this thesis.
 For a detailed overview of the ATLAS detector reconstruction software  see~\cite{AtlasCSCBook}. 
 
@@ -24,7 +23,7 @@ the $z$ coordinate of the track calculated at the same point of closest approach
 
 
 Tracks are reconstructed  by the inner detector track reconstruction software~\cite{IDtracking}.
-At first raw data from the pixel and SCT detectors are transformed in three-dimensional space points 
+First raw data from the pixel and SCT detectors are transformed into three-dimensional space points 
 (so called ``hits''), while the  TRT detector information is translated into drift circles. 
 Subsequently, track seeds are formed from a combination of space-points in the three pixel layers and the first SCT layer. These
 seeds are then extrapolated through the SCT to form track candidates  from all hits on the track path. The track candidates are obtained by a 
@@ -194,7 +193,7 @@ photon, Z boson or another jet~\cite{jesinsitu, JES}. Systematic uncertainties o
 imperfect Monte Carlo modelling are evaluated to range from 1-6\% depending on the jet $\pt$ and pseudorapidity.
 
 
-\section{Identification of Jets from b-quarks}
+\section{Identification of b-Jets}
 The typical decay length of a b-hadron in the  ATLAS detector is of the order of few millimetres. Exploiting the high precision of the
 inner detector tracker it is possible to discriminate between the  jets originating from b-quarks 
 and those from other quarks or gluons (also referred to as light-jets). The identification technique used for this purpose is called \emph{b-tagging}
@@ -295,13 +294,13 @@ as function of the lepton pseudorapidity and transverse  momentum to match the s
 with the one in  data~\cite{triggermu,triggere}.
 
 \section{Truth Particles}
-In case of a simulated event, the ATLAS reconstruction software provides the generator-level information regarding
-simulated particles (also called \emph{truth particles}). Their identity, kinematic properties, decays and 
-interactions are stored in the event  based on the conventions defined in~\cite{hepmc}.
-A particle is defined stable if $c \tau > 1$~m, where $\tau$ is its mean life time. Particle emerging from 
-interaction with the detector are excluded from this definition. 
-Each particle has an associated ``bar-code'' which is a unique identifier for that particle
-in that event. Jets reconstructed with the common ATLAS reconstruction algorithm from stable particles are called \emph{truth jets}.
+For simulated events, the ATLAS reconstruction software provides information about the generated 
+particles (called \emph{truth particles}). The irrticle type, the kinematic properties, decays and 
+interactions are recorded following the conventions  in~\cite{hepmc}.
+A particle is defined as stable if $c \tau > 1$~m, where $\tau$ is its mean life time. Particles emerging from 
+interactions in the detector are excluded from this definition. 
+Each particle in the event has a unique identifier (so-called ``bar-code''). 
+Jets reconstructed from stable particles are called \emph{truth jets}.
 
 
 

@@ -1,28 +1,30 @@
 \newgeometry{left=4.2cm, right=3.9cm,bottom=4cm} %, top=3cm}
-\chapter{Prospects for Improved Higgs Search with b-tagging of Track-Jet} \label{chap:trackjet}
+\chapter{Improvements to the MSSM Higgs Boson Search Using Track-Jets} \label{chap:trackjet}
 %\chapter[Prospects For Higgs Search Improvements]{Prospects for Improved Higgs Search with b-tagging of Track-Jet} \label{chap:trackjet}
 
 The search for the neutral MSSM Higgs bosons described in the previous chapter
-suffers strongly from poor b-tagging performance due to the relatively low energy of
-the b-jet produced in association with the signal.
-Improvements on the b-tagging performance would result in a major improvement of the search sensitivity. 
-This chapter investigates an alternative b-jet identification procedure in which the b-tagging algorithm is applied on 
-track-based jets instead on the commonly used calorimeter jets. While the calorimeter jets are reconstructed
+suffers  from  relatively poor b-tagging performance due to the relatively low energies of
+the b-jets produced in association with the Higgs bosons.
+Improvements to the b-tagging performance would result in a major improvement of the signal sensitivity. 
+In this chapter an alternative b-jet identification procedure is studied where  the b-tagging algorithm is applied to 
+track-based jets instead of the commonly used calorimeter jets. While the calorimeter jets are reconstructed
 from the energy clusters in the calorimeter, the track-based jets consist of inner detector tracks.
-The performance of the b-tagging on track-based jets is investigated for the first time.
-The prospects for improvements of the neutral MSSM Higgs bosons search due to the employment of track-based jets
-for b-tagging are reported. In Section~\ref{sec:tj_intro} the challenges of the MSSM Higgs boson search due to b-tagging
-are presented along with a description of track-based jet reconstruction. 
-Section~\ref{sec:tj_perf} describes the performance of the  b-tagging algorithms with track-based jets in comparison 
-to the nominal b-tagging with calorimeter jets. Preliminary evaluation of the corresponding impact on the
-analysis is also described here. Finally, in Section~\ref{sec:trackjetsys} a description of the related 
-track-based jets systematic uncertainty is given.
+The performance of the b-tagging for track-based jets have been investigated here for the first time.
+The prospects for improvements to the neutral MSSM Higgs boson search  by applying b-tagging to track-based jets
+are discussed. 
+
+In Section~\ref{sec:tj_intro} the challenges in the b-tagging for  the MSSM Higgs boson search are explained
+togheter with a description of the track-based jet reconstruction. 
+In Section~\ref{sec:tj_perf} the performance of the  b-tagging algorithms to track-based jets is described 
+in comparison with the b-tagging performance for calorimeter jets. Preliminary evaluation of the impact on the
+analysis presented in this thesis is discussed. Finally, in Section~\ref{sec:trackjetsys} 
+systematic uncertainties related to track-based jets are discussed.
 
 
 \restoregeometry
 \clearpage
 
-\section{Track-based Jets} \label{sec:tj_intro}
+\section{Track-Based Jets} \label{sec:tj_intro}
 
 \begin{figure}[tp]
      \begin{center}
@@ -31,9 +33,9 @@ track-based jets systematic uncertainty is given.
             \includegraphics[width=0.49\textwidth]{figure/trackjet/top_pt_distro.pdf}
 
     \end{center}
-    \caption{Simulated $\pt$ distribution of b-hadron for the neutral MSSM Higgs boson produced in association with b-quarks (left) 
-	and for $\ttbar$ events (right). The red line in the figure shows the acceptance region in which the energy of the calorimeter
-	jets can be calibrated.}
+    \caption{Simulated $\pt$ distribution of b-hadrons from b-quarks produced in association with the neutral MSSM Higgs boson 
+	(left) 	and from b-quarks jet in  $\ttbar$ events (right). 
+	The red line indicates the region in which the energy of the calorimeter jets can be calibrated.}
    \label{fig:bjetDistro}
 \end{figure}
 
@@ -95,6 +97,8 @@ applied to these jets.
 Table~\ref{tab:tackjetSample}  gives a list of the produced samples along with the type of studied performed with them.
 
 \begin{table}[tp]
+	\caption{Monte Carlo simulation samples.}  %%%%%da fare meglio !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	\vspace{3mm}
 \centering
 	\begin{tabular}{l c c}
 	\hline
@@ -109,7 +113,6 @@ Table~\ref{tab:tackjetSample}  gives a list of the produced samples along with t
 	\hline
 	\hline
 	\end{tabular}
-	\caption{Monte Carlo simulation samples.}  %%%%%da fare meglio !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	\label{tab:tackjetSample}
 \end{table}
 	
@@ -231,7 +234,7 @@ In conclusion, for jets with low transverse momentum the track-jets provide a hi
 b-hadron reconstruction efficiency than calorimeter jets and are more suitable  for 
 low $\pt$ b-tagging.
 
-\subsection{ Employment of Track-jet for the MSSM Higgs Boson Search} % A new Hope
+\subsection{ Use of Track-jets for the MSSM Higgs Boson Search} % A new Hope
 The impact of the track-jets selection on the search for the neutral MSSM Higgs bosons is tested in a 
 preliminary study and reported in the  following. 
 Common selection criteria,\footnote{This study has not been updated with the latest version of the object reconstruction 
@@ -263,6 +266,12 @@ as can be seen from an increase of $\Ztautau$ background. This may also lead to 
 QCD multi-jet background, even tough this is a minor background contribution in b-taged event category.
 
 \begin{table}[tp]
+	\caption{Event yield for the signal and dominant background processes after different event selection requirements.
+	The yields are shown separately for the calorimeter and the  track-based jet reconstruction.
+	The Higgs boson produced in association with b-quarks is simulated for  $\tan\beta=20$ and $m_A=150$~GeV. The yields
+		are normalized to an integrated luminosity of $1 ~ fb^{-1}$.}
+	\vspace{3mm}
+
 	\begin{footnotesize}
 	\begin{tabular}{p{3.0cm} |c c| c c| c c }
 	\hline
@@ -281,10 +290,6 @@ Exactly one b-tagged jet&	$10.2 \pm0.1$	&$21.0 \pm 0.6$	& $37.3 \pm 0.5$ &$107 \
 	
 	\end{tabular}
 	\end{footnotesize}
-	\caption{Event yield for the signal and dominant background processes after different event selection requirements.
-	The yields are shown separately for the calorimeter and the  track-based jet reconstruction.
-	The Higgs boson produced in association with b-quarks is simulated for  $\tan\beta=20$ and $m_A=150$~GeV. The yields
-		are normalized to an integrated luminosity of $1 ~ fb^{-1}$.}
 	\label{tab:tj_cj}
 \end{table}
 
@@ -306,7 +311,7 @@ systematic uncertainties of track-jet reconstruction need to be evaluated. A pre
 %I just need to reproduce one plot which is missing.
 
 
-\section{Systematic Uncertainties of Track-jet Reconstruction}\label{sec:trackjetsys}
+\section{Systematic Uncertainties of Track-Jet Reconstruction}\label{sec:trackjetsys}
 
 %why Energy scale...
 %Uncertainty on physics observable related to track-jets due to MC mismodeling needs to be evaluated,
