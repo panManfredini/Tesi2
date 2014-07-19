@@ -377,7 +377,7 @@ calorimeter cells associated with the muons in the original \Zmumu event and the
 decays. To make a conservative estimate of the systematic uncertainty on this procedure, 
 the energy of the subtracted cells is scaled up or down by 30\%. The analysis is repeated with those modified 
 samples and the relative uncertainty is referred as "EMB\_MFS". This uncertainty affects mainly the shape of the \mmc mass 
-distribution, shown in Figure~\ref{fig:EMBMFS}.
+distribution as shown in Figure~\ref{fig:EMBMFS}.
 
 
 \begin{figure}[tp]
@@ -385,8 +385,8 @@ distribution, shown in Figure~\ref{fig:EMBMFS}.
 	\includegraphics[width=0.49\textwidth]{figure/systematics/emb_sys_veto_MFS.pdf}
 	\includegraphics[width=0.49\textwidth]{figure/systematics/emb_sys_veto_iso.pdf}
 	\end{center}
-	\caption{Impact of EMB\_MFS (left) and EMB\_ISO (right) systematic uncertainties on the $\mmc$ mass distribution for in the  embedded sample.
-	Significant impact is observed only in the b-vetoed event category.}
+	\caption{Impact of EMB\_MFS (left) and EMB\_ISO (right) systematic uncertainties in the $\mmc$ distribution of  embedded events.
+	Significant uncertainty have been found only in the b-vetoed category.}
 	\label{fig:EMBMFS}
 \end{figure}
 
@@ -408,23 +408,21 @@ distribution, shown in Figure~\ref{fig:EMBMFS}.
 %   \label{fig:embeddingShapeNPs}
 %\end{figure}
 
-In the sample of  \Zmumu candidates used for the embedding,  only a loose requirement on the  muon track isolation is applied.
+In the sample of  \Zmumu candidates used for the embedding,  only a loose requirement on the  muon track isolation is used.
 A different  muon isolation requirement may affect the selected sample by modifying the topology of the event, 
 % since the requirement is indirectly acting also on the muon \PT, 
 changing the contamination with other processes or the activity in the calorimeter. 
 To estimate  the importance of these effects in the
-embedded sample, the muon isolation criteria used in  the original \Zmumu sample are tightened,
-while an even 
-%to $\ptcone 40/ \PT<0.06$ 
-%and $\etcone 20/ \PT<0.04$, rather than the nominal selection of only $\ptcone 20/ \PT<0.2 $. 
-looser selection would have a rather small impact due to  isolation requirements at the trigger level.
+embedded sample, the muon isolation criteria used for  the original \Zmumu sample are tightened,
+a looser requirement have a  small impact due to the isolation requirements at the trigger level.
 The resulting uncertainty, referred to as "EMB\_ISO", affects both the event yield and the shape of 
-the \mmc mass distribution in the embedded sample, as shown in Figure~\ref{fig:EMBMFS}. 
+the \mmc  distribution of the embedded sample as shown in Figure~\ref{fig:EMBMFS}. 
 
-Finally, because the normalization of the embedded sample is determined from the simulated ALPGEN sample, 
-the uncertainties related to the cross section and to luminosity are assigned. In addition
-all detector-related systematic uncertainties relevant to the decay products of the simulated $\tau$ lepton 
-decay are propagated to the embedded sample.
+Finally, because the normalization of the embedded sample is determined from the ALPGEN simulation, 
+the uncertainties related to the cross section calculation and the luminosity are assigned. In addition,
+all the discussed detector-related systematic uncertainties affecting the decay products of the simulated $\tau$ lepton 
+decays are propagated to the embedded sample.
+
  
 %\begin{figure}[tp]
 %	\begin{center}
@@ -435,7 +433,14 @@ decay are propagated to the embedded sample.
 %\end{figure}
 
 \subsection{QCD Multi-Jet Systematic Uncertainties}\label{sec:qcdsys}
+
 \begin{table} [!tp]
+	  \caption{Comparison between the transition factor \rqcd, $\rqcd^{AB}$ and $R_{QCD}^{iso}$ after the common selection 
+	and after b-tag or b-veto requirements on jets. 
+	The value of $\rqcd^{iso}$ is calculated for a  lepton isolation threshold which is twice the nominal value,
+	while  for  $\rqcd^{AB}$ and \rqcd the nominal values are given. The uncertainties are statistical only.}
+	\vspace{3mm}
+
 	\begin{center}
 	\begin{tabular}{l  c c c }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -443,48 +448,44 @@ decay are propagated to the embedded sample.
 \hline
 Selection  		&  \rqcd  			&  $\rqcd^{AB}$  		&  $R_{QCD}^{iso}$ \\ 
 \hline
-common selection 		&   1.929 $\pm$     0.004	&	2.12 $\pm$ 0.17		&	2.22 $\pm$ 0.16	\\
+Common selection 		&   1.929 $\pm$     0.004	&	2.12 $\pm$ 0.17		&	2.22 $\pm$ 0.16	\\
 No b-tagged jets		&  1.965   $\pm$   0.005    	& 2.10   $\pm$	0.16 		&	2.22 $\pm$ 0.16	\\
 Exactly one b-tagged jet	&  1.78    $\pm$   0.02 	& 1.9   $\pm$	0.9 		&	2.0  $\pm$ 0.8	\\
 \hline
 \hline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\end{tabular}
-	  \caption{Comparison between \rqcd, $\rqcd^{AB}$ and $R_{QCD}^{iso}$ after the common selection stage and after requiring
-	or vetoing the presence of b-tagged jets. Only the statistical uncertainty is reported here.
-	The value of $\rqcd^{iso}$ is reported for for the lepton isolation threshold which is twice the nominal value,
-	while  for  $\rqcd^{AB}$ and \rqcd the nominal values are reported. }
 	\label{table:MCsub}
 	\end{center}
 \end{table}
 
-The QCD multi-jet background is estimated via the ABCD method, as
+The QCD multi-jet background is estimated via the ABCD method as
 described in Section~\ref{sec:qcd}. This technique relies strongly on
-the assumption that the lepton isolation variables are uncorrelated to the relative
-charge of the two leptons. Systematic uncertainties
-are assigned to take into account possible deviations from this assumption.
-First the correlation between the ratio  \rqcd and the lepton isolation criteria is considered,
-then the result is compared with an auxiliary measurement. 
+the assumption that the lepton isolation variables are uncorrelated with the product of the
+charge signs of the two leptons. Systematic uncertainties
+are evaluated to take into account possible deviations from this assumption.
+The dependence of the ratio  \rqcd on the lepton isolation criteria is evaluated and then
+compared to the uncertainties obtained with auxiliary measurements. 
 
-Figure~\ref{fig:os_ss_ratio} shows the \rqcd factor, i.e. the ratio between the QCD 
+Figure~\ref{fig:os_ss_ratio} shows the \rqcd factor, i.e. the ratio of the QCD background 
 yields in data samples C and D, as a function of a sliding lepton isolation threshold relative to the 
-nominal analysis selection (red points).
+nominal analysis selection.
 %correlation is clearly visible. 
-As described previously, the expected contamination of  non-QCD background processes is subtracted from the data in samples C and D.
-To estimate the uncertainty on the value of \rqcd  an additional transfer factor is defined: $R_{QCD}^{iso}  = N_{\hat{A}} / N_{\hat{B}}$,
-where  $\hat{A}$ and $\hat{B}$  are semi-isolated OS and SS samples defined by requiring the lepton isolation to be  larger 
-than the nominal one, 
-but smaller than a given sliding threshold value (defined by the $X$-axis of the plot). Also here the non-QCD contributions are subtracted from the data yields.
+The expected contamination with  non-QCD background processes is subtracted from  samples C and D.
+To estimate the uncertainty in the value of \rqcd,  another transfer factor is defined as $R_{QCD}^{iso}  = N_{\hat{A}} / N_{\hat{B}}$,
+where  $\hat{A}$ and $\hat{B}$  are ``semi-isolated'' OS and SS samples with  the requirement on  the lepton isolation to be  larger 
+than the nominal value, 
+but smaller than the sliding threshold defined by the $X$-axis of the plot. Also here the non-QCD contributions are subtracted.
 %$R_{QCD}^{iso}$ is an attempt to calculate a best estimate for the QCD transfer factor between isolated samples,
 %which is in definitive the goal of the ABCD method. 
-The semi-isolated samples $\hat{A}$ and $\hat{B}$ are chosen  
-given the high contamination with non-QCD background processes and with possible signal in data samples A and B. 
-Figure~\ref{fig:os_ss_ratio} shows $R_{QCD}^{iso}$ as a function of the relative lepton isolation threshold (black points).
+The semi-isolated samples $\hat{A}$ and $\hat{B}$ have been chosen  
+because of the large contamination of the samples A and B with non-QCD background and  possible signal processes. 
+Figure~\ref{fig:os_ss_ratio} shows $R_{QCD}^{iso}$ as a function of the relative lepton isolation threshold.
 The difference between \rqcd and $R_{QCD}^{iso} $ in the vicinity of the nominal isolation threshold
-is then assigned as a systematic uncertainty on \rqcd. For the lepton isolation threshold which is 
-twice the nominal value, a systematic uncertainty of 15\% is found.
-The result shown  in Figure~\ref{fig:os_ss_ratio} are obtained  after common selection. Similar results after the full analysis selection
-in the two event categories are shown in Appendix~\ref{appendix:qcd_additional}.
+is then assigned as a systematic uncertainty in \rqcd. For a lepton isolation threshold of 
+twice the nominal required value, a systematic uncertainty of 15\% is found.
+The result are shown  in Figure~\ref{fig:os_ss_ratio} after the common selection, similar results are obtained after the full 
+selection of the two event categories as shown in Appendix~\ref{appendix:qcd_additional}.
 
 %for the definition of lepton isolations used in this analysis, the ratio is calculated in samples where the isolation requirements are reversed. Due to a high contamination of signal and non-QCD backgrounds, "semi-isolated" OS and SS samples are additionally defined, where the lepton isolation is larger than the standard requirement, but less than a sliding cut. These samples are labelled $\hat{A}$ and $\hat{B}$  for the semi-isolated OS and SS samples, respectively, and hence we can define $R_{QCD}^{iso}  = \hat{A} / \hat{B}$. The difference between \rqcd and $R_{QCD}^{iso} $ in the vicinity of our standard cut value is then assigned as a systematic uncertainty on \rqcd. Using the point where the cuts on the lepton isolation are twice their standard values, i.e.. the $x=100\%$ point on the graph, a systematic uncertainty of 15\% is found.
 
@@ -493,13 +494,13 @@ in the two event categories are shown in Appendix~\ref{appendix:qcd_additional}.
 %this method is then only used as a cross check. Table~\ref{table:MCsub} shows a comparison between \rqcd and  $\rqcd^{AB}$
 %for the two category at an early stage of the cut-flow where signal contamination is negligible, agreement is seen within statistical uncertainties.
 
-As a test of the result described above an additional measurement is performed.
-The $\rqcd^{AB}$ is calculated as the ratio between the estimated QCD multi-jet contributions in samples A 
-and B instead of C and D. The non-QCD contributions are subtracted from data. Due to the large contribution of this non-QCD background, 
-along with small numbers of observed events and possible signal contamination, this measurement is only used for cross check. Table~\ref{table:MCsub} shows 
-a comparison between \rqcd, $\rqcd^{iso}$ and $\rqcd^{AB}$ after the common selection stage and after requiring
-or vetoing the presence of b-tagged jets,  at these selection stages the signal contamination is negligible. 
-Good agreement is seen between the results of these methods. 
+For validation of the results described above an additional measurement is performed.
+The transfer factor $\rqcd^{AB}$ is calculated as the ratio of the estimated QCD multi-jet contributions of the samples A 
+and B (instead of C and D). The non-QCD contributions are subtracted. Due to the large contribution of non-QCD background 
+along with small numbers of observed events and signal contamination, this measurement is only used as cross check. Table~\ref{table:MCsub} shows 
+a comparison of \rqcd, $\rqcd^{iso}$ and $\rqcd^{AB}$ after the common selection and after requiring
+or vetoing the presence of b-tagged jets.  At these selection stages the signal contamination is negligible. 
+Good agreement is found between all three results. 
 
 %\footnote{This effect is maybe due to the use of a \PT dependent isolation variable that effects the quark-gluon fraction.}.
 %Expectation for non-QCD backgrounds are subtracted as usual. 
@@ -527,15 +528,15 @@ Good agreement is seen between the results of these methods.
 %uncertainty to the \rqcd factor is conservative.
 
 
-The shape of the \mmc mass distribution differs between the OS and SS in 
-anti-isolated samples (C and D) as shown in Figure~\ref{fig:qcd_shape_unc}.
-The size of this effect is within the above \rqcd uncertainty for the  relevant mass range of the QCD multi-jet background (QCD multi-jet background
-contribution is negligible for $\mmc  > 150$ GeV) and hence no correction factor is applied to the mass shape of sample B. 
-It is assumed, however, that there could be the same 
-shape difference in the isolated samples and thus a shape uncertainty is  assigned to the mass distribution in 
-sample B to account for this  deviation. Further 
-shape uncertainties due to non-QCD background subtraction are found to be negligible. The uncertainty due to the use of an isolation 
-requirement at the trigger level is discussed in Appendix~\ref{appendix:qcd} and is found to be negligible.
+The shape of the \mmc distribution differs between the non-isolated  OS and SS lepton samples C and D as shown in Figure~\ref{fig:qcd_shape_unc},
+the ratio \rqcd is then dependent on the \mmc distribution.
+For the mass range in which the QCD multi-jet background is relevant ( $\mmc  < 150$~GeV),
+the size of this effect is within the uncertainty in  \rqcd,  hence no correction is applied to the shape of the mass distribution
+in sample B. However, it is assumed that there could be the same 
+shape difference in the isolated lepton samples. Thus, a shape uncertainty is  in the mass distribution in 
+sample B is taken into account. Further 
+shape uncertainties due to non-QCD background subtraction are found to be negligible. The uncertainty due to the use of the isolation 
+requirement at the trigger level is also found to be negligible as discussed in Appendix~\ref{appendix:qcd}\,.
 
 
 

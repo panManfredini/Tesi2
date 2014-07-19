@@ -33,7 +33,7 @@
 \contentsline {section}{\numberline {4.4}Muon Reconstruction}{50}{section.4.4}
 \contentsline {section}{\numberline {4.5}Jet Reconstruction and Energy Calibration}{51}{section.4.5}
 \contentsline {paragraph}{Energy Calibration}{52}{section*.7}
-\contentsline {section}{\numberline {4.6}Identification of Jets from b-quarks}{53}{section.4.6}
+\contentsline {section}{\numberline {4.6}Identification of b-Jets}{53}{section.4.6}
 \contentsline {section}{\numberline {4.7}Tau-Jet Reconstruction}{55}{section.4.7}
 \contentsline {section}{\numberline {4.8}Missing Transverse Energy }{55}{section.4.8}
 \contentsline {section}{\numberline {4.9}Overlap Removal}{56}{section.4.9}
@@ -71,25 +71,26 @@
 \contentsline {subsection}{\numberline {5.4.2}Theoretical Uncertainties}{98}{subsection.5.4.2}
 \contentsline {subsection}{\numberline {5.4.3}Systematic Uncertainties of \ensuremath {Z/\gamma ^*\rightarrow \tau \tau }\xspace Embedded Sample}{99}{subsection.5.4.3}
 \contentsline {subsection}{\numberline {5.4.4}QCD Multi-Jet Systematic Uncertainties}{101}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Results}{103}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Statistical Procedure }{103}{subsection.5.5.1}
-\contentsline {subsubsection}{The Likelihood Function}{103}{section*.20}
-\contentsline {subsubsection}{Statistical Combination of Results From Two Event Categories}{106}{section*.21}
-\contentsline {subsubsection}{The Test Statistic and the Exclusion Limits}{107}{section*.22}
-\contentsline {subsection}{\numberline {5.5.2}Exclusion Limits on the Signal Production}{108}{subsection.5.5.2}
-\contentsline {chapter}{\numberline {6}Prospects for Improved Higgs Search with b-tagging of Track-Jet}{115}{chapter.6}
-\contentsline {section}{\numberline {6.1}Track-based Jets}{117}{section.6.1}
+\contentsline {section}{\numberline {5.5}Results}{104}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Statistical Interpretation of the Data}{104}{subsection.5.5.1}
+\contentsline {subsubsection}{The Likelihood Function}{105}{section*.20}
+\contentsline {subsubsection}{Statistical Combination of Results}{106}{section*.21}
+\contentsline {subsubsection}{Exclusion Limit Computation}{106}{section*.22}
+\contentsline {subsubsection}{Significance Test of the Background Only Hypothesis}{108}{section*.23}
+\contentsline {subsection}{\numberline {5.5.2}Exclusion Limits on the Signal Production}{109}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {6}Improvements to the MSSM Higgs Boson Search Using Track-Jets}{115}{chapter.6}
+\contentsline {section}{\numberline {6.1}Track-Based Jets}{117}{section.6.1}
 \contentsline {section}{\numberline {6.2}Performance of the Track-based Jets}{120}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Track-based Jets Reconstruction}{120}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}B-tagging with Track-Based Jets}{121}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3} Employment of Track-jet for the MSSM Higgs Boson Search}{126}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Systematic Uncertainties of Track-jet Reconstruction}{129}{section.6.3}
+\contentsline {subsection}{\numberline {6.2.3} Use of Track-jets for the MSSM Higgs Boson Search}{126}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Systematic Uncertainties of Track-Jet Reconstruction}{129}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Material Budget Uncertainty on Track-Based Jets Reconstruction }{130}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Validation of the Track Subtraction Method}{132}{subsection.6.3.2}
 \contentsline {chapter}{\numberline {7}Summary and Conclusions}{139}{chapter.7}
 \enlargethispage {2\normalbaselineskip }
-\contentsline {chapter}{Acknowledgments}{143}{section*.23}
-\contentsline {chapter}{Bibliography}{145}{chapter*.24}
+\contentsline {chapter}{Acknowledgments}{143}{section*.24}
+\contentsline {chapter}{Bibliography}{145}{chapter*.25}
 \contentsline {chapter}{Appendix \numberline {A}QCD Trigger bias}{161}{Appendix.1.A}
 \contentsline {chapter}{Appendix \numberline {B}QCD Additional Plots}{163}{Appendix.1.B}
 \contentsline {chapter}{Appendix \numberline {C}Limits cross checks and additional plots}{165}{Appendix.1.C}

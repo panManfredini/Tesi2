@@ -718,6 +718,11 @@ Phys., 28, 2002.
 A. L. Read. \emph{Modified frequentist analysis of search results (the CLs method)}. In Proceedings
 of the First Workshop on Confidence Limits, CERN, Geneva, Switzerland, 2000.
 
+\bibitem{LEE}
+E, Gross and O. Vitells. \emph{Trial factors for the look elsewhere effect in high en-
+ergy physics.} The European Physical Journal C - Particles and Fields, 70:525–530, 2010.
+
+
 
 \bibitem{LHCHiggsCrossSectionWorkingGroup:2011ti}
 {LHC Higgs Cross Section Working Group}, S.~Dittmaier, C.~Mariotti,
@@ -733,7 +738,6 @@ of the First Workshop on Confidence Limits, CERN, Geneva, Switzerland, 2000.
 \href{http://arxiv.org/abs/1201.3084}{{\tt arXiv:1201.3084 [hep-ph]}}.
 
 %%CITATION = ARXIV:1201.3084;%%.
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%trackjets stuff%%%%%%%%%%%%%%

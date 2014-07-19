@@ -2,47 +2,43 @@
 \section{Results}
 \label{sec:result}
 
-\subsection{Statistical Procedure }
+\subsection{Statistical Interpretation of the Data}
 \label{sec:limits}
-The statistical interpretation of data in the presented search is based on profiled likelihood ratio test statistic used
-for the Higgs boson searches~\cite{lhclimits}. The statistical procedures described in the 
-following are implemented in the software packages described in~\cite{roofit,roostat,histfactory}.
+The statistical interpretation of data is based on the profiled likelihood ratio test statistic as 
+for the SM Higgs boson searches~\cite{lhclimits}. The statistical procedures described in the 
+following are implemented in the software packages described in~\cite{roofit,roostat,histfactory} used for this analysis.
 
 \subsubsection{The Likelihood Function}
-The statistical interpretation of data is performed by means of testing the compatibility
-of the \textit{background only}  and and the \textit{signal-plus-background}  hypotheses with the observed data.  
+The compatibility of \textit{background only}  and \textit{signal-plus-background}  hypotheses with the observed data is evaluated.  
 %Statistical tests are used to quantify the significance of an observation or to set an exclusion limits, 
 %in a search for new phenomena, hypothesis testing is performed by means of two hypothesis: 
 %the \textit{background only} $H_0$ and and the \textit{signal-plus-background} $H_1$ hypothesis.  
-The main ingredient of the hypothesis \emph{test statistic}, defined later on in this section,  
-is a binned likelihood function for the data set, $\mathcal{D}$:
-\begin{equation}\label{likelihood}
-\mathcal{L}(\mathcal{D}~|~\mu, \boldsymbol{\theta}) = \text{Pois(}\mathcal{D}~ |~ \mu \cdot s(\boldsymbol{\theta}) 
-	+ b(\boldsymbol{\theta})) \cdot \prod_{j,i}\mathcal{G}(\theta_j^{sys} ~ | ~ 0, 1) \cdot \Gamma(\theta^{stat}_i | \beta_i)
-\end{equation}
+The \emph{test statistic} defined below is based on a binned likelihood function for the data set $\mathcal{D}$:
+\begin{multline}\label{likelihood}
+\mathcal{L}(\mathcal{D}\,|\,\mu, \boldsymbol{\theta}) =  \prod_{i} \text{Pois(} n_i\, |\, \mu \cdot s_i(\boldsymbol{\theta}) 
+	+ b_i(\boldsymbol{\theta})) \cdot \Gamma(\theta^{stat}_i \,| \,\beta_i) 
+	 \cdot \prod_{j}\mathcal{G}(\theta_j^{sys} \, |\, 0, 1) ~ 
+\end{multline}
 describing how likely is a certain hypothesis given the observation of the data set $\mathcal{D}$.
-The signal strength modifier $\mu$ allows for reproducing a continuous set of signal hypotheses with 
-different cross-section. The value of $\mu= 0$ corresponds to the background-only hypothesis. 
-The vector $\boldsymbol{\theta}$ represents the set of \emph{nuisance} parameters  related to
-the systematic ($\theta_j^{sys}$) and to the statistical ($\theta^{stat}_i$) 
-uncertainties of the background and signal predictions. 
-The functions s($\boldsymbol{\theta}$) and  b($\boldsymbol{\theta}$)
-represent the expected signal and background distribution respectively, these are binned histograms
-of the invariant \mmc mass distribution.
+The signal strength parameter $\mu$ allows for reproducing a continuous set of signal hypotheses with 
+different cross-section. The value  $\mu= 0$ corresponds to the background-only hypothesis. 
+The vector $\boldsymbol{\theta}$ represents the set of \emph{nuisance} parameters  corresponding to
+the statistical ($\theta^{stat}_i$) and systematic ($\theta_j^{sys}$) uncertainties in  the signal and background. 
+The functions $s_i(\boldsymbol{\theta})$ and  $b_i(\boldsymbol{\theta})$
+represent the expected yield of signal and background  for the bin $i$ of the \mmc distribution histograms.
 The function $\mathcal{G}(\theta_j^{sys} ~ | ~ 0, 1)$
 is the  Gaussian\footnote{Evaluation of systematic uncertainties is obtained from auxiliary measurements. From Bayes theorem,
 	assuming a flat prior and a Gaussian distribution for the measured parameter a Gaussian posterior is obtained.	
 }
-probability density function (p.d.f.) for the nuisance parameter $\theta_j^{sys}$, 
-which is assumed to be distributed with mean~=~0 and $\sigma = 1$.  The impact of the corresponding systematic uncertainty
-on the  signal and backgrounds yields and on the shape of the \mmc invariant mass distribution
+probability density function (p.d.f.) for the nuisance parameter $\theta_j^{sys}$ with mean~=~0 and $\sigma = 1$.  
+The impact of the corresponding systematic uncertainty
+on the  signal and backgrounds yields and on the shape of the \mmc invariant mass distributions
  is evaluated separately as described in Section~\ref{sec:Systematics}.
-The function  $\Gamma(\theta^{stat}_i | \beta_i)$ is an extended gamma function
-\footnote{The posterior of a
+The function  $\Gamma(\theta^{stat}_i | \beta_i)$ is an extended gamma function\footnote{The posterior of a
 	Poisson distribution assuming a flat prior is a gamma function}
-describing the p.d.f. for the nuisance parameter $\theta^{stat}_i$ related 
-to the statistical uncertainty $ \beta_i$, for the bin $i$ of the considered histogram.
-Each value of the nuisance parameter set $\boldsymbol{\theta}$ is associated with a variation of the predicted
+providing the p.d.f. for the nuisance parameter $\theta^{stat}_i$ associated
+to the statistical uncertainty $ \beta_i$ in  bin $i$ of the \mmc distribution.
+The values of the nuisance parameter set $\boldsymbol{\theta}$ are associated with  variations of the predicted
 signal and background event yields with respect to the nominal prediction.
 %are evaluated represent
 %the uncertainties on the signal and background yields,  or mass shape of the analysis, those uncertainties 
@@ -53,46 +49,42 @@ signal and background event yields with respect to the nominal prediction.
 %$\mathcal{L}$ is decreasing,
 %one can define which is the best value of a parameter that describes the data via maximising the likelihood,
 %obtaining a so called maximum likelihood estimator. 
-The Poisson distribution in equation~\eqref{likelihood} is a binned p.d.f. and 
-stands for a product of Poisson probabilities to observe $n_i$ events in the bin \textit{i} of the \mmc mass distribution histogram:
+The Poisson distributions in equation~\eqref{likelihood} give the probability to observe $n_i$ events in the bin \textit{i} of the \mmc 
+distribution histogram:
 $$
- \text{Pois(}\mathcal{D} ~ | ~ \mu \cdot s(\boldsymbol{\theta}) + b(\boldsymbol{\theta})) = \prod_{i} \frac{(\mu s_i(\boldsymbol{\theta}) +b_i(\boldsymbol{\theta}))^{n_i}}{n_i!} ~ e^{-\mu s_i(\boldsymbol{\theta}.)
- -b_i(\boldsymbol{\theta})}
+ \text{Pois(}n_i ~ | ~ \mu \cdot s_i(\boldsymbol{\theta}) + b_i(\boldsymbol{\theta})) =  \frac{(\mu s_i(\boldsymbol{\theta}) 
+	+b_i(\boldsymbol{\theta}))^{n_i}}{n_i!} ~ e^{-\mu s_i(\boldsymbol{\theta})  -b_i(\boldsymbol{\theta})} \,.
 $$
-The \mmc mass distributions in the b-tagged and b-vetoed category are analysed separately.
-The actual implementation in the likelihood function of the ABCD method follows that suggested in~\cite{ABCD}
-and it is described in more detail in Appendix~\ref{appendix:limit}.
+The \mmc distributions in the b-tagged and b-vetoed categories are analysed separately.
+The  implementation of the ABCD method in the likelihood function is based on~\cite{ABCD}
+and is described in more detail in Appendix~\ref{appendix:limit}.
 
-\subsubsection{Statistical Combination of Results From Two Event Categories}
-Complementary event categories in one search channel, 
-like the b-tagged and b-vetoed event categories, 
-can be combined in order to increase the
-sensitivity to the signal. If there are no events entering both categories, as is the case for  the presented analysis,
-the statistical combination is the product of the likelihood
-functions for the individual categories. For the combination, the  convention described in~\cite{lhclimits} is used
-to take into account the correlation between different sources of uncertainties.
-Uncertainties are considered either as fully correlated, which means that the same nuisance parameter
-is describing the given systematic effect in both categories,  or fully uncorrelated, in which case different nuisance parameter are
-employed in the two categories. Partially correlated uncertainties are either split into component which are fully
- uncorrelated or they are defined as  to either fully correlated or uncorrelated, depending on which assumption is the most conservative.
+\subsubsection{Statistical Combination of Results}
+Complementary event categories of a search channel (like the b-tagged and b-vetoed categories) 
+can be combined in order to increase the signal sensitivity.
+If there are no shared events between the categoriesv the combined likelihood functions is simply the product
+of the likelihood of the individual categories. The  convention described in~\cite{lhclimits} is used
+to take into account correlations of uncertainties in the two combined categories.
+The systematic uncertainties are considered either as fully correlated, which means that the same nuisance parameter
+describes the corresponding  systematic effect in both categories,  or as fully uncorrelated, in which case different nuisance parameters are
+employed for the two categories. Partially correlated uncertainties are either split into components which are 
+(un)correlated or they are defined  to be either fully correlated or uncorrelated, depending on which assumption is the most conservative.
 
 
 
-\subsubsection{The Test Statistic and the Exclusion Limits}
-To compute the compatibility of the data with a given hypothesis a test statistic is defined based on the
-\emph{profiled likelihood ratio}~\cite{Asympt}: 
+\subsubsection{Exclusion Limit Computation}
+To compute the compatibility of the data with a given hypothesis, the \emph{profiled likelihood ratio}~\cite{Asympt} 
 \begin{equation}
 \tilde{q_{\mu}} ~ = ~ -2 \text{ln} ~ \frac{\mathcal{L}(\mathcal{D}~|~\mu, \hat{\boldsymbol{\theta}}_{\mu})}{\mathcal{L}(\mathcal{D} ~| ~ 
 \hat{\mu}, \hat{\boldsymbol{\theta}})}
-\quad \text{with the constraint} \quad 0 \leq \hat{\mu} \leq \mu.
+\quad \text{with the constraint} \quad 0 \leq \hat{\mu} \leq \mu
 \end{equation}
-where $\mathcal{L}$ is the likelihood function defined in equation~\eqref{likelihood}, $\hat{\mu}$ and $\hat{\boldsymbol{\theta}}$ 
-are the global maximum likelihood estimators for $\mu$ and $\boldsymbol{\theta}$ given the data, 
-whereas $\hat{\boldsymbol{\theta}}_{\mu}$ is the maximum likelihood estimator of $\boldsymbol{\theta}$ given the data but  with
-a signal strength fixed to the value of $\mu$. $\tilde{q_{\mu}}$ is increasing with 
+is used as test statistic with the likelihood function $\mathcal{L}$ defined in equation~\eqref{likelihood}. $\hat{\mu}$ and $\hat{\boldsymbol{\theta}}$ 
+are the global maximum likelihood estimators for $\mu$ and $\boldsymbol{\theta}$ from fit to the dataset $\mathcal{D}$, 
+whereas $\hat{\boldsymbol{\theta}}_{\mu}$ is the maximum likelihood estimator of $\boldsymbol{\theta}$ from the fit  with
+a fixed signal strength $\mu$. $\tilde{q_{\mu}}$ is increasing with 
 increasing disagreement between data and the given $\mu$ hypothesis.
-Based on this, the procedure for setting upper exclusion limits on the signal cross-section
-is defined as follows:
+Upper limits on the signal cross-section are then defined as follows:
 \begin{enumerate}
 %	\item The signal hypothesis with signal strength $\mu$ is assumed, under this assumption a set of MC 
 %	\textit{pseudo-data} is generated for different values of $\mu$.
@@ -104,14 +96,14 @@ is defined as follows:
 %	\item The same procedure is repeated for the null hypothesis: pseudo-data are generated with the distribution 
 %	of background only and 	obtain  the $\text{f}(\tilde{q_{\mu}} ~ | ~ \mu = 0, \hat{\boldsymbol{\theta}}_{0}, H_0)$.
 %
-	\item The probability density function of $\tilde{q_{\mu}}$ is determined  under the background-only ($H_0$) and 
-	the  signal-plus-background ($H_{\mu}$) hypotheses for any given value of $\mu$.
-	Since the determination of these distributions by means of pseudo-data demands large computing resources,
-	asymptotic approximation formulas described in~\cite{Asympt} are employed.
+	\item The probability density functions $P(\tilde{q_{\mu}} \,| \, \text{H}_i)$ of $\tilde{q_{\mu}}$ are determined  under the background-only ($H_0$) and 
+	the  signal-plus-background ($H_{\mu}$) hypotheses for  given values of $\mu$.
+	Since the determination of these functions by means of Monte Carlo simulation of pseudo-dataset ($\mathcal{D}$)	demands large computing resources,
+	the asymptotic approximation formulae described in~\cite{Asympt} are employed.
 	
 
 	\item Once the p.d.f. for the background-only and signal-plus-background hypothesis are obtained, 
-	it is possible to define for a given dataset  two probability values (p-values) for any given value of $\mu$.
+	it is possible to define for a given dataset $\mathcal{D}$ two probability values (p-values) for  given value of $\mu$.
 	These are the probabilities to obtain data less compatible with the considered hypothesis than the 
 	actual observation:
 	$$
@@ -120,13 +112,13 @@ is defined as follows:
 	$$ 
 	p_{b} = P(\tilde{q_{\mu}} > \tilde{q_{\mu}}^{observed} ~ | ~ H_0)
 	$$
-	The ratio of this two probabilities defines the quantity $CL_{s} = p_{s+b} / p_{b}$ \cite{cls1,cls2}.
+%	The ratio of this two probabilities defines the quantity $CL_{s} = p_{s+b} / p_{b}$ \cite{cls1,cls2}.
 
-	\item If for a given $\mu$ the $CL_{s}$ value of $CL_{s} ~ \leq ~ \alpha $ is obtained, the signal-plus-background
-	 hypothesis (with the corresponding $\mu$ value)  is considered to be 
-	 excluded at a (1 - $\alpha$) $CL_{s}$ confidence level. The 95\% confidence level upper limit on $\mu$,
-	denoted as $\mu^{95\%}$, is defined as the smallest value of $\mu$ for which the  $CL_{s}$ is no longer 
-	greater than  $0.05\,.$
+	\item If the ratio $CL_{s} = p_{s+b} / p_{b}$~\cite{cls1,cls2} of the two p-values is less than a given value $\alpha$,
+	the signal-plus-background hypothesis with the corresponding $\mu$ is said to be excluded at  (1 - $\alpha$) $CL_{s}$ confidence level. 
+	The 95\% confidence level upper limit on $\mu$,
+	denoted as $\mu^{95}$, is  the smallest value of $\mu$ for which the  $CL_{s} \le 0.05$\,.
+
 \end{enumerate}
 %This is a quite complicated prescription, however 
 %its interpretation is not so different from the usual Neyman Construction~\cite{} of confidence intervals:
@@ -134,10 +126,10 @@ is defined as follows:
 %P$(\tilde{q_{\mu}} \geq \tilde{q_{\mu}}^{95} ~ |~ \mu, ~ H_1$) = 5\%, this means that if $H_1$ is true one expects 
 %$\tilde{q_{\mu}} \geq \tilde{q_{\mu}}^{95}$ in 5\% of the cases. With this definition $\mu^{95}$ would be the value of $\mu$
 %that for the observed data gives $\tilde{q_{\mu}} = \tilde{q_{\mu}}^{95}$, or in other words a p-value of 5\%.
-By construction, rejecting all values of $\mu > \mu^{95\%}$, the signal-plus-background hypothesis will be 
+By construction, rejecting all values of $\mu > \mu^{95}$, the signal-plus-background hypothesis will be 
 rejected when it is true at most 5\% of the time.
 %given the fact that $\tilde{q_{\mu}}$ is increasing with increasing discrepancy of the hypothesis with data.
-The $CL_{s}$ prescription is a conservative approach protecting the signal exclusion upper limit from  downward  fluctuation of the data.
+The $CL_{s}$ limits are considered conservative and  protected against downward  fluctuations of the data.
 % For each pseudo-data sample one can calculate then $\mu^{95}$, which is the biggest value of $\mu$ which gives $\tilde{q_{\mu}} > \tilde{q_{\mu}}^{95}$
 %
 % Generate a large set of pseudo-data under the hypothesis $H_{0}$ and calculate  $\mu^{95}$ for each of them, by construction one would have
@@ -146,9 +138,36 @@ The $CL_{s}$ prescription is a conservative approach protecting the signal exclu
 %So one it is said that the $\mu > \mu^{95}$ are excluded by data under the hypothesis $H_1$ at 95\% of Confidence Level, meaning that 
 %for value of $\mu > \mu^{95}$  one would reject the $H_1$ when is true at most 5\% of the time. 
 %
-The expected median exclusion upper-limit and its error are evaluated with the procedure described above under the background-only hypothesis.
-The obtained results have been cross-checked using generated pseudo-data instead of the asymptotic approximation for the determination
-of the $\tilde{q_{\mu}}$ probability density functions. 
+The expected median upper-limit and its error are evaluated with the asymptotic approximation formulae under the background-only hypothesis.
+The results have been cross-checked using generated pseudo-data instead of the asymptotic approximation formulae for the determination
+of the  probability density functions of $\tilde{q_{\mu}}$. 
+
+
+\subsubsection{Significance Test of the Background Only Hypothesis}
+In case an excess of event is observed  in a given mass range with respect to the background model predictions,
+the presence of a signal is quantified by the background only p-value,
+ i.e. the probability for the background only to fluctuate
+and give rise to an excess of event at least as large as the observend one.
+
+To evaluate the significance of an excess the following  test statistic $q_0$ is chosen:
+\begin{equation}
+q_0 ~ = ~  -2 \text{ln} ~ \frac{\mathcal{L}(\mathcal{D}~|~0, \hat{\boldsymbol{\theta}}_{0})}{\mathcal{L}(\mathcal{D} ~| ~ \hat{\mu}, \hat{\boldsymbol{\theta}})}
+ ~ ~ \text{with} ~  \hat{\mu} \ge 0\,.
+\end{equation}
+The test statistic is defined for a given set of signal hypothesis. To determine the \emph{local} p-value,
+the probability density function of $q_0$ is evaluated under the background only hypothesis for a specific signal mass.  
+Since the test of the background only hypothesis is made for many different signal masses, the chance to obtain in the full
+mass range a p-value smaller than a predetermined value increases, this is called \emph{look elsewhere effect}~\cite{LEE}
+and has to be accounted for in local p-value computation. This is done by counting the number of p-value upper fluctuation over
+a defined treshold and downgrading the maximum local p-value by this effect, for more detail see~\cite{lhclimits,LEE}.
+
+To convert the p-value into a significance $Z$, the convention of one sided Gaussian tail is adopted:
+\begin{equation}
+\text{p-value} = \int_Z^\infty \, \frac{1}{\sqrt{2\pi}} e^{-x^2/2} \, dx \,.
+\end{equation}
+The 5$\sigma$ significance ($Z = 5$) value which  commonly characterize a discovery corresponds to an 
+extremely  small $\text{p-value}\,=\, 2.8 \times 10^{-7}\,.$
+
 
 
 \subsection{Exclusion Limits on the Signal Production}
