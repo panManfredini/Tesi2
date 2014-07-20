@@ -5,6 +5,7 @@
 \setkomafont{sectioning}{\normalfont\bfseries}
 
 \usepackage{subfigure}
+\usepackage[format=plain]{caption}
 \usepackage{amsmath}
 \usepackage{mathrsfs}
 \usepackage{wasysym}
@@ -109,7 +110,7 @@
 \def\mHp{\ensuremath{M_{H^\pm}}}
 \def\ifb{\ensuremath{fb^{-1}} }
 
-\linespread{1.4}
+\linespread{1.1}
 \begin{document}
 
 %\clearpage
@@ -201,13 +202,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newpage
+%\renewcommand*{\chaptermarkformat}{}
+%  \chaptermark{Appendix}
 \begin{appendices}
-%\appendix
+\appendix
 \input{appendix_qcd}
 \input{appendix_limit}
 
 %\input{appendix_additional}
-\input{appendix_shapeNPs}
+%\input{appendix_shapeNPs}
 \end{appendices}
 
 %\input{appendix_mcuncertainties}

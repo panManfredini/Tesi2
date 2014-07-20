@@ -74,7 +74,7 @@ The ATLAS Collaboration, \emph{Observation of a new particle in the search for t
   Letters B  716 (2012)  1--29.
 
 \bibitem{CHiggsO}
-The CMS Collatoration, \emph{Observation of a new boson at a mass of 125 GeV with
+The CMS Collatoration,  S.~Chatrchyan et al., \emph{Observation of a new boson at a mass of 125 GeV with
   the CMS experiment at the LHC},  Physics Letters B  716 (2012)
   30--61.
 
@@ -257,7 +257,7 @@ J.~Haffner, \emph{The CERN accelerator complex}, OPEN-PHO-ACCEL-2013-056.
 
 
 \bibitem{cms}
-CMS Collaboration, \emph{CMS technical proposal}, CERN-LHCC-94-38 (1994). 
+CMS Collaboration,  S.~Chatrchyan et al.,  \emph{CMS technical proposal}, CERN-LHCC-94-38 (1994). 
 
 \bibitem{lhcb}
 LHCb Collaboration, \emph{LHCb technical proposal}, CERN-LHCC-98-004 (1998).
@@ -331,39 +331,22 @@ CDF and D0 Collaboration, \emph{Combined CDF and D0 upper limits on MSSM Higgs b
 
 %%%% HERE!!!
 \bibitem{CMSLimit}
-{The CMS Collaboration, S.~Chatrchyan et al., }
-  \href{http://arxiv.org/abs/1104.1619 [hep-ex]}{{\tt arXiv:1104.1619 [hep-ex]
-  [hep-ex]}}.
+The CMS Collaboration, S.~Chatrchyan et al., \emph{Search for MSSM Neutral Higgs Bosons Decaying to
+Tau Pairs in pp Collisions},  CMS PAS HIG-13-021 (2013).
 
 \bibitem{ATLASLimit}
-{The ATLAS Collaboration }, {\em {Search for the neutral Higgs bosons of the
+The ATLAS Collaboration, G.~Aad et al., \emph{Search for the neutral Higgs bosons of the
   Minimal Supersymmetric Standard Model in $pp$ collisions at $\sqrt{s}=7$ TeV
-  with the ATLAS detector}\/},
-\href{http://arxiv.org/abs/1211.6956}{{\tt arXiv:1211.6956 [hep-ex]}}.
+  with the ATLAS detector},
+\href{http://arxiv.org/abs/1211.6956}{ arXiv:1211.6956 }.
 %%CITATION = ARXIV:1211.6956;%%.
 
 
 
-\bibitem{theo125}
-{S. Heinemeyer, O. St\r{a}l and G. Weiglein}, {\em {Interpreting the LHC Higgs
-  search results in the MSSM}\/},
-  \href{http://dx.doi.org/10.1016/j.physletb.2012.02.084}{Phys.Lett. {\bf B710}
-  (2012)  201--206},
-\href{http://arxiv.org/abs/1112.3026}{{\tt arXiv:1112.3026 [hep-ph]}}.
-%%CITATION = ARXIV:1112.3026;%%.
-
-\bibitem{theo125_v2}
-{A. Arbey, M. Battaglia, A. Djouadi and F. Mahmoudi}, {\em {The Higgs sector of
-  the phenomenological MSSM in the light of the Higgs boson discovery}\/},
-  \href{http://dx.doi.org/10.1007/JHEP09(2012)107}{JHEP {\bf 1209} (2012)
-  107},
-\href{http://arxiv.org/abs/1207.1348}{{\tt arXiv:1207.1348 [hep-ph]}}.
-%%CITATION = ARXIV:1207.1348;%%.
-
 
 \bibitem{Alpgen}
 M.~L. Mangano et al., {\em {ALPGEN, a generator for hard multiparton processes
-  in hadronic collisions}\/},  JHEP {\bf 07} (2003)  001.
+  in hadronic collisions}\/},  JHEP  07 (2003)  001.
 
 \bibitem{MLM}
 J.~Alwall et al., {\em {Comparative study of various algorithms for the merging
@@ -423,7 +406,7 @@ T.~Gleisberg et al., {\em {Event generation with SHERPA 1.1}\/},  JHEP {\bf 02}
 
 
 \bibitem{ATLASMC09Tune}
-{The ATLAS} Collaboration, {\em ATLAS Monte Carlo Tunes for MC09\/},
+{The ATLAS} Collaboration, G.~Aad et al., {\em ATLAS Monte Carlo Tunes for MC09\/},
   ATL-PHYS-PUB-2010-002.
 
 \bibitem{TAUOLA}
@@ -446,15 +429,15 @@ T.~Gleisberg et al., {\em {Event generation with SHERPA 1.1}\/},  JHEP {\bf 02}
   \href{http://arxiv.org/abs/{1005.4568}}{{\tt arXiv:{1005.4568}}}.
 
 \bibitem{Embedding}
-{The ATLAS} Collaboration, {\em Estimation of \Ztautau Background in VBF $H \rightarrow \tau \tau$ Searches from $Z \rightarrow \mu \mu$
+{The ATLAS} Collaboration, G.~Aad et al., {\em Estimation of \Ztautau Background in VBF $H \rightarrow \tau \tau$ Searches from $Z \rightarrow \mu \mu$
 Data using an Embedding Technique}, ATL-PHYS-INT-2009-109.
 
 \bibitem{SMold}
-{The ATLAS} Collaboration, {\em Search for the Standard Model Higgs boson in the $H \rightarrow \tau \tau$ decay mode with 4.7 f b−1 of ATLAS 
+{The ATLAS} Collaboration, G.~Aad et al.,{\em Search for the Standard Model Higgs boson in the $H \rightarrow \tau \tau$ decay mode with 4.7 f b−1 of ATLAS 
 detactor}, Tech. Rep. ATLAS-CONF-2012-014, CERN, Geneva, Mar, 2012.
 
 \bibitem{SMnew}
-{The ATLAS} Collaboration, {\em Search for the Standard Model Higgs boson $H \rightarrow \tau \tau$ decays with the ATLAS detector},
+{The ATLAS} Collaboration, G.~Aad et al.,{\em Search for the Standard Model Higgs boson $H \rightarrow \tau \tau$ decays with the ATLAS detector},
 ATL-COM-PHYS-2013-722.
 
 \bibitem{hepevt}
@@ -462,7 +445,7 @@ T.~S. et~al., {\em $\mathrm{Z}$ physics at LEP 1\/},  CERN 89-08 {\bf 3} (1989)
    143.
 
 \bibitem{ID}
-{The ATLAS} Collaboration, Inner Detector: Technical Design Report, CERN/LHCC/97-016/017
+{The ATLAS} Collaboration, G.~Aad et al.,Inner Detector: Technical Design Report, CERN/LHCC/97-016/017
 (1997).
 
 \bibitem{ATLAS}
@@ -477,7 +460,7 @@ Collider, 2008 JINST 3 S08003.
 
 
 \bibitem{AtlasCSCBook}
-{The ATLAS} Collaboration, {\em {Expected Performance of the ATLAS Experiment -
+{The ATLAS} Collaboration, G.~Aad et al.,{\em {Expected Performance of the ATLAS Experiment -
   Detector, Trigger and Physics}\/},  CERN-OPEN-2008-020,
   \href{http://arxiv.org/abs/{0901.0512}}{{\tt arXiv:{0901.0512}}}.
 
@@ -490,25 +473,25 @@ Kalman, R. E. (1960). \emph{"A New Approach to Linear Filtering and Prediction P
 Journal of Basic Engineering 82 (1): 35–45. doi:10.1115/1.3662552
 
 \bibitem{VertexPerf}
-{The ATLAS} Collaboration, Performance of primary vertex reconstruction in proton-proton collisions at $s = sqrt(7)$ TeV in the ATLAS experiment.
+{The ATLAS} Collaboration, G.~Aad et al.,Performance of primary vertex reconstruction in proton-proton collisions at $s = sqrt(7)$ TeV in the ATLAS experiment.
  ATLAS-CONF-2010-069.
 
 \bibitem{Vertex}
 R. Fruhwirth, W. Waltenberger, P. Vanlaer, \emph{Adaptive vertex fitting}, J. Phys. G34 (2007).
 
 \bibitem{beamspot}
-{The ATLAS} Collaboration, \emph{Characterization of Interaction-Point Beam Parameters Using the pp
+{The ATLAS} Collaboration, G.~Aad et al.,\emph{Characterization of Interaction-Point Beam Parameters Using the pp
 Event-Vertex Distribution Reconstructed in the ATLAS Detector at the LHC}, ATL-CONF-2010-027.
 
 \bibitem{electronAlgo}
-The ATLAS collaboration, \emph{Expected electron performance in the ATLAS experiment}, ATL-PHYS-PUB-2011-006
+The ATLAS collaboration, G.~Aad et al., \emph{Expected electron performance in the ATLAS experiment}, ATL-PHYS-PUB-2011-006
 
 \bibitem{TMVA}
 A. Hocker, P. Speckmayer, J. Stelzer, F. Tegenfeldt, and H. Voss, \emph{TMVA, toolkit for multivariate
 data analysis with ROOT}, CERN-2008-001 .
 
 \bibitem{eleEff}
-The ATLAS Collaboration, \emph{Electron reconstruction and identification efficiency measurements with the ATLAS detector using the 2011 LHC proton-proton collision data}, CERN-PH-EP-2014-040, arXiv:1404.2240
+The ATLAS Collaboration, G.~Aad et al., \emph{Electron reconstruction and identification efficiency measurements with the ATLAS detector using the 2011 LHC proton-proton collision data}, CERN-PH-EP-2014-040, arXiv:1404.2240
 
 \bibitem{eleEnergy}
 The ATLAS Collaboration, G. Aad et al., \emph{Electron performance measurements with
@@ -542,11 +525,11 @@ E. Abat, J. Abdallah, T. Addy, P. Adragna, et al.,\emph{ Combined performance st
 for electrons at the 2004 ATLAS combined test-beam}, JINST 5 (2010) P11006.
 
 \bibitem{jesinsitu}
-ATLAS Collaboration, \emph{Jet energy measurement with the ATLAS detector in proton-proton
+ATLAS Collaboration, G.~Aad et al., \emph{Jet energy measurement with the ATLAS detector in proton-proton
 collisions at $\sqrt{s} = 7$ TeV}, Submitted to EPJ (2011) , arXiv:1112.6426 
 
 \bibitem{jespileup}
-The ATLAS Collaboration, \emph{Pile-up corrections for jets from proton-proton collisions at
+The ATLAS Collaboration, G.~Aad et al., \emph{Pile-up corrections for jets from proton-proton collisions at
 ATLAS in 2011}, ATLAS-CONF-2012-064, July, 2012.
 
 \bibitem{jesarea}
@@ -559,12 +542,12 @@ collisions at $\sqrt{s} = 7$ TeV recorded in 2010 with the ATLAS detector}, Eur.
 C73 (2013) 2306
 
 \bibitem{JES}
-{The ATLAS} collaboration, \emph{Jet energy scale and its systematic uncertainty in proton-proton collisions at $\sqrt{s}=7$
+{The ATLAS} collaboration, G.~Aad et al., \emph{Jet energy scale and its systematic uncertainty in proton-proton collisions at $\sqrt{s}=7$
  TeV with ATLAS 2011 data}, ATLAS-CONF-2013-004
 
 
 \bibitem{ATLASCLEANING}
-{The ATLAS} Collaboration, {\em Data-Quality Requirements and Event Cleaning
+{The ATLAS} Collaboration, G.~Aad et al., {\em Data-Quality Requirements and Event Cleaning
   for Jets and Missing Transverse Energy Reconstruction with the ATLAS Detector
   in Proton-Proton Collisions at a Center-of-Mass Energy of
   $\sqrt{s}=7$~TeV\/},  ATLAS-CONF-2010-038.
@@ -579,15 +562,15 @@ high-performance b-tagging algorithms in the 7 TeV collision data,
 ATLAS-CONF-2011-102}, CERN, 2011, ATLAS-CONF-2011-102.
 
 \bibitem{BtaggingScaleFactors}
-{The ATLAS} Collaboration, {\em Measuring the b-tag efficiency in a ttbar sample with 4.7 $fb^{-1}$ of data from the ATLAS detector} ATLAS-CONF-2012-097.
+{The ATLAS} Collaboration, G.~Aad et al., {\em Measuring the b-tag efficiency in a ttbar sample with 4.7 $fb^{-1}$ of data from the ATLAS detector} ATLAS-CONF-2012-097.
 
 \bibitem{BtaggingScaleFactorsNew}
-{The ATLAS} Collaboration, {\em  Calibration of b-tagging using dileptonic top pair events in a combinatorial likelihood approach with the ATLAS experiment } 
+{The ATLAS} Collaboration, G.~Aad et al., {\em  Calibration of b-tagging using dileptonic top pair events in a combinatorial likelihood approach with the ATLAS experiment } 
  ATLAS-CONF-2014-004.
 
 
 \bibitem{ETMISS}
-{The ATLAS} Collaboration, {\em Reconstruction and Calibration of Missing
+{The ATLAS} Collaboration, G.~Aad et al., {\em Reconstruction and Calibration of Missing
   Transverse Energy and Performance in $Z$ and $W$ events in ATLAS
   Proton-Proton Collisions at $\sqrt{s}$=7 TeV\/},  ATLAS-CONF-2011-080.
 
@@ -598,7 +581,7 @@ Eur.Phys.J. C72 (2012) 1844.
 
 
 \bibitem{ATLASTAUIDnew}
-{TheATLAS} Collaboration, {\em Performance of the Reconstruction and
+{The ATLAS} Collaboration, G.~Aad et al., {\em Performance of the Reconstruction and
   Identification of Hadronic tau Decays in ATLAS with 2011 Data\/},
   ATLAS-CONF-2012-142.
 
@@ -621,19 +604,19 @@ Physics”}, Computer Physics Communications, ATL-SOFT-2000-001.
 
 
 \bibitem{ASpin0}
-The ATLAS Collaboration, \emph{ Evidence for the spin-0 nature of the Higgs boson using ATLAS data },
+The ATLAS Collaboration, G.~Aad et al., \emph{ Evidence for the spin-0 nature of the Higgs boson using ATLAS data },
 Phys. Lett. B 726 (2013), pp. 120-144.
 
 \bibitem{ACouplings}
-The ATLAS Collaboration, \emph{ Measurements of Higgs boson production and couplings in diboson final states with 
+The ATLAS Collaboration, G.~Aad et al., \emph{ Measurements of Higgs boson production and couplings in diboson final states with 
 the ATLAS detector at the LHC}, Phys. Lett. B 726 (2013), pp. 88-119.
 
 \bibitem{CFermions}
-The CMS Collaboration, \emph{``Evidence for the direct decay of the 125 GeV Higgs boson to fermions,''}
+The CMS Collaboration,  S.~Chatrchyan et al., \emph{``Evidence for the direct decay of the 125 GeV Higgs boson to fermions,''}
   arXiv:1401.6527 [hep-ex].
 
 \bibitem{CWidth}
-The CMS Collaboration, \emph{ Higgs boson width from on- vs. off-shell production and decay to Z-boson pairs },  arXiv:1405.3455.
+The CMS Collaboration,  S.~Chatrchyan et al., \emph{ Higgs boson width from on- vs. off-shell production and decay to Z-boson pairs },  arXiv:1405.3455.
 
 \bibitem{MMC}
 A.~Elagin, P.~Murat, A.~Pranko, and A.~Safonov, {\em {A New Mass Reconstruction
@@ -643,37 +626,10 @@ A.~Elagin, P.~Murat, A.~Pranko, and A.~Safonov, {\em {A New Mass Reconstruction
 
 
 
-\bibitem{AtlasHtautauMSSMSearch2011}
-T.~A. Collaboration, {\em Search for neutral MSSM Higgs bosons decaying to
-  $\tau\tau$ pairs in proton-proton collisions at with the ATLAS detector\/},
-  Physics Letters B {\bf 705} (2011) no.~3, 174 -- 192.
 
-\bibitem{templateMethod}
-{The ATLAS} Collaboration, {\em Data-driven estimation of the background to charged Higgs boson
-searches using hadronically-decaying tau final states in ATLAS,}  ATLAS-CONF-2011-051.
-
-\bibitem{ATLASZtautau}
-{The ATLAS} Collaboration, {\em Measurement of the $Z\rightarrow\tau\tau$ cross
-  section with the ATLAS detector\/},
-  \href{http://dx.doi.org/10.1103/PhysRevD.84.112006}{Phys. Rev. D {\bf 84}
-  (2011)  112006}.
-
-\bibitem{ATLASMSSM7TeV}
-T.~A. Collaboration, {\em Search for the neutral Higgs bosons of the Minimal
-  Supersymmetric Standard Model in pp collisions at $\sqrt s = 7$ TeV with the
-  ATLAS detector\/},  JHEP  , \href{http://arxiv.org/abs/1211.6956}{{\tt
-  arXiv:1211.6956}}.
 
 \bibitem{ABCD} Atlas statistics forum, {\em ABCD method in searches}, \href{https://twiki.cern.ch/twiki/pub/AtlasProtected/ATLASStatisticsFAQ/ABCD.pdf}{link}
 
-\bibitem{2011LHSupportNote}
-{The ATLAS} Collaboration, {\em Search for Neutral MSSM Higgs Bosons H to
-  $\tau\tau$ to l$\tau_{h}$ with the ATLAS Detector in 7 TeV Collisions\/},
-  ATL-COM-PHYS-2012-094.
-
-\bibitem{2010SMLLSupportNote}
- {The ATLAS} Collaboration, {\em Search for neutral Higgs Bosons in the decay mode $H \rightarrow \tau\tau \rightarrow ll +4\nu$ in proton proton collision
- at  $\sqrt{7}$ TeV with the ATLAS Detector}, ATL-COM-PHYS-2011-758.
 
 \bibitem{ttbaremu}
 The Atlas Collaboration, \emph{ Measurement of the ttbar production cross-section in pp collisions at $\sqrt{s} = 8$ TeV using e-mu events with b-tagged jets }. ATLAS-CONF-2013-097.
@@ -764,7 +720,7 @@ in proton-proton collision $\sqrt{s}=7$ TeV}, ATLAS-CONF-2011-067}
 %%CITATION = ARXIV:1201.3084;%%.
 
 \bibitem{NPcheck}
-{Statistical twiki, NuissanceCheck. \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/NuisanceCheck}{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/NuisanceCheck}}
+{Statistical twiki, NuissanceCheck. \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/NuisanceCheck}{https://twiki.cern.ch/twiki/bin/view/\\AtlasProtected/NuisanceCheck}}
 
 \end{thebibliography}
 %\end{thebibliography}\endgroup

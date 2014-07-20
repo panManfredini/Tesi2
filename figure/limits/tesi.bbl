@@ -1,0 +1,770 @@
+%\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{}
+\begin{thebibliography}{}
+
+
+\bibitem{Altarelli}
+  G.~Altarelli,
+  \emph{Collider Physics within the Standard Model: a Primer,}
+  arXiv:1303.2842, 2013.
+
+\bibitem{SusyPrimer}
+S.~P.~Martin,
+ \emph{A Supersymmetry primer,}
+  In *Kane, G.L. (ed.): Perspectives on supersymmetry II* 1-153
+  hep-ph/9709356, 2011.
+
+\bibitem{Djuadi}
+A. Djouadi, \emph{The Anatomy of Electroweak Symmetry Breaking — Tome II: The Higgs
+Bosons in the Minimal Supersymmetric Model}, Phys. Rep. 459 (2008) 1.
+
+\bibitem{LHCxsec}
+   LHC Higgs Cross Section Working Group, S. Heinemeyer et al.,
+  \emph{Handbook of LHC Higgs Cross Sections: 3. Higgs Properties},
+  arXiv:1307.1347 2013.
+
+\bibitem{LHCxsec1}
+  LHC Higgs Cross Section Working Group, S.~Dittmaier et al.,
+  \emph{Handbook of LHC Higgs Cross Sections: 1. Inclusive Observables,}
+  arXiv:1101.0593 2013.
+
+\bibitem{Peskin}
+M. E. Peskin, D. V. Schroeder, \emph{An Introduction To Quantum Field Theory}, Westview Press, 1995.
+
+\bibitem{EW1}
+S. L. Glashow, \emph{Partial Symmetries of Weak Interactions}, Nuc. Phys. 22 (1961) 579.
+
+\bibitem{EW2}
+A. Salam, \emph{Weak and Electromagnetic Interactions}, Conf. Proc. C 680519 (1968)
+367. Originally printed in Svartholm: Elementary Particle Theory, proceedings of
+the Nobel Symposium held 1968 at Lerum, Sweden.
+
+\bibitem{EW3}
+S. Weinberg, \emph{A Model of Leptons}, Phys. Rev. Lett. 19 (1967) 1264.
+
+\bibitem{qcd1}
+H. Fritsch, M. Gell-Mann, and H. Leutwyler, \emph{Advantages of the Color Octet Gluon
+Picture}, Phys. Lett. B 47 (1973) 365.
+
+\bibitem{ENGLERT}
+F.~Englert and R.~Brout, \emph{Broken Symmetry and the Mass of Gauge Vector
+  Mesons},  Phys. Rev. Lett.  13 (1964)  321.
+
+\bibitem{HIGGS}
+P.~W. Higgs, \emph{Broken symmetries, massless particles and gauge fields},
+  Phys. Lett.  12 (1964)  132.
+
+\bibitem{HIGGS2}
+P.~W. Higgs, \emph{Broken Symmetries and the Masses of Gauge Bosons},  Phys.
+  Rev. Lett.  13 (1964)  508.
+
+\bibitem{HIGGS3}
+P.~W. Higgs, \emph{Spontaneous Symmetry Breakdown without Massless Bosons},
+  Phys. Rev.  145 (1966)  1156.
+
+\bibitem{kibble}
+T. W. B. Kibble, \emph{Symmetry Breaking in Non–Abelian Gauge Theories}, Phys. Rev.
+155 (1967) 1554.
+
+\bibitem{yukawa}
+H. Yukawa, \emph{ On the Interaction of Elementary Particles}, PTP, 17, 48 (1935).
+	
+\bibitem{AHiggsO}
+The ATLAS Collaboration, \emph{Observation of a new particle in the search for the
+  Standard Model Higgs boson with the ATLAS detector at the LHC},  Physics
+  Letters B  716 (2012)  1--29.
+
+\bibitem{CHiggsO}
+The CMS Collatoration, \emph{Observation of a new boson at a mass of 125 GeV with
+  the CMS experiment at the LHC},  Physics Letters B  716 (2012)
+  30--61.
+
+
+
+\bibitem{Hollik}
+  W.~Hollik,  \emph{Electroweak theory,}  hep-ph/9602380, 1996.
+
+
+\bibitem{pdg}
+The Review of Particle Physics,
+J. Beringer et al. (Particle Data Group), Phys. Rev. D86, 010001 (2012)
+and 2013 partial update for the 2014 edition. 
+
+\bibitem{smtest}
+The ALEPH, CDF, D0, DELPHI, L3, OPAL and SLD Collaborations, the LEP
+Electroweak Working Group, Tevatron Working Group and SLD Electroweak and
+Heavy Flavour Working Groups, \emph{Precision Electroweak Measurements and
+Constraints on the Standard Model}, arXiv:1012.2367. Updated for 2012
+winter conferences, March 2012.
+
+%\bibitem{precisiontest}
+% G.~Altarelli and M.~W.~Grunewald,
+%  \emph{``Precision electroweak tests of the standard model,''}
+%  Phys.\ Rept.\  {\bf 403-404} (2004) 189
+%  [hep-ph/0404165].
+
+\bibitem{gfitter}
+The Gfitter Group, M. Baak, et al., \emph{Updated Status of the Global Electroweak Fit
+And constraints on New Physics}, Eur. Phys. J. C 72 (2012) 2003. Updated for 2012
+winter conferences, March 2012, http://gfitter.desy.de.
+
+\bibitem{gminus2}
+G.W. Bennett et al., Phys. Rev. Lett. 89, 101804 (2002);
+Erratum ibid. Phys. Rev. Lett. 89, 129903 (2002);
+G.W. Bennett et al., Phys. Rev. Lett. 92, 161802 (2004);
+G.W. Bennett et al., Phys. Rev. D73, 072003 (2006).
+
+\bibitem{FBasymmetry}
+B.~Bhattacherjee, S.~S.~Biswal and D.~Ghosh,
+\emph{Top quark forward-backward asymmetry at Tevatron and its implications at the LHC},
+  Phys.\ Rev.\ D  83 (2011) 091501
+  arXiv:1102.0545 .
+
+\bibitem{Lambda}
+M. Veltman, Acta. Phys. Pol. B8 (1977) 475.
+
+
+\bibitem{Hierarchy1}
+S. Weinberg, \emph{Gauge Hierarchies}, Phys. Lett. B 82 (1979) 387.
+
+\bibitem{Hierarchy2}
+M. Veltman, \emph{The Infrared–Ultraviolet Connection}, Acta Phys. Polon. B 12 (1981)
+437.
+\bibitem{Hierarchy3}
+C. Smith and G. Ross, \emph{The Real Gauge Hierarchy Problem}, Phys. Lett. B 105
+(1981) 38.
+
+\bibitem{darkmatter1}
+F. Zwicky, \emph{Spectral Displacement of Extra Galactic Nebulae}, Helv. Phys. Acta 6
+(1933) 110.
+
+\bibitem{darkmatter2}
+E. W. Kolb and M. S. Turner, \emph{The Early Universe}, Front. Phys. 69 (1990) 1.
+
+\bibitem{darkmatter3}
+The WMAP Collaboration, D. N. Spergel et al., \emph{First Year Wilkinson Microwave
+Anisotropy Probe (wmap) Observations: Determination of Cosmological Parameters},
+Astrophys. J. Suppl. 148 (2003) 175.
+
+\bibitem{GUT1}
+H. M. Georgi and S. L. Glashow, \emph{Unity of All Elementary–Particle Forces}, Phys.
+Rev. Lett. 32 (1974) 438.
+
+\bibitem{GUT2}
+J. C. Pati and A. Salam, \emph{Lepton Number as the Fourth “Color”}, Phys. Rev. D 10
+(1974) 275.
+
+\bibitem{Susy1}
+P. Fayet, Phys. Lett. B 64, 159 (1976).
+\bibitem{Susy2}
+P. Fayet, Phys. Lett. B 69, 489 (1977), Phys. Lett. B 84, 416 (1979).
+
+\bibitem{Susy3}
+G.R. Farrar and P. Fayet, Phys. Lett. B 76, 575 (1978).
+
+\bibitem{MSSM1}
+S. Martin, \emph{in Perspectives on Supersymmetry}, Ed. G.L. Kane, World Scientific, Singa-
+pore, 1998, hep-ph/9709356.
+
+\bibitem{MSSM2}
+P. Fayet and S. Ferrara, Phys. Rep. 32 (1977) 249;
+H.P. Nilles, Phys. Rep. 110 (1984) 1; R. Barbieri, Riv. Nuovo Cim. 11N4 (1988) 1; R.
+Arnowitt and  P. Nath, Report CTP-TAMU-52-93; J. Bagger, Lectures at TASI-95,
+hep-ph/9604232.
+
+\bibitem{MSSM3}
+H. E. Haber and G. Kane, Phys. Rep. 117 (1985) 75.
+
+\bibitem{MSSM4}
+M. Drees and S. Martin, CLTP Report (1995) and hep-ph/9504324.
+
+\bibitem{MSSM5}
+D.J.H. Chung, L.L. Everett, G.L. Kane, S.F. King, J. Lykken and L.T. Wang, Phys.
+Rept. 407 (2005) 1.
+
+\bibitem{MSSM6}
+M. Drees, R.M. Godbole and P. Roy, \emph{Theory and Phenomenology of Sparticles}, World
+Scientific, Spring 2004.
+
+\bibitem{softerm1}
+L. Girardello and M.T. Grisaru, Nucl. Phys. B194 (1982) 65.
+
+\bibitem{softerm2}
+Y. Okada, M. Yamaguchi and T. Yanagida, Prog. Theor. Phys. 85 (1991) 1;\\ ibid. Phys.
+Lett. B262 (1991) 54;\\ J.R. Ellis, G. Ridolfi and F. Zwirner, Phys. Lett. B257 (1991)
+83;\\ ibid. Phys. Lett. B262 (1991) 477;\\ H.E. Haber and R. Hempfling, Phys. Rev. Lett.
+66 (1991) 1815.
+
+\bibitem{softerm3}
+A. Djouadi and S. Rosiers–Lees (conv.) et al., \emph{Summary Report of the MSSM Working
+Group for the ``GDR–Supersymetrie''}, hep-ph/9901246 (1999).
+
+\bibitem{Higgsm1}
+K. Inoue, A. Komatsu and S. Takeshita, Prog. Theor. Phys 68 (1982) 927; (E) ibid. 70
+(1983) 330.
+
+\bibitem{Higgsm2}
+E. Witten, Nucl. Phys. B188 (1981) 513; ibid Nucl. Phys. B202 (1982) 253;\\ N. Sakai,
+Z. Phys. C11 (1981) 153;\\ S. Dimopoulos and H. Georgi, Nucl. Phys. B193 (1981) 150;\\
+R.K. Kaul and P. Majumdar, Nucl. Phys. B199 (1982) 36.
+
+\bibitem{Higgsm3}
+J.F. Donoghue and L.F. Li, Phys. Rev. 19 (1979) 945.
+
+\bibitem{Higgsm4}
+J.F. Gunion and H.E. Haber, Nucl. Phys. B278 (1986) 449.
+
+\bibitem{Higgsm5}
+J.F. Gunion and H.E. Haber, Nucl. Phys. B272 (1986) 1; (E) hep-ph/9301205.
+
+\bibitem{Higgsm6}
+M. Frank et al., \emph{The Higgs Boson Masses and Mixings of the Complex MSSM in the
+Feynman–Diagrammatic Approach}, JHEP 0702 (2007) 47.
+
+\bibitem{MSSMmhmax}
+M. Carena, S. Heinemeyer, C. E. M. Wagner, and G. Weiglein, \emph{Suggestions
+  for benchmark scenarios for MSSM Higgs boson searches at hadron
+  colliders},  Eur. Phys. J.  C26 (2003)  601--607,
+  \href{http://arxiv.org/abs/hep-ph/0202167}{{\tt hep-ph/0202167}}.
+
+
+\bibitem{mhmax2}
+S. Heinemeyer, O. Stal, and G. Weiglein, \emph{Interpreting the LHC Higgs Search Results in the
+MSSM}, Phys. Lett. B 710 (2012) 201–206, arXiv:1112.3026.
+
+\bibitem{AtlasConstraint}
+The ATLAS Collaboration , \emph{ Constraints on New Phenomena via Higgs Boson Coupling Measurements
+with the ATLAS Detector.} ATLAS-CONF-2014-010.
+
+\bibitem{sympleMSSM1}
+L. Maiani, A. Polosa, and V. Riquer, \emph{Bounds to the Higgs Sector Masses in Minimal
+Supersymmetry from LHC Data}, arXiv:1305.2172 (2013).
+
+ 
+\bibitem{sympleMSSM2}
+A. Djouadi, L. Maiani, G. Moreau, A. Polosa, J. Quevillon, et al., \emph{The post-Higgs MSSM scenario:
+Habemus MSSM?}, arXiv:1307.5205 (2013).
+
+
+\bibitem{LHC}
+L.~Evans and P.~Bryant, \emph{LHC Machine},  JINST  3 (2008)  S08001.
+
+\bibitem{ATLASDetector}
+The ATLAS Collaboration, G.~Aad et al., \emph{The ATLAS Experiment at the
+  CERN Large Hadron Collider},  JINST  3 (2008)  S08003.
+
+\bibitem{lhcImage}
+J.~Haffner, \emph{The CERN accelerator complex}, OPEN-PHO-ACCEL-2013-056.
+
+
+\bibitem{cms}
+CMS Collaboration, \emph{CMS technical proposal}, CERN-LHCC-94-38 (1994). 
+
+\bibitem{lhcb}
+LHCb Collaboration, \emph{LHCb technical proposal}, CERN-LHCC-98-004 (1998).
+
+\bibitem{alice}
+ALICE Collaboration, \emph{ALICE: Technical proposal for a large ion collider
+experiment at the CERN LHC}, CERN-LHCC-95-71, CERN, 1995,
+
+
+\bibitem{Guralnik:1964eu}
+G.~S.~Guralnik, C.R.~ Hagen and T.~W.~B.~Kibble, Phys.Rev.Lett.  13
+  (1964)  585.
+
+\bibitem{luminosity}
+The ATLAS Collaboration, \emph{Luminosity Determination in pp Collisions at
+  $\sqrt s = 7$ TeV using the ATLAS Detector in 2011},  ATLAS-CONF-2011-116 (2011).
+
+\bibitem{lucid}
+The ATLAS Collaboration, {\em A Cherenkov Detector for Monitoring ATLAS Luminosity}, 
+ATL-LUM-PROC-2010-004 (2010).
+
+%\bibitem{MSSM1}
+%N.~P. Nilles, {\em {Supersymmetry, supergravity and particle physics}\/},
+%  Phys. Rep. {\bf 110} (1984)  1.
+
+%\bibitem{MSSM2}
+%H.~E. Haber and G.~L. Kane, {\em {The search for supersymmetry: Probing physics
+%  beyond the standard model}\/},  Phys. Rep. {\bf 117} (1985)  75.
+
+\bibitem{LEPLimits}
+{{ALEPH, DELPHI, L3 and OPAL}} Collaboration, \emph{Search for neutral MSSM
+  Higgs bosons at LEP},  Eur. Phys. J.  C47 (2006)  547.
+
+\bibitem{TevatronLimits1}
+CDF and D0 Collaboration, \emph{Combined CDF and D0 upper limits on MSSM Higgs boson production in
+  tau-tau final states with up to 2.2~\ifb of data},
+  \href{http://arxiv.org/abs/1003.3363}{{\tt arXiv:1003.3363 [hep-ex]}}.
+
+%\bibitem{TevatronLimits2}
+%{CDF} Collaboration, T.~Aaltonen et al. Phys. Rev. Lett. {\bf 103} (2009)
+%  201801.
+%
+%\bibitem{TevatronLimits3}
+%{D0} Collaboration, V.~Abazov et al. Phys. Rev. Lett. {\bf 101} (2008)  071804.
+%
+%\bibitem{TevatronLimits4}
+%{TNPWG (Tevatron New Physics Higgs Working Group), CDF and D0 Collaborations},
+%  {\em {Search for Neutral Higgs Bosons in Events with Multiple Bottom Quarks
+%  at the Tevatron}\/},
+%\href{http://arxiv.org/abs/1207.2757}{{\tt arXiv:1207.2757 [hep-ex]}}.
+%%%CITATION = ARXIV:1207.2757;%%.
+%
+%\bibitem{TevatronLimits5}
+%{CDF Collaboration, T. Aaltonen et al.}, {\em {Search for Higgs Bosons Produced
+%  in Association with $b$-quarks}\/},
+%  \href{http://dx.doi.org/10.1103/PhysRevD.85.032005}{Phys.Rev. {\bf D85}
+%  (2012)  032005},
+%\href{http://arxiv.org/abs/1106.4782}{{\tt arXiv:1106.4782 [hep-ex]}}.
+%%%CITATION = ARXIV:1106.4782;%%.
+
+%\bibitem{TevatronLimits6}
+%{D0 Collaboration, V.M. Abazov et al.}, {\em {Search for neutral Higgs bosons
+%  in the multi-$b$-jet topology in 5.2fb$^{-1}$ of $p\bar{p}$ collisions at
+%  $\sqrt{s} = 1.96$ TeV}\/},
+%  \href{http://dx.doi.org/10.1016/j.physletb.2011.02.062}{Phys.Lett. {\bf B698}
+%  (2011)  97--104},
+%\href{http://arxiv.org/abs/1011.1931}{{\tt arXiv:1011.1931 [hep-ex]}}.
+%%%CITATION = ARXIV:1011.1931;%%.
+%
+
+
+%%%% HERE!!!
+\bibitem{CMSLimit}
+{The CMS Collaboration, S.~Chatrchyan et al., }
+  \href{http://arxiv.org/abs/1104.1619 [hep-ex]}{{\tt arXiv:1104.1619 [hep-ex]
+  [hep-ex]}}.
+
+\bibitem{ATLASLimit}
+{The ATLAS Collaboration }, {\em {Search for the neutral Higgs bosons of the
+  Minimal Supersymmetric Standard Model in $pp$ collisions at $\sqrt{s}=7$ TeV
+  with the ATLAS detector}\/},
+\href{http://arxiv.org/abs/1211.6956}{{\tt arXiv:1211.6956 [hep-ex]}}.
+%%CITATION = ARXIV:1211.6956;%%.
+
+
+
+\bibitem{theo125}
+{S. Heinemeyer, O. St\r{a}l and G. Weiglein}, {\em {Interpreting the LHC Higgs
+  search results in the MSSM}\/},
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.02.084}{Phys.Lett. {\bf B710}
+  (2012)  201--206},
+\href{http://arxiv.org/abs/1112.3026}{{\tt arXiv:1112.3026 [hep-ph]}}.
+%%CITATION = ARXIV:1112.3026;%%.
+
+\bibitem{theo125_v2}
+{A. Arbey, M. Battaglia, A. Djouadi and F. Mahmoudi}, {\em {The Higgs sector of
+  the phenomenological MSSM in the light of the Higgs boson discovery}\/},
+  \href{http://dx.doi.org/10.1007/JHEP09(2012)107}{JHEP {\bf 1209} (2012)
+  107},
+\href{http://arxiv.org/abs/1207.1348}{{\tt arXiv:1207.1348 [hep-ph]}}.
+%%CITATION = ARXIV:1207.1348;%%.
+
+
+\bibitem{Alpgen}
+M.~L. Mangano et al., {\em {ALPGEN, a generator for hard multiparton processes
+  in hadronic collisions}\/},  JHEP {\bf 07} (2003)  001.
+
+\bibitem{MLM}
+J.~Alwall et al., {\em {Comparative study of various algorithms for the merging
+  of parton showers and matrix elements in hadronic collisions}\/},  {Eur.
+  Phys. J.} {\bf {C53}} ({2008})  {473},
+  \href{http://arxiv.org/abs/{0706.2569}}{{\tt arXiv:{0706.2569}}}.
+
+\bibitem{MCatNLO}
+{S. Frixione and B. R. Webber}, {\em {Matching NLO QCD computations and parton
+  shower simulations}\/},  JHEP {\bf 06} (2002)  029,
+  \href{http://arxiv.org/abs/hep-ph/0204244}{{\tt hep-ph/0204244}}.
+
+\bibitem{AcerMC}
+{B. P. Kersevan and E. Richter-Was}, {\em {The Monte Carlo Event Generator
+  AcerMC 2.0 with Interfaces to PYTHIA 6.2 and HERWIG 6.5}\/},
+  \href{http://arxiv.org/abs/{0405247v1}}{{\tt arXiv:{0405247v1} [hep-ph]}}.
+
+\bibitem{Herwig}
+G.~Corcella et al., {\em {HERWIG 6: an event generator for hadron emission
+  reactions with interfering gluons (including supersymmetric processes)}\/},
+  \href{http://dx.doi.org/10.1088/1126-6708/2001/01/010}{JHEP {\bf 01} (2001)
+  010}.
+
+\bibitem{JIMMY}
+J.~M. Butterworth, J.~R. Forshaw, and M.~H. Seymour, {\em {Multiparton
+  Interactions in Photoproduction at HERA}\/},  {Z. Phys.} {\bf {C72}} ({1996})
+   {637}.
+
+\bibitem{GG2WW}
+T.~Binoth, M.~Ciccolini, N.~Kauer, and M.~Kramer, {\em {Gluon-induced $W$-boson
+  pair production at the LHC}\/},  {JHEP} {\bf {12}} ({2006})  {046}.
+
+\bibitem{POWHEG}
+A.~S. et al., {\em {Higgs boson production in gluon fusion}\/},  JHEP {\bf 02}
+  (2009)  029.
+
+\bibitem{SHERPA}
+T.~Gleisberg et al., {\em {Event generation with SHERPA 1.1}\/},  JHEP {\bf 02}
+  (2009)  007.
+
+\bibitem{CTEQ6}
+  J.~Pumplin, D.~R.~Stump, J.~Huston, H.~L.~Lai, P.~M.~Nadolsky and W.~K.~Tung,
+  ``New generation of parton distributions with uncertainties from global QCD analysis,''
+  JHEP {\bf 0207} (2002) 012
+  [hep-ph/0201195].
+  %%CITATION = HEP-PH/0201195;%%
+  %3348 citations counted in INSPIRE as of 14 May 2013
+
+\bibitem{CT10}
+  H.~-L.~Lai, M.~Guzzi, J.~Huston, Z.~Li, P.~M.~Nadolsky, J.~Pumplin and C.~-P.~Yuan,
+  ``New parton distributions for collider physics,''
+  Phys.\ Rev.\ D {\bf 82} (2010) 074024
+  [arXiv:1007.2241 [hep-ph]].
+  %%CITATION = ARXIV:1007.2241;%%
+  %556 citations counted in INSPIRE as of 14 May 2013
+
+
+
+\bibitem{ATLASMC09Tune}
+{The ATLAS} Collaboration, {\em ATLAS Monte Carlo Tunes for MC09\/},
+  ATL-PHYS-PUB-2010-002.
+
+\bibitem{TAUOLA}
+{S. Jadach, J. H. Kuhn and Z. Was}, {\em {TAUOLA - a library of Monte Carlo
+  programs to simulate decays of polarized $\tau$ leptons}\/},  {Comput. Phys.
+  Commun.} {\bf {64}} ({1990})  {275}.
+
+\bibitem{PHOTOS}
+{E. Barberio, B. V. Eijk and Z. Was}, {\em {Photos - a universal Monte Carlo
+  for QED radiative corrections in decays}\/},  {Comput. Phys. Commun.} {\bf
+  {66}} ({1991})  {115}.
+
+\bibitem{Geant4}
+{The GEANT4} Collaboration, S.~Agostinelli et al., {\em {GEANT4 - a simulation
+  toolkit}\/},  Nucl. Instrum. Meth. {\bf A506} (2003)  250.
+
+\bibitem{ATLASSIM}
+{The ATLAS} Collaboration, G.~Aad et al., {\em {The ATLAS Simulation
+  Infrastructure}\/},  ATLAS-SOFT-2010-01-004, submitted to Eur. Phys. J. C.,
+  \href{http://arxiv.org/abs/{1005.4568}}{{\tt arXiv:{1005.4568}}}.
+
+\bibitem{Embedding}
+{The ATLAS} Collaboration, {\em Estimation of \Ztautau Background in VBF $H \rightarrow \tau \tau$ Searches from $Z \rightarrow \mu \mu$
+Data using an Embedding Technique}, ATL-PHYS-INT-2009-109.
+
+\bibitem{SMold}
+{The ATLAS} Collaboration, {\em Search for the Standard Model Higgs boson in the $H \rightarrow \tau \tau$ decay mode with 4.7 f b−1 of ATLAS 
+detactor}, Tech. Rep. ATLAS-CONF-2012-014, CERN, Geneva, Mar, 2012.
+
+\bibitem{SMnew}
+{The ATLAS} Collaboration, {\em Search for the Standard Model Higgs boson $H \rightarrow \tau \tau$ decays with the ATLAS detector},
+ATL-COM-PHYS-2013-722.
+
+\bibitem{hepevt}
+T.~S. et~al., {\em $\mathrm{Z}$ physics at LEP 1\/},  CERN 89-08 {\bf 3} (1989)
+   143.
+
+\bibitem{ID}
+{The ATLAS} Collaboration, Inner Detector: Technical Design Report, CERN/LHCC/97-016/017
+(1997).
+
+\bibitem{ATLAS}
+{The ATLAS} Collaboration, G. Aad et al., The ATLAS Experiment at the CERN Large Hardon
+Collider, 2008 JINST 3 S08003.
+
+\bibitem{Athena}
+  A.~Bazan, T.~Bouedo, P.~Ghez, M.~Marino and C.~Tull,
+  ``The Athena data dictionary and description language,''
+  eConf C {\bf 0303241} (2003) MOJT010
+  [cs/0305049 [cs-se]].
+
+
+\bibitem{AtlasCSCBook}
+{The ATLAS} Collaboration, {\em {Expected Performance of the ATLAS Experiment -
+  Detector, Trigger and Physics}\/},  CERN-OPEN-2008-020,
+  \href{http://arxiv.org/abs/{0901.0512}}{{\tt arXiv:{0901.0512}}}.
+
+\bibitem{IDtracking}
+T. Cornelissen et al., Concepts, Design and Implementation of the ATLAS New Tracking, ATLAS
+Note ATL-SOFT-PUB-2007-007 (2007).
+
+\bibitem{Kalman}
+Kalman, R. E. (1960). \emph{"A New Approach to Linear Filtering and Prediction Problems".} 
+Journal of Basic Engineering 82 (1): 35–45. doi:10.1115/1.3662552
+
+\bibitem{VertexPerf}
+{The ATLAS} Collaboration, Performance of primary vertex reconstruction in proton-proton collisions at $s = sqrt(7)$ TeV in the ATLAS experiment.
+ ATLAS-CONF-2010-069.
+
+\bibitem{Vertex}
+R. Fruhwirth, W. Waltenberger, P. Vanlaer, \emph{Adaptive vertex fitting}, J. Phys. G34 (2007).
+
+\bibitem{beamspot}
+{The ATLAS} Collaboration, \emph{Characterization of Interaction-Point Beam Parameters Using the pp
+Event-Vertex Distribution Reconstructed in the ATLAS Detector at the LHC}, ATL-CONF-2010-027.
+
+\bibitem{electronAlgo}
+The ATLAS collaboration, \emph{Expected electron performance in the ATLAS experiment}, ATL-PHYS-PUB-2011-006
+
+\bibitem{TMVA}
+A. Hocker, P. Speckmayer, J. Stelzer, F. Tegenfeldt, and H. Voss, \emph{TMVA, toolkit for multivariate
+data analysis with ROOT}, CERN-2008-001 .
+
+\bibitem{eleEff}
+The ATLAS Collaboration, \emph{Electron reconstruction and identification efficiency measurements with the ATLAS detector using the 2011 LHC proton-proton collision data}, CERN-PH-EP-2014-040, arXiv:1404.2240
+
+\bibitem{eleEnergy}
+The ATLAS Collaboration, G. Aad et al., \emph{Electron performance measurements with
+the ATLAS detector using the 2010 LHC proton-proton collision data},
+Eur.Phys.J. C72 (2012) 1909.
+
+\bibitem{staco}
+S. Hassini, et al., \emph{A muon identification and combined reconstruction procedure for the
+ATLAS detector at the LHC using the (MUONBOY, STACO, MuTag)
+reconstruction packages}, NIM A572 (2007) 77–79.
+
+\bibitem{muoneffres}
+The ATLAS Collaboration, G. Aad et al., \emph{Preliminary results on the muon
+reconstruction efficiency, momentum resolution, and momentum scale in ATLAS
+2012 pp collision data}, ATLAS-CONF-2013-088, CERN, 2013,
+
+\bibitem{fastjet}
+M. Cacciari, G. P. Salam, and G. Soyez, \emph{FastJet user manual}, Eur.Phys.J. C72
+(2012) 1896.
+
+\bibitem{TopoClusterAlgo}
+W.~Lampl et al., {\em Calorimeter Clustering Algorithms : Description and
+  Performance\/},  ATL-LARG-PUB-2008-002.
+
+\bibitem{antikt}
+M. Cacciari, G. P. Salam, and G. Soyez, \emph{The anti-kt jet clustering algorithm},
+JHEP 04 (2008) 63.
+
+\bibitem{EMcalibration}
+E. Abat, J. Abdallah, T. Addy, P. Adragna, et al.,\emph{ Combined performance studies
+for electrons at the 2004 ATLAS combined test-beam}, JINST 5 (2010) P11006.
+
+\bibitem{jesinsitu}
+ATLAS Collaboration, \emph{Jet energy measurement with the ATLAS detector in proton-proton
+collisions at $\sqrt{s} = 7$ TeV}, Submitted to EPJ (2011) , arXiv:1112.6426 
+
+\bibitem{jespileup}
+The ATLAS Collaboration, \emph{Pile-up corrections for jets from proton-proton collisions at
+ATLAS in 2011}, ATLAS-CONF-2012-064, July, 2012.
+
+\bibitem{jesarea}
+M. Cacciari and G. P. Salam, \emph{Pileup subtraction using jet areas}, Phys.Lett. B659
+(2008) 119.
+
+\bibitem{jer}
+The ATLAS Collaboration, G. Aad et al., \emph{Jet energy resolution in proton-proton
+collisions at $\sqrt{s} = 7$ TeV recorded in 2010 with the ATLAS detector}, Eur.Phys.J.
+C73 (2013) 2306
+
+\bibitem{JES}
+{The ATLAS} collaboration, \emph{Jet energy scale and its systematic uncertainty in proton-proton collisions at $\sqrt{s}=7$
+ TeV with ATLAS 2011 data}, ATLAS-CONF-2013-004
+
+
+\bibitem{ATLASCLEANING}
+{The ATLAS} Collaboration, {\em Data-Quality Requirements and Event Cleaning
+  for Jets and Missing Transverse Energy Reconstruction with the ATLAS Detector
+  in Proton-Proton Collisions at a Center-of-Mass Energy of
+  $\sqrt{s}=7$~TeV\/},  ATLAS-CONF-2010-038.
+
+\bibitem{jetfitter}
+G. Piacquadio, C. Weiser, \emph{A new inclusive secondary vertex algorithm for b-jet
+tagging in ATLAS}, JPCS 119 (2008) 032032
+
+\bibitem{btagPerf}
+The ATLAS Collaboration, G. Aad et al., \emph{Commissioning of the ATLAS
+high-performance b-tagging algorithms in the 7 TeV collision data,
+ATLAS-CONF-2011-102}, CERN, 2011, ATLAS-CONF-2011-102.
+
+\bibitem{BtaggingScaleFactors}
+{The ATLAS} Collaboration, {\em Measuring the b-tag efficiency in a ttbar sample with 4.7 $fb^{-1}$ of data from the ATLAS detector} ATLAS-CONF-2012-097.
+
+\bibitem{BtaggingScaleFactorsNew}
+{The ATLAS} Collaboration, {\em  Calibration of b-tagging using dileptonic top pair events in a combinatorial likelihood approach with the ATLAS experiment } 
+ ATLAS-CONF-2014-004.
+
+
+\bibitem{ETMISS}
+{The ATLAS} Collaboration, {\em Reconstruction and Calibration of Missing
+  Transverse Energy and Performance in $Z$ and $W$ events in ATLAS
+  Proton-Proton Collisions at $\sqrt{s}$=7 TeV\/},  ATLAS-CONF-2011-080.
+
+\bibitem{ETMISS2}
+ATLAS Collaboration, G. Aad et al., Performance of missing transverse
+momentum reconstruction in proton-proton collisions at 7 TeV with ATLAS,
+Eur.Phys.J. C72 (2012) 1844.
+
+
+\bibitem{ATLASTAUIDnew}
+{TheATLAS} Collaboration, {\em Performance of the Reconstruction and
+  Identification of Hadronic tau Decays in ATLAS with 2011 Data\/},
+  ATLAS-CONF-2012-142.
+
+\bibitem{trigger}
+The ATLAS Collaboration, G. Aad et al., \emph{Performance of the ATLAS trigger system
+in 2010}, Eur.Phys.J. C72 (2012) 1849.
+
+\bibitem{triggermu}
+The ATLAS Collaboration, G. Aad et al., \emph{Performance of the ATLAS muon trigger
+in 2011}, ATLAS-CONF-2012-099, CERN, 2012.
+
+\bibitem{triggere}
+The ATLAS Collaboration, G. Aad et al., \emph{Performance of the ATLAS electron and
+photon trigger in p-p collisions at $\sqrt{s} = 7$ TeV in 2011}, ATLAS-CONF-2012-048,
+CERN, 2012.
+
+\bibitem{hepmc}
+M. Dobbs and J.B. Hansen, \emph{“The HepMC C++ Monte Carlo Event Record for High Energy
+Physics”}, Computer Physics Communications, ATL-SOFT-2000-001.
+
+
+\bibitem{ASpin0}
+The ATLAS Collaboration, \emph{ Evidence for the spin-0 nature of the Higgs boson using ATLAS data },
+Phys. Lett. B 726 (2013), pp. 120-144.
+
+\bibitem{ACouplings}
+The ATLAS Collaboration, \emph{ Measurements of Higgs boson production and couplings in diboson final states with 
+the ATLAS detector at the LHC}, Phys. Lett. B 726 (2013), pp. 88-119.
+
+\bibitem{CFermions}
+The CMS Collaboration, \emph{``Evidence for the direct decay of the 125 GeV Higgs boson to fermions,''}
+  arXiv:1401.6527 [hep-ex].
+
+\bibitem{CWidth}
+The CMS Collaboration, \emph{ Higgs boson width from on- vs. off-shell production and decay to Z-boson pairs },  arXiv:1405.3455.
+
+\bibitem{MMC}
+A.~Elagin, P.~Murat, A.~Pranko, and A.~Safonov, {\em {A New Mass Reconstruction
+  Technique for Resonances Decaying to di-tau}\/},
+  \href{http://arxiv.org/abs/1012.4686}{{\tt arXiv:1012.4686 [hep-ex]}}. *
+  Temporary entry *.
+
+
+
+\bibitem{AtlasHtautauMSSMSearch2011}
+T.~A. Collaboration, {\em Search for neutral MSSM Higgs bosons decaying to
+  $\tau\tau$ pairs in proton-proton collisions at with the ATLAS detector\/},
+  Physics Letters B {\bf 705} (2011) no.~3, 174 -- 192.
+
+\bibitem{templateMethod}
+{The ATLAS} Collaboration, {\em Data-driven estimation of the background to charged Higgs boson
+searches using hadronically-decaying tau final states in ATLAS,}  ATLAS-CONF-2011-051.
+
+\bibitem{ATLASZtautau}
+{The ATLAS} Collaboration, {\em Measurement of the $Z\rightarrow\tau\tau$ cross
+  section with the ATLAS detector\/},
+  \href{http://dx.doi.org/10.1103/PhysRevD.84.112006}{Phys. Rev. D {\bf 84}
+  (2011)  112006}.
+
+\bibitem{ATLASMSSM7TeV}
+T.~A. Collaboration, {\em Search for the neutral Higgs bosons of the Minimal
+  Supersymmetric Standard Model in pp collisions at $\sqrt s = 7$ TeV with the
+  ATLAS detector\/},  JHEP  , \href{http://arxiv.org/abs/1211.6956}{{\tt
+  arXiv:1211.6956}}.
+
+\bibitem{ABCD} Atlas statistics forum, {\em ABCD method in searches}, \href{https://twiki.cern.ch/twiki/pub/AtlasProtected/ATLASStatisticsFAQ/ABCD.pdf}{link}
+
+\bibitem{2011LHSupportNote}
+{The ATLAS} Collaboration, {\em Search for Neutral MSSM Higgs Bosons H to
+  $\tau\tau$ to l$\tau_{h}$ with the ATLAS Detector in 7 TeV Collisions\/},
+  ATL-COM-PHYS-2012-094.
+
+\bibitem{2010SMLLSupportNote}
+ {The ATLAS} Collaboration, {\em Search for neutral Higgs Bosons in the decay mode $H \rightarrow \tau\tau \rightarrow ll +4\nu$ in proton proton collision
+ at  $\sqrt{7}$ TeV with the ATLAS Detector}, ATL-COM-PHYS-2011-758.
+
+\bibitem{ttbaremu}
+The Atlas Collaboration, \emph{ Measurement of the ttbar production cross-section in pp collisions at $\sqrt{s} = 8$ TeV using e-mu events with b-tagged jets }. ATLAS-CONF-2013-097.
+
+
+\bibitem{PYTHIA}
+{T. Sjostrand, S. Mrenna and P. Skands}, {\em {PYTHIA 6.4 physics and
+  manual}\/},  \href{http://dx.doi.org/10.1088/1126-6708/2006/05/026}{JHEP {\bf
+  05} (2006)  026}.
+
+\bibitem{RIVET}
+A.~B. et~al., {\em Rivet user manual\/},
+  \href{http://arxiv.org/abs/1003.0694}{{\tt arXiv:1003.0694 [hep-ph]}}.
+
+
+\bibitem{lhclimits}
+The ATLAS and CMS Collaborations, \emph{Procedure for the LHC Higgs boson search combination in summer 2011},
+ATL-PHYS-PUB-2011-011, ATL-COM-PHYS-2011-818, CMS-NOTE-2011-005.
+
+\bibitem{roofit}
+W. Verkerke and D. P. Kirkby, \emph{The Roofit Toolkit for Data Modeling}, eConf
+C0303241 (2003) MOLT007, arXiv:physics/0306116
+
+\bibitem{roostat}
+K. S. Cranmer et al., \emph{The Roostats Project}, PoS ACAT2010 (2010) 57.
+
+\bibitem{histfactory}
+K. Cranmer, G. Lewis, L. Moneta, A. Shibata, and W. Verkerke, \emph{Histfactory: A
+Tool for Creating Statistical Models for use with Roofit and Roostats},
+CERN–OPEN–2012–016 (2012)
+
+\bibitem{Asympt}
+E.~G. G.~Cowan, K.~Cranmer and O.~Vitells, {\em {Asymptotic formulae for
+  likelihood-based tests of new physics}\/},
+  \href{http://arxiv.org/abs/1007.1727}{{\tt arXiv:1007.1727 [hep-ex]}}.
+
+\bibitem{cls1}
+A. L. Read. \emph{Presentation of search results: the CLs technique}. J. Phys. G: Nucl. Part.
+Phys., 28, 2002.
+
+\bibitem{cls2}
+A. L. Read. \emph{Modified frequentist analysis of search results (the CLs method)}. In Proceedings
+of the First Workshop on Confidence Limits, CERN, Geneva, Switzerland, 2000.
+
+\bibitem{LEE}
+E, Gross and O. Vitells. \emph{Trial factors for the look elsewhere effect in high en-
+ergy physics.} The European Physical Journal C - Particles and Fields, 70:525–530, 2010.
+
+
+
+\bibitem{LHCHiggsCrossSectionWorkingGroup:2011ti}
+{LHC Higgs Cross Section Working Group}, S.~Dittmaier, C.~Mariotti,
+  G.~Passarino, R.~Tanaka~(Eds.), et al., {\em {Handbook of LHC Higgs Cross
+  Sections: 1. Inclusive Observables}\/},
+  \href{http://arxiv.org/abs/1101.0593}{{\tt arXiv:1101.0593 [hep-ph]}}.
+
+\bibitem{LHCHiggsCrossSectionWorkingGroup:2011tii}
+{LHC Higgs Cross Section Working Group}, S.~Dittmaier, C.~Mariotti,
+  G.~Passarino, and R.~Tanaka~(Eds.), {\em {Handbook of LHC Higgs Cross
+  Sections: 2. Differential Distributions}\/},  CERN-2012-002 (CERN, Geneva,
+  2012)  ,
+\href{http://arxiv.org/abs/1201.3084}{{\tt arXiv:1201.3084 [hep-ph]}}.
+
+%%CITATION = ARXIV:1201.3084;%%.
+
+
+%%%%%%%%%%%%%%%%%%%%%%trackjets stuff%%%%%%%%%%%%%%
+\bibitem{IDperformance}
+{ATLAS collaboration {\em Performance of the ATLAS Silicon Pattern Recognition Algorithm in Data and Simulation at $\sqrt{s}=7$ TeV}, ATLAS-CONF-2010-072}
+
+\bibitem{IDMaterial}
+{The ATLAS Collaboration, {\em A measurement of the material in the ATLAS inner detector
+using secondary hadronic interactions}, arXiv:1110.6191, JINST 7 (2012) P01013}
+
+\bibitem{JEStrack}
+{The ATLAS Collaboration, {\em Validation of the ATLAS jet energy scale uncertainties using tracks
+in proton-proton collision $\sqrt{s}=7$ TeV}, ATLAS-CONF-2011-067}
+
+\bibitem{trackEff}
+{The ATLAS Collaboration, {\em Track Reconstruction Efficiency in $\sqrt{s}=7$ TeV Data for Tracks with $\pt > 100 $ MeV }, ATL-PHYS-INT-2010-112}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibitem{HqT}
+{D.~de Florian, G.~Ferrera, M.~Grazzini and D.~Tommasini}, {\em
+  {Transverse-momentum resummation: Higgs boson production at the Tevatron and
+  the LHC}\/},  JHEP {\bf 1111} (2011)  ,
+\href{http://arxiv.org/abs/1109.2109}{{\tt arXiv:1109.2109 [hep-ph]}}.
+%%CITATION = ARXIV:1201.3084;%%.
+
+\bibitem{NPcheck}
+{Statistical twiki, NuissanceCheck. \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/NuisanceCheck}{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/NuisanceCheck}}
+
+\end{thebibliography}
+%\end{thebibliography}\endgroup

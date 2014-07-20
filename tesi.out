@@ -66,11 +66,16 @@
 \BOOKMARK [2][-]{subsection.6.3.1}{Material Budget Uncertainty on Track-Based Jets Reconstruction }{section.6.3}
 \BOOKMARK [2][-]{subsection.6.3.2}{Validation of the Track Subtraction Method}{section.6.3}
 \BOOKMARK [0][-]{chapter.7}{Summary and Conclusions}{}
-\BOOKMARK [0][-]{section*.24}{Acknowledgments}{}
-\BOOKMARK [0][-]{chapter*.25}{Bibliography}{}
-\BOOKMARK [0][-]{Appendix.1.A}{Appendix QCD Trigger bias}{}
-\BOOKMARK [0][-]{Appendix.1.B}{Appendix QCD Additional Plots}{}
-\BOOKMARK [0][-]{Appendix.1.C}{Appendix Limits cross checks and additional plots}{}
-\BOOKMARK [1][-]{section.1.C.1}{The ABCD Method }{Appendix.1.C}
-\BOOKMARK [1][-]{section.1.C.2}{Additional Limit Checks}{Appendix.1.C}
-\BOOKMARK [1][-]{section.1.C.3}{Shape Systematics}{Appendix.1.C}
+\BOOKMARK [0][-]{section*.89}{Acknowledgments}{}
+\BOOKMARK [0][-]{chapter*.90}{Bibliography}{}
+\BOOKMARK [0][-]{appendix.A}{Appendix Additional QCD Studies}{}
+\BOOKMARK [1][-]{section.A.1}{Trigger Bias}{appendix.A}
+\BOOKMARK [1][-]{section.A.2}{QCD Additional Plots}{appendix.A}
+\BOOKMARK [0][-]{appendix.B}{Appendix Additional Plots and Results}{}
+\BOOKMARK [0][-]{appendix.C}{Appendix Further Details on Limit}{}
+\BOOKMARK [1][-]{section.C.1}{The ABCD Method }{appendix.C}
+\BOOKMARK [1][-]{section.C.2}{Shape Systematics}{appendix.C}
+\BOOKMARK [1][-]{section.C.3}{Additional Limit Checks}{appendix.C}
+\BOOKMARK [2][-]{subsection.C.3.1}{Regularization of Signal Samples}{section.C.3}
+\BOOKMARK [2][-]{subsection.C.3.2}{Pre Fit and Post Fit MMC mass Plots}{section.C.3}
+\BOOKMARK [2][-]{subsection.C.3.3}{Checks in Mass range 230-300 GeV}{section.C.3}

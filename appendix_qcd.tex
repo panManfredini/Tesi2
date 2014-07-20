@@ -1,5 +1,6 @@
-\chapter{QCD Trigger bias}
-\label{appendix:qcd}
+\chapter{Additional QCD Studies}\label{appendix:qcd}
+
+\section{Trigger Bias}
 
 The single electron trigger (\verb=EF_e24vhi_medium1=) used in this analysis includes the following isolation cut: $\ptcone20 / \PT < 0.1$.
 This means that the kinematical distributions in the anti-isolated ABCD regions will biased due to a reduced efficiency for high \pt~ electrons. This unwanted feature may potentially effect the \rqcd factor, as the OS/SS ratio may differ due to different \PT~ spectrum. 
@@ -32,15 +33,26 @@ this second trigger is rescaled according to prescales information.}
 
 \clearpage
 
-\chapter{QCD Additional Plots}
+\section{QCD Additional Plots}
 \label{appendix:qcd_additional}
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[page=1, width=0.49\textwidth]{figure/QCD/qcd_plot.pdf}
-\includegraphics[page=2, width=0.49\textwidth]{figure/QCD/qcd_plot.pdf}
+\subfigure[]{
+\includegraphics[width=0.45\textwidth]{figure/QCD/qcd_plot_1.pdf}
+}
+\subfigure[]{
+\includegraphics[width=0.45\textwidth]{figure/QCD/qcd_plot_2.pdf}
+}
+\subfigure[]{
+\includegraphics[width=0.45\textwidth]{figure/QCD/qcd_plot_4.pdf}
+}
+\subfigure[]{
+\includegraphics[width=0.45\textwidth]{figure/QCD/qcd_plot_3.pdf}
+}
 \end{center}
-	\caption{OS/SS ratio as a function of lepton isolation variable selections (a) after the requirement of zero b-jets and (b) for the full b-veto selection. The isolation selections are varied as a percentage relative to
+	\caption{OS/SS ratio as a function of lepton isolation variable selections after the requirement of (a) zero b-jets, (b) the full b-veto category selection, 
+	(c) of a b-jet, (d) the full b-tag category selections. The isolation selections are varied as a percentage relative to
 	the standard lepton isolation cut values (0~in the plot). 
 	%As an example the point at 100\% in the plot corresponds
 	%to $\rqcd$ evaluated by increasing the isolation requirement by 100\% respect to the standard cut value.
@@ -52,21 +64,4 @@ this second trigger is rescaled according to prescales information.}
 	 }
 \end{figure}
 
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[page=3, width=0.49\textwidth]{figure/QCD/qcd_plot.pdf}
-\includegraphics[page=4, width=0.49\textwidth]{figure/QCD/qcd_plot.pdf}
-\end{center}
-	\caption{OS/SS ratio as a function of lepton isolation variable selections (a) after the requirement of one b-jet and (b) for the full b-tag selection. The isolation selections are varied as a percentage relative to
-	the standard lepton isolation cut values (0~in the plot). 
-	%As an example the point at 100\% in the plot corresponds
-	%to $\rqcd$ evaluated by increasing the isolation requirement by 100\% respect to the standard cut value.
-	The red points show the anti-isolated scale factor $\rqcd$, i.e. the ratio between regions C and D.
-	 The black points show the isolated SF, which is defined as the ratio between region $\hat{A}$ and $\hat{B}$, 
-	 where the leptons have isolation values larger than the nominal value but smaller
-	 than the sliding cut.
-%	 taking the same example point at 100\%, than the double of the standard cut value.
-	 }
-\end{figure}
 
-\clearpage
