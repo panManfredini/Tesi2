@@ -78,27 +78,28 @@
 \contentsline {subsubsection}{Exclusion Limit Computation}{95}{section*.64}
 \contentsline {subsubsection}{Significance Test of the Background Only Hypothesis}{96}{section*.65}
 \contentsline {subsection}{\numberline {5.5.2}Exclusion Limits on the Signal Production}{97}{subsection.5.5.2}
-\contentsline {chapter}{\numberline {6}Improvements to the MSSM Higgs Boson Search Using Track-Jets}{105}{chapter.6}
-\contentsline {section}{\numberline {6.1}Track-Based Jets}{106}{section.6.1}
-\contentsline {section}{\numberline {6.2}Performance of the Track-based Jets}{108}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Track-based Jets Reconstruction}{108}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}B-tagging with Track-Based Jets}{110}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3} Use of Track-jets for the MSSM Higgs Boson Search}{114}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Systematic Uncertainties of Track-Jet Reconstruction}{116}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Material Budget Uncertainty on Track-Based Jets Reconstruction }{117}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Validation of the Track Subtraction Method}{118}{subsection.6.3.2}
-\contentsline {chapter}{\numberline {7}Summary and Conclusions}{125}{chapter.7}
+\contentsline {subsection}{\numberline {5.5.3}Combination with Other Search Channels}{103}{subsection.5.5.3}
+\contentsline {chapter}{\numberline {6}Improvements to the MSSM Higgs Boson Search Using Track-Jets}{109}{chapter.6}
+\contentsline {section}{\numberline {6.1}Track-Based Jets}{110}{section.6.1}
+\contentsline {section}{\numberline {6.2}Performance of the Track-based Jets}{112}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Track-based Jets Reconstruction}{112}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}B-tagging with Track-Based Jets}{114}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3} Use of Track-jets for the MSSM Higgs Boson Search}{118}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Systematic Uncertainties of Track-Jet Reconstruction}{120}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Material Budget Uncertainty on Track-Based Jets Reconstruction }{121}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Validation of the Track Subtraction Method}{122}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {7}Summary and Conclusions}{129}{chapter.7}
 \enlargethispage {2\normalbaselineskip }
-\contentsline {chapter}{Acknowledgments}{129}{section*.89}
-\contentsline {chapter}{Bibliography}{131}{chapter*.90}
-\contentsline {chapter}{Appendix \numberline {A}Additional QCD Studies}{143}{appendix.A}
-\contentsline {section}{\numberline {A.1}Trigger Bias}{143}{section.A.1}
-\contentsline {section}{\numberline {A.2}QCD Additional Plots}{145}{section.A.2}
-\contentsline {chapter}{Appendix \numberline {B}Additional Plots and Results}{147}{appendix.B}
-\contentsline {chapter}{Appendix \numberline {C}Further Details on Limit}{151}{appendix.C}
-\contentsline {section}{\numberline {C.1}The ABCD Method }{151}{section.C.1}
-\contentsline {section}{\numberline {C.2}Shape Systematics}{152}{section.C.2}
-\contentsline {section}{\numberline {C.3}Additional Limit Checks}{153}{section.C.3}
-\contentsline {subsection}{\numberline {C.3.1}Regularization of Signal Samples}{159}{subsection.C.3.1}
-\contentsline {subsection}{\numberline {C.3.2}Pre Fit and Post Fit MMC mass Plots}{160}{subsection.C.3.2}
-\contentsline {subsection}{\numberline {C.3.3}Checks in Mass range 230-300 GeV}{163}{subsection.C.3.3}
+\contentsline {chapter}{Acknowledgments}{133}{section*.92}
+\contentsline {chapter}{Bibliography}{135}{chapter*.93}
+\contentsline {chapter}{Appendix \numberline {A}Additional QCD Studies}{147}{appendix.A}
+\contentsline {section}{\numberline {A.1}Trigger Bias}{147}{section.A.1}
+\contentsline {section}{\numberline {A.2}QCD Additional Plots}{149}{section.A.2}
+\contentsline {chapter}{Appendix \numberline {B}Additional Plots and Results}{151}{appendix.B}
+\contentsline {chapter}{Appendix \numberline {C}Further Details on Limit}{157}{appendix.C}
+\contentsline {section}{\numberline {C.1}The ABCD Method }{157}{section.C.1}
+\contentsline {section}{\numberline {C.2}Shape Systematics}{158}{section.C.2}
+\contentsline {section}{\numberline {C.3}Additional Limit Checks}{159}{section.C.3}
+\contentsline {subsection}{\numberline {C.3.1}Regularization of Signal Samples}{165}{subsection.C.3.1}
+\contentsline {subsection}{\numberline {C.3.2}Pre Fit and Post Fit MMC mass Plots}{166}{subsection.C.3.2}
+\contentsline {subsection}{\numberline {C.3.3}Checks in Mass range 230-300 GeV}{169}{subsection.C.3.3}
