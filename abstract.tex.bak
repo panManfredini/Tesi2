@@ -2,36 +2,47 @@
 \newgeometry{left=3.7cm, right=3.7cm,bottom=4cm ,top=2cm}
 \begin{abstract}
 \begin{small}
-Two studies with the ATLAS experiment  at the Large Hadron Collider (LHC)  have been performed in this thesis: 
-the search for the neutral MSSM Higgs bosons and an investigation on the prospect for enhancing the sensitivity of this search by using track-based jet
-in alternative to the canonical calorimeter-based jet reconstruction.
+%Two studies with the ATLAS experiment  at the Large Hadron Collider (LHC)  have been performed in this thesis: 
+%the search for the neutral MSSM Higgs bosons and an investigation on the prospect for enhancing the sensitivity of this search by using track-based jet
+%in alternative to the canonical calorimeter-based jet reconstruction.
 
-The search for the neutral MSSM Higgs bosons $A$, $h$ and $H$ has been performed using LHC proton-proton collision data at a centre-of-mass energy
-of 8~TeV corresponding to an integrated luminosity of 20.3$\,\text{fb}^{-1}$. The search focuses on the Higgs boson decays
+In this thesis, a search for the neutral Higgs bosons of the Minimal Supersymmetric extension of the Standard Model has been performed  
+with the ATLAS detector  at the Large Hadron Collider (LHC).
+The search focuses on  Higgs boson decays
 into a pair of $\tau$ leptons which subsequently decays via  $\tau^+ \tau^- \rightarrow e \mu +4\nu$.
-The decay into $\tau$ leptons pair has the highest sensitivity for this search.
-The search is performed for the two most significant production modes, gluon fusion and the production in association with b-quarks. 
-To enhance the signal sensitivity,  the  selected events are categorised into two mutually exclusive categories based on the presence
-and on the absence of b-tagged jets in the final state, which are separately optimized for the 
-two production modes.
-The results are interpreted in terms of the  MSSM $m_h^{mod}$ benchmark scenario as a function of the free parameter 
- $m_A$ and $\tan\beta$. No significant excess of event above the estimated Standard Model background has been found, 
-upper exclusion limits are derived in the $m_A - \tan\beta$ plane for the $m_h^{mod}$ benchmark scenario where values of $\tan\beta \apprge 10$ are excluded 
-for the mass range $90 < m_A < 200$,%something on limits
-the highest local p-value
-is observed in the mass rage $250< m_A <300$~GeV and corresponds to $1.9\,\sigma$.
-In addition, less model-dependent exclusion limits are derived on the cross section for 
-the production of a generic Higgs boson $\phi$ with  mass  $m_\phi$ via the  processes $pp \rightarrow b\bar{b}\phi$ and $gg \rightarrow \phi$.
+The prospects for enhancing the sensitivity of this search by using jet reconstruction based on inner detector tracks
+has also been investigated.
 
 
-The neutral MSSM Higgs bosons produced in association with b-quark are characterised by the presence of relatively low-transverse momentum
-jets (originating from b-quarks), the reconstruction and calibration of calorimeter jets for such a low transverse momentum 
-suffers strongly of pile-up effects.  An alternative approach employing track-based jet b-tagging is investigated.
-For jets with low transverse momentum the track-based jet provides a higher
-b-hadron reconstruction efficiency than calorimeter-besed  jets and are more suitable  for
-low $\pt$ b-tagging. The sensitivity to the neutral MSSM Higgs boson produced in association with b-quarks can be improved 
-up to a factor two if track-based jet reconstruction is employed instead of the canonical calorimeter based one.
+The search for the neutral MSSM Higgs bosons $A$, $h$ and $H$ has been performed using proton-proton collision data
+at a centre-of-mass energy of 8~TeV corresponding to an integrated luminosity of 20.3$\,\text{fb}^{-1}$. 
+%The decay into $\tau$ leptons pair has the highest sensitivity for this search.
+%The search is performed for the two most significant production modes, gluon fusion and the production in association with b-quarks. 
+To enhance the signal sensitivity,  the   events are split into two mutually exclusive categories
+without and with  b-tagged jets indicating the two dominant Higgs boson production modes, via gluon fusion and in association with b-quarks, respectively.
+The results are interpreted in terms of the  MSSM $m_h^{mod}$ benchmark scenario. 
+No significant excess of events above the estimated Standard Model background has been found. 
+Upper  limits have been derived in the plane of the two free MSSM parameters  $m_A$ and $\tan\beta$, where the latter is the ratio of the vacuum expectation values
+of the two MSSM Higgs doublets. Values  of $\tan\beta \apprge 10$ are excluded in the mass range $90 < m_A < 200$~GeV. %something on limits
+The most significant excess of events with a  local p-value of 2.9\% for the background only hypotesis is observed in the mass rage $250< m_A <300$~GeV,
+corresponding to a signal significance of $1.9\,\sigma$.
+In addition, less model-dependent upper limits on the cross section for the production of 
+ a generic scalar boson $\phi$ with  mass  $m_\phi$ via the  processes $pp \rightarrow b\bar{b}\phi$ and $gg \rightarrow \phi$
+have been derived.
 
+
+The neutral MSSM Higgs boson production in association with b-quarks is characterised by the presence of  low transverse momentum
+b-jets. The reconstruction and calibration of low transverse momentum jets based on energy deposits in the calorimeters
+ is strongly affected by pile-up effects due to the multiple proton interactions per bunch crossing. 
+An alternative approach employing jet reconstruction based on inner detector tracks  
+have been  investigated. For jets with low transverse momenta the track-based  reconstruction
+provides a higher jet reconstruction efficiency compared to calorimeter-based one and is more suitable  for
+the  identification of low momentum  b-jets. This preliminary study shows that the sensitivity of the search for neutral MSSM Higgs bosons,
+ produced in association with b-quarks, can be improved by up to a factor of two if track-based jet reconstruction is employed 
+instead of the canonical calorimeter-based one. However, additional studies are needed to fully evaluate the
+systematic uncertainties of track-based jets reconstruction. Furthermore a dedicated calibration of the b-jet 
+identification and mis-identification rates is necessary to complete the study.
+ 
 
 %This is one of the main reason for sensitivity loss of this search in the category that 
 %requires a b-tagged jet. An alternative approach would be to use the so-called track-based jets reconstruction, 

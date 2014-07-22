@@ -14,11 +14,12 @@ The prospects for improvements to the neutral MSSM Higgs boson search  by applyi
 are discussed. 
 
 In Section~\ref{sec:tj_intro} the challenges in the b-tagging for  the MSSM Higgs boson search are explained
-togheter with a description of the track-based jet reconstruction. 
+together with a description of the track-based jet reconstruction. 
 In Section~\ref{sec:tj_perf} the performance of the  b-tagging algorithms to track-based jets is described 
 in comparison with the b-tagging performance for calorimeter jets. Preliminary evaluation of the impact on the
-analysis presented in this thesis is discussed. Finally, in Section~\ref{sec:trackjetsys} 
-systematic uncertainties related to track-based jets are discussed.
+analysis presented in this thesis is discussed. In Section~\ref{sec:trackjetsys} 
+systematic uncertainties related to track-based jets are discussed. Finally, the conclusion of the studies on
+track-based jets are summarised in Section~\ref{sec:trackjetsconclusion}
 
 
 \restoregeometry
@@ -40,25 +41,25 @@ systematic uncertainties related to track-based jets are discussed.
 \end{figure}
 
 
-In the search for the neutral MSSM Higgs bosons, as described in chapter~\ref{chap:anal}, the selected events are categorized 
+In the search for the neutral MSSM Higgs bosons, as described in chapter~\ref{chap:anal}, the selected events are categorised 
 in two categories based on the presence or the absence of a b-tagged jet in the event. The b-tagged event category 
-is optimized for the selection of Higgs bosons produced in association with b-quarks. Figure~\ref{fig:bjetDistro} shows a comparison 
+is optimised for the selection of Higgs bosons produced in association with b-quarks. Figure~\ref{fig:bjetDistro} shows a comparison 
 between the $\pt$ spectra of simulated b-hadron (hadrons containing a b-quark) in $pp\rightarrow b(b)\,A/h/H$ process  and in $\ttbar$ events.
 The signal contains  b-hadrons with relatively low transverse momenta, imposing a  major challenge 
 for the analysis of the b-tagged event category. Due to the high amount of pileup and ambient energy density in the events, 
-the energy of the calorimeter jets with $\pt<20$~GeV is not calibrated (see chapter~\ref{chap:obj}), the jet recostruction performance 
+the energy of the calorimeter jets with $\pt<20$~GeV is not calibrated (see chapter~\ref{chap:obj}), the jet reconstruction performance 
 and related systematic uncertainties are not evaluated for these jets. The reconstruction of calorimeter jets in the $pp\rightarrow b(b)\,A/h/H$ 
 signal production process is therefore not optimal and represent the major source of the sensitivity losses 
 in the b-tagged event category.
-An additional challege of the presented search is the worsening of the  b-tagging performance for jets with low transverse momenta. 
+An additional challenge of the presented search is the worsening of the  b-tagging performance for jets with low transverse momenta. 
 The efficiency obtained with the $MV1$ tagger decreases  rapidly  with jet $\pt$, reaching a minimum of 50\% at 
 20~GeV for the tagging point with $\epsilon_b^{\ttbar}=70$\%~\cite{BtaggingScaleFactors,BtaggingScaleFactorsNew}.
 
 The performance of the jet reconstruction for  low transverse momenta may be improved by introducing \emph{track-based} jets (in the following track-jets)
-in repleacement to the commonly used calorimeter jets.
+in replacement to the commonly used calorimeter jets.
 Track-jets are reconstructed with the anti-kt algorithm by  clustering inner detector tracks.
 Conversely to calorimeter clusters, tracks have associated impact parameter informations and  track-jets can be reconstructed
-with tracks originating from the same ineteraction point, making their reconstruction very robust against the impact of pile-up.
+with tracks originating from the same interaction point, making their reconstruction very robust against the impact of pile-up.
 
 %%%%%% Definition of Track-jets %%%%%%%%%%%
 Track-jets are built by the \emph{TrackZTool} reconstruction software which runs the anti-kt clustering 
@@ -97,7 +98,7 @@ applied to these jets.
 Table~\ref{tab:tackjetSample}  gives a list of the produced samples along with the type of studied performed with them.
 
 \begin{table}[tp]
-	\caption{Monte Carlo simulation samples.}  %%%%%da fare meglio !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	\caption{Monte Carlo simulation samples.}  %%%%%a fare meglio !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	\vspace{3mm}
 \centering
 	\begin{tabular}{l c c}
@@ -146,7 +147,7 @@ from \emph{truth-jet} (see chapter~\ref{chap:obj}) separately for calorimeter an
 Here truth-jets are matched with reconstructed jets within a cone of size  $\Delta R = 0.4$\footnote{jet splitting effects are resolved by matching with the nearest jet}.
 As expected the track-jets energy is shifted from zero. This effect can be critical for most of the b-tagging algorithms 
 since the likelihood functions used for decision making are derived separately for different region
-of jets $\pt$ and pseudorapidity. A dedicated track-jets calibration of b-tagging algorithm is auspucable 
+of jets $\pt$ and pseudorapidity. A dedicated track-jets calibration of b-tagging algorithm is desirable 
 for  future application of b-tagging on these jets.
 %in based on 
 %like for example JetFitter, which
@@ -154,7 +155,7 @@ for  future application of b-tagging on these jets.
 
 \begin{figure}[tp]
 \centering
-\includegraphics[width=0.7\textwidth]{figure/trackjet/residuals2.pdf}
+\includegraphics[width=0.75\textwidth]{figure/trackjet/residuals2.pdf}
 \caption{Distribution of transverse momentum residuals relative to the true value $P_{T \, true}$,
 shown separately for the calorimeter and track-jets.}
 \label{fig:residuals}
@@ -185,14 +186,14 @@ The \emph{rejection power} is the inverse of the misidentification rate, i.e. th
 of jets which are not matched with a b-hadron or c-hadron, but are b-tagged. 
 Figure~\ref{fig:eff_rej} shows the rejection power as a function of the b-tagging efficiency for various b-tagging 
 algorithms applied on track-jets and calorimeter jets separately. Figure~\ref{fig:rej_pt}  shows the rejection power as a function of jet $\pt$ for the
-b-tagging working point  which gives 50\% b-tagging efficiency, calorimeter and track-based jet are shown separately. Mistagging rate is rapidly increasing
+b-tagging working point  which gives 50\% b-tagging efficiency, calorimeter and track-based jet are shown separately. Mis-tagging rate is rapidly increasing
 for low transverse momentum jets due to increasing particle multiple scattering and secondary interactions in the material,
 revealing the necessity of a dedicated b-tagging algorithm for low $\pt$ jets.
 
 \begin{figure}[!tp]
 \centering
-\includegraphics[width=0.7\textwidth]{figure/trackjet/std_eff_rej2.pdf}
-\includegraphics[width=0.7\textwidth]{figure/trackjet/std_cal_eff_rej2.pdf}
+\includegraphics[width=0.8\textwidth]{figure/trackjet/std_eff_rej2.pdf}
+\includegraphics[width=0.8\textwidth]{figure/trackjet/std_cal_eff_rej2.pdf}
 \caption{Rejection power as a function of the b-tagging efficiency for different b-tagging algorithm applied
 	 on track-jets (top) and on calorimeter jet (bottom) for simulated $b\bar{b}$ events.}
 \label{fig:eff_rej}
@@ -200,39 +201,40 @@ revealing the necessity of a dedicated b-tagging algorithm for low $\pt$ jets.
 
 \begin{figure}[!tp]
 \centering
-\includegraphics[width=0.7\textwidth]{figure/trackjet/std_rej_pt2.pdf}
-\includegraphics[width=0.7\textwidth]{figure/trackjet/std_cal_rej_pt2.pdf}
-\caption{Rejection power as a function of the jet transverse momentum for the b-agging 
-	working point whita  50\% b-tagging efficiency at that $\pt$ value, track-jet (top) and calorimeter jet (bottom) are
+\includegraphics[width=0.8\textwidth]{figure/trackjet/std_rej_pt2.pdf}
+\includegraphics[width=0.8\textwidth]{figure/trackjet/std_cal_rej_pt2.pdf}
+\caption{Rejection power as a function of the jet transverse momentum for the b-tagging 
+	working point whit a  50\% b-tagging efficiency at that $\pt$ value, track-jet (top) and calorimeter jet (bottom) are
 	shown separately. Results are obtained using simulated $b\bar{b}$ events
 	and shown for several b-tagging algorithms.}
 \label{fig:rej_pt}
 \end{figure}    
 
-\begin{figure}[!tp]
-\centering
-\includegraphics[width=0.7\textwidth]{figure/trackjet/eff_real_rej_mod2.pdf}
-\caption{Effective rejection as a function of b-hadron reconstruction efficiency, track-jet and calo jets are
-	compared for two different ATLAS tagging algorithms. Track-jets are selected in the transverse momentum range 
-	between 4 and 33 GeV, while calojets between 8 and 50 GeV.}
-\label{fig:cj_tj}
-\end{figure}    
 
 The described rejection power and b-tagging efficiency cannot serve for a fair  comparison of the track-based and calorimeter jets.
 The latter can be reconstructed even if there are no associated tracks to them, in which case any b-tagging algorithm will most likely fail.
 The distribution of the rejection power is therefore altered by such jets. It is instead convenient to introduce 
-the: \emph{effective rejection power}, which is the inverse of the number of mistagged jets per event. 
+the: \emph{effective rejection power}, which is the inverse of the number of mis-tagged jets per event. 
 Figure~\ref{fig:cj_tj} shows the effective rejection power as a function of the b-hadron reconstruction efficiency, for 
 calorimeter and track-based jets. For a given b-hadron reconstruction efficiency,
-a higer effective rejection of mistagged jets can be achieved by track-jets.
-For a fair comparison with calojets the track-jets in Figure~\ref{fig:cj_tj} are selected in the transverse 
+a higher effective rejection of mis-tagged jets can be achieved by track-jets.
+For a fair comparison with calorimeter jets, the track-jets in Figure~\ref{fig:cj_tj} are selected in the transverse 
 momentum range between 4 and 33 GeV, while the transverse momentum of calorimeter jets 
-ranges from 8 to 50 GeV. The introduced $\pt$-thresholds corresponds in averange to the same $\pt$ range, 
+ranges from 8 to 50 GeV. The introduced $\pt$-thresholds corresponds in average to the same $\pt$ range, 
 Figure~\ref{fig:residuals} is only valid for low $\pt$ jets  and the fraction of undetected 
 momentum from neutral jet component  approaches 1/3 for higher $\pt$ track-jets.
 In conclusion, for jets with low transverse momentum the track-jets provide a higher 
 b-hadron reconstruction efficiency than calorimeter jets and are more suitable  for 
 low $\pt$ b-tagging.
+
+\begin{figure}[!b]
+\centering
+\includegraphics[width=0.9\textwidth]{figure/trackjet/eff_real_rej_mod2.pdf}
+\caption{Effective rejection as a function of b-hadron reconstruction efficiency, track-jet and calorimeter jets are
+	compared for two different ATLAS tagging algorithms. Track-jets are selected in the transverse momentum range 
+	between 4 and 33 GeV, while calorimeter jets between 8 and 50 GeV.}
+\label{fig:cj_tj}
+\end{figure}    
 
 \subsection{ Use of Track-jets for the MSSM Higgs Boson Search} % A new Hope
 The impact of the track-jets selection on the search for the neutral MSSM Higgs bosons is tested in a 
@@ -248,28 +250,28 @@ concerning the jets on which b-tagging procedure is applied (taggable jets):
 \item The b-tagging algorithm applied on the above jets is "IP3D+SV1" at a 
 	working point with a $\epsilon_b^{\ttbar}=70$\% tagging efficiency.
 %this correspond to the same
-%  	range as for calojets above, figure~\ref{fig:residuals} in fact is only valid for low $\pt$ jets
+%  	range as for calorimeter jets above, figure~\ref{fig:residuals} in fact is only valid for low $\pt$ jets
 %	and the fraction of momentum lost  1/3 for high $\pt$ track-jets. 
 \end{itemize}
 The minimum transverse momentum for which calorimeter jet are calibrated is 20~GeV, track-jets instead can 
 safely access transverse momentum up to 5~GeV.
 The event yields expected for the $pp \rightarrow b(b)A/h/H$ signal process, $\Ztautau$  and $\ttbar$ background processes
-(the two most important background contributions in the b-taged event category) 
-are reported in Table~\ref{tab:tj_cj}. The yields are  normalized to an integrated luminosity of $1 ~ fb^{-1}$.
+(the two most important background contributions in the b-tagged event category) 
+are reported in Table~\ref{tab:tj_cj}. The yields are  normalised to an integrated luminosity of $1 ~ fb^{-1}$.
 In addition to the event yields after the common selection stage other b-tagging related selection
 requirements  are applied to study the impact of the replacement of calorimeter with track-based jets.
 As expected, after requiring exactly one b-tagged jet, the track-jets reconstruction 
 results in a higher signal efficiency with a relatively similar rejection (10\% higher) of top quark 
 background compared to calorimeter-based jet reconstruction.
-However, lower transverse momentum threshold for the  track-jets implies higher mistagging rates,
+However, lower transverse momentum threshold for the  track-jets implies higher mis-tagging rates,
 as can be seen from an increase of $\Ztautau$ background. This may also lead to a strong contamination of the 
-QCD multi-jet background, even tough this is a minor background contribution in b-taged event category.
+QCD multi-jet background, even tough this is a minor background contribution in b-tagged event category.
 
-\begin{table}[tp]
+\begin{table}[!t]
 	\caption{Event yield for the signal and dominant background processes after different event selection requirements.
 	The yields are shown separately for the calorimeter and the  track-based jet reconstruction.
 	The Higgs boson produced in association with b-quarks is simulated for  $\tan\beta=20$ and $m_A=150$~GeV. The yields
-		are normalized to an integrated luminosity of $1 ~ fb^{-1}$.}
+		are normalised to an integrated luminosity of $1 ~ fb^{-1}$.}
 	\vspace{3mm}
 
 	\begin{footnotesize}
@@ -304,7 +306,7 @@ category by about a factor two. However, to exploit the full power of this techn
 b-tagging algorithms is  needed for the track-jets. Additional improvements of the b-tagging algorithms 
 for low $\pt$ b-jets are also desirable. Furthermore, 
 systematic uncertainties of track-jet reconstruction need to be evaluated. A preliminary study, addressing some
- of the most important of such systematic uncertainies is reported in section~\ref{sec:trackjetsys}.
+ of the most important of such systematic uncertainties is reported in section~\ref{sec:trackjetsys}.
  
 %\subsection{A Novel Technique for low-$\pt$ b-Tagging} % variable to enhance low pT b-tagging
 %\textbf{this small paragraph will be added if I manage to access track-jets data on MDTRaid16}, 
@@ -315,26 +317,26 @@ systematic uncertainties of track-jet reconstruction need to be evaluated. A pre
 
 %why Energy scale...
 %Uncertainty on physics observable related to track-jets due to MC mismodeling needs to be evaluated,
-%uncertainty arises from non perfect modeling of track-jets direction, energy scale and reconstruction efficiency,
+%uncertainty arises from non perfect modelling of track-jets direction, energy scale and reconstruction efficiency,
 %
 %There are several sources that may give contribution to systematic uncertainties on the energy scale of track-jet, those
-%effects  are briefly summarized in what follows. 
+%effects  are briefly summarised in what follows. 
 %
 
 %\subsection{Introduction to Track-jet Systematics}
 
 There are several sources of systematic uncertainties of the track-jet reconstruction that may contribute to
-the mismodeling of physics observables.  These effects  are briefly summarized in the following with an ephasis on 
+the mismodeling of physics observables.  These effects  are briefly summarised in the following with an emphasis on 
 uncertainties of the energy scale and reconstruction efficiency. %since they will have the biggest
 %impact on any physics observable that may be interesting for us.
 
 Uncertainty on the properties of simulated track-jets can arise from the Monte Carlo generator
 configurations, depending on the particular choice of PDF and fragmentation functions, or details of the parton shower and underlying 
-event modeling, which have a significant impact on physics objects with low transverse momentum. 
+event modelling, which have a significant impact on physics objects with low transverse momentum. 
 These uncertainties can be evaluated by means of a dedicated analysis with the Rivet package~\cite{RIVET}.
 They depend on the particular  use of track-jets and need to be evaluated case by case.
 
-Energy scale and resolution of single tracks is found to be very well modeled by simulation for tracks above
+Energy scale and resolution of single tracks is found to be very well modelled by simulation for tracks above
 500 MeV \cite{IDperformance}. Thus, uncertainty on the track-jet energy scale and resolution that arise from the mismodeling of
 the pattern recognition procedure are considered to be negligible. 
 
@@ -373,17 +375,17 @@ the original track-jet. The impact of tracking inefficiency on track-jet energy 
 efficiency is presented respectively in Figure~\ref{fig:inef_tj_std_scale} and \ref{fig:inef_tj_std_eff}$\,$. These 
 results are based on the current knowledge of the inner detector material budget~\cite{IDMaterial}. 
 Since track-jets are required to have at least two tracks at reconstruction level, if a track 
-is lost that jet  cannot be reconstructed anylonger, therefore for track-jet with two tracks 
+is lost that jet  cannot be reconstructed any longer, therefore for track-jet with two tracks 
 the only effect is a loss of reconstruction efficiency. For track-jets with low transverse momentum, uncertainty on the material budget 
 translates into an energy scale shift of 2-4\% and in a reduction of the mean number of tracks.
 
 This method can only simulate excess of material (reduced track efficiency) but not a lack of material
-(increased track efficiency). However, for the latter case a symilar, symmetric impact is expected.
+(increased track efficiency). However, for the latter case a similar, symmetric impact is expected.
 
 \begin{figure}[tp]
 \centering
 \includegraphics[width=0.7\textwidth]{figure/trackjet/T7/Sys_pt_nTrack2.pdf} 
-\caption{Inefficienct track-jets are matched with standard track-jets. The average transverse momenta of the inefficient track-jet $p_{T \, inef}$
+\caption{Inefficient track-jets are matched with standard track-jets. The average transverse momenta of the inefficient track-jet $p_{T \, inef}$
 	relative to the corresponding standard track-jet $p_{T \, std}$ is shown as a function of the 
 	$\pt$ and number of associated tracks of the standard track-jet.}
 
@@ -408,7 +410,7 @@ The method described in section~\ref{sec:trackExMat} depends strongly on the ass
 %the main effect of 
 % material budget mismodeling is a loss or gain in track reconstruction efficiency, meaning that 
 hadronic secondary interactions within the inner detector material  lead manly to the loss of 
-some tracks and only in a marginal way to a decrease of the track quality. As a consequence, the misodeling 
+some tracks and only in a marginal way to a decrease of the track quality. As a consequence, the mismodeling 
 of the material budget is expected to influence mainly the track reconstruction efficiency.
 %this is equivalent to say that the quality selection on tracks are robust enough.
 In this section, the impact  of the  material budget uncertainty on the track momentum resolution 
@@ -418,7 +420,7 @@ is added to the ID increasing uniformly of 10\% the interaction length.
 For this study, the track selection is performed as in Section~\ref{sec:tj_intro}. Furthermore a track should be 
 matched within a cone $\Delta R <0.1$ with a stable\footnote{This refers to a generator level stable and interacting particle, i.e.
 a charged particle with decay length greater than 1m. Also stable particles from secondary interactions are considered.} 
-simulated particle which alone should be causing at least 80\% of all the track hits. Tracks that do not fulfill
+simulated particle which alone should be causing at least 80\% of all the track hits. Tracks that do not fulfil
 these requirements are considered as fake tracks. 
 Fake tracks originate from a random combination of hits generated by different particles.
 % from simulation
@@ -433,7 +435,7 @@ The deterioration of the track energy resolution and fake rate due to the additi
 negligible compared to  the impact on the track reconstruction efficiency of about 1-2\%.
 Decrease in the track reconstruction efficiency has a strong impact on the track-jet energy scale.
 Figure~\ref{fig:trk_eff} shows the ratio of the track reconstruction
-efficiency for the primary particles assiuming the nominal and additional material budget.
+efficiency for the primary particles assuming the nominal and additional material budget.
 
 
 \begin{figure}[!tp]
@@ -473,8 +475,8 @@ efficiency for the primary particles assiuming the nominal and additional materi
 \end{figure}    
 
 
-Reconstruction of inefficienct track-jets in a sample with nominal material budjet is also directly compared 
-to the track-jets reconstruction in a sample with added additional ID material. Track-jet are mathced
+Reconstruction of inefficient track-jets in a sample with nominal material budget is also directly compared 
+to the track-jets reconstruction in a sample with added additional ID material. Track-jet are matched
 to truth-jet (as described in section~\ref{sec:tj_perf}) in order to determine the track-jet 
 reconstruction efficiency and energy scale, shown respectively in Figure~\ref{fig:tj10tjex_eff} and~\ref{fig:tj10tjex_pt}$\,$.
 Inefficient track-jets reproduce correctly the impact  of additional material,
@@ -507,7 +509,29 @@ giving in most of the cases a conservative estimate of the corresponding systema
 \end{figure}    
 
 
+\section{Conclusions}\label{sec:trackjetsconclusion}
+The performance of the b-tagging algorithms applied on track-based jets has been investigated for the first time in this thesis.
+One of the major systematic uncertainties arises from the incomplete description of the inner detector (ID) material
+ budget in simulation.
+A novel technique for the determination of  the systematic uncertainties in the track-based jets energy scale and
+reconstruction efficiency  due to the ID material budget mismodelling  has been developed. 
+For track-jets with transverse momenta below 20~GeV, the  uncertainty  in the energy scale  due to 
+material budget mismodelling is estimated to range from 2\% to 4\% depending on the track-jet 
+momentum and number of  tracks in the jet.
 
+It has been shown that for b-jets with transverse momenta below 20~GeV the track-based jet reconstruction provides a higher
+jet reconstruction efficiency than the calorimeter based one and is, therefore, more suitable  for
+b-tagging of low $\pt$ jets. The sensitivity of the search for the neutral MSSM Higgs bosons
+in associated production with b-quarks can be improved by
+up to a factor of two if track-jets are employed for b-tagging instead of  calorimeter-based jets.
+
+Although many questions about track-jet performance and related uncertainties have been already addressed in this thesis, 
+there are still several open points to be studied in more detail in order to use b-tagging on 
+track-jets into an analysis. Given the limited amount of time of a thesis and the considerable amount of resource needed for 
+these studies, there are at lest two important issues that  have not been addressed here and need to be studied in the future:
+a dedicated calibration of the b-tagging algorithms on track-based jets  and an evaluation of the impact on 
+their energy scale of  systematic uncertainty related to Monte Carlo description of the underlying event, parton showering
+and fragmentation functions. 
 
 
 

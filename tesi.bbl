@@ -1,6 +1,30 @@
 %\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{}
 \begin{thebibliography}{}
 
+\bibitem{AHiggsO}
+The ATLAS Collaboration, \emph{Observation of a new particle in the search for the
+  Standard Model Higgs boson with the ATLAS detector at the LHC},  Physics
+  Letters B  716 (2012)  1--29.
+
+\bibitem{CHiggsO}
+The CMS Collatoration,  S.~Chatrchyan et al., \emph{Observation of a new boson at a mass of 125 GeV with
+  the CMS experiment at the LHC},  Physics Letters B  716 (2012)
+  30--61.
+
+\bibitem{ASpin0}
+The ATLAS Collaboration, G.~Aad et al., \emph{ Evidence for the spin-0 nature of the Higgs boson using ATLAS data },
+Phys. Lett. B 726 (2013), pp. 120-144.
+
+\bibitem{ACouplings}
+The ATLAS Collaboration, G.~Aad et al., \emph{ Measurements of Higgs boson production and couplings in diboson final states with 
+the ATLAS detector at the LHC}, Phys. Lett. B 726 (2013), pp. 88-119.
+
+\bibitem{CFermions}
+The CMS Collaboration,  S.~Chatrchyan et al., \emph{``Evidence for the direct decay of the 125 GeV Higgs boson to fermions,''}
+  arXiv:1401.6527 [hep-ex].
+
+\bibitem{CWidth}
+The CMS Collaboration,  S.~Chatrchyan et al., \emph{ Higgs boson width from on- vs. off-shell production and decay to Z-boson pairs },  arXiv:1405.3455.
 
 \bibitem{Altarelli}
   G.~Altarelli,
@@ -68,15 +92,6 @@ T. W. B. Kibble, \emph{Symmetry Breaking in Non–Abelian Gauge Theories}, Phys.
 \bibitem{yukawa}
 H. Yukawa, \emph{ On the Interaction of Elementary Particles}, PTP, 17, 48 (1935).
 	
-\bibitem{AHiggsO}
-The ATLAS Collaboration, \emph{Observation of a new particle in the search for the
-  Standard Model Higgs boson with the ATLAS detector at the LHC},  Physics
-  Letters B  716 (2012)  1--29.
-
-\bibitem{CHiggsO}
-The CMS Collatoration,  S.~Chatrchyan et al., \emph{Observation of a new boson at a mass of 125 GeV with
-  the CMS experiment at the LHC},  Physics Letters B  716 (2012)
-  30--61.
 
 
 
@@ -606,20 +621,6 @@ M. Dobbs and J.B. Hansen, \emph{“The HepMC C++ Monte Carlo Event Record for Hi
 Physics”}, Computer Physics Communications, ATL-SOFT-2000-001.
 
 
-\bibitem{ASpin0}
-The ATLAS Collaboration, G.~Aad et al., \emph{ Evidence for the spin-0 nature of the Higgs boson using ATLAS data },
-Phys. Lett. B 726 (2013), pp. 120-144.
-
-\bibitem{ACouplings}
-The ATLAS Collaboration, G.~Aad et al., \emph{ Measurements of Higgs boson production and couplings in diboson final states with 
-the ATLAS detector at the LHC}, Phys. Lett. B 726 (2013), pp. 88-119.
-
-\bibitem{CFermions}
-The CMS Collaboration,  S.~Chatrchyan et al., \emph{``Evidence for the direct decay of the 125 GeV Higgs boson to fermions,''}
-  arXiv:1401.6527 [hep-ex].
-
-\bibitem{CWidth}
-The CMS Collaboration,  S.~Chatrchyan et al., \emph{ Higgs boson width from on- vs. off-shell production and decay to Z-boson pairs },  arXiv:1405.3455.
 
 \bibitem{MMC}
 A.~Elagin, P.~Murat, A.~Pranko, and A.~Safonov, {\em {A New Mass Reconstruction

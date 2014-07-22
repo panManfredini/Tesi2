@@ -1,0 +1,125 @@
+
+%\documentclass[12pt,a4paper,twoside]{book}
+\documentclass[BCOR=20mm,DIV=15,fontsize=12pt,parskip=half,headsepline,headinclude,captions=nooneline,bibliography=totoc,listof=totoc,english]{scrbook}
+
+\setkomafont{sectioning}{\normalfont\bfseries}
+
+\usepackage{subfigure}
+\usepackage[format=plain]{caption}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{wasysym}
+\usepackage{lineno}
+\usepackage{authblk}
+\usepackage{rotating}
+\usepackage{rotfloat}
+%\usepackage{color}
+\usepackage{multirow}
+\usepackage{xspace}
+\usepackage{rotating}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{cite}
+%\usepackage[margin=1.in]{geometry}
+\usepackage{geometry}
+%\usepackage[sorting=none]{biblatex}
+\hypersetup{pdfborder = 0 0 0}
+%\usepackage[titletoc]{appendix}
+%\usepackage{graphicx}
+%\usepackage{caption}
+%\usepackage{subcaption}
+\usepackage[titletoc]{appendix}
+\usepackage{fancyhdr}
+%\pagestyle { empty }
+
+\newenvironment{abstract}%
+%{\cleardoublepage \null \vfill \begin{center}%
+{ \begin{center}%
+\bfseries Abstract \end{center}}%
+{\vfill\null}
+\newenvironment{ackno}%
+{\cleardoublepage \null \vfill \begin{center}%
+\bfseries Acknowledgements \end{center}}%
+{\vfill\null}
+
+% \usepackage{feynarts} 
+\listfiles
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is where the document really begins
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Shorthand for \phantom to use in tables
+\newcommand{\pho}{\phantom{0}}
+\newcommand{\bslash}{\ensuremath{\backslash}}
+\newcommand{\BibTeX}{{\sc Bib\TeX}}
+
+% Org def
+\newcommand{\mT}{\ensuremath{m_{\mathrm{T}}}\xspace}
+%\def\mT{\ensuremath{M_{\mathrm{T}}}}
+\def\rqcd{\ensuremath{r_{\mathrm{QCD}}}\xspace}
+\def\kqcd{\ensuremath{k_{\mathrm{QCD}}}}
+\def\rwjets{\ensuremath{r_{W\mathrm{+jets}}}}
+\def\kwjets{\ensuremath{k_{W\mathrm{+jets}}}}
+\def\rztautau{\ensuremath{r_{Z\rightarrow\tau\tau}}}
+\def\rother{\ensuremath{r_{\mathrm{other}}}}
+\def\kztautau{\ensuremath{k_{Z\rightarrow\tau\tau}}}
+\def\kother{\ensuremath{k_{\mathrm{other}}}\xspace}
+\def\mVis{\ensuremath{M_{\tau\tau}^{\mathrm{visible}}}\xspace}
+\def\nOSmVis{\ensuremath{n_{\mathrm{OS}}(m_{\mathrm{vis}})}}
+\def\nOSqcd{\ensuremath{n_{\mathrm{OS}}^{\mathrm{QCD}}}}
+\def\nOSwjets{\ensuremath{n_{\mathrm{OS}}^{W\mathrm{+jets}}}}
+\def\nOSztautau{\ensuremath{n_{\mathrm{OS}}^{Z\rightarrow\tau\tau}}}
+\def\nOSother{\ensuremath{n_{\mathrm{OS}}^{\mathrm{other}}}}
+\def\nSSall{\ensuremath{n_{\mathrm{SS}}^{\mathrm{all}}}}
+\def\nSSqcd{\ensuremath{n_{\mathrm{SS}}^{\mathrm{QCD}}}}
+\def\nSSwjets{\ensuremath{n_{\mathrm{SS}}^{W\mathrm{+jets}}}}
+\def\nSSztautau{\ensuremath{n_{\mathrm{SS}^{Z\rightarrow\tau\tau}}}}
+\def\nSSother{\ensuremath{n_{\mathrm{SS}}^{\mathrm{other}}}}
+\def\nSSallmVis{\ensuremath{n_{\mathrm{SS}}^{\mathrm{all}}(m_{\mathrm{vis}})}}
+\def\nSSqcdmVis{\ensuremath{n_{\mathrm{SS}}^{\mathrm{QCD}}(m_{\mathrm{vis}})}}
+\def\nSSwjetsmVis{\ensuremath{n_{\mathrm{SS}}^{W\mathrm{+jets}}(m_{\mathrm{vis}})}}
+\def\nOSztautaumVis{\ensuremath{n_{\mathrm{OS}}^{Z\rightarrow\tau\tau}(m_{\mathrm{vis}})}}
+\def\nSSztautaumVis{\ensuremath{n_{\mathrm{SS}}^{Z\rightarrow\tau\tau}(m_{\mathrm{vis}})}}
+\def\nOSothermVis{\ensuremath{n_{\mathrm{OS}}^{\mathrm{other}}(m_{\mathrm{vis}})}}
+\def\nSSothermVis{\ensuremath{n_{\mathrm{SS}}^{\mathrm{other}}(m_{\mathrm{vis}})}}
+\def\ttbar{\ensuremath{t\bar{t}}\xspace}
+\def\PT{\ensuremath{p_{T}}\xspace}
+\def\pt{\ensuremath{p_{T}}\xspace}
+\def\GeV{\ensuremath{\text{GeV}}\xspace}
+\def\Zee{\ensuremath{Z\rightarrow ee}\xspace}
+\def\Zmumu{\ensuremath{Z/\gamma^* \rightarrow \mu\mu}\xspace}
+\def\Ztautau{\ensuremath{Z/\gamma^*\rightarrow \tau\tau}\xspace}
+\def\Ztt{\ensuremath{Z\rightarrow \tau\tau}\xspace}
+\def\Wlnu{\ensuremath{W\rightarrow \ell \nu}\xspace}
+\def\Zll{\ensuremath{Z\rightarrow \ell \ell}\xspace}
+\def\nqcd{\ensuremath{n^{QCD}}\xspace}
+\def\rqcd{\ensuremath{R_{QCD}}\xspace}
+\def\ToTauTauLepHad{\ensuremath{\rightarrow\tau\tau\to \ell\tau_{had}}\xspace}
+\def\ToTauTauLepLep{\ensuremath{\rightarrow\tau\tau\to \tau_{\ell}\tau_{\ell}}\xspace}
+\def\MET{\ensuremath{E_{T}^{miss}}\xspace}
+\def\met{\ensuremath{E_{T}^{miss}}\xspace}
+\def\Ht{\ensuremath{H_{T}}\xspace}
+\def\etcone{\ensuremath{E_{T}(\mathrm{cone})} }
+\def\ptcone{\ensuremath{p_{T}(\mathrm{cone})} }
+\def\SumLtMET{\ensuremath{p_{T\mu} + p_{Te}+\met} }
+\def\mmc{\ensuremath{m_{\tau\tau}^{MMC}} }
+\def\MMC{\ensuremath{MMC_{mass}} }
+\def\mA{\ensuremath{m_{A}}}
+\def\mh{\ensuremath{m_{h}}}
+\def\mH{\ensuremath{m_{H}}}
+\def\mHp{\ensuremath{m_{H^\pm}}}
+\def\ifb{\ensuremath{fb^{-1}} }
+
+\linespread{1.1}
+\begin{document}
+
+\newcommand{\submissiondate}{22.7.2014}
+\newcommand{\confirmationdate}{.........}
+
+\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+
+
+\input{titlepage_notum}
+
+
+\end{document}

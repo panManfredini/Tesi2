@@ -4,6 +4,7 @@
 
 \setkomafont{sectioning}{\normalfont\bfseries}
 
+
 \usepackage{subfigure}
 \usepackage[format=plain]{caption}
 \usepackage{amsmath}
@@ -41,6 +42,29 @@
 {\cleardoublepage \null \vfill \begin{center}%
 \bfseries Acknowledgements \end{center}}%
 {\vfill\null}
+
+\newenvironment{dedica}
+{
+   \cleardoublepage
+   \thispagestyle{empty}
+   \vspace*{\stretch{1}}
+   \hfill\begin{minipage}[t]{0.66\textwidth}
+   \raggedleft
+}%
+{
+   \end{minipage}
+   \vspace*{\stretch{3}}
+   \clearpage
+}
+
+
+%\newenvironment{dedica}
+%\newenvironment{dedication}%
+%{\cleardoublepage \null \vfill \begin{raggedleft}%
+%ciao\end{raggedlef}}%
+%{\vfill\null}
+
+%%%%%%%%%%%%%
 
 % \usepackage{feynarts} 
 \listfiles
@@ -104,10 +128,10 @@
 \def\SumLtMET{\ensuremath{p_{T\mu} + p_{Te}+\met} }
 \def\mmc{\ensuremath{m_{\tau\tau}^{MMC}} }
 \def\MMC{\ensuremath{MMC_{mass}} }
-\def\mA{\ensuremath{M_{A}}}
-\def\mh{\ensuremath{M_{h}}}
-\def\mH{\ensuremath{M_{H}}}
-\def\mHp{\ensuremath{M_{H^\pm}}}
+\def\mA{\ensuremath{m_{A}}}
+\def\mh{\ensuremath{m_{h}}}
+\def\mH{\ensuremath{m_{H}}}
+\def\mHp{\ensuremath{m_{H^\pm}}}
 \def\ifb{\ensuremath{fb^{-1}} }
 
 \linespread{1.1}
@@ -157,8 +181,8 @@
 %%
 %%
 %%
-\newcommand{\submissiondate}{...}
-\newcommand{\confirmationdate}{...}
+\newcommand{\submissiondate}{22.7.2014}
+\newcommand{\confirmationdate}{.........}
 
 \newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
 
@@ -166,6 +190,10 @@
 \input{titlepage_tum}
 
 \input{abstract}
+
+\begin{dedica}
+To my friends.
+\end{dedica}
 
 \tableofcontents
 

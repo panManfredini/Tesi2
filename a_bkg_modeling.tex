@@ -61,7 +61,7 @@ Figures~\ref{fig:kinematicsttbar} and~\ref{fig:cutsttbar} show the distributions
 a ratio of  observed to predicted numbers of \ttbar events of $0.998 \pm 0.011\mathrm{(stat.)} \pm 0.110 \mathrm{(sys.)}\,.$
 The total systematic uncertainty in the ratio is dominated by the uncertainty in the b-tagging efficiency. 
 %In addition, this result could be used
-%as a measure of $t\bar{t}$ normalization avoiding systematic uncertainty on the theoretical cross section of
+%as a measure of $t\bar{t}$ normalisation avoiding systematic uncertainty on the theoretical cross section of
 %this process. In this case, however, additional acceptance systematics would need to be evaluated in a dedicated study.
 %
 %with a dedicated RIVET analysis and uncertainties of the order of the cross section 
@@ -99,9 +99,6 @@ The total systematic uncertainty in the ratio is dominated by the uncertainty in
 \end{figure}
 
 
-\subsection{Measurement of Multi-jet Background}
-\label{sec:qcd}
-
 \begin{figure}[htp]
      \begin{center}
 
@@ -135,6 +132,12 @@ The total systematic uncertainty in the ratio is dominated by the uncertainty in
 \end{figure}
 
 
+
+
+\subsection{Measurement of Multi-jet Background}
+\label{sec:qcd}
+
+
 QCD multi-jet production represents an important background, 
 especially in the b-vetoed event category, due to its high cross-section and the 
 relatively low lepton \pt threshold  used in this analysis. The contribution of this
@@ -144,10 +147,10 @@ signal sample (A) defined by the event selection criteria described in Section~\
 and three signal-depleted control data samples (B,C,D) which are mutually exclusive  and 
 enriched in multi-jet events. The three control data samples are defined by inverting the requirements on the relative 
 sign of the electron and muon charge  and  on the isolation criteria. 
-Both the calorimetric and tracking isolation criteria described in Section~\ref{sec:presel}  are inverted for each electron and muon 
-with respect to the nominal values, thus defining the so-called anti-isolated leptons. 
+Both the calorimetric and tracking isolation criteria described in Section~\ref{sec:presel}  are inverted for  electron and muon 
+with respect to the nominal values, thus defining the so-called non-isolated leptons. 
 The data are divided into four samples of events with leptons of opposite sign charge (OS) 
-or same sign charge (SS) with respectively isolated or anti-isolated leptons, as summarized in Table~\ref{table:qcd}.
+or same sign charge (SS) and respectively isolated or non-isolated, as summarised in Table~\ref{table:qcd}.
 
 \begin{table} [!tp]
 \caption{Control data samples for the measurement of the QCD multi-jet background. The samples are defined by requirements on the relative
@@ -167,14 +170,6 @@ D & SS & non-isolated \\ [1ex]
 \label{table:qcd}
 \end{table}
 
-\begin{figure}[tp]
-	\begin{center}
-	\includegraphics[width=9cm]{figure/ABCD_regionB_Vs_regionD2}
-	\end{center}
-	\caption{Comparison of the electron \pt~distributions in control samples B and D, showing the bias due to the trigger. 
-	The histograms are normalized to the same area.}
-	\label{fig:BvsD}
-\end{figure}
 
 The ABCD method assumes that there is no correlation between the requirements of relative 
 charge sign and of lepton isolation in QCD multi-jet events. In this case, the number $N_{A}$ of QCD multi-jet events in the signal sample $A$ 
@@ -198,22 +193,87 @@ This signal contamination originates mainly from the production in association w
 as it scales with the cross section, it is an order of magnitude smaller for $\tan\beta = 20\,.$
 } in sample B for $m_{A} = 300$ GeV and $\tan\beta = 50$.
 
-The shapes of the kinematical distributions in QCD multi-jet events 
-are modeled  by the data sample B which is expected to have similar kinematical properties as   the signal sample.
-A drawback of this choice is a rather low number of events and a higher contamination with non-QCD process compared to samples C and D.
-Sample B is chosen  to avoid  bias in the shapes due to the isolation requirements at the trigger level, since the single-electron trigger 
-already imposes isolation requirements. 
-%the trigger:  an isolated trigger is used 
-%for electrons (as described in Section~\ref{sec:eventsel}), where the offline requirement equivalent to this trigger choice is $\ptcone20/\pt <0.1$.
-Figure~\ref{fig:BvsD} shows the comparison of the electron $\pt$ distributions in samples B and D. In the latter, 
-high-$\pt$ electrons are suppressed as they do not pass the trigger selection. 
-The trigger isolation requirement could in principle also 
-bias the ratio \rqcd. This possibility has been investigated 
-in a dedicated study discussed in Appendix~\ref{appendix:qcd}.
-To  good approximation, the  trigger effects cancel  in the ratio
-\rqcd and no additional systematic uncertainty arises.
+\begin{table} [!p]
+	\caption{Numbers of observed events and the  non-QCD contributions at different stages of the event selection for the b-vetoed category. 
+	The error on  \rqcd ratio is statistical only.}
+\begin{small}
+	\begin{tabular}[c]{l r c c c c}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hline
+\hline 
+Event Selection  &  		& B & C & D &  \rqcd \\ 
+\hline
+Common Selection 	&   Data	&6189			&604628			&312901		    &	1.929 $\pm$  	0.004		\\
+	        &   non-QCD	&2510 $\pm$  180  	&1090 $\pm$   30  	&730	$\pm$ 35    &				\\
+\hline
+B-veto	     	&   Data	&5673		  & 558217 		& 284847		    &	1.960	$\pm$	0.004	\\
+	     	&   non-QCD	&2220	$\pm$ 180 & 710 $\pm$ 30	& 415 $\pm$	30	    &				\\
+\hline
+$\Delta\phi_{e,\mu}$  &   Data		&4610		&532583 		&271404		    	    &	1.962	$\pm$	0.005	\\
+	     &   non-QCD	&1700 $\pm$170	&580 $\pm$	30	& 345 $\pm$	30	    &				\\
+\hline
+$\sum\cos\Delta\phi$ &   Data& 3417	&486747 		& 247712	   		    &	1.965	$\pm$	0.005 	\\
+	     &   non-QCD     & 1120  $\pm$ 100	& 370 $\pm$ 	20		& 230 $\pm$	20  &				\\
+\hline
+$\mmc > 0.$    &  Data		& 3177		& 479967 		& 244276	    	    &	1.965	$\pm$	0.005	\\
+	     &   non-QCD	& 1000 $\pm$ 100	& 300  $\pm$ 17		&190	$\pm$ 20    &			\\[1ex]
+\hline
+\hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\end{tabular}
+\end{small}
+	\centering
+	\label{table:qcd_yield_bveto}
+\end{table}
 
-\begin{figure}[htp]
+\begin{table} [!p]
+	\caption{Numbers of observed events and the  non-QCD contributions at different stages of the event selection for the b-tagged category. 
+	The error on  \rqcd ratio is statistical only.}
+\begin{small}
+	\begin{tabular}[c]{l r c c c c}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hline 
+\hline 
+Event Selection  &  		& B & C  & D &  \rqcd \\
+\hline
+Common Selection&   Data	&6189			&604628			&312901		    &	1.929 $\pm$  	0.004		\\
+	        &   non-QCD	&2510 $\pm$  180  	&1090 $\pm$   30  	&730	$\pm$ 35    &				\\
+\hline
+B-tag	     	&   Data	&419		&44619 			&27257		    &	1.64	$\pm$	0.01	\\
+	     	&   non-QCD	&215 $\pm$  10	&310 $\pm$	12	&277 	$\pm$ 13    &				\\
+\hline
+$\Delta\phi_{e,\mu}$  &   Data		&230		&38810 			&23316	    &	1.67	$\pm$	0.01	\\
+	     &   non-QCD	&104 $\pm$ 6	&200 $\pm$	10	&175	$\pm$ 7	    &				\\
+\hline
+$\sum\cos\Delta\phi$ &   Data & 149		&31379 			&18779		    &	1.67	$\pm$	0.02	\\
+	     &   non-QCD      & 67 $\pm$ 5	&127 $\pm$	8	&114 $\pm$	6   &				\\
+\hline
+$\sum H_T$ &   Data	      & 83		& 27781 		&15626		    &	1.78	$\pm$	0.02	\\
+	&   non-QCD	      & 23 $\pm$  4	& 25 $\pm$	3	& 22 $\pm$   3	    &				\\ 
+\hline
+\SumLtMET &   Data	&71		&27735 	&15590		    &	1.78	$\pm$	0.02	\\
+	     &   non-QCD	 & 10 $\pm$	3	& 22  $\pm$ 3		&18	$\pm$ 2	    &			\\
+\hline
+$\mmc > 0.$    &  Data	& 70	& 27634 	& 15522		    			    &	1.78	$\pm$	0.02	\\
+	     &   non-QCD	& 9 $\pm$ 3	& 20  $\pm$ 3		&17	$\pm$ 2	    &			\\[1ex]
+\hline
+\hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\end{tabular}
+\end{small}
+	\label{table:qcd_yield_btag}
+\end{table}
+
+\begin{figure}[!p]
+	\begin{center}
+	\includegraphics[width=9cm]{figure/ABCD_regionB_Vs_regionD2}
+	\end{center}
+	\caption{Comparison of the electron \pt~distributions in control samples B and D, showing the bias due to the trigger. 
+	The histograms are normalised to the same area.}
+	\label{fig:BvsD}
+\end{figure}
+
+\begin{figure}[p]
 	\begin{center}
 	     
 %	\subfigure[]{
@@ -231,6 +291,23 @@ To  good approximation, the  trigger effects cancel  in the ratio
 %	The notation ``Other'' stands   for the electroweak processes $\Wlnu$, $\Zll$, diboson and single top quark production.
 	\label{fig:ABCD_cr}
 \end{figure}
+
+
+The shapes of the kinematical distributions in QCD multi-jet events 
+are modelled  by the data sample B which is expected to have similar kinematical properties as   the signal sample.
+A drawback of this choice is a rather low number of events and a higher contamination with non-QCD process compared to samples C and D.
+Sample B is chosen  to avoid  bias in the shapes due to the isolation requirements at the trigger level, since the single-electron trigger 
+already imposes isolation requirements. 
+%the trigger:  an isolated trigger is used 
+%for electrons (as described in Section~\ref{sec:eventsel}), where the offline requirement equivalent to this trigger choice is $\ptcone20/\pt <0.1$.
+Figure~\ref{fig:BvsD} shows the comparison of the electron $\pt$ distributions in samples B and D. In the latter, 
+high-$\pt$ electrons are suppressed as they do not pass the trigger selection. 
+The trigger isolation requirement could in principle also 
+bias the ratio \rqcd. This possibility has been investigated 
+in a dedicated study discussed in Appendix~\ref{appendix:qcd}.
+To  good approximation, the  trigger effects cancel  in the ratio
+\rqcd and no additional systematic uncertainty arises.
+
 
 
 
@@ -269,77 +346,6 @@ Agreement between data and the background predictions is found within statistica
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PUT FINAL NUMBERS!!!!!!!!!!!!!!!! %%%%%%%%%%%%%%%%%%
 
 
-\begin{table} [!tp]
-	\caption{Numbers of observed events and the  non-QCD contributions at different stages of the event selection for the b-vetoed category. 
-	The error on  \rqcd ratio is statistical only.}
-\begin{small}
-	\begin{tabular}[c]{l r c c c c}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hline
-\hline 
-Event Selection  &  		& B & C & D &  \rqcd \\ 
-\hline
-Common Selection 	&   Data	&6189			&604628			&312901		    &	1.929 $\pm$  	0.004		\\
-	        &   non-QCD	&2510 $\pm$  180  	&1090 $\pm$   30  	&730	$\pm$ 35    &				\\
-\hline
-B-veto	     	&   Data	&5673		  & 558217 		& 284847		    &	1.960	$\pm$	0.004	\\
-	     	&   non-QCD	&2220	$\pm$ 180 & 710 $\pm$ 30	& 415 $\pm$	30	    &				\\
-\hline
-$\Delta\phi_{e,\mu}$  &   Data		&4610		&532583 		&271404		    	    &	1.962	$\pm$	0.005	\\
-	     &   non-QCD	&1700 $\pm$170	&580 $\pm$	30	& 345 $\pm$	30	    &				\\
-\hline
-$\sum\cos\Delta\phi$ &   Data& 3417	&486747 		& 247712	   		    &	1.965	$\pm$	0.005 	\\
-	     &   non-QCD     & 1120  $\pm$ 100	& 370 $\pm$ 	20		& 230 $\pm$	20  &				\\
-\hline
-$\mmc > 0.$    &  Data		& 3177		& 479967 		& 244276	    	    &	1.965	$\pm$	0.005	\\
-	     &   non-QCD	& 1000 $\pm$ 100	& 300  $\pm$ 17		&190	$\pm$ 20    &			\\[1ex]
-\hline
-\hline
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\end{tabular}
-\end{small}
-	\centering
-	\label{table:qcd_yield_bveto}
-\end{table}
-
-\begin{table} [!tp]
-	\caption{Numbers of observed events and the  non-QCD contributions at different stages of the event selection for the b-tagged category. 
-	The error on  \rqcd ratio is statistical only.}
-\begin{small}
-	\begin{tabular}[c]{l r c c c c}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hline 
-\hline 
-Event Selection  &  		& B & C  & D &  \rqcd \\
-\hline
-Common Selection&   Data	&6189			&604628			&312901		    &	1.929 $\pm$  	0.004		\\
-	        &   non-QCD	&2510 $\pm$  180  	&1090 $\pm$   30  	&730	$\pm$ 35    &				\\
-\hline
-B-tag	     	&   Data	&419		&44619 			&27257		    &	1.64	$\pm$	0.01	\\
-	     	&   non-QCD	&215 $\pm$  10	&310 $\pm$	12	&277 	$\pm$ 13    &				\\
-\hline
-$\Delta\phi_{e,\mu}$  &   Data		&230		&38810 			&23316	    &	1.67	$\pm$	0.01	\\
-	     &   non-QCD	&104 $\pm$ 6	&200 $\pm$	10	&175	$\pm$ 7	    &				\\
-\hline
-$\sum\cos\Delta\phi$ &   Data & 149		&31379 			&18779		    &	1.67	$\pm$	0.02	\\
-	     &   non-QCD      & 67 $\pm$ 5	&127 $\pm$	8	&114 $\pm$	6   &				\\
-\hline
-$\sum H_T$ &   Data	      & 83		& 27781 		&15626		    &	1.78	$\pm$	0.02	\\
-	&   non-QCD	      & 23 $\pm$  4	& 25 $\pm$	3	& 22 $\pm$   3	    &				\\ 
-\hline
-\SumLtMET &   Data	&71		&27735 	&15590		    &	1.78	$\pm$	0.02	\\
-	     &   non-QCD	 & 10 $\pm$	3	& 22  $\pm$ 3		&18	$\pm$ 2	    &			\\
-\hline
-$\mmc > 0.$    &  Data	& 70	& 27634 	& 15522		    			    &	1.78	$\pm$	0.02	\\
-	     &   non-QCD	& 9 $\pm$ 3	& 20  $\pm$ 3		&17	$\pm$ 2	    &			\\[1ex]
-\hline
-\hline
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\end{tabular}
-\end{small}
-	\label{table:qcd_yield_btag}
-\end{table}
-
 
 
 
@@ -354,16 +360,6 @@ of the leptons as detailed in Section~\ref{sec:Systematics}.
 
 \subsection{$Z \rightarrow \tau\tau$ + Jets Background Measurement}\label{sec:ztau}
 
-\begin{figure}[tp]
-     \begin{center}
-
-            \includegraphics[page=1, width=0.47\textwidth]{figure/emb_plots.pdf}
-\end{center}
-    \caption{Comparison of the \mmc distributions obtained from the ALPGEN \Ztautau simulation and from the embedding technique after 
-	the requirements of th common selection  has been applied. 
-	The yellow bad indicates the total systematic uncertainty  relative to the ALPGEN simulation sample.}
-   \label{fig:emb_vs_alp1}
-\end{figure}
 
 The  \Ztautau production is the main  source of  background in this analysis and needs to be well understood.
 Unfortunately, for a light Higgs boson, it is impossible to fully discriminate between  \Ztautau decays 
@@ -371,7 +367,7 @@ and the signal because of the similarity of the final state, a dedicated signal-
 However, thanks to the small Higgs boson coupling to muons, \Zmumu events from data  provide a good starting point to 
 model \Ztautau events. A hybrid approach relying on data and simulation known as  "embedding" is used for this purpose.
 $\Zmumu$ event candidates are selected in data. Each of the two muons from the $Z$ decay is then substituted by the decay 
-products from a simulated decay of a $\tau$ leptoni, which has the same kinematical properties as the muon. 
+products from a simulated decay of a $\tau$ lepton, which has the same kinematical properties as the muon. 
 The energy deposits in the calorimeters and the reconstructed tracks within a cone  around the muon are subtracted in the data
 and substituted by the simulated $\tau$ lepton decay.  Further details on the embedding technique can be found in \cite{Embedding, SMold}.
 
@@ -392,12 +388,23 @@ and substituted by the simulated $\tau$ lepton decay.  Further details on the em
 %The embedding technique, which uses \Zmumu decays to 
 %model \Ztautau events in a data-driven way, is described in Section~\ref{sec:data_mc}. 
 As the trigger requirement are  not simulated in the  embedded samples, only the shapes of kinematical variables 
-distribution are modelled by the embediding, while the $\Ztt$ event yield is normalized to the ALPGEN \Ztautau background prediction
+distribution are modelled by the embedding, while the $\Ztt$ event yield is normalised to the ALPGEN \Ztautau background prediction
 after the common selection. Furthermore, a set of corrections  described in \cite{SMnew} are
 applied as event weight to recover the original \Zmumu distribution of kinematical variable 
 from the data biased by a muon trigger. Subsequently,
 the trigger and reconstruction efficiency  of the $e \mu +4\nu $ final 
 state are emulated by means of event weights.
+
+\begin{figure}[t]
+     \begin{center}
+
+            \includegraphics[page=1, width=0.47\textwidth]{figure/emb_plots.pdf}
+\end{center}
+    \caption{Comparison of the \mmc distributions obtained from the ALPGEN \Ztautau simulation and from the embedding technique after 
+	the requirements of th common selection  has been applied. 
+	The yellow bad indicates the total systematic uncertainty  relative to the ALPGEN simulation sample.}
+   \label{fig:emb_vs_alp1}
+\end{figure}
 
 The embedding technique has been validated in several studies detailed in~\cite{Embedding, SMnew}  demonstrating  reliable 
 description of the data. Figure~\ref{fig:emb_vs_alp1} shows the excellent agreement between  the \mmc distributions of embedded and 
@@ -421,8 +428,47 @@ This  is expected and is due to the imperfect modelling of these variables in th
    \label{fig:emb_vs_alp}
 \end{figure}
 
+\begin{table} [p]
+\begin{footnotesize}
+\centering
+\begin{tabular}{c c c c c}
+\hline
+\hline
+ & Embedded event yield & Transfer 	& Estimated events	  & Contamination \\
+ & in \ttbar control sample & factor&  in signal sample&	 \\ [0.5ex]
+\hline
+b-taged & $84 \pm 9$  & $(2.6 \pm 0.1) \times 10^{-2}$ &  $2.2 \pm 0.2$&  0.5 \% \\
+b-vetoed & $84 \pm 9$ & $(1.74 \pm 0.02) \times 10^{-1}$ & $15 \pm 2$ & 0.03 \% \\[1ex]
+\hline
+\end{tabular}
+\end{footnotesize}
+\caption{Evaluation of the $t\bar{t}$ contamination  in the embedded $\Ztt$ sample requiring a two b-tagged jets. 
+The transfer factor from the validation sample to the signal sample  is  obtained from simulation. }
+\label{table:emb_cont_tt}
+\end{table}
 
-%plot comparing embedding and ALPGEN Et miss and b-tagging, data -MC not Ztautau and compare data alp and emb.
+\begin{table} [tp]
+\begin{footnotesize}
+\centering
+\begin{tabular}{c c c c c}
+\hline
+\hline
+ & Embedded event yield	& Transfer	& Estimated events	& Contamination \\
+ &  in QCD control sample C		& factor	& in signal sample	&	\\		 [0.5ex]
+\hline
+B-tag  & $12 \pm 3$ & $ (7 \pm 1) \times 10^{-3}$ &  $(8.4 \pm 0.3) \times 10^{-2}$ &  0.03 \% \\
+B-veto & $390 \pm 20$ & $(2.5 \pm 0.1) \times 10^{-2}$ & $10.0 \pm 0.5$ & 0.02 \% \\[1ex]
+\hline
+\end{tabular}
+\end{footnotesize}
+\caption{Evaluation of the QCD multi-jet contamination  in the embedded $\Ztt$ sample  requiring OS non-isolated leptons
+	(sample C). The transfer factor $R_{QCD}^{\mu\mu}$ extrapolates the event yield measured in control sample C to the signal 
+	sample (see text).}
+\label{table:emb_cont_qcd}
+\end{table}
+
+
+%plot comparing embedding and ALPGEN Et miss and b-tagging, data -MC not Ztautau and compare data alp and ebb.
 
 The embedding method uses selected \Zmumu data events. The \Zmumu selection criteria 
 assure a pure \Zmumu sample, however, further event selection criteria used in this analysis, 
@@ -446,45 +492,6 @@ The transfer factor $R_{QCD}^{\mu\mu}$ is evaluated using a di-muon final state 
 Table~\ref{table:emb_cont_qcd} shows the estimated contamination of embedded sample with QCD multi-jet events
 which is considered negligible.
 
-
-\begin{table} [!htp]
-\begin{footnotesize}
-\centering
-\begin{tabular}{c c c c c}
-\hline
-\hline
- & Embedded event yield & Transfer 	& Estimated events	  & Contamination \\
- & in \ttbar control sample & factor&  in signal sample&	 \\ [0.5ex]
-\hline
-b-taged & $84 \pm 9$  & $(2.6 \pm 0.1) \times 10^{-2}$ &  $2.2 \pm 0.2$&  0.5 \% \\
-b-vetoed & $84 \pm 9$ & $(1.74 \pm 0.02) \times 10^{-1}$ & $15 \pm 2$ & 0.03 \% \\[1ex]
-\hline
-\end{tabular}
-\end{footnotesize}
-\caption{Evaluation of the $t\bar{t}$ contamination  in the embedded $\Ztt$ sample requiring a two b-tagged jets. 
-The transfer factor from the validation sample to the signal sample  is  obtained from simulation. }
-\label{table:emb_cont_tt}
-\end{table}
-
-\begin{table} [!htp]
-\begin{footnotesize}
-\centering
-\begin{tabular}{c c c c c}
-\hline
-\hline
- & Embedded event yield	& Transfer	& Estimated events	& Contamination \\
- &  in QCD control sample C		& factor	& in signal sample	&	\\		 [0.5ex]
-\hline
-B-tag  & $12 \pm 3$ & $ (7 \pm 1) \times 10^{-3}$ &  $(8.4 \pm 0.3) \times 10^{-2}$ &  0.03 \% \\
-B-veto & $390 \pm 20$ & $(2.5 \pm 0.1) \times 10^{-2}$ & $10.0 \pm 0.5$ & 0.02 \% \\[1ex]
-\hline
-\end{tabular}
-\end{footnotesize}
-\caption{Evaluation of the QCD multi-jet contamination  in the embedded $\Ztt$ sample  requiring OS non-isolated leptons
-	(sample C). The transfer factor $R_{QCD}^{\mu\mu}$ extrapolates the event yield measured in control sample C to the signal 
-	sample (see text).}
-\label{table:emb_cont_qcd}
-\end{table}
 
 
 

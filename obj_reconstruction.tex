@@ -199,6 +199,17 @@ inner detector tracker it is possible to discriminate between the  jets originat
 and those from other quarks or gluons (also referred to as light-jets). The identification technique used for this purpose is called \emph{b-tagging}
 and the identified b-tagged jets are referred to as b-jets.
 
+\begin{figure}[!t]
+     \begin{center}
+
+            \includegraphics[width=0.6\textwidth]{figure/obj/btag_perf.pdf}
+
+    \end{center}
+    \caption{Light-jet rejection as a function of the b-jet tagging efficiency for several different tagging algorithms~\cite{btagPerf},
+	obtained with simulated $\ttbar$ events. The rejection is defined as the inverse of mistagging rate of light jets.}
+   \label{fig:beff}
+\end{figure}
+
 Several b-tagging algorithms have been developed in ATLAS. The relevant algorithms for
 this thesis are briefly described in what follows, for a more detailed description see~\cite{AtlasCSCBook}.
 The b-tagging algorithm starts by  associating tracks to the jets based on their angular distance $\Delta R\,$ to the jet. the mentioned 
@@ -218,16 +229,6 @@ Finally, the outputs of the three described algorithms  are combined based on an
 artificial neural network multivariate program~\cite{TMVA} to maximise the discriminating power. The output of this neural 
 network is referred to as $MV1$ tagger and is used for the Higgs boson search presented in this thesis. 
 
-\begin{figure}[tp]
-     \begin{center}
-
-            \includegraphics[width=0.6\textwidth]{figure/obj/btag_perf.pdf}
-
-    \end{center}
-    \caption{Light-jet rejection as a function of the b-jet tagging efficiency for several different tagging algorithms~\cite{btagPerf},
-	obtained with simulated $\ttbar$ events. The rejection is defined as the inverse of mistagging rate of light jets.}
-   \label{fig:beff}
-\end{figure}
 
 The performance of the mentioned algorithms is evaluated in data selecting $\ttbar$ events and compared to simulation~\cite{btagPerf}.
 Figure~\ref{fig:beff} shows the b-tagging efficiency as a function of the inverse of the light-jet mistagging rate

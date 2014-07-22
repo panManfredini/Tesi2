@@ -1,0 +1,687 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  22 JUL 2014 02:37
+entering extended mode
+ %&-line parsing enabled.
+**title_only.tex
+(./title_only.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2009/07/24 v3.04a KOMA-Script document class (book)
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2009/03/25 v3.03 KOMA-Script package (loading files)
+
+Package scrlfile, 2009/03/25 v3.03 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/share/texmf-texlive/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2009/06/08 v3.03b KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 117.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 118.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 119.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 1272.
+
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2009/07/24 v3.04a KOMA-Script font size class option (12p
+t)
+)
+(/usr/share/texmf-texlive/tex/latex/koma-script/typearea.sty
+Package: typearea 2009/07/24 v3.04a KOMA-Script package (type area)
+
+Package typearea, 2009/07/24 v3.04a KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 15
+(typearea)             BCOR = 56.9055pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 432.48195pt
+(typearea)              DIV departure   = -2%
+(typearea)              \evensidemargin = -0.18967pt
+(typearea)              \oddsidemargin  = 20.67567pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 650.0pt
+(typearea)              \topmargin      = -15.93353pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1115.
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count87
+\c@table=\count88
+\bibindent=\dimen102
+)
+Class scrbook Info: You've told me to redefine the font selection of the
+(scrbook)           element `sectioning' that is an alias of element
+(scrbook)           `disposition' on input line 5.
+ (/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip47
+\subfigcapskip=\skip48
+\subfigcaptopadj=\dimen103
+\subfigbottomskip=\skip49
+\subfigcapmargin=\dimen104
+\subfiglabelskip=\skip50
+\c@subfigure=\count89
+\c@lofdepth=\count90
+\c@subtable=\count91
+\c@lotdepth=\count92
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip51
+\subfig@bottom=\skip52
+)
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@indent=\dimen108
+\caption@parindent=\dimen109
+\caption@hangindent=\dimen110
+)
+Package caption Info: KOMA-Script document class.
+\c@ContinuedFloat=\count93
+Package caption Info: subfigure package is loaded.
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen111
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen112
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks16
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks17
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks18
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+(/usr/share/texmf-texlive/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/share/texmf-texlive/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count106
+\output=\toks20
+\linenoprevgraf=\count107
+\linenumbersep=\dimen120
+\linenumberwidth=\dimen121
+\c@linenumber=\count108
+\c@pagewiselinenumber=\count109
+\c@LN@truepage=\count110
+\c@internallinenumber=\count111
+\c@internallinenumbers=\count112
+\quotelinenumbersep=\dimen122
+\bframerule=\dimen123
+\bframesep=\dimen124
+\bframebox=\box29
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/share/texmf-texlive/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip56
+\@affilsep=\skip57
+\c@Maxaffil=\count113
+\c@authors=\count114
+\c@affil=\count115
+)
+(/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count116
+))
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count117
+\rotFPtop=\skip58
+\rotFPbot=\skip59
+\rot@float@box=\box30
+\rot@mess@toks=\toks21
+)
+(/usr/share/texmf-texlive/tex/latex/rotfloat/rotfloat.sty
+Package: rotfloat 2004/01/04 v1.2 Combining float+rotating package (AS)
+
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count118
+\float@exts=\toks22
+\float@box=\box31
+\@float@everytoks=\toks23
+\@floatcapt=\box32
+)
+Package rotfloat Info: float package v1.3 detected on input line 74.
+)
+(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen127
+)
+(/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen128
+\Hy@linkcounter=\count119
+\Hy@pagecounter=\count120
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count121
+\Field@Width=\dimen129
+\Fld@charsize=\dimen130
+\Field@toks=\toks24
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring OFF on input line 4397.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count122
+\c@Item=\count123
+\c@Hfootnote=\count124
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+\Fld@listcount=\count125
+)
+(/usr/share/texmf-texlive/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2009/05/18 v2.2 Customized lists
+\enit@toks=\toks25
+\labelindent=\skip60
+\enit@outerparindent=\dimen131
+\enitdp@desc=\count126
+)
+(/usr/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 285.
+LaTeX Info: Redefining \nocite on input line 356.
+Package: cite 2009/08/29  v 5.2
+) (./geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count127
+\Gm@cntv=\count128
+\c@Gm@tempcnt=\count129
+\Gm@bindingoffset=\dimen132
+\Gm@wd@mp=\dimen133
+\Gm@odd@mp=\dimen134
+\Gm@even@mp=\dimen135
+\Gm@layoutwidth=\dimen136
+\Gm@layoutheight=\dimen137
+\Gm@layouthoffset=\dimen138
+\Gm@layoutvoffset=\dimen139
+\Gm@dimlist=\toks26
+
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+(/usr/share/texmf-texlive/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count130
+\c@@ppsavesec=\count131
+\c@@ppsaveapp=\count132
+)
+(/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip61
+\f@ncyO@elh=\skip62
+\f@ncyO@erh=\skip63
+\f@ncyO@olh=\skip64
+\f@ncyO@orh=\skip65
+\f@ncyO@elf=\skip66
+\f@ncyO@erf=\skip67
+\f@ncyO@olf=\skip68
+\f@ncyO@orf=\skip69
+) (./title_only.aux)
+\openout1 = `title_only.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count133
+\scratchdimen=\dimen140
+\scratchbox=\box33
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen141
+\MPnumerator=\count137
+\everyMPtoPDFconversion=\toks28
+)
+Package hyperref Info: Link coloring OFF on input line 114.
+ (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count138
+)
+LaTeX Info: Redefining \ref on input line 114.
+LaTeX Info: Redefining \pageref on input line 114.
+ (./title_only.out)
+(./title_only.out)
+\@outlinefile=\write3
+\openout3 = `title_only.out'.
+
+\AtBeginShipoutBox=\box34
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25372pt, 107.55255pt)
+* v-part:(T,H,B)=(101.40665pt, 591.53027pt, 152.11002pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=418.25372pt
+* \textheight=591.53027pt
+* \oddsidemargin=-0.56833pt
+* \evensidemargin=35.28256pt
+* \topmargin=-10.73834pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=54.06024pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(./titlepage_notum.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(91.04872pt, 423.9464pt, 82.51282pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23593pt, 56.9055pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=423.9464pt
+* \textheight=731.23593pt
+* \oddsidemargin=18.77873pt
+* \evensidemargin=10.24283pt
+* \topmargin=-55.23949pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=54.06024pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<logos/TUMLogo_oZ_Outline_blau_CMYK.pdf, id=3, 54.2025pt x 29.10875pt>
+File: logos/TUMLogo_oZ_Outline_blau_CMYK.pdf Graphic file (type pdf)
+
+<use logos/TUMLogo_oZ_Outline_blau_CMYK.pdf>
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 15.
+
+(/usr/share/texmf-texlive/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 15.
+
+(/usr/share/texmf-texlive/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+<MPP_os_logo_cmyk.pdf, id=4, 102.3825pt x 99.37125pt>
+File: MPP_os_logo_cmyk.pdf Graphic file (type pdf)
+
+<use MPP_os_logo_cmyk.pdf> <MPG_logo_cmyk.pdf, id=5, 136.51pt x 75.28125pt>
+File: MPG_logo_cmyk.pdf Graphic file (type pdf)
+
+<use MPG_logo_cmyk.pdf> [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logos/TUMLogo_oZ_Outline
+_blau_CMYK.pdf> <./MPP_os_logo_cmyk.pdf> <./MPG_logo_cmyk.pdf>] [2
+
+
+
+]) (./title_only.aux)
+
+ *File List*
+ scrbook.cls    2009/07/24 v3.04a KOMA-Script document class (book)
+scrkbase.sty    2009/07/24 v3.04a KOMA-Script package (KOMA-Script-dependent ba
+sics and keyval usage)
+ scrbase.sty    2009/07/24 v3.04a KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
+scrlfile.sty    2009/03/25 v3.03 KOMA-Script package (loading files)
+tocbasic.sty    2009/06/08 v3.03b KOMA-Script package (handling toc-files)
+scrsize12pt.clo    2009/07/24 v3.04a KOMA-Script font size class option (12pt)
+typearea.sty    2009/07/24 v3.04a KOMA-Script package (type area)
+subfigure.sty    2002/03/15 v2.1.5 subfigure package
+subfigure.cfg
+ caption.sty    2009/10/09 v3.1k Customizing captions (AR)
+caption3.sty    2009/10/09 v3.1k caption3 kernel (AR)
+ amsmath.sty    2000/07/18 v2.13 AMS math features
+ amstext.sty    2000/06/29 v2.01
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+mathrsfs.sty    1996/01/01 Math RSFS package v1.0 (jk)
+ wasysym.sty    2003/10/30 v2.0 Wasy-2 symbol support package
+  lineno.sty    2005/11/02 line numbers on paragraphs v4.41
+ authblk.sty    2001/02/27 1.3 (PWD)
+rotating.sty    2009/03/28 v2.16a rotated objects in LaTeX
+graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+graphics.cfg    2009/08/28 v1.8 graphics configuration of TeX Live
+  pdftex.def    2010/03/12 v0.04p Graphics/color for pdfTeX
+  ifthen.sty    2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+rotfloat.sty    2004/01/04 v1.2 Combining float+rotating package (AS)
+   float.sty    2001/11/08 v1.3d Float enhancements (AL)
+multirow.sty    
+  xspace.sty    2006/05/08 v1.12 Space after command names (DPC,MH)
+hyperref.sty    2009/10/09 v6.79a Hypertext links for LaTeX
+   ifpdf.sty    2009/04/10 v2.0 Provides the ifpdf switch (HO)
+  ifvtex.sty    2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+ ifxetex.sty    2009/01/23 v0.5 Provides ifxetex conditional
+ hycolor.sty    2009/10/02 v1.5 Code for color options of hyperref/bookmark (HO
+)
+xcolor-patch.sty    2009/10/02 xcolor patch
+  pd1enc.def    2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+etexcmds.sty    2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+infwarerr.sty    2007/09/09 v1.2 Providing info/warning/message (HO)
+hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+kvoptions.sty    2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+kvsetkeys.sty    2009/07/30 v1.5 Key value parser with default handler support 
+(HO)
+     url.sty    2006/04/12  ver 3.3  Verb mode for urls, etc.
+  bitset.sty    2007/09/28 v1.0 Data type bit set (HO)
+ intcalc.sty    2007/09/27 v1.1 Expandable integer calculations (HO)
+bigintcalc.sty    2007/11/11 v1.1 Expandable big integer calculations (HO)
+pdftexcmds.sty    2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions (
+HO)
+ifluatex.sty    2009/04/17 v1.2 Provides the ifluatex switch (HO)
+ ltxcmds.sty    2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO)
+
+atbegshi.sty    2008/07/31 v1.9 At begin shipout hook (HO)
+ hpdftex.def    2009/10/09 v6.79a Hyperref driver for pdfTeX
+enumitem.sty    2009/05/18 v2.2 Customized lists
+    cite.sty    2009/08/29  v 5.2
+geometry.sty    2010/09/12 v5.6 Page Geometry
+geometry.cfg
+appendix.sty    2009/09/02 v1.2b extra appendix facilities
+fancyhdr.sty    
+supp-pdf.mkii
+ nameref.sty    2007/05/29 v2.31 Cross-referencing by name of section
+refcount.sty    2008/08/11 v3.1 Data extraction from references (HO)
+title_only.out
+title_only.out
+titlepage_notum.tex
+logos/TUMLogo_oZ_Outline_blau_CMYK.pdf
+   ursfs.fd    1998/03/24 rsfs font definition file (jk)
+   uwasy.fd    2003/10/30 v2.0 Wasy-2 symbol font definitions
+MPP_os_logo_cmyk.pdf    Graphic file (type pdf)
+MPG_logo_cmyk.pdf    Graphic file (type pdf)
+ ***********
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8466 strings out of 493848
+ 126190 string characters out of 1152823
+ 225777 words of memory out of 3000000
+ 11602 multiletter control sequences out of 15000+50000
+ 8485 words of font info for 33 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 43i,5n,44p,334b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb>
+Output written on title_only.pdf (2 pages, 70365 bytes).
+PDF statistics:
+ 41 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -33,12 +33,12 @@ of the data as described in Section~\ref{sec:result}.
 Each parameter is varied independently by one standard deviation  according to its measured
 uncertainty, the impact on the event  yield is evaluated for each simulated signal and background sample.
 In the following the detector-related uncertainties are  described in more detail.
-Tables~\ref{tab:ExpSys:bveto} and~\ref{tab:ExpSys:btag}  summarize the systematic uncertainties in the 
+Tables~\ref{tab:ExpSys:bveto} and~\ref{tab:ExpSys:btag}  summarise the systematic uncertainties in the 
 predicted event yields. 
 
 
 \paragraph{Luminosity}
-The integrated luminosity recordered during 2012 by the ATLAS detector at centre-of-mass energy of 8~TeV is measured 
+The integrated luminosity recorded during 2012 by the ATLAS detector at centre-of-mass energy of 8~TeV is measured 
 to be $20.3 ~ fb^{-1}$ \cite{luminosity} with an uncertainty  of  2.8\%.
 
 \paragraph{Pileup}
@@ -66,7 +66,7 @@ depending on the transverse momentum of the electron,
 the second related to electron energy scale  and resolution, both in the range of 0.3-3\% depending on the pseudorapidity of the electron. 
 The energy scale uncertainties are described by six nuisance parameters~\cite{eleEnergy}.
 Only a few of them gives a non-negligible contribution to the systematic error. Two of them 
-affect the shape of the \mmc distribution and are considered independently: one is relatd to the electron  
+affect the shape of the \mmc distribution and are considered independently: one is related to the electron  
 momentum measurement from  $Z \rightarrow ee$ data ("Electron Zee") 
 and the other related to the reconstruction of low momentum electrons ("Electron LOWPT"). 
 All other uncertainties related to energy scale and resolution are combined quadratically ("Electron E").
@@ -235,7 +235,7 @@ Process 					&  Generator		& Uncertainty (\%) \\ [0.5ex]
 \end{table}
 
 
-Uncertainties on the cross-sections that have been used to normalize
+Uncertainties on the cross-sections that have been used to normalise
 the contribution of simulated samples to the integrated luminosity of analyzed data are reported in
 Table~\ref{table:sys_xsec}. These
 uncertainties include contributions due to parton distribution
@@ -253,8 +253,8 @@ products is found not to be affected by these systematic uncertainties,
 %Figure~\ref{fig:theory_mass}, 
 only the impact on the acceptance is considered.
 The acceptance uncertainties for the simulated ALPGEN $\Ztautau$  sample, which is 
-used for the normalization of the embedded sample, 
-are estimated at the common selection stage to be 4\% \cite{2010SMLLSupportNote}.
+used for the normalisation of the embedded sample, 
+are estimated at the common selection stage to be 4\% \cite{ATLASLimit}.
 %\footnote{A bit old result, to be reviewed. Depends also on the
 %embedding choice}
 Since additional selection criteria  are applied directly to the embedded sample, 
@@ -267,7 +267,7 @@ simulated $t\bar{t}$ events are estimated to be  2\%~\cite{ttbaremu}. %\textcolo
 %For other, single and dibosons
 %production as well as single top production a 2\% uncertainty is
 %assumed.
-The acceptance uncertainties in diboson and single top quark production are estimated to be 2\%~\cite{2010SMLLSupportNote}.
+The acceptance uncertainties in diboson and single top quark production are estimated to be 2\%~\cite{ATLASLimit}.
 %\footnote{preliminary, this is following LEP-Had note, we
 %  should cite some previous result here.}.
 
@@ -280,7 +280,7 @@ simulation of the detector response. This truth-level study is implemented withi
 efficiencies \cite{BtaggingScaleFactors}. The variation of the acceptance
 with respect to the nominal Monte Carlo tune has  been considered as
 a source of systematic uncertainty. The total signal acceptance 
-uncertainty varies from 4\% to 30\% depending on $\mA$, on the production process 
+uncertainty varies from 4\% to 30\% depending on $m_A$, on the production process 
 and event category.
 
 %The acceptance uncertainties of the two signal production modes are
@@ -292,7 +292,7 @@ and event category.
 %and down by a factor of two and the renormalisation scale by a factor of
 %10\%. Uncertainties due to the PDFs were determined by taking the RMS
 %of the acceptance of the 52 error sets of the CT10 PDF set.  These
-%effects are summarized in Table~\ref{table:sys_bba}. For a total
+%effects are summarised in Table~\ref{table:sys_bba}. For a total
 %uncertainty, all effects are summed in quadrature giving a total
 %uncertainties that varies from 4\% to 30\% depending on $\mA$ and on the
 %analysis category.  For gluon fusion production, generated with POWHEG
@@ -301,7 +301,7 @@ and event category.
 %renormalisation and factorisation scales were varied simultaneously
 %(the renormalisation scale by 10\% and the factorisation scale by factor 2\%).
 %PDFs uncertainties were handled in the same way as for the $b$-quark
-%associated production.  These variations are summarized in Table
+%associated production.  These variations are summarised in Table
 %\ref{table:sys_gga}.  The uncertainties shown in Tables
 %\ref{table:sys_bba} and \ref{table:sys_gga} are based on samples with
 %$m_{A} = 120 \text{ GeV}$.  Results for the mass points 90, 200
@@ -371,6 +371,15 @@ and event category.
 
 
 \subsection{Systematic Uncertainties of  \Ztautau Embedded Sample}\label{sec:embsys}
+\begin{figure}[!t]
+	\begin{center}
+	\includegraphics[width=0.45\textwidth]{figure/systematics/emb_sys_veto_MFS.pdf}
+	\includegraphics[width=0.45\textwidth]{figure/systematics/emb_sys_veto_iso.pdf}
+	\end{center}
+	\caption{Impact of EMB\_MFS (left) and EMB\_ISO (right) systematic uncertainties in the $\mmc$ distribution of  embedded events.
+	Significant uncertainty have been found only in the b-vetoed category.}
+	\label{fig:EMBMFS}
+\end{figure}
 
 An important element of the embedding method is the subtraction of the 
 calorimeter cells associated with the muons in the original \Zmumu event and their substitution with those from the simulated $\tau$ lepton
@@ -380,15 +389,6 @@ samples and the relative uncertainty is referred as "EMB\_MFS". This uncertainty
 distribution as shown in Figure~\ref{fig:EMBMFS}.
 
 
-\begin{figure}[tp]
-	\begin{center}
-	\includegraphics[width=0.49\textwidth]{figure/systematics/emb_sys_veto_MFS.pdf}
-	\includegraphics[width=0.49\textwidth]{figure/systematics/emb_sys_veto_iso.pdf}
-	\end{center}
-	\caption{Impact of EMB\_MFS (left) and EMB\_ISO (right) systematic uncertainties in the $\mmc$ distribution of  embedded events.
-	Significant uncertainty have been found only in the b-vetoed category.}
-	\label{fig:EMBMFS}
-\end{figure}
 
 %\begin{figure}[htp]
 %     \begin{center}
@@ -418,7 +418,7 @@ a looser requirement have a  small impact due to the isolation requirements at t
 The resulting uncertainty, referred to as "EMB\_ISO", affects both the event yield and the shape of 
 the \mmc  distribution of the embedded sample as shown in Figure~\ref{fig:EMBMFS}. 
 
-Finally, because the normalization of the embedded sample is determined from the ALPGEN simulation, 
+Finally, because the normalisation of the embedded sample is determined from the ALPGEN simulation, 
 the uncertainties related to the cross section calculation and the luminosity are assigned. In addition,
 all the discussed detector-related systematic uncertainties affecting the decay products of the simulated $\tau$ lepton 
 decays are propagated to the embedded sample.
@@ -467,6 +467,9 @@ are evaluated to take into account possible deviations from this assumption.
 The dependence of the ratio  \rqcd on the lepton isolation criteria is evaluated and then
 compared to the uncertainties obtained with auxiliary measurements. 
 
+
+
+
 Figure~\ref{fig:os_ss_ratio} shows the \rqcd factor, i.e. the ratio of the QCD background 
 yields in data samples C and D, as a function of a sliding lepton isolation threshold relative to the 
 nominal analysis selection.
@@ -486,6 +489,35 @@ is then assigned as a systematic uncertainty in \rqcd. For a lepton isolation th
 twice the nominal required value, a systematic uncertainty of 15\% is found.
 The result are shown  in Figure~\ref{fig:os_ss_ratio} after the common selection, similar results are obtained after the full 
 selection of the two event categories as shown in Appendix~\ref{appendix:qcd_additional}.
+
+\begin{figure}[p]
+	\begin{center}
+	\includegraphics[width=0.50\textwidth]{figure/systematics/QCD_presel_SYS.pdf}
+	\end{center}
+	\caption{Transfer factors \rqcd and $R_{QCD}^{iso}$  (see text) as a function of the sliding lepton isolation 
+	thresholds. The thresholds are varied in percentages relative to the nominal lepton isolation threshold (value of zero on the plot).
+	The common selection are applied.
+	%As an example the point at 100\% in the plot corresponds
+	%to $\rqcd$ evaluated by increasing the isolation requirement by 100\% respect to the standard cut value.
+%	The red points show the anti-isolated scale factor $\rqcd$, i.e. the ratio between samples C and D.
+%	 The black points show the isolated scale factor, which is defined as the ratio between sample $\hat{A}$ and $\hat{B}$, 
+%	 where the leptons have isolation values larger than the nominal value but smaller
+%	 than the sliding cut on X axis.
+%	 taking the same example point at 100\%, than the double of the standard cut value.
+	 }
+	\label{fig:os_ss_ratio}
+\end{figure}
+
+\begin{figure}[p]
+	\begin{center}
+	\includegraphics[width=0.45\textwidth]{figure/systematics/qcd_shape_tag.pdf}
+	\includegraphics[width=0.45\textwidth]{figure/systematics/qcd_shape_veto.pdf}
+	\end{center}
+	\caption{Differences in the shape of the invariant \mmc mass distribution in data samples  C and D shown 
+	separately for the b-tagged  and b-vetoed event categories. The data samples C and D are normalised to the same 
+	number of events.}
+	\label{fig:qcd_shape_unc}
+\end{figure}
 
 %for the definition of lepton isolations used in this analysis, the ratio is calculated in samples where the isolation requirements are reversed. Due to a high contamination of signal and non-QCD backgrounds, "semi-isolated" OS and SS samples are additionally defined, where the lepton isolation is larger than the standard requirement, but less than a sliding cut. These samples are labelled $\hat{A}$ and $\hat{B}$  for the semi-isolated OS and SS samples, respectively, and hence we can define $R_{QCD}^{iso}  = \hat{A} / \hat{B}$. The difference between \rqcd and $R_{QCD}^{iso} $ in the vicinity of our standard cut value is then assigned as a systematic uncertainty on \rqcd. Using the point where the cuts on the lepton isolation are twice their standard values, i.e.. the $x=100\%$ point on the graph, a systematic uncertainty of 15\% is found.
 
@@ -528,6 +560,7 @@ Good agreement is found between all three results.
 %uncertainty to the \rqcd factor is conservative.
 
 
+
 The shape of the \mmc distribution differs between the non-isolated  OS and SS lepton samples C and D as shown in Figure~\ref{fig:qcd_shape_unc},
 the ratio \rqcd is then dependent on the \mmc distribution.
 For the mass range in which the QCD multi-jet background is relevant ( $\mmc  < 150$~GeV),
@@ -537,37 +570,6 @@ shape difference in the isolated lepton samples. Thus, a shape uncertainty is  i
 sample B is taken into account. Further 
 shape uncertainties due to non-QCD background subtraction are found to be negligible. The uncertainty due to the use of the isolation 
 requirement at the trigger level is also found to be negligible as discussed in Appendix~\ref{appendix:qcd}\,.
-
-
-
-\begin{figure}[ht]
-	\begin{center}
-	\includegraphics[width=0.60\textwidth]{figure/systematics/QCD_presel_SYS.pdf}
-	\end{center}
-	\caption{Transfer factors \rqcd and $R_{QCD}^{iso}$  (see text) as a function of the sliding lepton isolation 
-	thresholds. The thresholds are varied in percentages relative to the nominal lepton isolation threshold (value of zero on the plot).
-	The common selection are applied.
-	%As an example the point at 100\% in the plot corresponds
-	%to $\rqcd$ evaluated by increasing the isolation requirement by 100\% respect to the standard cut value.
-%	The red points show the anti-isolated scale factor $\rqcd$, i.e. the ratio between samples C and D.
-%	 The black points show the isolated scale factor, which is defined as the ratio between sample $\hat{A}$ and $\hat{B}$, 
-%	 where the leptons have isolation values larger than the nominal value but smaller
-%	 than the sliding cut on X axis.
-%	 taking the same example point at 100\%, than the double of the standard cut value.
-	 }
-	\label{fig:os_ss_ratio}
-\end{figure}
-
-\begin{figure}[h]
-	\begin{center}
-	\includegraphics[width=0.47\textwidth]{figure/systematics/qcd_shape_tag.pdf}
-	\includegraphics[width=0.47\textwidth]{figure/systematics/qcd_shape_veto.pdf}
-	\end{center}
-	\caption{Differences in the shape of the invariant \mmc mass distribution in data samples  C and D shown 
-	separately for the b-taged  and b-vetoed event categories. The data samples C and D are normalised to the same 
-	number of events.}
-	\label{fig:qcd_shape_unc}
-\end{figure}
 
 
 

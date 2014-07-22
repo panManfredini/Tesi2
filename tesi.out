@@ -39,7 +39,7 @@
 \BOOKMARK [2][-]{subsection.5.1.2}{Signal and Background Processes}{section.5.1}
 \BOOKMARK [2][-]{subsection.5.1.3}{Analysis Strategy}{section.5.1}
 \BOOKMARK [2][-]{subsection.5.1.4}{Data and Simulated Event Samples}{section.5.1}
-\BOOKMARK [1][-]{section.5.2}{Event Selection and Categorization}{chapter.5}
+\BOOKMARK [1][-]{section.5.2}{Event Selection and Categorisation}{chapter.5}
 \BOOKMARK [2][-]{subsection.5.2.1}{The Common Selection Criteria}{section.5.2}
 \BOOKMARK [2][-]{subsection.5.2.2}{b-Vetoed Event Category}{section.5.2}
 \BOOKMARK [2][-]{subsection.5.2.3}{b-Tagged Event Category}{section.5.2}
@@ -55,8 +55,9 @@
 \BOOKMARK [2][-]{subsection.5.4.4}{QCD Multi-Jet Systematic Uncertainties}{section.5.4}
 \BOOKMARK [1][-]{section.5.5}{Results}{chapter.5}
 \BOOKMARK [2][-]{subsection.5.5.1}{Statistical Interpretation of the Data}{section.5.5}
-\BOOKMARK [2][-]{subsection.5.5.2}{Exclusion Limits on the Signal Production}{section.5.5}
-\BOOKMARK [2][-]{subsection.5.5.3}{Combination with Other Search Channels}{section.5.5}
+\BOOKMARK [2][-]{subsection.5.5.2}{Expected and Observed Events}{section.5.5}
+\BOOKMARK [2][-]{subsection.5.5.3}{Exclusion Limits on the Signal Production}{section.5.5}
+\BOOKMARK [2][-]{subsection.5.5.4}{Combination with Other Search Channels}{section.5.5}
 \BOOKMARK [0][-]{chapter.6}{Improvements to the MSSM Higgs Boson Search Using Track-Jets}{}
 \BOOKMARK [1][-]{section.6.1}{Track-Based Jets}{chapter.6}
 \BOOKMARK [1][-]{section.6.2}{Performance of the Track-based Jets}{chapter.6}
@@ -66,9 +67,10 @@
 \BOOKMARK [1][-]{section.6.3}{Systematic Uncertainties of Track-Jet Reconstruction}{chapter.6}
 \BOOKMARK [2][-]{subsection.6.3.1}{Material Budget Uncertainty on Track-Based Jets Reconstruction }{section.6.3}
 \BOOKMARK [2][-]{subsection.6.3.2}{Validation of the Track Subtraction Method}{section.6.3}
+\BOOKMARK [1][-]{section.6.4}{Conclusions}{chapter.6}
 \BOOKMARK [0][-]{chapter.7}{Summary and Conclusions}{}
-\BOOKMARK [0][-]{section*.92}{Acknowledgments}{}
-\BOOKMARK [0][-]{chapter*.93}{Bibliography}{}
+\BOOKMARK [0][-]{section*.94}{Acknowledgments}{}
+\BOOKMARK [0][-]{chapter*.95}{Bibliography}{}
 \BOOKMARK [0][-]{appendix.A}{Appendix Additional QCD Studies}{}
 \BOOKMARK [1][-]{section.A.1}{Trigger Bias}{appendix.A}
 \BOOKMARK [1][-]{section.A.2}{QCD Additional Plots}{appendix.A}
