@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  22 JUL 2014 04:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  22 JUL 2014 07:11
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -435,29 +435,29 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \f@ncyO@erf=\skip67
 \f@ncyO@olf=\skip68
 \f@ncyO@orf=\skip69
-)
-No file tesi.aux.
+) (./tesi.aux)
 \openout1 = `tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
+
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count133
@@ -471,7 +471,7 @@ Package caption Info: End \AtBeginDocument code.
 \MPnumerator=\count137
 \everyMPtoPDFconversion=\toks28
 )
-Package hyperref Info: Link coloring OFF on input line 138.
+Package hyperref Info: Link coloring OFF on input line 141.
  (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -480,8 +480,10 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count138
 )
-LaTeX Info: Redefining \ref on input line 138.
-LaTeX Info: Redefining \pageref on input line 138.
+LaTeX Info: Redefining \ref on input line 141.
+LaTeX Info: Redefining \pageref on input line 141.
+ (./tesi.out)
+(./tesi.out)
 \@outlinefile=\write3
 \openout3 = `tesi.out'.
 
@@ -555,7 +557,7 @@ LaTeX Info: Redefining \pageref on input line 138.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-<logos/TUMLogo_oZ_Outline_blau_CMYK.pdf, id=3, 54.2025pt x 29.10875pt>
+<logos/TUMLogo_oZ_Outline_blau_CMYK.pdf, id=339, 54.2025pt x 29.10875pt>
 File: logos/TUMLogo_oZ_Outline_blau_CMYK.pdf Graphic file (type pdf)
 
 <use logos/TUMLogo_oZ_Outline_blau_CMYK.pdf>
@@ -624,12 +626,54 @@ _blau_CMYK.pdf>] [2
 
 
 
-]
+] (./tesi.toc
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 1.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 2.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 20.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 29.
+ [7]
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 42.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 83.
+
+Underfull \vbox (badness 3758) has occurred while \output is active []
+
+ [8]
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 93.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 95.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 96.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 97.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 100.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 101.
+)
 \tf@toc=\write4
 \openout4 = `tesi.toc'.
 
- (./intro.tex [7]
-[8
+
+(./intro.tex [9] [10
 
 
 ]
@@ -641,46 +685,13 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              Support for \float@addtolists may be removed from
 (scrbook)              `scrbook' soon .
 
+[11]
+Overfull \hbox (5.363pt too wide) in paragraph at lines 36--45
+[]\OT1/cmr/m/n/12 In Chap-ter []5[], the search for the neu-tral MSSM Higgs bos
+ons per-formed in $\OML/cmm/m/it/12 A=h=H \OMS/cmsy/m/n/12 !
+ []
 
-LaTeX Warning: Citation `AHiggsO' on page 9 undefined on input line 13.
-
-
-LaTeX Warning: Citation `CHiggsO' on page 9 undefined on input line 13.
-
-
-LaTeX Warning: Citation `ASpin0' on page 9 undefined on input line 14.
-
-
-LaTeX Warning: Citation `ACouplings' on page 9 undefined on input line 14.
-
-
-LaTeX Warning: Citation `CFermions' on page 9 undefined on input line 14.
-
-
-LaTeX Warning: Citation `CWidth' on page 9 undefined on input line 14.
-
-
-LaTeX Warning: Reference `chap:theory' on page 9 undefined on input line 24.
-
-
-LaTeX Warning: Reference `chap:detector' on page 9 undefined on input line 27.
-
-
-LaTeX Warning: Reference `chap:obj' on page 9 undefined on input line 34.
-
-[9]
-
-LaTeX Warning: Reference `chap:anal' on page 10 undefined on input line 36.
-
-
-LaTeX Warning: Reference `chap:trackjet' on page 10 undefined on input line 55.
-
-
-
-LaTeX Warning: Reference `chap:conclusion' on page 10 undefined on input line 5
-8.
-
-) (./t_intro.tex [10]
+) (./t_intro.tex [12]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -715,459 +726,117 @@ LaTeX Warning: Reference `chap:conclusion' on page 10 undefined on input line 5
 
 
 Chapter 2.
+[13
 
-LaTeX Warning: Reference `sec:SM' on page 11 undefined on input line 8.
 
 
-LaTeX Warning: Citation `Altarelli' on page 11 undefined on input line 8.
+] [14
 
 
-LaTeX Warning: Reference `sec:MSSM' on page 11 undefined on input line 11.
-
-
-LaTeX Warning: Citation `SusyPrimer' on page 11 undefined on input line 12.
-
-
-LaTeX Warning: Citation `Djuadi' on page 11 undefined on input line 12.
-
-
-LaTeX Warning: Reference `sec:pheno' on page 11 undefined on input line 14.
-
-
-LaTeX Warning: Citation `LHCxsec' on page 11 undefined on input line 14.
-
-[11
-
-
-
-]
-
-LaTeX Warning: Citation `Peskin' on page 12 undefined on input line 26.
-
-
-LaTeX Warning: Citation `EW1' on page 12 undefined on input line 46.
-
-
-LaTeX Warning: Citation `EW2' on page 12 undefined on input line 46.
-
-
-LaTeX Warning: Citation `EW3' on page 12 undefined on input line 46.
-
-
-LaTeX Warning: Citation `qcd1' on page 12 undefined on input line 47.
-
-
-LaTeX Warning: Citation `ENGLERT' on page 12 undefined on input line 53.
-
-
-LaTeX Warning: Citation `HIGGS' on page 12 undefined on input line 53.
-
-
-LaTeX Warning: Citation `HIGGS2' on page 12 undefined on input line 53.
-
-
-LaTeX Warning: Citation `HIGGS3' on page 12 undefined on input line 53.
-
-
-LaTeX Warning: Citation `kibble' on page 12 undefined on input line 53.
-
-
-LaTeX Warning: Citation `ENGLERT' on page 12 undefined on input line 64.
-
-
-LaTeX Warning: Citation `HIGGS' on page 12 undefined on input line 64.
-
-
-LaTeX Warning: Citation `HIGGS2' on page 12 undefined on input line 64.
-
-
-LaTeX Warning: Citation `HIGGS3' on page 12 undefined on input line 64.
-
-
-LaTeX Warning: Citation `kibble' on page 12 undefined on input line 64.
-
-[12
-
-
-]
-
-LaTeX Warning: Citation `yukawa' on page 13 undefined on input line 80.
-
-
-LaTeX Warning: Citation `smtest' on page 13 undefined on input line 86.
-
-
-LaTeX Warning: Citation `pdg' on page 13 undefined on input line 90.
-
-
-LaTeX Warning: Citation `AHiggsO' on page 13 undefined on input line 92.
-
-
-LaTeX Warning: Citation `CHiggsO' on page 13 undefined on input line 92.
-
-
-LaTeX Warning: Citation `gfitter' on page 13 undefined on input line 94.
-
-[13]
-
-LaTeX Warning: Citation `gminus2' on page 14 undefined on input line 100.
-
-
-LaTeX Warning: Citation `smtest' on page 14 undefined on input line 100.
-
-
-LaTeX Warning: Citation `FBasymmetry' on page 14 undefined on input line 101.
-
-
-LaTeX Warning: Citation `Lambda' on page 14 undefined on input line 112.
-
-
-LaTeX Warning: Citation `Hierarchy1' on page 14 undefined on input line 115.
-
-
-LaTeX Warning: Citation `Hierarchy2' on page 14 undefined on input line 115.
-
-
-LaTeX Warning: Citation `Hierarchy3' on page 14 undefined on input line 115.
-
-
-LaTeX Warning: Citation `darkmatter1' on page 14 undefined on input line 125.
-
-
-LaTeX Warning: Citation `darkmatter2' on page 14 undefined on input line 125.
-
-
-LaTeX Warning: Citation `darkmatter3' on page 14 undefined on input line 125.
-
-
-LaTeX Warning: Citation `GUT1' on page 14 undefined on input line 134.
-
-
-LaTeX Warning: Citation `GUT2' on page 14 undefined on input line 134.
-
-[14]
-
-LaTeX Warning: Reference `sec:MSSM' on page 15 undefined on input line 143.
-
-
+] [15] [16]
 Overfull \hbox (6.16965pt too wide) in paragraph at lines 141--145
 []\OT1/cmr/m/n/12 Among many pos-si-ble ex-ten-sions of the SM, su-per-sym-me-t
 ry is the-o-ret-i-cally favoured
  []
 
-
-LaTeX Warning: Citation `Susy1' on page 15 undefined on input line 165.
-
-
-LaTeX Warning: Citation `Susy2' on page 15 undefined on input line 165.
-
-
-LaTeX Warning: Citation `Susy3' on page 15 undefined on input line 165.
-
-
-LaTeX Warning: Citation `MSSM1' on page 15 undefined on input line 182.
-
-
-LaTeX Warning: Citation `MSSM2' on page 15 undefined on input line 182.
-
-
-LaTeX Warning: Citation `MSSM3' on page 15 undefined on input line 182.
-
-
-LaTeX Warning: Citation `MSSM4' on page 15 undefined on input line 182.
-
-
-LaTeX Warning: Citation `MSSM5' on page 15 undefined on input line 182.
-
-
-LaTeX Warning: Citation `MSSM6' on page 15 undefined on input line 182.
-
-
-LaTeX Warning: Reference `tab:chiralsup' on page 15 undefined on input line 186
-.
-
-
-LaTeX Warning: Reference `tab:gaugesup' on page 15 undefined on input line 186.
-
-
-[15]
-
-LaTeX Warning: Citation `SusyPrimer' on page 16 undefined on input line 192.
-
-
-LaTeX Warning: Citation `SusyPrimer' on page 16 undefined on input line 215.
-
-
-LaTeX Warning: Citation `Susy3' on page 16 undefined on input line 231.
-
-[16]
-
-LaTeX Warning: Citation `softerm1' on page 17 undefined on input line 252.
-
-
-LaTeX Warning: Citation `softerm2' on page 17 undefined on input line 252.
-
-
-LaTeX Warning: Citation `softerm3' on page 17 undefined on input line 256.
-
-
-LaTeX Warning: Citation `softerm1' on page 17 undefined on input line 258.
-
-
-LaTeX Warning: Citation `softerm2' on page 17 undefined on input line 258.
-
-
-LaTeX Warning: Citation `Susy2' on page 17 undefined on input line 267.
-
-
-LaTeX Warning: Citation `Higgsm1' on page 17 undefined on input line 267.
-
-
-LaTeX Warning: Citation `Higgsm2' on page 17 undefined on input line 267.
-
-
-LaTeX Warning: Citation `Higgsm3' on page 17 undefined on input line 268.
-
-[17]
-
-LaTeX Warning: Citation `MSSM1' on page 18 undefined on input line 272.
-
-
-LaTeX Warning: Citation `Higgsm4' on page 18 undefined on input line 272.
-
-
-LaTeX Warning: Citation `Higgsm5' on page 18 undefined on input line 294.
-
-
-LaTeX Warning: Citation `Higgsm6' on page 18 undefined on input line 295.
-
-
-LaTeX Warning: Citation `Djuadi' on page 18 undefined on input line 302.
-
-[18]
-
-LaTeX Warning: Reference `fig:couplings' on page 19 undefined on input line 306
-.
-
-<feyn_diagrams/diagrams/couplingHVV.pdf, id=121, 107.40125pt x 119.44624pt>
+[17] [18] [19] [20]
+<feyn_diagrams/diagrams/couplingHVV.pdf, id=652, 107.40125pt x 119.44624pt>
 File: feyn_diagrams/diagrams/couplingHVV.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/couplingHVV.pdf>
-<feyn_diagrams/diagrams/couplingVHH.pdf, id=122, 109.40875pt x 120.45pt>
+<feyn_diagrams/diagrams/couplingVHH.pdf, id=653, 109.40875pt x 120.45pt>
 File: feyn_diagrams/diagrams/couplingVHH.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/couplingVHH.pdf>
-<feyn_diagrams/diagrams/couplingVVHH.pdf, id=123, 146.5475pt x 105.39375pt>
+<feyn_diagrams/diagrams/couplingVVHH.pdf, id=654, 146.5475pt x 105.39375pt>
 File: feyn_diagrams/diagrams/couplingVVHH.pdf Graphic file (type pdf)
 
-<use feyn_diagrams/diagrams/couplingVVHH.pdf>
-
-LaTeX Warning: Citation `Djuadi' on page 19 undefined on input line 323.
-
-
-LaTeX Warning: Reference `eq:mixing' on page 19 undefined on input line 335.
-
-[19 <./feyn_diagrams/diagrams/couplingHVV.pdf> <./feyn_diagrams/diagrams/coupli
-ngVHH.pdf> <./feyn_diagrams/diagrams/couplingVVHH.pdf>]
-
-LaTeX Warning: Reference `eq:couplings1' on page 20 undefined on input line 341
-.
-
-
-LaTeX Warning: Reference `eq:couplingSM' on page 20 undefined on input line 341
-.
-
-
-LaTeX Warning: Citation `Djuadi' on page 20 undefined on input line 346.
-
-
+<use feyn_diagrams/diagrams/couplingVVHH.pdf> [21 <./feyn_diagrams/diagrams/cou
+plingHVV.pdf> <./feyn_diagrams/diagrams/couplingVHH.pdf> <./feyn_diagrams/diagr
+ams/couplingVVHH.pdf>]
 Overfull \hbox (26.55156pt too wide) in paragraph at lines 355--355
 [] 
  []
 
-
-LaTeX Warning: Reference `sec:hsector' on page 20 undefined on input line 364.
-
-
-LaTeX Warning: Citation `Higgsm5' on page 20 undefined on input line 366.
-
-[20]
-
-LaTeX Warning: Citation `LHCxsec' on page 21 undefined on input line 372.
-
-
-LaTeX Warning: Citation `mhmax2' on page 21 undefined on input line 372.
-
-
-LaTeX Warning: Citation `MSSMmhmax' on page 21 undefined on input line 377.
-
-
-LaTeX Warning: Citation `LEPLimits' on page 21 undefined on input line 378.
-
-
-LaTeX Warning: Citation `TevatronLimits1' on page 21 undefined on input line 37
-8.
-
-
-LaTeX Warning: Citation `CMSLimit' on page 21 undefined on input line 378.
-
-
-LaTeX Warning: Citation `ATLASLimit' on page 21 undefined on input line 378.
-
-
-LaTeX Warning: Citation `mhmax2' on page 21 undefined on input line 381.
-
-<figure/mass.pdf, id=170, 569.12625pt x 385.44pt>
+[22] <figure/mass.pdf, id=710, 569.12625pt x 385.44pt>
 File: figure/mass.pdf Graphic file (type pdf)
  <use figure/mass.pdf>
-
-LaTeX Warning: Citation `LHCxsec' on page 21 undefined on input line 401.
-
-
-LaTeX Warning: Reference `fig:higgsmass' on page 21 undefined on input line 404
-.
-
-[21 <./figure/mass.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Citation `LHCxsec' on page 22 undefined on input line 417.
-
-<feyn_diagrams/diagrams/bbA.pdf, id=219, 182.6825pt x 163.61125pt>
+[23 <./figure/mass.pdf, page is rotated 90 degrees>]
+<feyn_diagrams/diagrams/bbA.pdf, id=766, 182.6825pt x 163.61125pt>
 File: feyn_diagrams/diagrams/bbA.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/bbA.pdf>
-<feyn_diagrams/diagrams/bbA2.pdf, id=220, 173.64874pt x 147.55125pt>
+<feyn_diagrams/diagrams/bbA2.pdf, id=767, 173.64874pt x 147.55125pt>
 File: feyn_diagrams/diagrams/bbA2.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/bbA2.pdf>
-<feyn_diagrams/diagrams/bbA3.pdf, id=221, 182.6825pt x 111.41624pt>
+<feyn_diagrams/diagrams/bbA3.pdf, id=768, 182.6825pt x 111.41624pt>
 File: feyn_diagrams/diagrams/bbA3.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/bbA3.pdf>
-<feyn_diagrams/diagrams/ggH.pdf, id=222, 183.68625pt x 130.4875pt>
+<feyn_diagrams/diagrams/ggH.pdf, id=769, 183.68625pt x 130.4875pt>
 File: feyn_diagrams/diagrams/ggH.pdf Graphic file (type pdf)
 
-<use feyn_diagrams/diagrams/ggH.pdf>
-
-LaTeX Warning: Reference `sec:couplings' on page 22 undefined on input line 449
-.
-
-
-LaTeX Warning: Citation `LHCxsec1' on page 22 undefined on input line 458.
-
-
-LaTeX Warning: Reference `fig:prod' on page 22 undefined on input line 464.
-
-
-LaTeX Warning: Reference `fig:xsec' on page 22 undefined on input line 465.
-
-[22]
-
-LaTeX Warning: Reference `fig:br' on page 23 undefined on input line 473.
-
-<figure/bbA10.pdf, id=228, 569.12625pt x 656.4525pt>
+<use feyn_diagrams/diagrams/ggH.pdf> [24]
+<figure/bbA10.pdf, id=779, 569.12625pt x 656.4525pt>
 File: figure/bbA10.pdf Graphic file (type pdf)
  <use figure/bbA10.pdf>
-<figure/bbA30.pdf, id=229, 569.12625pt x 656.4525pt>
+<figure/bbA30.pdf, id=780, 569.12625pt x 656.4525pt>
 File: figure/bbA30.pdf Graphic file (type pdf)
  <use figure/bbA30.pdf>
-<figure/ggA10.pdf, id=230, 569.12625pt x 656.4525pt>
+<figure/ggA10.pdf, id=781, 569.12625pt x 656.4525pt>
 File: figure/ggA10.pdf Graphic file (type pdf)
  <use figure/ggA10.pdf>
-<figure/ggA30.pdf, id=231, 569.12625pt x 656.4525pt>
+<figure/ggA30.pdf, id=782, 569.12625pt x 656.4525pt>
 File: figure/ggA30.pdf Graphic file (type pdf)
  <use figure/ggA30.pdf>
-
-LaTeX Warning: Citation `LHCxsec1' on page 23 undefined on input line 492.
-
-<figure/BR_higgs/YRHXS3_BR_fig35.pdf, id=232, 570.13pt x 521.95pt>
+<figure/BR_higgs/YRHXS3_BR_fig35.pdf, id=784, 570.13pt x 521.95pt>
 File: figure/BR_higgs/YRHXS3_BR_fig35.pdf Graphic file (type pdf)
 
 <use figure/BR_higgs/YRHXS3_BR_fig35.pdf>
-<figure/BR_higgs/YRHXS3_BR_fig36.pdf, id=233, 570.13pt x 521.95pt>
+<figure/BR_higgs/YRHXS3_BR_fig36.pdf, id=785, 570.13pt x 521.95pt>
 File: figure/BR_higgs/YRHXS3_BR_fig36.pdf Graphic file (type pdf)
 
 <use figure/BR_higgs/YRHXS3_BR_fig36.pdf>
-<figure/BR_higgs/YRHXS3_BR_fig31.pdf, id=234, 569.12625pt x 521.95pt>
+<figure/BR_higgs/YRHXS3_BR_fig31.pdf, id=786, 569.12625pt x 521.95pt>
 File: figure/BR_higgs/YRHXS3_BR_fig31.pdf Graphic file (type pdf)
 
 <use figure/BR_higgs/YRHXS3_BR_fig31.pdf>
-<figure/BR_higgs/YRHXS3_BR_fig32.pdf, id=235, 569.12625pt x 521.95pt>
+<figure/BR_higgs/YRHXS3_BR_fig32.pdf, id=787, 569.12625pt x 521.95pt>
 File: figure/BR_higgs/YRHXS3_BR_fig32.pdf Graphic file (type pdf)
 
 <use figure/BR_higgs/YRHXS3_BR_fig32.pdf>
-<figure/BR_higgs/YRHXS3_BR_fig37.pdf, id=236, 569.12625pt x 521.95pt>
+<figure/BR_higgs/YRHXS3_BR_fig37.pdf, id=788, 569.12625pt x 521.95pt>
 File: figure/BR_higgs/YRHXS3_BR_fig37.pdf Graphic file (type pdf)
 
 <use figure/BR_higgs/YRHXS3_BR_fig37.pdf>
-<figure/BR_higgs/YRHXS3_BR_fig38.pdf, id=237, 569.12625pt x 521.95pt>
+<figure/BR_higgs/YRHXS3_BR_fig38.pdf, id=789, 569.12625pt x 521.95pt>
 File: figure/BR_higgs/YRHXS3_BR_fig38.pdf Graphic file (type pdf)
 
 <use figure/BR_higgs/YRHXS3_BR_fig38.pdf>
 
-LaTeX Warning: Citation `LHCxsec' on page 23 undefined on input line 510.
-
-
 LaTeX Warning: Float too large for page by 5.90729pt on input line 513.
 
-[23 <./feyn_diagrams/diagrams/bbA.pdf> <./feyn_diagrams/diagrams/bbA2.pdf> <./f
-eyn_diagrams/diagrams/bbA3.pdf> <./feyn_diagrams/diagrams/ggH.pdf>] [24 <./figu
+[25 <./feyn_diagrams/diagrams/bbA.pdf> <./feyn_diagrams/diagrams/bbA2.pdf> <./f
+eyn_diagrams/diagrams/bbA3.pdf> <./feyn_diagrams/diagrams/ggH.pdf>] [26 <./figu
 re/bbA10.pdf> <./figure/bbA30.pdf> <./figure/ggA10.pdf> <./figure/ggA30.pdf>]
-[25 <./figure/BR_higgs/YRHXS3_BR_fig35.pdf> <./figure/BR_higgs/YRHXS3_BR_fig36.
+[27 <./figure/BR_higgs/YRHXS3_BR_fig35.pdf> <./figure/BR_higgs/YRHXS3_BR_fig36.
 pdf> <./figure/BR_higgs/YRHXS3_BR_fig31.pdf> <./figure/BR_higgs/YRHXS3_BR_fig32
 .pdf> <./figure/BR_higgs/YRHXS3_BR_fig37.pdf> <./figure/BR_higgs/YRHXS3_BR_fig3
-8.pdf>]
-
-LaTeX Warning: Citation `AtlasConstraint' on page 26 undefined on input line 53
-2.
-
-
-LaTeX Warning: Reference `fig:ex1' on page 26 undefined on input line 532.
-
-
-LaTeX Warning: Citation `sympleMSSM1' on page 26 undefined on input line 533.
-
-
-LaTeX Warning: Citation `sympleMSSM2' on page 26 undefined on input line 533.
-
-<figure/limits/constraintAtlas.pdf, id=510, 569.12625pt x 387.4475pt>
+8.pdf>] <figure/limits/constraintAtlas.pdf, id=1068, 569.12625pt x 387.4475pt>
 File: figure/limits/constraintAtlas.pdf Graphic file (type pdf)
 
 <use figure/limits/constraintAtlas.pdf>
-
-LaTeX Warning: Citation `sympleMSSM1' on page 26 undefined on input line 546.
-
-
-LaTeX Warning: Citation `sympleMSSM2' on page 26 undefined on input line 546.
-
-
-LaTeX Warning: Citation `AtlasConstraint' on page 26 undefined on input line 54
-6.
-
-<figure/paper/limit_comb_2d.pdf, id=511, 569.12625pt x 552.0625pt>
+<figure/paper/limit_comb_2d.pdf, id=1072, 569.12625pt x 552.0625pt>
 File: figure/paper/limit_comb_2d.pdf Graphic file (type pdf)
 
 <use figure/paper/limit_comb_2d.pdf>
-<figure/limits/CSM.pdf, id=512, 569.12625pt x 546.04pt>
+<figure/limits/CSM.pdf, id=1073, 569.12625pt x 546.04pt>
 File: figure/limits/CSM.pdf Graphic file (type pdf)
 
-<use figure/limits/CSM.pdf>
-
-LaTeX Warning: Citation `yuppy' on page 26 undefined on input line 573.
-
-
-LaTeX Warning: Citation `CMSLimit' on page 26 undefined on input line 573.
-
-
-LaTeX Warning: Citation `yuppy' on page 26 undefined on input line 580.
-
-
-LaTeX Warning: Citation `CMSLimit' on page 26 undefined on input line 581.
-
-
-LaTeX Warning: Reference `fig:ex2' on page 26 undefined on input line 581.
-
-) (./detector.tex [26 <./figure/limits/constraintAtlas.pdf>] [27 <./figure/pape
-r/limit_comb_2d.pdf> <./figure/limits/CSM.pdf, page is rotated 90 degrees>]
+<use figure/limits/CSM.pdf>) (./detector.tex [28 <./figure/limits/constraintAtl
+as.pdf>] [29 <./figure/paper/limit_comb_2d.pdf> <./figure/limits/CSM.pdf, page 
+is rotated 90 degrees>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1200,120 +869,39 @@ r/limit_comb_2d.pdf> <./figure/limits/CSM.pdf, page is rotated 90 degrees>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-[28
+ [30
 
 
 
 ]
 Chapter 3.
-
-LaTeX Warning: Reference `sec:lhc' on page 29 undefined on input line 13.
-
-
-LaTeX Warning: Citation `LHC' on page 29 undefined on input line 13.
-
-
-LaTeX Warning: Reference `sec:atlas' on page 29 undefined on input line 14.
-
-
-LaTeX Warning: Citation `ATLASDetector' on page 29 undefined on input line 14.
-
-[29]
-
-LaTeX Warning: Reference `fig:LHC' on page 30 undefined on input line 30.
-
-
-LaTeX Warning: Citation `ATLASDetector' on page 30 undefined on input line 51.
-
-
-LaTeX Warning: Citation `cms' on page 30 undefined on input line 51.
-
-
-LaTeX Warning: Citation `lhcb' on page 30 undefined on input line 52.
-
-
-LaTeX Warning: Citation `alice' on page 30 undefined on input line 52.
-
-<figure/LHC2.jpg, id=598, 486.618pt x 490.4724pt>
+[31] <figure/LHC2.jpg, id=1179, 486.618pt x 490.4724pt>
 File: figure/LHC2.jpg Graphic file (type jpg)
  <use figure/LHC2.jpg>
-
-LaTeX Warning: Citation `lhcImage' on page 30 undefined on input line 71.
-
-
-LaTeX Warning: Reference `fig:atlas' on page 30 undefined on input line 82.
+[32
 
 
-LaTeX Warning: Citation `ATLASDetector' on page 30 undefined on input line 90.
-
-[30
-
-
-] [31 <./figure/LHC2.jpg>]
-<figure/ATLAS.jpeg, id=610, 810.52812pt x 520.94624pt>
+] [33 <./figure/LHC2.jpg>]
+<figure/ATLAS.jpeg, id=1196, 810.52812pt x 520.94624pt>
 File: figure/ATLAS.jpeg Graphic file (type jpg)
- <use figure/ATLAS.jpeg>
 
-LaTeX Warning: Citation `ATLASDetector' on page 32 undefined on input line 99.
-
-<figure/Inner_detector.jpg, id=611, 803.0pt x 602.25pt>
+<use figure/ATLAS.jpeg>
+<figure/Inner_detector.jpg, id=1198, 803.0pt x 602.25pt>
 File: figure/Inner_detector.jpg Graphic file (type jpg)
 
 <use figure/Inner_detector.jpg>
-
-LaTeX Warning: Citation `ATLASDetector' on page 32 undefined on input line 114.
-
-
-
 Underfull \vbox (badness 1107) has occurred while \output is active []
 
- [32 <./figure/ATLAS.jpeg>] [33 <./figure/Inner_detector.jpg>]
-
-LaTeX Warning: Reference `fig:atlasID' on page 34 undefined on input line 149.
-
-<figure/Calo.png, id=626, 1150.2975pt x 758.835pt>
+ [34 <./figure/ATLAS.jpeg>] [35 <./figure/Inner_detector.jpg>]
+<figure/Calo.png, id=1213, 1150.2975pt x 758.835pt>
 File: figure/Calo.png Graphic file (type png)
  <use figure/Calo.png>
-
-LaTeX Warning: Citation `ATLASDetector' on page 34 undefined on input line 180.
-
-
-
-LaTeX Warning: Reference `fig:atlasCal' on page 34 undefined on input line 187.
-
-
-[34]
-
-LaTeX Warning: Citation `jer' on page 35 undefined on input line 222.
-
-[35 <./figure/Calo.png (PNG copy)>]
-<figure/muonSpec.png, id=638, 1303.11844pt x 981.6675pt>
+[36] [37 <./figure/Calo.png (PNG copy)>]
+<figure/muonSpec.png, id=1227, 1303.11844pt x 981.6675pt>
 File: figure/muonSpec.png Graphic file (type png)
 
-<use figure/muonSpec.png>
-
-LaTeX Warning: Citation `ATLASDetector' on page 36 undefined on input line 232.
-
-
-
-LaTeX Warning: Reference `fig:atlasMu' on page 36 undefined on input line 241.
-
-[36 <./figure/muonSpec.png (PNG copy)>]
-
-LaTeX Warning: Reference `chap:obj' on page 37 undefined on input line 276.
-
-[37]
-
-LaTeX Warning: Citation `luminosity' on page 38 undefined on input line 282.
-
-
-LaTeX Warning: Citation `luminosity' on page 38 undefined on input line 284.
-
-
-LaTeX Warning: Citation `lucid' on page 38 undefined on input line 284.
-
-) (./obj_reconstruction.tex [38]
+<use figure/muonSpec.png> [38 <./figure/muonSpec.png (PNG copy)>] [39])
+(./obj_reconstruction.tex [40]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1348,173 +936,29 @@ LaTeX Warning: Citation `lucid' on page 38 undefined on input line 284.
 
 
 Chapter 4.
+[41
 
-LaTeX Warning: Citation `Athena' on page 39 undefined on input line 7.
 
 
-LaTeX Warning: Citation `AtlasCSCBook' on page 39 undefined on input line 12.
-
-[39
-
+] [42
 
 
 ]
-
-LaTeX Warning: Citation `IDtracking' on page 40 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Kalman' on page 40 undefined on input line 30.
-
-
-LaTeX Warning: Citation `IDtracking' on page 40 undefined on input line 34.
-
-
-LaTeX Warning: Citation `AtlasCSCBook' on page 40 undefined on input line 41.
-
-
-LaTeX Warning: Citation `VertexPerf' on page 40 undefined on input line 41.
-
-
-LaTeX Warning: Citation `Vertex' on page 40 undefined on input line 47.
-
-
-LaTeX Warning: Citation `beamspot' on page 40 undefined on input line 52.
-
-[40
-
-
-]
-
-LaTeX Warning: Citation `electronAlgo' on page 41 undefined on input line 66.
-
-
-LaTeX Warning: Citation `TMVA' on page 41 undefined on input line 79.
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 81.
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
- [41]
-
-LaTeX Warning: Citation `eleEff' on page 42 undefined on input line 94.
-
-
-LaTeX Warning: Citation `eleEnergy' on page 42 undefined on input line 96.
-
-[42]
-
-LaTeX Warning: Citation `AtlasCSCBook' on page 43 undefined on input line 123.
-
-
-LaTeX Warning: Citation `staco' on page 43 undefined on input line 126.
-
-
-LaTeX Warning: Citation `muoneffres' on page 43 undefined on input line 134.
-
-
-LaTeX Warning: Citation `fastjet' on page 43 undefined on input line 145.
-
-
-LaTeX Warning: Citation `AtlasCSCBook' on page 43 undefined on input line 148.
-
-[43]
-
-LaTeX Warning: Citation `TopoClusterAlgo' on page 44 undefined on input line 15
-2.
-
-
-LaTeX Warning: Citation `antikt' on page 44 undefined on input line 157.
-
-[44]
-
-LaTeX Warning: Citation `EMcalibration' on page 45 undefined on input line 182.
-
-
-
-LaTeX Warning: Citation `jesinsitu' on page 45 undefined on input line 184.
-
-
-LaTeX Warning: Citation `jespileup' on page 45 undefined on input line 188.
-
-
-LaTeX Warning: Citation `jesarea' on page 45 undefined on input line 188.
-
-
-LaTeX Warning: Citation `jer' on page 45 undefined on input line 188.
-
-
-LaTeX Warning: Citation `jesinsitu' on page 45 undefined on input line 192.
-
-
-LaTeX Warning: Citation `JES' on page 45 undefined on input line 192.
-
-<figure/obj/btag_perf.pdf, id=689, 552.0625pt x 521.95pt>
+ [43] [44]
+[45] [46] <figure/obj/btag_perf.pdf, id=1320, 552.0625pt x 521.95pt>
 File: figure/obj/btag_perf.pdf Graphic file (type pdf)
 
-<use figure/obj/btag_perf.pdf>
+<use figure/obj/btag_perf.pdf> [47] [48 <./figure/obj/btag_perf.pdf>] [49]
+Underfull \vbox (badness 1533) has occurred while \output is active []
 
-LaTeX Warning: Citation `btagPerf' on page 45 undefined on input line 209.
-
-
-LaTeX Warning: Citation `AtlasCSCBook' on page 45 undefined on input line 214.
-
-
-LaTeX Warning: Citation `jetfitter' on page 45 undefined on input line 225.
-
-
-LaTeX Warning: Citation `TMVA' on page 45 undefined on input line 229.
-
-[45] [46 <./figure/obj/btag_perf.pdf>]
-
-LaTeX Warning: Citation `btagPerf' on page 47 undefined on input line 233.
-
-
-LaTeX Warning: Reference `fig:beff' on page 47 undefined on input line 234.
-
-
-LaTeX Warning: Citation `BtaggingScaleFactors' on page 47 undefined on input li
-ne 238.
-
-
-LaTeX Warning: Citation `BtaggingScaleFactorsNew' on page 47 undefined on input
- line 238.
-
-
-LaTeX Warning: Citation `AtlasCSCBook' on page 47 undefined on input line 244.
-
-
-LaTeX Warning: Citation `ATLASTAUIDnew' on page 47 undefined on input line 249.
-
-
-
-LaTeX Warning: Citation `ETMISS' on page 47 undefined on input line 260.
-
-[47]
-
-LaTeX Warning: Citation `ETMISS2' on page 48 undefined on input line 271.
-
-
-LaTeX Warning: Citation `trigger' on page 48 undefined on input line 284.
-
-[48]
-
-LaTeX Warning: Citation `triggermu' on page 49 undefined on input line 292.
-
-
-LaTeX Warning: Citation `triggere' on page 49 undefined on input line 292.
-
-
-LaTeX Warning: Citation `triggermu' on page 49 undefined on input line 295.
-
-
-LaTeX Warning: Citation `triggere' on page 49 undefined on input line 295.
-
-
-LaTeX Warning: Citation `hepmc' on page 49 undefined on input line 300.
-
-) (./a_strategy.tex [49]
+ [50])
+(./a_strategy.tex [51]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1547,319 +991,116 @@ LaTeX Warning: Citation `hepmc' on page 49 undefined on input line 300.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [50
+ [52
 
 
 
 ]
 Chapter 5.
-
-LaTeX Warning: Citation `AHiggsO' on page 51 undefined on input line 18.
-
-
-LaTeX Warning: Citation `CHiggsO' on page 51 undefined on input line 18.
-
-
-LaTeX Warning: Citation `ASpin0' on page 51 undefined on input line 21.
-
-
-LaTeX Warning: Citation `ACouplings' on page 51 undefined on input line 21.
-
-
-LaTeX Warning: Citation `CFermions' on page 51 undefined on input line 21.
-
-
-LaTeX Warning: Citation `CWidth' on page 51 undefined on input line 21.
-
-
-LaTeX Warning: Citation `yuppy' on page 51 undefined on input line 29.
-
-
-LaTeX Warning: Reference `sec:intro' on page 51 undefined on input line 34.
-
-
-LaTeX Warning: Reference `sec:selection' on page 51 undefined on input line 35.
-
-
-
-LaTeX Warning: Reference `sec:BackgroundEstimation' on page 51 undefined on inp
-ut line 36.
-
-
-LaTeX Warning: Reference `sec:Systematics' on page 51 undefined on input line 3
-7.
-
-
-LaTeX Warning: Reference `sec:result' on page 51 undefined on input line 38.
-
-[51] <figure/mh_mod.png, id=738, 630.10406pt x 535.2497pt>
+[53] <figure/mh_mod.png, id=1406, 630.10406pt x 535.2497pt>
 File: figure/mh_mod.png Graphic file (type png)
 
-<use figure/mh_mod.png>
-
-LaTeX Warning: Citation `LHCxsec' on page 52 undefined on input line 85.
+<use figure/mh_mod.png> [54
 
 
-LaTeX Warning: Citation `MSSM1' on page 52 undefined on input line 91.
-
-
-LaTeX Warning: Citation `MSSM2' on page 52 undefined on input line 91.
-
-
-LaTeX Warning: Reference `chap:theory' on page 52 undefined on input line 99.
-
-[52
-
-
- <./figure/mh_mod.png (PNG copy)>]
-
-LaTeX Warning: Citation `LEPLimits' on page 53 undefined on input line 125.
-
-
-LaTeX Warning: Citation `TevatronLimits1' on page 53 undefined on input line 12
-6.
-
-
-LaTeX Warning: Citation `CMSLimit' on page 53 undefined on input line 126.
-
-
-LaTeX Warning: Citation `ATLASLimit' on page 53 undefined on input line 126.
-
-
-LaTeX Warning: Reference `fig:mhmod' on page 53 undefined on input line 142.
-
-
-LaTeX Warning: Reference `sec:benchmark' on page 53 undefined on input line 143
-.
-
-[53]
+ <./figure/mh_mod.png (PNG copy)>] [55]
 File: feyn_diagrams/diagrams/bbA.pdf Graphic file (type pdf)
- <use feyn_diagrams/diagrams/bbA.pdf>
+
+<use feyn_diagrams/diagrams/bbA.pdf>
 File: feyn_diagrams/diagrams/bbA2.pdf Graphic file (type pdf)
-
-<use feyn_diagrams/diagrams/bbA2.pdf>
+ <use feyn_diagrams/diagrams/bbA2.pdf>
 File: feyn_diagrams/diagrams/bbA3.pdf Graphic file (type pdf)
- <use feyn_diagrams/diagrams/bbA3.pdf>
+
+<use feyn_diagrams/diagrams/bbA3.pdf>
 File: feyn_diagrams/diagrams/ggH.pdf Graphic file (type pdf)
-
-<use feyn_diagrams/diagrams/ggH.pdf>
-
-LaTeX Warning: Reference `fig:feyndiagSignal' on page 54 undefined on input lin
-e 176.
-
-
-LaTeX Warning: Reference `fig:feyndiagBack' on page 54 undefined on input line 
-190.
-
-
-LaTeX Warning: Reference `tab:MCxsec' on page 54 undefined on input line 192.
-
-[54] <feyn_diagrams/diagrams/Ztautau.pdf, id=760, 182.6825pt x 94.3525pt>
+ <use feyn_diagrams/diagrams/ggH.pdf>
+[56] <feyn_diagrams/diagrams/Ztautau.pdf, id=1441, 182.6825pt x 94.3525pt>
 File: feyn_diagrams/diagrams/Ztautau.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/Ztautau.pdf>
-<feyn_diagrams/diagrams/Z_plus_jet.pdf, id=761, 184.69pt x 102.3825pt>
+<feyn_diagrams/diagrams/Z_plus_jet.pdf, id=1442, 184.69pt x 102.3825pt>
 File: feyn_diagrams/diagrams/Z_plus_jet.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/Z_plus_jet.pdf>
-<feyn_diagrams/diagrams/top.pdf, id=762, 184.69pt x 129.48375pt>
+<feyn_diagrams/diagrams/top.pdf, id=1443, 184.69pt x 129.48375pt>
 File: feyn_diagrams/diagrams/top.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/top.pdf>
-<feyn_diagrams/diagrams/singletop.pdf, id=763, 184.69pt x 129.48375pt>
+<feyn_diagrams/diagrams/singletop.pdf, id=1444, 184.69pt x 129.48375pt>
 File: feyn_diagrams/diagrams/singletop.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/singletop.pdf>
-<feyn_diagrams/diagrams/diboson.pdf, id=764, 183.68625pt x 98.3675pt>
+<feyn_diagrams/diagrams/diboson.pdf, id=1445, 183.68625pt x 98.3675pt>
 File: feyn_diagrams/diagrams/diboson.pdf Graphic file (type pdf)
 
 <use feyn_diagrams/diagrams/diboson.pdf>
-<feyn_diagrams/diagrams/diboson2.pdf, id=765, 183.68625pt x 129.48375pt>
+<feyn_diagrams/diagrams/diboson2.pdf, id=1446, 183.68625pt x 129.48375pt>
 File: feyn_diagrams/diagrams/diboson2.pdf Graphic file (type pdf)
 
-<use feyn_diagrams/diagrams/diboson2.pdf> [55] [56 <./feyn_diagrams/diagrams/Zt
+<use feyn_diagrams/diagrams/diboson2.pdf> [57] [58 <./feyn_diagrams/diagrams/Zt
 autau.pdf> <./feyn_diagrams/diagrams/Z_plus_jet.pdf> <./feyn_diagrams/diagrams/
 top.pdf> <./feyn_diagrams/diagrams/singletop.pdf> <./feyn_diagrams/diagrams/dib
-oson.pdf> <./feyn_diagrams/diagrams/diboson2.pdf>] [57]
-
-LaTeX Warning: Citation `ATLASCLEANING' on page 58 undefined on input line 332.
-
-
-
-LaTeX Warning: Citation `POWHEG' on page 58 undefined on input line 344.
-
-
-LaTeX Warning: Citation `SHERPA' on page 58 undefined on input line 345.
-
-
-LaTeX Warning: Citation `Alpgen' on page 58 undefined on input line 355.
-
-
-LaTeX Warning: Citation `MCatNLO' on page 58 undefined on input line 362.
-
-
-LaTeX Warning: Citation `AcerMC' on page 58 undefined on input line 363.
-
-
-LaTeX Warning: Citation `Herwig' on page 58 undefined on input line 364.
-
-
-LaTeX Warning: Citation `JIMMY' on page 58 undefined on input line 367.
-
-
-LaTeX Warning: Citation `CTEQ6' on page 58 undefined on input line 370.
-
-
-LaTeX Warning: Citation `CT10' on page 58 undefined on input line 371.
-
-[58]
-
-LaTeX Warning: Citation `TAUOLA' on page 59 undefined on input line 373.
-
-
-LaTeX Warning: Citation `PHOTOS' on page 59 undefined on input line 373.
-
-
-LaTeX Warning: Citation `Geant4' on page 59 undefined on input line 377.
-
-
-LaTeX Warning: Citation `ATLASSIM' on page 59 undefined on input line 377.
-
-
-LaTeX Warning: Reference `chap:obj' on page 59 undefined on input line 378.
-
-[59]
-
-LaTeX Warning: Reference `chap:obj' on page 60 undefined on input line 425.
-
-
-LaTeX Warning: Reference `dphi' on page 60 undefined on input line 444.
-
-[60]
-
-LaTeX Warning: Reference `sumcosphi' on page 61 undefined on input line 453.
-
-
-LaTeX Warning: Reference `tab:sel' on page 61 undefined on input line 459.
-
-
-LaTeX Warning: Reference `tab:eventsel:bveto' on page 61 undefined on input lin
-e 459.
-
-
-<figure/final_plots/presel_total_final.pdf, id=885, page=16, 569.12625pt x 656.
-4525pt>
+oson.pdf> <./feyn_diagrams/diagrams/diboson2.pdf>] [59] [60] [61] [62]
+<figure/final_plots/presel_total_final.pdf, id=1596, page=16, 569.12625pt x 656
+.4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 16>
-<figure/final_plots/presel_total_final.pdf, id=886, page=20, 569.12625pt x 656.
-4525pt>
+<figure/final_plots/presel_total_final.pdf, id=1597, page=20, 569.12625pt x 656
+.4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 20>
-<figure/final_plots/presel_total_final.pdf, id=887, page=19, 569.12625pt x 656.
-4525pt>
+<figure/final_plots/presel_total_final.pdf, id=1598, page=19, 569.12625pt x 656
+.4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 19>
-<figure/final_plots/presel_total_final.pdf, id=888, page=12, 569.12625pt x 656.
-4525pt>
+<figure/final_plots/presel_total_final.pdf, id=1599, page=12, 569.12625pt x 656
+.4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 12>
 
-LaTeX Warning: Reference `sec:BackgroundEstimation' on page 61 undefined on inp
-ut line 535.
-
-
 LaTeX Warning: Float too large for page by 35.20203pt on input line 537.
 
-[61] [62 <./figure/final_plots/presel_total_final.pdf> <./figure/final_plots/pr
+[63] [64 <./figure/final_plots/presel_total_final.pdf> <./figure/final_plots/pr
 esel_total_final.pdf> <./figure/final_plots/presel_total_final.pdf> <./figure/f
 inal_plots/presel_total_final.pdf>]
 Overfull \hbox (8.7751pt too wide) in paragraph at lines 579--600
  [][] 
  []
 
-
-LaTeX Warning: Reference `Ht' on page 63 undefined on input line 605.
-
-
-LaTeX Warning: Reference `sumlepPt' on page 63 undefined on input line 611.
-
-[63]
-
-LaTeX Warning: Reference `tab:sel' on page 64 undefined on input line 613.
-
-
-LaTeX Warning: Reference `tab:eventsel:btag' on page 64 undefined on input line
- 614.
-
-
-LaTeX Warning: Citation `MMC' on page 64 undefined on input line 658.
-
-
-LaTeX Warning: Reference `eq:MMC' on page 64 undefined on input line 659.
-
-[64]
-<figure/final_plots/presel_total_final.pdf, id=1087, page=1, 569.12625pt x 656.
+[65] [66]
+<figure/final_plots/presel_total_final.pdf, id=1802, page=1, 569.12625pt x 656.
 4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 1>
-<figure/final_plots/presel_total_final.pdf, id=1088, page=17, 569.12625pt x 656
+<figure/final_plots/presel_total_final.pdf, id=1803, page=17, 569.12625pt x 656
 .4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 17>
-<figure/final_plots/presel_total_final.pdf, id=1089, page=2, 569.12625pt x 656.
+<figure/final_plots/presel_total_final.pdf, id=1804, page=2, 569.12625pt x 656.
 4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 2>
 
-LaTeX Warning: Reference `fig:selections' on page 65 undefined on input line 69
-4.
-
-
 LaTeX Warning: Float too large for page by 6.66383pt on input line 696.
 
-
-LaTeX Warning: Reference `fig:mass' on page 65 undefined on input line 712.
-
 ) (./a_bkg_modeling.tex
-
-LaTeX Warning: Reference `sec:qcd' on page 65 undefined on input line 10.
-
-
-LaTeX Warning: Reference `sec:ztau' on page 65 undefined on input line 10.
-
-
-LaTeX Warning: Reference `sec:top_est' on page 65 undefined on input line 19.
-
-
-LaTeX Warning: Reference `fig:selections' on page 65 undefined on input line 22
-.
-
-
-LaTeX Warning: Reference `fig:validation' on page 65 undefined on input line 22
-.
-
-
-<figure/final_plots/presel_total_final.pdf, id=1090, page=9, 569.12625pt x 656.
+<figure/final_plots/presel_total_final.pdf, id=1812, page=9, 569.12625pt x 656.
 4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 9>
-<figure/final_plots/presel_total_final.pdf, id=1091, page=10, 569.12625pt x 656
+<figure/final_plots/presel_total_final.pdf, id=1813, page=10, 569.12625pt x 656
 .4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 10>
-<figure/final_plots/presel_total_final.pdf, id=1092, page=8, 569.12625pt x 656.
+<figure/final_plots/presel_total_final.pdf, id=1814, page=8, 569.12625pt x 656.
 4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 8>
-<figure/final_plots/presel_total_final.pdf, id=1093, page=7, 569.12625pt x 656.
+<figure/final_plots/presel_total_final.pdf, id=1815, page=7, 569.12625pt x 656.
 4525pt>
 File: figure/final_plots/presel_total_final.pdf Graphic file (type pdf)
  <use figure/final_plots/presel_total_final.pdf, page 7>
 
-LaTeX Warning: Reference `fig:selections' on page 65 undefined on input line 40
-.
-
-
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 46.
 
@@ -1867,91 +1108,56 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 46.
 
-
-LaTeX Warning: Reference `fig:kinematicsttbar' on page 65 undefined on input li
-ne 57.
-
-
-LaTeX Warning: Reference `fig:cutsttbar' on page 65 undefined on input line 57.
-
-
-[65] [66 <./figure/final_plots/presel_total_final.pdf> <./figure/final_plots/pr
-esel_total_final.pdf> <./figure/final_plots/presel_total_final.pdf>] [67 <./fig
+[67] [68 <./figure/final_plots/presel_total_final.pdf> <./figure/final_plots/pr
+esel_total_final.pdf> <./figure/final_plots/presel_total_final.pdf>] [69 <./fig
 ure/final_plots/presel_total_final.pdf> <./figure/final_plots/presel_total_fina
 l.pdf> <./figure/final_plots/presel_total_final.pdf> <./figure/final_plots/pres
 el_total_final.pdf>]
-<figure/final_plots/twobtag.pdf, id=1198, page=1, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1922, page=1, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 1>
-<figure/final_plots/twobtag.pdf, id=1199, page=7, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1923, page=7, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 7>
-<figure/final_plots/twobtag.pdf, id=1200, page=6, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1924, page=6, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 6>
 
 pdfTeX warning: pdflatex (file ./figure/final_plots/etmiss_twobtag.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/final_plots/etmiss_twobtag.pdf, id=1201, 569.12625pt x 656.4525pt>
+<figure/final_plots/etmiss_twobtag.pdf, id=1925, 569.12625pt x 656.4525pt>
 File: figure/final_plots/etmiss_twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/etmiss_twobtag.pdf>
 
-LaTeX Warning: Reference `fig:selections' on page 68 undefined on input line 97
-.
-
-
 LaTeX Warning: Float too large for page by 6.66383pt on input line 99.
 
-<figure/final_plots/twobtag.pdf, id=1203, page=2, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1928, page=2, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 2>
-<figure/final_plots/twobtag.pdf, id=1204, page=3, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1929, page=3, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 3>
-<figure/final_plots/twobtag.pdf, id=1205, page=4, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1930, page=4, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 4>
-<figure/final_plots/twobtag.pdf, id=1206, page=5, 569.12625pt x 656.4525pt>
+<figure/final_plots/twobtag.pdf, id=1931, page=5, 569.12625pt x 656.4525pt>
 File: figure/final_plots/twobtag.pdf Graphic file (type pdf)
 
 <use figure/final_plots/twobtag.pdf, page 5>
 
-LaTeX Warning: Reference `fig:selections' on page 68 undefined on input line 12
-9.
-
-
 LaTeX Warning: Float too large for page by 6.66383pt on input line 132.
 
-
-LaTeX Warning: Reference `sec:selection' on page 68 undefined on input line 146
-.
-
-
-LaTeX Warning: Reference `sec:presel' on page 68 undefined on input line 150.
-
-
-LaTeX Warning: Reference `table:qcd' on page 68 undefined on input line 153.
-
-[68] [69 <./figure/final_plots/twobtag.pdf> <./figure/final_plots/twobtag.pdf> 
+[70] [71 <./figure/final_plots/twobtag.pdf> <./figure/final_plots/twobtag.pdf> 
 <./figure/final_plots/twobtag.pdf> <./figure/final_plots/etmiss_twobtag.pdf>]
-[70 <./figure/final_plots/twobtag.pdf> <./figure/final_plots/twobtag.pdf> <./fi
+[72 <./figure/final_plots/twobtag.pdf> <./figure/final_plots/twobtag.pdf> <./fi
 gure/final_plots/twobtag.pdf> <./figure/final_plots/twobtag.pdf>]
-
-LaTeX Warning: Reference `table:qcd_yield_bveto' on page 71 undefined on input 
-line 187.
-
-
-LaTeX Warning: Reference `table:qcd_yield_btag' on page 71 undefined on input l
-ine 187.
-
-
 Overfull \hbox (0.95296pt too wide) in paragraph at lines 200--227
  [][] 
  []
@@ -1965,37 +1171,20 @@ Overfull \hbox (0.95296pt too wide) in paragraph at lines 233--265
 
 pdfTeX warning: pdflatex (file ./figure/ABCD_regionB_Vs_regionD2.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/ABCD_regionB_Vs_regionD2.pdf, id=1687, 569.12625pt x 387.4475pt>
+<figure/ABCD_regionB_Vs_regionD2.pdf, id=2417, 569.12625pt x 387.4475pt>
 File: figure/ABCD_regionB_Vs_regionD2.pdf Graphic file (type pdf)
 
 <use figure/ABCD_regionB_Vs_regionD2.pdf>
-<figure/QCD/qcd_CR_emb_mmc_mass.pdf, id=1689, 569.12625pt x 656.4525pt>
+<figure/QCD/qcd_CR_emb_mmc_mass.pdf, id=2419, 569.12625pt x 656.4525pt>
 File: figure/QCD/qcd_CR_emb_mmc_mass.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_CR_emb_mmc_mass.pdf>
-<figure/QCD/qcd_CR_emb_Btag_mmc_mass.pdf, id=1690, 569.12625pt x 656.4525pt>
+<figure/QCD/qcd_CR_emb_Btag_mmc_mass.pdf, id=2420, 569.12625pt x 656.4525pt>
 File: figure/QCD/qcd_CR_emb_Btag_mmc_mass.pdf Graphic file (type pdf)
 
-<use figure/QCD/qcd_CR_emb_Btag_mmc_mass.pdf>
-
-LaTeX Warning: Reference `sec:qcd' on page 71 undefined on input line 289.
-
-
-LaTeX Warning: Reference `fig:BvsD' on page 71 undefined on input line 303.
-
-
-LaTeX Warning: Reference `appendix:qcd' on page 71 undefined on input line 307.
-
-
-[71] [72] [73 <./figure/ABCD_regionB_Vs_regionD2.pdf> <./figure/QCD/qcd_CR_emb_
-mmc_mass.pdf> <./figure/QCD/qcd_CR_emb_Btag_mmc_mass.pdf>]
-
-LaTeX Warning: Reference `fig:ABCD_cr' on page 74 undefined on input line 323.
-
-
-LaTeX Warning: Reference `sec:Systematics' on page 74 undefined on input line 3
-55.
-
+<use figure/QCD/qcd_CR_emb_Btag_mmc_mass.pdf> [73] [74] [75 <./figure/ABCD_regi
+onB_Vs_regionD2.pdf> <./figure/QCD/qcd_CR_emb_mmc_mass.pdf> <./figure/QCD/qcd_C
+R_emb_Btag_mmc_mass.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 361.
@@ -2016,38 +1205,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 361.
 
-
-LaTeX Warning: Citation `Embedding' on page 74 undefined on input line 372.
-
-
-LaTeX Warning: Citation `SMold' on page 74 undefined on input line 372.
-
-
-LaTeX Warning: Citation `SMnew' on page 74 undefined on input line 392.
-
-[74] <figure/emb_plots.pdf, id=1869, page=1, 569.12625pt x 656.4525pt>
+[76] <figure/emb_plots.pdf, id=2607, page=1, 569.12625pt x 656.4525pt>
 File: figure/emb_plots.pdf Graphic file (type pdf)
 
 <use figure/emb_plots.pdf, page 1>
-
-LaTeX Warning: Citation `Embedding' on page 75 undefined on input line 409.
-
-
-LaTeX Warning: Citation `SMnew' on page 75 undefined on input line 409.
-
-
-LaTeX Warning: Reference `fig:emb_vs_alp1' on page 75 undefined on input line 4
-10.
-
-
-LaTeX Warning: Reference `fig:emb_vs_alp' on page 75 undefined on input line 41
-3.
-
-<figure/emb_plots.pdf, id=1870, page=2, 569.12625pt x 656.4525pt>
+<figure/emb_plots.pdf, id=2612, page=2, 569.12625pt x 656.4525pt>
 File: figure/emb_plots.pdf Graphic file (type pdf)
 
 <use figure/emb_plots.pdf, page 2>
-<figure/emb_plots.pdf, id=1871, page=3, 569.12625pt x 656.4525pt>
+<figure/emb_plots.pdf, id=2613, page=3, 569.12625pt x 656.4525pt>
 File: figure/emb_plots.pdf Graphic file (type pdf)
 
 <use figure/emb_plots.pdf, page 3>
@@ -2070,108 +1236,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 453--466
 
  []
 
-
-LaTeX Warning: Reference `sec:top_est' on page 75 undefined on input line 478.
-
-
-LaTeX Warning: Reference `table:emb_cont_tt' on page 75 undefined on input line
- 480.
-
-[75 <./figure/emb_plots.pdf>] [76 <./figure/emb_plots.pdf> <./figure/emb_plots.
-pdf>]
-
-LaTeX Warning: Reference `table:emb_cont_qcd' on page 77 undefined on input lin
-e 492.
-
-) (./a_sys.tex
-
-LaTeX Warning: Reference `chap:obj' on page 77 undefined on input line 6.
-
-
-LaTeX Warning: Reference `sec:sys:sys_det' on page 77 undefined on input line 7
-.
-
-
-LaTeX Warning: Reference `sec:sys_theory' on page 77 undefined on input line 10
-.
-
-
-LaTeX Warning: Reference `sec:embsys' on page 77 undefined on input line 12.
-
-
-LaTeX Warning: Reference `sec:qcdsys' on page 77 undefined on input line 12.
-
-
+[77 <./figure/emb_plots.pdf>] [78 <./figure/emb_plots.pdf> <./figure/emb_plots.
+pdf>]) (./a_sys.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
-
-LaTeX Warning: Reference `appendix:shapeNPs' on page 78 undefined on input line
- 18.
-
-
-LaTeX Warning: Reference `sec:result' on page 78 undefined on input line 32.
-
-
-LaTeX Warning: Reference `tab:ExpSys:bveto' on page 78 undefined on input line 
-36.
-
-
-LaTeX Warning: Reference `tab:ExpSys:btag' on page 78 undefined on input line 3
-6.
-
-
-LaTeX Warning: Citation `luminosity' on page 78 undefined on input line 42.
-
-[78]
-
-LaTeX Warning: Citation `eleEnergy' on page 79 undefined on input line 67.
-
-[79]
-
-LaTeX Warning: Citation `JES' on page 80 undefined on input line 85.
-
-
-LaTeX Warning: Reference `tab:ExpSys:bveto' on page 80 undefined on input line 
-88.
-
-
-LaTeX Warning: Reference `tab:ExpSys:btag' on page 80 undefined on input line 8
-8.
-
-
-LaTeX Warning: Citation `BtaggingScaleFactors' on page 80 undefined on input li
-ne 106.
-
-
-LaTeX Warning: Citation `BtaggingScaleFactorsNew' on page 80 undefined on input
- line 106.
-
-
-LaTeX Warning: Citation `ETMISS' on page 80 undefined on input line 115.
-
-[80] [81] [82]
-
-LaTeX Warning: Reference `table:sys_xsec' on page 83 undefined on input line 24
-0.
-
-
-LaTeX Warning: Citation `ATLASLimit' on page 83 undefined on input line 257.
-
-
-LaTeX Warning: Citation `ttbaremu' on page 83 undefined on input line 262.
-
-
-LaTeX Warning: Citation `ATLASLimit' on page 83 undefined on input line 270.
-
-[83]
-
-LaTeX Warning: Citation `RIVET' on page 84 undefined on input line 278.
-
-
-LaTeX Warning: Citation `BtaggingScaleFactors' on page 84 undefined on input li
-ne 280.
-
+ [79]
+[80] [81] [82] [83] [84] [85]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 373.
@@ -2200,83 +1270,32 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 373.
 
-<figure/systematics/emb_sys_veto_MFS.pdf, id=1972, 569.12625pt x 656.4525pt>
+<figure/systematics/emb_sys_veto_MFS.pdf, id=2739, 569.12625pt x 656.4525pt>
 File: figure/systematics/emb_sys_veto_MFS.pdf Graphic file (type pdf)
 
 <use figure/systematics/emb_sys_veto_MFS.pdf>
-<figure/systematics/emb_sys_veto_iso.pdf, id=1973, 569.12625pt x 656.4525pt>
+<figure/systematics/emb_sys_veto_iso.pdf, id=2740, 569.12625pt x 656.4525pt>
 File: figure/systematics/emb_sys_veto_iso.pdf Graphic file (type pdf)
 
-<use figure/systematics/emb_sys_veto_iso.pdf>
-
-LaTeX Warning: Reference `fig:EMBMFS' on page 84 undefined on input line 389.
-
-
-LaTeX Warning: Reference `fig:EMBMFS' on page 84 undefined on input line 419.
-
-[84]
-
-LaTeX Warning: Reference `sec:qcd' on page 85 undefined on input line 463.
-
-
-LaTeX Warning: Reference `fig:os_ss_ratio' on page 85 undefined on input line 4
-73.
-
-
-LaTeX Warning: Reference `fig:os_ss_ratio' on page 85 undefined on input line 4
-86.
-
-
-LaTeX Warning: Reference `fig:os_ss_ratio' on page 85 undefined on input line 4
-90.
-
-
-LaTeX Warning: Reference `appendix:qcd_additional' on page 85 undefined on inpu
-t line 491.
-
-[85 <./figure/systematics/emb_sys_veto_MFS.pdf> <./figure/systematics/emb_sys_v
-eto_iso.pdf>]
+<use figure/systematics/emb_sys_veto_iso.pdf> [86] [87 <./figure/systematics/em
+b_sys_veto_MFS.pdf> <./figure/systematics/emb_sys_veto_iso.pdf>]
 
 pdfTeX warning: pdflatex (file ./figure/systematics/QCD_presel_SYS.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/systematics/QCD_presel_SYS.pdf, id=2072, 569.12625pt x 517.935pt>
+<figure/systematics/QCD_presel_SYS.pdf, id=2846, 569.12625pt x 517.935pt>
 File: figure/systematics/QCD_presel_SYS.pdf Graphic file (type pdf)
 
 <use figure/systematics/QCD_presel_SYS.pdf>
-<figure/systematics/qcd_shape_tag.pdf, id=2074, 569.12625pt x 656.4525pt>
+<figure/systematics/qcd_shape_tag.pdf, id=2848, 569.12625pt x 656.4525pt>
 File: figure/systematics/qcd_shape_tag.pdf Graphic file (type pdf)
 
 <use figure/systematics/qcd_shape_tag.pdf>
-<figure/systematics/qcd_shape_veto.pdf, id=2075, 569.12625pt x 656.4525pt>
+<figure/systematics/qcd_shape_veto.pdf, id=2849, 569.12625pt x 656.4525pt>
 File: figure/systematics/qcd_shape_veto.pdf Graphic file (type pdf)
 
-<use figure/systematics/qcd_shape_veto.pdf>
-
-LaTeX Warning: Reference `table:MCsub' on page 86 undefined on input line 532.
-
-[86] [87 <./figure/systematics/QCD_presel_SYS.pdf> <./figure/systematics/qcd_sh
-ape_tag.pdf> <./figure/systematics/qcd_shape_veto.pdf>]
-
-LaTeX Warning: Reference `fig:qcd_shape_unc' on page 88 undefined on input line
- 564.
-
-
-LaTeX Warning: Reference `appendix:qcd' on page 88 undefined on input line 572.
-
-
-) (./a_result.tex
-
-LaTeX Warning: Citation `lhclimits' on page 88 undefined on input line 8.
-
-
-LaTeX Warning: Citation `roofit' on page 88 undefined on input line 9.
-
-
-LaTeX Warning: Citation `roostat' on page 88 undefined on input line 9.
-
-
-LaTeX Warning: Citation `histfactory' on page 88 undefined on input line 9.
-
+<use figure/systematics/qcd_shape_veto.pdf> [88] [89 <./figure/systematics/QCD_
+presel_SYS.pdf> <./figure/systematics/qcd_shape_tag.pdf> <./figure/systematics/
+qcd_shape_veto.pdf>]) (./a_result.tex
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 21.
@@ -2285,96 +1304,27 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 21.
 
-
-LaTeX Warning: Reference `sec:Systematics' on page 88 undefined on input line 3
-6.
-
-
-LaTeX Warning: Reference `likelihood' on page 88 undefined on input line 52.
-
-[88]
-
-LaTeX Warning: Citation `ABCD' on page 89 undefined on input line 59.
-
-
-LaTeX Warning: Reference `appendix:limit' on page 89 undefined on input line 60
-.
-
-
-LaTeX Warning: Citation `lhclimits' on page 89 undefined on input line 66.
-
-[89]
-
-LaTeX Warning: Citation `Asympt' on page 90 undefined on input line 76.
-
-
-LaTeX Warning: Reference `likelihood' on page 90 undefined on input line 82.
-
-
-LaTeX Warning: Citation `Asympt' on page 90 undefined on input line 102.
-
-
-LaTeX Warning: Citation `cls1' on page 90 undefined on input line 117.
-
-
-LaTeX Warning: Citation `cls2' on page 90 undefined on input line 117.
-
-[90]
-
-LaTeX Warning: Citation `LEE' on page 91 undefined on input line 160.
-
-
-LaTeX Warning: Citation `lhclimits' on page 91 undefined on input line 162.
-
-
-LaTeX Warning: Citation `LEE' on page 91 undefined on input line 162.
-
-
-<figure/final_plots/BTag_fulll.pdf, id=2304, page=8, 569.12625pt x 656.4525pt>
+[90] [91] [92]
+<figure/final_plots/BTag_fulll.pdf, id=3102, page=8, 569.12625pt x 656.4525pt>
 File: figure/final_plots/BTag_fulll.pdf Graphic file (type pdf)
 
 <use figure/final_plots/BTag_fulll.pdf, page 8>
-<figure/final_plots/Bveto_final.pdf, id=2306, page=11, 569.12625pt x 656.4525pt
+<figure/final_plots/Bveto_final.pdf, id=3104, page=11, 569.12625pt x 656.4525pt
 >
 File: figure/final_plots/Bveto_final.pdf Graphic file (type pdf)
- <use figure/final_plots/Bveto_final.pdf, page 11> [91]
-
-LaTeX Warning: Reference `fig:mmc_categories' on page 92 undefined on input lin
-e 225.
-
-
-LaTeX Warning: Reference `table:final_numbers' on page 92 undefined on input li
-ne 225.
-
-
-LaTeX Warning: Reference `sec:BackgroundEstimation' on page 92 undefined on inp
-ut line 227.
-
-
-LaTeX Warning: Reference `fig:somefinaldistro1' on page 92 undefined on input l
-ine 230.
-
-
-LaTeX Warning: Reference `fig:somefinaldistro2' on page 92 undefined on input l
-ine 230.
-
-
-LaTeX Warning: Reference `appendix:result' on page 92 undefined on input line 2
-32.
-
-
-<figure/final_plots/BTag_fulll.pdf, id=2316, page=3, 569.12625pt x 656.4525pt>
+ <use figure/final_plots/Bveto_final.pdf, page 11> [93]
+<figure/final_plots/BTag_fulll.pdf, id=3120, page=3, 569.12625pt x 656.4525pt>
 File: figure/final_plots/BTag_fulll.pdf Graphic file (type pdf)
 
 <use figure/final_plots/BTag_fulll.pdf, page 3>
 File: figure/final_plots/BTag_fulll.pdf Graphic file (type pdf)
 
 <use figure/final_plots/BTag_fulll.pdf, page 8>
-<figure/final_plots/BTag_fulll.pdf, id=2318, page=6, 569.12625pt x 656.4525pt>
+<figure/final_plots/BTag_fulll.pdf, id=3122, page=6, 569.12625pt x 656.4525pt>
 File: figure/final_plots/BTag_fulll.pdf Graphic file (type pdf)
 
 <use figure/final_plots/BTag_fulll.pdf, page 6>
-<figure/final_plots/BTag_fulll.pdf, id=2320, page=4, 569.12625pt x 656.4525pt>
+<figure/final_plots/BTag_fulll.pdf, id=3124, page=4, 569.12625pt x 656.4525pt>
 File: figure/final_plots/BTag_fulll.pdf Graphic file (type pdf)
 
 <use figure/final_plots/BTag_fulll.pdf, page 4>
@@ -2382,149 +1332,84 @@ File: figure/final_plots/BTag_fulll.pdf Graphic file (type pdf)
 LaTeX Warning: Float too large for page by 38.56401pt on input line 255.
 
 
-<figure/final_plots/Bveto_final.pdf, id=2322, page=7, 569.12625pt x 656.4525pt>
+<figure/final_plots/Bveto_final.pdf, id=3126, page=7, 569.12625pt x 656.4525pt>
 File: figure/final_plots/Bveto_final.pdf Graphic file (type pdf)
 <use figure/final_plots/Bveto_final.pdf, page 7>
-<figure/final_plots/Bveto_final.pdf, id=2324, page=1, 569.12625pt x 656.4525pt>
+<figure/final_plots/Bveto_final.pdf, id=3128, page=1, 569.12625pt x 656.4525pt>
 File: figure/final_plots/Bveto_final.pdf Graphic file (type pdf)
 <use figure/final_plots/Bveto_final.pdf, page 1>
-<figure/final_plots/Bveto_final.pdf, id=2326, page=2, 569.12625pt x 656.4525pt>
+<figure/final_plots/Bveto_final.pdf, id=3130, page=2, 569.12625pt x 656.4525pt>
 File: figure/final_plots/Bveto_final.pdf Graphic file (type pdf)
 <use figure/final_plots/Bveto_final.pdf, page 2>
-<figure/final_plots/Bveto_final.pdf, id=2328, page=8, 569.12625pt x 656.4525pt>
+<figure/final_plots/Bveto_final.pdf, id=3132, page=8, 569.12625pt x 656.4525pt>
 File: figure/final_plots/Bveto_final.pdf Graphic file (type pdf)
 <use figure/final_plots/Bveto_final.pdf, page 8>
 
 LaTeX Warning: Float too large for page by 38.56401pt on input line 278.
 
-
-LaTeX Warning: Reference `sec:limits' on page 92 undefined on input line 284.
-
-[92 <./figure/final_plots/BTag_fulll.pdf> <./figure/final_plots/Bveto_final.pdf
->] [93 <./figure/final_plots/BTag_fulll.pdf> <./figure/final_plots/BTag_fulll.p
-df> <./figure/final_plots/BTag_fulll.pdf>] [94 <./figure/final_plots/Bveto_fina
+[94 <./figure/final_plots/BTag_fulll.pdf> <./figure/final_plots/Bveto_final.pdf
+>] [95 <./figure/final_plots/BTag_fulll.pdf> <./figure/final_plots/BTag_fulll.p
+df> <./figure/final_plots/BTag_fulll.pdf>] [96 <./figure/final_plots/Bveto_fina
 l.pdf> <./figure/final_plots/Bveto_final.pdf> <./figure/final_plots/Bveto_final
-.pdf> <./figure/final_plots/Bveto_final.pdf>] [95]
-<figure/limits/mhmod_comb.pdf, id=3330, 569.12625pt x 552.0625pt>
+.pdf> <./figure/final_plots/Bveto_final.pdf>] [97]
+<figure/limits/mhmod_comb.pdf, id=4134, 569.12625pt x 552.0625pt>
 File: figure/limits/mhmod_comb.pdf Graphic file (type pdf)
 
-<use figure/limits/mhmod_comb.pdf>
-
-LaTeX Warning: Reference `fig:limit_extract_combined' on page 96 undefined on i
-nput line 347.
-
-
-LaTeX Warning: Reference `fig:limit_extract_combined2' on page 96 undefined on 
-input line 347.
-
-
-LaTeX Warning: Reference `fig:mmc_categories' on page 96 undefined on input lin
-e 356.
-
-
-LaTeX Warning: Reference `fig:excess' on page 96 undefined on input line 358.
-
-
-LaTeX Warning: Reference `appendix:limit' on page 96 undefined on input line 36
-0.
-
-[96 <./figure/limits/mhmod_comb.pdf, page is rotated 90 degrees>]
-<figure/final_plots/Bveto_final.pdf, id=3379, page=5, 569.12625pt x 656.4525pt>
+<use figure/limits/mhmod_comb.pdf> [98 <./figure/limits/mhmod_comb.pdf, page is
+ rotated 90 degrees>]
+<figure/final_plots/Bveto_final.pdf, id=4189, page=5, 569.12625pt x 656.4525pt>
 File: figure/final_plots/Bveto_final.pdf Graphic file (type pdf)
 <use figure/final_plots/Bveto_final.pdf, page 5>
-<figure/final_plots/Bveto_final.pdf, id=3381, page=12, 569.12625pt x 656.4525pt
+<figure/final_plots/Bveto_final.pdf, id=4191, page=12, 569.12625pt x 656.4525pt
 >
 File: figure/final_plots/Bveto_final.pdf Graphic file (type pdf)
  <use figure/final_plots/Bveto_final.pdf, page 12>
-<figure/limits/mhmod_tag.pdf, id=3383, 569.12625pt x 552.0625pt>
+<figure/limits/mhmod_tag.pdf, id=4193, 569.12625pt x 552.0625pt>
 File: figure/limits/mhmod_tag.pdf Graphic file (type pdf)
 
 <use figure/limits/mhmod_tag.pdf>
-<figure/limits/mhmod_veto.pdf, id=3384, 569.12625pt x 552.0625pt>
+<figure/limits/mhmod_veto.pdf, id=4194, 569.12625pt x 552.0625pt>
 File: figure/limits/mhmod_veto.pdf Graphic file (type pdf)
 
 <use figure/limits/mhmod_veto.pdf>
 
-LaTeX Warning: Reference `fig:limit_xs' on page 97 undefined on input line 389.
-
-
-
-LaTeX Warning: Reference `appendix:result' on page 97 undefined on input line 3
-91.
-
-
-LaTeX Warning: Reference `appendix:limit' on page 97 undefined on input line 39
-2.
-
-
-
 pdfTeX warning: pdflatex (file ./figure/limits_tesi/limit_Xsec_bbA_comb.pdf): P
 DF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
-<figure/limits_tesi/limit_Xsec_bbA_comb.pdf, id=3385, 569.12625pt x 552.0625pt>
+<figure/limits_tesi/limit_Xsec_bbA_comb.pdf, id=4198, 569.12625pt x 552.0625pt>
 File: figure/limits_tesi/limit_Xsec_bbA_comb.pdf Graphic file (type pdf)
 <use figure/limits_tesi/limit_Xsec_bbA_comb.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/limits_tesi/limit_Xsec_ggA_comb.pdf): P
 DF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
-<figure/limits_tesi/limit_Xsec_ggA_comb.pdf, id=3387, 569.12625pt x 552.0625pt>
+<figure/limits_tesi/limit_Xsec_ggA_comb.pdf, id=4200, 569.12625pt x 552.0625pt>
 File: figure/limits_tesi/limit_Xsec_ggA_comb.pdf Graphic file (type pdf)
 <use figure/limits_tesi/limit_Xsec_ggA_comb.pdf>
-<figure/paper/limit_comb_2d_all.pdf, id=3389, 569.12625pt x 552.0625pt>
+<figure/paper/limit_comb_2d_all.pdf, id=4202, 569.12625pt x 552.0625pt>
 File: figure/paper/limit_comb_2d_all.pdf Graphic file (type pdf)
 
 <use figure/paper/limit_comb_2d_all.pdf>
 
-LaTeX Warning: Citation `yuppy' on page 97 undefined on input line 411.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:comp1' on page 97 undefined on input line 426.
-
-
-LaTeX Warning: Reference `fig:comball' on page 97 undefined on input line 427.
-
-
-LaTeX Warning: Reference `fig:mhmod_all' on page 97 undefined on input line 431
-.
-
-
-LaTeX Warning: Citation `CMSLimit' on page 97 undefined on input line 432.
-
-
-LaTeX Warning: Reference `fig:limitcomparisons' on page 97 undefined on input l
-ine 432.
-
-
-LaTeX Warning: Reference `appendix:result' on page 97 undefined on input line 4
-34.
-
-[97 <./figure/final_plots/Bveto_final.pdf> <./figure/final_plots/Bveto_final.pd
-f>] [98 <./figure/limits/mhmod_tag.pdf, page is rotated 90 degrees> <./figure/l
-imits/mhmod_veto.pdf, page is rotated 90 degrees>] [99 <./figure/limits_tesi/li
-mit_Xsec_bbA_comb.pdf> <./figure/limits_tesi/limit_Xsec_ggA_comb.pdf>] [100 <./
-figure/paper/limit_comb_2d_all.pdf>]
-<figure/paper/limit_comb_2d_mhmodp.pdf, id=4020, 569.12625pt x 552.0625pt>
+[99 <./figure/final_plots/Bveto_final.pdf> <./figure/final_plots/Bveto_final.pd
+f>] [100 <./figure/limits/mhmod_tag.pdf, page is rotated 90 degrees> <./figure/
+limits/mhmod_veto.pdf, page is rotated 90 degrees>] [101 <./figure/limits_tesi/
+limit_Xsec_bbA_comb.pdf> <./figure/limits_tesi/limit_Xsec_ggA_comb.pdf>]
+[102 <./figure/paper/limit_comb_2d_all.pdf>]
+<figure/paper/limit_comb_2d_mhmodp.pdf, id=4838, 569.12625pt x 552.0625pt>
 File: figure/paper/limit_comb_2d_mhmodp.pdf Graphic file (type pdf)
 
 <use figure/paper/limit_comb_2d_mhmodp.pdf>
-
-LaTeX Warning: Citation `yuppy' on page 101 undefined on input line 442.
-
-<figure/paper/limit_comb_xs_bbA.pdf, id=4021, 569.12625pt x 552.0625pt>
+<figure/paper/limit_comb_xs_bbA.pdf, id=4840, 569.12625pt x 552.0625pt>
 File: figure/paper/limit_comb_xs_bbA.pdf Graphic file (type pdf)
 
 <use figure/paper/limit_comb_xs_bbA.pdf>
-<figure/paper/limit_comb_xs_ggA.pdf, id=4022, 569.12625pt x 552.0625pt>
+<figure/paper/limit_comb_xs_ggA.pdf, id=4841, 569.12625pt x 552.0625pt>
 File: figure/paper/limit_comb_xs_ggA.pdf Graphic file (type pdf)
 
 <use figure/paper/limit_comb_xs_ggA.pdf>
-
-LaTeX Warning: Citation `yuppy' on page 101 undefined on input line 458.
-
 
 LaTeX Warning: Float too large for page by 35.03127pt on input line 460.
 
@@ -2533,16 +1418,10 @@ File: figure/paper/limit_comb_2d.pdf Graphic file (type pdf)
 File: figure/limits/CSM.pdf Graphic file (type pdf)
  <use figure/limits/CSM.pdf>
 
-LaTeX Warning: Citation `yuppy' on page 101 undefined on input line 475.
-
-
-LaTeX Warning: Citation `CMSLimit' on page 101 undefined on input line 475.
-
-
 LaTeX Warning: Float too large for page by 16.42558pt on input line 477.
 
-) (./trackjet.tex [101 <./figure/paper/limit_comb_2d_mhmodp.pdf>] [102 <./figur
-e/paper/limit_comb_xs_bbA.pdf> <./figure/paper/limit_comb_xs_ggA.pdf>] [103]
+) (./trackjet.tex [103 <./figure/paper/limit_comb_2d_mhmodp.pdf>] [104 <./figur
+e/paper/limit_comb_xs_bbA.pdf> <./figure/paper/limit_comb_xs_ggA.pdf>] [105]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -2576,158 +1455,76 @@ e/paper/limit_comb_xs_bbA.pdf> <./figure/paper/limit_comb_xs_ggA.pdf>] [103]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-[104
+[106
 
 
 
 ]
 Chapter 6.
-
-LaTeX Warning: Reference `sec:tj_intro' on page 105 undefined on input line 16.
-
-
-
-LaTeX Warning: Reference `sec:tj_perf' on page 105 undefined on input line 18.
-
-
-LaTeX Warning: Reference `sec:trackjetsys' on page 105 undefined on input line 
-20.
-
-
-LaTeX Warning: Reference `sec:trackjetsconclusion' on page 105 undefined on inp
-ut line 22.
-
-[105] <figure/trackjet/b_pt_distro2.pdf, id=4097, 569.12625pt x 410.53375pt>
+[107] <figure/trackjet/b_pt_distro2.pdf, id=4921, 569.12625pt x 410.53375pt>
 File: figure/trackjet/b_pt_distro2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/b_pt_distro2.pdf>
-<figure/trackjet/top_pt_distro.pdf, id=4098, 569.12625pt x 410.53375pt>
+<figure/trackjet/top_pt_distro.pdf, id=4922, 569.12625pt x 410.53375pt>
 File: figure/trackjet/top_pt_distro.pdf Graphic file (type pdf)
 
-<use figure/trackjet/top_pt_distro.pdf>
-
-LaTeX Warning: Reference `chap:anal' on page 106 undefined on input line 44.
-
-
-LaTeX Warning: Reference `fig:bjetDistro' on page 106 undefined on input line 4
-6.
-
-
-LaTeX Warning: Reference `chap:obj' on page 106 undefined on input line 50.
-
-
-LaTeX Warning: Citation `BtaggingScaleFactors' on page 106 undefined on input l
-ine 56.
-
-
-LaTeX Warning: Citation `BtaggingScaleFactorsNew' on page 106 undefined on inpu
-t line 56.
-
-[106
+<use figure/trackjet/top_pt_distro.pdf> [108
 
 
  <./figure/trackjet/b_pt_distro2.pdf, page is rotated 90 degrees> <./figure/tra
-ckjet/top_pt_distro.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `tab:tackjetSample' on page 107 undefined on input lin
-e 98.
-
-[107]
-
-LaTeX Warning: Reference `sec:tj_perf' on page 108 undefined on input line 121.
-
-
-
-LaTeX Warning: Reference `fig:residuals' on page 108 undefined on input line 14
-4.
-
-
-LaTeX Warning: Reference `chap:obj' on page 108 undefined on input line 146.
-
-[108] <figure/trackjet/residuals2.pdf, id=4203, 569.12625pt x 387.4475pt>
+ckjet/top_pt_distro.pdf, page is rotated 90 degrees>] [109] [110]
+<figure/trackjet/residuals2.pdf, id=5035, 569.12625pt x 387.4475pt>
 File: figure/trackjet/residuals2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/residuals2.pdf>
-
-LaTeX Warning: Reference `fig:recoEff' on page 109 undefined on input line 168.
-
-
-<figure/trackjet/rec_eff2.pdf, id=4204, 569.12625pt x 385.44pt>
+<figure/trackjet/rec_eff2.pdf, id=5037, 569.12625pt x 385.44pt>
 File: figure/trackjet/rec_eff2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/rec_eff2.pdf>
+Underfull \vbox (badness 4927) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig:eff_rej' on page 109 undefined on input line 187.
-
-
-
-LaTeX Warning: Reference `fig:rej_pt' on page 109 undefined on input line 188.
-
-[109 <./figure/trackjet/residuals2.pdf, page is rotated 90 degrees>]
+ [111 <./figure/trackjet/residuals2.pdf, page is rotated 90 degrees>]
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/std_eff_rej2.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/std_eff_rej2.pdf, id=4255, 569.12625pt x 385.44pt>
+<figure/trackjet/std_eff_rej2.pdf, id=5089, 569.12625pt x 385.44pt>
 File: figure/trackjet/std_eff_rej2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/std_eff_rej2.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/std_cal_eff_rej2.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/std_cal_eff_rej2.pdf, id=4257, 569.12625pt x 385.44pt>
+<figure/trackjet/std_cal_eff_rej2.pdf, id=5091, 569.12625pt x 385.44pt>
 File: figure/trackjet/std_cal_eff_rej2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/std_cal_eff_rej2.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/std_rej_pt2.pdf): PDF inclusio
 n: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/std_rej_pt2.pdf, id=4259, 569.12625pt x 385.44pt>
+<figure/trackjet/std_rej_pt2.pdf, id=5093, 569.12625pt x 385.44pt>
 File: figure/trackjet/std_rej_pt2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/std_rej_pt2.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/std_cal_rej_pt2.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/std_cal_rej_pt2.pdf, id=4261, 569.12625pt x 385.44pt>
+<figure/trackjet/std_cal_rej_pt2.pdf, id=5095, 569.12625pt x 385.44pt>
 File: figure/trackjet/std_cal_rej_pt2.pdf Graphic file (type pdf)
 
-<use figure/trackjet/std_cal_rej_pt2.pdf>
-
-LaTeX Warning: Reference `fig:cj_tj' on page 110 undefined on input line 218.
-
-
-LaTeX Warning: Reference `fig:cj_tj' on page 110 undefined on input line 221.
-
-
-LaTeX Warning: Reference `fig:residuals' on page 110 undefined on input line 22
-4.
-
-[110 <./figure/trackjet/rec_eff2.pdf, page is rotated 90 degrees>] [111 <./figu
-re/trackjet/std_eff_rej2.pdf> <./figure/trackjet/std_cal_eff_rej2.pdf>]
-[112 <./figure/trackjet/std_rej_pt2.pdf> <./figure/trackjet/std_cal_rej_pt2.pdf
->]
+<use figure/trackjet/std_cal_rej_pt2.pdf> [112 <./figure/trackjet/rec_eff2.pdf,
+ page is rotated 90 degrees>] [113 <./figure/trackjet/std_eff_rej2.pdf> <./figu
+re/trackjet/std_cal_eff_rej2.pdf>] [114 <./figure/trackjet/std_rej_pt2.pdf> <./
+figure/trackjet/std_cal_rej_pt2.pdf>]
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/eff_real_rej_mod2.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/eff_real_rej_mod2.pdf, id=4368, 569.12625pt x 385.44pt>
+<figure/trackjet/eff_real_rej_mod2.pdf, id=5203, 569.12625pt x 385.44pt>
 File: figure/trackjet/eff_real_rej_mod2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/eff_real_rej_mod2.pdf>
-
-LaTeX Warning: Reference `tab:eventsel:btag' on page 113 undefined on input lin
-e 244.
-
-
-LaTeX Warning: Reference `sec:presel' on page 113 undefined on input line 245.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113 <./figure/trackjet/eff_real_rej_mod2.pdf>]
-
-LaTeX Warning: Reference `tab:tj_cj' on page 114 undefined on input line 260.
-
-
+ [115 <./figure/trackjet/eff_real_rej_mod2.pdf>]
 Underfull \hbox (badness 1365) in paragraph at lines 287--287
 []\OT1/cmr/m/n/10 At least one tag-
  []
@@ -2752,138 +1549,66 @@ Overfull \hbox (13.60469pt too wide) in paragraph at lines 278--296
 [][]
  []
 
-
-LaTeX Warning: Reference `sec:trackjetsys' on page 114 undefined on input line 
-309.
-
-[114]
+[116]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [115]
-
-LaTeX Warning: Citation `RIVET' on page 116 undefined on input line 336.
-
-
-LaTeX Warning: Citation `IDperformance' on page 116 undefined on input line 340
-.
-
-
-LaTeX Warning: Citation `JEStrack' on page 116 undefined on input line 347.
-
-
-LaTeX Warning: Reference `sec:trackExMat' on page 116 undefined on input line 3
-54.
-
-
-LaTeX Warning: Reference `sec:valid' on page 116 undefined on input line 362.
-
-
-LaTeX Warning: Citation `IDMaterial' on page 116 undefined on input line 363.
-
-
-LaTeX Warning: Citation `trackEff' on page 116 undefined on input line 363.
-
-[116]
-
-LaTeX Warning: Reference `fig:inef_tj_std_scale' on page 117 undefined on input
- line 375.
-
-
-LaTeX Warning: Reference `fig:inef_tj_std_eff' on page 117 undefined on input l
-ine 375.
-
-
-LaTeX Warning: Citation `IDMaterial' on page 117 undefined on input line 376.
-
-
+ [117]
+[118]
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/T7/Sys_pt_nTrack2.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/T7/Sys_pt_nTrack2.pdf, id=4407, 569.12625pt x 426.59375pt>
+<figure/trackjet/T7/Sys_pt_nTrack2.pdf, id=5255, 569.12625pt x 426.59375pt>
 File: figure/trackjet/T7/Sys_pt_nTrack2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/Sys_pt_nTrack2.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/T7/Sys_eff_n2.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/T7/Sys_eff_n2.pdf, id=4409, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/Sys_eff_n2.pdf, id=5257, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/Sys_eff_n2.pdf Graphic file (type pdf)
 
-<use figure/trackjet/T7/Sys_eff_n2.pdf>
-
-LaTeX Warning: Reference `sec:trackExMat' on page 117 undefined on input line 4
-09.
-
-[117] [118 <./figure/trackjet/T7/Sys_pt_nTrack2.pdf> <./figure/trackjet/T7/Sys_
-eff_n2.pdf>]
-
-LaTeX Warning: Reference `sec:tj_intro' on page 119 undefined on input line 420
-.
-
-
-LaTeX Warning: Reference `fig:trk_fakereate' on page 119 undefined on input lin
-e 430.
-
-
-LaTeX Warning: Reference `fig:trk_reso' on page 119 undefined on input line 432
-.
-
-
-LaTeX Warning: Reference `fig:trk_eff' on page 119 undefined on input line 437.
-
-
-<figure/trackjet/trk_fake_distro_eta2.pdf, id=4434, 569.12625pt x 389.455pt>
+<use figure/trackjet/T7/Sys_eff_n2.pdf> [119] [120 <./figure/trackjet/T7/Sys_pt
+_nTrack2.pdf> <./figure/trackjet/T7/Sys_eff_n2.pdf>]
+<figure/trackjet/trk_fake_distro_eta2.pdf, id=5287, 569.12625pt x 389.455pt>
 File: figure/trackjet/trk_fake_distro_eta2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/trk_fake_distro_eta2.pdf>
-<figure/trackjet/fakerate_pt.pdf, id=4435, 569.12625pt x 387.4475pt>
+<figure/trackjet/fakerate_pt.pdf, id=5288, 569.12625pt x 387.4475pt>
 File: figure/trackjet/fakerate_pt.pdf Graphic file (type pdf)
 
 <use figure/trackjet/fakerate_pt.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/trackjet/resolution2.pdf): PDF inclusio
 n: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/trackjet/resolution2.pdf, id=4436, 569.12625pt x 387.4475pt>
+<figure/trackjet/resolution2.pdf, id=5289, 569.12625pt x 387.4475pt>
 File: figure/trackjet/resolution2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/resolution2.pdf>
-<figure/trackjet/trk_eff2.pdf, id=4438, 569.12625pt x 387.4475pt>
+<figure/trackjet/trk_eff2.pdf, id=5291, 569.12625pt x 387.4475pt>
 File: figure/trackjet/trk_eff2.pdf Graphic file (type pdf)
 
 <use figure/trackjet/trk_eff2.pdf>
-
-LaTeX Warning: Reference `sec:tj_perf' on page 119 undefined on input line 480.
-
-
-
-LaTeX Warning: Reference `fig:tj10tjex_eff' on page 119 undefined on input line
- 481.
-
-
-LaTeX Warning: Reference `fig:tj10tjex_pt' on page 119 undefined on input line 
-481.
-
-<figure/trackjet/T7/inef_10cent_eff_3S.pdf, id=4439, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/inef_10cent_eff_3S.pdf, id=5295, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/inef_10cent_eff_3S.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_eff_3S.pdf>
-<figure/trackjet/T7/inef_10cent_eff_4S.pdf, id=4440, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/inef_10cent_eff_4S.pdf, id=5296, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/inef_10cent_eff_4S.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_eff_4S.pdf>
-<figure/trackjet/T7/inef_10cent_eff_5S.pdf, id=4441, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/inef_10cent_eff_5S.pdf, id=5297, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/inef_10cent_eff_5S.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_eff_5S.pdf>
-<figure/trackjet/T7/inef_10cent_pt_3S.pdf, id=4442, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/inef_10cent_pt_3S.pdf, id=5298, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/inef_10cent_pt_3S.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_pt_3S.pdf>
-<figure/trackjet/T7/inef_10cent_pt_4S.pdf, id=4443, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/inef_10cent_pt_4S.pdf, id=5299, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/inef_10cent_pt_4S.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_pt_4S.pdf>
-<figure/trackjet/T7/inef_10cent_pt_5S.pdf, id=4444, 569.12625pt x 385.44pt>
+<figure/trackjet/T7/inef_10cent_pt_5S.pdf, id=5300, 569.12625pt x 385.44pt>
 File: figure/trackjet/T7/inef_10cent_pt_5S.pdf Graphic file (type pdf)
 
 <use figure/trackjet/T7/inef_10cent_pt_5S.pdf>
@@ -2893,25 +1618,25 @@ LaTeX Warning: Float too large for page by 10.09642pt on input line 509.
 
 Underfull \vbox (badness 3657) has occurred while \output is active []
 
- [119]
-[120 <./figure/trackjet/trk_fake_distro_eta2.pdf, page is rotated 90 degrees> <
-./figure/trackjet/fakerate_pt.pdf, page is rotated 90 degrees>] [121 <./figure/
+ [121]
+[122 <./figure/trackjet/trk_fake_distro_eta2.pdf, page is rotated 90 degrees> <
+./figure/trackjet/fakerate_pt.pdf, page is rotated 90 degrees>] [123 <./figure/
 trackjet/resolution2.pdf> <./figure/trackjet/trk_eff2.pdf, page is rotated 90 d
-egrees>] [122 <./figure/trackjet/T7/inef_10cent_eff_3S.pdf, page is rotated 90 
+egrees>] [124 <./figure/trackjet/T7/inef_10cent_eff_3S.pdf, page is rotated 90 
 degrees> <./figure/trackjet/T7/inef_10cent_eff_4S.pdf, page is rotated 90 degre
 es> <./figure/trackjet/T7/inef_10cent_eff_5S.pdf, page is rotated 90 degrees>]
-[123 <./figure/trackjet/T7/inef_10cent_pt_3S.pdf, page is rotated 90 degrees> <
+[125 <./figure/trackjet/T7/inef_10cent_pt_3S.pdf, page is rotated 90 degrees> <
 ./figure/trackjet/T7/inef_10cent_pt_4S.pdf, page is rotated 90 degrees> <./figu
 re/trackjet/T7/inef_10cent_pt_5S.pdf, page is rotated 90 degrees>])
-(./conclusions.tex [124]
+(./conclusions.tex [126]
 Chapter 7.
-[125
+[127
 
 
-] [126]) (./akno.tex [127] [128
+] [128]) (./akno.tex [129] [130
 
 
-]) (./tesi.bbl [129] [130
+]) (./tesi.bbl [131] [132
 
 
 ]
@@ -2923,11 +1648,11 @@ tan-dard Model: a Primer,
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no î in font cmti12!
-[131]
+[133]
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ì in font cmti12!
- [132]
+ [134]
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ì in font cmti12!
@@ -2940,21 +1665,21 @@ Missing character: There is no ú in font cmti12!
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ù in font cmti12!
- [133]
+ [135]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ì in font cmti12!
- [134]
+ [136]
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ì in font cmti12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [135] [136]
+ [137] [138]
 Underfull \hbox (badness 1394) in paragraph at lines 445--448
 \OT1/cmr/m/it/12 fras-truc-ture\OT1/cmr/m/n/12 , ATLAS-SOFT-2010-01-004, sub-mi
 t-ted to Eur. Phys. J. C.,
@@ -2963,15 +1688,15 @@ t-ted to Eur. Phys. J. C.,
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no à in font cmti12!
 Missing character: There is no í in font cmti12!
-[137]
+[139]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [138]
+ [140]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [139] [140]
+ [141] [142]
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ú in font cmti12!
@@ -2987,67 +1712,60 @@ Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [141]
+ [143]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
-) [142] (./appendix_qcd.tex
+) [144] (./appendix_qcd.tex
 Appendix A.
-
-LaTeX Warning: Reference `fig:prescale' on page 143 undefined on input line 7.
-
-
-LaTeX Warning: Reference `fig:trigRatio' on page 143 undefined on input line 10
-.
-
-<figure/appendix/trigger_comp.png, id=5191, 698.61pt x 473.77pt>
+<figure/appendix/trigger_comp.png, id=5919, 698.61pt x 473.77pt>
 File: figure/appendix/trigger_comp.png Graphic file (type png)
 
 <use figure/appendix/trigger_comp.png>
-<figure/appendix/trig_comp_ptcone3.png, id=5192, 698.61pt x 475.7775pt>
+<figure/appendix/trig_comp_ptcone3.png, id=5920, 698.61pt x 475.7775pt>
 File: figure/appendix/trig_comp_ptcone3.png Graphic file (type png)
 
 <use figure/appendix/trig_comp_ptcone3.png>
-<figure/appendix/trig_comp_etcone3.png, id=5193, 698.61pt x 475.7775pt>
+<figure/appendix/trig_comp_etcone3.png, id=5921, 698.61pt x 475.7775pt>
 File: figure/appendix/trig_comp_etcone3.png Graphic file (type png)
 
-<use figure/appendix/trig_comp_etcone3.png> [143
+<use figure/appendix/trig_comp_etcone3.png> [145
 
 
-] [144 <./figure/appendix/trigger_comp.png (PNG copy)> <./figure/appendix/trig_
+] [146 <./figure/appendix/trigger_comp.png (PNG copy)> <./figure/appendix/trig_
 comp_ptcone3.png (PNG copy)> <./figure/appendix/trig_comp_etcone3.png (PNG copy
 )>]
 
 pdfTeX warning: pdflatex (file ./figure/QCD/qcd_plot_1.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<figure/QCD/qcd_plot_1.pdf, id=5206, 569.12625pt x 385.44pt>
+<figure/QCD/qcd_plot_1.pdf, id=5933, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot_1.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot_1.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/QCD/qcd_plot_2.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<figure/QCD/qcd_plot_2.pdf, id=5208, 569.12625pt x 385.44pt>
+<figure/QCD/qcd_plot_2.pdf, id=5935, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot_2.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot_2.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/QCD/qcd_plot_4.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<figure/QCD/qcd_plot_4.pdf, id=5210, 569.12625pt x 385.44pt>
+<figure/QCD/qcd_plot_4.pdf, id=5937, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot_4.pdf Graphic file (type pdf)
 
 <use figure/QCD/qcd_plot_4.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/QCD/qcd_plot_3.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<figure/QCD/qcd_plot_3.pdf, id=5212, 569.12625pt x 385.44pt>
+<figure/QCD/qcd_plot_3.pdf, id=5939, 569.12625pt x 385.44pt>
 File: figure/QCD/qcd_plot_3.pdf Graphic file (type pdf)
 
-<use figure/QCD/qcd_plot_3.pdf>) (./appendix_limit.tex [145
+<use figure/QCD/qcd_plot_3.pdf>) (./appendix_limit.tex [147
 
  <./figure/QCD/qcd_plot_1.pdf> <./figure/QCD/qcd_plot_2.pdf> <./figure/QCD/qcd_
-plot_4.pdf> <./figure/QCD/qcd_plot_3.pdf>] [146
+plot_4.pdf> <./figure/QCD/qcd_plot_3.pdf>] [148
 
 
 ]
@@ -3056,99 +1774,89 @@ Appendix B.
 
 pdfTeX warning: pdflatex (file ./figure/limits/comb_reg_spin.pdf): PDF inclusio
 n: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/limits/comb_reg_spin.pdf, id=5641, 569.12625pt x 552.0625pt>
+<figure/limits/comb_reg_spin.pdf, id=6366, 569.12625pt x 552.0625pt>
 File: figure/limits/comb_reg_spin.pdf Graphic file (type pdf)
 
 <use figure/limits/comb_reg_spin.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/limits/tag_final.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<figure/limits/tag_final.pdf, id=5643, 569.12625pt x 552.0625pt>
+<figure/limits/tag_final.pdf, id=6368, 569.12625pt x 552.0625pt>
 File: figure/limits/tag_final.pdf Graphic file (type pdf)
 
 <use figure/limits/tag_final.pdf>
 
 pdfTeX warning: pdflatex (file ./figure/limits/veto_reg_spin.pdf): PDF inclusio
 n: found PDF version <1.5>, but at most version <1.4> allowed
-<figure/limits/veto_reg_spin.pdf, id=5645, 569.12625pt x 552.0625pt>
+<figure/limits/veto_reg_spin.pdf, id=6370, 569.12625pt x 552.0625pt>
 File: figure/limits/veto_reg_spin.pdf Graphic file (type pdf)
 
 <use figure/limits/veto_reg_spin.pdf>
-<figure/paper/limit_comb_2d_lightstau.pdf, id=5647, 569.12625pt x 552.0625pt>
+<figure/paper/limit_comb_2d_lightstau.pdf, id=6372, 569.12625pt x 552.0625pt>
 File: figure/paper/limit_comb_2d_lightstau.pdf Graphic file (type pdf)
 
 <use figure/paper/limit_comb_2d_lightstau.pdf>
-<figure/paper/limit_comb_2d_tauphobic.pdf, id=5648, 569.12625pt x 552.0625pt>
+<figure/paper/limit_comb_2d_tauphobic.pdf, id=6373, 569.12625pt x 552.0625pt>
 File: figure/paper/limit_comb_2d_tauphobic.pdf Graphic file (type pdf)
 
 <use figure/paper/limit_comb_2d_tauphobic.pdf>
 
-LaTeX Warning: Reference `sec:benchmark' on page 147 undefined on input line 33
-.
+LaTeX Warning: Float too large for page by 66.93144pt on input line 35.
 
 
-LaTeX Warning: Citation `yuppy' on page 147 undefined on input line 33.
-
-
-LaTeX Warning: Float too large for page by 50.98135pt on input line 35.
-
-
-<figure/final_plots/Bveto_final.pdf, id=5649, page=3, 569.12625pt x 656.4525pt>
+<figure/final_plots/Bveto_final.pdf, id=6376, page=3, 569.12625pt x 656.4525pt>
 File: figure/final_plots/Bveto_final.pdf Graphic file (type pdf)
 <use figure/final_plots/Bveto_final.pdf, page 3>
-<figure/final_plots/Bveto_final.pdf, id=5651, page=4, 569.12625pt x 656.4525pt>
+<figure/final_plots/Bveto_final.pdf, id=6378, page=4, 569.12625pt x 656.4525pt>
 File: figure/final_plots/Bveto_final.pdf Graphic file (type pdf)
 <use figure/final_plots/Bveto_final.pdf, page 4>
-<figure/final_plots/Bveto_final.pdf, id=5653, page=6, 569.12625pt x 656.4525pt>
+<figure/final_plots/Bveto_final.pdf, id=6380, page=6, 569.12625pt x 656.4525pt>
 File: figure/final_plots/Bveto_final.pdf Graphic file (type pdf)
 <use figure/final_plots/Bveto_final.pdf, page 6>
-<figure/final_plots/Bveto_final.pdf, id=5655, page=9, 569.12625pt x 656.4525pt>
+<figure/final_plots/Bveto_final.pdf, id=6382, page=9, 569.12625pt x 656.4525pt>
 File: figure/final_plots/Bveto_final.pdf Graphic file (type pdf)
 <use figure/final_plots/Bveto_final.pdf, page 9>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figure/final_plots/BTag_fulll.pdf, id=5657, page=9, 569.12625pt x 656.4525pt>
+<figure/final_plots/BTag_fulll.pdf, id=6384, page=9, 569.12625pt x 656.4525pt>
 File: figure/final_plots/BTag_fulll.pdf Graphic file (type pdf)
 
 <use figure/final_plots/BTag_fulll.pdf, page 9>
-<figure/final_plots/BTag_fulll.pdf, id=5659, page=1, 569.12625pt x 656.4525pt>
+<figure/final_plots/BTag_fulll.pdf, id=6386, page=1, 569.12625pt x 656.4525pt>
 File: figure/final_plots/BTag_fulll.pdf Graphic file (type pdf)
 
 <use figure/final_plots/BTag_fulll.pdf, page 1>
-<figure/final_plots/BTag_fulll.pdf, id=5661, page=2, 569.12625pt x 656.4525pt>
+<figure/final_plots/BTag_fulll.pdf, id=6388, page=2, 569.12625pt x 656.4525pt>
 File: figure/final_plots/BTag_fulll.pdf Graphic file (type pdf)
 
 <use figure/final_plots/BTag_fulll.pdf, page 2>
 File: figure/final_plots/BTag_fulll.pdf Graphic file (type pdf)
 
-<use figure/final_plots/BTag_fulll.pdf, page 6> [147 <./figure/limits/comb_reg_
-spin.pdf>] [148 <./figure/limits/tag_final.pdf> <./figure/limits/veto_reg_spin.
-pdf>] [149 <./figure/paper/limit_comb_2d_lightstau.pdf> <./figure/paper/limit_c
+<use figure/final_plots/BTag_fulll.pdf, page 6> [149 <./figure/limits/comb_reg_
+spin.pdf>] [150 <./figure/limits/tag_final.pdf> <./figure/limits/veto_reg_spin.
+pdf>] [151 <./figure/paper/limit_comb_2d_lightstau.pdf> <./figure/paper/limit_c
 omb_2d_tauphobic.pdf>]
 
-LaTeX Warning: Text page 150 contains only floats.
+LaTeX Warning: Text page 152 contains only floats.
 
-[150 <./figure/final_plots/Bveto_final.pdf> <./figure/final_plots/Bveto_final.p
+[152 <./figure/final_plots/Bveto_final.pdf> <./figure/final_plots/Bveto_final.p
 df> <./figure/final_plots/Bveto_final.pdf> <./figure/final_plots/Bveto_final.pd
-f>] [151 <./figure/final_plots/BTag_fulll.pdf> <./figure/final_plots/BTag_fulll
-.pdf> <./figure/final_plots/BTag_fulll.pdf>] [152
+f>] [153 <./figure/final_plots/BTag_fulll.pdf> <./figure/final_plots/BTag_fulll
+.pdf> <./figure/final_plots/BTag_fulll.pdf>] [154
 
 
 
 ]
 Appendix C.
-
-LaTeX Warning: Citation `ABCD' on page 153 undefined on input line 75.
-
-[153]
+[155]
 
 pdfTeX warning: pdflatex (file ./figure/distributions/NP_Shape_ElecSF_BVeto_mmc
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
 
-<figure/distributions/NP_Shape_ElecSF_BVeto_mmc.pdf, id=6888, 569.12625pt x 541
+<figure/distributions/NP_Shape_ElecSF_BVeto_mmc.pdf, id=7613, 569.12625pt x 541
 .02126pt>
 File: figure/distributions/NP_Shape_ElecSF_BVeto_mmc.pdf Graphic file (type pdf
 )
@@ -3158,7 +1866,7 @@ pdfTeX warning: pdflatex (file ./figure/distributions/NP_Shape_ElecLowPt_BVeto_
 mmc.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
 owed
 
-<figure/distributions/NP_Shape_ElecLowPt_BVeto_mmc.pdf, id=6890, 569.12625pt x 
+<figure/distributions/NP_Shape_ElecLowPt_BVeto_mmc.pdf, id=7615, 569.12625pt x 
 541.02126pt>
 File: figure/distributions/NP_Shape_ElecLowPt_BVeto_mmc.pdf Graphic file (type 
 pdf)
@@ -3168,37 +1876,20 @@ pdfTeX warning: pdflatex (file ./figure/distributions/NP_Shape_ElecZee_BVeto_mm
 c.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
 
-<figure/distributions/NP_Shape_ElecZee_BVeto_mmc.pdf, id=6892, 569.12625pt x 54
+<figure/distributions/NP_Shape_ElecZee_BVeto_mmc.pdf, id=7617, 569.12625pt x 54
 1.02126pt>
 File: figure/distributions/NP_Shape_ElecZee_BVeto_mmc.pdf Graphic file (type pd
 f)
- <use figure/distributions/NP_Shape_ElecZee_BVeto_mmc.pdf> [154
+ <use figure/distributions/NP_Shape_ElecZee_BVeto_mmc.pdf> [156
 
  <./figure/distributions/NP_Shape_ElecSF_BVeto_mmc.pdf> <./figure/distributions
 /NP_Shape_ElecLowPt_BVeto_mmc.pdf> <./figure/distributions/NP_Shape_ElecZee_BVe
-to_mmc.pdf>]
-
-LaTeX Warning: Citation `NPcheck' on page 155 undefined on input line 125.
-
-
-LaTeX Warning: Reference `fig:np_pull_comb' on page 155 undefined on input line
- 129.
-
-
-LaTeX Warning: Reference `fig:np_correlation_comb' on page 155 undefined on inp
-ut line 131.
-
-
-LaTeX Warning: Reference `fig:llh_1' on page 155 undefined on input line 132.
-
-
-LaTeX Warning: Reference `fig:llh_3' on page 155 undefined on input line 132.
-
-<figure/np_check/120_comb_pulls.pdf, id=7401, 569.12625pt x 409.53pt>
+to_mmc.pdf>] <figure/np_check/120_comb_pulls.pdf, id=8130, 569.12625pt x 409.53
+pt>
 File: figure/np_check/120_comb_pulls.pdf Graphic file (type pdf)
 
 <use figure/np_check/120_comb_pulls.pdf>
-<figure/np_check/matrix_comb_120.pdf, id=7402, 569.12625pt x 458.71375pt>
+<figure/np_check/matrix_comb_120.pdf, id=8131, 569.12625pt x 458.71375pt>
 File: figure/np_check/matrix_comb_120.pdf Graphic file (type pdf)
 
 <use figure/np_check/matrix_comb_120.pdf>
@@ -3206,189 +1897,189 @@ Overfull \hbox (41.82791pt too wide) in paragraph at lines 152--154
  [] 
  []
 
-<figure/np_check/comb_LLHscan_f.pdf, id=7403, page=8, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8132, page=8, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 8>
-<figure/np_check/comb_LLHscan_f.pdf, id=7404, page=9, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8133, page=9, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 9>
-<figure/np_check/comb_LLHscan_f.pdf, id=7405, page=10, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8134, page=10, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 10>
-<figure/np_check/comb_LLHscan_f.pdf, id=7406, page=11, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8135, page=11, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 11>
-<figure/np_check/comb_LLHscan_f.pdf, id=7407, page=12, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8136, page=12, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 12>
-<figure/np_check/comb_LLHscan_f.pdf, id=7408, page=13, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8137, page=13, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 13>
-<figure/np_check/comb_LLHscan_f.pdf, id=7409, page=14, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8138, page=14, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 14>
-<figure/np_check/comb_LLHscan_f.pdf, id=7410, page=15, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8139, page=15, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 15>
-<figure/np_check/comb_LLHscan_f.pdf, id=7411, page=16, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8140, page=16, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 16>
-<figure/np_check/comb_LLHscan_f.pdf, id=7412, page=17, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8141, page=17, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 17>
-<figure/np_check/comb_LLHscan_f.pdf, id=7413, page=18, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8142, page=18, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 18>
-<figure/np_check/comb_LLHscan_f.pdf, id=7414, page=19, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8143, page=19, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 19>
-<figure/np_check/comb_LLHscan_f.pdf, id=7415, page=20, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8144, page=20, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 20>
-<figure/np_check/comb_LLHscan_f.pdf, id=7416, page=21, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8145, page=21, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 21>
-<figure/np_check/comb_LLHscan_f.pdf, id=7417, page=22, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8146, page=22, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 22>
-<figure/np_check/comb_LLHscan_f.pdf, id=7418, page=23, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8147, page=23, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 23>
-<figure/np_check/comb_LLHscan_f.pdf, id=7419, page=24, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8148, page=24, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 24>
-<figure/np_check/comb_LLHscan_f.pdf, id=7420, page=25, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8149, page=25, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 25>
-<figure/np_check/comb_LLHscan_f.pdf, id=7421, page=26, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8150, page=26, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 26>
-<figure/np_check/comb_LLHscan_f.pdf, id=7422, page=27, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8151, page=27, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 27>
-<figure/np_check/comb_LLHscan_f.pdf, id=7423, page=28, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8152, page=28, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 28>
-<figure/np_check/comb_LLHscan_f.pdf, id=7424, page=29, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8153, page=29, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 29>
-<figure/np_check/comb_LLHscan_f.pdf, id=7425, page=30, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8154, page=30, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 30>
-<figure/np_check/comb_LLHscan_f.pdf, id=7426, page=31, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8155, page=31, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 31>
-<figure/np_check/comb_LLHscan_f.pdf, id=7427, page=32, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8156, page=32, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 32>
-<figure/np_check/comb_LLHscan_f.pdf, id=7428, page=33, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8157, page=33, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 33>
-<figure/np_check/comb_LLHscan_f.pdf, id=7429, page=34, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8158, page=34, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 34>
-<figure/np_check/comb_LLHscan_f.pdf, id=7430, page=35, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8159, page=35, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 35>
-<figure/np_check/comb_LLHscan_f.pdf, id=7431, page=36, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8160, page=36, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 36>
-<figure/np_check/comb_LLHscan_f.pdf, id=7432, page=37, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8161, page=37, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 37>
-<figure/np_check/comb_LLHscan_f.pdf, id=7433, page=38, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8162, page=38, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 38>
-<figure/np_check/comb_LLHscan_f.pdf, id=7434, page=39, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8163, page=39, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 39>
-<figure/np_check/comb_LLHscan_f.pdf, id=7435, page=40, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8164, page=40, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 40>
-<figure/np_check/comb_LLHscan_f.pdf, id=7436, page=41, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8165, page=41, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 41>
-<figure/np_check/comb_LLHscan_f.pdf, id=7437, page=42, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8166, page=42, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 42>
-<figure/np_check/comb_LLHscan_f.pdf, id=7438, page=43, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8167, page=43, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 43>
-<figure/np_check/comb_LLHscan_f.pdf, id=7439, page=44, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8168, page=44, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 44>
-<figure/np_check/comb_LLHscan_f.pdf, id=7440, page=45, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8169, page=45, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 45>
-<figure/np_check/comb_LLHscan_f.pdf, id=7441, page=46, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8170, page=46, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 46>
-<figure/np_check/comb_LLHscan_f.pdf, id=7442, page=47, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8171, page=47, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 47>
-<figure/np_check/comb_LLHscan_f.pdf, id=7443, page=48, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8172, page=48, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 48>
-<figure/np_check/comb_LLHscan_f.pdf, id=7444, page=49, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8173, page=49, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 49>
-<figure/np_check/comb_LLHscan_f.pdf, id=7445, page=50, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8174, page=50, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 50>
-<figure/np_check/comb_LLHscan_f.pdf, id=7446, page=51, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8175, page=51, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
 <use figure/np_check/comb_LLHscan_f.pdf, page 51>
-<figure/np_check/comb_LLHscan_f.pdf, id=7447, page=52, 569.12625pt x 385.44pt>
+<figure/np_check/comb_LLHscan_f.pdf, id=8176, page=52, 569.12625pt x 385.44pt>
 File: figure/np_check/comb_LLHscan_f.pdf Graphic file (type pdf)
 
-<use figure/np_check/comb_LLHscan_f.pdf, page 52> [155
+<use figure/np_check/comb_LLHscan_f.pdf, page 52> [157
 
-] [156 <./figure/np_check/120_comb_pulls.pdf, page is rotated 90 degrees>] [157
- <./figure/np_check/matrix_comb_120.pdf, page is rotated 90 degrees>] [158 <./f
+] [158 <./figure/np_check/120_comb_pulls.pdf, page is rotated 90 degrees>] [159
+ <./figure/np_check/matrix_comb_120.pdf, page is rotated 90 degrees>] [160 <./f
 igure/np_check/comb_LLHscan_f.pdf, page is rotated 90 degrees> <./figure/np_che
 ck/comb_LLHscan_f.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHs
 can_f.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan_f.pdf, p
@@ -3401,7 +2092,7 @@ mb_LLHscan_f.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan_f
 s rotated 90 degrees> <./figure/np_check/comb_LLHscan_f.pdf, page is rotated 90
  degrees> <./figure/np_check/comb_LLHscan_f.pdf, page is rotated 90 degrees> <.
 /figure/np_check/comb_LLHscan_f.pdf, page is rotated 90 degrees> <./figure/np_c
-heck/comb_LLHscan_f.pdf, page is rotated 90 degrees>] [159 <./figure/np_check/c
+heck/comb_LLHscan_f.pdf, page is rotated 90 degrees>] [161 <./figure/np_check/c
 omb_LLHscan_f.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan_
 f.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan_f.pdf, page 
 is rotated 90 degrees> <./figure/np_check/comb_LLHscan_f.pdf, page is rotated 9
@@ -3414,7 +2105,7 @@ tated 90 degrees> <./figure/np_check/comb_LLHscan_f.pdf, page is rotated 90 deg
 rees> <./figure/np_check/comb_LLHscan_f.pdf, page is rotated 90 degrees> <./fig
 ure/np_check/comb_LLHscan_f.pdf, page is rotated 90 degrees> <./figure/np_check
 /comb_LLHscan_f.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHsca
-n_f.pdf, page is rotated 90 degrees>] [160 <./figure/np_check/comb_LLHscan_f.pd
+n_f.pdf, page is rotated 90 degrees>] [162 <./figure/np_check/comb_LLHscan_f.pd
 f, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan_f.pdf, page is r
 otated 90 degrees> <./figure/np_check/comb_LLHscan_f.pdf, page is rotated 90 de
 grees> <./figure/np_check/comb_LLHscan_f.pdf, page is rotated 90 degrees> <./fi
@@ -3428,86 +2119,82 @@ np_check/comb_LLHscan_f.pdf, page is rotated 90 degrees> <./figure/np_check/com
 b_LLHscan_f.pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan_f.
 pdf, page is rotated 90 degrees> <./figure/np_check/comb_LLHscan_f.pdf, page is
  rotated 90 degrees>]
-
-LaTeX Warning: Reference `fig:regularizzation' on page 161 undefined on input l
-ine 242.
-
-<figure/limits/bbA_regularizzation.pdf, id=7608, 569.12625pt x 385.44pt>
+<figure/limits/bbA_regularizzation.pdf, id=8337, 569.12625pt x 385.44pt>
 File: figure/limits/bbA_regularizzation.pdf Graphic file (type pdf)
 
 <use figure/limits/bbA_regularizzation.pdf>
-<figure/limits/ggH_regularizzation.pdf, id=7609, 569.12625pt x 412.54124pt>
+<figure/limits/ggH_regularizzation.pdf, id=8338, 569.12625pt x 412.54124pt>
 File: figure/limits/ggH_regularizzation.pdf Graphic file (type pdf)
 
-<use figure/limits/ggH_regularizzation.pdf> [161
+<use figure/limits/ggH_regularizzation.pdf> [163
 
  <./figure/limits/bbA_regularizzation.pdf, page is rotated 90 degrees> <./figur
 e/limits/ggH_regularizzation.pdf, page is rotated 90 degrees>]
-<figure/limits/post_fit_250.pdf, id=7702, 569.12625pt x 426.59375pt>
+<figure/limits/post_fit_250.pdf, id=8431, 569.12625pt x 426.59375pt>
 File: figure/limits/post_fit_250.pdf Graphic file (type pdf)
 
 <use figure/limits/post_fit_250.pdf>
-<figure/limits/post_fit_ma300.pdf, id=7703, 569.12625pt x 426.59375pt>
+<figure/limits/post_fit_ma300.pdf, id=8432, 569.12625pt x 426.59375pt>
 File: figure/limits/post_fit_ma300.pdf Graphic file (type pdf)
 
 <use figure/limits/post_fit_ma300.pdf>
-<figure/limits/pulls_250.pdf, id=7704, 569.12625pt x 409.53pt>
+<figure/limits/pulls_250.pdf, id=8433, 569.12625pt x 409.53pt>
 File: figure/limits/pulls_250.pdf Graphic file (type pdf)
 
 <use figure/limits/pulls_250.pdf>
-<figure/limits/matrix_250.pdf, id=7705, 569.12625pt x 409.53pt>
+<figure/limits/matrix_250.pdf, id=8434, 569.12625pt x 409.53pt>
 File: figure/limits/matrix_250.pdf Graphic file (type pdf)
 
 <use figure/limits/matrix_250.pdf>
-<figure/limits/pulls_300.pdf, id=7706, 569.12625pt x 409.53pt>
+<figure/limits/pulls_300.pdf, id=8435, 569.12625pt x 409.53pt>
 File: figure/limits/pulls_300.pdf Graphic file (type pdf)
 
 <use figure/limits/pulls_300.pdf>
-<figure/limits/matrix_300.pdf, id=7707, 569.12625pt x 409.53pt>
+<figure/limits/matrix_300.pdf, id=8436, 569.12625pt x 409.53pt>
 File: figure/limits/matrix_300.pdf Graphic file (type pdf)
 
-<use figure/limits/matrix_300.pdf> [162
+<use figure/limits/matrix_300.pdf> [164
 
  <./figure/limits/post_fit_250.pdf, page is rotated 90 degrees> <./figure/limit
 s/post_fit_ma300.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Text page 163 contains only floats.
+LaTeX Warning: Text page 165 contains only floats.
 
 
 Underfull \vbox (badness 1789) has occurred while \output is active []
 
- [163 <./figure/limits/pulls_250.pdf, page is rotated 90 degrees> <./figure/lim
+ [165 <./figure/limits/pulls_250.pdf, page is rotated 90 degrees> <./figure/lim
 its/matrix_250.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Text page 164 contains only floats.
+LaTeX Warning: Text page 166 contains only floats.
 
 
 Underfull \vbox (badness 1789) has occurred while \output is active []
 
- [164 <./figure/limits/pulls_300.pdf, page is rotated 90 degrees> <./figure/lim
+ [166 <./figure/limits/pulls_300.pdf, page is rotated 90 degrees> <./figure/lim
 its/matrix_300.pdf, page is rotated 90 degrees>]
-<figure/limits/vetoM230_300.pdf, id=7985, page=1, 569.12625pt x 656.4525pt>
+<figure/limits/vetoM230_300.pdf, id=8712, page=1, 569.12625pt x 656.4525pt>
 File: figure/limits/vetoM230_300.pdf Graphic file (type pdf)
 
 <use figure/limits/vetoM230_300.pdf, page 1>
-<figure/limits/vetoM230_300.pdf, id=7986, page=2, 569.12625pt x 656.4525pt>
+<figure/limits/vetoM230_300.pdf, id=8713, page=2, 569.12625pt x 656.4525pt>
 File: figure/limits/vetoM230_300.pdf Graphic file (type pdf)
 
 <use figure/limits/vetoM230_300.pdf, page 2>
-<figure/limits/vetoM230_300.pdf, id=7987, page=3, 569.12625pt x 656.4525pt>
+<figure/limits/vetoM230_300.pdf, id=8714, page=3, 569.12625pt x 656.4525pt>
 File: figure/limits/vetoM230_300.pdf Graphic file (type pdf)
 
 <use figure/limits/vetoM230_300.pdf, page 3>
-<figure/limits/vetoM230_300.pdf, id=7988, page=4, 569.12625pt x 656.4525pt>
+<figure/limits/vetoM230_300.pdf, id=8715, page=4, 569.12625pt x 656.4525pt>
 File: figure/limits/vetoM230_300.pdf Graphic file (type pdf)
 
 <use figure/limits/vetoM230_300.pdf, page 4>
-<figure/limits/vetoM230_300.pdf, id=7989, page=5, 569.12625pt x 656.4525pt>
+<figure/limits/vetoM230_300.pdf, id=8716, page=5, 569.12625pt x 656.4525pt>
 File: figure/limits/vetoM230_300.pdf Graphic file (type pdf)
 
-<use figure/limits/vetoM230_300.pdf, page 5> [165
+<use figure/limits/vetoM230_300.pdf, page 5> [167
 
- <./figure/limits/vetoM230_300.pdf> <./figure/limits/vetoM230_300.pdf>] [166 <.
+ <./figure/limits/vetoM230_300.pdf> <./figure/limits/vetoM230_300.pdf>] [168 <.
 /figure/limits/vetoM230_300.pdf> <./figure/limits/vetoM230_300.pdf> <./figure/l
 imits/vetoM230_300.pdf>])
 (./tesi.aux)
@@ -3581,6 +2268,8 @@ fancyhdr.sty
 supp-pdf.mkii
  nameref.sty    2007/05/29 v2.31 Cross-referencing by name of section
 refcount.sty    2008/08/11 v3.1 Data extraction from references (HO)
+    tesi.out
+    tesi.out
 titlepage_tum.tex
 logos/TUMLogo_oZ_Outline_blau_CMYK.pdf
    ursfs.fd    1998/03/24 rsfs font definition file (jk)
@@ -3798,46 +2487,40 @@ figure/limits/vetoM230_300.pdf
 figure/limits/vetoM230_300.pdf
  ***********
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 10506 strings out of 493848
- 170923 string characters out of 1152823
- 257419 words of memory out of 3000000
- 12838 multiletter control sequences out of 15000+50000
- 23363 words of font info for 90 fonts, out of 3000000 for 9000
+ 10606 strings out of 493848
+ 172367 string characters out of 1152823
+ 288435 words of memory out of 3000000
+ 12927 multiletter control sequences out of 15000+50000
+ 23709 words of font info for 91 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 43i,16n,44p,877b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texl
-ive/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+ 43i,16n,44p,877b,429s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-texli
 ve/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/wasy/wasy10.pfb>
-Output written on tesi.pdf (166 pages, 6995933 bytes).
+Output written on tesi.pdf (168 pages, 7108960 bytes).
 PDF statistics:
- 8413 PDF objects out of 8907 (max. 8388607)
- 616 named destinations out of 1000 (max. 500000)
- 941 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 9140 PDF objects out of 10688 (max. 8388607)
+ 618 named destinations out of 1000 (max. 500000)
+ 1613 words of extra memory for PDF output out of 10000 (max. 10000000)
 
