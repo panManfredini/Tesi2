@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  22 JUL 2014 07:11
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  12 AUG 2014 11:42
 entering extended mode
  %&-line parsing enabled.
 **tesi.tex
@@ -2491,7 +2491,7 @@ figure/limits/vetoM230_300.pdf
 Here is how much of TeX's memory you used:
  10606 strings out of 493848
  172367 string characters out of 1152823
- 288435 words of memory out of 3000000
+ 288436 words of memory out of 3000000
  12927 multiletter control sequences out of 15000+50000
  23709 words of font info for 91 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -2518,7 +2518,7 @@ cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb><
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-texli
 ve/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/wasy/wasy10.pfb>
-Output written on tesi.pdf (168 pages, 7108960 bytes).
+Output written on tesi.pdf (168 pages, 7108963 bytes).
 PDF statistics:
  9140 PDF objects out of 10688 (max. 8388607)
  618 named destinations out of 1000 (max. 500000)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  22 JUL 2014 02:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.25)  12 AUG 2014 13:58
 entering extended mode
  %&-line parsing enabled.
 **title_only.tex
@@ -523,7 +523,7 @@ LaTeX Info: Redefining \pageref on input line 114.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./titlepage_notum.tex
+(./titlepage_tum.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -561,31 +561,25 @@ LaTeX Info: Redefining \pageref on input line 114.
 File: logos/TUMLogo_oZ_Outline_blau_CMYK.pdf Graphic file (type pdf)
 
 <use logos/TUMLogo_oZ_Outline_blau_CMYK.pdf>
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 15.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 17.
 
 (/usr/share/texmf-texlive/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 15.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 17.
 
 (/usr/share/texmf-texlive/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-<MPP_os_logo_cmyk.pdf, id=4, 102.3825pt x 99.37125pt>
-File: MPP_os_logo_cmyk.pdf Graphic file (type pdf)
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
-<use MPP_os_logo_cmyk.pdf> <MPG_logo_cmyk.pdf, id=5, 136.51pt x 75.28125pt>
-File: MPG_logo_cmyk.pdf Graphic file (type pdf)
+ []
 
-<use MPG_logo_cmyk.pdf> [1
+[1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logos/TUMLogo_oZ_Outline
-_blau_CMYK.pdf> <./MPP_os_logo_cmyk.pdf> <./MPG_logo_cmyk.pdf>] [2
-
-
-
-]) (./title_only.aux)
+_blau_CMYK.pdf>]) (./title_only.aux)
 
  *File List*
  scrbook.cls    2009/07/24 v3.04a KOMA-Script document class (book)
@@ -658,30 +652,28 @@ supp-pdf.mkii
 refcount.sty    2008/08/11 v3.1 Data extraction from references (HO)
 title_only.out
 title_only.out
-titlepage_notum.tex
+titlepage_tum.tex
 logos/TUMLogo_oZ_Outline_blau_CMYK.pdf
    ursfs.fd    1998/03/24 rsfs font definition file (jk)
    uwasy.fd    2003/10/30 v2.0 Wasy-2 symbol font definitions
-MPP_os_logo_cmyk.pdf    Graphic file (type pdf)
-MPG_logo_cmyk.pdf    Graphic file (type pdf)
  ***********
 
  ) 
 Here is how much of TeX's memory you used:
- 8466 strings out of 493848
- 126190 string characters out of 1152823
- 225777 words of memory out of 3000000
- 11602 multiletter control sequences out of 15000+50000
- 8485 words of font info for 33 fonts, out of 3000000 for 9000
+ 8478 strings out of 493848
+ 126158 string characters out of 1152823
+ 228777 words of memory out of 3000000
+ 11606 multiletter control sequences out of 15000+50000
+ 11515 words of font info for 45 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 43i,5n,44p,334b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,7n,44p,332b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-tex
 live/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on title_only.pdf (2 pages, 70365 bytes).
+Output written on title_only.pdf (1 page, 53627 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 30 PDF objects out of 1000 (max. 8388607)
+ 2 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
